@@ -1,0 +1,110 @@
+@@ 1sboo8jxv4h
+`print()` mostra texto na tela. O texto (uma **string**) vai entre aspas:
+
+[[1]]
+Cada `print` escreve uma linha.
+~~
+`print()` muestra texto en la pantalla. El texto (una **cadena**) va entre comillas:
+
+[[1]]
+Cada `print` escribe una línea.
+@@ 22uk4lb2tk8
+Uma **variável** é um nome para um valor. Em Python não tem `let` nem `const`, só `=`:
+
+[[1]]
+Uma **f-string** (`f"..."`) coloca valores dentro do texto com `{}`.
+~~
+Una **variable** es un nombre para un valor. En Python no hay `let` ni `const`, solo `=`:
+
+[[1]]
+Una **f-string** (`f"..."`) mete valores dentro del texto con `{}`.
+@@ cs5xuri7wp
+Python faz contas: `+ - * /`, `//` (divisão inteira), `%` (resto), `**` (potência).
+
+[[1]]
+~~
+Python hace cuentas: `+ - * /`, `//` (división entera), `%` (resto), `**` (potencia).
+
+[[1]]
+@@ 1s15be0t935
+Python escolhe com `if`, `elif` e `else`. A linha termina com `:` e o código de dentro é **indentado** (4 espaços):
+
+[[1]]
+~~
+Python elige con `if`, `elif` y `else`. La línea termina con `:` y el código de dentro va **sangrado** (4 espacios):
+
+[[1]]
+@@ ughx8au4p5
+`for` repete o código para cada item. `range(1, 6)` dá 1, 2, 3, 4, 5 (o fim **não** entra):
+
+[[1]]
+~~
+`for` repite el código para cada elemento. `range(1, 6)` da 1, 2, 3, 4, 5 (el final **no** se incluye):
+
+[[1]]
+@@ 1zdbem5ztje
+`n % 3 == 0` é verdadeiro quando `n` divide por 3 sem resto. Teste **os dois** primeiro:
+
+[[1]]
+~~
+`n % 3 == 0` es verdadero cuando `n` se divide entre 3 sin resto. Comprueba **ambos** primero:
+
+[[1]]
+@@ 28gpgn7v2jr
+Uma **lista** guarda itens em ordem:
+
+[[1]]
+~~
+Una **lista** guarda elementos en orden:
+
+[[1]]
+@@ 21y75t4r0ax
+Um **dicionário** liga chaves a valores:
+
+[[1]]
+~~
+Un **diccionario** asocia claves con valores:
+
+[[1]]
+@@ iz4uywv9y1
+[[1]]
+`return` devolve um valor. Um parâmetro com `=` tem um **valor padrão**.
+~~
+[[1]]
+`return` devuelve un valor. Un parámetro con `=` tiene un **valor por defecto**.
+@@ 25wlhgk6wya
+Uma **list comprehension** monta uma lista em uma linha:
+
+[[1]]
+~~
+Una **list comprehension** construye una lista en una línea:
+
+[[1]]
+@@ 7oxjcycw19
+`int("12")` transforma texto em número, mas `int("ten")` gera um **ValueError**. Capture-o:
+
+[[1]]
+~~
+`int("12")` convierte texto en número, pero `int("ten")` lanza un **ValueError**. Atrápalo:
+
+[[1]]
+@@ hnyeye9i20
+Uma **classe** é a planta dos objetos:
+
+[[1]]
+`self` é o próprio objeto.
+~~
+Una **clase** es el plano de los objetos:
+
+[[1]]
+`self` es el propio objeto.
+@@ 1nuab09qoeb
+Ordene com uma **key**:
+
+[[1]]
+Conte com um dicionário: `counts[name] = counts.get(name, 0) + 1`.
+~~
+Ordena con una **key**:
+
+[[1]]
+Cuenta con un diccionario: `counts[name] = counts.get(name, 0) + 1`.

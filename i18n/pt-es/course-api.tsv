@@ -1,0 +1,117 @@
+2f7h7wm2f6h ¦ APIs e HTTP ¦ APIs y HTTP
+8bgcvgqtel ¦ O Ninho dos Corvos ¦ El Nido de los Cuervos
+1aovxoebzai ¦ Como os aplicativos conversam com servidores: HTTP, APIs REST, JSON, fetch, códigos de status e erros. ¦ Cómo hablan las aplicaciones con los servidores: HTTP, APIs REST, JSON, fetch, códigos de estado y errores.
+ii54ca26zw ¦ APIs e JSON ¦ APIs y JSON
+18f9st1zzc9 ¦ O que são APIs, JSON, REST e detalhes do HTTP. ¦ Qué son las APIs, JSON, REST y detalles de HTTP.
+1gi90crf2uf ¦ O que é uma API? ¦ ¿Qué es una API?
+wht7h28n0a ¦ O garçom da internet ¦ El camarero de internet
+t1g4576pd0 ¦ Na história do restaurante, a API é... ¦ En la historia del restaurante, la API es...
+2chz9gfimia ¦ O garçom ¦ El camarero
+21sebmak5h1 ¦ A cozinha ¦ La cocina
+4bpxlj8t4b ¦ O cliente ¦ El cliente
+1cg61dti6ge ¦ O preço do cardápio ¦ El precio de la carta
+1vz9srwhj0p ¦ Um app de clima mostra a previsão de hoje. De onde os dados provavelmente vêm? ¦ Una app del tiempo muestra la previsión de hoy. ¿De dónde vienen probablemente los datos?
+chlwnyos3s ¦ De uma API de clima ¦ De una API del tiempo
+23kk3lrht7s ¦ Do CSS do celular ¦ Del CSS del móvil
+5k9jgihc5t ¦ Do arquivo HTML ¦ Del archivo HTML
+t6w4q8se67 ¦ O usuário digita ¦ Los escribe el usuario
+2c3kv9diqtn ¦ A maioria das APIs web devolve os dados em JSON. ¦ La mayoría de las APIs web devuelven los datos en JSON.
+tdhvsugvo7 ¦ Ligue a palavra ¦ Une cada palabra
+gyp7tnm583 ¦ Um jeito de programas conversarem ¦ Una forma de que los programas hablen
+6mvlnnz7oz ¦ Endpoint ¦ Endpoint
+inlrf7wzqu ¦ Uma URL de uma API ¦ Una URL de una API
+2bhjfl10dim ¦ Requisição ¦ Petición
+i9uxqizz5y ¦ O que o cliente envia ¦ Lo que envía el cliente
+99xmiw5y02 ¦ Resposta ¦ Respuesta
+1x5crd4hpy ¦ O que o servidor devolve ¦ Lo que devuelve el servidor
+p1w7cdl0q5 ¦ JSON de perto ¦ JSON de cerca
+9ml2d3kady ¦ Regras do JSON ¦ Reglas de JSON
+kaeip7s6hi ¦ Qual linha quebra o JSON? ¦ ¿Qué línea rompe el JSON?
+2feg1clbgf ¦ O JSON precisa de aspas duplas em volta de chaves e strings. ¦ JSON necesita comillas dobles alrededor de claves y strings.
+1ql1azcl2nt ¦ O JSON não permite vírgula depois do último item. ¦ JSON no permite una coma después del último elemento.
+16fosu8fbc3 ¦ Qual é o tipo de "skills"? ¦ ¿De qué tipo es "skills"?
+283r1c20wj8 ¦ Um objeto ¦ Un objeto
+1pst2fi72yr ¦ Um número ¦ Un número
+18mvyn4ije1 ¦ Como ler a casa da Cyra em JavaScript (os dados estão em `data`)? ¦ ¿Cómo lees la casa de Cyra en JavaScript (los datos están en `data`)?
+lhkmp3nevo ¦ REST e códigos de status ¦ REST y códigos de estado
+jf7xy8e35h ¦ Recursos e verbos ¦ Recursos y verbos
+ninhzk2hm4 ¦ Ligue o método à ação ¦ Une cada método con su acción
+1mule95g6q7 ¦ Ler ¦ Leer
+40lyxipgf8 ¦ Criar ¦ Crear
+ml2ck7c29c ¦ Atualizar uma parte ¦ Actualizar una parte
+21rjkq8k9uj ¦ Remover ¦ Quitar
+a43nmks8zr ¦ Qual requisição pega a missão com id 7? ¦ ¿Qué petición obtiene la misión con id 7?
+1jlecvsjyk7 ¦ Ligue o código de status ¦ Une cada código de estado
+1ajuoro6znp ¦ Criado ¦ Creado
+1oljr5kd72u ¦ Requisição ruim (dados inválidos) ¦ Petición incorrecta (datos no válidos)
+5cp0wmvder ¦ Não está logado ¦ No ha iniciado sesión
+291645xv2pt ¦ Logado mas sem permissão ¦ Con sesión pero sin permiso
+184zh645xw1 ¦ O servidor quebrou ao tratar uma requisição. Qual status é o típico? ¦ El servidor falló al atender una petición. ¿Qué estado es el típico?
+20g0qj78u8u ¦ Um DELETE bem-sucedido costuma responder 204 No Content (corpo vazio). ¦ Un DELETE correcto suele responder 204 No Content (cuerpo vacío).
+1jhsk8q5nos ¦ Cabeçalhos, consultas e chaves ¦ Cabeceras, consultas y claves
+38ovx6xbda ¦ O envelope em volta da carta ¦ El sobre alrededor de la carta
+j9oux6oofv ¦ O que esta URL pede? ¦ ¿Qué pide esta URL?
+9xmdisc1x3 ¦ Missões não concluídas, ordenadas pela recompensa ¦ Misiones no hechas, ordenadas por recompensa
+18sutzjakd0 ¦ Apagar as missões concluídas ¦ Borrar las misiones hechas
+ax7clmpkzk ¦ Uma missão com id "false" ¦ Una misión con id "false"
+xado1b6kdd ¦ Todas as missões sem ordem ¦ Todas las misiones sin ordenar
+d6qpeaxuq9 ¦ Diga ao servidor que o corpo é JSON ¦ Dile al servidor que el cuerpo es JSON
+6gjiytsrhr ¦ É seguro colocar uma chave de API secreta no JavaScript do front-end. ¦ Es seguro poner una clave de API secreta en el JavaScript del front-end.
+1iw8hojqxqh ¦ Qualquer um consegue ler o código do front-end nas DevTools. Chame a API a partir do seu servidor. ¦ Cualquiera puede leer el código del front-end en las DevTools. Llama a la API desde tu servidor.
+1axi45sogxe ¦ Qual cabeçalho costuma levar um token de login? ¦ ¿Qué cabecera suele llevar un token de inicio de sesión?
+1p5kclfhxkt ¦ Buscando Dados ¦ Obtener Datos
+idh9woz2en ¦ Use fetch para ler e enviar dados, e trate os erros. ¦ Usa fetch para leer y enviar datos, y maneja los errores.
+9you23n5zq ¦ O básico do fetch ¦ Lo básico de fetch
+1od3c0gv2st ¦ Pedindo ao servidor ¦ Pedirle al servidor
+fac69i7a8b ¦ Busque e imprima as missões ¦ Obtén e imprime las misiones
+1lmrx9owp1m ¦ Leia o corpo JSON ¦ Lee el cuerpo JSON
+5um4rfl3co ¦ O que o `fetch` retorna? ¦ ¿Qué devuelve `fetch`?
+1524k8wrz4m ¦ Uma Promise de uma Response ¦ Una Promise de una Response
+1ubgzg2hdl5 ¦ Os dados diretamente ¦ Los datos directamente
+w1uurjf149 ¦ Uma string JSON ¦ Un string JSON
+kvkicdi3ts ¦ Uma página HTML ¦ Una página HTML
+10a0um8yiwr ¦ Desafio: Convoque os Cavaleiros ¦ Desafío: Convoca a los Caballeros
+233e374o647 ¦ Quando as coisas dão errado ¦ Cuando algo sale mal
+h8sm9toee ¦ Confira o status ¦ Comprueba el estado
+1vyhwet2lzx ¦ O `fetch` lança um erro quando o servidor responde 404. ¦ `fetch` lanza un error cuando el servidor responde 404.
+idpbj8bs0t ¦ Um 404 continua sendo uma resposta. Confira você mesmo `res.ok` ou `res.status`. ¦ Un 404 sigue siendo una respuesta. Comprueba tú mismo `res.ok` o `res.status`.
+c8ilws8rvf ¦ Quando o `fetch` rejeita (lança erro)? ¦ ¿Cuándo rechaza (lanza error) `fetch`?
+1i0ono1iysv ¦ Numa falha de rede, como estar offline ¦ Ante un fallo de red, como estar sin conexión
+4n5rd2mqb7 ¦ Em qualquer status diferente de 200 ¦ Con cualquier estado distinto de 200
+fcnzo2lhir ¦ Quando o JSON está vazio ¦ Cuando el JSON está vacío
+221ct4go232 ¦ Nunca ¦ Nunca
+2afynv5vout ¦ Qual linha deixa os erros passarem? ¦ ¿Qué línea deja pasar los errores?
+1hkmjmqskcn ¦ Ele nunca confere `res.ok`, então uma página de erro 404 é tratada como dados de verdade. ¦ Nunca comprueba `res.ok`, así que una página de error 404 se trata como datos reales.
+lkmhg1wpaq ¦ O que é melhor para o usuário quando os dados não carregam? ¦ ¿Qué es mejor para el usuario cuando los datos no cargan?
+y3syrmvgjl ¦ Mostrar uma mensagem clara e um botão "Tentar de novo" ¦ Mostrar un mensaje claro y un botón "Reintentar"
+16ar7shva7v ¦ Mostrar uma página em branco ¦ Mostrar una página en blanco
+1e2d1kuf38y ¦ Recarregar a página para sempre ¦ Recargar la página para siempre
+24az78yzcjp ¦ Esconder o erro só no console ¦ Ocultar el error solo en la consola
+16nazmolj63 ¦ Desafio: Cavaleiro Não Encontrado ¦ Desafío: Caballero No Encontrado
+18k1r0o0ro6 ¦ Enviando dados ¦ Enviar datos
+1r1sxh8zlht ¦ POST com um corpo ¦ POST con un cuerpo
+1s8824ayxxd ¦ Envie uma missão como JSON ¦ Envía una misión como JSON
+1otazaps3m ¦ Por que aplicar `JSON.stringify` ao corpo? ¦ ¿Por qué aplicar `JSON.stringify` al cuerpo?
+ze7amqcvu0 ¦ Corpos HTTP são texto, então o objeto precisa virar uma string JSON ¦ Los cuerpos HTTP son texto, así que el objeto debe convertirse en un string JSON
+nkwbvk9cm1 ¦ Para encurtá-lo ¦ Para acortarlo
+1ubjarzmj22 ¦ Para criptografá-lo ¦ Para cifrarlo
+2ev9rwqm8hr ¦ O fetch só aceita números ¦ fetch solo acepta números
+v4z41fw8j7 ¦ Qual método costuma atualizar só alguns campos? ¦ ¿Qué método suele actualizar solo algunos campos?
+169fovk7m8r ¦ Desafio: Recrute um Cavaleiro ¦ Desafío: Recluta a un Caballero
+4esqi75h56 ¦ Dados em aplicativos de verdade ¦ Datos en aplicaciones reales
+21jaex38dg3 ¦ Estados de uma tela ¦ Estados de una pantalla
+7ntpvxsr15 ¦ Ligue o estado ao que mostrar ¦ Une cada estado con lo que mostrar
+fnlohi6jqd ¦ Carregando ¦ Cargando
+1nx6jrtsvzj ¦ Um spinner ou esqueleto ¦ Un spinner o un esqueleto
+27lgjspq3qv ¦ Erro ¦ Error
+1fihh8s8xb1 ¦ Uma mensagem e um botão de tentar de novo ¦ Un mensaje y un botón de reintentar
+1enns3h6mbl ¦ Vazio ¦ Vacío
+1pzye4bh7hl ¦ Um simpático "ainda não há nada aqui" ¦ Un amable "todavía no hay nada aquí"
+16pn7sp40i7 ¦ Sucesso ¦ Éxito
+1k0sjbr62t7 ¦ Os dados ¦ Los datos
+48vue2iqm2 ¦ Você vê "blocked by CORS policy" no console. Onde isso é corrigido? ¦ Ves "blocked by CORS policy" en la consola. ¿Dónde se arregla?
+kekjkkmfkh ¦ No servidor (origens permitidas) ¦ En el servidor (orígenes permitidos)
+11aequj2pgo ¦ No CSS ¦ En el CSS
+8jkjyikhi4 ¦ Usando http em vez de https ¦ Usando http en lugar de https
+12eaab53emf ¦ Limpando o cache ¦ Borrando la caché
+15mmx5r0w15 ¦ Muitas APIs limitam quantas requisições você pode enviar por minuto (rate limits). ¦ Muchas APIs limitan cuántas peticiones puedes enviar por minuto (límites de uso).

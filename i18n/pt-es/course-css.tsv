@@ -1,0 +1,363 @@
+1vss5cdstsa ¦ O Salão da Heráldica ¦ El Salón de la Heráldica
+cnfl4hs8zh ¦ Cores, fontes, o modelo de caixa, Flexbox, Grid, posicionamento, animações e design responsivo. ¦ Colores, fuentes, el modelo de caja, Flexbox, Grid, posicionamiento, animaciones y diseño responsive.
+fk0bwnddlj ¦ Seletores e Cores ¦ Selectores y Colores
+1niqlnlnamk ¦ Regras, seletores, cores e como ligar uma folha de estilo. ¦ Reglas, selectores, colores y cómo enlazar una hoja de estilos.
+1mhajism65e ¦ Regras e seletores ¦ Reglas y selectores
+1zs6hwchfi5 ¦ Pintando com regras ¦ Pintar con reglas
+gqi1px9cbc ¦ Nesta regra, qual é o seletor? ¦ En esta regla, ¿cuál es el selector?
+1ieug4iqsdy ¦ E o que é `color`? ¦ ¿Y qué es `color`?
+x65xw321nk ¦ A propriedade ¦ La propiedad
+2ep8cnf1xyz ¦ O seletor ¦ El selector
+1tnsyp4t0dm ¦ O valor ¦ El valor
+1s49qxraof6 ¦ Uma tag ¦ Una etiqueta
+23bo33oop6f ¦ Deixe todos os parágrafos verdes ¦ Pon verdes todos los párrafos
+1fvz53aqkis ¦ Qual linha tem um erro? ¦ ¿Qué línea tiene un error?
+1eerx6oqrps ¦ Falta um `;` depois de `gold`, então o navegador lê `gold font-size: 32px` como um único valor quebrado. ¦ Falta un `;` después de `gold`, así que el navegador lee `gold font-size: 32px` como un único valor roto.
+en86ycyvxe ¦ Escreva uma regra que deixe o h2 roxo ¦ Escribe una regla que ponga el h2 morado
+1z7bebtim78 ¦ Uma regra CSS pode definir muitas propriedades. ¦ Una regla CSS puede definir muchas propiedades.
+q23coh8c40 ¦ Cores ¦ Colores
+2ehhx0qja0q ¦ Muitos jeitos de dizer "vermelho" ¦ Muchas formas de decir "rojo"
+1imuzofjuxc ¦ Qual propriedade muda a cor do texto? ¦ ¿Qué propiedad cambia el color del texto?
+emi9w0lrje ¦ Qual propriedade pinta atrás de um elemento? ¦ ¿Qué propiedad pinta detrás de un elemento?
+1z8gwxz5dxf ¦ Ligue o valor de cor ao seu formato ¦ Une cada valor de color con su formato
+14xf1g3te4d ¦ Nome da cor ¦ Nombre del color
+21d9e1t2enr ¦ Código hex ¦ Código hex
+2rm6zt53u4 ¦ Números RGB ¦ Números RGB
+13ketgfrgkl ¦ Com transparência ¦ Con transparencia
+2edm6cj0l33 ¦ Como fica `#000000`? ¦ ¿Cómo se ve `#000000`?
+9dvzsfq64z ¦ Preto ¦ Negro
+149edxvwfuy ¦ Branco ¦ Blanco
+b9pq9lvwmk ¦ Vermelho ¦ Rojo
+1kgft2a5dlj ¦ Transparente ¦ Transparente
+2c2ow5x8h6n ¦ Os três canais (vermelho, verde, azul) estão em 0: sem luz = preto. ¦ Los tres canales (rojo, verde, azul) están a 0: sin luz = negro.
+1xs6o78838e ¦ Como fica `#ffffff`? ¦ ¿Cómo se ve `#ffffff`?
+1kp4pl7s4js ¦ Amarelo ¦ Amarillo
+jyejr4v085 ¦ Cinza ¦ Gris
+2af8r8y4tlt ¦ Deixe o fundo cor de trigo e o texto vermelho-escuro ¦ Pon el fondo color trigo y el texto rojo oscuro
+1gzil3616k ¦ Texto cinza-claro em fundo branco é fácil de ler para todos. ¦ El texto gris claro sobre fondo blanco es fácil de leer para todos.
+1nou3sletcy ¦ Pouco contraste é difícil de ler, principalmente para pessoas com baixa visão. Busque um contraste forte. ¦ El poco contraste es difícil de leer, sobre todo para personas con baja visión. Busca un contraste fuerte.
+1qbfz59wumh ¦ Classes e ids ¦ Clases e ids
+2dwc4vtgzhp ¦ Escolhendo os elementos certos ¦ Elegir los elementos correctos
+1p0les41b8z ¦ Qual seletor pega `<p class="note">`? ¦ ¿Qué selector coincide con `<p class="note">`?
+za8118l6yp ¦ Qual seletor pega `<div id="map">`? ¦ ¿Qué selector coincide con `<div id="map">`?
+bjhtio9gs2 ¦ Dois elementos na mesma página podem ter a mesma classe. ¦ Dos elementos de la misma página pueden compartir la misma clase.
+2wohshhlrn ¦ Dois elementos na mesma página devem ter o mesmo id. ¦ Dos elementos de la misma página deben compartir el mismo id.
+1yzp9uuqa0u ¦ Ids precisam ser únicos. Use uma classe para grupos. ¦ Los ids deben ser únicos. Usa una clase para grupos.
+exvum5nzpi ¦ Quais elementos ficam vermelhos? ¦ ¿Qué elementos se ponen rojos?
+4bp02spnbh ¦ A e C ¦ A y C
+1byauy66khl ¦ Só A ¦ Solo A
+sluqhako72 ¦ A e B ¦ A y B
+2f1h1l8ted8 ¦ Os três ¦ Los tres
+17692an94zz ¦ Combinando seletores ¦ Combinar selectores
+29bzdksra6a ¦ Ligue o seletor ao que ele pega ¦ Une cada selector con lo que elige
+6mx836in6b ¦ Links dentro de nav ¦ Enlaces dentro de nav
+1e0ezl3hi3b ¦ Todos os h1 e h2 ¦ Todos los h1 y h2
+2a3dg2waub0 ¦ Parágrafos com a classe intro ¦ Párrafos con la clase intro
+e8m6uivlo0 ¦ Todos os elementos ¦ Todos los elementos
+7prmvc862g ¦ Escreva o seletor para elementos com a classe `hero` ¦ Escribe el selector para los elementos con la clase `hero`
+1wzns37dvk1 ¦ Onde o CSS mora ¦ Dónde vive el CSS
+1jqt7mnatbj ¦ Três lugares para o CSS ¦ Tres lugares para el CSS
+17ugcdpbv6v ¦ Ligue a folha de estilo ¦ Enlaza la hoja de estilos
+1uji2mjy5bk ¦ Onde fica a tag `<link>`? ¦ ¿Dónde va la etiqueta `<link>`?
+1tybtgkgtf2 ¦ Dentro de <head> ¦ Dentro de <head>
+1p2gwx93m9t ¦ No fim do <body> ¦ Al final de <body>
+2dyisz5lbfd ¦ Dentro de <title> ¦ Dentro de <title>
+1emzbp1jvmq ¦ No arquivo CSS ¦ En el archivo CSS
+1rcao04hzzr ¦ Por que arquivos CSS externos costumam ser melhores? ¦ ¿Por qué suelen ser mejores los archivos CSS externos?
+1ffryux5czp ¦ Um arquivo pode estilizar muitas páginas, e os navegadores o guardam em cache ¦ Un archivo puede dar estilo a muchas páginas, y los navegadores lo guardan en caché
+1gguaf82o2h ¦ São o único tipo que os navegadores entendem ¦ Son el único tipo que entienden los navegadores
+1jkqxhrlsff ¦ Rodam mais rápido que o HTML ¦ Se ejecutan más rápido que el HTML
+nf5xrtcaom ¦ Escondem o código dos usuários ¦ Ocultan el código a los usuarios
+nr2ab810k8 ¦ Por que esta página está sem estilo? ¦ ¿Por qué esta página no tiene estilo?
+1wg28qzy3mi ¦ `<link>` usa `href`, não `src`. ¦ `<link>` usa `href`, no `src`.
+22ajqptkfwl ¦ Comentários de CSS são escritos como `/* this */`. ¦ Los comentarios de CSS se escriben así: `/* this */`.
+28t73myukif ¦ Desafio: A Primeira Pintura ¦ Desafío: La Primera Pintura
+5p6mbvcqil ¦ Desafio: Ligando o Pote de Tinta ¦ Desafío: Enlazar el Bote de Pintura
+eok42qbfzw ¦ Desafio: Classes e Ids ¦ Desafío: Clases e Ids
+17v18ir0iq4 ¦ Texto e Fontes ¦ Texto y Fuentes
+1qb4p80k4tg ¦ Fontes, tamanhos, unidades e estilo de texto. ¦ Fuentes, tamaños, unidades y estilo de texto.
+12t1ke2k02m ¦ Fontes ¦ Fuentes
+ol6rcv27vx ¦ Escolhendo uma fonte ¦ Elegir una fuente
+19klm574pwy ¦ Por que terminar uma lista de fontes com `sans-serif`? ¦ ¿Por qué terminar una lista de fuentes con `sans-serif`?
+2f8xxd1glcr ¦ Como reserva, caso as outras fontes não existam ¦ Como respaldo si faltan las otras fuentes
+1uxrkngzr5f ¦ Para deixar o texto em negrito ¦ Para poner el texto en negrita
+1weismlxj9h ¦ É obrigatório para carregar fontes ¦ Es obligatorio para cargar fuentes
+hwkc8j4pd5 ¦ Para o texto carregar mais rápido ¦ Para que el texto cargue más rápido
+1kle9m7sizw ¦ Ligue a família genérica à sua aparência ¦ Une cada familia genérica con su aspecto
+z79i603cqk ¦ Pezinhos nas letras (como em livros) ¦ Patitas en las letras (como en los libros)
+1nkzr58sgk0 ¦ Limpa, sem pezinhos (como na maioria dos apps) ¦ Limpia, sin patitas (como la mayoría de apps)
+5snv8tytdq ¦ Todas as letras com a mesma largura (código) ¦ Todas las letras del mismo ancho (código)
+1vtdawwc1uw ¦ Qual valor deixa o texto em negrito? ¦ ¿Qué valor pone el texto en negrita?
+db7l5dwuaw ¦ Qual deixa o texto em itálico? ¦ ¿Cuál pone el texto en cursiva?
+1uypmwdaocy ¦ Use Georgia, com serif como reserva ¦ Usa Georgia, con serif como respaldo
+4081zf2h2p ¦ Web fonts (como as Google Fonts) permitem usar fontes que os visitantes não têm instaladas. ¦ Las fuentes web (como Google Fonts) te permiten usar fuentes que los visitantes no tienen instaladas.
+h3aeg5atfl ¦ Tamanhos e unidades ¦ Tamaños y unidades
+wqql39jvce ¦ px, rem e em ¦ px, rem y em
+14i9hux8a3t ¦ O tamanho de fonte raiz é 16px. Quanto é `2rem`? ¦ El tamaño de fuente raíz es 16px. ¿Cuánto es `2rem`?
+1apc082ii2a ¦ O tamanho de fonte raiz é 16px. Quanto é `1.5rem`? ¦ El tamaño de fuente raíz es 16px. ¿Cuánto es `1.5rem`?
+2c31dowegrv ¦ Qual unidade muda se o usuário escolher uma fonte padrão maior no navegador? ¦ ¿Qué unidad cambia si el usuario elige una fuente por defecto más grande en su navegador?
+1xlfibnn70k ¦ Nenhuma ¦ Ninguna
+2gjrl7m1nfg ¦ As duas nunca mudam ¦ Las dos no cambian nunca
+1n2swso98tz ¦ Ligue a unidade àquilo a que ela é relativa ¦ Une cada unidad con aquello a lo que es relativa
+82por5f2mz ¦ Nada (fixa) ¦ Nada (fija)
+1ya41fzxbsd ¦ O tamanho de fonte raiz ¦ El tamaño de fuente raíz
+1jlspe89htk ¦ O tamanho de fonte do pai ¦ El tamaño de fuente del padre
+25a1c7h5v6z ¦ O tamanho do pai ¦ El tamaño del padre
+7w6sgqfwdz ¦ `width: 50%` deixa um elemento com metade da largura do pai. ¦ `width: 50%` hace que un elemento tenga la mitad del ancho de su padre.
+gufkjao658 ¦ Estilizando texto ¦ Dar estilo al texto
+13m5zycoqlq ¦ Ferramentas de texto ¦ Herramientas de texto
+jb3x24s2g3 ¦ Ligue a propriedade ao que ela faz ¦ Une cada propiedad con lo que hace
+8ghyafwojc ¦ Esquerda, centro ou direita ¦ Izquierda, centro o derecha
+wck2h62iqo ¦ Espaço entre as linhas ¦ Espacio entre líneas
+1on343jvkd1 ¦ MAIÚSCULAS ou minúsculas ¦ MAYÚSCULAS o minúsculas
+1mxn1xxpk2q ¦ Sublinhados ¦ Subrayados
+40h3gwm5n6 ¦ Qual centraliza o texto? ¦ ¿Cuál centra el texto?
+11o1l877ssg ¦ Qual `line-height` é mais confortável para parágrafos longos? ¦ ¿Qué `line-height` es más cómodo para párrafos largos?
+15ytxkrikpk ¦ Tire o sublinhado dos links ¦ Quita el subrayado de los enlaces
+24lnwwzkwsa ¦ `text-transform: uppercase` muda as letras no arquivo HTML. ¦ `text-transform: uppercase` cambia las letras en el archivo HTML.
+qnupe5d3nd ¦ Só muda a *aparência* do texto. O HTML continua igual. ¦ Solo cambia cómo se *ve* el texto. El HTML sigue igual.
+1268vwtlri1 ¦ Desafio: As Fontes do Escriba ¦ Desafío: Las Fuentes del Escriba
+1s9uqbgtp36 ¦ Padding, bordas, margens, tamanhos e tipos de display. ¦ Padding, bordes, márgenes, tamaños y tipos de display.
+1x0gdgvlj0a ¦ Conteúdo, padding, borda, margem ¦ Contenido, padding, borde, margen
+1zr0u6e7eqo ¦ Todo elemento é uma caixa ¦ Cada elemento es una caja
+2a65c2uq815 ¦ Ordene as camadas de dentro para fora ¦ Ordena las capas de dentro hacia fuera
+2eey1ge52jx ¦ Você quer mais espaço entre o texto e a borda de um botão. Qual propriedade? ¦ Quieres más espacio entre el texto y el borde de un botón. ¿Qué propiedad?
+213bq4pstex ¦ Você quer mais espaço entre dois cartões. Qual propriedade? ¦ Quieres más espacio entre dos tarjetas. ¿Qué propiedad?
+24nlqhhv9ma ¦ O que este padding significa? ¦ ¿Qué significa este padding?
+jb217wzacd ¦ 10px em cima e embaixo, 20px à esquerda e à direita ¦ 10px arriba y abajo, 20px a izquierda y derecha
+nth4rncran ¦ 10px à esquerda, 20px à direita ¦ 10px a la izquierda, 20px a la derecha
+6ta44lnpqb ¦ 10px em todos os lados, depois mais 20px ¦ 10px en todos los lados y luego 20px más
+ya30qkxkp3 ¦ 10px em cima, 20px embaixo ¦ 10px arriba, 20px abajo
+2c2oe2mulwc ¦ Uma borda dourada sólida de 3px ¦ Un borde dorado sólido de 3px
+1y6ulam5qcd ¦ A margem fica dentro da borda. ¦ El margen está dentro del borde.
+7ed8igqtrf ¦ Largura e box-sizing ¦ Ancho y box-sizing
+26jtoui6q4m ¦ A surpresa do box-sizing ¦ La sorpresa del box-sizing
+5ikje4qliy ¦ box-sizing padrão: `width: 100px; padding: 10px; border: 0;`. Qual é a largura da caixa? ¦ box-sizing por defecto: `width: 100px; padding: 10px; border: 0;`. ¿Qué ancho tiene la caja?
+11d3tlt8gdr ¦ A mesma caixa com `box-sizing: border-box`. Qual é a largura? ¦ La misma caja con `box-sizing: border-box`. ¿Qué ancho tiene?
+24a1axo7ujc ¦ `max-width: 600px` deixa um elemento encolher em telas pequenas, mas nunca ficar mais largo que 600px. ¦ `max-width: 600px` deja que un elemento se encoja en pantallas pequeñas, pero nunca que sea más ancho de 600px.
+1t2sez8lot0 ¦ O que centraliza um elemento de bloco que tem largura? ¦ ¿Qué centra un elemento de bloque que tiene ancho?
+yxzwnsxsx9 ¦ Tipos de display ¦ Tipos de display
+17yd2tyrpqi ¦ Bloco e inline ¦ Bloque e inline
+19hnbovi54p ¦ Bloco ou inline por padrão? ¦ ¿Bloque o inline por defecto?
+1jeefdevjp0 ¦ Bloco ¦ Bloque
+61he6ckzzn ¦ Inline ¦ Inline
+rdyl5fp2tq ¦ Bloco (largura total) ¦ Bloque (ancho completo)
+1zk2nbhccpz ¦ Inline (no texto) ¦ Inline (en el texto)
+sfejkvbgy0 ¦ O que esconde um elemento e remove o espaço dele? ¦ ¿Qué oculta un elemento y quita su espacio?
+2fjbpljwhkj ¦ Você põe `width: 200px` num `<span>`, mas nada muda. Por quê? ¦ Pones `width: 200px` en un `<span>` pero no cambia nada. ¿Por qué?
+loq60lyc1o ¦ Elementos inline ignoram a largura ¦ Los elementos inline ignoran el ancho
+uqoagvar4b ¦ Spans não podem ser estilizados ¦ Los spans no se pueden estilizar
+ixwbyanc9v ¦ A largura precisa de !important ¦ El ancho necesita !important
+27bdqp4g0kr ¦ O valor precisa estar em rem ¦ El valor debe estar en rem
+w13htugzu5 ¦ Deixe os links lado a lado, mas aceitando padding e largura ¦ Deja los enlaces uno al lado del otro, pero aceptando padding y ancho
+r6mz4xy3hu ¦ Cantos e sombras ¦ Esquinas y sombras
+1wndr0msnua ¦ Arredondado e elevado ¦ Redondeado y elevado
+val9jfvgry ¦ Como transformar uma imagem quadrada num círculo? ¦ ¿Cómo conviertes una imagen cuadrada en un círculo?
+1jwcruok7tk ¦ Nesta sombra, o que é 8px? ¦ En esta sombra, ¿qué es 8px?
+utfqpc774o ¦ O desfoque ¦ El desenfoque
+85qy6ehfws ¦ O deslocamento em x ¦ El desplazamiento en x
+16k34eetw0y ¦ O deslocamento em y ¦ El desplazamiento en y
+1ma66qcwu8f ¦ A cor ¦ El color
+v1mxrdby2f ¦ `opacity: 0.5` deixa um elemento meio transparente. ¦ `opacity: 0.5` hace que un elemento sea medio transparente.
+3iw7tvkv77 ¦ Qual arredonda só os cantos de cima? ¦ ¿Cuál redondea solo las esquinas de arriba?
+2exvs69lsun ¦ Desafio: O Modelo de Caixa ¦ Desafío: El Modelo de Caja
+1r1q0hsaqmy ¦ Desafio: Moedas Redondas ¦ Desafío: Monedas Redondas
+y8mi1v0qx8 ¦ Flexbox ¦ Flexbox
+b5jb544ull ¦ Alinhe coisas em linhas e colunas. ¦ Alinea cosas en filas y columnas.
+23o8kszluws ¦ Contêineres flex ¦ Contenedores flex
+vbbvbk8ken ¦ Alinhando os filhos ¦ Alinear a los hijos
+14cqyxpeww7 ¦ Onde fica o `display: flex`? ¦ ¿Dónde va `display: flex`?
+soic38rk2c ¦ No pai (contêiner) ¦ En el padre (contenedor)
+1r8ts1salyh ¦ Em cada filho ¦ En cada hijo
+1yvpyl1qd62 ¦ Só no <body> ¦ Solo en <body>
+y7clmtv7rp ¦ No HTML ¦ En el HTML
+165ioac4nlf ¦ O que o `gap` faz num contêiner flex? ¦ ¿Qué hace `gap` en un contenedor flex?
+1yj92oxwnke ¦ Adiciona espaço entre os filhos ¦ Añade espacio entre los hijos
+2892g1w9hwy ¦ Adiciona espaço fora do contêiner ¦ Añade espacio fuera del contenedor
+26a8kkew69x ¦ Deixa os filhos menores ¦ Hace más pequeños a los hijos
+1f0lwchyocq ¦ Esconde filhos vazios ¦ Oculta los hijos vacíos
+1jatevgvw1e ¦ Qual empilha os filhos na vertical? ¦ ¿Cuál apila los hijos en vertical?
+o18pmtxhua ¦ Faça do menu uma linha com 16px entre os itens ¦ Convierte el menú en una fila con 16px entre elementos
+27r7j4blj78 ¦ Só os filhos diretos de um contêiner flex viram itens flex. ¦ Solo los hijos directos de un contenedor flex se convierten en elementos flex.
+19tkf0xdw5 ¦ Justificar e alinhar ¦ Justificar y alinear
+1lms6rdcpfy ¦ Dois eixos ¦ Dos ejes
+1wl1rbkhzij ¦ Logo à esquerda, links à direita. Qual valor? ¦ Logo a la izquierda, enlaces a la derecha. ¿Qué valor?
+1n88mr2pwcu ¦ Numa linha, qual centraliza os itens na vertical? ¦ En una fila, ¿cuál centra los elementos en vertical?
+2acuoyd59ge ¦ Centralize uma caixa perfeitamente dentro do pai ¦ Centra una caja perfectamente dentro de su padre
+9rcspydc0n ¦ Com `flex-direction: column`, o `justify-content` funciona na vertical. ¦ Con `flex-direction: column`, `justify-content` funciona en vertical.
+27phoeulidp ¦ O eixo principal segue a direção, então vira de cima ↔ para baixo. ¦ El eje principal sigue la dirección, así que pasa a ser arriba ↔ abajo.
+ivjcd117n1 ¦ Ligue o valor ao layout ¦ Une cada valor con su distribución
+1yii1ciltqb ¦ Juntos no começo ¦ Juntos al principio
+3xflrdm862 ¦ Juntos no meio ¦ Juntos en el medio
+1bjscymudvu ¦ O primeiro e o último nas bordas ¦ El primero y el último en los bordes
+2cj6kcun7t9 ¦ Juntos no fim ¦ Juntos al final
+1opkm8ijezv ¦ Crescer e quebrar linha ¦ Crecer y saltar de línea
+g3gu2nsmjf ¦ Filhos flexíveis ¦ Hijos flexibles
+22ighrzrdhl ¦ O que faz um filho preencher o espaço que sobra? ¦ ¿Qué hace que un hijo llene el espacio sobrante?
+21kq840wr4z ¦ Seus cartões transbordam da tela numa única linha. O que ajuda? ¦ Tus tarjetas se salen de la pantalla en una sola fila. ¿Qué ayuda?
+9rulql0she ¦ `order: -1` num filho flex o move visualmente para a frente. ¦ `order: -1` en un hijo flex lo mueve visualmente al principio.
+2d06rjhfxfv ¦ Cuidado: leitores de tela e o teclado continuam seguindo a ordem do HTML. ¦ Cuidado: los lectores de pantalla y el teclado siguen el orden del HTML.
+9o5c2bjjir ¦ Dois filhos: `flex: 1` e `flex: 2`. O que acontece? ¦ Dos hijos: `flex: 1` y `flex: 2`. ¿Qué pasa?
+zj80mcgdm6 ¦ .b ganha o dobro de espaço de .a ¦ .b recibe el doble de espacio que .a
+126al5cpy6s ¦ Ficam iguais ¦ Son iguales
+1oecfaofq0c ¦ .a fica com o dobro do tamanho ¦ .a es el doble de grande
+hc3cue61r ¦ .b fica escondido ¦ .b se oculta
+1q5gqml6l17 ¦ Desafio: Estandartes em Fila ¦ Desafío: Estandartes en Fila
+e2ai9x16vz ¦ Desafio: Alinhando a Guarda ¦ Desafío: Alinear la Guardia
+bmll3jwqvf ¦ CSS Grid ¦ CSS Grid
+vvc606n8jc ¦ Linhas e colunas para layouts inteiros. ¦ Filas y columnas para diseños completos.
+2e9chmx6k3z ¦ O básico do Grid ¦ Lo básico de Grid
+26e4wiegknp ¦ Linhas e colunas ¦ Filas y columnas
+1164ndi6769 ¦ Quantas colunas `grid-template-columns: 1fr 1fr 1fr 1fr` cria? ¦ ¿Cuántas columnas crea `grid-template-columns: 1fr 1fr 1fr 1fr`?
+17s5pelqqi0 ¦ `grid-template-columns: 200px 1fr`. O que acontece? ¦ `grid-template-columns: 200px 1fr`. ¿Qué pasa?
+dx3t2nyfaf ¦ Uma coluna fixa de 200px e uma coluna que ocupa o resto ¦ Una columna fija de 200px y otra que ocupa el resto
+20noaadwkdw ¦ Duas colunas iguais ¦ Dos columnas iguales
+ykgqooet8l ¦ Uma coluna com 201px de largura ¦ Una columna de 201px de ancho
+lhh92dt5px ¦ Um erro ¦ Un error
+pz237uhu0m ¦ Qual coluna é a mais larga? ¦ ¿Qué columna es la más ancha?
+21fgxvok8xo ¦ A do meio ¦ La del medio
+hwivxdwpj7 ¦ A primeira ¦ La primera
+19sob8ecgk3 ¦ A última ¦ La última
+nj2s958an8 ¦ Todas iguais ¦ Todas iguales
+1g79um98rjl ¦ 3 colunas iguais ¦ 3 columnas iguales
+1c9coh8rrah ¦ Ligue a palavra ao seu significado ¦ Une cada palabra con su significado
+d65vkv5nkq ¦ Grid ¦ Grid
+1cgnuzo8hdq ¦ Linhas e colunas (2D) ¦ Filas y columnas (2D)
+1x9bk0k7d4l ¦ Uma linha ou uma coluna (1D) ¦ Una fila o una columna (1D)
+11ibquwicxy ¦ Uma parte do espaço livre ¦ Una parte del espacio libre
+g45yjekvt6 ¦ Espaço entre as células ¦ Espacio entre celdas
+y3tc7yahn5 ¦ Ocupando várias células e áreas ¦ Celdas extendidas y áreas
+270uqip03ik ¦ Células maiores ¦ Celdas más grandes
+10ikuaraby8 ¦ O que faz um item ocupar duas colunas? ¦ ¿Qué hace que un elemento ocupe dos columnas?
+rmylpwvxb0 ¦ `grid-template-areas` permite desenhar o layout com nomes. ¦ `grid-template-areas` te permite dibujar la distribución con nombres.
+1ma59hwigjo ¦ `repeat(auto-fill, minmax(200px, 1fr))` cria... ¦ `repeat(auto-fill, minmax(200px, 1fr))` crea...
+2dxgr2o9uqp ¦ Quantas colunas couberem, cada uma com pelo menos 200px ¦ Tantas columnas como quepan, cada una de al menos 200px
+3dvtciyhnb ¦ Exatamente 200 colunas ¦ Exactamente 200 columnas
+2ass6ts6pu3 ¦ Uma coluna de 200px ¦ Una columna de 200px
+yj07pa97vp ¦ Linhas em vez de colunas ¦ Filas en lugar de columnas
+21rfmbx2449 ¦ Em `grid-template-areas: "header header" "side main";`, quantas colunas existem? ¦ En `grid-template-areas: "header header" "side main";`, ¿cuántas columnas hay?
+29f8g4imrz9 ¦ Desafio: A Grade do Castelo ¦ Desafío: La Cuadrícula del Castillo
+1trnxnyhtw6 ¦ Cascata, Estados e Animação ¦ Cascada, Estados y Animación
+kaz7whb57k ¦ Qual regra vence, efeitos de hover, transições e variáveis. ¦ Qué regla gana, efectos hover, transiciones y variables.
+1bqvl6g9eeg ¦ Qual regra vence? ¦ ¿Qué regla gana?
+1f35gwftya6 ¦ A cascata ¦ La cascada
+24f7qmbmq3w ¦ De que cor fica `<p class="note">`? ¦ ¿De qué color queda `<p class="note">`?
+2904oiuta4l ¦ uma mistura ¦ una mezcla
+10o05b4hwkb ¦ Uma classe é mais específica que uma tag. ¦ Una clase es más específica que una etiqueta.
+22lji56pzpw ¦ De que cor fica o `<h1>`? ¦ ¿De qué color queda el `<h1>`?
+1l9a0tixfgg ¦ Mesma especificidade, então a regra que vem depois vence. ¦ Misma especificidad, así que gana la regla que va después.
+uuksddfktl ¦ De que cor fica `<p id="intro" class="note">`? ¦ ¿De qué color queda `<p id="intro" class="note">`?
+14o2cdrc574 ¦ Um id vence uma classe, mesmo que a regra da classe venha depois. ¦ Un id gana a una clase, aunque la regla de la clase vaya después.
+ketsle6y9z ¦ Herança ¦ Herencia
+14x2ab3wfdb ¦ Definir `color` no `body` muda a cor do texto dos parágrafos dentro dele. ¦ Definir `color` en `body` cambia el color del texto de los párrafos que contiene.
+1l55n5a1y9q ¦ Definir `border` numa `<div>` também dá borda a todos os filhos dela. ¦ Definir `border` en un `<div>` también les da borde a todos sus hijos.
+1put4kkabb9 ¦ Por que evitar o `!important`? ¦ ¿Por qué evitar `!important`?
+rr4k29x01y ¦ Ele passa por cima da cascata e torna os estilos difíceis de mudar depois ¦ Se salta la cascada y hace que los estilos sean difíciles de cambiar después
+2ftmh5tduiq ¦ Não é CSS válido ¦ No es CSS válido
+23xocmyyzmm ¦ Deixa a página muito mais lenta ¦ Hace la página mucho más lenta
+czqighk5gy ¦ Os navegadores o ignoram ¦ Los navegadores lo ignoran
+1e7irdozvkh ¦ Pseudoclasses e pseudoelementos ¦ Pseudoclases y pseudoelementos
+1d4jdtjyfkg ¦ Estados especiais ¦ Estados especiales
+27bol7gq3o3 ¦ Ligue o seletor a quando ele se aplica ¦ Une cada selector con cuándo se aplica
+hryhd1phor ¦ Mouse em cima ¦ Ratón encima
+2czdeulamnt ¦ Foco pelo teclado ¦ Foco del teclado
+789qe1y3dy ¦ Primeiro dentro do pai ¦ Primero dentro de su padre
+18u2v3nsxa2 ¦ Terceiro dentro do pai ¦ Tercero dentro de su padre
+yf73clbois ¦ Qual estiliza uma linha sim, outra não (listras zebradas)? ¦ ¿Cuál da estilo a una fila sí y otra no (rayas de cebra)?
+11ekpbg30p0 ¦ Do que `::before` precisa para mostrar algo? ¦ ¿Qué necesita `::before` para mostrar algo?
+bk07fjj5d7 ¦ Uma propriedade content ¦ Una propiedad content
+2fg7e7p11ah ¦ Uma classe ¦ Una clase
+16dlmz59rhc ¦ Deixe os links dourados quando o mouse estiver em cima ¦ Pon los enlaces dorados cuando el ratón esté encima
+1j8pvbm3pw7 ¦ Você deve estilizar o `:focus-visible` para que quem usa teclado veja onde está. ¦ Deberías dar estilo a `:focus-visible` para que quienes usan teclado vean dónde están.
+iypvn5ekef ¦ Transições e transformações ¦ Transiciones y transformaciones
+1l8y71v6f9n ¦ Magia suave ¦ Magia suave
+1djt6yj2up2 ¦ Ligue a transformação ao seu efeito ¦ Une cada transformación con su efecto
+1u2ihfvfqwr ¦ 20% maior ¦ Un 20% más grande
+1mfopw1yo0c ¦ Girado ¦ Girado
+dt7hcqkxhc ¦ Movido 5px para cima ¦ Movido 5px hacia arriba
+1oduv8we2wy ¦ Metade do tamanho ¦ La mitad de tamaño
+1v4f5rnbzi ¦ Onde a propriedade `transition` deve ficar? ¦ ¿Dónde debe ir la propiedad `transition`?
+1pxkyy2hx8 ¦ No estado normal (.rune), para animar nos dois sentidos ¦ En el estado normal (.rune), para que anime en los dos sentidos
+4s9gg3i5fl ¦ Só no :hover ¦ Solo en :hover
+z42b4ns29y ¦ No <body> ¦ En el <body>
+vh30jhapz7 ¦ O que é mais barato para o navegador animar? ¦ ¿Qué es más barato de animar para el navegador?
+1n7d8u604kr ¦ `@keyframes` permite criar animações com muitos passos. ¦ `@keyframes` te permite crear animaciones con muchos pasos.
+ugutb5htp9 ¦ Como respeitar quem sente enjoo com movimento? ¦ ¿Cómo respetar a quienes se marean con el movimiento?
+2budz5lgv6u ¦ Use @media (prefers-reduced-motion: reduce) para suavizar as animações ¦ Usa @media (prefers-reduced-motion: reduce) para suavizar las animaciones
+124vfzbmzw5 ¦ Deixar as animações mais rápidas ¦ Hacer las animaciones más rápidas
+1i073mc0vnx ¦ Adicionar mais animações ¦ Añadir más animaciones
+2amcczqcv4a ¦ Animar só as cores ¦ Animar solo los colores
+190un85t4is ¦ Propriedades personalizadas ¦ Propiedades personalizadas
+9p8jihxvyh ¦ Variáveis no CSS ¦ Variables en CSS
+1vv4t1acw48 ¦ Use a variável --gold ¦ Usa la variable --gold
+jjzpabjc6p ¦ Onde as propriedades personalizadas globais costumam ser definidas? ¦ ¿Dónde se suelen definir las propiedades personalizadas globales?
+29fjb1mj30 ¦ Os nomes das propriedades personalizadas começam com dois hífens. ¦ Los nombres de las propiedades personalizadas empiezan con dos guiones.
+2fu5qj2d9g5 ¦ Qual é uma grande vantagem das propriedades personalizadas? ¦ ¿Cuál es una gran ventaja de las propiedades personalizadas?
+1dcqzwnw3ex ¦ Mudar um valor num só lugar e tudo se atualiza ¦ Cambias un valor en un solo sitio y todo se actualiza
+1r72bgntbwc ¦ Deixam os arquivos CSS com menos de 1KB ¦ Hacen que los archivos CSS ocupen menos de 1KB
+pgpb8guaod ¦ Substituem o HTML ¦ Sustituyen al HTML
+23cr23ntgve ¦ Só funcionam num navegador ¦ Solo funcionan en un navegador
+1sro0zjsmb6 ¦ Desafio: Encantos de Hover ¦ Desafío: Encantamientos Hover
+1wauio0w0js ¦ Desafio: A Cor Real ¦ Desafío: El Color Real
+25m15b98gsg ¦ Posicionamento e Camadas ¦ Posicionamiento y Capas
+1t6c5161m97 ¦ Relative, absolute, fixed, sticky e z-index. ¦ Relative, absolute, fixed, sticky y z-index.
+cxiekrmbfr ¦ Relative e absolute ¦ Relative y absolute
+27au6vxgmd8 ¦ Posicionando com precisão ¦ Colocar las cosas con precisión
+1ulvghk3j84 ¦ Um selo deve ficar no canto superior direito de um cartão. Do que o cartão precisa? ¦ Una insignia debe ir en la esquina superior derecha de una tarjeta. ¿Qué necesita la tarjeta?
+120egfell09 ¦ Um elemento `absolute` continua ocupando espaço no fluxo normal. ¦ Un elemento `absolute` sigue ocupando espacio en el flujo normal.
+hnnokbz54d ¦ Ele sai do fluxo; os outros elementos agem como se ele não estivesse lá. ¦ Sale del flujo; los demás elementos actúan como si no estuviera.
+tyez69ejyq ¦ O que `position: relative; top: 10px;` faz? ¦ ¿Qué hace `position: relative; top: 10px;`?
+10etvevceqz ¦ Move o elemento 10px para baixo a partir do lugar normal ¦ Mueve el elemento 10px hacia abajo desde su lugar normal
+3mn06e35aw ¦ Move para o topo da página ¦ Lo mueve arriba del todo de la página
+owjkn2ycd ¦ Gruda na tela ¦ Lo pega a la pantalla
+2109u9fst05 ¦ Nada ¦ Nada
+21uhyz7o81p ¦ Coloque o selo a 8px do topo e da direita do cartão ¦ Coloca la insignia a 8px de arriba y de la derecha de su tarjeta
+e69okwzs8h ¦ Fixed, sticky e camadas ¦ Fixed, sticky y capas
+1uolxodn70w ¦ Ficar na tela ¦ Quedarse en pantalla
+23k3w7ahrmq ¦ Ligue a posição ao seu uso ¦ Une cada posición con su uso
+cpr3hm6m8l ¦ Botão de chat no canto ¦ Botón de chat en la esquina
+bavxdofx33 ¦ Cabeçalho que gruda ao rolar ¦ Cabecera que se queda fija al desplazarte
+dq2u3wy5sz ¦ Selo num cartão ¦ Insignia en una tarjeta
+cbkqfzrqam ¦ O padrão ¦ El valor por defecto
+2bg55x61z82 ¦ Qual caixa fica na frente? ¦ ¿Qué caja queda delante?
+fuczol7rmk ¦ A que vier primeiro no HTML ¦ La que aparezca primero en el HTML
+16hnxwyoibl ¦ `z-index` só funciona em elementos posicionados (ou filhos de flex/grid). ¦ `z-index` solo funciona en elementos posicionados (o hijos de flex/grid).
+22su51z5dta ¦ Um cabeçalho sticky também precisa de... ¦ Una cabecera sticky también necesita...
+14gap88ehgl ¦ top: 0 (onde grudar) ¦ top: 0 (dónde quedarse fija)
+5qcvjhtnx ¦ Design Responsivo ¦ Diseño Responsive
+avs7zk1bqb ¦ Páginas que ficam ótimas em celulares, tablets e computadores. ¦ Páginas que se ven genial en móviles, tabletas y ordenadores.
+xiym41nqic ¦ Media queries ¦ Media queries
+9ry5fvd8q4 ¦ CSS que se adapta ¦ CSS que se adapta
+1fuvoh9brdg ¦ `@media (max-width: 600px)` se aplica quando a tela tem... ¦ `@media (max-width: 600px)` se aplica cuando la pantalla mide...
+zm71frpk3j ¦ 600px de largura ou menos ¦ 600px de ancho o menos
+1r7wini3zx4 ¦ Mais de 600px de largura ¦ Más de 600px de ancho
+7vx79a0e9d ¦ Exatamente 600px ¦ Exactamente 600px
+1vmdon5sg0j ¦ Impressa ¦ Impresa
+zgmc6w1k0l ¦ `@media (min-width: 768px)` se aplica quando a tela tem... ¦ `@media (min-width: 768px)` se aplica cuando la pantalla mide...
+6fdbna52cy ¦ 768px de largura ou mais ¦ 768px de ancho o más
+bdko5wj7rl ¦ Menos de 768px de largura ¦ Menos de 768px de ancho
+af6dcp3we3 ¦ Um celular ¦ Un móvil
+fmrk3moro3 ¦ Só no modo retrato ¦ Solo en vertical
+13vdmiigdd3 ¦ Mobile-first ¦ Mobile-first
+vkjez1exlu ¦ No CSS mobile-first, os estilos fora de qualquer media query são para telas pequenas. ¦ En el CSS mobile-first, los estilos fuera de cualquier media query son para pantallas pequeñas.
+252hcmxn481 ¦ Mude para uma coluna em telas de 500px ou menos ¦ Cambia a una columna en pantallas de 500px o menos
+15asphbsc40 ¦ Sua página aparece afastada no celular mesmo com media queries. O que está faltando? ¦ Tu página se ve alejada en el móvil incluso con media queries. ¿Qué falta?
+fars9w4nn0 ¦ A meta tag de viewport ¦ La etiqueta meta viewport
+t7u4ypjg4q ¦ Um reset de CSS ¦ Un reset de CSS
+1eva50snb64 ¦ Uma fonte maior ¦ Una fuente más grande
+n5jftto6ok ¦ Layouts fluidos ¦ Diseños fluidos
+29vdgayjom1 ¦ Tamanhos que fluem ¦ Tamaños que fluyen
+az01azlfmo ¦ Ligue a unidade ¦ Une cada unidad
+tf44dg8xq ¦ 1% da largura da tela ¦ El 1% del ancho de la pantalla
+2fza57qo63i ¦ 1% da altura da tela ¦ El 1% del alto de la pantalla
+2g4jkqw6eq3 ¦ Parte do pai ¦ Parte del padre
+hqxz4vlowz ¦ Parte do espaço livre do grid ¦ Parte del espacio libre del grid
+2g1djf9fl6g ¦ O que impede as imagens de transbordar em telas pequenas? ¦ ¿Qué evita que las imágenes se salgan en pantallas pequeñas?
+1q9vkget9oq ¦ O que o clamp faz aqui? ¦ ¿Qué hace clamp aquí?
+ukr7wjf8wj ¦ Cresce com a tela, mas fica entre 1rem e 2rem ¦ Crece con la pantalla, pero se queda entre 1rem y 2rem
+24fydbld2zz ¦ Sempre 4vw ¦ Siempre 4vw
+207b489sin5 ¦ Sempre 2rem ¦ Siempre 2rem
+9albqjcu36 ¦ Escolhe um tamanho aleatório ¦ Elige un tamaño al azar
+13jgnn8g9dt ¦ Você pode testar muitos tamanhos de tela com a barra de dispositivos das DevTools. ¦ Puedes probar muchos tamaños de pantalla con la barra de dispositivos de las DevTools.
+14r811wadfi ¦ Desafio: Telas que Mudam de Forma ¦ Desafío: Pantallas que Cambian de Forma
+2ckvrewcxwl ¦ Projeto: A Heráldica Real ¦ Proyecto: La Heráldica Real

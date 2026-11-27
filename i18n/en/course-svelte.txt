@@ -1,0 +1,189 @@
+@@ 1tlp19ni10e
+Svelte
+@@ 1r9eeuik9gg
+The Ember Falls
+@@ ej37szhhti
+The compiler framework: runes ($state, $derived, $props, $effect), blocks, bindings and SvelteKit.
+@@ 269pp92euhr
+Svelte Basics
+@@ 1pmcnx6oivu
+Components, {expressions} and $state.
+@@ 28uxkolgyha
+
+**Key ideas**
+- A `.svelte` file: `<script>`, markup, `<style>` (scoped automatically).
+- Show values with single braces: `{name}`.
+- Reactive state with the rune `let count = $state(0)`; change it like a normal variable.
+- Events are attributes: `onclick={() => count++}`.
+- Svelte **compiles** components to small, fast JavaScript.
+@@ 1ee7qbwqkdd
+What makes Svelte different
+@@ 25253xhzohp
+A compiler, not a library
+@@ 2ayniyoi9az
+React and Vue run a library in the browser. **Svelte** is a **compiler**: it turns your components into plain, efficient JavaScript at build time.
+
+```
+<script>
+  let name = "Ada";
+</script>
+
+<h1>Hello, {name}!</h1>
+
+<style>
+  h1 { color: orangered; }
+</style>
+```
+@@ 5ekx46wx1l
+What is special about Svelte?
+@@ 26ljpqkdyay
+It compiles components into small JavaScript at build time
+@@ iv6hnzccy9
+It has no components
+@@ s58qjdkx18
+It only works on servers
+@@ 167f7ocwn4r
+It replaces HTML
+@@ 8t66aamaqe
+Show the name
+@@ i0ot9yh6nh
+Styles in a Svelte component are scoped to that component by default.
+@@ skzuyo948x
+Runes and state
+@@ m9ff204yci
+```
+<script>
+  let embers = $state(0);
+</script>
+
+<button onclick={() => embers++}>Embers: {embers}</button>
+```
+`$state` is a **rune**: a special compiler instruction. You change the value like a normal variable.
+@@ szkrr6irfb
+How do you create reactive state in Svelte 5?
+@@ 177dh3k9od8
+state count = 0
+@@ qlu3beszab
+Which line uses old event syntax from Svelte 4?
+@@ 2caeb5pubgc
+In Svelte 5, events are normal attributes: `onclick={...}`.
+@@ 22c5cjt9z6d
+Match the framework with its state
+@@ jdufkw7vs1
+Vue
+@@ 1mikfsbzrmg
+Challenge: First Flame
+@@ 15ztcfdh5r6
+Challenge: Living Embers
+@@ 23r1ekirows
+Derived Values, Blocks and Bindings
+@@ 1tjlqlh8wpy
+$derived, {#each}, {#if} and bind:.
+@@ 1rsbgjleqoz
+
+**Key ideas**
+- `let double = $derived(count * 2)` stays in sync automatically.
+- `{#if cond}...{:else}...{/if}`, `{#each items as item (item.id)}...{/each}`.
+- `bind:value={name}`, `bind:checked={brave}` for two-way binding.
+- `$effect(() => { ... })` for side effects (re-runs when what it reads changes).
+@@ 1v532l16yse
+$derived and blocks
+@@ yeuhwe0cxb
+Derive, repeat, decide
+@@ 2ae73klyjyv
+Keep "double" in sync with count
+@@ 29a0yo98lgt
+Loop over the orders
+@@ rbijd91sqz
+`(torch.id)` in an each block is...
+@@ rvrqsgh6rp
+The key for each item
+@@ 1sze7hqmtyl
+A function call
+@@ 186g7c6cpzk
+A filter
+@@ 1b6s4smaz46
+Bindings and effects
+@@ riwidwb56c
+Two-way binding
+@@ 12p4mee53i9
+What does `bind:value` do?
+@@ ccoub8prnv
+Keeps the input and variable in sync both ways
+@@ 2eul8gcuo57
+Validates the input
+@@ o3zoyc13az
+Clears the input
+@@ 2a5gs0obnw1
+Binds CSS
+@@ 9eixkvkbe0
+Match the rune
+@@ 1zhb5cuet9m
+Reactive value
+@@ 1sltr4rn92j
+Value computed from others
+@@ 13rncteaued
+Side effect when things change
+@@ 1ko03r36ivk
+Component inputs
+@@ 1kgnln3camp
+`$effect` is a good place to compute a value you show in the markup.
+@@ 1y5c9l8m4ga
+Use `$derived` for values. `$effect` is for side effects like saving or logging.
+@@ 1zmpxmumuzp
+Challenge: Reflections in the Falls
+@@ mmao9krluu
+Challenge: The Torch Wall
+@@ 273b4a61rbq
+Challenge: The Bound Scroll
+@@ 1wddtej2524
+Components and SvelteKit
+@@ 4tr4l9hhv0
+$props, callback props and the SvelteKit framework.
+@@ 11l20wlrvm3
+
+**Key ideas**
+- Props: `let { name, lit = false } = $props();` (with defaults).
+- Child → parent: pass a function prop (`onremove`) and call it.
+- `{order}` is shorthand for `order={order}`.
+- **SvelteKit**: the full framework (file-based routes in `src/routes`, `+page.svelte`, server load functions).
+@@ k7t0c5btys
+Props and callbacks
+@@ 261ne2mcu9i
+Passing the torch
+@@ 1zpxsjxsj48
+Read the props with a default
+@@ ivlz0pbmzk
+How does a child tell the parent something happened in Svelte 5?
+@@ usrb726kwc
+By calling a function passed as a prop
+@@ 2ky3h0gvdb
+With createEventDispatcher only
+@@ 68kj6t8bua
+`<OrderItem {order} />` is short for...
+@@ 1lus8pn6t7v
+<OrderItem order={order} />
+@@ jlthv6qfee
+<OrderItem {...order} />
+@@ 22dnpckd1v9
+<OrderItem order="order" />
+@@ 1idc1ldrc35
+The full kit
+@@ 1daegu7459m
+**SvelteKit** is the framework for real Svelte apps:
+- routes are folders in `src/routes` (`src/routes/about/+page.svelte` → `/about`)
+- `+page.js` / `+page.server.js` load data
+- server rendering, forms and API endpoints built in
+- start with `npx sv create my-app`
+@@ r620rw7rni
+Which file creates the page at `/shop`?
+@@ 10vjih07qyn
+Match the framework
+@@ 1xloivd4glx
+Nuxt
+@@ 2cfr7ojvme3
+Every framework teaches the same core ideas: components, props, state and events.
+@@ 4mharhjtie
+Challenge: Passing the Torch
+@@ 15mf71wqxun
+Project: The Forge Queue

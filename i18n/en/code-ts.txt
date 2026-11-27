@@ -1,0 +1,264 @@
+@@ 1ye2ihe4yug
+When you cast a spell here, the **Runesmith** (the TypeScript compiler) checks your runes first. Type errors appear as *curses* with a red wavy line. Hover over the line to read them.
+@@ oj65sbuxi9
+Runes of Type
+@@ 1tugaobvmbr
+type annotations
+@@ 55wwkonrb2
+The Runesmith squints at your scroll. "This says gold is *lots*? Gold is counted in **numbers**, apprentice!"
+@@ 135bzxzo755
+TypeScript is JavaScript plus **types**. A type says what kind of value a variable holds:
+
+```
+let gold: number = 100;
+const heroName: string = "Ada";
+let isBrave: boolean = true;
+```
+
+If you put the wrong kind of value in, TypeScript shows an error **before** the code runs.
+
+{0}
+@@ 2130s3qy9um
+Lift the curse on `gold` by giving it a number. Then add the type runes `: string` to `heroName` and `: boolean` to `isBrave`.
+@@ 2aub43yk052
+TypeScript can often *infer* types: `let gold = 100` is already a `number`, so annotations on simple variables are optional. Types disappear when the code runs (browsers run the JavaScript output), so they cost nothing at runtime. Their value is catching bugs early and giving your editor great autocomplete.
+@@ 9ewzykva8j
+Replace `"lots"` with a number, like `100`.
+@@ f4yx6n1v1u
+`const heroName: string = "Ada";` and `let isBrave: boolean = true;`
+@@ 17f6mi962uo
+gold is a number
+@@ 1eml8ps02zm
+heroName has the : string rune
+@@ nmjszi2mvi
+isBrave has the : boolean rune
+@@ 1jlfw1f730w
+Runes on Functions
+@@ 17d175s349c
+parameter types
+@@ 1fo3h1q1ffv
+return types
+@@ 1m93qo1lh9n
+An old damage formula has no runes at all. Anyone could call it with anything, even `damage("banana", true)`!
+@@ 1l1k75htmis
+Functions get types on their **parameters** and on their **return value**:
+
+```
+function heal(hp: number, amount: number): number {
+  return hp + amount;
+}
+```
+
+In strict TypeScript, a parameter without a type is an error (it would be `any`, which means "anything goes").
+
+`Math.max(0, x)` gives the bigger of the two numbers, so it never goes below 0.
+@@ iwzp8a1suh
+Add types to `damage(attack, armor)` so it returns a `number`, and make sure it never returns less than **0**. Then write `greet(name: string): string` that returns `"Hail, <name>!"`.
+@@ uiyqxz5vf7
+Typed function signatures are like contracts: callers know exactly what to pass and what they get back. In big codebases this is the main reason teams adopt TypeScript. Your editor will also show the signature as you type a call.
+@@ 2fpumj0xly4
+damage(10, 3) is 7
+@@ 1iugbijc797
+damage never goes below 0
+@@ 1sroq7hs4h5
+greet("Bo") returns "Hail, Bo!"
+@@ 14vqg3shzf1
+Both functions declare a return type
+@@ 1sch0knoe6o
+The Shape of a Hero
+@@ 1h4k5m29la
+optional properties
+@@ r8y5llch91
+The guild wants every hero record to have the same shape. No more heroes without names!
+@@ 1tn23e2fjh5
+An **interface** describes the shape of an object:
+
+```
+interface Hero {
+  name: string;
+  level: number;
+  title?: string;    // ? means optional
+}
+
+const ada: Hero = { name: "Ada", level: 3 };
+```
+
+Inside a function you can check an optional property before using it: `if (hero.title) { ... }`.
+@@ 2fwe38k9u9l
+Fill in the `Hero` interface (`name`, `level` and an optional `title`). Then make `describe` put the title in front when there is one: `"Sir Cy (level 9)"`, otherwise `"Ada (level 3)"`.
+@@ v16totfjos
+`interface` and `type` aliases can both describe objects. Interfaces can be extended (`interface Knight extends Hero`) and merged; `type` can also describe unions and other shapes. Many teams simply pick one style and stay consistent.
+@@ d7pxcssyp8
+In `describe`: ``const who = hero.title ? `${hero.title} ${hero.name}` : hero.name;``
+@@ 1x6j2itx1yk
+The interface has name, level and optional title
+@@ 33q9av8apb
+describe without a title: "Bo (level 1)"
+@@ 8tl746zxnl
+describe with a title: "Sir Cy (level 9)"
+@@ 1qv06lh6n1x
+The Rune of Directions
+@@ ldnkjasspc
+union types
+@@ 9jr1g7lgc4
+literal types
+@@ z1m8xir3uw
+typed arrays
+@@ 108brxf60k
+Deep in the forge, your hero follows a path written on a scroll. But a careless scribe made a **typo**, and without runes, nobody notices until the hero is lost.
+@@ 1e4k6ro0j9g
+A **union type** lists the only values allowed:
+
+```
+type Direction = "up" | "down" | "left" | "right";
+const path: Direction[] = ["right", "down"];
+```
+
+`Direction[]` means "an array of Directions". Now a typo like `"rigth"` is caught by the Runesmith before your hero takes a single step.
+
+{0}
+@@ cximlzla35
+Fix the typo in the path, then complete it so the hero reaches the gate.
+@@ cck39ola8m
+Without TypeScript, the typo would only fail *while the program runs*, maybe in front of a customer. With literal union types the editor even autocompletes the allowed values. This "make wrong states impossible" idea is one of the most useful habits in professional TypeScript.
+@@ 8gv7qte5cl
+The typo is `"rigth"`. After fixing it, look at the map: right 2, down 1, right 2, down 2.
+@@ 1ffnz9909ra
+The path is typed as Direction[]
+@@ 15ailfb1us6
+Maybe There, Maybe Not
+@@ 239t3jxrg1l
+optional chaining
+@@ 1pqm6u9mc94
+nullish coalescing
+@@ rx40i6vtvw
+Not every knight owns a horse, and some knights do not exist at all. The old code crashes at the stables.
+@@ 1pluxfj5h61
+`find` returns `undefined` when nothing matches, so its type is `Knight | undefined`. TypeScript will not let you use it until you **check**:
+
+```
+const knight = findKnight("Bo");
+if (!knight) return "nobody";   // narrowing
+knight.name;                     // safe now
+```
+
+Shortcuts:
+- `knight?.horse` gives `undefined` instead of crashing (*optional chaining*)
+- `value ?? "default"` uses the default when value is null or undefined
+@@ ftfgd1kdes
+Make `horseName(name)` return the horse name in CAPITALS, or `"NO HORSE"` when the knight does not exist or has no horse.
+@@ 3flahk7vcm
+"Cannot read properties of undefined" is the most common JavaScript error in production. With `strictNullChecks` (part of `strict`), TypeScript forces you to handle those cases. Tony Hoare, who invented null references, called them his "billion-dollar mistake".
+@@ 27d5tpnsxrq
+Or in one line: `return knight?.horse?.toUpperCase() ?? "NO HORSE";`
+@@ 14hrbsos6lr
+horseName("Ada") is "THUNDER"
+@@ al0isx1duu
+A knight without a horse gives "NO HORSE"
+@@ 2ch22zjuj7x
+An unknown knight gives "NO HORSE"
+@@ 2trn2bn0vf
+Generic Chests
+@@ ncscyokjix
+type parameters
+@@ 21v433lo3rn
+The forge makes chests for strings only. Now the King wants chests for gems (numbers), potions, anything! Forge one chest that fits all.
+@@ u3obozt417
+**Generics** are type *parameters*: placeholders filled in later. `T` is the usual name:
+
+```
+function last<T>(items: T[]): T | undefined {
+  return items[items.length - 1];
+}
+last([1, 2, 3]);       // T is number
+last(["a", "b"]);      // T is string
+```
+
+Classes can be generic too:
+
+```
+class Box<T> {
+  private items: T[] = [];
+  put(item: T): void { this.items.push(item); }
+}
+const gems = new Box<number>();
+```
+@@ 1uoixxllyzq
+Make `firstItem` generic, and make `Chest` a generic class `Chest<T>` with `add(item: T)`, `count()` and a new `takeAll(): T[]` that returns all items and leaves the chest empty.
+@@ 1r1xksadpr7
+You already use generics every day: `Array<T>`, `Promise<T>`, `Map<K, V>`, React's `useState<T>`. Generics keep type safety without writing the same code for every type. Avoid reaching for `any`: it switches type checking off.
+@@ ojhnyu3xq5
+firstItem is generic (<T>)
+@@ 1qgfcp4xx3b
+Chest is a generic class
+@@ f77n0y4y8u
+firstItem works ([3,1,2] → 3, [] → undefined)
+@@ 1th1aj7b27q
+takeAll returns the items and empties the chest
+@@ q9pg53sp4h
+Classes of the Guild
+@@ lh60hiw7ve
+The guild takes new apprentices. Each one trains, gains experience and rises in rank.
+@@ 2fst3gdthum
+A **class** is a blueprint for objects. It can promise to follow an interface with **implements**:
+
+```
+interface Member {
+  name: string;
+  rank(): string;
+}
+
+class Guard implements Member {
+  private xp = 0;                       // only usable inside the class
+  constructor(public name: string) {}   // creates this.name
+
+  rank(): string {
+    return this.xp > 10 ? "Veteran" : "Recruit";
+  }
+}
+```
+@@ h68xuh3wcj
+Create `class Apprentice implements Member`. Its constructor takes a `name`. It has a **private** `xp` starting at 0, a `train(amount: number)` method that adds xp, and `rank()` that returns `"Novice"` below 100 xp, `"Adept"` below 500, and `"Master"` from 500.
+@@ 1k37k5icrr4
+`private` is checked by TypeScript only; JavaScript also has real private fields with `#xp`. Classes are common in back-end code (services, controllers). Front-end code often prefers plain functions and objects. Know both styles.
+@@ 1jzwti8xt47
+Apprentice implements Member
+@@ 1b02f3y5ux0
+xp is private
+@@ 1vjhpsuc41u
+The constructor stores the name
+@@ 1feys0pebl8
+Ranks: Novice → Adept → Master
+@@ 1wheg9982cv
+The Rune Inventory
+@@ gc7js126dm
+The Master Runesmith tests you: build the forge's inventory system, with **not a single curse** on it.
+@@ 12on4dwbb9u
+Boss challenge! Use what you learned: union types, interfaces, typed functions and `undefined` handling.
+
+A useful trick: `reduce` with a starting value of `0` sums numbers safely, even for an empty list.
+@@ 1fkui8cxx2z
+Complete the inventory:
+- `interface Item` with `name` (string), `weight` (number) and `rarity` (a `Rarity`)
+- `addItem(item: Item): void` adds to `inventory`
+- `totalWeight(): number`
+- `byRarity(rarity: Rarity): string[]` returns the **names**
+- `heaviest(): Item | undefined`
+@@ 2a3b9fq2an0
+This is what day-to-day TypeScript looks like: model your data with types, then write small, typed functions around it. Good types act as documentation that can never go out of date.
+@@ 223tlz3sgzd
+`heaviest`: loop and keep the one with the biggest weight, starting from `undefined`.
+@@ 1cfd3yh7pa6
+Item uses the Rarity type
+@@ y9d5ljlw4j
+addItem adds items
+@@ cmp1z53hmv
+totalWeight is 11 (and 0 when empty)
+@@ jhiu9vfmo
+byRarity("rare") is ["Wand", "Orb"]
+@@ 2a0ombwsm9r
+Wand
+@@ 1oasjnmvdwd
+Orb
+@@ a3r9s2p7uq
+Functions have typed parameters and return types

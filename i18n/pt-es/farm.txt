@@ -1,0 +1,980 @@
+@@ 2il4rpwjn3
+Ai! Tem algo no caminho.
+~~
+¡Ay! Hay algo en el camino.
+@@ 2c2tmhaj1ue
+Cedo demais! Essa planta não estava madura.
+~~
+¡Demasiado pronto! Ese cultivo no estaba maduro.
+@@ rz8hcwdnns
+Zzz... noite {0}
+~~
+Zzz... noche {0}
+@@ rubw5u54q0
+Regador cheio!
+~~
+¡Regadera llena!
+@@ 1s09bctuu2d
+direita
+~~
+derecha
+@@ 198pv3f7eoh
+esquerda
+~~
+izquierda
+@@ 297898w0in7
+baixo
+~~
+abajo
+@@ 27qlhuq15ul
+cima
+~~
+arriba
+@@ 1u81itfelld
+trigo
+~~
+trigo
+@@ 15l20akatqp
+cenoura
+~~
+zanahoria
+@@ 1nxhy1hypnb
+abóbora
+~~
+calabaza
+@@ 28s1bxqp0i1
+Uma pergunta: verdadeiro ou falso
+~~
+Una pregunta: verdadero o falso
+@@ 2d2i9qhoxdg
+quando ▶ Executar
+~~
+al ▶ Ejecutar
+@@ 26rzu56a3b5
+Seu programa começa aqui
+~~
+Tu programa empieza aquí
+@@ 1q4mo7xawgn
+%1 mover %2
+~~
+%1 mover %2
+@@ 19njz1hpeuq
+Anda uma casa
+~~
+Camina una casilla
+@@ x4ld1jvn0z
+%1 plantar %2
+~~
+%1 plantar %2
+@@ 22zfh4mchg1
+Planta uma semente nesta casa
+~~
+Planta una semilla en esta casilla
+@@ 1fqkl8by14j
+%1 regar
+~~
+%1 regar
+@@ 1lax5tp04d8
+Rega esta casa
+~~
+Riega esta casilla
+@@ sh13drylf2
+%1 colher
+~~
+%1 cosechar
+@@ 1b29mj0wc6e
+Colhe uma planta madura
+~~
+Recoge un cultivo maduro
+@@ 1a08rs6kbrq
+%1 dormir até de manhã
+~~
+%1 dormir hasta la mañana
+@@ 1z60r5wgaky
+Plantas regadas crescem um passo durante a noite
+~~
+Los cultivos regados crecen un paso por la noche
+@@ 1drwszdnbti
+%1 arar a grama
+~~
+%1 arar el césped
+@@ 1ijxvkgf8tm
+Transforma grama em terra arada
+~~
+Convierte el césped en tierra de cultivo
+@@ ws0oykjssk
+%1 arrancar mato
+~~
+%1 arrancar maleza
+@@ 1jn1d48dsp0
+Arranca o mato desta casa
+~~
+Arranca la maleza de esta casilla
+@@ 11rd3xs0q65
+%1 próxima fileira
+~~
+%1 siguiente fila
+@@ 11n68jdss1f
+Desce uma fileira e volta para a esquerda
+~~
+Baja una fila y vuelve al lado izquierdo
+@@ 2awwlchj6v0
+%1 encher regador
+~~
+%1 llenar regadera
+@@ 16n14wtdpoq
+Enche o regador no lago
+~~
+Llena la regadera en el estanque
+@@ 17pbzr577k9
+dizer %1
+~~
+decir %1
+@@ 151no1rlal1
+Olá!
+~~
+¡Hola!
+@@ 6cysx9a0jo
+repetir %1 vezes %2 %3
+~~
+repetir %1 veces %2 %3
+@@ 2ce4cjjy8mh
+Roda os blocos de dentro de novo e de novo
+~~
+Ejecuta los bloques de dentro una y otra vez
+@@ 56x8tcbik8
+enquanto %1 %2 %3
+~~
+mientras %1 %2 %3
+@@ 2bsi910oqas
+Continua enquanto a pergunta for verdadeira
+~~
+Sigue mientras la pregunta sea verdadera
+@@ 274f066jzxu
+se %1 então %2 %3
+~~
+si %1 entonces %2 %3
+@@ 1aoiidef7as
+Só quando a pergunta for verdadeira
+~~
+Solo cuando la pregunta es verdadera
+@@ 1w7xl7rip8l
+se %1 então %2 %3 senão %4 %5
+~~
+si %1 entonces %2 %3 si no %4 %5
+@@ 15usu9tw8mc
+Dois caminhos: um para verdadeiro, outro para falso
+~~
+Dos caminos: uno para verdadero y otro para falso
+@@ 125sbwbi8xl
+seco?
+~~
+¿seco?
+@@ q17d5pp76j
+maduro?
+~~
+¿maduro?
+@@ 1gqx25hf5cc
+planta aqui?
+~~
+¿cultivo aquí?
+@@ 2b9d1645fuc
+mato aqui?
+~~
+¿maleza aquí?
+@@ yz2l3vmi9s
+grama?
+~~
+¿césped?
+@@ 4qas9851qh
+na terra arada?
+~~
+¿en tierra de cultivo?
+@@ 1ys7vxws5k
+pode mover %1 ?
+~~
+¿puede moverse %1 ?
+@@ 2fkxtuzuean
+Primeiros Sulcos
+~~
+Primeros Surcos
+@@ fq8q4sh00d
+Comandos e loops de repetição, com blocos
+~~
+Comandos y bucles de repetición, con bloques
+@@ 1vshhbiz12
+O Seis-por-Seis
+~~
+El Seis por Seis
+@@ 2dm404g9wrg
+Loops dentro de loops
+~~
+Bucles dentro de bucles
+@@ 7bbhcrhpuq
+O Fazendeiro Esperto
+~~
+El Granjero Listo
+@@ s67s7os8d5
+Se, senão e enquanto. Veja o código que seus blocos geram
+~~
+Si, si no y mientras. Mira el código que generan tus bloques
+@@ 1zi1376f8nb
+Palavras de Poder
+~~
+Palabras de Poder
+@@ 1dl19y37so9
+Digite JavaScript de verdade: for, if, variáveis, funções, arrays
+~~
+Escribe JavaScript de verdad: for, if, variables, funciones, arrays
+@@ 1koihh7lns3
+Mestre do Vale
+~~
+Maestro del Valle
+@@ lsh7gczins
+Juntando tudo
+~~
+Todo junto
+@@ 1dg7b5qydxn
+Plante {0} em todas as casas de terra arada
+~~
+Planta {0} en todas las casillas de cultivo
+@@ 24dfkbcghwj
+Regue todas as plantas
+~~
+Riega todos los cultivos
+@@ 19x323p85v1
+Colha {0} {1}
+~~
+Cosecha {0} {1}
+@@ 1f753ir3g1x
+Arranque todo o mato
+~~
+Arranca toda la maleza
+@@ 27p6efnwiry
+Não colha nada verde
+~~
+No coseches nada verde
+@@ bi3k1h9vsf
+Plante na ordem mostrada
+~~
+Planta siguiendo el patrón mostrado
+@@ 1b39qv29kll
+Uma Semente na Terra
+~~
+Una Semilla en la Tierra
+@@ 1523eb1zt0w
+Bem-vindo à Fazenda de Greenhollow! Seu fazendeiro só faz o que os blocos mandam. Ande até a terra arada e plante uma semente.
+~~
+¡Bienvenido a la Granja de Greenhollow! Tu granjero solo hace lo que dicen los bloques. Camina hasta la tierra de cultivo y planta una semilla.
+@@ 9hk1g6cqov
+Programas são instruções
+~~
+Los programas son instrucciones
+@@ slry11et79
+Um **programa** é uma lista de instruções que rodam **uma depois da outra**, de cima para baixo.
+
+Arraste blocos para baixo de **quando ▶ Executar** para montar seu programa e aperte **Executar**.
+~~
+Un **programa** es una lista de instrucciones que se ejecutan **una tras otra**, de arriba abajo.
+
+Arrastra bloques debajo de **al ▶ Ejecutar** para construir tu programa y pulsa **Ejecutar**.
+@@ adcfhzvtwu
+O fazendeiro está à esquerda. A casa marrom é terra arada.
+~~
+El granjero está a la izquierda. La casilla marrón es tierra de cultivo.
+@@ yons6py4lf
+Mova para a direita duas vezes e depois plante.
+~~
+Muévete a la derecha dos veces y luego planta.
+@@ 6ikkp42q9d
+Uma Fileira de Sementes
+~~
+Una Fila de Semillas
+@@ 26vdx5wna5e
+Três casas de terra boa. Plante uma semente em cada uma.
+~~
+Tres casillas de buena tierra. Planta una semilla en cada una.
+@@ 12p0wh904w6
+Plante, depois mova para a direita, depois plante de novo...
+~~
+Planta, luego muévete a la derecha, luego planta otra vez...
+@@ 1k71kg3wlkz
+Sementes com Sede
+~~
+Semillas Sedientas
+@@ 1kpb5hgz6xk
+Sementes precisam de água para crescer. Dê um gole do seu regador para cada semente.
+~~
+Las semillas necesitan agua para crecer. Dale a cada semilla un trago de tu regadera.
+@@ c0p7m95qvh
+Regar age na casa onde o fazendeiro está.
+~~
+Regar actúa sobre la casilla donde está el granjero.
+@@ 7ys72v1ayi
+Dia e Noite
+~~
+Día y Noche
+@@ 27fnmez2bny
+Uma semente regada cresce um pouco a cada noite. Regue, durma e repita até ela ficar madura. Aí colha!
+~~
+Una semilla regada crece un poco cada noche. Riégala, duerme y repite hasta que esté madura. ¡Luego cosecha!
+@@ 18319wocghs
+Como as plantas crescem
+~~
+Cómo crecen los cultivos
+@@ 1xdewj3x7j4
+1. **regue** a planta
+2. **durma** até de manhã: toda planta regada cresce um passo
+
+Uma semente precisa de **3 noites** para ficar madura. Colher cedo demais desperdiça a planta!
+~~
+1. **riega** el cultivo
+2. **duerme** hasta la mañana: cada cultivo regado crece un paso
+
+Una semilla necesita **3 noches** para madurar. ¡Cosechar demasiado pronto desperdicia el cultivo!
+@@ qriowy4wks
+Regar, dormir, regar, dormir, regar, dormir... e depois colher.
+~~
+Regar, dormir, regar, dormir, regar, dormir... y luego cosechar.
+@@ 97lotv4iet
+A terra seca toda noite, então regue de novo a cada dia.
+~~
+La tierra se seca cada noche, así que riega otra vez cada día.
+@@ py1xy992l2
+Repita Comigo
+~~
+Repite Conmigo
+@@ lo86my9ptx
+Foram muitos blocos! O bloco repetir faz a mesma coisa muitas vezes. Cultive este trigo com menos blocos.
+~~
+¡Fueron muchos bloques! El bloque repetir hace lo mismo muchas veces. Cultiva este trigo con menos bloques.
+@@ mo5cxta7gj
+Um bloco **repetir** roda os blocos de dentro de novo e de novo.
+
+`repeat 3 times: water, sleep` faz o mesmo que seis blocos seguidos.
+
+Os programadores chamam isso de **loop** (laço). Loops deixam os programas curtos.
+~~
+Un bloque **repetir** ejecuta los bloques de dentro una y otra vez.
+
+`repeat 3 times: water, sleep` hace lo mismo que seis bloques seguidos.
+
+Los programadores lo llaman **bucle** (loop). Los bucles hacen los programas cortos.
+@@ 1jdslatnvi1
+Coloque regar e dormir dentro de um bloco repetir 3 vezes.
+~~
+Pon regar y dormir dentro de un bloque repetir 3 veces.
+@@ 194eb8o49u5
+A Fileira Comprida
+~~
+La Fila Larga
+@@ rejoc0relc
+Oito casas de terra! Use um loop para não precisar de dezesseis blocos.
+~~
+¡Ocho casillas de tierra! Usa un bucle para no necesitar dieciséis bloques.
+@@ 166siosxtie
+O que você faz em cada casa? Planta e depois move para a direita. Repita isso 8 vezes.
+~~
+¿Qué haces en cada casilla? Plantar y luego moverte a la derecha. Repite eso 8 veces.
+@@ 1jh6sp03hyw
+Plantar e Regar
+~~
+Plantar y Regar
+@@ 1x3pe9yxz28
+Plante cada semente e regue logo em seguida. Um só loop faz os dois.
+~~
+Planta cada semilla y riégala enseguida. Un solo bucle hace las dos cosas.
+@@ yzv71x2b7j
+Três blocos vão dentro do loop: plantar, regar, mover para a direita.
+~~
+Tres bloques van dentro del bucle: plantar, regar, moverse a la derecha.
+@@ 13aevzay9p2
+Festa da Colheita
+~~
+Fiesta de la Cosecha
+@@ 1ioyzbupcsl
+O trigo está dourado e maduro. Colha tudo para a festa!
+~~
+El trigo está dorado y maduro. ¡Recógelo todo para la fiesta!
+@@ tclgv6xb7k
+O mesmo loop de antes, com colher dentro.
+~~
+El mismo bucle de antes, con cosechar dentro.
+@@ 22ypny01oxw
+Duas Fileiras
+~~
+Dos Filas
+@@ 24uemgz05ym
+Agora o campo tem duas fileiras. O bloco "próxima fileira" leva você ao começo da fileira seguinte.
+~~
+Ahora el campo tiene dos filas. El bloque "siguiente fila" te lleva al principio de la fila siguiente.
+@@ jew30fmgmn
+Você pode colocar um **repetir dentro de um repetir**.
+
+O loop de dentro planta **uma fileira**. O loop de fora faz isso **para cada fileira**.
+
+Isso se chama **loop aninhado**.
+~~
+Puedes poner un **repetir dentro de un repetir**.
+
+El bucle de dentro planta **una fila**. El bucle de fuera hace eso **para cada fila**.
+
+Esto se llama **bucle anidado**.
+@@ 2713jr1jz1h
+Plante uma fileira com um loop e depois use próxima fileira.
+~~
+Planta una fila con un bucle y luego usa siguiente fila.
+@@ 2dpcnw60vki
+Coloque tudo isso dentro de um repetir 2 vezes.
+~~
+Pon todo eso dentro de un repetir 2 veces.
+@@ 1rxmu471ov1
+O Campo Inteiro
+~~
+El Campo Entero
+@@ sp6rv2dsg9
+Seis fileiras de seis. Trinta e seis sementes! Um loop aninhado facilita.
+~~
+Seis filas de seis. ¡Treinta y seis semillas! Un bucle anidado lo hace fácil.
+@@ gttryqk7tt
+É o mesmo programa de Duas Fileiras. Só um número muda.
+~~
+Es el mismo programa que Dos Filas. Solo cambia un número.
+@@ 2dgd3ppcnjc
+Abrindo Terra Nova
+~~
+Abriendo Tierra Nueva
+@@ e4te44aw8v
+Este campo ainda é grama. Are cada casa para virar terra arada e depois plante.
+~~
+Este campo todavía es césped. Ara cada casilla para convertirla en tierra de cultivo y luego planta.
+@@ 11dc5ro3v03
+Em cada casa: arar, depois plantar, depois mover.
+~~
+En cada casilla: arar, luego plantar, luego moverse.
+@@ 1283q0ej6ca
+A Grande Colheita
+~~
+La Gran Cosecha
+@@ 2bgodepwq0o
+Trinta e seis espigas de trigo maduras. Encha o celeiro!
+~~
+Treinta y seis espigas de trigo maduras. ¡Llena el granero!
+@@ 2clcc4vm5uy
+Um loop aninhado de novo, com colher dentro.
+~~
+Un bucle anidado otra vez, con cosechar dentro.
+@@ 1vlg17m7tao
+Três Dias de Chuva
+~~
+Tres Días de Lluvia
+@@ 28i94qw5vt1
+Nada de chuva esta semana. Regue a fileira, volte e durma. Faça isso por três dias e depois colha.
+~~
+Nada de lluvia esta semana. Riega la fila, vuelve y duerme. Hazlo durante tres días y luego cosecha.
+@@ 23recer9wh9
+Um dia: regue a fileira, volte para a esquerda 6 vezes, durma.
+~~
+Un día: riega la fila, vuelve a la izquierda 6 veces, duerme.
+@@ y4r3mma3re
+Repita esse dia 3 vezes e depois colha a fileira.
+~~
+Repite ese día 3 veces y luego cosecha la fila.
+@@ 1k4pmab8e3l
+Só as Sedentas
+~~
+Solo las Sedientas
+@@ 1mf1a53jo46
+Algumas sementes já estão molhadas, e seu regador só tem 5 goles. Regue só as secas.
+~~
+Algunas semillas ya están mojadas, y tu regadera solo tiene 5 tragos. Riega solo las secas.
+@@ 11qf4oh8s94
+Se: tomando decisões
+~~
+Si: tomar decisiones
+@@ 15vmh771aeu
+Um bloco **se** só roda os blocos de dentro **quando a pergunta é verdadeira**.
+
+`if dry? then water` rega as casas secas e pula as molhadas.
+
+Olhe o painel de código: cada bloco também é uma linha de **JavaScript**.
+~~
+Un bloque **si** solo ejecuta los bloques de dentro **cuando su pregunta es verdadera**.
+
+`if dry? then water` riega las casillas secas y se salta las mojadas.
+
+Mira el panel de código: cada bloque también es una línea de **JavaScript**.
+@@ 1vjzdnhoym
+Casas molhadas parecem mais escuras. Use a pergunta "seco?" dentro de um se.
+~~
+Las casillas mojadas se ven más oscuras. Usa la pregunta "¿seco?" dentro de un si.
+@@ e4thhcv9oh
+Maduro ou Não?
+~~
+¿Maduro o No?
+@@ 12usupg95s
+Colha o trigo dourado e regue o trigo verde para ele continuar crescendo.
+~~
+Cosecha el trigo dorado y riega el trigo verde para que siga creciendo.
+@@ 18qxhg02fqh
+Se ... senão
+~~
+Si ... si no
+@@ f6o3kk6vlq
+Um bloco **se / senão** tem dois caminhos:
+
+- se a pergunta for **verdadeira**, roda a primeira parte
+- **senão** (caso contrário) roda a segunda parte
+~~
+Un bloque **si / si no** tiene dos caminos:
+
+- si la pregunta es **verdadera**, ejecuta la primera parte
+- **si no** (en otro caso) ejecuta la segunda parte
+@@ 1rl0w8gghkk
+se maduro? colher, senão regar. Depois mover para a direita.
+~~
+si ¿maduro? cosechar, si no regar. Luego moverse a la derecha.
+@@ 1cfk7ot6c15
+Mato!
+~~
+¡Maleza!
+@@ w0b0g0ljsi
+O mato invadiu a fileira. Arranque onde encontrar e depois plante uma semente em cada casa.
+~~
+La maleza se coló en la fila. Arráncala donde la encuentres y luego planta una semilla en cada casilla.
+@@ 64wueq5b73
+Só arranque o mato se houver. Mas plante em todas as casas.
+~~
+Arranca la maleza solo si la hay. Pero planta en todas las casillas.
+@@ 1pcw9evderk
+Fileiras de Todos os Tamanhos
+~~
+Filas de Todos los Tamaños
+@@ 1esrxve9wh2
+Estas fileiras têm tamanhos diferentes. Um loop enquanto continua enquanto você estiver em terra arada.
+~~
+Estas filas tienen longitudes distintas. Un bucle mientras sigue mientras estés en tierra de cultivo.
+@@ a6fcnmq3qk
+Loops enquanto
+~~
+Bucles mientras
+@@ huri4vjsnx
+Um loop **repetir** roda um número fixo de vezes.
+
+Um loop **enquanto** roda **enquanto** a pergunta for verdadeira. Você não precisa saber quantas vezes!
+~~
+Un bucle **repetir** se ejecuta un número fijo de veces.
+
+Un bucle **mientras** se ejecuta **mientras** su pregunta sea verdadera. ¡No necesitas saber cuántas veces!
+@@ 244jxhya4wl
+Enquanto estiver na terra arada: plantar e mover para a direita.
+~~
+Mientras estés en tierra de cultivo: plantar y moverse a la derecha.
+@@ 11pfjvighj9
+Coloque esse loop enquanto e uma próxima fileira dentro de repetir 3 vezes.
+~~
+Pon ese bucle mientras y una siguiente fila dentro de repetir 3 veces.
+@@ 25b4zotb4xo
+O Campo Bagunçado
+~~
+El Campo Desordenado
+@@ 28nim89dja6
+Mato, trigo maduro e terra vazia, tudo misturado. Limpe, colha e plante sementes novas em todo lugar.
+~~
+Maleza, trigo maduro y tierra vacía, todo mezclado. Límpialo, cosecha y planta semillas nuevas por todas partes.
+@@ krdu5marut
+Dois blocos se em cada casa: um para o mato, outro para o trigo maduro. Depois plante.
+~~
+Dos bloques si en cada casilla: uno para la maleza y otro para el trigo maduro. Luego planta.
+@@ syis4xpvaa
+Sua Primeira Linha de Código
+~~
+Tu Primera Línea de Código
+@@ 2bnmheamm1z
+Hora de escrever feitiços com palavras! Cada bloco que você usou também é uma linha de código. Termine o programa.
+~~
+¡Es hora de escribir hechizos con palabras! Cada bloque que usaste también es una línea de código. Termina el programa.
+@@ hxwect59zx
+Blocos viram palavras
+~~
+Los bloques se vuelven palabras
+@@ 1i4iwm63h04
+Cada bloco é um **comando**: o nome, parênteses e um ponto e vírgula.
+
+```
+move("right");
+plant("wheat");
+```
+Textos como `"right"` vão entre aspas.
+~~
+Cada bloque es un **comando**: su nombre, paréntesis y un punto y coma.
+
+```
+move("right");
+plant("wheat");
+```
+El texto como `"right"` va entre comillas.
+@@ 29sut2j9rr6
+Copie as duas linhas e cole mais três vezes.
+~~
+Copia las dos líneas y pégalas tres veces más.
+@@ 20epvu8gyjw
+O Loop For
+~~
+El Bucle For
+@@ 1ogo3skdb3f
+Oito casas de novo. Em código, um bloco repetir é escrito como um loop for.
+~~
+Ocho casillas otra vez. En código, un bloque repetir se escribe como un bucle for.
+@@ q7jt1grr7u
+loops for
+~~
+bucles for
+@@ hu3nohfugn
+```
+for (let i = 0; i < 8; i++) {
+  plant("wheat");
+  move("right");
+}
+```
+- `let i = 0` começa um contador
+- `i < 8` continua enquanto isso for verdade
+- `i++` soma 1 depois de cada volta
+~~
+```
+for (let i = 0; i < 8; i++) {
+  plant("wheat");
+  move("right");
+}
+```
+- `let i = 0` inicia un contador
+- `i < 8` sigue mientras esto sea cierto
+- `i++` suma 1 después de cada vuelta
+@@ 2cyvwzpj98t
+Dentro das chaves: plantar e depois mover para a direita.
+~~
+Dentro de las llaves: plantar y luego moverse a la derecha.
+@@ 99qly04noi
+Loops em Loops
+~~
+Bucles en Bucles
+@@ 1plhhhjtju0
+O campo inteiro, em código. Coloque um loop for dentro de outro.
+~~
+El campo entero, en código. Pon un bucle for dentro de otro.
+@@ 1kjrt5p7sit
+O loop de dentro planta uma fileira. Depois dele, chame nextRow().
+~~
+El bucle de dentro planta una fila. Después, llama a nextRow().
+@@ n3epu3ke7p
+Dê a cada loop seu próprio contador: row e col.
+~~
+Dale a cada bucle su propio contador: row y col.
+@@ 2aylpzyfie3
+Se, em Código
+~~
+Si, en Código
+@@ 1yhrktt3bt9
+O mato voltou. Confira cada casa com if.
+~~
+La maleza volvió. Revisa cada casilla con if.
+@@ 1nvaeestjtd
+comandos if
+~~
+sentencias if
+@@ 279gs50z3o4
+```
+if (hasWeed()) {
+  pullWeed();
+}
+```
+A pergunta vai entre parênteses. Perguntas como `hasWeed()` devolvem **true** (verdadeiro) ou **false** (falso).
+~~
+```
+if (hasWeed()) {
+  pullWeed();
+}
+```
+La pregunta va entre paréntesis. Preguntas como `hasWeed()` devuelven **true** (verdadero) o **false** (falso).
+@@ 1mxfznzdbf3
+Plante depois do if, não dentro dele.
+~~
+Planta después del if, no dentro de él.
+@@ 1ze583oamb9
+Conte Suas Plantas
+~~
+Cuenta tus Cultivos
+@@ 1e6nqc4tb50
+Colha o trigo maduro e me diga quantos você colheu. Uma variável pode contar para você.
+~~
+Cosecha el trigo maduro y dime cuántos recogiste. Una variable puede contar por ti.
+@@ 20ezr181l3h
+Variáveis
+~~
+Variables
+@@ 1bgr69g7v04
+Uma **variável** é uma caixa com nome que guarda um valor.
+
+```
+let count = 0;   // make a box called count
+count++;         // add 1 to it
+say(count);      // the farmer says the number
+```
+~~
+Una **variable** es una caja con nombre que guarda un valor.
+
+```
+let count = 0;   // make a box called count
+count++;         // add 1 to it
+say(count);      // the farmer says the number
+```
+@@ 627iy1tysn
+Diga quantos você colheu ({0})
+~~
+Di cuántos cosechaste ({0})
+@@ g7no2violv
+Dentro de um if (isRipe()) { ... } faça duas coisas: harvest(); e count++;
+~~
+Dentro de un if (isRipe()) { ... } haz dos cosas: harvest(); y count++;
+@@ s6o9958u3i
+Escreva Seu Próprio Comando
+~~
+Escribe tu Propio Comando
+@@ hf00d9frpb
+O comando de próxima fileira quebrou hoje! Escreva sua própria função chamada nextRow.
+~~
+¡El comando de siguiente fila se rompió hoy! Escribe tu propia función llamada nextRow.
+@@ 296yjzwc30k
+Uma **função** é um comando novo que você mesmo cria.
+
+```
+function nextRow() {
+  move("down");
+  // walk back to the left...
+}
+
+nextRow();   // use it like any other command
+```
+~~
+Una **función** es un comando nuevo que creas tú mismo.
+
+```
+function nextRow() {
+  move("down");
+  // walk back to the left...
+}
+
+nextRow();   // use it like any other command
+```
+@@ 1j3uhia5v93
+Dentro da função: move("down"); e depois um loop for que move para a esquerda 6 vezes.
+~~
+Dentro de la función: move("down"); y luego un bucle for que se mueve a la izquierda 6 veces.
+@@ 6l7njo0hwf
+Comandos com Ingredientes
+~~
+Comandos con Ingredientes
+@@ 2b4faocvx3s
+Trigo na primeira fileira, cenouras na segunda, abóboras na terceira. Uma função pode plantar qualquer planta.
+~~
+Trigo en la primera fila, zanahorias en la segunda, calabazas en la tercera. Una función puede plantar cualquier cultivo.
+@@ 1p9dm5b8mv8
+Parâmetros
+~~
+Parámetros
+@@ 2c234vjxbqm
+Uma função pode receber um **ingrediente** (um parâmetro):
+
+```
+function plantRow(crop) {
+  // use crop here, like plant(crop);
+}
+
+plantRow("carrot");
+```
+~~
+Una función puede recibir un **ingrediente** (un parámetro):
+
+```
+function plantRow(crop) {
+  // use crop here, like plant(crop);
+}
+
+plantRow("carrot");
+```
+@@ 1h8lvofe2y3
+Dentro do loop: plant(crop); sem aspas em volta de crop.
+~~
+Dentro del bucle: plant(crop); sin comillas alrededor de crop.
+@@ 13n3lm106tv
+Chame plantRow três vezes com plantas diferentes.
+~~
+Llama a plantRow tres veces con cultivos distintos.
+@@ 2a25ul6o8hp
+Rotação de Culturas
+~~
+Rotación de Cultivos
+@@ 2culga1qbqi
+Fazendeiros sábios misturam as plantas: trigo, cenoura, abóbora, e de novo. Guarde os nomes das plantas num array.
+~~
+Los granjeros sabios mezclan sus cultivos: trigo, zanahoria, calabaza, y otra vez. Guarda los nombres de los cultivos en un array.
+@@ 2eo2zgy0fzv
+Um **array** é uma lista de valores:
+
+```
+const crops = ["wheat", "carrot", "pumpkin"];
+crops[0]  // "wheat"
+crops[2]  // "pumpkin"
+```
+`i % 3` é o **resto** da divisão por 3: vai 0, 1, 2, 0, 1, 2...
+~~
+Un **array** es una lista de valores:
+
+```
+const crops = ["wheat", "carrot", "pumpkin"];
+crops[0]  // "wheat"
+crops[2]  // "pumpkin"
+```
+`i % 3` es el **resto** de dividir entre 3: va 0, 1, 2, 0, 1, 2...
+@@ yfdw0ecgg7
+O Vale Sedento
+~~
+El Valle Sediento
+@@ e6ar9yjuo0
+Uma fileira longa e um regador pequeno: só cabem 3 goles. O lago está bem ao seu lado. Encha quando o regador esvaziar.
+~~
+Una fila larga y una regadera pequeña: solo caben 3 tragos. El estanque está justo a tu lado. Rellénala cuando se vacíe.
+@@ 129e4b8r66d
+Números e comparações
+~~
+Números y comparaciones
+@@ 2djmp8vnae5
+`waterLeft()` devolve um **número**: quanta água tem no regador.
+
+`===` pergunta "é igual?":
+```
+if (waterLeft() === 0) {
+  refill();
+}
+```
+~~
+`waterLeft()` devuelve un **número**: cuánta agua hay en la regadera.
+
+`===` pregunta "¿es igual?":
+```
+if (waterLeft() === 0) {
+  refill();
+}
+```
+@@ 288hcgv6y1e
+Confira o regador antes de regar: if (waterLeft() === 0) refill();
+~~
+Revisa la regadera antes de regar: if (waterLeft() === 0) refill();
+@@ dln7mddled
+A Conta do Mercado
+~~
+La Cuenta del Mercado
+@@ 1buu2cjqb7g
+Colha só as plantas maduras nas duas fileiras e diga ao mercador quantas você colheu no total.
+~~
+Cosecha solo los cultivos maduros de las dos filas y dile al mercader cuántos recogiste en total.
+@@ qtmqfr3ffk
+Diga o total ({0})
+~~
+Di el total ({0})
+@@ xiea5vz4n0
+Um loop aninhado, com um if (isRipe()) dentro, que também conta.
+~~
+Un bucle anidado, con un if (isRipe()) dentro, que además cuenta.
+@@ 14cymnfjooh
+Estações
+~~
+Estaciones
+@@ 2c0xqoai3lp
+Duas fileiras de sementes e três dias secos. Escreva uma função que rega o campo e leva você de volta para casa. Depois durma, três vezes.
+~~
+Dos filas de semillas y tres días secos. Escribe una función que riegue el campo y te lleve de vuelta a casa. Luego duerme, tres veces.
+@@ 27jrw5pnv1a
+Depois de duas chamadas a nextRow() você está no caminho abaixo do campo. Mova para cima duas vezes para voltar para casa.
+~~
+Tras dos llamadas a nextRow() estás en el camino de debajo del campo. Muévete hacia arriba dos veces para volver a casa.
+@@ 1unrtwm5p6z
+O teste final! Um campo de grama selvagem. Are, plante trigo, cenouras e abóboras em fileiras, cultive por três dias e colha tudo.
+~~
+¡La prueba final! Un campo de césped salvaje. Ara, planta trigo, zanahorias y calabazas en filas, cultívalos durante tres días y cosecha todo.
+@@ 1q24p7vhp2w
+Escreva uma função que visita cada casa e volta para casa. Você vai usá-la três vezes.
+~~
+Escribe una función que visite cada casilla y vuelva a casa. La usarás tres veces.
+@@ 3utx3dhnh8
+Funções podem receber outras funções como ingredientes: eachTile(() => water());
+~~
+Las funciones pueden recibir otras funciones como ingredientes: eachTile(() => water());
+@@ 15ihqrk3syj
+Seu fazendeiro está exausto depois de 3000 ações. Será que um loop está rodando para sempre?
+~~
+Tu granjero está agotado tras 3000 acciones. ¿Hay un bucle ejecutándose para siempre?
+@@ 16todbuwykw
+Exausto
+~~
+Agotado
+@@ md8jx4lnpp
+{0}() não está disponível neste nível. Consegue escrevê-la você mesmo?
+~~
+{0}() no está disponible en este nivel. ¿Puedes escribirla tú mismo?
+@@ 19yuvc7mbib
+move() precisa de "up", "down", "left" ou "right", não {0}
+~~
+move() necesita "up", "down", "left" o "right", no {0}
+@@ 1egt5c5is5m
+plant() conhece "wheat", "carrot" e "pumpkin", não {0}
+~~
+plant() conoce "wheat", "carrot" y "pumpkin", no {0}
+@@ 12hlicyu6i3
+Esta terra já está arada.
+~~
+Esta tierra ya está arada.
+@@ v8f7r2hv91
+Você só pode arar grama.
+~~
+Solo puedes arar césped.
+@@ fppv0ffg3g
+Are a grama antes de plantar.
+~~
+Ara el césped antes de plantar.
+@@ 2bvsazsxf26
+Sementes só crescem em terra arada.
+~~
+Las semillas solo crecen en tierra de cultivo.
+@@ 2fpyzwazra3
+Tem mato no caminho! Arranque primeiro.
+~~
+¡Hay maleza en medio! Arráncala primero.
+@@ 1xe828ebz8v
+Já tem algo crescendo aqui.
+~~
+Ya hay algo creciendo aquí.
+@@ 17zl9gqpv7e
+Seu regador está vazio. Encha no lago.
+~~
+Tu regadera está vacía. Llénala en el estanque.
+@@ 8uge6xepsx
+Só a terra arada precisa de água.
+~~
+Solo la tierra de cultivo necesita agua.
+@@ 1onzt3m4my8
+Já está molhado! Não desperdice água.
+~~
+¡Ya está mojado! No desperdicies agua.
+@@ oiq4rke4zv
+Não há nada para colher aqui.
+~~
+Aquí no hay nada que cosechar.
+@@ 14j9kjvo9rc
+Não há mato aqui.
+~~
+Aquí no hay maleza.
+@@ 9a04t142iq
+Não há lago ao seu lado.
+~~
+No hay ningún estanque a tu lado.

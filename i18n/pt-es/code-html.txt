@@ -1,0 +1,186 @@
+@@ 25svc8gi8jt
+As páginas web são escritas em **HTML**. O HTML usa *tags* entre sinais de menor e maior. A maioria das tags vem em pares: uma **tag de abertura** e uma **tag de fechamento** com uma barra.
+
+[[1]]
+
+`<h1>` significa "título, nível 1": o título maior e mais importante da página.
+~~
+Las páginas web se escriben en **HTML**. HTML usa *etiquetas* entre signos de menor y mayor. La mayoría vienen en pares: una **etiqueta de apertura** y una **etiqueta de cierre** con una barra.
+
+[[1]]
+
+`<h1>` significa "encabezado, nivel 1": el título más grande e importante de la página.
+@@ 7wquqxx4f6
+Os títulos vão de `<h1>` (maior) a `<h6>` (menor). Use `<h2>` para as seções abaixo do seu `<h1>`.
+
+O texto fica em **parágrafos** com `<p>`:
+
+[[1]]
+~~
+Los encabezados van de `<h1>` (el más grande) a `<h6>` (el más pequeño). Usa `<h2>` para las secciones debajo de tu `<h1>`.
+
+El texto va en **párrafos** con `<p>`:
+
+[[1]]
+@@ 15i7294ln1t
+Tags podem ficar **dentro** de outras tags. Isso se chama *aninhamento*.
+
+- `<strong>` marca um texto importante (aparece em negrito)
+- `<em>` marca ênfase (aparece em itálico)
+
+[[1]]
+
+Feche a tag de dentro antes da de fora: `<p><strong>...</strong></p>`.
+~~
+Las etiquetas pueden ir **dentro** de otras. Esto se llama *anidación*.
+
+- `<strong>` marca un texto importante (se ve en negrita)
+- `<em>` marca énfasis (se ve en cursiva)
+
+[[1]]
+
+Cierra la etiqueta de dentro antes que la de fuera: `<p><strong>...</strong></p>`.
+@@ 20yuccuy7ru
+Uma página HTML completa tem um esqueleto fixo:
+
+[[1]]
+
+- `<head>` guarda informações *sobre* a página (como o `<title>`)
+- `<body>` guarda o que os visitantes veem
+~~
+Una página HTML completa tiene un esqueleto fijo:
+
+[[1]]
+
+- `<head>` guarda información *sobre* la página (como el `<title>`)
+- `<body>` guarda lo que ven los visitantes
+@@ 1sbnp5wb7ph
+Um link usa a tag `<a>` (a = *âncora*). O endereço vai no **atributo href**:
+
+[[1]]
+
+**Atributos** são configurações extras escritas dentro da tag de abertura: `name="value"`. O texto entre as tags é o que as pessoas clicam.
+~~
+Un enlace usa la etiqueta `<a>` (a = *ancla*). La dirección va en el **atributo href**:
+
+[[1]]
+
+Los **atributos** son ajustes extra escritos dentro de la etiqueta de apertura: `name="value"`. El texto entre las etiquetas es lo que la gente pulsa.
+@@ yklqy625s2
+As imagens usam `<img>`. Ela **não tem tag de fechamento** (é um *elemento vazio*):
+
+[[1]]
+
+- `src` é o arquivo da imagem
+- `alt` descreve a imagem para quem não pode vê-la, e aparece se a imagem não carregar
+
+Nesta lição estas imagens já estão prontas para você: `castle.svg`, `knight.svg`, `dragon.svg`, `shield.svg`, `potion.svg`, `tavern.svg`.
+~~
+Las imágenes usan `<img>`. **No tiene etiqueta de cierre** (es un *elemento vacío*):
+
+[[1]]
+
+- `src` es el archivo de la imagen
+- `alt` describe la imagen para quien no puede verla, y se muestra si la imagen no carga
+
+En esta lección tienes estas imágenes listas: `castle.svg`, `knight.svg`, `dragon.svg`, `shield.svg`, `potion.svg`, `tavern.svg`.
+@@ 29ldp3li62h
+As listas guardam itens (`<li>`). Há dois tipos:
+
+- `<ul>`: lista *não ordenada* (marcadores), a ordem não importa
+- `<ol>`: lista *ordenada* (números), para passos
+
+[[1]]
+~~
+Las listas guardan elementos (`<li>`). Hay dos tipos:
+
+- `<ul>`: lista *no ordenada* (viñetas), el orden no importa
+- `<ol>`: lista *ordenada* (números), para pasos
+
+[[1]]
+@@ zdljmwrhx1
+As tabelas mostram dados em linhas e colunas:
+
+[[1]]
+
+- `<tr>` = linha da tabela
+- `<th>` = célula de cabeçalho, `<td>` = célula de dados
+- `<thead>` guarda a linha de cabeçalho, `<tbody>` as linhas de dados
+~~
+Las tablas muestran datos en filas y columnas:
+
+[[1]]
+
+- `<tr>` = fila de la tabla
+- `<th>` = celda de encabezado, `<td>` = celda de datos
+- `<thead>` guarda la fila de encabezado, `<tbody>` las filas de datos
+@@ 28b6qdqc2sg
+Os formulários coletam respostas. Cada `<input>` deve ter um `<label>`. Ligue-os com **for** e **id**:
+
+[[1]]
+
+Agora clicar no rótulo foca o campo. O `type` muda o campo: `text`, `email`, `number`, `password`...
+~~
+Los formularios recogen respuestas. Cada `<input>` debe tener un `<label>`. Conéctalos con **for** e **id**:
+
+[[1]]
+
+Ahora, al pulsar la etiqueta se enfoca el campo. El `type` cambia el campo: `text`, `email`, `number`, `password`...
+@@ 119lkweblxn
+Mais jeitos de responder:
+
+[[1]]
+
+Botões radio com o **mesmo name** andam juntos: você só pode escolher um.
+~~
+Más formas de responder:
+
+[[1]]
+
+Los botones radio con el **mismo name** van juntos: solo puedes elegir uno.
+@@ g7hin5i90c
+Tags **semânticas** dizem o que uma parte da página *é*:
+
+[[1]]
+
+Elas parecem caixas `<div>` comuns, mas navegadores, buscadores e leitores de tela as entendem.
+~~
+Las etiquetas **semánticas** dicen qué *es* una parte de la página:
+
+[[1]]
+
+Parecen cajas `<div>` normales, pero los navegadores, los buscadores y los lectores de pantalla las entienden.
+@@ 23rk4tbz0hq
+Este é um **desafio de chefe**: nenhuma tag nova, só tudo junto. Planeje primeiro:
+
+1. `<header>` com o nome da taverna num `<h1>`
+2. `<nav>` com 3 links
+3. `<main>` com uma imagem (`tavern.svg`), uma lista de cardápio e uma tabela de horários
+4. um pequeno `<form>` de reserva
+5. `<footer>`
+~~
+Este es un **desafío de jefe**: ninguna etiqueta nueva, solo todo junto. Planifica primero:
+
+1. `<header>` con el nombre de la taberna en un `<h1>`
+2. `<nav>` con 3 enlaces
+3. `<main>` con una imagen (`tavern.svg`), una lista de menú y una tabla de horarios
+4. un pequeño `<form>` de reserva
+5. `<footer>`
+@@ 1unptytr2zn
+Monte a página da taverna. Ela precisa de:
+- um `<header>` com um `<h1>`
+- um `<nav>` com **3 links**
+- um `<main>` com a imagem `tavern.svg` (com texto alternativo)
+- um cardápio: `<ul>` com **pelo menos 4 pratos**
+- uma `<table>` com os horários (pelo menos 2 linhas de dados)
+- um `<form>` com um campo rotulado e um botão
+- um `<footer>`
+~~
+Construye la página de la taberna. Necesita:
+- un `<header>` con un `<h1>`
+- un `<nav>` con **3 enlaces**
+- un `<main>` con la imagen `tavern.svg` (con texto alternativo)
+- un menú: `<ul>` con **al menos 4 platos**
+- una `<table>` con el horario (al menos 2 filas de datos)
+- un `<form>` con un campo etiquetado y un botón
+- un `<footer>`

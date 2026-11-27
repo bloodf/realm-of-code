@@ -1,0 +1,194 @@
+@@ nkbc6256ju
+O CSS é escrito em **regras**. Uma regra escolhe elementos com um **seletor** e depois define **propriedades**:
+
+[[1]]
+
+- `h1` é o seletor (todos os elementos `<h1>`)
+- `color` é a propriedade (cor do texto)
+- `crimson` é o valor, e a linha termina com `;`
+
+Os navegadores conhecem 140 nomes de cores, como `crimson`, `gold`, `navy` ou `saddlebrown`.
+~~
+El CSS se escribe en **reglas**. Una regla elige elementos con un **selector** y luego define **propiedades**:
+
+[[1]]
+
+- `h1` es el selector (todos los elementos `<h1>`)
+- `color` es la propiedad (color del texto)
+- `crimson` es el valor, y la línea termina en `;`
+
+Los navegadores conocen 140 nombres de colores, como `crimson`, `gold`, `navy` o `saddlebrown`.
+@@ 116sov9n8rx
+O CSS normalmente fica num arquivo próprio. O HTML precisa **ligá-lo** dentro do `<head>`:
+
+[[1]]
+
+`background-color` pinta a área atrás de um elemento:
+
+[[2]]
+~~
+El CSS suele vivir en su propio archivo. El HTML debe **enlazarlo** dentro de `<head>`:
+
+[[1]]
+
+`background-color` pinta el área detrás de un elemento:
+
+[[2]]
+@@ 1cktia58cfi
+No HTML você pode dar nomes aos elementos:
+
+[[1]]
+
+No CSS, um **seletor de classe** começa com um ponto e um **seletor de id** com uma cerquilha:
+
+[[2]]
+~~
+En HTML puedes ponerles nombre a los elementos:
+
+[[1]]
+
+En CSS, un **selector de clase** empieza con un punto y un **selector de id** con una almohadilla:
+
+[[2]]
+@@ 5x6cme45nh
+Propriedades de texto:
+
+[[1]]
+~~
+Propiedades de texto:
+
+[[1]]
+@@ 1gvfvorirsj
+Todo elemento é uma **caixa** feita de camadas, de dentro para fora:
+
+1. **conteúdo**: o texto ou a imagem
+2. **padding**: espaço dentro da borda
+3. **borda**: o aro
+4. **margem**: espaço de fora, que afasta as outras caixas
+
+[[1]]
+
+`border` é um atalho: largura, estilo, cor.
+~~
+Cada elemento es una **caja** hecha de capas, de dentro hacia fuera:
+
+1. **contenido**: el texto o la imagen
+2. **padding**: espacio dentro del borde
+3. **borde**: el aro
+4. **margen**: espacio exterior, que aparta las otras cajas
+
+[[1]]
+
+`border` es un atajo: ancho, estilo, color.
+@@ 1cnusoanops
+`border-radius` arredonda os cantos de uma caixa. Com **50%** e largura e altura iguais, um quadrado vira um **círculo**:
+
+[[1]]
+
+`box-shadow` adiciona uma sombra: `box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);` (x, y, desfoque, cor).
+~~
+`border-radius` redondea las esquinas de una caja. Con **50%** y el mismo ancho y alto, un cuadrado se convierte en un **círculo**:
+
+[[1]]
+
+`box-shadow` añade una sombra: `box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);` (x, y, desenfoque, color).
+@@ 617rozbji6
+O **Flexbox** alinha os filhos numa linha. Coloque-o no **pai**:
+
+[[1]]
+
+Todos os filhos diretos de `.banners` agora ficam lado a lado.
+~~
+**Flexbox** alinea a los hijos en una fila. Ponlo en el **padre**:
+
+[[1]]
+
+Todos los hijos directos de `.banners` quedan ahora uno al lado del otro.
+@@ vr69qyc1wy
+O Flexbox consegue alinhar os filhos:
+
+- `justify-content` funciona **ao longo** da linha: `flex-start`, `center`, `space-between`...
+- `align-items` funciona **atravessando** (para cima/para baixo): `stretch`, `center`, `flex-end`...
+
+[[1]]
+~~
+Flexbox puede alinear a los hijos:
+
+- `justify-content` funciona **a lo largo** de la fila: `flex-start`, `center`, `space-between`...
+- `align-items` funciona **a lo ancho** (arriba/abajo): `stretch`, `center`, `flex-end`...
+
+[[1]]
+@@ 1pbihc30g3x
+O **CSS Grid** cria linhas *e* colunas:
+
+[[1]]
+
+`1fr` significa "uma fração do espaço livre", então `repeat(3, 1fr)` cria 3 colunas iguais. Os filhos preenchem as células em ordem e passam para novas linhas sozinhos.
+~~
+**CSS Grid** crea filas *y* columnas:
+
+[[1]]
+
+`1fr` significa "una fracción del espacio libre", así que `repeat(3, 1fr)` crea 3 columnas iguales. Los hijos llenan las celdas en orden y pasan solos a filas nuevas.
+@@ 19zvt5whst3
+Uma **pseudoclasse** estiliza um elemento num estado especial. `:hover` vale enquanto o mouse está em cima dele:
+
+[[1]]
+
+`transition` anima a mudança suavemente:
+
+[[2]]
+~~
+Una **pseudoclase** da estilo a un elemento en un estado especial. `:hover` se aplica mientras el ratón está encima:
+
+[[1]]
+
+`transition` anima el cambio suavemente:
+
+[[2]]
+@@ 25go6s2jmy5
+**Propriedades personalizadas** (variáveis CSS) guardam um valor uma vez e o reutilizam:
+
+[[1]]
+
+`:root` é o topo da página, então a variável funciona em todo lugar. Mude num só lugar e tudo se atualiza.
+~~
+Las **propiedades personalizadas** (variables CSS) guardan un valor una vez y lo reutilizan:
+
+[[1]]
+
+`:root` es la parte más alta de la página, así que la variable funciona en todas partes. Cámbiala en un solo sitio y todo se actualiza.
+@@ 1w2vighap0f
+Uma **media query** aplica CSS só quando uma condição é verdadeira, como numa tela pequena:
+
+[[1]]
+
+Tudo dentro das chaves só vale quando a página tem **600px de largura ou menos**.
+~~
+Una **media query** aplica CSS solo cuando una condición es verdadera, como en una pantalla pequeña:
+
+[[1]]
+
+Todo lo que hay dentro de las llaves solo se aplica cuando la página mide **600px de ancho o menos**.
+@@ 20k1ol1i8yi
+Desafio de chefe! Combine o que você aprendeu. Um truque novo: gradientes são imagens, então vão em `background`:
+
+[[1]]
+~~
+¡Desafío de jefe! Combina lo que aprendiste. Un truco nuevo: los degradados son imágenes, así que van en `background`:
+
+[[1]]
+@@ tht8o7fu6h
+Estilize o cartão de brasão no **style.css**:
+- o `:root` tem uma variável `--gold`, e o `.crest h2` a usa como cor
+- o `.crest` é uma **coluna flex** com itens centralizados, **24px** de padding, cantos arredondados (**16px**), um fundo **linear-gradient** e um box-shadow
+- o `.tags` é uma linha flex com **8px** de espaço, e cada `.tag` tem cantos arredondados
+- o `.crest:hover` usa um `transform`
+- Em telas de **500px ou menos**, o padding do `.crest` passa a ser **12px**
+~~
+Da estilo a la tarjeta de escudo en **style.css**:
+- `:root` tiene una variable `--gold`, y `.crest h2` la usa como color
+- `.crest` es una **columna flex** con los elementos centrados, **24px** de padding, esquinas redondeadas (**16px**), un fondo **linear-gradient** y un box-shadow
+- `.tags` es una fila flex con un hueco de **8px**, y cada `.tag` tiene esquinas redondeadas
+- `.crest:hover` usa un `transform`
+- En pantallas de **500px o menos**, el padding de `.crest` pasa a ser **12px**

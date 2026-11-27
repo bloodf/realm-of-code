@@ -1,0 +1,452 @@
+@@ jyj7ssppkq
+
+**Ideias principais**
+- Um programa é uma lista de **instruções**, rodadas de cima para baixo.
+- `hero.moveRight()` **chama** uma função (um comando). Os `()` fazem ela rodar.
+- Valores dentro dos parênteses são **argumentos**: `hero.moveRight(3)`.
+- Texto depois de `//` é um **comentário**; o computador o ignora.
+- A grafia e as maiúsculas importam: `moveright` não é `moveRight`.
+~~
+
+**Ideas clave**
+- Un programa es una lista de **sentencias**, que se ejecutan de arriba abajo.
+- `hero.moveRight()` **llama** a una función (un comando). Los `()` hacen que se ejecute.
+- Los valores dentro de los paréntesis son **argumentos**: `hero.moveRight(3)`.
+- El texto después de `//` es un **comentario**; el ordenador lo ignora.
+- La ortografía y las mayúsculas importan: `moveright` no es `moveRight`.
+@@ 1nhqznc6zyl
+Na Floresta dos Loops seu herói obedece a **comandos** de JavaScript:
+
+[[1]]
+Cada linha é uma **instrução**. Elas rodam uma depois da outra, de cima para baixo. Os parênteses `()` fazem o comando acontecer.
+~~
+En el Bosque de los Bucles tu héroe obedece **comandos** de JavaScript:
+
+[[1]]
+Cada línea es una **sentencia**. Se ejecutan una tras otra, de arriba abajo. Los paréntesis `()` hacen que el comando ocurra.
+@@ 23kcqd6xp62
+Um valor dentro dos parênteses é um **argumento**. Ele dá informação extra ao comando:
+
+[[1]]
+Tudo depois de `//` é um **comentário**: uma nota para humanos que o computador pula.
+~~
+Un valor dentro de los paréntesis es un **argumento**. Le da información extra al comando:
+
+[[1]]
+Todo lo que va después de `//` es un **comentario**: una nota para humanos que el ordenador se salta.
+@@ qjdg78mu6c
+
+**Ideias principais**
+- `for (let i = 0; i < 5; i++) { ... }` repete 5 vezes (i = 0, 1, 2, 3, 4).
+- As três partes: início (`let i = 0`), condição (`i < 5`), atualização (`i++`).
+- `while (condition) { ... }` repete enquanto a condição for verdadeira. Garanta que ela possa ficar falsa!
+- `if (condition) { ... } else { ... }` só roda código quando a condição é verdadeira.
+- `===` significa "é igual", `!==` significa "é diferente".
+~~
+
+**Ideas clave**
+- `for (let i = 0; i < 5; i++) { ... }` repite 5 veces (i = 0, 1, 2, 3, 4).
+- Las tres partes: inicio (`let i = 0`), condición (`i < 5`), actualización (`i++`).
+- `while (condition) { ... }` repite mientras la condición sea verdadera. ¡Asegúrate de que pueda volverse falsa!
+- `if (condition) { ... } else { ... }` ejecuta código solo cuando la condición es verdadera.
+- `===` significa "es igual", `!==` significa "no es igual".
+@@ 115vb1ke1b2
+[[1]]
+1. `let i = 0`: começa um contador em 0
+2. `i < 3`: continua enquanto isso for verdade
+3. `i++`: soma 1 depois de cada volta
+
+O código dentro de `{ }` roda **3 vezes** (i = 0, 1, 2).
+~~
+[[1]]
+1. `let i = 0`: empieza un contador en 0
+2. `i < 3`: sigue mientras esto sea cierto
+3. `i++`: suma 1 después de cada vuelta
+
+El código dentro de `{ }` se ejecuta **3 veces** (i = 0, 1, 2).
+@@ 1eef8lq4c2j
+[[1]]
+Um loop **while** repete *enquanto* a condição for verdadeira. Use quando você não sabe quantas vezes repetir.
+~~
+[[1]]
+Un bucle **while** repite *mientras* su condición sea verdadera. Úsalo cuando no sabes cuántas veces repetir.
+@@ h3c4r9egl
+[[1]]
+`===` significa "é exatamente igual a". A parte `else` roda quando a condição é falsa.
+~~
+[[1]]
+`===` significa "es exactamente igual a". La parte `else` se ejecuta cuando la condición es falsa.
+@@ 1sbz17d852i
+
+**Ideias principais**
+- `const name = "Ada";` nunca pode receber outro valor. `let gold = 10;` pode mudar. Evite `var`.
+- Tipos: **number** (`42`, `3.5`), **string** (`"text"`), **boolean** (`true`/`false`), além de `undefined` e `null`.
+- Matemática: `+ - * /`, `%` (resto), `**` (potência). `gold += 5` soma 5.
+- Strings: `"a" + "b"` junta as duas; template literals: `\`Hi ${name}\``. `.length`, `.toUpperCase()`.
+- `typeof x` diz o tipo. `"5" + 3` dá `"53"` (o texto vence!); use `Number("5")`.
+~~
+
+**Ideas clave**
+- `const name = "Ada";` nunca se puede reasignar. `let gold = 10;` puede cambiar. Evita `var`.
+- Tipos: **number** (`42`, `3.5`), **string** (`"text"`), **boolean** (`true`/`false`), además de `undefined` y `null`.
+- Matemáticas: `+ - * /`, `%` (resto), `**` (potencia). `gold += 5` suma 5.
+- Strings: `"a" + "b"` los une; plantillas literales: `\`Hi ${name}\``. `.length`, `.toUpperCase()`.
+- `typeof x` te dice el tipo. `"5" + 3` da `"53"` (¡gana el texto!); usa `Number("5")`.
+@@ qj1xglsxnc
+**Variáveis** guardam valores para você usar depois:
+
+[[1]]
+Use `const` por padrão e `let` quando o valor precisar mudar.
+~~
+Las **variables** guardan valores para que los uses más tarde:
+
+[[1]]
+Usa `const` por defecto y `let` cuando el valor tenga que cambiar.
+@@ 2adl66ytjmp
+[[1]]
+Atalhos: `gold += 5` significa `gold = gold + 5`. `lives--` subtrai 1.
+~~
+[[1]]
+Atajos: `gold += 5` significa `gold = gold + 5`. `lives--` resta 1.
+@@ 26qpwwiin6o
+Texto se chama **string**. Use aspas `"..."` ou `'...'`, ou crases para **template literals**:
+
+[[1]]
+~~
+El texto se llama **string**. Usa comillas `"..."` o `'...'`, o acentos graves para las **plantillas literales**:
+
+[[1]]
+@@ l4cg39k5sj
+- **boolean**: `true` ou `false`
+- `undefined`: uma variável ainda sem valor
+- `null`: "vazio de propósito"
+
+`typeof` diz o tipo:
+
+[[1]]
+~~
+- **boolean**: `true` o `false`
+- `undefined`: una variable que todavía no tiene valor
+- `null`: "vacío a propósito"
+
+`typeof` te dice el tipo:
+
+[[1]]
+@@ 16qgefwijk7
+
+**Ideias principais**
+- Comparações dão booleanos: `===`, `!==`, `>`, `<`, `>=`, `<=`. Use sempre `===`, não `==`.
+- `if / else if / else` escolhe um ramo.
+- Lógica: `&&` (e), `||` (ou), `!` (não).
+- Valores **falsy**: `false, 0, "", null, undefined, NaN`. Todo o resto é **truthy**.
+- Ternário: `cond ? a : b`. `switch` para muitos casos fixos.
+~~
+
+**Ideas clave**
+- Las comparaciones dan booleanos: `===`, `!==`, `>`, `<`, `>=`, `<=`. Usa siempre `===`, no `==`.
+- `if / else if / else` elige una rama.
+- Lógica: `&&` (y), `||` (o), `!` (no).
+- Valores **falsy**: `false, 0, "", null, undefined, NaN`. Todo lo demás es **truthy**.
+- Ternario: `cond ? a : b`. `switch` para muchos casos fijos.
+@@ jgbyo57gbv
+[[1]]
+Use sempre `===` e `!==`. O velho `==` converte tipos de jeitos surpreendentes (`0 == ""` dá `true`!).
+~~
+[[1]]
+Usa siempre `===` y `!==`. El viejo `==` convierte tipos de formas sorprendentes (¡`0 == ""` es `true`!).
+@@ 183d2e1s4he
+[[1]]
+Só o **primeiro** ramo verdadeiro roda.
+~~
+[[1]]
+Solo se ejecuta la **primera** rama verdadera.
+@@ o55xmsh6vn
+[[1]]
+`condition ? valueIfTrue : valueIfFalse`
+
+Para muitos casos fixos, o `switch` pode ser mais claro:
+
+[[2]]
+~~
+[[1]]
+`condition ? valueIfTrue : valueIfFalse`
+
+Para muchos casos fijos, `switch` puede ser más claro:
+
+[[2]]
+@@ v1wfgtdee3
+
+**Ideias principais**
+- Declarar: `function greet(name) { return "Hi " + name; }` Chamar: `greet("Ada")`.
+- **Parâmetros** são os nomes na declaração; **argumentos** são os valores que você passa.
+- `return` devolve um valor e para a função. Sem ele, você recebe `undefined`.
+- Arrow functions: `const double = (n) => n * 2;`
+- Parâmetros padrão: `function heal(hp, amount = 10)`.
+- **Escopo**: variáveis criadas dentro de uma função (ou de um bloco `{ }`) só existem lá dentro.
+~~
+
+**Ideas clave**
+- Declarar: `function greet(name) { return "Hi " + name; }` Llamar: `greet("Ada")`.
+- Los **parámetros** son los nombres de la declaración; los **argumentos** son los valores que pasas.
+- `return` devuelve un valor y detiene la función. Sin él, obtienes `undefined`.
+- Funciones flecha: `const double = (n) => n * 2;`
+- Parámetros por defecto: `function heal(hp, amount = 10)`.
+- **Ámbito**: las variables creadas dentro de una función (o de un bloque `{ }`) solo existen ahí dentro.
+@@ lwfff1b1z1
+[[1]]
+Defina uma vez, chame muitas vezes. Bons nomes são verbos: `climb`, `openDoor`, `countGems`.
+~~
+[[1]]
+Defínela una vez, llámala muchas veces. Los buenos nombres son verbos: `climb`, `openDoor`, `countGems`.
+@@ 1fy40k50hl1
+[[1]]
+- `a` e `b` são **parâmetros** (lugares reservados)
+- `2` e `3` são **argumentos** (valores reais)
+- `return` devolve um valor
+~~
+[[1]]
+- `a` y `b` son **parámetros** (huecos con nombre)
+- `2` y `3` son **argumentos** (valores reales)
+- `return` devuelve un valor
+@@ 9jdaio530g
+[[1]]
+Parâmetros padrão dão um valor quando nenhum é passado:
+
+[[2]]
+~~
+[[1]]
+Los parámetros por defecto dan un valor cuando no se pasa ninguno:
+
+[[2]]
+@@ 2aadsfsrki5
+Uma variável criada **dentro** de uma função ou de um bloco `{ }` só existe ali:
+
+[[1]]
+Variáveis criadas fora são visíveis dentro (mas use o mínimo possível delas).
+~~
+Una variable creada **dentro** de una función o de un bloque `{ }` solo existe ahí:
+
+[[1]]
+Las variables creadas fuera se ven dentro (pero úsalas lo menos posible).
+@@ coy2j9ebr5
+
+**Ideias principais**
+- `const bag = ["rope", "torch"];` O índice começa em **0**: `bag[0]` é `"rope"`.
+- `bag.length` é o número de itens; o último é `bag[bag.length - 1]`.
+- Adicionar/remover: `push` (fim), `pop` (fim), `unshift` (começo), `shift` (começo).
+- Buscar: `includes(x)`, `indexOf(x)` (-1 se não existir). Copiar um pedaço: `slice(start, end)`.
+- Percorrer: `for (const item of bag) { ... }` ou `bag.forEach((item) => ...)`.
+~~
+
+**Ideas clave**
+- `const bag = ["rope", "torch"];` El índice empieza en **0**: `bag[0]` es `"rope"`.
+- `bag.length` es el número de elementos; el último es `bag[bag.length - 1]`.
+- Añadir/quitar: `push` (final), `pop` (final), `unshift` (principio), `shift` (principio).
+- Buscar: `includes(x)`, `indexOf(x)` (-1 si no está). Copiar una parte: `slice(start, end)`.
+- Recorrer: `for (const item of bag) { ... }` o `bag.forEach((item) => ...)`.
+@@ zr3bekafwf
+[[1]]
+Os arrays contam a partir do **0**. O último item fica em `length - 1`.
+~~
+[[1]]
+Los arrays cuentan desde **0**. El último elemento está en `length - 1`.
+@@ 7v2iwyylfn
+
+**Ideias principais**
+- `const hero = { name: "Ada", level: 3 };` Leia com `hero.name` ou `hero["name"]`.
+- Adicionar ou mudar: `hero.gold = 10;` Remover: `delete hero.gold`.
+- Métodos são funções dentro de objetos: `hero.greet()`. Lá dentro, `this` é o objeto.
+- Desestruturação: `const { name, level } = hero;` O spread copia: `{ ...hero, level: 4 }`.
+- `Object.keys(o)`, `Object.values(o)`, `Object.entries(o)`.
+- JSON: `JSON.stringify(obj)` → texto, `JSON.parse(text)` → objeto. No JSON, as chaves precisam de aspas duplas.
+~~
+
+**Ideas clave**
+- `const hero = { name: "Ada", level: 3 };` Léelo con `hero.name` o `hero["name"]`.
+- Añadir o cambiar: `hero.gold = 10;` Quitar: `delete hero.gold`.
+- Los métodos son funciones dentro de objetos: `hero.greet()`. Dentro, `this` es el objeto.
+- Desestructuración: `const { name, level } = hero;` El spread copia: `{ ...hero, level: 4 }`.
+- `Object.keys(o)`, `Object.values(o)`, `Object.entries(o)`.
+- JSON: `JSON.stringify(obj)` → texto, `JSON.parse(text)` → objeto. En JSON las claves necesitan comillas dobles.
+@@ 29ep8j6bcnn
+[[1]]
+Dentro de um método, `this` significa "o objeto em que o método foi chamado".
+~~
+[[1]]
+Dentro de un método, `this` significa "el objeto sobre el que se llamó el método".
+@@ o7hve6d8w5
+**JSON** (JavaScript Object Notation) é como os aplicativos enviam dados pela internet:
+
+[[1]]
+No JSON, as chaves **precisam** usar aspas duplas.
+
+[[2]]
+~~
+**JSON** (JavaScript Object Notation) es como las aplicaciones envían datos por internet:
+
+[[1]]
+En JSON, las claves **deben** usar comillas dobles.
+
+[[2]]
+@@ x6sbwosrei
+
+**Ideias principais**
+- `map(fn)`: um array novo com cada item mudado.
+- `filter(fn)`: um array novo só com os itens que passam.
+- `find(fn)`: o primeiro item que combina (ou `undefined`). `findIndex` dá o índice dele.
+- `reduce((acc, x) => ..., start)`: combina tudo num só valor.
+- `some` (algum passa?), `every` (todos passam?), `includes`.
+- `sort((a, b) => a - b)` ordena números (ele muda o array!). Esses métodos podem ser **encadeados**.
+~~
+
+**Ideas clave**
+- `map(fn)`: un array nuevo con cada elemento cambiado.
+- `filter(fn)`: un array nuevo solo con los elementos que pasan.
+- `find(fn)`: el primer elemento que coincide (o `undefined`). `findIndex` da su índice.
+- `reduce((acc, x) => ..., start)`: combina todo en un solo valor.
+- `some` (¿pasa alguno?), `every` (¿pasan todos?), `includes`.
+- `sort((a, b) => a - b)` ordena números (¡cambia el array!). Estos métodos se pueden **encadenar**.
+@@ 1cnfnk77ja9
+[[1]]
+`map` sempre retorna um array **novo** com o mesmo tamanho.
+~~
+[[1]]
+`map` siempre devuelve un array **nuevo** de la misma longitud.
+@@ 1uf82oahd8w
+[[1]]
+O `reduce` percorre o array guardando um resultado acumulado (`sum`), começando em `0`.
+
+Ordenar números precisa de uma função de comparação:
+
+[[2]]
+~~
+[[1]]
+`reduce` recorre el array guardando un resultado acumulado (`sum`), empezando en `0`.
+
+Ordenar números necesita una función de comparación:
+
+[[2]]
+@@ q6qyrlrvld
+
+**Ideias principais**
+- O **DOM** é a página em forma de objetos. `document.querySelector("#id")` encontra um elemento; `querySelectorAll(".x")` encontra todos.
+- Para mudar: `el.textContent`, `el.classList.add/remove/toggle`, `el.style.color`, `el.setAttribute`.
+- Criar: `document.createElement("li")` e depois `parent.append(li)`. Remover: `el.remove()`.
+- Eventos: `el.addEventListener("click", () => { ... })`. Formulário: escute `"submit"` e chame `event.preventDefault()`.
+- Campos: leia `input.value`. Use `textContent` (não `innerHTML`) para texto do usuário e evite XSS.
+- `localStorage.setItem/getItem` salva strings no navegador.
+~~
+
+**Ideas clave**
+- El **DOM** es la página en forma de objetos. `document.querySelector("#id")` encuentra un elemento; `querySelectorAll(".x")` los encuentra todos.
+- Para cambiarlo: `el.textContent`, `el.classList.add/remove/toggle`, `el.style.color`, `el.setAttribute`.
+- Crear: `document.createElement("li")` y luego `parent.append(li)`. Quitar: `el.remove()`.
+- Eventos: `el.addEventListener("click", () => { ... })`. Formulario: escucha `"submit"` y llama a `event.preventDefault()`.
+- Campos: lee `input.value`. Usa `textContent` (no `innerHTML`) para el texto del usuario y evita XSS.
+- `localStorage.setItem/getItem` guarda strings en el navegador.
+@@ 1x2q64f525q
+O navegador transforma seu HTML no **DOM** (Document Object Model). O JavaScript consegue encontrar elementos com seletores CSS:
+
+[[1]]
+~~
+El navegador convierte tu HTML en el **DOM** (Document Object Model). JavaScript puede encontrar elementos con selectores CSS:
+
+[[1]]
+@@ 20gg3gm1q8f
+[[1]]
+Prefira classes a estilos inline: deixe a aparência no CSS.
+~~
+[[1]]
+Prefiere las clases a los estilos en línea: deja el aspecto en el CSS.
+@@ 1w7vea7smkv
+[[1]]
+Outros eventos: `"input"` (digitar), `"submit"` (formulários), `"keydown"`, `"mouseover"`...
+~~
+[[1]]
+Otros eventos: `"input"` (escribir), `"submit"` (formularios), `"keydown"`, `"mouseover"`...
+@@ 1r2rkdmyp6i
+Por padrão, enviar um formulário recarrega a página. Impeça isso com `preventDefault`:
+
+[[1]]
+~~
+Por defecto, enviar un formulario recarga la página. Evítalo con `preventDefault`:
+
+[[1]]
+@@ 2bnokvlwuiz
+[[1]]
+Ele só guarda **strings**. Use JSON para arrays e objetos.
+~~
+[[1]]
+Solo guarda **strings**. Usa JSON para arrays y objetos.
+@@ 12z54iyghap
+
+**Ideias principais**
+- Alguns trabalhos levam tempo (temporizadores, rede). O JavaScript continua e trata o resultado **depois**.
+- `setTimeout(fn, ms)` roda `fn` depois de uma espera.
+- Uma **Promise** é um valor que chega depois: pending → fulfilled (ou rejected).
+- `async function` + `await promise` espera o valor de um jeito legível.
+- Trate falhas com `try { ... } catch (err) { ... }`.
+- `fetch(url)` retorna uma promise (próxima seção: APIs).
+~~
+
+**Ideas clave**
+- Algunos trabajos llevan tiempo (temporizadores, red). JavaScript sigue adelante y maneja el resultado **después**.
+- `setTimeout(fn, ms)` ejecuta `fn` tras una espera.
+- Una **Promise** (promesa) es un valor que llega después: pending → fulfilled (o rejected).
+- `async function` + `await promise` espera el valor de forma legible.
+- Maneja los fallos con `try { ... } catch (err) { ... }`.
+- `fetch(url)` devuelve una promesa (siguiente sección: APIs).
+@@ 1dmxegr04hm
+[[1]]
+O JavaScript **não** para e espera. Ele agenda o temporizador e continua. O temporizador roda depois.
+~~
+[[1]]
+JavaScript **no** se detiene a esperar. Programa el temporizador y continúa. El temporizador se ejecuta después.
+@@ 1j4flmaj693
+Uma **Promise** representa um valor que vai chegar depois:
+
+[[1]]
+Uma promise fica **pending** (pendente) e depois **fulfilled** (deu certo) ou **rejected** (falhou).
+~~
+Una **Promise** representa un valor que llegará más tarde:
+
+[[1]]
+Una promesa está **pending** (pendiente) y luego **fulfilled** (funcionó) o **rejected** (falló).
+@@ wig81ug1wq
+[[1]]
+O `await` só funciona dentro de uma função `async` (ou no topo de um módulo). Ele faz o código assíncrono parecer código normal.
+~~
+[[1]]
+`await` solo funciona dentro de una función `async` (o en la parte superior de un módulo). Hace que el código asíncrono se lea como código normal.
+@@ kd3baf8a8j
+
+**Ideias principais**
+- **Módulos**: `export function x() {}` / `export default App`; `import App, { x } from "./file.js"`.
+- **Classes**: `class Knight { constructor(name) { this.name = name; } greet() {} }`; `new Knight("Ada")`; `extends` para herança.
+- Erros: `throw new Error("message")`; `try/catch/finally`.
+- Encadeamento opcional: `user?.address?.city` (não quebra com undefined).
+- Coalescência nula: `value ?? "default"` (só para null/undefined, diferente de `||`).
+~~
+
+**Ideas clave**
+- **Módulos**: `export function x() {}` / `export default App`; `import App, { x } from "./file.js"`.
+- **Clases**: `class Knight { constructor(name) { this.name = name; } greet() {} }`; `new Knight("Ada")`; `extends` para la herencia.
+- Errores: `throw new Error("message")`; `try/catch/finally`.
+- Encadenamiento opcional: `user?.address?.city` (no falla con undefined).
+- Fusión nula: `value ?? "default"` (solo para null/undefined, a diferencia de `||`).
+@@ 1vb0eo4us40
+Programas grandes são divididos em **módulos** (arquivos):
+
+[[1]]
+Exportações nomeadas usam `{ }` na importação; a exportação padrão não.
+~~
+Los programas grandes se dividen en **módulos** (archivos):
+
+[[1]]
+Las exportaciones con nombre usan `{ }` al importar; la exportación por defecto no.
+@@ uznokbrh5b
+[[1]]
+`||` também dá valores padrão, mas para **qualquer** valor falsy: `0 || 10` dá `10`, enquanto `0 ?? 10` dá `0`.
+~~
+[[1]]
+`||` también da valores por defecto, pero para **cualquier** valor falsy: `0 || 10` da `10`, mientras que `0 ?? 10` da `0`.

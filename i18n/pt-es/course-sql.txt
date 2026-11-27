@@ -1,0 +1,164 @@
+@@ 1e41rt7jbo
+
+**Ideias principais**
+- Um banco de dados relacional guarda dados em **tabelas** (linhas e colunas). **SQL** é a linguagem para fazer perguntas.
+- `SELECT name, level FROM knights;` escolhe colunas. `SELECT *` escolhe todas.
+- `WHERE` filtra linhas: `=`, `<>`, `>`, `<=`, `AND`, `OR`, `NOT`, `IN (...)`, `LIKE 'A%'`, `IS NULL`.
+- Texto usa aspas simples: `WHERE name = 'Ada'`.
+- Bancos populares: PostgreSQL, MySQL, SQLite, SQL Server.
+~~
+
+**Ideas clave**
+- Una base de datos relacional guarda los datos en **tablas** (filas y columnas). **SQL** es el lenguaje para hacer preguntas.
+- `SELECT name, level FROM knights;` elige columnas. `SELECT *` las elige todas.
+- `WHERE` filtra filas: `=`, `<>`, `>`, `<=`, `AND`, `OR`, `NOT`, `IN (...)`, `LIKE 'A%'`, `IS NULL`.
+- El texto usa comillas simples: `WHERE name = 'Ada'`.
+- Bases de datos populares: PostgreSQL, MySQL, SQLite, SQL Server.
+@@ e3lykchk7o
+Um **banco de dados** guarda os dados de um aplicativo: usuários, pedidos, mensagens... Bancos **relacionais** guardam os dados em **tabelas**:
+
+[[1]]
+Cada **linha** é um registro; cada **coluna** é um campo. **SQL** (Structured Query Language) é como você faz perguntas ao banco.
+~~
+Una **base de datos** guarda los datos de una aplicación: usuarios, pedidos, mensajes... Las bases de datos **relacionales** guardan los datos en **tablas**:
+
+[[1]]
+Cada **fila** es un registro; cada **columna** es un campo. **SQL** (Structured Query Language) es como le haces preguntas a la base de datos.
+@@ 1likugzas6i
+[[1]]
+As palavras-chave do SQL costumam ser escritas em MAIÚSCULAS (não é obrigatório). As instruções terminam com `;`.
+~~
+[[1]]
+Las palabras clave de SQL se suelen escribir en MAYÚSCULAS (no es obligatorio). Las sentencias terminan con `;`.
+@@ bquyn5lrzt
+[[1]]
+Valores de texto usam **aspas simples**.
+~~
+[[1]]
+Los valores de texto usan **comillas simples**.
+@@ do1ph1p3u0
+
+**Ideias principais**
+- `ORDER BY gold DESC` ordena (ASC é o padrão). `LIMIT 3` mantém as primeiras linhas.
+- Agregações: `COUNT(*)`, `SUM(gold)`, `AVG(level)`, `MIN`, `MAX`. Renomeie com `AS`.
+- `GROUP BY house_id` cria uma linha de resultado por grupo; `HAVING` filtra grupos (WHERE filtra linhas).
+- Ordem da consulta: SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY → LIMIT.
+~~
+
+**Ideas clave**
+- `ORDER BY gold DESC` ordena (ASC es el valor por defecto). `LIMIT 3` se queda con las primeras filas.
+- Agregaciones: `COUNT(*)`, `SUM(gold)`, `AVG(level)`, `MIN`, `MAX`. Renombra con `AS`.
+- `GROUP BY house_id` crea una fila de resultado por grupo; `HAVING` filtra grupos (WHERE filtra filas).
+- Orden de la consulta: SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY → LIMIT.
+@@ 23wm1q0umcj
+[[1]]
+`AS` dá um nome à coluna do resultado.
+~~
+[[1]]
+`AS` le da un nombre a la columna del resultado.
+@@ 1aesam6k8md
+[[1]]
+`WHERE` filtra as linhas **antes** de agrupar; `HAVING` filtra os **grupos**.
+~~
+[[1]]
+`WHERE` filtra las filas **antes** de agrupar; `HAVING` filtra los **grupos**.
+@@ cztpw08iih
+
+**Ideias principais**
+- Uma **chave primária** (`id`) identifica cada linha. Uma **chave estrangeira** (`house_id`) aponta para uma linha de outra tabela.
+- Uma casa tem muitos cavaleiros (**um-para-muitos**). Muitos-para-muitos precisa de uma tabela de junção (ex.: `knight_skills`).
+- `JOIN ... ON a.x = b.y` (INNER) mantém só as linhas que combinam nas duas tabelas.
+- `LEFT JOIN` mantém todas as linhas da tabela da esquerda; o que não combina vira `NULL`.
+- Nomes curtos: `FROM knights k JOIN houses h ON k.house_id = h.id`.
+~~
+
+**Ideas clave**
+- Una **clave primaria** (`id`) identifica cada fila. Una **clave foránea** (`house_id`) apunta a una fila de otra tabla.
+- Una casa tiene muchos caballeros (**uno a muchos**). Muchos a muchos necesita una tabla intermedia (p. ej. `knight_skills`).
+- `JOIN ... ON a.x = b.y` (INNER) se queda solo con las filas que coinciden en las dos tablas.
+- `LEFT JOIN` conserva todas las filas de la tabla de la izquierda; lo que no coincide se vuelve `NULL`.
+- Nombres cortos: `FROM knights k JOIN houses h ON k.house_id = h.id`.
+@@ qz884k4t1p
+Em vez de escrever o nome da casa em cada linha de cavaleiro, guardamos uma vez em `houses` e apontamos para ela:
+
+[[1]]
+Isso evita dados duplicados (**normalização**).
+~~
+En lugar de escribir el nombre de la casa en cada fila de caballero, lo guardamos una vez en `houses` y apuntamos a él:
+
+[[1]]
+Así se evitan datos duplicados (**normalización**).
+@@ 2fzcd0akark
+[[1]]
+Um JOIN (inner) mantém só as linhas que combinam dos dois lados. Missões sem cavaleiro desaparecem.
+~~
+[[1]]
+Un JOIN (inner) se queda solo con las filas que coinciden en ambos lados. Las misiones sin caballero desaparecen.
+@@ 20lixdu7ntt
+[[1]]
+Todas as missões são mantidas. Se nenhum cavaleiro combina, `knights.name` é `NULL`.
+
+Contando inclusive os zeros:
+
+[[2]]
+~~
+[[1]]
+Se conservan todas las misiones. Si ningún caballero coincide, `knights.name` es `NULL`.
+
+Contar incluyendo los ceros:
+
+[[2]]
+@@ s7oo5ypgq2
+
+**Ideias principais**
+- `INSERT INTO t (a, b) VALUES (1, 'x');` `UPDATE t SET a = 2 WHERE id = 1;` `DELETE FROM t WHERE ...;`
+- Use **sempre** WHERE com UPDATE e DELETE, senão todas as linhas mudam!
+- `CREATE TABLE` com tipos (INTEGER, TEXT, REAL) e restrições (PRIMARY KEY, NOT NULL, UNIQUE, REFERENCES, DEFAULT). Índices aceleram as buscas.
+- Em aplicativos: consultas parametrizadas (nunca concatenação de strings), ORMs (Prisma, Drizzle), transações, migrações.
+- Bancos **NoSQL** (MongoDB, Redis...) guardam documentos ou pares chave-valor; ótimos para dados flexíveis ou muito rápidos.
+~~
+
+**Ideas clave**
+- `INSERT INTO t (a, b) VALUES (1, 'x');` `UPDATE t SET a = 2 WHERE id = 1;` `DELETE FROM t WHERE ...;`
+- Usa **siempre** WHERE con UPDATE y DELETE, ¡o cambiarán todas las filas!
+- `CREATE TABLE` con tipos (INTEGER, TEXT, REAL) y restricciones (PRIMARY KEY, NOT NULL, UNIQUE, REFERENCES, DEFAULT). Los índices aceleran las búsquedas.
+- En aplicaciones: consultas parametrizadas (nunca concatenar strings), ORMs (Prisma, Drizzle), transacciones, migraciones.
+- Las bases de datos **NoSQL** (MongoDB, Redis...) guardan documentos o pares clave-valor; geniales para datos flexibles o muy rápidos.
+@@ 26tp863exwb
+[[1]]
+⚠ Um UPDATE ou DELETE **sem WHERE** muda **todas** as linhas.
+~~
+[[1]]
+⚠ Un UPDATE o DELETE **sin WHERE** cambia **todas** las filas.
+@@ 24dzrxxoi
+[[1]]
+Restrições protegem seus dados: `NOT NULL`, `UNIQUE`, `PRIMARY KEY`, `REFERENCES` (chave estrangeira), `DEFAULT`.
+~~
+[[1]]
+Las restricciones protegen tus datos: `NOT NULL`, `UNIQUE`, `PRIMARY KEY`, `REFERENCES` (clave foránea), `DEFAULT`.
+@@ o9zg0dtrpu
+[[1]]
+- Nunca cole dados do usuário direto no SQL (SQL injection!)
+- **ORMs** e query builders (Prisma, Drizzle, Sequelize) geram SQL a partir do código
+- **Migrações** versionam as mudanças nas tabelas como o Git versiona o código
+- **Transações** fazem várias mudanças no modo tudo-ou-nada (ex.: passar ouro entre cavaleiros)
+~~
+[[1]]
+- Nunca pegues datos del usuario directamente en el SQL (¡inyección SQL!)
+- Los **ORMs** y constructores de consultas (Prisma, Drizzle, Sequelize) generan SQL desde el código
+- Las **migraciones** versionan los cambios de las tablas como Git versiona el código
+- Las **transacciones** hacen varios cambios en modo todo o nada (p. ej. pasar oro entre caballeros)
+@@ 2giyb0p100n
+Bancos **NoSQL** guardam dados em outros formatos:
+- **Documento** (MongoDB, Firestore): documentos parecidos com JSON
+- **Chave-valor** (Redis): buscas super-rápidas, caches, sessões
+- **Grafo** (Neo4j): relacionamentos como redes sociais
+
+[[1]]
+~~
+Las bases de datos **NoSQL** guardan los datos de otras formas:
+- **Documento** (MongoDB, Firestore): documentos parecidos a JSON
+- **Clave-valor** (Redis): búsquedas superrápidas, cachés, sesiones
+- **Grafo** (Neo4j): relaciones como las de las redes sociales
+
+[[1]]

@@ -1,0 +1,1320 @@
+@@ 1noqvy2ffkh
+Conhecendo você
+~~
+Conociéndote
+@@ cjj7megclw
+Conclua algumas lições e sua trilha vai se adaptar ao seu ritmo.
+~~
+Completa algunas lecciones y tu ruta se adaptará a tu ritmo.
+@@ adeck1f7q2
+Devagar e sempre
+~~
+Despacio y seguro
+@@ 20ffckgmuru
+As lições começam com um aquecimento, as difíceis ganham uma parada de revisão, e revisões nunca custam corações.
+~~
+Las lecciones empiezan con un calentamiento, las difíciles reciben una parada de repaso, y los repasos nunca cuestan corazones.
+@@ 2al953d10s9
+Firme e constante
+~~
+Firme y constante
+@@ 1e5nlq0mh4h
+Lições difíceis ganham uma parada de revisão, e um minijogo espera no meio de cada unidade.
+~~
+Las lecciones difíciles reciben una parada de repaso, y un minijuego te espera en mitad de cada unidad.
+@@ ib9cke6ua7
+Você está voando!
+~~
+¡Vas volando!
+@@ 1so66pklmbx
+As lições pulam as perguntas mais fáceis, e aparecem atalhos para passar de unidade com um teste.
+~~
+Las lecciones se saltan las preguntas más fáciles, y aparecen atajos para pasar de unidad con una prueba.
+@@ 2euednzh047
+Elo das Runas
+~~
+Enlace de Runas
+@@ 267b2as2ph8
+Ligue cada runa ao seu significado antes que a areia acabe.
+~~
+Une cada runa con su significado antes de que se acabe la arena.
+@@ q0lkm18pac
+Cripta da Memória
+~~
+Cripta de la Memoria
+@@ t60ac9ceb5
+Vire as peças e encontre os pares.
+~~
+Da la vuelta a las fichas y encuentra las parejas.
+@@ su78fcyhca
+Corrida da Tocha
+~~
+Carrera de la Antorcha
+@@ cv1ohjufz
+Responda perguntas rápidas antes que sua tocha apague. Respostas certas alimentam a chama.
+~~
+Responde preguntas rápidas antes de que se apague tu antorcha. Las respuestas correctas alimentan la llama.
+@@ 1lbqa2amccz
+Caça aos Bugs
+~~
+Caza de Bugs
+@@ 9czixs2cw5
+Cada feitiço tem uma linha quebrada. Encontre-a antes que a tocha apague.
+~~
+Cada hechizo tiene una línea rota. Encuéntrala antes de que se apague la antorcha.
+@@ 1nb3cnz3gcc
+Arco e Seletores
+~~
+Tiro con Selectores
+@@ 2bm0ynwd102
+Escreva seletores CSS que acertem todos os alvos brilhantes e nada mais.
+~~
+Escribe selectores CSS que acierten a todos los objetivos brillantes y a nada más.
+@@ q8rd6fdpf1
+Caça no Arquivo
+~~
+Búsqueda en el Archivo
+@@ 1ggs9dr391r
+Leia a consulta e escolha exatamente as linhas que ela retorna.
+~~
+Lee la consulta y elige exactamente las filas que devuelve.
+@@ 5xie48wmkr
+Ponte dos Loops
+~~
+Puente de Bucles
+@@ ai22omewb2
+Conte quantas vezes cada loop roda, e o herói constrói a ponte tábua por tábua.
+~~
+Cuenta cuántas veces se ejecuta cada bucle, y el héroe construye el puente tabla a tabla.
+@@ ftvwuzq3cw
+Forja de Gemas
+~~
+Forja de Gemas
+@@ 29t2lrb4d27
+Troque gemas para formar linhas de três. A cada 600 pontos uma runa bônus faz uma pergunta: responda para ganhar mais tempo.
+~~
+Intercambia gemas para formar líneas de tres. Cada 600 puntos una runa extra hace una pregunta: respóndela para ganar más tiempo.
+@@ 1ejwyg9mgjr
+Digitador de Runas
+~~
+Mecanógrafo de Runas
+@@ 8oixk3rcli
+Monstros marcham até a muralha carregando palavras de código. Digite uma palavra para atingir seu monstro!
+~~
+Los monstruos marchan hacia la muralla con palabras de código. ¡Escribe una palabra para disparar a su monstruo!
+@@ 244l9bymhvc
+Desenvolvedor Frontend
+~~
+Desarrollador Frontend
+@@ bjgpc65ams
+com React
+~~
+con React
+@@ mxz6hnohb8
+Desenvolvedor Frontend Júnior (React)
+~~
+Desarrollador Frontend Júnior (React)
+@@ reuptm5sb2
+Crie sites e aplicações web que as pessoas usam todo dia. O conjunto de habilidades frontend mais procurado.
+~~
+Crea sitios y aplicaciones web que la gente usa cada día. El conjunto de habilidades frontend más solicitado.
+@@ 16wnlmfad5f
+com Vue
+~~
+con Vue
+@@ 22gplncaxku
+Desenvolvedor Frontend Júnior (Vue)
+~~
+Desarrollador Frontend Júnior (Vue)
+@@ 1dj46dxa8kc
+Crie aplicações web com Vue, um framework amigável adorado na Europa e na Ásia.
+~~
+Crea aplicaciones web con Vue, un framework amigable muy querido en Europa y Asia.
+@@ 2ddjva9xrs
+com Svelte
+~~
+con Svelte
+@@ 1hgrj9n5kig
+Desenvolvedor Frontend Júnior (Svelte)
+~~
+Desarrollador Frontend Júnior (Svelte)
+@@ 1xzasrd4utf
+Crie aplicações web rápidas com Svelte, o framework-compilador que os desenvolvedores adoram.
+~~
+Crea aplicaciones web rápidas con Svelte, el framework compilador que encanta a los desarrolladores.
+@@ qqqw0bfwxh
+Desenvolvedor Backend
+~~
+Desarrollador Backend
+@@ 5o4h7vkxsw
+com Node.js e SQL
+~~
+con Node.js y SQL
+@@ 667c3od2y6
+Desenvolvedor Backend Júnior (Node.js)
+~~
+Desarrollador Backend Júnior (Node.js)
+@@ 1hrx120tawx
+Crie os servidores, APIs e bancos de dados por trás de todo aplicativo.
+~~
+Crea los servidores, APIs y bases de datos que hay detrás de cada aplicación.
+@@ 2f395recm3l
+Desenvolvedor Full-Stack
+~~
+Desarrollador Full-Stack
+@@ 1n9gtpby2l7
+React + Node.js + SQL
+~~
+React + Node.js + SQL
+@@ 25ueo6hf731
+Desenvolvedor Full-Stack Júnior
+~~
+Desarrollador Full-Stack Júnior
+@@ wivl6z2mgo
+Faça de tudo: interfaces, servidores e bancos de dados. A trilha mais longa e a mais versátil.
+~~
+Hazlo todo: interfaces, servidores y bases de datos. La ruta más larga y la más versátil.
+@@ 16gdnjv291x
+com Python e SQL
+~~
+con Python y SQL
+@@ 2007zv9zbqz
+Desenvolvedor Backend Júnior (Python)
+~~
+Desarrollador Backend Júnior (Python)
+@@ 1ffspfv2kan
+Python é a primeira linguagem mais amigável e move servidores web, dados e IA. Python de verdade roda no seu navegador.
+~~
+Python es el primer lenguaje más amigable y mueve servidores web, datos e IA. Python de verdad se ejecuta en tu navegador.
+@@ 1vu05r2e21d
+com PHP e SQL
+~~
+con PHP y SQL
+@@ 1g70rxtdr84
+Desenvolvedor Backend Júnior (PHP)
+~~
+Desarrollador Backend Júnior (PHP)
+@@ 24hfh7bj1ky
+O PHP roda uma enorme parte da web (WordPress, Laravel). PHP 8 de verdade roda no seu navegador.
+~~
+PHP mueve una parte enorme de la web (WordPress, Laravel). PHP 8 de verdad se ejecuta en tu navegador.
+@@ 1vq6uoz2ntu
+Trainee de Software
+~~
+Trainee de Software
+@@ tsrluqebhz
+até Engenheiro Júnior
+~~
+hasta Ingeniero Júnior
+@@ dtnitqewg4
+Engenheiro de Software Júnior
+~~
+Ingeniero de Software Júnior
+@@ 1kcgzrqegys
+Um programa de trainee amplo, como os das grandes empresas: web, JavaScript, Python, SQL, APIs, algoritmos, testes e habilidades de carreira.
+~~
+Un programa de trainee amplio, como los de las grandes empresas: web, JavaScript, Python, SQL, APIs, algoritmos, pruebas y habilidades profesionales.
+@@ twnmw3wx4d
+Ainda não sei
+~~
+Todavía no lo sé
+@@ bqag0kxtyg
+Comece pelos fundamentos
+~~
+Empieza por los fundamentos
+@@ 1jbfp2f8128
+Escolha sua trilha depois
+~~
+Elige tu ruta más tarde
+@@ 1njvzgb7nn9
+Aprenda como a web funciona, HTML, CSS, JavaScript e as ferramentas de desenvolvimento. Toda trilha começa aqui, então nada é desperdiçado. Você pode escolher uma trilha a qualquer momento.
+~~
+Aprende cómo funciona la web, HTML, CSS, JavaScript y las herramientas de desarrollo. Todas las rutas empiezan aquí, así que nada se desperdicia. Puedes elegir una ruta en cualquier momento.
+@@ 1c0wqf7c2y5
+Gosma Verde
+~~
+Limo Verde
+@@ 1n5x4rw5gac
+Bloop! Você parece gostoso.
+~~
+¡Bloop! Tienes buena pinta.
+@@ 1fi86la9bi4
+Gosma Azul
+~~
+Limo Azul
+@@ gj3l1nw4wx
+Splish! Erros de sintaxe são meu lanche favorito.
+~~
+¡Splish! Los errores de sintaxis son mi aperitivo favorito.
+@@ jmhx0o751g
+Fogo-fátuo
+~~
+Fuego Fatuo
+@@ k7rixl1jai
+Siga-me... para dentro de um loop infinito!
+~~
+Sígueme... ¡hacia un bucle infinito!
+@@ 1hkfhy88b16
+Senhor Cogumelo
+~~
+Señor Champiñón
+@@ 1vneyz1db9j
+Meus esporos vão encher seu código de bugs!
+~~
+¡Mis esporas llenarán tu código de bugs!
+@@ 2clzu8rzyw2
+Morcego da Caverna
+~~
+Murciélago de Cueva
+@@ 1ex05bs8988
+Iiiih! Suas variáveis são undefined!
+~~
+¡Iiiih! ¡Tus variables son undefined!
+@@ 2c69sy29laq
+Esqueleto
+~~
+Esqueleto
+@@ 21fc2x4z77f
+Sou só ossos e nenhum ponto e vírgula.
+~~
+Soy todo huesos y ningún punto y coma.
+@@ 21w3kf8jx56
+Mímico
+~~
+Mímico
+@@ 25tb9j7rtaw
+Surpresa! Eu nunca fui um baú do tesouro.
+~~
+¡Sorpresa! Nunca fui un cofre del tesoro.
+@@ 2cemstyfu0s
+Rei dos Ossos
+~~
+Rey de los Huesos
+@@ 1jqtmzbfmkx
+Ajoelhe-se diante do rei dos erros de "um a mais"!
+~~
+¡Arrodíllate ante el rey de los errores por uno!
+@@ yflfwiyse3
+Fantasma
+~~
+Fantasma
+@@ 1f5n9pzidbd
+Buu! Eu assombro tags não fechadas.
+~~
+¡Buu! Yo embrujo las etiquetas sin cerrar.
+@@ kr31lvltgt
+Lobo das Sombras
+~~
+Lobo de las Sombras
+@@ 6oa5quse2w
+Grrr. Sinto cheiro de colchete faltando.
+~~
+Grrr. Huelo un corchete que falta.
+@@ 18fp85f3lbi
+Esporinho
+~~
+Esporito
+@@ 158lr7w7ftq
+Esporos! Esporos por todo lado!
+~~
+¡Esporas! ¡Esporas por todas partes!
+@@ 1uhwq35w62m
+Lobo Alfa
+~~
+Lobo Alfa
+@@ trd4dhzkz1
+A matilha nunca esquece um teste falhando.
+~~
+La manada nunca olvida una prueba que falla.
+@@ 17a282c5mzj
+Golem de Pedra
+~~
+Gólem de Piedra
+@@ p4ov97jp16
+EU. SOU. HARD. CODED.
+~~
+SOY. HARD. CODED.
+@@ fgpppm6tw6
+Mímico Ganancioso
+~~
+Mímico Codicioso
+@@ b7fmwpx4n5
+Ouro! Me dê todo o seu ouro!
+~~
+¡Oro! ¡Dame todo tu oro!
+@@ j2othcyv6s
+Titã de Pedra
+~~
+Titán de Piedra
+@@ 2014d3b86gq
+Nada passa pelo meu firewall.
+~~
+Nada atraviesa mi firewall.
+@@ weakxpcz7u
+Filhote de Dragão
+~~
+Cría de Dragón
+@@ 2bs28vh5mas
+Rawr! Sou pequeno, mas meus bugs são grandes.
+~~
+¡Rawr! Soy pequeño, pero mis bugs son grandes.
+@@ pgar1jyry5
+Dragão de Fogo
+~~
+Dragón de Fuego
+@@ p4jgozcr0
+Vou queimar seu código legado!
+~~
+¡Quemaré tu código heredado!
+@@ 1bwcvcgupjt
+Dragão Negro
+~~
+Dragón Negro
+@@ 1yk19e9dadx
+Eu sou cada bug que você já escreveu. Enfrente-me!
+~~
+Soy cada bug que has escrito. ¡Enfréntate a mí!
+@@ 23uhiuw16uf
+Dragão Ancião dos Bugs
+~~
+Dragón Anciano de los Bugs
+@@ 1pngtcuddmw
+Prove que está pronto para ser um Desenvolvedor Júnior!
+~~
+¡Demuestra que estás listo para ser Desarrollador Júnior!
+@@ 1ks5iupa6nh
+Prado das Gosmas
+~~
+Prado de los Limos
+@@ bit64uq8tn
+Colinas verdes e macias cheias de gosmas saltitantes. Um bom lugar para começar.
+~~
+Colinas verdes y suaves llenas de limos saltarines. Un buen lugar para empezar.
+@@ 16q0d0ndrur
+Cavernas dos Morcegos
+~~
+Cuevas de los Murciélagos
+@@ 1h72ndjvw9u
+Túneis escuros. Morcegos, esqueletos e baús que mordem.
+~~
+Túneles oscuros. Murciélagos, esqueletos y cofres que muerden.
+@@ mk5x0qtcg7
+Bosque Assombrado
+~~
+Bosque Embrujado
+@@ 1f4pcftwyn7
+Fantasmas entre as árvores e lobos nas sombras.
+~~
+Fantasmas entre los árboles y lobos en las sombras.
+@@ 256qcrtst9r
+Pedreira dos Golens
+~~
+Cantera de los Gólems
+@@ 1gs6keio8xb
+Gigantes de pedra guardam as minas antigas.
+~~
+Gigantes de piedra custodian las minas antiguas.
+@@ 1jcqyi391h1
+Pico do Dragão
+~~
+Pico del Dragón
+@@ 19l0vrd4djj
+Dragões não são nossos amigos. Só os programadores mais corajosos sobem até aqui.
+~~
+Los dragones no son nuestros amigos. Solo los programadores más valientes suben hasta aquí.
+@@ 7vf18g71c6
+O que um programador escreve?
+~~
+¿Qué escribe un programador?
+@@ d1k8cxwco9
+Poemas
+~~
+Poemas
+@@ vn0qgg1nfl
+Receitas
+~~
+Recetas
+@@ 16nahjixi5g
+Qual linguagem cria a estrutura de uma página web?
+~~
+¿Qué lenguaje crea la estructura de una página web?
+@@ 2ctnnecaqga
+Qual linguagem deixa uma página web colorida?
+~~
+¿Qué lenguaje le da color a una página web?
+@@ 21zrkjwuk0w
+O que é um bug?
+~~
+¿Qué es un bug?
+@@ 1if6o6raut3
+Um computador rápido
+~~
+Un ordenador rápido
+@@ k3d69mlzn0
+Um computador segue instruções...
+~~
+Un ordenador sigue instrucciones...
+@@ 294yju09898
+exatamente, em ordem
+~~
+exactamente, en orden
+@@ 1fymjev65o3
+só quando quer
+~~
+solo cuando quiere
+@@ 1se60h80x4s
+de trás para frente
+~~
+al revés
+@@ 1hilqsu59q3
+O que um navegador faz?
+~~
+¿Qué hace un navegador?
+@@ 9654tu0k25
+Mostra páginas web
+~~
+Muestra páginas web
+@@ o86r3nfoyu
+Cozinha comida
+~~
+Cocina comida
+@@ 5e16sazl6c
+Armazena eletricidade
+~~
+Almacena electricidad
+@@ yv9qmuzxtw
+Qual destas é uma linguagem de programação?
+~~
+¿Cuál de estos es un lenguaje de programación?
+@@ 1as4wb0td7q
+Teclado
+~~
+Teclado
+@@ 24u829esqym
+Uma lista de passos para resolver um problema é um...
+~~
+Una lista de pasos para resolver un problema es un...
+@@ avb26acifm
+algoritmo
+~~
+algoritmo
+@@ 1z58vkvink
+antena
+~~
+antena
+@@ 207ev0tb91i
+avatar
+~~
+avatar
+@@ 2afnisohsi7
+Para que serve um loop?
+~~
+¿Para qué sirve un bucle?
+@@ 2al26mokh41
+Repetir passos
+~~
+Repetir pasos
+@@ 1o2szs16lje
+Apagar arquivos
+~~
+Borrar archivos
+@@ wr537hz1g1
+Desenhar só círculos
+~~
+Dibujar solo círculos
+@@ 27cegs0hsmq
+Onde você digita código?
+~~
+¿Dónde escribes código?
+@@ 1gfwkaa4e6g
+Num editor
+~~
+En un editor
+@@ pghbbi8kqv
+Numa calculadora
+~~
+En una calculadora
+@@ 1s9htcceg8s
+Numa foto
+~~
+En una foto
+@@ 18776s7fa0k
+O que significa "depurar" (debugging)?
+~~
+¿Qué significa "depurar" (debugging)?
+@@ 2f9ybyfon7
+Encontrar e corrigir erros
+~~
+Encontrar y corregir errores
+@@ 7oxw9kkmvd
+Adicionar bugs
+~~
+Añadir bugs
+@@ 1gz1p80xu1f
+Desligar o computador
+~~
+Apagar el ordenador
+@@ 259qthytef3
+Qual é um bom hábito quando você trava?
+~~
+¿Qué es un buen hábito cuando te atascas?
+@@ 2ceq5hct10h
+Ler a mensagem de erro
+~~
+Leer el mensaje de error
+@@ 1aho9fvaxbm
+Apagar tudo
+~~
+Borrarlo todo
+@@ i2omd3nqyf
+Trigo
+~~
+Trigo
+@@ 1wzucn9nkvk
+Cenoura
+~~
+Zanahoria
+@@ 2503jyv03ex
+Batata
+~~
+Patata
+@@ eytlcxnk3t
+Repolho
+~~
+Repollo
+@@ 1b7pivwqh23
+Tomate
+~~
+Tomate
+@@ r2kvsyk1xg
+Morango
+~~
+Fresa
+@@ xgd514bt2g
+Milho
+~~
+Maíz
+@@ 1yvgd8r0ov9
+Abóbora
+~~
+Calabaza
+@@ 16bhufvo7nj
+Galinha
+~~
+Gallina
+@@ 1hmvnhp9bvg
+Bota um ovo a cada 20 minutos quando alimentada.
+~~
+Pone un huevo cada 20 minutos cuando come.
+@@ 1ngavmi2afe
+Vaca
+~~
+Vaca
+@@ 1fem66p2sdm
+Dá leite a cada 45 minutos quando alimentada.
+~~
+Da leche cada 45 minutos cuando come.
+@@ 2ft64m7u6ir
+Ovelha
+~~
+Oveja
+@@ r0c0dde5nv
+Produz lã. Tose a cada hora.
+~~
+Le crece lana. Esquílala cada hora.
+@@ 6e1nv9m5yi
+Porco
+~~
+Cerdo
+@@ dfflospncv
+Fareja uma trufa a cada 90 minutos.
+~~
+Olfatea una trufa cada 90 minutos.
+@@ 1xf5w4a902a
+Cabra
+~~
+Cabra
+@@ sx743jsyde
+Come quase tudo. Dá leite.
+~~
+Come casi de todo. Da leche.
+@@ 1q20ikh4ngf
+Cavalo
+~~
+Caballo
+@@ 1q08x4c8il1
+Um cavalo feliz deixa você andar mais rápido na vila.
+~~
+Un caballo feliz te deja caminar más rápido por la aldea.
+@@ 1e14y28wml4
+Cachorro
+~~
+Perro
+@@ 17dz4k7rlu8
+Guarda a horta: o mato cresce mais devagar. Traz penas.
+~~
+Vigila el huerto: la maleza crece más despacio. Trae plumas.
+@@ 1b70244wyii
+Gato
+~~
+Gato
+@@ 1gzxkxfxkqe
+Espanta os ratos: plantas maduras demoram mais para murchar.
+~~
+Ahuyenta a los ratones: los cultivos maduros tardan más en marchitarse.
+@@ 29ley6wfb3t
+Ovo
+~~
+Huevo
+@@ qvoagz04we
+Leite
+~~
+Leche
+@@ dwh2tnprpw
+Lã
+~~
+Lana
+@@ 1sv6hjpdl89
+Trufa
+~~
+Trufa
+@@ 1cccz1dh4t3
+Pena
+~~
+Pluma
+@@ g2ubkqnxla
+Feno
+~~
+Heno
+@@ 6ve6n9vmp4
+Lâmpada
+~~
+Bombilla
+@@ 1ee8v3vam10
+Uma dica
+~~
+Una pista
+@@ 21igdbvr5dn
+Acende uma pista: tira respostas erradas, coloca uma peça para você ou liga um par. Nos minijogos, revela uma resposta.
+~~
+Enciende una pista: quita respuestas incorrectas, coloca una pieza por ti o une una pareja. En los minijuegos revela una respuesta.
+@@ 12xsqf0omxe
+Tocha
+~~
+Antorcha
+@@ 894wkiqjan
+Uma segunda chance
+~~
+Una segunda oportunidad
+@@ 22alqeogkzh
+Depois de uma resposta errada, queime uma tocha para tentar de novo. Nenhum coração perdido. Nos minijogos, dá mais tempo.
+~~
+Tras una respuesta incorrecta, quema una antorcha para intentarlo otra vez. No pierdes corazón. En los minijuegos da más tiempo.
+@@ 1tdyivcboin
+Poção
+~~
+Poción
+@@ 1pls2aiju9j
++1 coração
+~~
++1 corazón
+@@ gjh1wmkqq0
+Beba para recuperar um coração, mesmo no meio de uma lição.
+~~
+Bébela para recuperar un corazón, incluso en mitad de una lección.
+@@ eyovgdma75
+Coelhinho
+~~
+Conejito
+@@ yof76uw3to
+Saltita em volta dos seus pés. Ama cenouras mais que tudo.
+~~
+Da saltitos a tus pies. Adora las zanahorias más que nada.
+@@ vxam717dur
+Sapo
+~~
+Rana
+@@ 2c7i2pzhsfe
+Canta à noite na lagoa. Pega bugs, até no código.
+~~
+Canta de noche en el estanque. Atrapa bichos, incluso en el código.
+@@ pd6nt5qzzp
+Ouriço
+~~
+Erizo
+@@ 1osjsmc739f
+Pequeno, espinhoso e muito corajoso.
+~~
+Pequeño, espinoso y muy valiente.
+@@ 5gp3hty90v
+Ratinho
+~~
+Ratón
+@@ 6u80vl85e5
+Lê seus livros de feitiços à noite. Um pequeno sábio.
+~~
+Lee tus libros de hechizos por la noche. Un pequeño sabio.
+@@ 1th796sgys0
+Tartaruga
+~~
+Tortuga
+@@ zdts7g7km7
+Devagar e sempre. Nunca desiste.
+~~
+Lenta pero segura. Nunca se rinde.
+@@ cvkve75ka8
+Caracol
+~~
+Caracol
+@@ kttgs6dxk8
+Leva a casa para todo lado. Deixa um rastro brilhante.
+~~
+Lleva su casa a todas partes. Deja un rastro brillante.
+@@ 1bq1r01i7xs
+Esquilo
+~~
+Ardilla
+@@ 1f2r7qnbiyx
+Esconde bolotas nos seus bolsos para depois.
+~~
+Esconde bellotas en tus bolsillos para luego.
+@@ 2flvx0gytxh
+Patinho
+~~
+Patito
+@@ yir980s4k1
+Segue você em linha reta. Quack!
+~~
+Te sigue en línea recta. ¡Cuac!
+@@ aiaqdqwqrv
+Raposa
+~~
+Zorro
+@@ f73op0xy4k
+Esperta e curiosa. Encontra atalhos em todo lugar.
+~~
+Listo y curioso. Encuentra atajos en todas partes.
+@@ 2713yxw0l9l
+Coruja
+~~
+Búho
+@@ 17y0n9umjyi
+Ave noturna sábia. Pia quando você acerta uma resposta.
+~~
+Sabia ave nocturna. Ulula cuando aciertas una respuesta.
+@@ 1g6b1ys7lj3
+Guaxinim
+~~
+Mapache
+@@ 2e731nw4syn
+Um pequeno ladrão mascarado de bom coração.
+~~
+Un pequeño ladrón enmascarado con buen corazón.
+@@ nie8eet9al
+Pinguim
+~~
+Pingüino
+@@ 1953ygi8a9g
+Vem gingando do norte gelado. Ama leite gelado.
+~~
+Llega contoneándose del norte nevado. Le encanta la leche fría.
+@@ ydle4vf8an
+Morcego
+~~
+Murciélago
+@@ 90cj4u14vx
+Dorme o dia todo, depura a noite toda.
+~~
+Duerme todo el día, depura toda la noche.
+@@ z09ga9c1og
+Panda-vermelho
+~~
+Panda Rojo
+@@ 2cb69ne271v
+Cauda fofinha, coração fofinho. Muito raro nestas terras.
+~~
+Cola esponjosa, corazón tierno. Muy raro en estas tierras.
+@@ 11g7a70rfh1
+Lontra
+~~
+Nutria
+@@ 11b0ll3hbvx
+Segura sua mão enquanto você dorme para você não se afastar.
+~~
+Te da la mano mientras duermes para que no te alejes.
+@@ 1ecieggnlu4
+Filhote de Lobo
+~~
+Lobezno
+@@ b1wn3sotga
+Leal até o fim. Uiva para a lua cheia e para testes falhando.
+~~
+Leal hasta el final. Aúlla a la luna llena y a las pruebas que fallan.
+@@ fqbqcx87pz
+Filhote de Grifo
+~~
+Cría de Grifo
+@@ ap7fveeof5
+Metade águia, metade leão, coragem total.
+~~
+Mitad águila, mitad león, todo valor.
+@@ 16z64yxkbgk
+Filhote de Fênix
+~~
+Polluelo de Fénix
+@@ urcnuaeo3r
+Renasce das próprias cinzas. Nunca deixa uma sequência morrer.
+~~
+Renace de sus propias cenizas. Nunca deja morir una racha.
+@@ 36ys7qbtgz
+Unicórnio Bebê
+~~
+Unicornio Bebé
+@@ av9a8m61sx
+O chifre brilha perto de amigos verdadeiros. Ultra raro.
+~~
+Su cuerno brilla cerca de los amigos de verdad. Ultra raro.
+@@ 1y1vt29d5ez
+Kitsune
+~~
+Kitsune
+@@ 26jqozf5c3q
+Uma raposa espiritual de nove caudas. Cada cauda guarda um segredo.
+~~
+Un zorro espiritual de nueve colas. Cada cola guarda un secreto.
+@@ n17upzpcsa
+Comum
+~~
+Común
+@@ 11kqpfnxbmz
+Incomum
+~~
+Poco común
+@@ 18w2vo6lv0n
+Raro
+~~
+Raro
+@@ 1oihdf6b12i
+Ultra raro
+~~
+Ultra raro
+@@ u405l63h45
+Feliz
+~~
+Feliz
+@@ 1mmakuy60hq
+Contente
+~~
+Contento
+@@ nnyjnonr8w
+Com fome
+~~
+Con hambre
+@@ ohxb3cfojp
+Sozinho
+~~
+Solo
+@@ 2c3hyizjsgg
+Você ganhou um ovo!
+~~
+¡Conseguiste un huevo!
+@@ uiowlc9pea
+Ganhe {n} XP para chocá-lo no Santuário dos Pets.
+~~
+Gana {n} XP para eclosionarlo en el Santuario de Mascotas.
+@@ 3r9s3wo1k9
+Um ovo está chocando!
+~~
+¡Un huevo está eclosionando!
+@@ 1chpsh9phu8
+Visite o Santuário dos Pets para conhecer seu novo amigo.
+~~
+Visita el Santuario de Mascotas para conocer a tu nuevo amigo.
+@@ 19u74osmp4q
+Um presente da Lumi!
+~~
+¡Un regalo de Lumi!
+@@ n0tu8fonpx
+Ganhe 20 XP
+~~
+Gana 20 XP
+@@ 12o6uy8rkfs
+Ganhe 50 XP
+~~
+Gana 50 XP
+@@ 1z3052cuozm
+Conclua 2 lições
+~~
+Completa 2 lecciones
+@@ 17q1azfbxqr
+Conclua 4 lições
+~~
+Completa 4 lecciones
+@@ 1qx08kof2mp
+Conclua uma lição sem erros
+~~
+Completa una lección sin errores
+@@ 26wcej9la42
+Conclua 2 lições perfeitas
+~~
+Completa 2 lecciones perfectas
+@@ 1adabqbmgs4
+Resolva um desafio de programação
+~~
+Resuelve un desafío de programación
+@@ 13pm0wj0mqa
+Pratique uma habilidade ou jogue um minijogo
+~~
+Practica una habilidad o juega un minijuego
+@@ bdgerzuhsq
+Vença 2 batalhas no Portão dos Monstros
+~~
+Gana 2 batallas en la Puerta de los Monstruos
+@@ rbu8zs6kt9
+Colha 5 plantas no seu sítio
+~~
+Cosecha 5 cultivos en tu rancho
+@@ 1rburqavnz7
+Alimente ou brinque com seu pet 3 vezes
+~~
+Alimenta o juega con tu mascota 3 veces
+@@ lmdx7v4vg4
+Jogue 2 minijogos
+~~
+Juega 2 minijuegos
+@@ 13lfmwcga25
+Nomes diferenciam maiúsculas: `Gold` não é `gold`.
+~~
+Los nombres distinguen mayúsculas: `Gold` no es `gold`.
+@@ 22fj43sbeuq
+Erro de um! Os índices vão de 0 a length - 1, então use `<`, não `<=`.
+~~
+¡Error por uno! Los índices van de 0 a length - 1, así que usa `<`, no `<=`.
+@@ 1ijbcwhi0oa
+`=` atribui um valor. Para comparar, use `===`.
+~~
+`=` asigna un valor. Para comparar, usa `===`.
+@@ 2fnt8l5t70j
+Uma `const` nunca pode mudar, então a linha 2 falha. Declare com `let` na linha 1.
+~~
+Una `const` nunca puede cambiar, así que la línea 2 falla. Decláralo con `let` en la línea 1.
+@@ 1dg2vxcpxr6
+A função esqueceu de dar `return` no resultado, então devolve `undefined`.
+~~
+La función olvidó hacer `return` del resultado, así que devuelve `undefined`.
+@@ 128i4seovfd
+`i--` diminui i, então `i < 3` continua verdadeiro para sempre. Um loop infinito! Use `i++`.
+~~
+`i--` hace i más pequeño, así que `i < 3` sigue siendo cierto para siempre. ¡Un bucle infinito! Usa `i++`.
+@@ 1s28oucf3ml
+O último item está em `gems.length - 1`. `gems[gems.length]` é `undefined`.
+~~
+El último elemento está en `gems.length - 1`. `gems[gems.length]` es `undefined`.
+@@ 103aaiobx5d
+`"7"` (texto) não é `7` (número). Converta antes com `Number(input)`.
+~~
+`"7"` (texto) no es `7` (número). Conviértelo antes con `Number(input)`.
+@@ 12jbsid80vs
+Erro de digitação: é `length`, não `lenght`.
+~~
+Error de escritura: es `length`, no `lenght`.
+@@ pjuxwljixg
+Nomes de propriedades diferenciam maiúsculas: `name`, não `Name`.
+~~
+Los nombres de propiedades distinguen mayúsculas: `name`, no `Name`.
+@@ 11ibtf3otv2
+Com chaves, uma arrow function precisa de `return`. Escreva `(p) => p * 2`.
+~~
+Con llaves, una función flecha necesita `return`. Escribe `(p) => p * 2`.
+@@ 1luf6exawrs
+`startGame()` roda a função na hora. Passe sem os parênteses: `startGame`.
+~~
+`startGame()` ejecuta la función al instante. Pásala sin paréntesis: `startGame`.
+@@ f3jhblu2v8
+`fetch` retorna uma Promise. Você precisa de `await fetch(...)` antes de lê-la.
+~~
+`fetch` devuelve una Promise. Necesitas `await fetch(...)` antes de leerla.
+@@ uphrz7gm4b
+A condição está invertida: "jovem demais" significa `age < 18`.
+~~
+La condición está al revés: "demasiado joven" significa `age < 18`.
+@@ kfq2j6c2tq
+A saudação é retornada mas nunca impressa. Use `console.log(greet("Ada"))`.
+~~
+El saludo se devuelve pero nunca se imprime. Usa `console.log(greet("Ada"))`.
+@@ 26tnjx4z3vv
+Valores de CSS são texto no JavaScript: `"red"` precisa de aspas.
+~~
+Los valores CSS son texto en JavaScript: `"red"` necesita comillas.
+@@ eec7ujtqox
+Um **seletor de tipo** é só o nome da tag: `goblin`
+~~
+Un **selector de tipo** es solo el nombre de la etiqueta: `goblin`
+@@ dowkglrbro
+Escolha só um tipo de tag pelo nome.
+~~
+Elige solo un tipo de etiqueta por su nombre.
+@@ 2jq2kjn8qo
+Um **seletor de classe** começa com ponto: `.gold`
+~~
+Un **selector de clase** empieza con un punto: `.gold`
+@@ 1bidqmw0ibc
+Um **seletor de id** começa com cerquilha: `#king`
+~~
+Un **selector de id** empieza con una almohadilla: `#king`
+@@ 1qjyua54cqg
+Um **seletor descendente** tem um espaço: `chest gem` significa "uma gema dentro de um baú".
+~~
+Un **selector descendiente** lleva un espacio: `chest gem` significa "una gema dentro de un cofre".
+@@ 16v4tzl4fp1
+Mesma ideia: só as moedas que estão dentro de uma prateleira.
+~~
+La misma idea: solo las monedas que están dentro de un estante.
+@@ xx2l5d34cu
+Junte uma tag e uma classe sem espaço: `goblin.cursed`
+~~
+Une una etiqueta y una clase sin espacio: `goblin.cursed`
+@@ 1qzphipjx96
+Uma **vírgula** agrupa seletores: `key, coin`
+~~
+Una **coma** agrupa selectores: `key, coin`
+@@ 2dvohkewzd9
+Pseudoclasses escolhem pela posição: `:first-child`
+~~
+Las pseudoclases eligen por posición: `:first-child`
+@@ r7lu6bksow
+`:nth-child(n)` escolhe o n-ésimo filho (contando a partir de 1).
+~~
+`:nth-child(n)` elige el hijo número n (contando desde 1).
+@@ xmxrnuzpyb
+`:not(...)` exclui coisas: `coin:not(.gold)`
+~~
+`:not(...)` excluye cosas: `coin:not(.gold)`
+@@ 2bfsidoktr2
+O **irmão adjacente** `+` significa "logo depois": `gem + scroll`
+~~
+El **hermano adyacente** `+` significa "justo después": `gem + scroll`
+@@ 26tq2hdf95c
+demais
+~~
+demasiadas
+@@ z29640kne9
+Desbloqueia depois de mais algumas lições.
+~~
+Se desbloquea tras algunas lecciones más.
+@@ 1i489w083gd
+Desbloqueia depois das suas primeiras lições.
+~~
+Se desbloquea tras tus primeras lecciones.
+@@ 1uzof3qwf60
+Desbloqueia quando você começar JavaScript.
+~~
+Se desbloquea cuando empieces JavaScript.
+@@ 1euuix5n4s9
+Desbloqueia quando você aprender seletores CSS.
+~~
+Se desbloquea cuando aprendas selectores CSS.
+@@ 17u4xt3eup
+Desbloqueia quando você começar SQL.
+~~
+Se desbloquea cuando empieces SQL.
+@@ 20wjb8xpqlp
+Desbloqueia quando você aprender loops.
+~~
+Se desbloquea cuando aprendas bucles.
+@@ 1w5i6603mog
+Este minijogo não está na sua trilha.
+~~
+Este minijuego no está en tu ruta.
+@@ hvrb2464n1
+Conclua as lições antes deste minijogo para desbloqueá-lo.
+~~
+Completa las lecciones anteriores a este minijuego para desbloquearlo.
+@@ 1mjiae6cdrq
+Não existe esse jogo na taverna.
+~~
+No existe ese juego en la taberna.
+@@ 1r2n1g8mjtk
+Conclua mais algumas lições para desbloquear este jogo.
+~~
+Completa algunas lecciones más para desbloquear este juego.
+@@ t50swy0bqd
+Ancião Tomas
+~~
+Anciano Tomas
+@@ 25jwcsq9fx4
+Guardião do Portão da Vila
+~~
+Guardián de la Puerta de la Aldea
+@@ 18iesbmgreo
+Bem-vindo, viajante! Todo grande programador começou bem aqui, no portão da vila.
+~~
+¡Bienvenido, viajero! Todo gran programador empezó justo aquí, en la puerta de la aldea.
+@@ 17nzek6zbxy
+Mestre Pedreira
+~~
+Maestra Cantera
+@@ cdbcmh3muz
+Toda página web é uma construção. Pegue um cinzel, vamos assentar as primeiras pedras juntos!
+~~
+Cada página web es un edificio. Coge un cincel, ¡vamos a poner juntos las primeras piedras!
+@@ 21fpcfzh1i7
+Arauto Percival
+~~
+Heraldo Percival
+@@ 1ntvf5ly1p3
+Arauto Real
+~~
+Heraldo Real
+@@ 1srrov40o9b
+Cores! Estandartes! Estilo! Deixe-me mostrar como deixar o reino bonito.
+~~
+¡Colores! ¡Estandartes! ¡Estilo! Déjame enseñarte a embellecer el reino.
+@@ 1i6jv9y0e9p
+Velho Caçador da Floresta
+~~
+Viejo Cazador del Bosque
+@@ 14kkiy0x27a
+A floresta só obedece ao código. Vou ensinar você a comandar seu herói.
+~~
+El bosque solo obedece al código. Te enseñaré a dar órdenes a tu héroe.
+@@ 14n3mokna21
+Artífice
+~~
+Artífice
+@@ dlrfgrzx34
+Desenvolvedores de verdade vivem no terminal e no Git. Bem-vindo à minha oficina!
+~~
+Los desarrolladores de verdad viven en la terminal y en Git. ¡Bienvenido a mi taller!
+@@ ke10pyagi5
+Guardiã dos Corvos
+~~
+Guardiana de los Cuervos
+@@ eyct0cagx0
+Meus corvos levam mensagens entre servidores. Vamos aprender a enviá-las e lê-las.
+~~
+Mis cuervos llevan mensajes entre servidores. Aprendamos a enviarlos y leerlos.
+@@ 1wp1dqaab1u
+Ferreiro de Runas
+~~
+Herrero de Runas
+@@ jd6b3kyu2j
+Tipos são runas que impedem os bugs de nascer. Para a forja!
+~~
+Los tipos son runas que impiden que los bugs nazcan. ¡A la forja!
+@@ 10qhneueew5
+Alfaiate Real
+~~
+Sastre Real
+@@ 90grbj9huz
+Por que costurar um manto inteiro se você pode bordar só os fios de que precisa?
+~~
+¿Para qué coser una túnica entera si puedes bordar solo los hilos que necesitas?
+@@ 2a1wcyr1k1v
+Grande Invocadora
+~~
+Gran Invocadora
+@@ 1vsrzq19owu
+Componentes são feitiços que você pode invocar de novo e de novo. Vamos começar?
+~~
+Los componentes son hechizos que puedes invocar una y otra vez. ¿Empezamos?
+@@ 1c8kpqf8bvi
+Druida do Vale
+~~
+Druida del Valle
+@@ 6k67v1qb75
+No Vale, os dados correm como rios e a página acompanha. Venha aprender seus caminhos.
+~~
+En el Valle, los datos fluyen como arroyos y la página los sigue. Ven a aprender sus caminos.
+@@ 38syxha7qi
+Guardiã da Chama
+~~
+Guardiana de la Llama
+@@ 1y8klflahmn
+O Svelte forja seus componentes no fogo, transformando-os em feitiços pequenos e velozes.
+~~
+Svelte forja tus componentes en el fuego y los convierte en hechizos pequeños y veloces.
+@@ t6e2dx3f6i
+Taverneiro
+~~
+Tabernero
+@@ 2af6hipgcbu
+Requisições famintas fazem fila na minha taverna! Ajude-me a criar o servidor que as atende.
+~~
+¡Peticiones hambrientas hacen cola en mi taberna! Ayúdame a crear el servidor que las atiende.
+@@ 1ekgmwasaz9
+Arquivista Real
+~~
+Archivera Real
+@@ y4r9zo4osp
+Todo registro do reino vive nas minhas tabelas. Vou ensinar você a fazer perguntas a elas.
+~~
+Cada registro del reino vive en mis tablas. Te enseñaré a hacerles preguntas.
+@@ sac3sp8q8c
+Bibliotecária da Serpente
+~~
+Bibliotecaria de la Serpiente
+@@ 81kupaootu
+Minha biblioteca está cheia de pergaminhos de Python. Python se lê quase como inglês, então vamos começar a ler e escrever.
+~~
+Mi biblioteca está llena de pergaminos de Python. Python se lee casi como inglés, así que empecemos a leerlo y escribirlo.
+@@ 1hf6wnyhzr5
+Escriba da Prensa do Elefante
+~~
+Escriba de la Imprenta del Elefante
+@@ orm8rr3yra
+Metade das páginas da web são impressas na minha prensa de PHP. Venha compor alguns tipos comigo.
+~~
+La mitad de las páginas de la web se imprimen en mi imprenta de PHP. Ven a componer algunos tipos conmigo.
+@@ anzrwc96iz
+Guardião dos Cofres de Pergaminhos
+~~
+Guardián de las Bóvedas de Pergaminos
+@@ 23e0gz5khe8
+Nem todo registro cabe numa tabela. Nos meus cofres, documentos e chaves são guardados do jeito que são.
+~~
+No todos los registros caben en una tabla. En mis bóvedas, los documentos y las claves se guardan tal como son.
+@@ 2fy0aezun92
+Mestra dos Enigmas da Torre
+~~
+Maestra de Acertijos de la Torre
+@@ yb3w2oxvk6
+Todo enigma da minha torre tem um jeito esperto e um jeito lento. Vou ensinar você a encontrar o esperto.
+~~
+Cada acertijo de mi torre tiene una forma lista y una forma lenta. Te enseñaré a encontrar la lista.
+@@ 25typy5bs0z
+Sargento Vex
+~~
+Sargento Vex
+@@ 2ezo52fs5k5
+Mestre do Campo de Provas
+~~
+Maestro del Campo de Pruebas
+@@ 27j8qztfq3m
+Código que você não testou é código em que você não pode confiar. Prove que funciona!
+~~
+El código que no has probado es código en el que no puedes confiar. ¡Demuestra que funciona!
+@@ gcbb4j9p2r
+Vigia da Torre
+~~
+Vigía de la Torre
+@@ 24a6y5jvm83
+Da minha torre eu vigio páginas lentas, barreiras e ladrões. Vamos manter o reino seguro.
+~~
+Desde mi torre vigilo páginas lentas, barreras y ladrones. Mantengamos el reino seguro.
+@@ 1aynwxofurh
+Fazendeira de Greenhollow
+~~
+Granjera de Greenhollow
+@@ 2akk1gznhpl
+Um bom fazendeiro planeja a estação inteira. Um bom programador planeja o programa inteiro!
+~~
+Un buen granjero planea toda la temporada. ¡Un buen programador planea todo el programa!
+@@ 1el6ltv5f4s
+Mestre da Guilda
+~~
+Maestro del Gremio
+@@ 4s14wzks3i
+Você chegou longe, aventureiro. Agora vamos colocar você numa guilda: seu primeiro emprego!
+~~
+Has llegado lejos, aventurero. Ahora vamos a meterte en un gremio: ¡tu primer trabajo!

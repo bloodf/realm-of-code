@@ -1,0 +1,399 @@
+@@ 1u7d34reppg
+Summon Your First Component
+@@ uhqmm026b3
+export default
+@@ 1ryb827d7ew
+In the Summoners' Circle, nobody builds pages by hand. They **summon components**: little spells that return pieces of the page.
+@@ 1gg44i07sug
+A React **component** is a function that returns **JSX**: HTML-like code inside JavaScript.
+
+```
+export default function App() {
+  return (
+    <div>
+      <h1>Hail, Realm!</h1>
+      <p>The circle is open.</p>
+    </div>
+  );
+}
+```
+
+Rules of JSX:
+- A component name starts with a **Capital** letter
+- Return **one** parent element (wrap siblings in a `<div>` or `<>...</>`)
+- `export default` lets the game find your `App`
+@@ 1xggcp24791
+Make `App` return an `<h1>` with the exact text **Hail, Realm!** and a `<p>` with any text.
+@@ 2drvan4anbi
+React is used by a large share of companies hiring front-end developers. JSX is compiled into normal function calls (`jsx("h1", { children: "Hail" })`), which is why you can mix it freely with JavaScript. The empty `<>...</>` is called a *Fragment*: a wrapper that adds no element to the page.
+@@ 1q44ow79qiw
+Put the `<h1>` and `<p>` inside the existing `<div>`.
+@@ 1rcq9v1p5jm
+`<h1>Hail, Realm!</h1>` and `<p>The circle is open.</p>`
+@@ 1tg2vjy2vvn
+export default function App() {
+  return (
+    <div>
+      <h1>Hail, Realm!</h1>
+      <p>The circle is open.</p>
+    </div>
+  );
+}
+
+@@ 2g0j3zhrq1e
+An <h1> with "Hail, Realm!"
+@@ 1sfm3bes2re
+A <p> with some text
+@@ 25ef2efasl9
+JSX Spells
+@@ cjiehf9ywp
+expressions in JSX
+@@ 15x2iyok6gr
+style objects
+@@ 10c2gcoxyu0
+A summoner's scroll should never be copied by hand. Pull the values straight from the hero's data!
+@@ oxo1nj2gcc
+Curly braces `{ }` put **JavaScript** inside JSX:
+
+```
+<h1>Hero: {hero.name}</h1>
+<p>Next level: {hero.level + 1}</p>
+```
+
+Two JSX differences from HTML:
+- `class` is written **className**
+- `style` takes an **object**: `style={{ color: "darkred", fontSize: 20 }}` (double braces: one for JavaScript, one for the object)
+@@ 162mw9xzzqq
+Show `Hero: Ada` using `{hero.name}`, a `<p className="gold">` with `Gold: 120` using `{hero.gold}`, and `Next level: 4` using `{hero.level + 1}`. Make the h1 **darkred** with a style object.
+@@ 21glw3kktmr
+Anything that is an *expression* (gives a value) works in braces: variables, math, function calls, ternaries. Statements like `if` or `for` do not; you will see the JSX ways to do those soon. In real projects, prefer CSS classes to inline styles.
+@@ 9bmwctp41s
+`<p className="gold">Gold: {hero.gold}</p>` and `<p>Next level: {hero.level + 1}</p>`
+@@ 29cft4b0l54
+const hero = { name: "Ada", gold: 120, level: 3 };
+
+export default function App() {
+  return (
+    <div>
+      <h1 style={{ color: "darkred" }}>Hero: {hero.name}</h1>
+      <p className="gold">Gold: {hero.gold}</p>
+      <p>Next level: {hero.level + 1}</p>
+    </div>
+  );
+}
+
+@@ p24eivz3hd
+The h1 says "Hero: Ada" using {hero.name}
+@@ nlgqwydfww
+p.gold says "Gold: 120" using {hero.gold}
+@@ 15r20dl00h2
+Shows "Next level: 4" with {hero.level + 1}
+@@ 1m9nzwjj299
+The h1 is darkred (style object)
+@@ w45hshx5v8
+Props: Gifts for Components
+@@ 1fadk77fl1q
+reusable components
+@@ 7a8hik238w
+One summoning circle, many knights. Each knight arrives with their own gifts: a name and a level.
+@@ 1h1cdrsuq8j
+Components can receive **props** (properties), like HTML attributes:
+
+```
+<Knight name="Ada" level={3} />
+```
+
+The component gets them as an object. You can *destructure* it:
+
+```
+export default function Knight({ name, level }) {
+  return <div className="knight"><h2>{name}</h2></div>;
+}
+```
+
+Text props use quotes; numbers and other values use braces. To use a component from another file: `import Knight from "./Knight.jsx";`
+@@ 2f3mcxgsxs2
+Finish **Knight.jsx** so it shows the name in an `<h2>` and `Level X` in a `<p>`. In **App.jsx**, summon three knights: **Ada** (level 3), **Bo** (level 5) and **Cy** (level 1).
+@@ zjrpgcqyx6
+Props flow one way: from parent to child. A child must never change its props; if data needs to change, it lives in *state* (next lessons). Splitting a UI into small components with clear props is the core skill of React development.
+@@ 1xp4c84tdbm
+Knight: `return <div className="knight"><h2>{name}</h2><p>Level {level}</p></div>;`
+@@ 1s8ix73jsqu
+App: `<Knight name="Bo" level={5} />` and `<Knight name="Cy" level={1} />`
+@@ 6q4xozbksr
+import Knight from "./Knight.jsx";
+
+export default function App() {
+  return (
+    <div>
+      <h1>The Round Table</h1>
+      <Knight name="Ada" level={3} />
+      <Knight name="Bo" level={5} />
+      <Knight name="Cy" level={1} />
+    </div>
+  );
+}
+
+@@ si58j8cll1
+Three .knight cards
+@@ 1609acil8iq
+Names in <h2>: Ada, Bo, Cy
+@@ 1r1a6fxcn6x
+Levels: Level 3, Level 5, Level 1
+@@ 16objtcun3l
+Knight uses its props (not hard-coded names)
+@@ 132xerzm2v5
+Lists of Quests
+@@ 1ibvazsqqvf
+rendering lists
+@@ 19xu6gok5xp
+The quest board has dozens of notices. Summon one `<li>` for each quest, automatically.
+@@ 1ruiv0x8wv3
+To show a list, `map` each item to JSX. Give each element a unique **key**:
+
+```
+<ul>
+  {quests.map((q) => (
+    <li key={q.id}>{q.title}</li>
+  ))}
+</ul>
+```
+
+The key helps React know which item is which when the list changes.
+@@ m33wmpv8nk
+Show an `<h2>` with the number of quests (`3 quests`, using `quests.length`) and a `<ul>` with one `<li>` per quest: **Slay the dragon - 500 gold**.
+@@ t88m1p88ae
+Use a stable id as the key, not the array index: with index keys, React can mix up items when the list is sorted or filtered, leading to strange bugs (for example, text typed into the wrong input). Forgetting keys shows a warning in the console.
+@@ 67lsmidrdf
+const quests = [
+  { id: 1, title: "Slay the dragon", reward: 500 },
+  { id: 2, title: "Find the lost goat", reward: 5 },
+  { id: 3, title: "Deliver the royal letter", reward: 50 },
+];
+
+export default function App() {
+  return (
+    <div>
+      <h1>Quest Board</h1>
+      <h2>{quests.length} quests</h2>
+      <ul>
+        {quests.map((q) => (
+          <li key={q.id}>{q.title} - {q.reward} gold</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+@@ 5ara635yy4
+The h2 says "3 quests" using quests.length
+@@ 21qk2f2g9ex
+Three <li> items
+@@ 22u0jzq44dz
+Each shows "<title> - <reward> gold"
+@@ 1plu8pmvzxe
+Uses map with a key
+@@ c4b075vr8u
+State: The Mana Well
+@@ 1p3w2pbv15c
+A magic well stores mana. Draw from it, fill it... and the page must always show the truth.
+@@ xq4db33csi
+**State** is data that can change. When it changes, React redraws the component:
+
+```
+import { useState } from "react";
+
+export default function App() {
+  const [mana, setMana] = useState(0);   // value + setter
+  return (
+    <button onClick={() => setMana(mana + 1)}>
+      Mana: {mana}
+    </button>
+  );
+}
+```
+
+Never change state directly (`mana++` does nothing on screen). Always call the **setter**.
+@@ 2fb1jopxmxn
+Keep `mana` in state (starting at 0). `#fill` adds 1, `#draw` removes 1 but **never below 0**. Show the value in `#mana`.
+@@ bbh9o8fd2y
+`useState` is a *hook*. Hooks must be called at the top level of the component, never inside `if` or loops. When the new value depends on the old one, the safest form is `setMana((m) => m + 1)`, because React may batch several updates together.
+@@ 18i4nmj52sh
+Mana starts at 0
+@@ 203jr7zb8c7
+Fill twice shows 2
+@@ 11memxaanbb
+Draw once shows 1
+@@ 2af8fwnwweb
+Mana never goes below 0
+@@ 23a25uyz54
+Uses useState
+@@ 17pek1k9npr
+Conditional Charms
+@@ 1lkouey7829
+conditional rendering
+@@ 1ueocs7c2yg
+Behind the dungeon door sleeps a dragon. Open the door... and the dragon appears.
+@@ 24lgawju5lf
+Show things **conditionally** with JavaScript expressions:
+
+```
+{isOpen ? "The door is open" : "The door is closed"}   // ternary: a or b
+{isOpen && <img src="dragon.svg" alt="A dragon!" />}  // only when true
+```
+
+Toggle a boolean state with `setIsOpen(!isOpen)`.
+@@ 2a09hb0w3wc
+Make `#toggle` open and close the door. `#status` shows **The door is open** / **The door is closed**. The button says **Close the door** / **Open the door**. When open, show the dragon image (`dragon.svg`, with alt text).
+@@ 25zo4ru2yiq
+Careful with `&&` and numbers: `{count && <p>...</p>}` shows a **0** on the page when count is 0. Use `{count > 0 && ...}` instead. For bigger branches, compute the JSX in a variable before the `return`.
+@@ akemurlg4
+Starts closed, with no dragon
+@@ h3swmg8svm
+Click: the door opens and the dragon appears
+@@ 125yzi0gkk6
+The button says "Close the door" when open
+@@ 1w5c8luxm7v
+Click again: closed, no dragon, "Open the door"
+@@ u03pwubjnk
+The Guest Book
+@@ j6vv321xl5
+controlled inputs
+@@ zf6ibix4ag
+arrays in state
+@@ 28sa5s97g3s
+The castle keeps a guest book. Visitors type their name, the page greets them, and they sign.
+@@ 1mo47ybn9np
+A **controlled input** keeps its value in state:
+
+```
+const [name, setName] = useState("");
+<input value={name} onChange={(e) => setName(e.target.value)} />
+```
+
+To add to an array in state, create a **new** array:
+
+```
+setGuests([...guests, name]);   // ... copies the old items
+```
+@@ 1sh46qvj8ww
+`#greeting` shows **Hail, <name>!** while typing in `#name`, or **Hail, stranger!** when empty. `#sign` adds the name to `#guests` (as an `<li>`) and clears the input.
+@@ 10rn7hz5grf
+React state must be treated as *immutable*: `guests.push(name)` changes the old array, so React may not notice. Spread (`[...guests, name]`), `map`, and `filter` always create new arrays. This is the same immutability idea from "The Hero's Sheet".
+@@ 1bfi1uv7e8y
+Greeting: ``{name ? `Hail, ${name}!` : "Hail, stranger!"}``
+@@ 1gxkgwr1x6o
+Empty input: "Hail, stranger!"
+@@ 7ul9wnfbsn
+Typing "Ada" shows "Hail, Ada!"
+@@ 100f4w840q8
+Signing adds Ada to the guest list
+@@ l3zfglmd4n
+The input is cleared after signing
+@@ rkqklxuewr
+A second guest is added too
+@@ 1tsdxja4hof
+Effects Beyond the Circle
+@@ 1oof43n99qs
+side effects
+@@ i9ffbm8vd6
+The royal treasurer wants the browser tab itself to show the gold count, so he can see it from any window.
+@@ npo9kxx2qy
+Rendering should only *describe* the UI. Things that reach **outside** React (the tab title, timers, fetching data) are **side effects**. Put them in `useEffect`:
+
+```
+import { useEffect, useState } from "react";
+
+useEffect(() => {
+  document.title = `Gold: ${gold}`;
+}, [gold]);   // run again whenever gold changes
+```
+
+The array at the end lists the **dependencies**.
+@@ 1x3bxwc0a3x
+Keep `gold` in state (starting at 0). `#earn` adds **10**. Use `useEffect` to set `document.title` to **Gold: <amount>** whenever gold changes.
+@@ 5txrh5vg4d
+An effect can return a *cleanup* function, for example to clear a timer: `return () => clearInterval(id)`. An empty dependency array `[]` runs the effect once, after the first render. Data fetching in real apps is usually done with libraries (TanStack Query) or framework features (Next.js) rather than raw effects.
+@@ 2cw72vfvne1
+The tab title starts as "Gold: 0"
+@@ qjyrdcyius
+After one click: "Gold: 10"
+@@ 14wm8non7g9
+After two more: "Gold: 30"
+@@ 14oie3uy1jq
+Uses useEffect with [gold]
+@@ 10jkv084tf3
+The Quest Log
+@@ 14imw28bfby
+lifting state up
+@@ 2ax8232m7om
+callback props
+@@ z3cvga9h9l
+The Grand Summoner asks for one last spell: a quest log where heroes add quests, tick them off, and always see how many remain.
+@@ 27ialayin64
+Boss challenge! One new idea: **lifting state up**. The list lives in `App`, and the child gets a **function as a prop** to report clicks:
+
+```
+// App.jsx
+<QuestItem quest={q} onToggle={() => toggle(q.id)} />
+
+// QuestItem.jsx
+<input type="checkbox" checked={quest.done} onChange={onToggle} />
+```
+
+Toggle one item immutably: `quests.map((q) => q.id === id ? { ...q, done: !q.done } : q)`
+@@ vr02d79zju
+Build the quest log:
+- `#quest` input + `#add` button add a quest (not done); the input clears
+- each quest is rendered by **QuestItem.jsx** as an `<li class="quest">` with a checkbox
+- ticking the checkbox marks it done: the `<li>` gets the class **done**
+- `#remaining` shows **Quests left: N** (quests not done yet)
+@@ 2c08fhwv4r7
+This is the classic "todo app", the hello-world of front-end frameworks, and it covers the heart of React: components, props, state, events, lists and immutability. You will build the same thing in Vue and Svelte, which is a great way to compare frameworks.
+@@ 12bpzdsc98z
+Adding "Slay the dragon" creates a .quest item
+@@ 18ra8d5nk6s
+The input clears after adding
+@@ 1lqdjbcx08o
+Two quests: "Quests left: 2"
+@@ y5nazeq2li
+Ticking the first marks it .done
+@@ 188er1a1s3w
+Then: "Quests left: 1"
+@@ 1efcovwwto5
+Items are rendered by the QuestItem component
+@@ 1nufqd59uyl
+The Royal Roster
+@@ s9wtx409m9
+fetching in useEffect
+@@ 26277v6i9s1
+loading state
+@@ 1bbilnvsreg
+error state
+@@ 1jlb0hurqwn
+The roster of knights lives on the server. Load it when the page opens, and tell people it is loading.
+@@ 29hwyy7kifg
+Fetch data in an effect that runs once (`[]`), and keep three pieces of state: the data, loading, and error.
+
+```
+const [knights, setKnights] = useState([]);
+const [loading, setLoading] = useState(true);
+
+useEffect(() => {
+  fetch("api/knights.json")
+    .then((res) => res.json())
+    .then((data) => { setKnights(data); setLoading(false); });
+}, []);
+```
+
+Here the data file is at `api/knights.json`.
+@@ zof5f9ku3y
+Load `api/knights.json` when the component first renders. Show `<p id="loading">Loading...</p>` while loading, then a `<ul>` with one `<li>` per knight: **Ada (Lovelace)**.
+@@ 1z1inuicflu
+In real React apps, data fetching libraries like **TanStack Query** (or framework features like Next.js server components) handle caching, retries and loading states for you. Knowing the manual way helps you understand what they do.
+@@ 1604b1cwkh7
+Use `useEffect(() => { ... }, [])` so it runs once.
+@@ gpmamifcw2
+The loading message is gone after loading
+@@ egejg0t7a7
+Fetches inside useEffect with [] and has a loading state

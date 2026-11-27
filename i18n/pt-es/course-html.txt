@@ -1,0 +1,1632 @@
+@@ 18zf4xv2c5l
+A Guilda dos Construtores
+~~
+El Gremio de Constructores
+@@ xlsmrk8ry7
+A estrutura de toda página web: tags, links, imagens, listas, tabelas, formulários e marcação semântica e acessível.
+~~
+La estructura de toda página web: etiquetas, enlaces, imágenes, listas, tablas, formularios y marcado semántico y accesible.
+@@ 1cfh3ybhod7
+Primeiras Tags
+~~
+Primeras Etiquetas
+@@ 1uezqbiynu0
+Elementos, títulos, parágrafos e aninhamento.
+~~
+Elementos, encabezados, párrafos y anidación.
+@@ btss7ck0kd
+
+**Ideias principais**
+- O HTML é feito de **elementos**. A maioria tem uma **tag** de abertura e uma de fechamento: `<p>Hello</p>`.
+- Os títulos vão de `<h1>` (o mais importante) até `<h6>`. Use um `<h1>` por página.
+- `<p>` é um parágrafo. `<br>` é uma quebra de linha (sem tag de fechamento).
+- `<strong>` = importante (negrito), `<em>` = ênfase (itálico).
+- Elementos podem ser **aninhados**: feche primeiro o de dentro. `<p><em>Hi</em></p>`
+- Comentários: `<!-- a note for humans -->`
+~~
+
+**Ideas clave**
+- HTML está hecho de **elementos**. La mayoría tiene una **etiqueta** de apertura y otra de cierre: `<p>Hello</p>`.
+- Los encabezados van de `<h1>` (el más importante) a `<h6>`. Usa un solo `<h1>` por página.
+- `<p>` es un párrafo. `<br>` es un salto de línea (sin etiqueta de cierre).
+- `<strong>` = importante (negrita), `<em>` = énfasis (cursiva).
+- Los elementos se pueden **anidar**: cierra primero el de dentro. `<p><em>Hi</em></p>`
+- Comentarios: `<!-- a note for humans -->`
+@@ ems0wyo1pi
+Tags e elementos
+~~
+Etiquetas y elementos
+@@ 1x5i49o032l
+Sua primeira tag
+~~
+Tu primera etiqueta
+@@ lggwwolkvw
+O HTML descreve as partes de uma página com **tags**. A maioria das tags vem em pares:
+
+```
+<p>Hello, traveller!</p>
+```
+- `<p>` é a **tag de abertura**
+- `</p>` é a **tag de fechamento** (repare na `/`)
+- junto com o texto elas formam um **elemento**
+~~
+HTML describe las partes de una página con **etiquetas**. La mayoría vienen en pares:
+
+```
+<p>Hello, traveller!</p>
+```
+- `<p>` es la **etiqueta de apertura**
+- `</p>` es la **etiqueta de cierre** (fíjate en la `/`)
+- junto con el texto forman un **elemento**
+@@ 1fiynybyii8
+Qual parte é a tag de fechamento?
+~~
+¿Qué parte es la etiqueta de cierre?
+@@ 1z0cdm4qvq4
+O que diferencia uma tag de fechamento de uma de abertura?
+~~
+¿Qué diferencia una etiqueta de cierre de una de apertura?
+@@ 2fy2lfy4cah
+Uma barra: </p>
+~~
+Una barra: </p>
+@@ qe3eq2mac0
+Letras maiúsculas: <P>
+~~
+Letras mayúsculas: <P>
+@@ gw79trcmof
+Dois sinais: <<p>>
+~~
+Dos signos: <<p>>
+@@ 19vgtvu9mcg
+Um ponto: <.p>
+~~
+Un punto: <.p>
+@@ saslgos6cd
+Complete o parágrafo
+~~
+Completa el párrafo
+@@ 2czobsuajwc
+`<p>` significa parágrafo (paragraph).
+~~
+`<p>` significa párrafo (paragraph).
+@@ hxhqtmus91
+A linha 2 usa `<p>` em vez de `</p>` para fechar o parágrafo.
+~~
+La línea 2 usa `<p>` en lugar de `</p>` para cerrar el párrafo.
+@@ 1bxf5ro10r0
+Digite a tag de fechamento de `<h1>`
+~~
+Escribe la etiqueta de cierre de `<h1>`
+@@ 1yywbd67gzq
+Títulos
+~~
+Encabezados
+@@ 2ar7f3sfg6e
+Seis tamanhos de título
+~~
+Seis tamaños de título
+@@ 1zxbfbmsk8d
+O HTML tem seis níveis de título:
+
+```
+<h1>Castle Blackstone</h1>
+<h2>The Armoury</h2>
+<h3>Swords</h3>
+```
+`<h1>` é o mais importante (normalmente o título da página). Use **um** `<h1>` por página, depois `<h2>` para as seções, `<h3>` dentro delas, e assim por diante.
+~~
+HTML tiene seis niveles de encabezado:
+
+```
+<h1>Castle Blackstone</h1>
+<h2>The Armoury</h2>
+<h3>Swords</h3>
+```
+`<h1>` es el más importante (normalmente el título de la página). Usa **un** `<h1>` por página, luego `<h2>` para las secciones, `<h3>` dentro de ellas, y así sucesivamente.
+@@ ez4ykeuz2h
+Qual título é o mais importante?
+~~
+¿Qué encabezado es el más importante?
+@@ 10clgflwpjj
+Quantos níveis de título o HTML tem?
+~~
+¿Cuántos niveles de encabezado tiene HTML?
+@@ 1jlz7o8do6g
+Quantos você quiser
+~~
+Tantos como quieras
+@@ 1oy1wsgsc67
+Ordene estes títulos do mais para o menos importante
+~~
+Ordena estos encabezados del más al menos importante
+@@ 29ed1xa3swx
+Você deve escolher um nível de título pelo tamanho dele.
+~~
+Debes elegir un nivel de encabezado por su tamaño.
+@@ 1zjwdh3615
+Escolha os títulos pelo *significado* (um sumário). O CSS pode mudar o tamanho depois.
+~~
+Elige los encabezados por su *significado* (un esquema). CSS puede cambiar el tamaño después.
+@@ 1t030hvfa3m
+Crie um título de seção embaixo do título da página
+~~
+Crea un encabezado de sección debajo del título de la página
+@@ 2agtzepxtrr
+Uma página tem um título e três seções. O que é melhor?
+~~
+Una página tiene un título y tres secciones. ¿Qué es mejor?
+@@ 20fjsa2pjy3
+Um <h1> e depois três <h2>
+~~
+Un <h1> y luego tres <h2>
+@@ 1ubqax51g3g
+Quatro <h1>
+~~
+Cuatro <h1>
+@@ 2atr4fx57c4
+Só títulos <h3>
+~~
+Solo encabezados <h3>
+@@ ss9wj11t9y
+Sem títulos, só texto em negrito
+~~
+Sin encabezados, solo texto en negrita
+@@ 1jhf6ns18ai
+Texto que importa
+~~
+Texto que importa
+@@ 1avevdhkcdw
+Strong e ênfase
+~~
+Strong y énfasis
+@@ td4d4m9yv6
+Dentro do texto você pode marcar palavras:
+- `<strong>` = **importante** (aparece em negrito)
+- `<em>` = *ênfase* (aparece em itálico)
+- `<br>` = uma quebra de linha. Não tem tag de fechamento.
+
+```
+<p>Beware the <strong>dragon</strong>.<br>It is <em>very</em> grumpy.</p>
+```
+~~
+Dentro del texto puedes marcar palabras:
+- `<strong>` = **importante** (se ve en negrita)
+- `<em>` = *énfasis* (se ve en cursiva)
+- `<br>` = un salto de línea. No tiene etiqueta de cierre.
+
+```
+<p>Beware the <strong>dragon</strong>.<br>It is <em>very</em> grumpy.</p>
+```
+@@ k601w9ku2m
+Qual tag marca um texto importante?
+~~
+¿Qué etiqueta marca un texto importante?
+@@ 25bvcv2zo25
+Como o texto em `<em>` normalmente aparece?
+~~
+¿Cómo se suele ver el texto en `<em>`?
+@@ 2do7kthom6d
+Itálico
+~~
+Cursiva
+@@ 2c7s6or8vm9
+Negrito
+~~
+Negrita
+@@ 1wpssv9d5f3
+Sublinhado
+~~
+Subrayado
+@@ 2d4jh30ti16
+`<br>` precisa de uma tag de fechamento `</br>`.
+~~
+`<br>` necesita una etiqueta de cierre `</br>`.
+@@ 2owrbmhxi2
+`<br>` é um elemento *vazio*: não tem conteúdo nem tag de fechamento.
+~~
+`<br>` es un elemento *vacío*: no tiene contenido ni etiqueta de cierre.
+@@ wx1iruvwr
+Dê ênfase a "never"
+~~
+Pon énfasis en "never"
+@@ 1pjto1ol1lz
+Ligue a tag ao que ela faz
+~~
+Une cada etiqueta con lo que hace
+@@ 12gwgrebgag
+Parágrafo
+~~
+Párrafo
+@@ 25sd3tnzfs
+Texto importante
+~~
+Texto importante
+@@ 1dbc9eb5dfs
+Ênfase
+~~
+Énfasis
+@@ nwox2mbj42
+Quebra de linha
+~~
+Salto de línea
+@@ 1z6rnumzakl
+O que isto mostra?
+~~
+¿Qué muestra esto?
+@@ c7cy41g0rf
+"Gold: 500" com o 500 em negrito
+~~
+"Gold: 500" con el 500 en negrita
+@@ 2afy7j3abi3
+"Gold: 500" todo em itálico
+~~
+"Gold: 500" todo en cursiva
+@@ p5iakgezkp
+Só "500"
+~~
+Solo "500"
+@@ 88sval6s17
+Aninhamento e comentários
+~~
+Anidación y comentarios
+@@ kj7ua6yk9k
+Caixas dentro de caixas
+~~
+Cajas dentro de cajas
+@@ 1787b9hk9k1
+Elementos podem ficar **dentro** de outros elementos. Isso se chama **aninhamento**. Sempre feche primeiro o elemento de dentro:
+
+```
+<p>A <strong>brave</strong> knight</p>   ✓
+<p>A <strong>brave</p></strong> knight  ✗
+```
+Comentários são notas para humanos. O navegador os ignora:
+
+```
+<!-- TODO: add the map here -->
+```
+~~
+Los elementos pueden ir **dentro** de otros elementos. Esto se llama **anidación**. Cierra siempre primero el elemento de dentro:
+
+```
+<p>A <strong>brave</strong> knight</p>   ✓
+<p>A <strong>brave</p></strong> knight  ✗
+```
+Los comentarios son notas para humanos. El navegador los ignora:
+
+```
+<!-- TODO: add the map here -->
+```
+@@ 1b9qiir0g3j
+Qual linha está aninhada de forma errada?
+~~
+¿Qué línea está mal anidada?
+@@ 1yezj2mo39e
+O `<em>` abre dentro do `<p>`, então precisa fechar antes do `</p>`.
+~~
+El `<em>` se abre dentro del `<p>`, así que debe cerrarse antes del `</p>`.
+@@ 1d7h5lv7uju
+Monte este parágrafo: The **dragon** sleeps. ("dragon" em strong)
+~~
+Construye este párrafo: The **dragon** sleeps. ("dragon" en strong)
+@@ z4ct83w4zm
+Qual é um comentário HTML correto?
+~~
+¿Cuál es un comentario HTML correcto?
+@@ 19y8yc0zfdu
+# nota secreta
+~~
+# nota secreta
+@@ 1ayvf0ma5c9
+Os comentários aparecem na página em cinza.
+~~
+Los comentarios se muestran en la página en gris.
+@@ 1t8ncq5kakp
+Os comentários são invisíveis na página. Qualquer um ainda pode lê-los com "Exibir código-fonte", então nunca coloque senhas neles.
+~~
+Los comentarios son invisibles en la página. Cualquiera puede leerlos con "Ver código fuente", así que nunca pongas contraseñas en ellos.
+@@ 1v8643a7uy7
+Termine o aninhamento
+~~
+Termina la anidación
+@@ swg3fobdf2
+Desafio: A Primeira Pedra
+~~
+Desafío: La Primera Piedra
+@@ 1nscknd3jg7
+Desafio: Palavras no Pergaminho
+~~
+Desafío: Palabras en el Pergamino
+@@ 1prvldf4mwf
+Desafio: Estandartes em Negrito
+~~
+Desafío: Estandartes en Negrita
+@@ 147fdjvt1as
+O Esqueleto da Página
+~~
+El Esqueleto de la Página
+@@ 4p80r7wan4
+DOCTYPE, head, body, meta tags e atributos.
+~~
+DOCTYPE, head, body, etiquetas meta y atributos.
+@@ 1z9va8nbna0
+
+**Ideias principais**
+- Toda página começa com `<!DOCTYPE html>` e depois `<html lang="en">`.
+- `<head>` guarda informações *sobre* a página: `<title>`, `<meta charset="utf-8">`, a meta tag de viewport e links para o CSS.
+- `<body>` guarda tudo o que os visitantes veem.
+- **Atributos** acrescentam configurações às tags: `<html lang="en">`, `<a href="...">`. Formato: `name="value"`.
+- `<meta name="viewport" content="width=device-width, initial-scale=1">` faz as páginas funcionarem no celular.
+~~
+
+**Ideas clave**
+- Toda página empieza con `<!DOCTYPE html>` y luego `<html lang="en">`.
+- `<head>` guarda información *sobre* la página: `<title>`, `<meta charset="utf-8">`, la etiqueta meta viewport y enlaces al CSS.
+- `<body>` guarda todo lo que ven los visitantes.
+- Los **atributos** añaden ajustes a las etiquetas: `<html lang="en">`, `<a href="...">`. Formato: `name="value"`.
+- `<meta name="viewport" content="width=device-width, initial-scale=1">` hace que las páginas funcionen en el móvil.
+@@ 1g0031ych7r
+Head e body
+~~
+Head y body
+@@ 71birqr33d
+O esqueleto
+~~
+El esqueleto
+@@ 1lje9az2j7d
+Toda página HTML tem o mesmo esqueleto:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tab title</title>
+  </head>
+  <body>
+    Visible content
+  </body>
+</html>
+```
+- `<head>`: informações *sobre* a página
+- `<body>`: o que os visitantes veem
+~~
+Toda página HTML tiene el mismo esqueleto:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tab title</title>
+  </head>
+  <body>
+    Visible content
+  </body>
+</html>
+```
+- `<head>`: información *sobre* la página
+- `<body>`: lo que ven los visitantes
+@@ o7p6q9of1z
+Coloque o esqueleto em ordem
+~~
+Ordena el esqueleto
+@@ qwfmnpmguq
+Onde fica o `<title>`?
+~~
+¿Dónde va el `<title>`?
+@@ 1up64exsrg2
+Dentro de <body>
+~~
+Dentro de <body>
+@@ 2c91bsly1yd
+Antes de <!DOCTYPE html>
+~~
+Antes de <!DOCTYPE html>
+@@ 290gx9oqfhc
+Depois de </html>
+~~
+Después de </html>
+@@ 4bagd7vkcm
+Onde aparece o texto do `<title>`?
+~~
+¿Dónde se muestra el texto del `<title>`?
+@@ 1aank0yr7pq
+Na aba do navegador
+~~
+En la pestaña del navegador
+@@ 18v0xtvip98
+Como o maior título
+~~
+Como el encabezado más grande
+@@ egpkw8h8h8
+No fim da página
+~~
+Al final de la página
+@@ 1wxfg807tsu
+Em lugar nenhum
+~~
+En ningún sitio
+@@ 20w3ew6ceze
+Onde ficam os títulos e parágrafos?
+~~
+¿Dónde van los encabezados y párrafos?
+@@ wizyzdejcd
+Fora de <html>
+~~
+Fuera de <html>
+@@ 1ehxwmrwq4v
+`<!DOCTYPE html>` diz ao navegador que esta é uma página HTML moderna.
+~~
+`<!DOCTYPE html>` le dice al navegador que es una página HTML moderna.
+@@ gf1rlf768v
+Qual linha está no lugar errado?
+~~
+¿Qué línea está en el lugar equivocado?
+@@ 28fefr291qp
+Títulos são conteúdo visível, então o `<h1>` fica no `<body>`.
+~~
+Los encabezados son contenido visible, así que el `<h1>` va en el `<body>`.
+@@ ux62slvwtq
+Atributos
+~~
+Atributos
+@@ 18gv5y7pprs
+Configurações extras
+~~
+Ajustes extra
+@@ pmco5u6nol
+**Atributos** acrescentam informações a uma tag de abertura. Eles têm a forma `name="value"`:
+
+```
+<html lang="en">
+<a href="https://developer.mozilla.org">MDN</a>
+<img src="castle.png" alt="A castle">
+```
+Um elemento pode ter muitos atributos, separados por espaços.
+~~
+Los **atributos** añaden información a una etiqueta de apertura. Tienen la forma `name="value"`:
+
+```
+<html lang="en">
+<a href="https://developer.mozilla.org">MDN</a>
+<img src="castle.png" alt="A castle">
+```
+Un elemento puede tener muchos atributos, separados por espacios.
+@@ bcy2fh8jbj
+Nesta tag, o que é `lang`?
+~~
+En esta etiqueta, ¿qué es `lang`?
+@@ p71wp2ya7e
+O nome de um atributo
+~~
+El nombre de un atributo
+@@ 22ipiew30v3
+O nome da tag
+~~
+El nombre de la etiqueta
+@@ 1lspaioljgk
+O valor do atributo
+~~
+El valor del atributo
+@@ 1y8m4smpb25
+Um comentário
+~~
+Un comentario
+@@ 15ksi51n791
+E o que é `en`?
+~~
+¿Y qué es `en`?
+@@ 1pfgurrzf00
+O nome do atributo
+~~
+El nombre del atributo
+@@ px3575vqt5
+Uma tag de fechamento
+~~
+Una etiqueta de cierre
+@@ 2ane8z57do5
+Defina o idioma da página como inglês
+~~
+Pon el idioma de la página en inglés
+@@ fg1oodz24r
+Onde os atributos são escritos?
+~~
+¿Dónde se escriben los atributos?
+@@ 1zl3i08odx1
+Na tag de abertura
+~~
+En la etiqueta de apertura
+@@ 1k3f4jlf0l1
+Na tag de fechamento
+~~
+En la etiqueta de cierre
+@@ e23ix54sc8
+Entre as tags
+~~
+Entre las etiquetas
+@@ vhvub8ycp3
+Num arquivo separado
+~~
+En un archivo aparte
+@@ 12yabia2cqy
+Os valores dos atributos devem ser escritos entre aspas.
+~~
+Los valores de los atributos deben escribirse entre comillas.
+@@ 11cozlpxg43
+As aspas são opcionais em alguns casos, mas usá-las sempre evita bugs.
+~~
+Las comillas son opcionales en algunos casos, pero usarlas siempre evita bugs.
+@@ 1cp4icg34ia
+Qual linha tem um atributo quebrado?
+~~
+¿Qué línea tiene un atributo roto?
+@@ 1xvvz1mgnmb
+Falta a aspa de fechamento no valor de `href`.
+~~
+Al valor de `href` le falta la comilla de cierre.
+@@ 2f2sf7u7027
+Meta tags
+~~
+Etiquetas meta
+@@ 37ux3qkp47
+Informações para as máquinas
+~~
+Información para las máquinas
+@@ 246hb33zie5
+As tags `<meta>` ficam no `<head>` e dão informações a navegadores e buscadores:
+
+```
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The best pies in the realm">
+```
+- **charset**: faz letras como é e emojis aparecerem corretamente
+- **viewport**: faz a página caber em telas de celular
+- **description**: o texto que os buscadores mostram embaixo do seu link
+~~
+Las etiquetas `<meta>` van en `<head>` y dan información a navegadores y buscadores:
+
+```
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The best pies in the realm">
+```
+- **charset**: hace que letras como la é y los emojis se vean bien
+- **viewport**: hace que la página quepa en pantallas de móvil
+- **description**: el texto que muestran los buscadores debajo de tu enlace
+@@ umzt6j76a5
+Ligue a meta tag à sua função
+~~
+Une la etiqueta meta con su función
+@@ xc48hlubld
+Mostra todas as letras e emojis
+~~
+Muestra todas las letras y emojis
+@@ 1lysvb5cmwx
+Cabe em telas de celular
+~~
+Cabe en pantallas de móvil
+@@ wpqk00cjck
+Resumo para os buscadores
+~~
+Resumen para los buscadores
+@@ 2e0pqqodshq
+Sua página aparece minúscula e afastada no celular. Qual tag provavelmente está faltando?
+~~
+Tu página se ve diminuta y alejada en el móvil. ¿Qué etiqueta falta probablemente?
+@@ 108e0hr5otv
+As tags `<meta>` aparecem dentro do conteúdo da página.
+~~
+Las etiquetas `<meta>` se muestran dentro del contenido de la página.
+@@ u3yt4n29rq
+Complete o conjunto de caracteres
+~~
+Completa el juego de caracteres
+@@ 9xe2l1fxrc
+`<meta>` não tem tag de fechamento. Elementos assim se chamam...
+~~
+`<meta>` no tiene etiqueta de cierre. Los elementos así se llaman...
+@@ 1m7c265a9el
+páginas vazias
+~~
+páginas vacías
+@@ 2c6ditr6cig
+tags quebradas
+~~
+etiquetas rotas
+@@ zxua42rgcd
+Desafio: O Esqueleto de uma Página
+~~
+Desafío: El Esqueleto de una Página
+@@ ucvp1iw8ww
+Links e Imagens
+~~
+Enlaces e Imágenes
+@@ vxsizitxe4
+Âncoras, caminhos e imagens com bom texto alternativo.
+~~
+Anclas, rutas e imágenes con buen texto alternativo.
+@@ 1900amzb4oc
+
+**Ideias principais**
+- Links: `<a href="https://example.com">Text</a>`. O texto deve descrever para onde o link leva.
+- URL **absoluta**: o endereço completo (`https://...`). Caminho **relativo**: a partir do arquivo atual (`about.html`, `images/cat.png`, `../index.html`).
+- `target="_blank"` abre uma nova aba. `href="#section-id"` pula para um ponto da página.
+- Imagens: `<img src="castle.png" alt="A grey castle on a hill">`. **Sempre** escreva o texto alternativo (`alt=""` vazio para decoração).
+- `<figure>` + `<figcaption>` agrupam uma imagem com sua legenda.
+~~
+
+**Ideas clave**
+- Enlaces: `<a href="https://example.com">Text</a>`. El texto debe describir adónde lleva el enlace.
+- URL **absoluta**: la dirección completa (`https://...`). Ruta **relativa**: desde el archivo actual (`about.html`, `images/cat.png`, `../index.html`).
+- `target="_blank"` abre una pestaña nueva. `href="#section-id"` salta a un punto de la página.
+- Imágenes: `<img src="castle.png" alt="A grey castle on a hill">`. Escribe **siempre** el texto alternativo (`alt=""` vacío para decoración).
+- `<figure>` + `<figcaption>` agrupan una imagen con su pie de foto.
+@@ 222bd59jmxt
+Links
+~~
+Enlaces
+@@ 20v57tcjwb0
+Estradas entre páginas
+~~
+Caminos entre páginas
+@@ 24o0lkisnnb
+Links usam a tag `<a>` (*âncora*). O endereço vai em `href`:
+
+```
+<a href="https://developer.mozilla.org">Read the MDN guide</a>
+```
+O texto entre as tags é o que as pessoas clicam.
+~~
+Los enlaces usan la etiqueta `<a>` (*ancla*). La dirección va en `href`:
+
+```
+<a href="https://developer.mozilla.org">Read the MDN guide</a>
+```
+El texto entre las etiquetas es lo que la gente pulsa.
+@@ 1vhn40x2u66
+Faça um link para a página do mapa
+~~
+Crea un enlace a la página del mapa
+@@ a7b3i60gkv
+Qual atributo guarda o endereço do link?
+~~
+¿Qué atributo guarda la dirección del enlace?
+@@ ls4gr20w63
+Qual texto de link é melhor?
+~~
+¿Qué texto de enlace es mejor?
+@@ 1vd4gl9g203
+"Leia a receita da torta"
+~~
+"Lee la receta de la tarta"
+@@ 1xvm8qk8js2
+"Clique aqui"
+~~
+"Haz clic aquí"
+@@ 24t8dmi9q7x
+Um texto de link descritivo ajuda todo mundo, principalmente quem usa leitor de tela e pula de link em link.
+~~
+Un texto de enlace descriptivo ayuda a todos, sobre todo a quienes usan lector de pantalla y saltan de enlace en enlace.
+@@ 7gj92e94df
+O que `target="_blank"` faz?
+~~
+¿Qué hace `target="_blank"`?
+@@ 2dzqqc6zfx1
+Abre o link numa nova aba
+~~
+Abre el enlace en una pestaña nueva
+@@ 1zmpwege7d
+Deixa o link invisível
+~~
+Hace invisible el enlace
+@@ 27h3cz2wzyq
+Remove o link
+~~
+Quita el enlace
+@@ 92gt57hsc3
+Baixa a página
+~~
+Descarga la página
+@@ o2g6ldlea8
+Links de salto
+~~
+Enlaces de salto
+@@ 26lze2gwc4h
+Um link também pode pular para uma parte da mesma página. Dê um `id` ao destino e faça o link com `#` mais esse id:
+
+```
+<a href="#menu">See the menu</a>
+...
+<h2 id="menu">Menu</h2>
+```
+~~
+Un enlace también puede saltar a una parte de la misma página. Dale un `id` al destino y enlaza con `#` más ese id:
+
+```
+<a href="#menu">See the menu</a>
+...
+<h2 id="menu">Menu</h2>
+```
+@@ dcfwt46c4p
+Faça um link para o elemento com id="contact"
+~~
+Enlaza al elemento con id="contact"
+@@ 21pypootubd
+Qual link está quebrado?
+~~
+¿Qué enlace está roto?
+@@ 1aqqyu5kuu7
+Links usam `href`, não `src`.
+~~
+Los enlaces usan `href`, no `src`.
+@@ 1v28hp2w3ln
+Caminhos: onde os arquivos moram
+~~
+Rutas: dónde viven los archivos
+@@ 1u4y4musb6g
+Absoluto e relativo
+~~
+Absoluta y relativa
+@@ 1zep0c3bhqh
+Uma **URL absoluta** é o endereço completo: `https://realm.dev/about.html`
+
+Um **caminho relativo** começa a partir do arquivo atual:
+- `about.html`: um arquivo na mesma pasta
+- `images/cat.png`: dentro da pasta `images`
+- `../index.html`: uma pasta **acima**
+~~
+Una **URL absoluta** es la dirección completa: `https://realm.dev/about.html`
+
+Una **ruta relativa** parte del archivo actual:
+- `about.html`: un archivo en la misma carpeta
+- `images/cat.png`: dentro de la carpeta `images`
+- `../index.html`: una carpeta **más arriba**
+@@ mknkrvhd7g
+Qual é uma URL absoluta?
+~~
+¿Cuál es una URL absoluta?
+@@ 6w9s7hfnrq
+`index.html` quer mostrar `photo.png` da pasta `images` dele. Qual caminho?
+~~
+`index.html` quiere mostrar `photo.png` de su carpeta `images`. ¿Qué ruta?
+@@ obx0liadm9
+O que `..` significa num caminho?
+~~
+¿Qué significa `..` en una ruta?
+@@ xkb4vq84qh
+Subir uma pasta
+~~
+Subir una carpeta
+@@ 137qx78zxfy
+A pasta atual
+~~
+La carpeta actual
+@@ 17yn0ig2i54
+A página inicial
+~~
+La página de inicio
+@@ 151ezl4xzlh
+Qualquer arquivo
+~~
+Cualquier archivo
+@@ 155jgvppsmk
+Caminhos relativos continuam funcionando quando você muda o site inteiro para outro domínio.
+~~
+Las rutas relativas siguen funcionando cuando mueves todo el sitio a otro dominio.
+@@ 1jzqni2s6tj
+Por isso os sites usam caminhos relativos para os próprios arquivos.
+~~
+Por eso los sitios usan rutas relativas para sus propios archivos.
+@@ 19joh2jwrbv
+Ligue o caminho ao seu significado
+~~
+Une cada ruta con su significado
+@@ et34t2za6i
+Mesma pasta
+~~
+Misma carpeta
+@@ 1ti9tkzmbkn
+Dentro da pasta img
+~~
+Dentro de la carpeta img
+@@ emqre2n694
+Uma pasta acima
+~~
+Una carpeta más arriba
+@@ 1wvytvivvpr
+Outro site
+~~
+Otro sitio web
+@@ 1ysc1dinep3
+Imagens
+~~
+Imágenes
+@@ 1awp1co0aq4
+Imagens com palavras
+~~
+Imágenes con palabras
+@@ u14hcyavw3
+Imagens usam `<img>`, um elemento vazio (sem tag de fechamento):
+
+```
+<img src="castle.png" alt="A grey castle with red flags">
+```
+- `src`: o arquivo da imagem
+- `alt`: uma descrição para quem não pode ver a imagem (e para quando ela não carrega)
+~~
+Las imágenes usan `<img>`, un elemento vacío (sin etiqueta de cierre):
+
+```
+<img src="castle.png" alt="A grey castle with red flags">
+```
+- `src`: el archivo de la imagen
+- `alt`: una descripción para quien no puede ver la imagen (y para cuando no carga)
+@@ 101w89veqa7
+Complete a imagem
+~~
+Completa la imagen
+@@ ru6wp068xd
+Quem mais depende do texto `alt`?
+~~
+¿Quién depende más del texto `alt`?
+@@ 26jqnqnwlci
+Pessoas que usam leitores de tela
+~~
+Las personas que usan lectores de pantalla
+@@ 20o2khajfft
+Pessoas com internet rápida
+~~
+Las personas con internet rápida
+@@ uhfyd4amo
+Só os buscadores
+~~
+Solo los buscadores
+@@ uwj9yk2ogf
+Ninguém
+~~
+Nadie
+@@ 23lslq76zkf
+Os leitores de tela leem o texto alternativo em voz alta. Os buscadores também o usam.
+~~
+Los lectores de pantalla leen el texto alternativo en voz alta. Los buscadores también lo usan.
+@@ 1pu5u461hbe
+Qual texto alternativo é melhor para a foto de um cavaleiro a cavalo?
+~~
+¿Qué texto alternativo es mejor para la foto de un caballero a caballo?
+@@ 1gfsr0vlwt8
+"Sir Ada montando um cavalo branco"
+~~
+"Sir Ada montando un caballo blanco"
+@@ l0rjtyg8r
+Uma imagem é só decoração (um arabesco). Qual deve ser o alt dela?
+~~
+Una imagen es solo decoración (una floritura). ¿Cuál debería ser su alt?
+@@ 1jxyshuf6u1
+Um alt vazio: alt=""
+~~
+Un alt vacío: alt=""
+@@ 2867txrmnv5
+Nenhum atributo alt
+~~
+Ningún atributo alt
+@@ 28scocqfwah
+"imagem de decoração"
+~~
+"imagen de decoración"
+@@ c3f6nq6jya
+`alt=""` diz aos leitores de tela para pular a imagem. Sem alt, alguns leitores leem o nome do arquivo.
+~~
+`alt=""` les dice a los lectores de pantalla que la salten. Sin alt, algunos lectores leen el nombre del archivo.
+@@ 1u28p5srj9f
+Figuras
+~~
+Figuras
+@@ 1kpyezvah9p
+Agrupe uma imagem com uma legenda usando `<figure>` e `<figcaption>`:
+
+```
+<figure>
+  <img src="map.png" alt="Map of the realm">
+  <figcaption>The realm in the year 812</figcaption>
+</figure>
+```
+~~
+Agrupa una imagen con un pie de foto usando `<figure>` y `<figcaption>`:
+
+```
+<figure>
+  <img src="map.png" alt="Map of the realm">
+  <figcaption>The realm in the year 812</figcaption>
+</figure>
+```
+@@ 27swz04r4yh
+Monte uma figura com a legenda **embaixo** da imagem
+~~
+Construye una figura con el pie de foto **debajo** de la imagen
+@@ xz2rsuu07u
+Colocar `width` e `height` nas imagens impede a página de pular enquanto elas carregam.
+~~
+Añadir `width` y `height` a las imágenes evita que la página salte mientras cargan.
+@@ 20n0v3kh68r
+Desafio: Estradas entre Castelos
+~~
+Desafío: Caminos entre Castillos
+@@ 1j9qee47qqq
+Desafio: Janelas para o Mundo
+~~
+Desafío: Ventanas al Mundo
+@@ 2e2h2471h1q
+Listas e Tabelas
+~~
+Listas y Tablas
+@@ 2cd0dslcp9j
+Listas com marcadores, passos numerados e tabelas de dados.
+~~
+Listas con viñetas, pasos numerados y tablas de datos.
+@@ b83r51xdp0
+
+**Ideias principais**
+- `<ul>` = lista com marcadores (a ordem não importa), `<ol>` = lista numerada (passos). Os itens são `<li>`.
+- Listas podem ser aninhadas: coloque uma nova `<ul>` dentro de um `<li>`.
+- Tabelas: `<table>` → `<thead>`/`<tbody>` → linhas `<tr>` → células `<th>` (cabeçalho) ou `<td>` (dados).
+- Use tabelas para dados, **nunca** para o layout da página. Adicione uma `<caption>` e `scope="col"` nos cabeçalhos.
+~~
+
+**Ideas clave**
+- `<ul>` = lista con viñetas (el orden no importa), `<ol>` = lista numerada (pasos). Los elementos son `<li>`.
+- Las listas se pueden anidar: pon una nueva `<ul>` dentro de un `<li>`.
+- Tablas: `<table>` → `<thead>`/`<tbody>` → filas `<tr>` → celdas `<th>` (encabezado) o `<td>` (datos).
+- Usa tablas para datos, **nunca** para maquetar la página. Añade un `<caption>` y `scope="col"` en los encabezados.
+@@ 1oa9y7nvmsl
+Listas
+~~
+Listas
+@@ k22h8wdgcv
+Marcadores e números
+~~
+Viñetas y números
+@@ 1kaprkgmp6k
+```
+<ul>
+  <li>Rope</li>
+  <li>Torch</li>
+</ul>
+```
+- `<ul>`: lista **não ordenada** (marcadores)
+- `<ol>`: lista **ordenada** (números)
+- `<li>`: um item da lista
+~~
+```
+<ul>
+  <li>Rope</li>
+  <li>Torch</li>
+</ul>
+```
+- `<ul>`: lista **no ordenada** (viñetas)
+- `<ol>`: lista **ordenada** (números)
+- `<li>`: un elemento de la lista
+@@ 1l152wc8mi3
+Os passos de uma receita devem usar...
+~~
+Los pasos de una receta deben usar...
+@@ gpx3midtfb
+<li> sozinho
+~~
+<li> solo
+@@ 1kjy3t509w
+Uma lista de compras em que a ordem não importa deve usar...
+~~
+Una lista de la compra donde el orden no importa debe usar...
+@@ 2cadm2n7a7m
+Monte uma lista com marcadores: primeiro **Sword**, depois **Shield**
+~~
+Construye una lista con viñetas: primero **Sword**, luego **Shield**
+@@ fle9xxsm81
+Complete o item da lista
+~~
+Completa el elemento de la lista
+@@ 3xq6144hwp
+Um `<li>` sempre deve ficar dentro de um `<ul>` ou `<ol>`.
+~~
+Un `<li>` siempre debe ir dentro de un `<ul>` o un `<ol>`.
+@@ 147ph4iwctt
+Menus de navegação normalmente são feitos como...
+~~
+Los menús de navegación se suelen construir como...
+@@ 18vb6rb5if6
+Uma <ul> de links dentro de <nav>
+~~
+Una <ul> de enlaces dentro de <nav>
+@@ 1l87vc2fq84
+Uma tabela
+~~
+Una tabla
+@@ 1spgojqjsc7
+Muitas tags <br>
+~~
+Muchas etiquetas <br>
+@@ 1vf1j1kzioi
+Um <h1> enorme
+~~
+Un <h1> enorme
+@@ 2eand9ii4mb
+Tabelas
+~~
+Tablas
+@@ 2fsmdpfyykx
+```
+<table>
+  <thead>
+    <tr><th>Name</th><th>Gold</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ada</td><td>120</td></tr>
+  </tbody>
+</table>
+```
+- `<tr>`: uma linha
+- `<th>`: uma célula de cabeçalho
+- `<td>`: uma célula de dados
+~~
+```
+<table>
+  <thead>
+    <tr><th>Name</th><th>Gold</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ada</td><td>120</td></tr>
+  </tbody>
+</table>
+```
+- `<tr>`: una fila
+- `<th>`: una celda de encabezado
+- `<td>`: una celda de datos
+@@ xr3d3tvxh1
+Ligue a tag de tabela
+~~
+Une la etiqueta de tabla
+@@ 22nks0hfe84
+Linha da tabela
+~~
+Fila de la tabla
+@@ e437s94qpt
+Célula de dados
+~~
+Celda de datos
+@@ 28aqdsli85h
+Célula de cabeçalho
+~~
+Celda de encabezado
+@@ xgs87c49er
+Grupo de linhas de cabeçalho
+~~
+Grupo de filas de encabezado
+@@ 1ur7mr9ckty
+Qual tag cria uma linha nova?
+~~
+¿Qué etiqueta crea una fila nueva?
+@@ kk7qmno5xc
+Monte uma linha: o nome **Bors**, depois o ouro **45**
+~~
+Construye una fila: el nombre **Bors** y luego el oro **45**
+@@ 1czihl5xk0z
+Tabelas são um bom jeito de montar o layout de uma página inteira.
+~~
+Las tablas son una buena forma de maquetar una página entera.
+@@ 2aetkswgpvq
+Tabelas são para dados. Use Flexbox e Grid do CSS para o layout.
+~~
+Las tablas son para datos. Usa Flexbox y Grid de CSS para maquetar.
+@@ e911un8yc8
+Adicione uma célula de cabeçalho
+~~
+Añade una celda de encabezado
+@@ rgllnqwens
+Qual elemento dá um título a uma tabela?
+~~
+¿Qué elemento le da un título a una tabla?
+@@ qukl76uyk4
+Desafio: Listas de Suprimentos
+~~
+Desafío: Listas de Provisiones
+@@ 1mkg0l8jdo
+Desafio: O Livro-Caixa Real
+~~
+Desafío: El Libro de Cuentas Real
+@@ 27lu78gkvn
+Formulários
+~~
+Formularios
+@@ m3xd95901y
+Campos, rótulos, opções, botões e validação.
+~~
+Campos, etiquetas, opciones, botones y validación.
+@@ 19ysd4l6nmt
+
+**Ideias principais**
+- `<form>` envolve os campos. Todo campo precisa de um `<label>`: ligue-os com `for` e `id`.
+- Tipos de input: `text`, `email`, `password`, `number`, `date`, `checkbox`, `radio`...
+- `name` é a chave usada quando o formulário é enviado. Radios com o mesmo `name` formam um grupo.
+- `<select>` + `<option>` = lista suspensa. `<textarea>` = texto de várias linhas.
+- Validação embutida: `required`, `minlength`, `max`, `type="email"`.
+- Um `<button>` dentro de um formulário o envia.
+~~
+
+**Ideas clave**
+- `<form>` envuelve los campos. Cada campo necesita un `<label>`: únelos con `for` e `id`.
+- Tipos de input: `text`, `email`, `password`, `number`, `date`, `checkbox`, `radio`...
+- `name` es la clave que se usa al enviar el formulario. Los radios con el mismo `name` forman un grupo.
+- `<select>` + `<option>` = lista desplegable. `<textarea>` = texto de varias líneas.
+- Validación integrada: `required`, `minlength`, `max`, `type="email"`.
+- Un `<button>` dentro de un formulario lo envía.
+@@ 257tu030915
+Campos e rótulos
+~~
+Campos y etiquetas
+@@ 905uw53yw6
+Fazendo perguntas
+~~
+Hacer preguntas
+@@ 2fi6j8wsbjg
+```
+<form>
+  <label for="name">Your name</label>
+  <input id="name" name="name" type="text">
+  <button>Send</button>
+</form>
+```
+O `for` do rótulo precisa ser igual ao `id` do campo. Assim, clicar no rótulo foca o campo, e os leitores de tela leem o rótulo.
+~~
+```
+<form>
+  <label for="name">Your name</label>
+  <input id="name" name="name" type="text">
+  <button>Send</button>
+</form>
+```
+El `for` de la etiqueta debe coincidir con el `id` del campo. Así, al pulsar la etiqueta se enfoca el campo, y los lectores de pantalla leen la etiqueta.
+@@ 27iyjuteje9
+Ligue o rótulo ao campo
+~~
+Une la etiqueta con el campo
+@@ 2gnj9lxhw1p
+Por que todo campo precisa de um rótulo?
+~~
+¿Por qué cada campo necesita una etiqueta?
+@@ wqta0iqiw6
+Para todo mundo (inclusive quem usa leitor de tela) saber o que digitar
+~~
+Para que todos (también quienes usan lector de pantalla) sepan qué escribir
+@@ 1j22cdblsk3
+Porque os campos ficam invisíveis sem ele
+~~
+Porque los campos son invisibles sin ella
+@@ 194ep2v5e0z
+Para o formulário ser enviado mais rápido
+~~
+Para que el formulario se envíe más rápido
+@@ 2bm3lo5l12u
+É só decoração
+~~
+Es solo decoración
+@@ ydyb5sluay
+Um placeholder pode substituir um rótulo.
+~~
+Un placeholder puede sustituir a una etiqueta.
+@@ 2d2iho5z0c9
+Placeholders somem quando você digita e muitas vezes têm pouco contraste. Use sempre um rótulo de verdade.
+~~
+Los placeholders desaparecen al escribir y a menudo tienen poco contraste. Usa siempre una etiqueta de verdad.
+@@ 1fa2nzabuou
+O que o atributo `name` faz?
+~~
+¿Qué hace el atributo `name`?
+@@ 27u8r4nk5lp
+Dá nome ao valor quando o formulário é enviado
+~~
+Da nombre al valor cuando se envía el formulario
+@@ jtvbm6sv49
+Mostra texto dentro do campo
+~~
+Muestra texto dentro del campo
+@@ 1xuh2ivj9xb
+Deixa o campo maior
+~~
+Hace el campo más grande
+@@ 1hhu6k7to0d
+Liga o campo ao rótulo
+~~
+Conecta con la etiqueta
+@@ l6k8xmizmf
+Qual linha quebra a ligação do rótulo?
+~~
+¿Qué línea rompe la conexión de la etiqueta?
+@@ rypvrrw7a7
+O rótulo diz `for="age"`, mas o campo tem `id="years"`. Eles precisam ser iguais.
+~~
+La etiqueta dice `for="age"`, pero el campo tiene `id="years"`. Deben coincidir.
+@@ 16bi6xfauc9
+Tipos de input
+~~
+Tipos de input
+@@ 1tzjuu927j7
+O campo certo para cada trabalho
+~~
+El campo adecuado para cada trabajo
+@@ 1spj1gdvr7u
+O atributo `type` muda o campo:
+- `text`, `email`, `password`, `number`, `date`, `tel`, `url`
+- `checkbox` (sim/não), `radio` (escolha um)
+
+No celular, `email` e `tel` até mostram um teclado melhor!
+~~
+El atributo `type` cambia el campo:
+- `text`, `email`, `password`, `number`, `date`, `tel`, `url`
+- `checkbox` (sí/no), `radio` (elige uno)
+
+En el móvil, ¡`email` y `tel` incluso muestran un teclado mejor!
+@@ 29cch1is8hr
+Ligue o dado ao tipo de input
+~~
+Une cada dato con su tipo de input
+@@ 287b3zbhe6r
+Qual campo esconde os caracteres que você digita?
+~~
+¿Qué campo oculta los caracteres que escribes?
+@@ 1d7i3e9zb3c
+Verificações embutidas
+~~
+Comprobaciones integradas
+@@ 1k8tbrouyf8
+O HTML pode conferir as respostas antes de o formulário ser enviado:
+
+```
+<input type="email" required>
+<input type="password" minlength="8">
+<input type="number" min="1" max="10">
+```
+~~
+HTML puede comprobar las respuestas antes de enviar el formulario:
+
+```
+<input type="email" required>
+<input type="password" minlength="8">
+<input type="number" min="1" max="10">
+```
+@@ 23amtnkrn7h
+Qual atributo torna um campo obrigatório?
+~~
+¿Qué atributo hace obligatorio un campo?
+@@ ns2mah1dqe
+As senhas precisam ter pelo menos 8 caracteres
+~~
+Las contraseñas deben tener al menos 8 caracteres
+@@ w6c2j7dk6b
+A validação de HTML no navegador basta para manter um site seguro.
+~~
+La validación HTML del navegador basta para mantener un sitio web seguro.
+@@ 1qd3r9w0vov
+Os usuários podem burlar o navegador. O servidor sempre precisa conferir os dados de novo.
+~~
+Los usuarios pueden saltarse el navegador. El servidor siempre debe volver a comprobar los datos.
+@@ 1ddivf2005y
+Opções e botões
+~~
+Opciones y botones
+@@ d64shmv14u
+Escolha um, escolha vários
+~~
+Elige uno, elige varios
+@@ 2ehilqjrvvr
+Botões de rádio pertencem ao mesmo grupo quando compartilham o mesmo...
+~~
+Los botones de radio pertenecen al mismo grupo cuando comparten el mismo...
+@@ 2fm0zozlkfb
+Ligue o elemento ao seu uso
+~~
+Une cada elemento con su uso
+@@ pvbnc0tqwr
+Lista suspensa
+~~
+Lista desplegable
+@@ 8s45267x3t
+Escolher exatamente um
+~~
+Elegir exactamente uno
+@@ 162cagfwioz
+Sim ou não
+~~
+Sí o no
+@@ 1d1ksx9wynt
+Texto longo
+~~
+Texto largo
+@@ 1qzz5rudmrd
+Qual elemento agrupa campos relacionados com um título?
+~~
+¿Qué elemento agrupa campos relacionados con un título?
+@@ 3f78spoggn
+<fieldset> com <legend>
+~~
+<fieldset> con <legend>
+@@ 5fr7pafy66
+<div> com <h1>
+~~
+<div> con <h1>
+@@ o5sj0c557h
+<group> com <title>
+~~
+<group> con <title>
+@@ 2cqz29is3jl
+<form> com <caption>
+~~
+<form> con <caption>
+@@ 2aazdcpemzk
+Monte uma lista suspensa: **Small** primeiro, depois **Large**
+~~
+Construye un desplegable: primero **Small**, luego **Large**
+@@ hs3nfltbu7
+Um `<button>` dentro de um `<form>` envia o formulário por padrão.
+~~
+Un `<button>` dentro de un `<form>` envía el formulario por defecto.
+@@ 13i9mxjdp3q
+Use `type="button"` para botões que não devem enviar o formulário.
+~~
+Usa `type="button"` para los botones que no deben enviar el formulario.
+@@ 2goowx5uemf
+Desafio: As Perguntas do Porteiro
+~~
+Desafío: Las Preguntas del Portero
+@@ 8jryenweet
+Desafio: Escolha Seu Caminho
+~~
+Desafío: Elige tu Camino
+@@ h0k5xozsbi
+HTML Semântico e Acessibilidade
+~~
+HTML Semántico y Accesibilidad
+@@ uavzc03zkq
+Tags com significado, pontos de referência e páginas que todos podem usar.
+~~
+Etiquetas con significado, puntos de referencia y páginas que todos pueden usar.
+@@ a4br605jpo
+
+**Ideias principais**
+- Tags semânticas descrevem significado: `<header>`, `<nav>`, `<main>` (uma por página), `<section>`, `<article>`, `<aside>`, `<footer>`.
+- `<div>` e `<span>` não têm significado; use-os só para agrupar estilos.
+- **Acessibilidade** (a11y): todos conseguem usar seu site, inclusive quem usa leitor de tela, teclado ou zoom.
+- O básico: `<button>`s de verdade para ações, rótulos nos campos, texto alternativo, títulos lógicos, bom contraste, `lang` no `<html>`.
+- Atributos ARIA (`aria-label`...) só ajudam quando nenhum elemento HTML nativo serve.
+~~
+
+**Ideas clave**
+- Las etiquetas semánticas describen significado: `<header>`, `<nav>`, `<main>` (una por página), `<section>`, `<article>`, `<aside>`, `<footer>`.
+- `<div>` y `<span>` no tienen significado; úsalos solo para agrupar estilos.
+- **Accesibilidad** (a11y): todos pueden usar tu sitio, incluidas las personas que usan lector de pantalla, teclado o zoom.
+- Lo básico: `<button>`s de verdad para las acciones, etiquetas en los campos, texto alternativo, encabezados lógicos, buen contraste, `lang` en `<html>`.
+- Los atributos ARIA (`aria-label`...) solo ayudan cuando ningún elemento HTML nativo encaja.
+@@ 25hk6r9h0n3
+Tags com significado
+~~
+Etiquetas con significado
+@@ 1dz3t0w8mcc
+Cômodos de um castelo
+~~
+Las salas de un castillo
+@@ 5x4ajf97v2
+Ligue a tag ao seu propósito
+~~
+Une cada etiqueta con su propósito
+@@ 6q12pc32ei
+Links principais
+~~
+Enlaces principales
+@@ 180dqud9jq5
+Conteúdo principal
+~~
+Contenido principal
+@@ pn7dbipzf5
+Fim da página
+~~
+Final de la página
+@@ 2ck4vo5r9qy
+História independente
+~~
+Historia independiente
+@@ 1e24eknp3ih
+Quantos elementos `<main>` uma página deve ter?
+~~
+¿Cuántos elementos `<main>` debe tener una página?
+@@ 281h3ebu7y4
+Um
+~~
+Uno
+@@ d5920flkwz
+Nenhum
+~~
+Ninguno
+@@ 5dgbunjken
+Um por seção
+~~
+Uno por sección
+@@ k19oogvdqn
+Quantos você quiser
+~~
+Tantos como quieras
+@@ lpgiv1wyle
+Um post de blog que faz sentido sozinho fica em...
+~~
+Una entrada de blog que tiene sentido por sí sola va en...
+@@ 1zwwkgsu7uh
+`<div>` diz ao navegador que seu conteúdo é a navegação principal.
+~~
+`<div>` le dice al navegador que su contenido es la navegación principal.
+@@ tpga5iy66w
+`<div>` não tem significado. Use `<nav>` para a navegação.
+~~
+`<div>` no tiene significado. Usa `<nav>` para la navegación.
+@@ 9xusl64ifw
+Ordene o layout típico de uma página de cima para baixo
+~~
+Ordena la estructura típica de una página de arriba abajo
+@@ 2684vtisqi2
+Por que usar tags semânticas em vez de só `<div>`s?
+~~
+¿Por qué usar etiquetas semánticas en lugar de solo `<div>`s?
+@@ 1vn7lfkrilm
+Leitores de tela, buscadores e desenvolvedores entendem melhor a página
+~~
+Los lectores de pantalla, los buscadores y los desarrolladores entienden mejor la página
+@@ vs96jquet1
+Elas fazem a página carregar 10× mais rápido
+~~
+Hacen que la página cargue 10× más rápido
+@@ ln1p9nuglf
+Os navegadores se recusam a mostrar páginas sem elas
+~~
+Los navegadores se niegan a mostrar páginas sin ellas
+@@ p1oe28r6rg
+Elas adicionam cores automaticamente
+~~
+Añaden colores automáticamente
+@@ 1zf7kv7cd3e
+O básico da acessibilidade
+~~
+Lo básico de la accesibilidad
+@@ 27uu4w524kg
+Um site para todos
+~~
+Un sitio para todos
+@@ 171773amnpz
+**Acessibilidade** (muitas vezes escrita **a11y**) significa que todos conseguem usar seu site: pessoas cegas que usam **leitores de tela**, pessoas que só usam o **teclado**, pessoas que dão zoom, pessoas daltônicas...
+
+Em muitos países também é lei para sites públicos e de empresas.
+~~
+**Accesibilidad** (a menudo escrita **a11y**) significa que todos pueden usar tu sitio: personas ciegas que usan **lectores de pantalla**, personas que solo usan el **teclado**, personas que hacen zoom, personas daltónicas...
+
+En muchos países también es obligatoria por ley para sitios públicos y de empresas.
+@@ 21mqzy0aqc5
+Qual é o melhor elemento para algo que você clica para fazer uma ação?
+~~
+¿Cuál es el mejor elemento para algo que pulsas para hacer una acción?
+@@ 1rnu27n50wo
+Botões funcionam com o teclado (Tab + Enter) e com leitores de tela sem esforço. Uma `<div>` clicável não.
+~~
+Los botones funcionan con el teclado (Tab + Enter) y con lectores de pantalla sin más. Un `<div>` clicable no.
+@@ 1u5kgvzwggh
+Alguém não consegue usar o mouse. Como essa pessoa passa entre links e botões?
+~~
+Alguien no puede usar el ratón. ¿Cómo se mueve entre enlaces y botones?
+@@ 25eprphv7qz
+Com a tecla Tab
+~~
+Con la tecla Tab
+@@ 28enp7qe3wl
+Não consegue usar sites
+~~
+No puede usar sitios web
+@@ 27idvhbpm1g
+Com a tecla Delete
+~~
+Con la tecla Suprimir
+@@ 12l3x8l8o0a
+Recarregando a página
+~~
+Recargando la página
+@@ 1okvzdiggsl
+Usar só cor (vermelho = erro) basta para mostrar um erro.
+~~
+Usar solo el color (rojo = error) basta para mostrar un error.
+@@ 1tt0z6k7ep2
+Usuários daltônicos podem não ver. Adicione também texto ou um ícone.
+~~
+Los usuarios daltónicos podrían no verlo. Añade también texto o un icono.
+@@ w5h0xeim6f
+Ligue o problema à solução
+~~
+Une cada problema con su solución
+@@ 2epz9r32mug
+Imagem sem descrição
+~~
+Imagen sin descripción
+@@ vhr2oh754t
+Adicionar texto alternativo
+~~
+Añadir texto alternativo
+@@ 1vrhfirj9wn
+Campo sem nome visível
+~~
+Campo sin nombre visible
+@@ 19mk16hpdsj
+Adicionar um <label>
+~~
+Añadir un <label>
+@@ 1pr9ajonh5h
+Texto cinza em fundo cinza
+~~
+Texto gris sobre fondo gris
+@@ xlvbmufg1z
+Aumentar o contraste
+~~
+Aumentar el contraste
+@@ ao1a4qppta
+<div> clicável
+~~
+<div> clicable
+@@ ef0vcstn7k
+Usar um <button>
+~~
+Usar un <button>
+@@ 1bchi416j3a
+O que `aria-label` faz?
+~~
+¿Qué hace `aria-label`?
+@@ 13j41eoitti
+Dá um nome ao elemento para os leitores de tela
+~~
+Le da un nombre al elemento para los lectores de pantalla
+@@ 12o9rua4lzt
+Muda a cor
+~~
+Cambia el color
+@@ 1ww5i9jwx69
+Adiciona uma imagem de dica
+~~
+Añade una imagen de ayuda
+@@ 1irpziyagup
+Deixa o elemento invisível
+~~
+Hace invisible el elemento
+@@ 1qk1v72qq8b
+Exemplo: `<button aria-label="Close">✕</button>`. Use quando não houver texto visível.
+~~
+Ejemplo: `<button aria-label="Close">✕</button>`. Úsalo cuando no hay texto visible.
+@@ 1yiuyi2bokb
+A primeira regra do ARIA é...
+~~
+La primera regla de ARIA es...
+@@ p9wuht4y50
+Usar um elemento HTML nativo no lugar, se puder
+~~
+Usar un elemento HTML nativo en su lugar, si puedes
+@@ 1srss14et18
+Colocar ARIA em todo elemento
+~~
+Añadir ARIA a todos los elementos
+@@ 21l5ctk9he
+Nunca usar botões
+~~
+No usar nunca botones
+@@ 29zxwty97w
+O ARIA substitui o texto alternativo
+~~
+ARIA sustituye al texto alternativo
+@@ 2g5qceb1xun
+Desafio: Cômodos com Significado
+~~
+Desafío: Salas con Significado
+@@ 7j50yj30wl
+Projeto: O Cardápio da Taverna
+~~
+Proyecto: El Menú de la Taberna

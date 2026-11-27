@@ -1,0 +1,280 @@
+@@ l3dmzxmy3q
+The Runesmith's Forge
+@@ 2gjr72eyml6
+JavaScript with types: catch bugs before your code runs. Used by most professional teams.
+@@ 1lgs30ymuu9
+Basic Types
+@@ 1p2k9hy4v1s
+Why types, annotations and inference.
+@@ grxqfyk74o
+
+**Key ideas**
+- TypeScript = JavaScript + **types**. The compiler (`tsc`) checks your code, then outputs plain JavaScript.
+- Annotations: `let gold: number = 5`, `name: string`, `alive: boolean`, `tags: string[]`.
+- **Inference**: `let gold = 5` is already a `number`. Annotate function parameters and return values.
+- `any` turns checking off (avoid). `unknown` is the safe "anything" (you must check it first).
+- Types disappear at runtime: they cost nothing in the browser.
+@@ 1k3rbbxyo09
+Why TypeScript?
+@@ o5ewe170h9
+Runes that catch bugs
+@@ s1lsie1vt7
+TypeScript adds **types** to JavaScript:
+
+```
+function heal(hp: number, amount: number): number {
+  return hp + amount;
+}
+heal("ten", 5);   // ✗ error before the code even runs
+```
+The TypeScript compiler checks your code and then outputs plain JavaScript. Editors use the types for autocomplete.
+@@ 19esqwazk9r
+When does TypeScript catch type errors?
+@@ p7j58ifrha
+Before the code runs (at compile time / in the editor)
+@@ 1xetso2prtx
+Only after users find them
+@@ l0b4ckvssd
+Only on the server
+@@ 110cnnhlhae
+Browsers run TypeScript files directly.
+@@ 26lefrbosax
+TypeScript is compiled (or stripped) to JavaScript first. Build tools like Vite do this for you.
+@@ 1ngp3pwyaws
+Why do companies like TypeScript?
+@@ 21aug6wfr9s
+Fewer bugs, better autocomplete, safer refactoring
+@@ 15epv2g14i8
+It makes apps run much faster
+@@ 1raomq1d8ax
+It is required by browsers
+@@ 1iqz1txx1l8
+The TypeScript compiler
+@@ 1ojzy8hpozx
+A TypeScript file
+@@ 2dp29iq1wb8
+TypeScript with JSX
+@@ 186q815i6uc
+Type error
+@@ vq1fm3mw9v
+A value of the wrong kind
+@@ fpe1c4gqg2
+Annotations and inference
+@@ 185a9yjkov8
+Writing types
+@@ 1646d3bwc9z
+What type does TypeScript infer for `xp`?
+@@ 14djtoin46b
+Which line has a type error?
+@@ 1rb9bndamlq
+`level` is a number, so a string cannot be assigned to it.
+@@ gsihzd14rk
+An array of strings
+@@ 1tuuhe5i7yi
+Where are type annotations most useful?
+@@ 2ew8t79z6js
+On function parameters and return values
+@@ 3ozssep26e
+On every single variable
+@@ 2edco896ae0
+Only on numbers
+@@ 26vyz4lziae
+In CSS files
+@@ 29o2hjxllr6
+Why avoid the `any` type?
+@@ 1e6ghw32kww
+It switches type checking off
+@@ 19uv8us9ss0
+It is slower at runtime
+@@ jxiya90f7h
+It only works with numbers
+@@ 11llknqkswm
+It is not valid TypeScript
+@@ 2f2c2hczbfj
+Challenge: Runes of Type
+@@ 2g5wj7qmymc
+Challenge: Runes on Functions
+@@ 22pt971qtz8
+Object Types and Unions
+@@ 1iv2i7fpiey
+Interfaces, unions, literal types and narrowing.
+@@ 97x6wxfl7u
+
+**Key ideas**
+- Describe objects with `interface Hero { name: string; level: number; title?: string }` or `type Hero = { ... }`.
+- `?` = optional property; `readonly` = cannot change.
+- Union: `string | number`. Literal union: `type Dir = "up" | "down"`.
+- **Narrowing**: check before using: `if (typeof x === "string")`, `if (hero)`, `x?.y`, `??`.
+- `strictNullChecks` forces you to handle `undefined`/`null`.
+@@ 1j6d8mgzd9n
+Interfaces and types
+@@ 2323o1y14dl
+The shape of data
+@@ h9feaw5s3l
+Is this object a valid `Knight`?
+@@ 1at3uemmvry
+Yes, horse is optional
+@@ uhuyl39wb1
+No, horse is missing
+@@ 7xo2v43op9
+No, level must be a string
+@@ 225dft14cau
+Only with any
+@@ 1t1p64l22pl
+`reward` must be a number.
+@@ jpyxfartnn
+Make the horse optional
+@@ 12ej629c3d6
+`readonly` properties can be changed after the object is created.
+@@ 6upup066r7
+Unions and narrowing
+@@ j25qxs1gu6
+This or that
+@@ 1s17lcrooq9
+```
+type Dir = "up" | "down" | "left" | "right";
+let id: string | number;
+
+function show(id: string | number) {
+  if (typeof id === "string") {
+    return id.toUpperCase();   // TS knows: string here
+  }
+  return id.toFixed(0);        // TS knows: number here
+}
+```
+Checking the type inside an `if` is called **narrowing**.
+@@ x4gp0g4ps
+Which value is allowed?
+@@ a99bk4678g
+What is narrowing?
+@@ phtesqp8m7
+Checking a value so TypeScript knows its exact type in that branch
+@@ 1kykl5ft75f
+Making a string shorter
+@@ oe5q2zrk9u
+Removing properties
+@@ 1oiq9aaeiw0
+A CSS trick
+@@ 1qmdy0zbo91
+Why does TypeScript complain here?
+@@ l00oo9ltq4
+k might be undefined
+@@ 1c3pc1ixvsw
+name is not a string
+@@ 1iqstji1zv1
+Functions cannot return strings
+@@ 1iggvq6yn5k
+Knight is not defined in JS
+@@ l2v3ak1bhz
+Check first: `if (!k) return "nobody";` or use `k?.name`.
+@@ 12mvsi708on
+Accept a string or a number
+@@ 1d1tx0lxuo5
+Challenge: The Shape of a Hero
+@@ 23ijbrtmn6k
+Challenge: The Rune of Directions
+@@ mh98bplumd
+Challenge: Maybe There, Maybe Not
+@@ 1r7noeov45t
+Generics and Real Projects
+@@ 14kujddhgvi
+Generics, classes, utility types and TypeScript at work.
+@@ n3rr69gfe1
+
+**Key ideas**
+- **Generics** are type parameters: `function first<T>(items: T[]): T | undefined`. You use them already: `Array<T>`, `Promise<T>`.
+- Classes: `private`, `public`, `readonly`, `implements`.
+- Utility types: `Partial<T>` (all optional), `Pick<T, "a">`, `Omit<T, "a">`, `Record<K, V>`.
+- Projects: `tsconfig.json` with `"strict": true`; type packages `@types/...`; in React, type props with an interface.
+@@ ibru49cuxa
+Generics
+@@ 1i6uyjoj5yw
+Types as parameters
+@@ 85joqnthvk
+What is `T` when you call `last(["gold", "silver"])`?
+@@ xglfanj5x4
+`useState<number>(0)` in React uses...
+@@ cwq8t4qiwt
+A generic
+@@ 2ggsip69prg
+An interface
+@@ 2b0xkq9bf8d
+A union of literals
+@@ ijy0k1f6ei
+A decorator
+@@ fdk9kpoun4
+Generics keep type safety while working with many types.
+@@ 6ngdfeyef1
+Utility types
+@@ k9a8vielte
+Built-in type helpers
+@@ peltgv9djq
+Match the utility type
+@@ aaj65wdd7s
+Every property optional
+@@ e94yn7irc
+Pick<T, K>
+@@ fyqx1itlt2
+Keep only some properties
+@@ 2a5zsiitcs6
+Omit<T, K>
+@@ bq7c2ddqtu
+Remove some properties
+@@ 78vzyagypr
+Record<K, V>
+@@ 2c7lf7wf0ks
+Object with keys K and values V
+@@ 8qn3bg3gwm
+A PATCH request may send only some fields of a Quest. Which type fits the body?
+@@ 1j09pet0n0o
+The server creates the `id`. What type fits the data for creating a knight?
+@@ 13inruh1dp
+Omit<Knight, "id">
+@@ ih0ui8juum
+Pick<Knight, "id">
+@@ 1amdt9zouto
+Knight | id
+@@ 245tf3bbtrz
+TypeScript at work
+@@ w2g63kwt6n
+In real projects
+@@ seep08mf34
+- `tsconfig.json` configures the compiler. Always turn on `"strict": true`.
+- Libraries ship types, or have them in `@types/...` packages (e.g. `@types/node`).
+- In React, type props:
+
+```
+interface ButtonProps { label: string; onClick: () => void }
+function Button({ label, onClick }: ButtonProps) { ... }
+```
+- Vite, Next.js and others compile TS automatically.
+@@ j9ozzhm5k9
+Which tsconfig option catches the most bugs?
+@@ 140und5brwe
+"strict": true
+@@ 1fzeemc3s6j
+"allowJs": true
+@@ 2cfb9auc6k4
+"noEmit": false
+@@ 27g3eq0avdq
+"target": "ES5"
+@@ ynqb0lzdbf
+Where do type definitions for a plain JS library often come from?
+@@ j3tyvxp3fj
+@types/library-name packages
+@@ 1zjda066ncb
+The CSS file
+@@ x8ahmfno7s
+The browser
+@@ 1vd6zzy1w7e
+You must always write them all
+@@ s0qyqe7hz2
+Type the props of a React component
+@@ 1ir9bhw9pno
+Types exist only while developing; the browser never sees them.
+@@ 1v7euj3imw9
+Challenge: Generic Chests
+@@ 1fmw5gq5dto
+Challenge: Classes of the Guild
+@@ z7khbp223e
+Project: The Rune Inventory

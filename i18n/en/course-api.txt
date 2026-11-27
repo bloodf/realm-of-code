@@ -1,0 +1,325 @@
+@@ 2f7h7wm2f6h
+APIs and HTTP
+@@ 8bgcvgqtel
+The Ravens' Roost
+@@ 1aovxoebzai
+How apps talk to servers: HTTP, REST APIs, JSON, fetch, status codes and errors.
+@@ ii54ca26zw
+APIs and JSON
+@@ 18f9st1zzc9
+What APIs are, JSON, REST and HTTP details.
+@@ qrizy8ajj2
+
+**Key ideas**
+- An **API** is a way for programs to talk to each other. Web APIs answer HTTP requests with data (usually JSON).
+- **REST**: resources are URLs (`/knights`, `/knights/2`); methods say the action: GET (read), POST (create), PUT/PATCH (update), DELETE (remove).
+- Status codes: 200 OK, 201 Created, 204 No Content, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 500 Server Error.
+- **Headers** carry extra info: `Content-Type: application/json`, `Authorization: Bearer <token>`.
+- Query strings filter: `/knights?house=Lovelace&page=2`.
+@@ 1gi90crf2uf
+What is an API?
+@@ wht7h28n0a
+The waiter of the internet
+@@ 1ojita1itzt
+An **API** (Application Programming Interface) lets one program ask another for data or actions.
+
+Think of a restaurant: you (the app) do not walk into the kitchen (the database). You ask the **waiter** (the API), who brings back what you ordered.
+
+Weather apps, maps, payments, logins: all use APIs.
+@@ t1g4576pd0
+In the restaurant story, the API is...
+@@ 2chz9gfimia
+The waiter
+@@ 21sebmak5h1
+The kitchen
+@@ 4bpxlj8t4b
+The customer
+@@ 1cg61dti6ge
+The menu price
+@@ 1vz9srwhj0p
+A weather app shows today's forecast. Where does the data most likely come from?
+@@ chlwnyos3s
+A weather API
+@@ 23kk3lrht7s
+The phone's CSS
+@@ 5k9jgihc5t
+The HTML file
+@@ t6w4q8se67
+The user types it
+@@ 2c3kv9diqtn
+Most web APIs send data back as JSON.
+@@ tdhvsugvo7
+Match the word
+@@ gyp7tnm583
+A way for programs to talk
+@@ 6mvlnnz7oz
+Endpoint
+@@ inlrf7wzqu
+One URL of an API
+@@ 2bhjfl10dim
+Request
+@@ i9uxqizz5y
+What the client sends
+@@ 99xmiw5y02
+Response
+@@ 1x5crd4hpy
+What the server sends back
+@@ p1w7cdl0q5
+JSON up close
+@@ 9ml2d3kady
+JSON rules
+@@ 15fw6727q0t
+```
+{
+  "name": "Ada",
+  "level": 12,
+  "alive": true,
+  "skills": ["sword", "magic"],
+  "horse": null
+}
+```
+Rules: keys in **double quotes**, strings in double quotes, no trailing commas, no comments, no functions.
+@@ kaeip7s6hi
+Which line breaks the JSON?
+@@ 2feg1clbgf
+JSON needs double quotes around keys and strings.
+@@ 1ql1azcl2nt
+JSON does not allow a comma after the last item.
+@@ 16fosu8fbc3
+What is the type of "skills"?
+@@ 283r1c20wj8
+An object
+@@ 1pst2fi72yr
+A number
+@@ 18mvyn4ije1
+How do you read Cyra's house in JavaScript (the data is in `data`)?
+@@ lhkmp3nevo
+REST and status codes
+@@ jf7xy8e35h
+Resources and verbs
+@@ 25pgj67ogkj
+A **REST** API uses URLs for things (resources) and HTTP methods for actions:
+
+```
+GET    /knights       list knights
+GET    /knights/2     one knight
+POST   /knights       create a knight
+PATCH  /knights/2     change part of it
+DELETE /knights/2     remove it
+```
+@@ ninhzk2hm4
+Match the method with the action
+@@ 1mule95g6q7
+Read
+@@ 19qq7dyvwmw
+PATCH
+@@ ml2ck7c29c
+Update part
+@@ s0xdrjl2p1
+DELETE
+@@ 21rjkq8k9uj
+Remove
+@@ a43nmks8zr
+Which request gets the quest with id 7?
+@@ 17evc2azl6f
+GET /quests/7
+@@ 1h0qm9047b9
+POST /quests/7
+@@ 35yjqzl42q
+GET /quests?delete=7
+@@ qawsikuzeo
+DELETE /quests
+@@ 1jlecvsjyk7
+Match the status code
+@@ 1oljr5kd72u
+Bad request (invalid data)
+@@ 5cp0wmvder
+Not logged in
+@@ 291645xv2pt
+Logged in but not allowed
+@@ 184zh645xw1
+The server crashed while handling a request. Which status is typical?
+@@ 20g0qj78u8u
+A successful DELETE often answers 204 No Content (an empty body).
+@@ 1jhsk8q5nos
+Headers, queries and keys
+@@ 38ovx6xbda
+The envelope around the letter
+@@ ntf5ujv9wd
+**Headers** carry information about the request or response:
+- `Content-Type: application/json`: the body is JSON
+- `Authorization: Bearer abc123`: who you are (a token)
+
+**Query strings** add options: `/knights?house=Lovelace&sort=level`
+
+Many APIs need an **API key**. Keep it secret: on the server, never in public front-end code.
+@@ j9oux6oofv
+What does this URL ask for?
+@@ 9xmdisc1x3
+Quests not done, sorted by reward
+@@ 18sutzjakd0
+Delete done quests
+@@ ax7clmpkzk
+One quest with id "false"
+@@ xado1b6kdd
+All quests unsorted
+@@ d6qpeaxuq9
+Tell the server the body is JSON
+@@ 6gjiytsrhr
+It is safe to put a secret API key in front-end JavaScript.
+@@ 1iw8hojqxqh
+Anyone can read front-end code in DevTools. Call the API from your server instead.
+@@ 1axi45sogxe
+Which header usually carries a login token?
+@@ 1gx5brwo4u8
+Authorization
+@@ ozfxwyquls
+Content-Type
+@@ 18babok6vqn
+Accept-Language
+@@ 12keaa2u5o9
+Cache-Control
+@@ 1p5kclfhxkt
+Fetching Data
+@@ idh9woz2en
+Use fetch to read and send data, and handle errors.
+@@ ecwq0by9sb
+
+**Key ideas**
+- `const res = await fetch(url);` then `const data = await res.json();`
+- `fetch` only throws on network failure. Check `res.ok` (status 200–299) for HTTP errors.
+- Send data: `fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(obj) })`.
+- Wrap in `try/catch`. In UIs, show **loading**, **error** and **empty** states.
+- **CORS**: browsers block requests to other domains unless the server allows them.
+@@ 9you23n5zq
+fetch basics
+@@ 1od3c0gv2st
+Asking the server
+@@ 1igytu1714t
+```
+async function loadKnights() {
+  const res = await fetch("https://api.realm.dev/knights");
+  const knights = await res.json();
+  console.log(knights);
+}
+```
+Two `await`s: one for the response, one for reading its JSON body.
+@@ fac69i7a8b
+Fetch and print the quests
+@@ 1lmrx9owp1m
+Read the JSON body
+@@ 5um4rfl3co
+What does `fetch` return?
+@@ 1524k8wrz4m
+A Promise of a Response
+@@ 1ubgzg2hdl5
+The data directly
+@@ w1uurjf149
+A JSON string
+@@ kvkicdi3ts
+An HTML page
+@@ 10a0um8yiwr
+Challenge: Summon the Knights
+@@ 233e374o647
+When things go wrong
+@@ h8sm9toee
+Check the status
+@@ ivg0wrjpxl
+```
+const res = await fetch(`/api/knights/${id}`);
+if (!res.ok) {
+  throw new Error(`Request failed: ${res.status}`);
+}
+const knight = await res.json();
+```
+`res.ok` is true for status 200–299. `fetch` does **not** throw on 404 or 500, only on network problems.
+@@ 1vyhwet2lzx
+`fetch` throws an error when the server answers 404.
+@@ idpbj8bs0t
+A 404 is still a response. Check `res.ok` or `res.status` yourself.
+@@ c8ilws8rvf
+When does `fetch` reject (throw)?
+@@ 1i0ono1iysv
+On network failure, like being offline
+@@ 4n5rd2mqb7
+On any status that is not 200
+@@ fcnzo2lhir
+When JSON is empty
+@@ 221ct4go232
+Never
+@@ 2afynv5vout
+Which line lets errors slip through?
+@@ 1hkmjmqskcn
+It never checks `res.ok`, so a 404 error page is treated like real data.
+@@ lkmhg1wpaq
+Which is best for users when data fails to load?
+@@ y3syrmvgjl
+Show a clear message and a "Try again" button
+@@ 16ar7shva7v
+Show a blank page
+@@ 1e2d1kuf38y
+Reload the page forever
+@@ 24az78yzcjp
+Hide the error in the console only
+@@ 16nazmolj63
+Challenge: Knight Not Found
+@@ 18k1r0o0ro6
+Sending data
+@@ 1r1sxh8zlht
+POST with a body
+@@ 1s8824ayxxd
+Send a quest as JSON
+@@ 1otazaps3m
+Why `JSON.stringify` the body?
+@@ ze7amqcvu0
+HTTP bodies are text, so the object must become a JSON string
+@@ nkwbvk9cm1
+To make it shorter
+@@ 1ubjarzmj22
+To encrypt it
+@@ 2ev9rwqm8hr
+fetch only accepts numbers
+@@ v4z41fw8j7
+Which method usually updates only some fields?
+@@ 169fovk7m8r
+Challenge: Recruit a Knight
+@@ 4esqi75h56
+Data in real apps
+@@ 21jaex38dg3
+States of a screen
+@@ 4hkztmkfbw
+Every screen that loads data has several **states**:
+- **loading**: show a spinner or skeleton
+- **error**: explain and offer to retry
+- **empty**: "No quests yet, add one!"
+- **success**: show the data
+
+**CORS**: browsers block requests to another domain unless that server sends permission headers. Fix it on the server, not in the browser.
+@@ 7ntpvxsr15
+Match the state with what to show
+@@ fnlohi6jqd
+Loading
+@@ 1nx6jrtsvzj
+A spinner or skeleton
+@@ 1fihh8s8xb1
+A message and a retry button
+@@ 1enns3h6mbl
+Empty
+@@ 1pzye4bh7hl
+A friendly "nothing here yet"
+@@ 16pn7sp40i7
+Success
+@@ 1k0sjbr62t7
+The data
+@@ 48vue2iqm2
+You see "blocked by CORS policy" in the console. Where is it fixed?
+@@ kekjkkmfkh
+On the server (allowed origins)
+@@ 11aequj2pgo
+In the CSS
+@@ 8jkjyikhi4
+By using http instead of https
+@@ 12eaab53emf
+By clearing the cache
+@@ 15mmx5r0w15
+Many APIs limit how many requests you can send per minute (rate limits).

@@ -1,0 +1,284 @@
+@@ 12az7loaw0u
+Domine uma seção inteira para colocar o troféu dela nestas prateleiras. Conclua uma trilha para ganhar um lendário! Conquistas dão ouro: mais para as de prata, ouro e lendárias.
+~~
+Domina una sección entera para colocar su trofeo en estas estanterías. ¡Completa una ruta para conseguir uno legendario! Los logros dan oro: más por los de plata, oro y legendarios.
+@@ 17gl37cldif
+Nível de carreira: {r}
+~~
+Rango profesional: {r}
+@@ iku4z6lgdq
+Próximo: {n}
+~~
+Siguiente: {n}
+@@ 4vwy35edre
+Você chegou ao topo: está pronto para seu primeiro emprego como desenvolvedor!
+~~
+Llegaste a la cima: ¡estás listo para tu primer trabajo como desarrollador!
+@@ 1dv7oe8ncwm
+Bronze
+~~
+Bronce
+@@ c42ni723oh
+Prata
+~~
+Plata
+@@ 256pxwqz5l5
+Lendária
+~~
+Legendario
+@@ lk0dxs8rlr
+Conquista secreta
+~~
+Logro secreto
+@@ c970rrchba
+Continue explorando para encontrá-la...
+~~
+Sigue explorando para encontrarlo...
+@@ t2e316qgb
+Nível {0} {1} · entrou em {2}
+~~
+Nivel {0} {1} · se unió el {2}
+@@ 1gm98ddcbkg
+Trilha: {0} · {1}
+~~
+Ruta: {0} · {1}
+@@ 20m6sp6qt3u
+{0}/{1} XP para o nível {2}
+~~
+{0}/{1} XP para el nivel {2}
+@@ i8gtc9c93b
+Estatísticas
+~~
+Estadísticas
+@@ 23m6wgjth3i
+Dias seguidos
+~~
+Días seguidos
+@@ feyowj6d0s
+Desafios resolvidos
+~~
+Desafíos resueltos
+@@ glqrzseqbl
+Projetos criados
+~~
+Proyectos creados
+@@ f7ctxiu625
+Lições perfeitas
+~~
+Lecciones perfectas
+@@ 25w8bl1c991
+XP desta semana
+~~
+XP de esta semana
+@@ uqtqtumeb4
+Barras douradas alcançaram sua meta diária de {0} XP.
+~~
+Las barras doradas alcanzaron tu meta diaria de {0} XP.
+@@ rtdr5220hd
+Ajuste a oficina do seu jeito: sons, corações, fontes e mais.
+~~
+Ajusta el taller a tu gusto: sonidos, corazones, fuentes y más.
+@@ dsygwtzjed
+Gwyn · Artífice
+~~
+Gwyn · Artífice
+@@ 239ink4hh0q
+Efeitos sonoros
+~~
+Efectos de sonido
+@@ 1ktbs89i57u
+Música
+~~
+Música
+@@ 1sxgx8uhies
+Uma melodia calma de alaúde, feita em código.
+~~
+Una melodía tranquila de laúd, hecha con código.
+@@ 1zro6awu1qi
+Corações
+~~
+Corazones
+@@ 1zsf0u43bnq
+Desligue para o Modo tranquilo: erros nunca interrompem uma lição. Bom para crianças e iniciantes.
+~~
+Desactívalo para el Modo relajado: los errores nunca detienen una lección. Bueno para niños y principiantes.
+@@ ggy61awe1j
+Notas do Sábio
+~~
+Notas del Sabio
+@@ qz2jnonbti
+Detalhes do mundo real nos desafios de programação (para adultos e quem está mudando de carreira).
+~~
+Detalles del mundo real en los desafíos de programación (para adultos y quienes cambian de carrera).
+@@ 6hf7d11gk0
+Dicas para telas novas
+~~
+Consejos para pantallas nuevas
+@@ 2dkw4hm7es0
+A Lumi mostra um tour guiado curto na primeira vez que você abre uma tela.
+~~
+Lumi muestra un recorrido guiado corto la primera vez que abres una pantalla.
+@@ 7ihn0e830n
+XP para ganhar por dia
+~~
+XP para ganar cada día
+@@ k2f62g9r5e
+Fonte clássica para código
+~~
+Fuente clásica para código
+@@ 23g3pf8ih0l
+Uma fonte padrão para código em vez da fonte pixelada (mais fácil de ler em códigos longos).
+~~
+Una fuente estándar para el código en lugar de la pixelada (más fácil de leer en código largo).
+@@ 2f5myvieqwe
+Tamanho do texto do editor
+~~
+Tamaño del texto del editor
+@@ nrqqg2qbjm
+Velocidade do herói no mapa
+~~
+Velocidad del héroe en el mapa
+@@ doayw49865
+Lenta
+~~
+Lenta
+@@ 1yqnq4foavx
+Normal
+~~
+Normal
+@@ wp3em5xq1h
+Rápida
+~~
+Rápida
+@@ r240cu5gyv
+Muito rápida
+~~
+Muy rápida
+@@ 16esobq72y1
+Lembretes
+~~
+Recordatorios
+@@ 24mbtoavc8b
+Notificações do navegador quando sua sequência estiver em perigo ou seu pet estiver com fome (também no correio dos corvos).
+~~
+Notificaciones del navegador cuando tu racha esté en peligro o tu mascota tenga hambre (también en el correo de cuervos).
+@@ cy4jkc7csb
+Horário do lembrete
+~~
+Hora del recordatorio
+@@ f8xmelzk4a
+Desligado
+~~
+Desactivado
+@@ 2bflq68x6ok
+Um botão DEV (e a tecla `) abre um painel para testar tudo: XP, viagem no tempo, pets, batalhas...
+~~
+Un botón DEV (y la tecla `) abre un panel para probarlo todo: XP, viajes en el tiempo, mascotas, batallas...
+@@ 17hbn1jnn2g
+Seu progresso salvo
+~~
+Tu partida guardada
+@@ 1ky3zgyx9rp
+O progresso fica salvo neste navegador. Para jogar em outro computador, faça um backup num arquivo e carregue-o lá.
+~~
+El progreso se guarda en este navegador. Para jugar en otro ordenador, haz una copia en un archivo y cárgala allí.
+@@ zj5u16r3qq
+Fazer backup do meu progresso
+~~
+Hacer copia de mi progreso
+@@ 2116rvk3qpx
+Carregar um backup
+~~
+Cargar una copia
+@@ hdlclmh9xl
+Recomeçar (apagar o progresso)
+~~
+Empezar de nuevo (borrar el progreso)
+@@ 10haqp8xtub
+Tem certeza? Isso não pode ser desfeito.
+~~
+¿Seguro? Esto no se puede deshacer.
+@@ nk3xl3xmf4
+Sim, apagar
+~~
+Sí, borrar
+@@ 1cf7o6cevqp
+sem herói
+~~
+sin héroe
+@@ 19mzh0t8dgf
+Esse arquivo não é um backup do Realm of Code.
+~~
+Ese archivo no es una copia de Realm of Code.
+@@ xmr1txdpn7
+Todo caminho leva a algum lugar bom. Troque quando quiser: as lições concluídas contam em todas as trilhas que as incluem.
+~~
+Todos los caminos llevan a algún buen lugar. Cambia cuando quieras: las lecciones completadas cuentan en todas las rutas que las incluyen.
+@@ aknwzj1ub8
+Trilha atual
+~~
+Ruta actual
+@@ 205b8ekddrm
+Seguir esta trilha
+~~
+Seguir esta ruta
+@@ zxwbow3n0v
+{0}/{1} lições feitas · Objetivo: {2}
+~~
+{0}/{1} lecciones hechas · Meta: {2}
+@@ 1zdgx4kupz3
+Próximo 
+~~
+Siguiente 
+@@ 2002ka6caox
+Anterior 
+~~
+Anterior 
+@@ 1tk0zgar9j4
+A Academia! As lições de todas as trilhas estão aqui dentro. Entre!
+~~
+¡La Academia! Dentro están las lecciones de todas las rutas. ¡Pasa!
+@@ fwue40l1ve
+Todas as suas habilidades ficam registradas na Biblioteca.
+~~
+Todas tus habilidades quedan registradas en la Biblioteca.
+@@ h41h72b1q3
+Ouçam! Troféus e conquistas ficam expostos aqui.
+~~
+¡Oíd! Aquí se exponen los trofeos y logros.
+@@ 1dj719aker5
+Quer plantar com código? Comece com blocos e termine com JavaScript!
+~~
+¿Quieres cultivar con código? ¡Empieza con bloques y termina con JavaScript!
+@@ wh6i2ue2bp
+Jogos, prática e um mercador. Entre, amigo!
+~~
+Juegos, práctica y un mercader. ¡Pasa, amigo!
+@@ 1a1zq4zt82l
+Missões novas são publicadas todo dia na guilda.
+~~
+Cada día se publican misiones nuevas en el gremio.
+@@ 1vq2kn9i5l0
+Quadro de Trilhas
+~~
+Tablón de Rutas
+@@ 1d9rcphex89
+ENTRAR
+~~
+ENTRAR
+@@ wsepwev76q
+ESPAÇO
+~~
+ESPACIO
+@@ 1vy5vds9lv3
+Acabaram as flechas. Uma resposta possível: `{a}`
+~~
+Sin flechas. Una respuesta posible: `{a}`
+@@ c8thpnvzzu
+Resta {n} flecha.
+~~
+Queda {n} flecha.
+@@ xnbbd00rwp
+Restam {n} flechas.
+~~
+Quedan {n} flechas.

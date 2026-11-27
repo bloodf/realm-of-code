@@ -1,0 +1,816 @@
+@@ 18zf4xv2c5l
+The Builders' Guild
+@@ xlsmrk8ry7
+The structure of every web page: tags, links, images, lists, tables, forms and semantic, accessible markup.
+@@ 1cfh3ybhod7
+First Tags
+@@ 1uezqbiynu0
+Elements, headings, paragraphs and nesting.
+@@ btss7ck0kd
+
+**Key ideas**
+- HTML is made of **elements**. Most have an opening and a closing **tag**: `<p>Hello</p>`.
+- Headings go from `<h1>` (most important) to `<h6>`. Use one `<h1>` per page.
+- `<p>` is a paragraph. `<br>` is a line break (no closing tag).
+- `<strong>` = important (bold), `<em>` = emphasis (italic).
+- Elements can be **nested**: close the inner one first. `<p><em>Hi</em></p>`
+- Comments: `<!-- a note for humans -->`
+@@ ems0wyo1pi
+Tags and elements
+@@ 1x5i49o032l
+Your first tag
+@@ lggwwolkvw
+HTML describes the parts of a page with **tags**. Most tags come in pairs:
+
+```
+<p>Hello, traveller!</p>
+```
+- `<p>` is the **opening tag**
+- `</p>` is the **closing tag** (note the `/`)
+- together with the text they make an **element**
+@@ 1fiynybyii8
+Which part is the closing tag?
+@@ 1bxbhegfcxe
+Hello
+@@ 1z0cdm4qvq4
+What makes a closing tag different from an opening tag?
+@@ 2fy2lfy4cah
+A slash: </p>
+@@ qe3eq2mac0
+Capital letters: <P>
+@@ gw79trcmof
+Two brackets: <<p>>
+@@ 19vgtvu9mcg
+A dot: <.p>
+@@ saslgos6cd
+Complete the paragraph
+@@ 2czobsuajwc
+`<p>` stands for paragraph.
+@@ hxhqtmus91
+Line 2 uses `<p>` instead of `</p>` to close the paragraph.
+@@ 1bxf5ro10r0
+Type the closing tag for `<h1>`
+@@ 1yywbd67gzq
+Headings
+@@ 2ar7f3sfg6e
+Six sizes of titles
+@@ 1zxbfbmsk8d
+HTML has six heading levels:
+
+```
+<h1>Castle Blackstone</h1>
+<h2>The Armoury</h2>
+<h3>Swords</h3>
+```
+`<h1>` is the most important (usually the page title). Use **one** `<h1>` per page, then `<h2>` for sections, `<h3>` inside those, and so on.
+@@ ez4ykeuz2h
+Which heading is the most important?
+@@ 10clgflwpjj
+How many heading levels does HTML have?
+@@ 1jlz7o8do6g
+As many as you want
+@@ 1oy1wsgsc67
+Order these headings from most to least important
+@@ 29ed1xa3swx
+You should pick a heading level because of its size.
+@@ 1zjwdh3615
+Pick headings by *meaning* (an outline). CSS can change the size later.
+@@ 1t030hvfa3m
+Make a section heading under the page title
+@@ 2agtzepxtrr
+A page has a title and three sections. Which is best?
+@@ 20fjsa2pjy3
+One <h1>, then three <h2>
+@@ 1ubqax51g3g
+Four <h1>
+@@ 2atr4fx57c4
+Only <h3> headings
+@@ ss9wj11t9y
+No headings, just bold text
+@@ 1jhf6ns18ai
+Text that matters
+@@ 1avevdhkcdw
+Strong and emphasis
+@@ td4d4m9yv6
+Inside text you can mark words:
+- `<strong>` = **important** (shown bold)
+- `<em>` = *emphasis* (shown italic)
+- `<br>` = a line break. It has no closing tag.
+
+```
+<p>Beware the <strong>dragon</strong>.<br>It is <em>very</em> grumpy.</p>
+```
+@@ k601w9ku2m
+Which tag marks important text?
+@@ 25bvcv2zo25
+How does `<em>` text usually look?
+@@ 2do7kthom6d
+Italic
+@@ 2c7s6or8vm9
+Bold
+@@ 1wpssv9d5f3
+Underlined
+@@ 2d4jh30ti16
+`<br>` needs a closing tag `</br>`.
+@@ 2owrbmhxi2
+`<br>` is a *void* element: it has no content and no closing tag.
+@@ wx1iruvwr
+Make "never" emphasised
+@@ 1pjto1ol1lz
+Match the tag to what it does
+@@ 12gwgrebgag
+Paragraph
+@@ 25sd3tnzfs
+Important text
+@@ 1dbc9eb5dfs
+Emphasis
+@@ nwox2mbj42
+Line break
+@@ 1z6rnumzakl
+What does this show?
+@@ c7cy41g0rf
+"Gold: 500" with 500 in bold
+@@ 2afy7j3abi3
+"Gold: 500" all in italics
+@@ p5iakgezkp
+Only "500"
+@@ 88sval6s17
+Nesting and comments
+@@ kj7ua6yk9k
+Boxes inside boxes
+@@ 1787b9hk9k1
+Elements can go **inside** other elements. This is called **nesting**. Always close the inner element first:
+
+```
+<p>A <strong>brave</strong> knight</p>   ✓
+<p>A <strong>brave</p></strong> knight  ✗
+```
+Comments are notes for humans. The browser ignores them:
+
+```
+<!-- TODO: add the map here -->
+```
+@@ 1b9qiir0g3j
+Which line is nested wrongly?
+@@ 1yezj2mo39e
+The `<em>` opens inside the `<p>`, so it must close before the `</p>`.
+@@ 1d7h5lv7uju
+Build this paragraph: The **dragon** sleeps. ("dragon" is strong)
+@@ z4ct83w4zm
+Which is a correct HTML comment?
+@@ 19y8yc0zfdu
+# secret note
+@@ 1ayvf0ma5c9
+Comments are shown on the page in grey.
+@@ 1t8ncq5kakp
+Comments are invisible on the page. Anyone can still read them with "View source", so never put passwords there.
+@@ 1v8643a7uy7
+Finish the nesting
+@@ swg3fobdf2
+Challenge: The First Stone
+@@ 1nscknd3jg7
+Challenge: Words on Parchment
+@@ 1prvldf4mwf
+Challenge: Bold Banners
+@@ 147fdjvt1as
+The Page Skeleton
+@@ 4p80r7wan4
+DOCTYPE, head, body, meta tags and attributes.
+@@ 1z9va8nbna0
+
+**Key ideas**
+- Every page starts with `<!DOCTYPE html>`, then `<html lang="en">`.
+- `<head>` holds information *about* the page: `<title>`, `<meta charset="utf-8">`, the viewport meta tag and links to CSS.
+- `<body>` holds everything visitors see.
+- **Attributes** add settings to tags: `<html lang="en">`, `<a href="...">`. Format: `name="value"`.
+- `<meta name="viewport" content="width=device-width, initial-scale=1">` makes pages work on phones.
+@@ 1g0031ych7r
+Head and body
+@@ 71birqr33d
+The skeleton
+@@ 1lje9az2j7d
+Every HTML page has the same skeleton:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tab title</title>
+  </head>
+  <body>
+    Visible content
+  </body>
+</html>
+```
+- `<head>`: information *about* the page
+- `<body>`: what visitors see
+@@ o7p6q9of1z
+Put the skeleton in order
+@@ qwfmnpmguq
+Where does the `<title>` go?
+@@ 1up64exsrg2
+Inside <body>
+@@ 2c91bsly1yd
+Before <!DOCTYPE html>
+@@ 290gx9oqfhc
+After </html>
+@@ 4bagd7vkcm
+Where is the `<title>` text shown?
+@@ 1aank0yr7pq
+On the browser tab
+@@ 18v0xtvip98
+As the biggest heading
+@@ egpkw8h8h8
+At the bottom of the page
+@@ 1wxfg807tsu
+Nowhere
+@@ 20w3ew6ceze
+Where do headings and paragraphs go?
+@@ wizyzdejcd
+Outside <html>
+@@ 1ehxwmrwq4v
+`<!DOCTYPE html>` tells the browser this is a modern HTML page.
+@@ gf1rlf768v
+Which line is in the wrong place?
+@@ 28fefr291qp
+Headings are visible content, so the `<h1>` belongs in `<body>`.
+@@ ux62slvwtq
+Attributes
+@@ 18gv5y7pprs
+Extra settings
+@@ pmco5u6nol
+**Attributes** add information to an opening tag. They look like `name="value"`:
+
+```
+<html lang="en">
+<a href="https://developer.mozilla.org">MDN</a>
+<img src="castle.png" alt="A castle">
+```
+An element can have many attributes, separated by spaces.
+@@ bcy2fh8jbj
+In this tag, what is `lang`?
+@@ p71wp2ya7e
+An attribute name
+@@ 22ipiew30v3
+The tag name
+@@ 1lspaioljgk
+The attribute value
+@@ 1y8m4smpb25
+A comment
+@@ 15ksi51n791
+And what is `en`?
+@@ 1pfgurrzf00
+The attribute name
+@@ px3575vqt5
+A closing tag
+@@ 2ane8z57do5
+Set the page language to English
+@@ fg1oodz24r
+Where are attributes written?
+@@ 1zl3i08odx1
+In the opening tag
+@@ 1k3f4jlf0l1
+In the closing tag
+@@ e23ix54sc8
+Between the tags
+@@ vhvub8ycp3
+In a separate file
+@@ 12yabia2cqy
+Attribute values should be written in quotes.
+@@ 11cozlpxg43
+Quotes are optional in some cases, but always using them avoids bugs.
+@@ 1cp4icg34ia
+Which line has a broken attribute?
+@@ 1xvvz1mgnmb
+The `href` value is missing its closing quote.
+@@ 2f2sf7u7027
+Meta tags
+@@ 37ux3qkp47
+Information for machines
+@@ 246hb33zie5
+`<meta>` tags go in `<head>` and give information to browsers and search engines:
+
+```
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The best pies in the realm">
+```
+- **charset**: lets letters like é and emoji display correctly
+- **viewport**: makes the page fit phone screens
+- **description**: the text search engines show under your link
+@@ umzt6j76a5
+Match the meta tag with its job
+@@ xc48hlubld
+Shows all letters and emoji
+@@ 1lysvb5cmwx
+Fits phone screens
+@@ wpqk00cjck
+Summary for search engines
+@@ 2e0pqqodshq
+Your page looks tiny and zoomed-out on phones. Which tag is probably missing?
+@@ 108e0hr5otv
+`<meta>` tags are shown inside the page content.
+@@ u3yt4n29rq
+Complete the character set
+@@ 9xe2l1fxrc
+`<meta>` has no closing tag. Elements like this are called...
+@@ 1m7c265a9el
+empty pages
+@@ 2c6ditr6cig
+broken tags
+@@ zxua42rgcd
+Challenge: The Skeleton of a Page
+@@ ucvp1iw8ww
+Links and Images
+@@ vxsizitxe4
+Anchors, paths and pictures with good alt text.
+@@ 1900amzb4oc
+
+**Key ideas**
+- Links: `<a href="https://example.com">Text</a>`. The text should describe where the link goes.
+- **Absolute** URL: the full address (`https://...`). **Relative** path: from the current file (`about.html`, `images/cat.png`, `../index.html`).
+- `target="_blank"` opens a new tab. `href="#section-id"` jumps within the page.
+- Images: `<img src="castle.png" alt="A grey castle on a hill">`. **Always** write alt text (empty `alt=""` for decoration).
+- `<figure>` + `<figcaption>` group an image with its caption.
+@@ 222bd59jmxt
+Links
+@@ 20v57tcjwb0
+Roads between pages
+@@ 24o0lkisnnb
+Links use the `<a>` tag (*anchor*). The address goes in `href`:
+
+```
+<a href="https://developer.mozilla.org">Read the MDN guide</a>
+```
+The text between the tags is what people click.
+@@ 1vhn40x2u66
+Make a link to the map page
+@@ a7b3i60gkv
+Which attribute holds the link address?
+@@ ls4gr20w63
+Which link text is best?
+@@ 1vd4gl9g203
+"Read the pie recipe"
+@@ 1xvm8qk8js2
+"Click here"
+@@ 24t8dmi9q7x
+Descriptive link text helps everyone, especially screen-reader users who jump from link to link.
+@@ 7gj92e94df
+What does `target="_blank"` do?
+@@ 2dzqqc6zfx1
+Opens the link in a new tab
+@@ 1zmpwege7d
+Makes the link invisible
+@@ 27h3cz2wzyq
+Removes the link
+@@ 92gt57hsc3
+Downloads the page
+@@ o2g6ldlea8
+Jump links
+@@ 26lze2gwc4h
+A link can also jump to a part of the same page. Give the target an `id`, then link to `#` plus that id:
+
+```
+<a href="#menu">See the menu</a>
+...
+<h2 id="menu">Menu</h2>
+```
+@@ dcfwt46c4p
+Link to the element with id="contact"
+@@ 21pypootubd
+Which link is broken?
+@@ 1aqqyu5kuu7
+Links use `href`, not `src`.
+@@ 1v28hp2w3ln
+Paths: where files live
+@@ 1u4y4musb6g
+Absolute and relative
+@@ 1zep0c3bhqh
+An **absolute URL** is the full address: `https://realm.dev/about.html`
+
+A **relative path** starts from the current file:
+- `about.html`: a file in the same folder
+- `images/cat.png`: inside the `images` folder
+- `../index.html`: one folder **up**
+@@ mknkrvhd7g
+Which is an absolute URL?
+@@ 6w9s7hfnrq
+`index.html` wants to show `photo.png` from its `images` folder. Which path?
+@@ obx0liadm9
+What does `..` mean in a path?
+@@ xkb4vq84qh
+Go up one folder
+@@ 137qx78zxfy
+The current folder
+@@ 17yn0ig2i54
+The home page
+@@ 151ezl4xzlh
+Any file
+@@ 155jgvppsmk
+Relative paths keep working when you move the whole site to another domain.
+@@ 1jzqni2s6tj
+That is why sites use relative paths for their own files.
+@@ 19joh2jwrbv
+Match the path with its meaning
+@@ et34t2za6i
+Same folder
+@@ 1ti9tkzmbkn
+Inside the img folder
+@@ emqre2n694
+One folder up
+@@ 1wvytvivvpr
+Another website
+@@ 1ysc1dinep3
+Images
+@@ 1awp1co0aq4
+Pictures with words
+@@ u14hcyavw3
+Images use `<img>`, a void element (no closing tag):
+
+```
+<img src="castle.png" alt="A grey castle with red flags">
+```
+- `src`: the image file
+- `alt`: a description for people who cannot see the image (and for when it fails to load)
+@@ 101w89veqa7
+Complete the image
+@@ ru6wp068xd
+Who relies most on the `alt` text?
+@@ 26jqnqnwlci
+People using screen readers
+@@ 20o2khajfft
+People with fast internet
+@@ uhfyd4amo
+Only search engines
+@@ uwj9yk2ogf
+Nobody
+@@ 23lslq76zkf
+Screen readers read the alt text aloud. Search engines use it too.
+@@ 1pu5u461hbe
+Which alt text is best for a photo of a knight on a horse?
+@@ 1gfsr0vlwt8
+"Sir Ada riding a white horse"
+@@ l0rjtyg8r
+An image is only decoration (a swirl). What should its alt be?
+@@ 1jxyshuf6u1
+An empty alt: alt=""
+@@ 2867txrmnv5
+No alt attribute at all
+@@ 28scocqfwah
+"decoration image"
+@@ c3f6nq6jya
+`alt=""` tells screen readers to skip it. A missing alt makes some readers read the file name.
+@@ 1u28p5srj9f
+Figures
+@@ 1kpyezvah9p
+Group an image with a caption using `<figure>` and `<figcaption>`:
+
+```
+<figure>
+  <img src="map.png" alt="Map of the realm">
+  <figcaption>The realm in the year 812</figcaption>
+</figure>
+```
+@@ 27swz04r4yh
+Build a figure with the caption **below** the image
+@@ xz2rsuu07u
+Adding `width` and `height` to images stops the page from jumping while they load.
+@@ 20n0v3kh68r
+Challenge: Roads Between Castles
+@@ 1j9qee47qqq
+Challenge: Windows to the World
+@@ 2e2h2471h1q
+Lists and Tables
+@@ 2cd0dslcp9j
+Bullet lists, numbered steps and tables of data.
+@@ b83r51xdp0
+
+**Key ideas**
+- `<ul>` = bullet list (order does not matter), `<ol>` = numbered list (steps). Items are `<li>`.
+- Lists can be nested: put a new `<ul>` inside an `<li>`.
+- Tables: `<table>` → `<thead>`/`<tbody>` → rows `<tr>` → cells `<th>` (header) or `<td>` (data).
+- Use tables for data, **never** for page layout. Add a `<caption>` and `scope="col"` on headers.
+@@ 1oa9y7nvmsl
+Lists
+@@ k22h8wdgcv
+Bullets and numbers
+@@ 1kaprkgmp6k
+```
+<ul>
+  <li>Rope</li>
+  <li>Torch</li>
+</ul>
+```
+- `<ul>`: **unordered** list (bullets)
+- `<ol>`: **ordered** list (numbers)
+- `<li>`: a list item
+@@ 1l152wc8mi3
+Steps of a recipe should use...
+@@ gpx3midtfb
+<li> alone
+@@ 1kjy3t509w
+A shopping list where order does not matter should use...
+@@ 2cadm2n7a7m
+Build a bullet list: **Sword** first, then **Shield**
+@@ fle9xxsm81
+Complete the list item
+@@ 3xq6144hwp
+A `<li>` must always be inside a `<ul>` or `<ol>`.
+@@ 147ph4iwctt
+Navigation menus are usually built as...
+@@ 18vb6rb5if6
+A <ul> of links inside <nav>
+@@ 1l87vc2fq84
+A table
+@@ 1spgojqjsc7
+Many <br> tags
+@@ 1vf1j1kzioi
+One big <h1>
+@@ 2eand9ii4mb
+Tables
+@@ 2fsmdpfyykx
+```
+<table>
+  <thead>
+    <tr><th>Name</th><th>Gold</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ada</td><td>120</td></tr>
+  </tbody>
+</table>
+```
+- `<tr>`: a row
+- `<th>`: a header cell
+- `<td>`: a data cell
+@@ xr3d3tvxh1
+Match the table tag
+@@ 22nks0hfe84
+Table row
+@@ e437s94qpt
+Data cell
+@@ 28aqdsli85h
+Header cell
+@@ xgs87c49er
+Group of header rows
+@@ 1ur7mr9ckty
+Which tag makes a new row?
+@@ kk7qmno5xc
+Build a row: the name **Bors**, then the gold **45**
+@@ 1czihl5xk0z
+Tables are a good way to lay out a whole web page.
+@@ 2aetkswgpvq
+Tables are for data. Use CSS Flexbox and Grid for layout.
+@@ e911un8yc8
+Add a header cell
+@@ rgllnqwens
+Which element gives a table a title?
+@@ qukl76uyk4
+Challenge: Lists of Supplies
+@@ 1mkg0l8jdo
+Challenge: The Royal Ledger
+@@ 27lu78gkvn
+Forms
+@@ m3xd95901y
+Inputs, labels, choices, buttons and validation.
+@@ 19ysd4l6nmt
+
+**Key ideas**
+- `<form>` wraps inputs. Every input needs a `<label>`: connect them with `for` and `id`.
+- Input types: `text`, `email`, `password`, `number`, `date`, `checkbox`, `radio`...
+- `name` is the key used when the form is sent. Radios with the same `name` form one group.
+- `<select>` + `<option>` = dropdown. `<textarea>` = multi-line text.
+- Built-in validation: `required`, `minlength`, `max`, `type="email"`.
+- A `<button>` inside a form submits it.
+@@ 257tu030915
+Inputs and labels
+@@ 905uw53yw6
+Asking questions
+@@ 2fi6j8wsbjg
+```
+<form>
+  <label for="name">Your name</label>
+  <input id="name" name="name" type="text">
+  <button>Send</button>
+</form>
+```
+The label's `for` must match the input's `id`. Then clicking the label focuses the input, and screen readers read the label.
+@@ 27iyjuteje9
+Connect the label to the input
+@@ 2gnj9lxhw1p
+Why does every input need a label?
+@@ wqta0iqiw6
+So everyone (including screen-reader users) knows what to type
+@@ 1j22cdblsk3
+Because inputs are invisible without one
+@@ 194ep2v5e0z
+To make the form send faster
+@@ 2bm3lo5l12u
+It is only decoration
+@@ ydyb5sluay
+A placeholder can replace a label.
+@@ 2d2iho5z0c9
+Placeholders disappear when you type and are often low contrast. Always use a real label.
+@@ 1fa2nzabuou
+What does the `name` attribute do?
+@@ 27u8r4nk5lp
+Names the value when the form is sent
+@@ jtvbm6sv49
+Shows text inside the input
+@@ 1xuh2ivj9xb
+Makes the input bigger
+@@ 1hhu6k7to0d
+Connects to the label
+@@ l6k8xmizmf
+Which line breaks the label connection?
+@@ rypvrrw7a7
+The label says `for="age"` but the input has `id="years"`. They must match.
+@@ 16bi6xfauc9
+Input types
+@@ 1tzjuu927j7
+The right input for the job
+@@ 1spj1gdvr7u
+The `type` attribute changes the input:
+- `text`, `email`, `password`, `number`, `date`, `tel`, `url`
+- `checkbox` (yes/no), `radio` (pick one)
+
+On phones, `email` and `tel` even show a better keyboard!
+@@ 29cch1is8hr
+Match the data with the input type
+@@ 287b3zbhe6r
+Which input hides the characters you type?
+@@ 1d7i3e9zb3c
+Built-in checks
+@@ 1k8tbrouyf8
+HTML can check answers before a form is sent:
+
+```
+<input type="email" required>
+<input type="password" minlength="8">
+<input type="number" min="1" max="10">
+```
+@@ 23amtnkrn7h
+Which attribute makes a field mandatory?
+@@ ns2mah1dqe
+Passwords must be at least 8 characters
+@@ w6c2j7dk6b
+HTML validation in the browser is enough to keep a website secure.
+@@ 1qd3r9w0vov
+Users can bypass the browser. The server must always check data again.
+@@ 1ddivf2005y
+Choices and buttons
+@@ d64shmv14u
+Pick one, pick many
+@@ 2ehilqjrvvr
+Radio buttons belong to the same group when they share the same...
+@@ 2fm0zozlkfb
+Match the element with its use
+@@ pvbnc0tqwr
+Dropdown list
+@@ 8s45267x3t
+Pick exactly one
+@@ 162cagfwioz
+Yes or no
+@@ 1d1ksx9wynt
+Long text
+@@ 1qzz5rudmrd
+Which element groups related inputs with a title?
+@@ 3f78spoggn
+<fieldset> with <legend>
+@@ 5fr7pafy66
+<div> with <h1>
+@@ o5sj0c557h
+<group> with <title>
+@@ 2cqz29is3jl
+<form> with <caption>
+@@ 2aazdcpemzk
+Build a dropdown: **Small** first, then **Large**
+@@ hs3nfltbu7
+A `<button>` inside a `<form>` submits the form by default.
+@@ 13i9mxjdp3q
+Use `type="button"` for buttons that should not submit.
+@@ 2goowx5uemf
+Challenge: The Gatekeeper's Questions
+@@ 8jryenweet
+Challenge: Choose Your Path
+@@ h0k5xozsbi
+Semantic HTML and Accessibility
+@@ uavzc03zkq
+Tags with meaning, landmarks and pages everyone can use.
+@@ a4br605jpo
+
+**Key ideas**
+- Semantic tags describe meaning: `<header>`, `<nav>`, `<main>` (one per page), `<section>`, `<article>`, `<aside>`, `<footer>`.
+- `<div>` and `<span>` have no meaning; use them only for styling groups.
+- **Accessibility** (a11y): everyone can use your site, including people using screen readers, keyboards or zoom.
+- Basics: real `<button>`s for actions, labels on inputs, alt text, logical headings, good contrast, `lang` on `<html>`.
+- ARIA attributes (`aria-label`...) help only when no native HTML element fits.
+@@ 25hk6r9h0n3
+Tags with meaning
+@@ 1dz3t0w8mcc
+Rooms in a castle
+@@ 5x4ajf97v2
+Match the tag with its purpose
+@@ 6q12pc32ei
+Main links
+@@ 180dqud9jq5
+Main content
+@@ pn7dbipzf5
+Bottom of the page
+@@ 2ck4vo5r9qy
+Stand-alone story
+@@ 1e24eknp3ih
+How many `<main>` elements should a page have?
+@@ 281h3ebu7y4
+One
+@@ 5dgbunjken
+One per section
+@@ k19oogvdqn
+As many as you like
+@@ lpgiv1wyle
+A blog post that makes sense on its own belongs in...
+@@ 1zwwkgsu7uh
+`<div>` tells the browser that its content is the main navigation.
+@@ tpga5iy66w
+`<div>` has no meaning. Use `<nav>` for navigation.
+@@ 9xusl64ifw
+Order a typical page layout from top to bottom
+@@ 2684vtisqi2
+Why use semantic tags instead of only `<div>`s?
+@@ 1vn7lfkrilm
+Screen readers, search engines and developers understand the page better
+@@ vs96jquet1
+They make the page load 10× faster
+@@ ln1p9nuglf
+Browsers refuse to show pages without them
+@@ p1oe28r6rg
+They add colours automatically
+@@ 1zf7kv7cd3e
+Accessibility basics
+@@ 27uu4w524kg
+A site for everyone
+@@ 171773amnpz
+**Accessibility** (often written **a11y**) means everyone can use your site: people who are blind and use **screen readers**, people who only use a **keyboard**, people who zoom, people with colour blindness...
+
+In many countries it is also the law for public and business websites.
+@@ 21mqzy0aqc5
+Which is the best element for something you click to do an action?
+@@ 1rnu27n50wo
+Buttons work with the keyboard (Tab + Enter) and screen readers out of the box. A clickable `<div>` does not.
+@@ 1u5kgvzwggh
+Someone cannot use a mouse. How do they move between links and buttons?
+@@ 25eprphv7qz
+With the Tab key
+@@ 28enp7qe3wl
+They cannot use websites
+@@ 27idvhbpm1g
+With the Delete key
+@@ 12l3x8l8o0a
+By reloading the page
+@@ 1okvzdiggsl
+Using only colour (red = error) is enough to show an error.
+@@ 1tt0z6k7ep2
+Colour-blind users might not see it. Add text or an icon too.
+@@ w5h0xeim6f
+Match the problem with the fix
+@@ 2epz9r32mug
+Image with no description
+@@ vhr2oh754t
+Add alt text
+@@ 1vrhfirj9wn
+Input with no name shown
+@@ 19mk16hpdsj
+Add a <label>
+@@ 1pr9ajonh5h
+Grey text on grey background
+@@ xlvbmufg1z
+Increase contrast
+@@ ao1a4qppta
+Clickable <div>
+@@ ef0vcstn7k
+Use a <button>
+@@ 1bchi416j3a
+What does `aria-label` do?
+@@ 13j41eoitti
+Gives an element a name for screen readers
+@@ 12o9rua4lzt
+Changes the colour
+@@ 1ww5i9jwx69
+Adds a tooltip image
+@@ 1irpziyagup
+Makes the element invisible
+@@ 1qk1v72qq8b
+Example: `<button aria-label="Close">✕</button>`. Use it when there is no visible text.
+@@ 1yiuyi2bokb
+The first rule of ARIA is...
+@@ p9wuht4y50
+Use a native HTML element instead if you can
+@@ 1srss14et18
+Add ARIA to every element
+@@ 21l5ctk9he
+Never use buttons
+@@ 29zxwty97w
+ARIA replaces alt text
+@@ 2g5qceb1xun
+Challenge: Rooms with Meaning
+@@ 7j50yj30wl
+Project: The Tavern Menu

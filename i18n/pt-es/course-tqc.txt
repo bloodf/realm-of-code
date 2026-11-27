@@ -1,0 +1,408 @@
+@@ 4726b4pzev
+
+**Ideias principais**
+- Testes são código que confere código. Eles pegam bugs cedo e deixam você mudar o código sem medo.
+- Tipos: **unitário** (uma função), **integração** (peças juntas), **ponta a ponta** (o app inteiro num navegador).
+- `test("name", () => { expect(actual).toBe(expected); })` (Vitest/Jest).
+- `toBe` para primitivos, `toEqual` para arrays/objetos, `toThrow` para erros, `.not` para negar.
+- Preparar → Agir → Verificar. Teste casos normais e casos de borda.
+~~
+
+**Ideas clave**
+- Las pruebas son código que revisa código. Detectan bugs pronto y te dejan cambiar el código sin miedo.
+- Tipos: **unitarias** (una función), **de integración** (piezas juntas), **de extremo a extremo** (la app entera en un navegador).
+- `test("name", () => { expect(actual).toBe(expected); })` (Vitest/Jest).
+- `toBe` para primitivos, `toEqual` para arrays/objetos, `toThrow` para errores, `.not` para negar.
+- Preparar → Actuar → Comprobar. Prueba los casos normales y los casos límite.
+@@ 235uibhp3i4
+Um **teste** é um pequeno programa que confere se seu código faz o que deve:
+
+[[1]]
+Rode os testes depois de cada mudança. Se algo quebrar, você sabe na hora, antes dos usuários.
+~~
+Una **prueba** es un pequeño programa que comprueba que tu código hace lo que debe:
+
+[[1]]
+Ejecuta las pruebas después de cada cambio. Si algo se rompe, lo sabes al instante, antes que los usuarios.
+@@ 1xtvs0r4wkg
+
+**Ideias principais**
+- **TDD**: vermelho (escreva um teste que falha) → verde (faça passar) → refatorar.
+- **Mocks/fakes** substituem coisas lentas ou imprevisíveis (rede, tempo) nos testes.
+- Testes de interface com **Testing Library**: encontre elementos como um usuário faria (`getByRole("button", { name: "Save" })`).
+- Ponta a ponta com **Playwright** ou Cypress: um navegador de verdade clica pelo app.
+- **CI** (ex.: GitHub Actions) roda os testes automaticamente a cada push e pull request.
+~~
+
+**Ideas clave**
+- **TDD**: rojo (escribe una prueba que falla) → verde (haz que pase) → refactorizar.
+- Los **mocks/fakes** sustituyen en las pruebas las cosas lentas o impredecibles (red, tiempo).
+- Pruebas de interfaz con **Testing Library**: encuentra los elementos como lo haría un usuario (`getByRole("button", { name: "Save" })`).
+- De extremo a extremo con **Playwright** o Cypress: un navegador real hace clic por la app.
+- La **CI** (p. ej. GitHub Actions) ejecuta las pruebas automáticamente en cada push y pull request.
+@@ uybna5uevo
+**Desenvolvimento Guiado por Testes** (TDD):
+1. **Vermelho**: escreva um teste para o próximo comportamento pequeno; ele falha
+2. **Verde**: escreva só o código suficiente para passar
+3. **Refatorar**: organize o código, os testes continuam verdes
+
+**Mocks** substituem coisas que você não quer num teste unitário (chamadas de rede reais, a hora atual, pagamentos).
+~~
+**Desarrollo Guiado por Pruebas** (TDD):
+1. **Rojo**: escribe una prueba para el siguiente comportamiento pequeño; falla
+2. **Verde**: escribe solo el código justo para que pase
+3. **Refactorizar**: ordena el código, las pruebas siguen en verde
+
+Los **mocks** sustituyen lo que no quieres en una prueba unitaria (llamadas de red reales, la hora actual, pagos).
+@@ 1qs5z527ncn
+A Testing Library incentiva encontrar os elementos do jeito que os usuários encontram:
+
+[[1]]
+Ferramentas de ponta a ponta (**Playwright**, Cypress) conduzem um navegador de verdade por fluxos inteiros como "cadastrar-se e comprar".
+~~
+Testing Library anima a encontrar los elementos como lo hacen los usuarios:
+
+[[1]]
+Las herramientas de extremo a extremo (**Playwright**, Cypress) manejan un navegador real por flujos completos como "registrarse y comprar".
+@@ gf4emr6axj
+A **Integração Contínua (CI)** roda seus testes (e lint, verificação de tipos, builds) automaticamente a cada push e pull request. Um ❌ vermelho num PR significa "não junte ainda".
+
+Muitas equipes também usam **CD** (entrega contínua): quando a `main` está verde, o app é publicado automaticamente.
+~~
+La **Integración Continua (CI)** ejecuta tus pruebas (y el lint, la comprobación de tipos, los builds) automáticamente en cada push y pull request. Una ❌ roja en un PR significa "todavía no lo fusiones".
+
+Muchos equipos usan también **CD** (despliegue continuo): cuando `main` está en verde, la app se publica automáticamente.
+@@ n6ga3u9zp1
+
+**Ideias principais**
+- Diretrizes **WCAG**: o conteúdo deve ser Perceptível, Operável, Compreensível e Robusto (POUR).
+- HTML semântico primeiro: botões, links, títulos, rótulos e pontos de referência de verdade.
+- Tudo funciona com o **teclado** (Tab, Enter, Espaço, Esc) e o foco é visível.
+- Contraste de texto de pelo menos 4,5:1; não use só a cor para transmitir significado.
+- ARIA só quando o HTML não consegue expressar (`aria-label`, `aria-expanded`, `aria-live`).
+- Teste com Lighthouse/axe, com o teclado e com um leitor de tela.
+~~
+
+**Ideas clave**
+- Pautas **WCAG**: el contenido debe ser Perceptible, Operable, Comprensible y Robusto (POUR).
+- Primero HTML semántico: botones, enlaces, encabezados, etiquetas y puntos de referencia de verdad.
+- Todo funciona con el **teclado** (Tab, Enter, Espacio, Esc) y el foco es visible.
+- Contraste del texto de al menos 4,5:1; no uses solo el color para transmitir significado.
+- ARIA solo cuando HTML no puede expresarlo (`aria-label`, `aria-expanded`, `aria-live`).
+- Prueba con Lighthouse/axe, con el teclado y con un lector de pantalla.
+@@ 27uqyo9iyv6
+As Diretrizes de Acessibilidade para Conteúdo Web (**WCAG**) são o padrão mundial. O conteúdo deve ser:
+- **Perceptível**: texto alternativo, legendas, contraste
+- **Operável**: acesso pelo teclado, sem armadilhas, tempo suficiente
+- **Compreensível**: rótulos e erros claros
+- **Robusto**: funciona com tecnologias assistivas (HTML válido e semântico)
+~~
+Las Pautas de Accesibilidad para el Contenido Web (**WCAG**) son el estándar mundial. El contenido debe ser:
+- **Perceptible**: texto alternativo, subtítulos, contraste
+- **Operable**: acceso con teclado, sin trampas, tiempo suficiente
+- **Comprensible**: etiquetas y errores claros
+- **Robusto**: funciona con tecnologías de apoyo (HTML válido y semántico)
+@@ 7h6c5eae4i
+Muitas pessoas navegam só com o teclado. Garanta que:
+- todos os controles sejam alcançáveis com **Tab**, numa ordem lógica
+- o elemento com foco fique bem visível (estilos de `:focus-visible`, nunca `outline: none` sem substituto)
+- janelas modais prendam o foco dentro delas e fechem com **Esc**
+- widgets personalizados usem `<button>`s de verdade ou o ARIA e o tratamento de teclas certos
+~~
+Muchas personas navegan solo con el teclado. Asegúrate de que:
+- todos los controles se alcanzan con **Tab**, en un orden lógico
+- el elemento con foco se ve claramente (estilos de `:focus-visible`, nunca `outline: none` sin sustituto)
+- las ventanas modales atrapan el foco dentro y se cierran con **Esc**
+- los widgets personalizados usan `<button>`s de verdad o el ARIA y el manejo de teclas adecuados
+@@ 44ow2gd0i0
+Os leitores de tela leem a página em voz alta usando a estrutura dela: títulos, pontos de referência, rótulos, papéis (roles).
+
+O ARIA pode preencher lacunas:
+
+[[1]]
+Mas **nenhum ARIA é melhor que um ARIA ruim**: prefira elementos nativos.
+~~
+Los lectores de pantalla leen la página en voz alta usando su estructura: encabezados, puntos de referencia, etiquetas, roles.
+
+ARIA puede cubrir huecos:
+
+[[1]]
+Pero **mejor nada de ARIA que un mal ARIA**: prefiere los elementos nativos.
+@@ n3qyiefchb
+
+**Ideias principais**
+- A velocidade importa: páginas lentas perdem usuários e ficam mais abaixo nas buscas.
+- **Core Web Vitals**: LCP (o conteúdo principal carrega rápido), INP (responde rápido à interação), CLS (o layout não pula).
+- Imagens: tamanho certo, formatos modernos (WebP/AVIF), `loading="lazy"`, width/height definidos.
+- JavaScript: envie menos, divida o código, carregue rotas sob demanda; minifique; evite bibliotecas enormes para tarefas pequenas.
+- Cache e CDNs servem os arquivos perto dos usuários. Meça com o **Lighthouse**.
+~~
+
+**Ideas clave**
+- La velocidad importa: las páginas lentas pierden usuarios y salen más abajo en los buscadores.
+- **Core Web Vitals**: LCP (el contenido principal carga rápido), INP (responde rápido a la interacción), CLS (la distribución no salta).
+- Imágenes: tamaño adecuado, formatos modernos (WebP/AVIF), `loading="lazy"`, width/height definidos.
+- JavaScript: envía menos, divide el código, carga las rutas bajo demanda; minifica; evita librerías enormes para tareas pequeñas.
+- La caché y las CDN sirven los archivos cerca de los usuarios. Mide con **Lighthouse**.
+@@ 1y8lzdfywhj
+Os usuários abandonam sites lentos, e os buscadores colocam sites rápidos mais acima. O Google mede as **Core Web Vitals**:
+- **LCP** (Largest Contentful Paint): quão rápido o conteúdo principal aparece
+- **INP** (Interaction to Next Paint): quão rápido a página reage aos cliques
+- **CLS** (Cumulative Layout Shift): quanto as coisas pulam de lugar
+
+Meça com o **Lighthouse** nas DevTools do Chrome.
+~~
+Los usuarios abandonan los sitios lentos, y los buscadores ponen más arriba los rápidos. Google mide las **Core Web Vitals**:
+- **LCP** (Largest Contentful Paint): lo rápido que aparece el contenido principal
+- **INP** (Interaction to Next Paint): lo rápido que reacciona la página a los clics
+- **CLS** (Cumulative Layout Shift): cuánto saltan las cosas de sitio
+
+Mide con **Lighthouse** en las DevTools de Chrome.
+@@ 84m38k2c6p
+- Redimensione e comprima as imagens; use **WebP/AVIF**; adicione `loading="lazy"` nas imagens abaixo da dobra
+- Envie menos JavaScript: **divisão de código**, carregue páginas sob demanda, tire bibliotecas sem uso
+- Deixe a ferramenta de build **minificar** e empacotar
+- Sirva por uma **CDN** com cabeçalhos de cache
+- Evite travar a thread principal com trabalho pesado
+~~
+- Redimensiona y comprime las imágenes; usa **WebP/AVIF**; añade `loading="lazy"` a las imágenes que quedan más abajo
+- Envía menos JavaScript: **división de código**, carga las páginas bajo demanda, quita las librerías que no uses
+- Deja que la herramienta de build **minifique** y empaquete
+- Sirve a través de una **CDN** con cabeceras de caché
+- Evita bloquear el hilo principal con trabajo pesado
+@@ 1twk2dqb83h
+
+**Ideias principais**
+- **XSS**: nunca insira entrada do usuário como HTML (`innerHTML`); use `textContent` / o escape do framework.
+- **Segredos** (chaves de API, senhas) nunca vão para o código do front-end nem para o Git; use variáveis de ambiente no servidor.
+- Sempre **HTTPS**. Valide toda entrada no **servidor**.
+- **SQL injection**: nunca monte SQL colando strings; use consultas parametrizadas.
+- Guarde senhas com um hash lento (**bcrypt**/argon2), nunca em texto puro.
+- O OWASP Top 10 lista os riscos de segurança web mais comuns.
+~~
+
+**Ideas clave**
+- **XSS**: nunca insertes la entrada del usuario como HTML (`innerHTML`); usa `textContent` / el escape del framework.
+- Los **secretos** (claves de API, contraseñas) nunca van en el código del front-end ni en Git; usa variables de entorno en el servidor.
+- Siempre **HTTPS**. Valida cada entrada en el **servidor**.
+- **Inyección SQL**: nunca construyas SQL pegando strings; usa consultas parametrizadas.
+- Guarda las contraseñas con un hash lento (**bcrypt**/argon2), nunca en texto plano.
+- El OWASP Top 10 recoge los riesgos de seguridad web más comunes.
+@@ 1bkw3ayk3wo
+**Cross-site scripting (XSS)**: um atacante faz o script dele rodar na sua página, por exemplo escrevendo-o num comentário:
+
+[[1]]
+React, Vue e Svelte escapam o texto por padrão. Cuidado com `dangerouslySetInnerHTML`, `v-html` e `{@html}`.
+~~
+**Cross-site scripting (XSS)**: un atacante consigue que su script se ejecute en tu página, por ejemplo escribiéndolo en un comentario:
+
+[[1]]
+React, Vue y Svelte escapan el texto por defecto. Cuidado con `dangerouslySetInnerHTML`, `v-html` y `{@html}`.
+@@ 24ibie6xuq2
+- Segredos moram em **variáveis de ambiente** no servidor (`process.env.API_KEY`), carregadas de um arquivo `.env` que está no `.gitignore`
+- Tudo o que está no código do front-end é público
+- **HTTPS** criptografa o tráfego; os navegadores marcam páginas HTTP como "Não seguro"
+- **CORS** é uma regra do navegador: uma página só pode ler respostas de outra origem se aquele servidor permitir
+~~
+- Los secretos viven en **variables de entorno** en el servidor (`process.env.API_KEY`), cargadas desde un archivo `.env` que está en `.gitignore`
+- Todo lo que hay en el código del front-end es público
+- **HTTPS** cifra el tráfico; los navegadores marcan las páginas HTTP como "No seguro"
+- **CORS** es una regla del navegador: una página solo puede leer respuestas de otro origen si ese servidor lo permite
+@@ 275s6qcuew4
+**SQL injection**: montar SQL com entrada do usuário deixa atacantes mudarem a consulta:
+
+[[1]]
+**Senhas** precisam ser guardadas como hashes lentos com sal (**bcrypt**, **argon2**), nunca em texto puro.
+~~
+**Inyección SQL**: construir SQL con la entrada del usuario permite a los atacantes cambiar la consulta:
+
+[[1]]
+Las **contraseñas** deben guardarse como hashes lentos con sal (**bcrypt**, **argon2**), nunca en texto plano.
+@@ 1z41e07b43n
+
+**Ideias principais**
+- Empregadores contratam juniores por **prova de habilidade** e **capacidade de aprender**: projetos de verdade valem mais que certificados.
+- Crie 3 a 5 projetos que resolvem problemas reais, cada um um pouco mais difícil. Publique-os para qualquer um poder clicar num link.
+- Cada repo precisa de um bom **README**: o que é, captura de tela, link ao vivo, tecnologias usadas, como rodar, o que você aprendeu.
+- Um perfil do GitHub organizado, com projetos fixados e commits regulares.
+- Hospedagem grátis: GitHub Pages, Netlify, Vercel (front end); Render, Railway, Fly.io (back end).
+~~
+
+**Ideas clave**
+- Las empresas contratan júnior por **pruebas de habilidad** y **capacidad de aprender**: los proyectos reales valen más que los certificados.
+- Crea de 3 a 5 proyectos que resuelvan problemas reales, cada uno un poco más difícil. Publícalos para que cualquiera pueda abrir un enlace.
+- Cada repo necesita un buen **README**: qué es, captura de pantalla, enlace en vivo, tecnologías usadas, cómo ejecutarlo, qué aprendiste.
+- Un perfil de GitHub ordenado, con proyectos fijados y commits regulares.
+- Hosting gratis: GitHub Pages, Netlify, Vercel (front end); Render, Railway, Fly.io (back end).
+@@ 1wwvzd3kzwx
+Para vagas júnior, as empresas querem ver principalmente que:
+- você sabe **construir coisas que funcionam** (projetos)
+- você entende os **fundamentos** (HTML, CSS, JS, Git, APIs)
+- você sabe **aprender** e **se comunicar**
+- você sabe trabalhar em **equipe** (Git, pull requests, boas perguntas)
+
+Ninguém espera que um júnior saiba tudo.
+~~
+Para puestos júnior, las empresas quieren ver sobre todo que:
+- sabes **construir cosas que funcionan** (proyectos)
+- entiendes los **fundamentos** (HTML, CSS, JS, Git, APIs)
+- sabes **aprender** y **comunicarte**
+- sabes trabajar en **equipo** (Git, pull requests, buenas preguntas)
+
+Nadie espera que un júnior lo sepa todo.
+@@ 2otccjjt8r
+Crie projetos cada vez mais difíceis:
+1. Um **site pessoal** (HTML/CSS, responsivo, acessível)
+2. Um **app interativo** (JS: quiz, lista de tarefas com localStorage, app de clima com uma API)
+3. Um **app com framework** (React/Vue/Svelte + TypeScript + rotas + dados de API)
+4. Um **app full-stack** (sua própria API + banco de dados + login)
+
+O melhor de tudo: resolva um **problema real** de alguém (um clube, um negócio da família, você mesmo).
+~~
+Crea proyectos cada vez más difíciles:
+1. Un **sitio personal** (HTML/CSS, responsive, accesible)
+2. Una **app interactiva** (JS: quiz, lista de tareas con localStorage, app del tiempo con una API)
+3. Una **app con framework** (React/Vue/Svelte + TypeScript + rutas + datos de una API)
+4. Una **app full-stack** (tu propia API + base de datos + inicio de sesión)
+
+Lo mejor de todo: resuelve un **problema real** de alguien (un club, un negocio familiar, tú mismo).
+@@ p5ii1xf6lg
+Recrutadores e desenvolvedores vão olhar seu GitHub. Facilite:
+- **fixe** seus 3 a 6 melhores repositórios
+- um README de perfil: quem você é, o que cria, como falar com você
+- o README de cada projeto:
+
+[[1]]
+~~
+Los reclutadores y los desarrolladores mirarán tu GitHub. Pónselo fácil:
+- **fija** tus 3 a 6 mejores repositorios
+- un README de perfil: quién eres, qué creas, cómo contactarte
+- el README de cada proyecto:
+
+[[1]]
+@@ ktykzf19n1
+- **Sites estáticos** (HTML/CSS/JS, builds de React/Vue/Svelte): GitHub Pages, Netlify, Vercel, Cloudflare Pages (grátis)
+- **Backends** (Node + banco de dados): Render, Railway, Fly.io
+- Conecte o repo: cada push na `main` publica de novo automaticamente
+- Opcional: compre um domínio próprio (poucos reais/dólares por ano)
+~~
+- **Sitios estáticos** (HTML/CSS/JS, builds de React/Vue/Svelte): GitHub Pages, Netlify, Vercel, Cloudflare Pages (gratis)
+- **Backends** (Node + base de datos): Render, Railway, Fly.io
+- Conecta el repo: cada push a `main` vuelve a publicar automáticamente
+- Opcional: compra un dominio propio (unos pocos euros/dólares al año)
+@@ 1s8i250gxjz
+
+**Ideias principais**
+- **Currículo**: uma página, habilidades, projetos com links e resultados, experiência relevante (inclusive de carreiras anteriores!).
+- LinkedIn + GitHub + site de portfólio contam a mesma história.
+- Busca de emprego: candidate-se com regularidade, adapte cada candidatura, faça networking (meetups, comunidades online); indicações funcionam melhor.
+- Entrevistas: conversa de triagem → entrevista técnica (live coding, desafio para casa ou perguntas) → entrevista comportamental (STAR).
+- Pense em voz alta, faça perguntas para esclarecer, e tudo bem dizer "não sei, mas é assim que eu descobriria".
+~~
+
+**Ideas clave**
+- **CV**: una página, habilidades, proyectos con enlaces y resultados, experiencia relevante (¡también de carreras anteriores!).
+- LinkedIn + GitHub + sitio de portafolio cuentan la misma historia.
+- Búsqueda de empleo: postúlate con regularidad, adapta cada candidatura, haz contactos (meetups, comunidades en línea); las recomendaciones funcionan mejor.
+- Entrevistas: llamada de filtro → entrevista técnica (programación en vivo, prueba para casa o preguntas) → entrevista de comportamiento (STAR).
+- Piensa en voz alta, haz preguntas para aclarar, y no pasa nada por decir "no lo sé, pero así lo averiguaría".
+@@ 2a42a9hp01l
+- Mantenha em **uma página**, limpo e fácil de ler rápido
+- No topo: nome, cargo que você quer ("Desenvolvedor Frontend Júnior"), links (GitHub, portfólio, LinkedIn)
+- **Projetos** com uma linha cada: o que faz, tecnologias, um link
+- Habilidades sobre as quais você consegue conversar de verdade
+- Experiência anterior: quem muda de carreira traz valor real (trabalho em equipe, conhecimento do setor, atendimento ao cliente)!
+~~
+- Que ocupe **una página**, limpio y fácil de leer de un vistazo
+- Arriba: nombre, puesto que buscas ("Desarrollador Frontend Júnior"), enlaces (GitHub, portafolio, LinkedIn)
+- **Proyectos** con una línea cada uno: qué hace, tecnologías, un enlace
+- Habilidades de las que realmente puedas hablar
+- Experiencia previa: quien cambia de carrera aporta valor real (trabajo en equipo, conocimiento del sector, trato con clientes).
+@@ gpkouihonx
+- Candidate-se com regularidade (muitas candidaturas júnior ficam sem resposta; não é pessoal)
+- **Adapte** cada candidatura: use as palavras-chave da vaga e diga por que essa empresa
+- **Networking**: meetups, comunidades online, código aberto, amigos na área. Indicações são o caminho mais rápido
+- Acompanhe as candidaturas numa planilha simples
+- Olhe além das grandes empresas de tecnologia: agências, startups, negócios locais, estágios, programas de aprendizagem
+~~
+- Postúlate con regularidad (muchas candidaturas júnior no reciben respuesta; no es personal)
+- **Adapta** cada candidatura: usa las palabras clave de la oferta y di por qué esa empresa
+- **Contactos**: meetups, comunidades en línea, código abierto, amigos del sector. Las recomendaciones son la vía más rápida
+- Lleva un registro de las candidaturas en una hoja de cálculo sencilla
+- Mira más allá de las grandes tecnológicas: agencias, startups, negocios locales, prácticas, programas de aprendizaje
+@@ nhw5d0p21j
+Perguntas comportamentais falam do seu passado: "Conte sobre uma vez em que você resolveu um problema difícil." Responda com **STAR**:
+- **S**ituação: o contexto
+- **T**arefa: o que você precisava fazer
+- **A**ção: o que **você** fez
+- **R**esultado: o que aconteceu (números ajudam!)
+~~
+Las preguntas de comportamiento tratan de tu pasado: "Cuéntame una vez en que resolviste un problema difícil." Responde con **STAR**:
+- **S**ituación: el contexto
+- **T**area: lo que tenías que hacer
+- **A**cción: lo que hiciste **tú**
+- **R**esultado: qué pasó (¡los números ayudan!)
+@@ 9uoniwjwnf
+- **Pense em voz alta**: os entrevistadores se importam com seu raciocínio
+- Faça perguntas para esclarecer antes de programar
+- Comece simples e depois melhore
+- Teste seu código com um exemplo
+- Se travar, diga o que está pensando; tudo bem dizer "não sei, mas eu pesquisaria aqui..."
+
+Temas comuns para júnior: `let`/`const`/`var`, `==` vs `===`, o modelo de caixa, flexbox, métodos HTTP, async/await, state e props do React, o básico do Git.
+~~
+- **Piensa en voz alta**: a quienes entrevistan les importa tu razonamiento
+- Haz preguntas para aclarar antes de programar
+- Empieza sencillo y luego mejora
+- Prueba tu código con un ejemplo
+- Si te atascas, di lo que estás pensando; está bien decir "no lo sé, pero lo buscaría aquí..."
+
+Temas habituales para júnior: `let`/`const`/`var`, `==` vs `===`, el modelo de caja, flexbox, métodos HTTP, async/await, state y props de React, lo básico de Git.
+@@ 2dhmat97wpv
+
+**Ideias principais**
+- As equipes costumam trabalhar com **Agile/Scrum**: **sprints** curtas, **dailies**, **tickets** no Jira/Linear/GitHub Issues, demos e retrospectivas.
+- Seu fluxo: pegar um ticket → branch → commits pequenos → PR → revisão → merge → publicação.
+- Etiqueta na revisão de código: seja gentil, específico e curioso; não leve o feedback para o lado pessoal.
+- Peça ajuda depois de tentar por um tempo (ex.: 30–60 minutos) e anote o que você tentou.
+- A síndrome do impostor é normal. Continue aprendendo: leia código e documentação e pergunte aos seniores como eles pensam.
+~~
+
+**Ideas clave**
+- Los equipos suelen trabajar con **Agile/Scrum**: **sprints** cortos, **reuniones diarias**, **tickets** en Jira/Linear/GitHub Issues, demos y retrospectivas.
+- Tu flujo: coger un ticket → rama → commits pequeños → PR → revisión → merge → publicación.
+- Buenas maneras en la revisión de código: sé amable, concreto y curioso; no te tomes las opiniones como algo personal.
+- Pide ayuda después de intentarlo un rato (p. ej. 30–60 minutos) y apunta lo que probaste.
+- El síndrome del impostor es normal. Sigue aprendiendo: lee código y documentación, y pregunta a los sénior cómo piensan.
+@@ 2776mv3hj8l
+Muitas equipes usam **Scrum**, um tipo de **Agile**:
+- o trabalho é dividido em **tickets** (Jira, Linear, GitHub Issues)
+- uma **sprint** é 1–2 semanas de trabalho planejado
+- uma **daily** curta todo dia: o que fiz, o que vou fazer, o que me trava
+- uma **demo** no fim, e uma **retrospectiva** para melhorar o processo
+~~
+Muchos equipos usan **Scrum**, un tipo de **Agile**:
+- el trabajo se divide en **tickets** (Jira, Linear, GitHub Issues)
+- un **sprint** son 1–2 semanas de trabajo planificado
+- una **reunión diaria** corta: qué hice, qué haré, qué me bloquea
+- una **demo** al final y una **retrospectiva** para mejorar el proceso
+@@ 2f0yszauod0
+Como **autor**: mantenha os PRs pequenos, descreva o quê e o porquê, adicione capturas de tela para interfaces, responda aos comentários com abertura.
+
+Como **revisor**: seja gentil e específico, faça perguntas ("O que acontece se a lista estiver vazia?"), elogie as coisas boas e separe o que é obrigatório do que é só um detalhe ("nit:").
+~~
+Como **autor**: mantén los PR pequeños, describe qué y por qué, añade capturas para la interfaz, responde a los comentarios con apertura.
+
+Como **revisor**: sé amable y concreto, haz preguntas ("¿Qué pasa si la lista está vacía?"), elogia lo bueno y separa lo imprescindible de los detalles ("nit:").
+@@ 25z3jkzjy65
+- **Peça ajuda** depois de tentar por um tempo, e explique o que você já tentou
+- Anote as coisas: notas, documentação, "hoje eu aprendi"
+- Leia o código dos outros: é o jeito mais rápido de subir de nível
+- Sentir-se um impostor é normal, até para seniores
+- Continue praticando: um pouco todo dia (como aqui!)
+~~
+- **Pide ayuda** después de intentarlo un rato, y explica lo que ya probaste
+- Apunta las cosas: notas, documentación, "hoy aprendí"
+- Lee código de otras personas: es la forma más rápida de subir de nivel
+- Sentirse un impostor es normal, incluso para los sénior
+- Sigue practicando: un poco cada día (¡como aquí!)

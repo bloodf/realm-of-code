@@ -1,0 +1,78 @@
+@@ 1qko0axcueb
+Uma **auditoria de acessibilidade** procura barreiras numa página. Correções comuns:
+- `<html lang="en">` para os leitores de tela usarem a voz certa
+- comece com um `<h1>` (títulos em ordem)
+- texto `alt` nas imagens com significado
+- um `<label for>` para cada input (placeholders não são labels)
+- um `<button>` de verdade em vez de uma `<div>` clicável (funciona com teclado e leitores de tela)
+~~
+Una **auditoría de accesibilidad** busca barreras en una página. Arreglos comunes:
+- `<html lang="en">` para que los lectores de pantalla usen la voz correcta
+- empieza con un `<h1>` (títulos en orden)
+- texto `alt` en las imágenes con significado
+- un `<label for>` para cada input (los placeholders no son labels)
+- un `<button>` de verdad en lugar de un `<div>` clicable (funciona con teclado y lectores de pantalla)
+@@ 1wlvehiqhvs
+O reino tem uma API de treino em `https://api.realm.dev`:
+- `GET /knights` → todos os cavaleiros (`?house=Lovelace` filtra)
+- `GET /knights/:id` → um cavaleiro, ou **404**
+- `POST /knights` → cria um cavaleiro (corpo JSON com `name`), responde **201**
+- `GET /quests` → todas as missões
+~~
+El reino tiene una API de práctica en `https://api.realm.dev`:
+- `GET /knights` → todos los caballeros (`?house=Lovelace` filtra)
+- `GET /knights/:id` → un caballero, o **404**
+- `POST /knights` → crea un caballero (cuerpo JSON con `name`), responde **201**
+- `GET /quests` → todas las misiones
+@@ 8c3jiyiun
+{0}
+
+`fetch` **não** falha com 404 ou 500. Confira a resposta você mesmo:
+
+[[1]]
+~~
+{0}
+
+`fetch` **no** falla con 404 o 500. Comprueba la respuesta tú mismo:
+
+[[1]]
+@@ 18osgrvzkr0
+{0}
+
+Para enviar dados, passe opções para o `fetch`:
+
+[[1]]
+~~
+{0}
+
+Para enviar datos, pasa opciones a `fetch`:
+
+[[1]]
+@@ xjnndwgblt
+Este reino tem um pequeno executor de testes com a mesma API do **Vitest** e do **Jest**:
+
+[[1]]
+
+Matchers: `toBe`, `toEqual` (arrays/objetos), `toBeTruthy`, `toContain`, `toHaveLength`, `toThrow` e `.not`.
+~~
+Este reino tiene un pequeño ejecutor de tests con la misma API que **Vitest** y **Jest**:
+
+[[1]]
+
+Matchers: `toBe`, `toEqual` (arrays/objetos), `toBeTruthy`, `toContain`, `toHaveLength`, `toThrow` y `.not`.
+@@ 1ls840u6bpv
+{0}
+
+Ler testes é um ótimo jeito de entender o que o código deve fazer. Métodos de string úteis aqui: `trim()`, `toLowerCase()`, `split(" ")`, `join("-")`, `replaceAll(" ", "-")`.
+~~
+{0}
+
+Leer tests es una gran forma de entender qué debe hacer el código. Métodos de cadena útiles aquí: `trim()`, `toLowerCase()`, `split(" ")`, `join("-")`, `replaceAll(" ", "-")`.
+@@ 11v7n84np5d
+{0}
+
+Um **teste de regressão** reproduz um bug. Ele falha enquanto o bug existe, passa depois da correção e fica no código para sempre, pegando o bug se ele voltar.
+~~
+{0}
+
+Un **test de regresión** reproduce un bug. Falla mientras el bug existe, pasa tras el arreglo y se queda en el código para siempre, atrapando el bug si alguna vez vuelve.

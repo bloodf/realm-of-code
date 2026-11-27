@@ -1,0 +1,98 @@
+@@ 1uxnh180ogi
+
+**Ideias principais**
+- Um **algoritmo** é uma lista clara de passos que resolve um problema.
+- O **Big-O** diz como o trabalho cresce com o tamanho da entrada n: O(1) constante, O(log n), O(n) linear, O(n log n), O(n²).
+- Arrays: acessar por índice é O(1); buscar num array não ordenado é O(n).
+- Hash maps (`{}` / `Map` / `dict` do Python) encontram uma chave em O(1) em média: a aceleração clássica.
+~~
+
+**Ideas clave**
+- Un **algoritmo** es una lista clara de pasos que resuelve un problema.
+- **Big-O** dice cómo crece el trabajo con el tamaño de la entrada n: O(1) constante, O(log n), O(n) lineal, O(n log n), O(n²).
+- Arrays: acceder por índice es O(1); buscar en un array sin ordenar es O(n).
+- Los hash maps (`{}` / `Map` / `dict` de Python) encuentran una clave en O(1) de media: la aceleración clásica.
+@@ ejum2s5jk
+Um **algoritmo** é uma lista finita de passos precisos. Fazer chá é um algoritmo; achar um nome numa lista telefônica também.
+
+Bons engenheiros perguntam: ele está **correto** (para qualquer entrada, inclusive vazia)? E é **rápido o bastante** quando a entrada é grande?
+~~
+Un **algoritmo** es una lista finita de pasos precisos. Hacer té es un algoritmo; buscar un nombre en una guía telefónica, también.
+
+Los buenos ingenieros se preguntan: ¿es **correcto** (para cualquier entrada, incluidas las vacías)? ¿Y es **lo bastante rápido** cuando la entrada es grande?
+@@ 1q6epn538db
+[[1]]
+Para 1 milhão de itens: O(n) ≈ 1 milhão de passos, O(n²) ≈ 1 trilhão (lento demais!).
+~~
+[[1]]
+Para 1 millón de elementos: O(n) ≈ 1 millón de pasos, O(n²) ≈ 1 billón (¡demasiado lento!).
+@@ 12848pwxmue
+Verificar "já vi isto?" num array é O(n). Num **Set** ou **Map** é O(1) em média:
+
+[[1]]
+~~
+Comprobar "¿ya he visto esto?" en un array es O(n). En un **Set** o un **Map** es O(1) de media:
+
+[[1]]
+@@ 5deunn4lb1
+
+**Ideias principais**
+- A **busca linear** confere cada item: O(n). A **busca binária** divide uma lista **ordenada** ao meio a cada passo: O(log n).
+- Ordenação: saiba que o bubble sort é O(n²) e que merge sort / quicksort são O(n log n). No código real, use o `sort` embutido com um comparador.
+- **Dois ponteiros**: ande pelas duas pontas (palíndromos) ou por duas listas ordenadas (junção).
+~~
+
+**Ideas clave**
+- La **búsqueda lineal** revisa cada elemento: O(n). La **búsqueda binaria** parte por la mitad una lista **ordenada** en cada paso: O(log n).
+- Ordenación: debes saber que bubble sort es O(n²) y que merge sort / quicksort son O(n log n). En código real, usa el `sort` integrado con un comparador.
+- **Dos punteros**: recorre desde los dos extremos (palíndromos) o por dos listas ordenadas (mezcla).
+@@ 19y293o8m4w
+[[1]]
+Um comparador retorna um número **negativo** para colocar `a` primeiro, **positivo** para colocar `b` primeiro e **0** para mantê-los.
+~~
+[[1]]
+Un comparador devuelve un número **negativo** para poner `a` primero, **positivo** para poner `b` primero y **0** para dejarlos como están.
+@@ tdnxgbcp1p
+
+**Ideias principais**
+- **Pilha**: o último a entrar é o primeiro a sair (desfazer, a pilha de chamadas, pares de colchetes). `push`/`pop`.
+- **Fila**: o primeiro a entrar é o primeiro a sair (filas de espera, tarefas). `push`/`shift`.
+- **Recursão**: uma função que chama a si mesma com um problema menor, com um **caso base**.
+- Método para entrevistas: entender → exemplos → força bruta → melhorar → codar → testar casos de borda → dizer o Big-O.
+~~
+
+**Ideas clave**
+- **Pila**: el último en entrar es el primero en salir (deshacer, la pila de llamadas, emparejar corchetes). `push`/`pop`.
+- **Cola**: el primero en entrar es el primero en salir (filas de espera, tareas). `push`/`shift`.
+- **Recursión**: una función que se llama a sí misma con un problema más pequeño, con un **caso base**.
+- Método para entrevistas: entender → ejemplos → fuerza bruta → mejorar → programar → probar casos límite → decir el Big-O.
+@@ 1g742iu8gph
+[[1]]
+O botão voltar do navegador é uma pilha. Uma impressora é uma fila.
+~~
+[[1]]
+El botón atrás de tu navegador es una pila. Una impresora es una cola.
+@@ 16zcox5ir6z
+[[1]]
+Toda função recursiva precisa de um **caso base**, senão ela chama a si mesma até a pilha estourar.
+~~
+[[1]]
+Toda función recursiva necesita un **caso base**, o se llama a sí misma hasta que la pila se desborda.
+@@ lxglkhxcrs
+Quando você encontra um problema novo (numa entrevista ou no trabalho):
+
+1. **Entenda**: repita o problema e pergunte sobre casos de borda.
+2. **Exemplos**: escreva entradas e saídas pequenas.
+3. **Força bruta** primeiro: uma solução simples e lenta já é um começo.
+4. **Melhore**: um hash map, uma ordenação ou dois ponteiros ajudariam?
+5. **Code** e depois **teste** com seus exemplos e casos de borda (vazio, um item, duplicados).
+6. Diga o **Big-O** de tempo e de memória.
+~~
+Cuando te encuentras un problema nuevo (en una entrevista o en el trabajo):
+
+1. **Entiéndelo**: repite el problema y pregunta por los casos límite.
+2. **Ejemplos**: escribe entradas y salidas pequeñas.
+3. Primero **fuerza bruta**: una solución sencilla y lenta ya es un comienzo.
+4. **Mejora**: ¿ayudaría un hash map, ordenar o dos punteros?
+5. **Prográmalo** y luego **pruébalo** con tus ejemplos y casos límite (vacío, un elemento, duplicados).
+6. Di el **Big-O** de tiempo y de memoria.

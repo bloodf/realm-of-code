@@ -1,0 +1,1052 @@
+@@ 1q5dsnmekav
+Aprendizado
+~~
+Aprendizaje
+@@ gcw77vt7q7
+Programação
+~~
+Programación
+@@ kpm88o8sq3
+Sequências
+~~
+Rachas
+@@ pnl5v46rjj
+Seu herói
+~~
+Tu héroe
+@@ 14s3fqz73to
+Minijogos
+~~
+Minijuegos
+@@ 1zmtf620ru4
+Fazenda do Código
+~~
+Granja del Código
+@@ 1eev7ulhwrx
+Sítio
+~~
+Rancho
+@@ jt6q0f6g4z
+Pets
+~~
+Mascotas
+@@ 25rcm7o3q1w
+Batalhas
+~~
+Batallas
+@@ 14c2jhchtjz
+Carreira
+~~
+Carrera
+@@ s76xjnpe42
+Segredos
+~~
+Secretos
+@@ iwi73tom3p
+Conclua sua primeira lição.
+~~
+Completa tu primera lección.
+@@ hjr61b72po
+Aprendiz
+~~
+Aprendiz
+@@ cluz8lihig
+Conclua 10 lições.
+~~
+Completa 10 lecciones.
+@@ 2vsb8gbhr
+Rato de Biblioteca
+~~
+Ratón de Biblioteca
+@@ w0owi9028y
+Conclua 25 lições.
+~~
+Completa 25 lecciones.
+@@ 1b6404o1csk
+Oficial
+~~
+Oficial
+@@ 19ga89d8zop
+Conclua 50 lições.
+~~
+Completa 50 lecciones.
+@@ 1hlp5quzqa8
+Erudito
+~~
+Erudito
+@@ ukedusw1df
+Conclua 100 lições.
+~~
+Completa 100 lecciones.
+@@ x34lqs9tzj
+Mestre Artesão
+~~
+Maestro Artesano
+@@ 13t31x59bbw
+Conclua 150 lições.
+~~
+Completa 150 lecciones.
+@@ 1vbenwy9xih
+Biblioteca Viva
+~~
+Biblioteca Viviente
+@@ ldfm6uu68z
+Conclua 250 lições.
+~~
+Completa 250 lecciones.
+@@ 2c6abvut5j9
+Impecável
+~~
+Impecable
+@@ 8lisb7cuen
+Conclua uma lição sem erros.
+~~
+Completa una lección sin errores.
+@@ i1vaewzf99
+Mente Afiada
+~~
+Mente Aguda
+@@ 1obvynmgumk
+Conclua 20 lições sem erros.
+~~
+Completa 20 lecciones sin errores.
+@@ 147sqvbizef
+Perfeccionista
+~~
+Perfeccionista
+@@ 141v0w6u9gp
+Conclua 75 lições sem erros.
+~~
+Completa 75 lecciones sin errores.
+@@ 144bryh345s
+Aquecendo
+~~
+Calentando
+@@ llx279ac7n
+Acerte 100 exercícios.
+~~
+Acierta 100 ejercicios.
+@@ yccujoc0ix
+Incansável
+~~
+Incansable
+@@ 3tg7pksaxw
+Acerte 500 exercícios.
+~~
+Acierta 500 ejercicios.
+@@ j7pzeuedov
+Imparável
+~~
+Imparable
+@@ 2ffyoylh17m
+Acerte 1500 exercícios.
+~~
+Acierta 1500 ejercicios.
+@@ 7pf6snzckp
+Furão de Portão
+~~
+Colado en la Puerta
+@@ 1x4vod57uqq
+Avance passando num teste de unidade.
+~~
+Avanza aprobando una prueba de unidad.
+@@ nloicgj4cx
+A Prática Leva à Perfeição
+~~
+La Práctica Hace al Maestro
+@@ 1rlphf5eldo
+Conclua 5 sessões de prática.
+~~
+Completa 5 sesiones de práctica.
+@@ 23vtanbmab0
+Sargento de Treino
+~~
+Sargento de Instrucción
+@@ q63wrjs5nd
+Conclua 25 sessões de prática.
+~~
+Completa 25 sesiones de práctica.
+@@ 1g54lxit2yj
+De Volta aos Trilhos
+~~
+De Vuelta al Camino
+@@ 99rbxdi9vv
+Conclua uma parada de revisão na sua trilha.
+~~
+Completa una parada de repaso en tu ruta.
+@@ 5ta0gzkxws
+Embalado
+~~
+En Racha
+@@ 26k521gdnp6
+Fique tão bom que as lições virem lições expressas.
+~~
+Hazte tan bueno que las lecciones se vuelvan lecciones exprés.
+@@ 29lic23koni
+Poliglota
+~~
+Políglota
+@@ 1d568xnwa1i
+Ganhe XP em 5 habilidades diferentes.
+~~
+Gana XP en 5 habilidades distintas.
+@@ 233xhxnhgc3
+Programador Renascentista
+~~
+Programador Renacentista
+@@ 1gszb0veybv
+Ganhe XP em 10 habilidades diferentes.
+~~
+Gana XP en 10 habilidades distintas.
+@@ qkyq05oxcy
+Ideia Brilhante
+~~
+Idea Brillante
+@@ 659eztkks4
+Use sua primeira lâmpada.
+~~
+Usa tu primera bombilla.
+@@ 1s28k67lzcq
+Segundo Fôlego
+~~
+Segundo Aire
+@@ 2829tbgc7nj
+Queime uma tocha para tentar de novo.
+~~
+Quema una antorcha para intentarlo otra vez.
+@@ e8w6umyumd
+Saúde!
+~~
+¡Salud!
+@@ ugxs360apz
+Beba uma poção para recuperar um coração.
+~~
+Bebe una poción para recuperar un corazón.
+@@ t283vu2r1g
+Primeiro Feitiço
+~~
+Primer Hechizo
+@@ 4cwxc1jpug
+Resolva seu primeiro desafio de programação.
+~~
+Resuelve tu primer desafío de programación.
+@@ 1vn83wux5gf
+Aprendiz de Feitiços
+~~
+Aprendiz de Hechizos
+@@ 1jwj9eah1kq
+Resolva 10 desafios de programação.
+~~
+Resuelve 10 desafíos de programación.
+@@ 23rx1wdp5k2
+Lançador de Feitiços
+~~
+Lanzador de Hechizos
+@@ jwwgdinaol
+Resolva 25 desafios de programação.
+~~
+Resuelve 25 desafíos de programación.
+@@ phs90vrxhh
+Arquimago do Código
+~~
+Archimago del Código
+@@ egl8p2jkkj
+Resolva 60 desafios de programação.
+~~
+Resuelve 60 desafíos de programación.
+@@ 1bi6gzj1hlk
+Matador de Gigantes
+~~
+Matagigantes
+@@ c0dd9uqx0d
+Conclua seu primeiro projeto.
+~~
+Completa tu primer proyecto.
+@@ m01qwb33zg
+Construtor
+~~
+Constructor
+@@ s801ticvip
+Conclua 5 projetos.
+~~
+Completa 5 proyectos.
+@@ u95rtt3qxv
+Todo Mundo Começa de Algum Lugar
+~~
+Todos Empiezan por Algo
+@@ 20jn9upui3v
+Encontre seu primeiro erro. Todo mestre já viu milhares.
+~~
+Encuentra tu primer error. Todo maestro ha visto miles.
+@@ 1w2b06zmepi
+Casca Grossa
+~~
+Piel Dura
+@@ 15e3iz0yq0f
+Veja 50 erros e siga em frente.
+~~
+Ve 50 errores y sigue adelante.
+@@ 21kd4nu4zh8
+Roda, Roda, Roda
+~~
+Ejecuta, Ejecuta, Ejecuta
+@@ 1c9po159tqk
+Rode seu código 100 vezes.
+~~
+Ejecuta tu código 100 veces.
+@@ nme6ybvr0b
+Caçador de Goblins
+~~
+Cazador de Goblins
+@@ 1s2j6vldr8j
+Derrote 10 goblins no mapa do herói.
+~~
+Derrota a 10 goblins en el mapa del héroe.
+@@ e60undfyi6
+Colecionador de Gemas
+~~
+Acaparador de Gemas
+@@ 1egt68ryd7w
+Colete 50 gemas no mapa do herói.
+~~
+Recoge 50 gemas en el mapa del héroe.
+@@ 1yrbdfkobrz
+Mestre das Tags
+~~
+Maestro de Etiquetas
+@@ rl8vqazbas
+Conclua a seção de HTML.
+~~
+Completa la sección de HTML.
+@@ 136iv694jx5
+Feiticeiro do Estilo
+~~
+Hechicero del Estilo
+@@ 1mcl2i7devi
+Conclua a seção de CSS.
+~~
+Completa la sección de CSS.
+@@ 2b5w63m43ab
+Cavaleiro do Script
+~~
+Caballero del Script
+@@ 13ra6175nvk
+Conclua a seção de JavaScript.
+~~
+Completa la sección de JavaScript.
+@@ 2d3xvhuqp15
+Encantador de Serpentes
+~~
+Encantador de Serpientes
+@@ 25qnvlv9dyb
+Conclua a seção de Python.
+~~
+Completa la sección de Python.
+@@ 5yl7mgd7se
+Cavaleiro do Elefante
+~~
+Jinete del Elefante
+@@ 1jwebg1ye1v
+Conclua a seção de PHP.
+~~
+Completa la sección de PHP.
+@@ gakzqrh96n
+Guardião dos Registros
+~~
+Guardián de los Registros
+@@ 1z9vflae8b3
+Conclua a seção de SQL.
+~~
+Completa la sección de SQL.
+@@ 109c72y1vzl
+Alquimista dos Algoritmos
+~~
+Alquimista de Algoritmos
+@@ 1csp6y9pzyf
+Conclua a seção de Algoritmos.
+~~
+Completa la sección de Algoritmos.
+@@ 2ckb3883yw2
+Tríplice Coroa
+~~
+Triple Corona
+@@ 2gg88f7jtep
+Conclua 3 seções inteiras.
+~~
+Completa 3 secciones enteras.
+@@ fneqb7tkug
+Grão-Mestre
+~~
+Gran Maestro
+@@ v6yuu7bbbe
+Conclua 8 seções inteiras.
+~~
+Completa 8 secciones enteras.
+@@ a7stx8ix7z
+Acendido
+~~
+Encendido
+@@ k7fntkcr6v
+Mantenha uma sequência de 3 dias.
+~~
+Mantén una racha de 3 días.
+@@ hhc6h5l6v3
+Semana de Fogo
+~~
+Semana de Fuego
+@@ sranq7a0ce
+Mantenha uma sequência de 7 dias.
+~~
+Mantén una racha de 7 días.
+@@ 18r8j3opnpt
+Chama de Quinze Dias
+~~
+Llama de Quince Días
+@@ 1ygz28myd0e
+Mantenha uma sequência de 14 dias.
+~~
+Mantén una racha de 14 días.
+@@ tuhw602k15
+Chama Eterna
+~~
+Llama Eterna
+@@ bpf525olrb
+Mantenha uma sequência de 30 dias.
+~~
+Mantén una racha de 30 días.
+@@ 20s2s1hkp1g
+Os Cem Dias
+~~
+Los Cien Días
+@@ 1alra8sb4n9
+Mantenha uma sequência de 100 dias.
+~~
+Mantén una racha de 100 días.
+@@ 2goaqw86o5j
+Mago do Gelo
+~~
+Mago de Hielo
+@@ 2dje8qutiwg
+Tenha um protetor de sequência.
+~~
+Ten un protector de racha.
+@@ l16j6gv2lk
+Frequentador
+~~
+Habitual
+@@ 9z8iw4h2ih
+Jogue em 7 dias diferentes.
+~~
+Juega en 7 días distintos.
+@@ 16iog49lr94
+Lenda Local
+~~
+Leyenda Local
+@@ kda5dgetvm
+Jogue em 30 dias diferentes.
+~~
+Juega en 30 días distintos.
+@@ 8a5iwmenlx
+Pilar da Vila
+~~
+Pilar de la Aldea
+@@ 1dwctvtop8s
+Jogue em 100 dias diferentes.
+~~
+Juega en 100 días distintos.
+@@ 6iw8ojt9m9
+Meta Batida
+~~
+Meta Cumplida
+@@ 1p8rugtvpu8
+Alcance sua meta diária.
+~~
+Alcanza tu meta diaria.
+@@ 2g3rbm00dm9
+O Retorno
+~~
+El Regreso
+@@ qy8v52hkvw
+Volte depois de uma longa pausa e limpe a vila.
+~~
+Vuelve tras un largo descanso y limpia la aldea.
+@@ sn9zn6yoa9
+Caçador de Missões
+~~
+Cazador de Misiones
+@@ 1zv88m694ev
+Conclua 5 missões diárias.
+~~
+Completa 5 misiones diarias.
+@@ kyntenygwv
+Mestre das Missões
+~~
+Maestro de Misiones
+@@ yv9dskxwhp
+Conclua 30 missões diárias.
+~~
+Completa 30 misiones diarias.
+@@ 1h0pkj79qzh
+Herói da Guilda
+~~
+Héroe del Gremio
+@@ 26n5u6o2pnx
+Conclua 100 missões diárias.
+~~
+Completa 100 misiones diarias.
+@@ ac8eb4d5w0
+Escudeiro
+~~
+Escudero
+@@ 1v4ryp2wwgx
+Chegue ao nível 5.
+~~
+Llega al nivel 5.
+@@ znwrq312xo
+Cavaleiro
+~~
+Caballero
+@@ lptqq2x8ww
+Chegue ao nível 10.
+~~
+Llega al nivel 10.
+@@ wra21hbh7y
+Sagrado Cavaleiro
+~~
+Armado Caballero
+@@ n9vr39mog9
+Chegue ao nível 15.
+~~
+Llega al nivel 15.
+@@ o4bta68jc
+Lenda de Codehaven
+~~
+Leyenda de Codehaven
+@@ 26l8dx8sskx
+Chegue ao nível 25.
+~~
+Llega al nivel 25.
+@@ otflaa96io
+Mito
+~~
+Mito
+@@ 1cx9t0h77dh
+Chegue ao nível 40.
+~~
+Llega al nivel 40.
+@@ 4zav6tcofk
+Tesouro Real
+~~
+Tesoro Real
+@@ 1q6q0i2hyzc
+Tenha 500 de ouro de uma vez.
+~~
+Ten 500 de oro a la vez.
+@@ tul8ecdclx
+Tesouro do Dragão
+~~
+Tesoro del Dragón
+@@ 1cyr1f13txx
+Tenha 2000 de ouro de uma vez.
+~~
+Ten 2000 de oro a la vez.
+@@ 3qrst4cxct
+Bem Preparado
+~~
+Bien Preparado
+@@ spb53axqj3
+Carregue 10 lâmpadas.
+~~
+Lleva 10 bombillas.
+@@ 1aglv1gmfkg
+Na Moda
+~~
+A la Moda
+@@ 1qommbd4ht4
+Mude a cor da sua túnica.
+~~
+Cambia el color de tu túnica.
+@@ 2f04kvea836
+Freguês da Taverna
+~~
+Cliente de la Taberna
+@@ xn92v4xiub
+Ganhe sua primeira estrela em minijogo.
+~~
+Gana tu primera estrella en un minijuego.
+@@ 2bzuchhjea6
+Colecionador de Estrelas
+~~
+Coleccionista de Estrellas
+@@ 10wy2911jc7
+Ganhe 15 estrelas em minijogos.
+~~
+Gana 15 estrellas en minijuegos.
+@@ n5sbrtrjds
+Constelação
+~~
+Constelación
+@@ goqrzjlmq2
+Ganhe 50 estrelas em minijogos.
+~~
+Gana 50 estrellas en minijuegos.
+@@ 5xs7ow3b98
+Noite de Jogos
+~~
+Noche de Juegos
+@@ sjy5cmzzgs
+Jogue 10 minijogos.
+~~
+Juega 10 minijuegos.
+@@ 1ck8dgepjaj
+Campeão do Fliperama
+~~
+Campeón de los Juegos
+@@ 1gyqhe7pe5s
+Jogue 50 minijogos.
+~~
+Juega 50 minijuegos.
+@@ 1uux5573r3e
+Atirador de Elite
+~~
+Francotirador
+@@ 3we69psxo2
+Acerte todos os alvos no Arco e Seletores.
+~~
+Acierta todos los objetivos en Tiro con Selectores.
+@@ 2d9836ygn3g
+Caçador de Bugs
+~~
+Cazador de Bugs
+@@ ots4syqwc
+Encontre 8 bugs numa só Caça aos Bugs.
+~~
+Encuentra 8 bugs en una sola Caza de Bugs.
+@@ 11q7o0104gu
+Joalheiro
+~~
+Joyero
+@@ 1ouzogber1z
+Faça 1500 pontos na Forja de Gemas.
+~~
+Consigue 1500 puntos en la Forja de Gemas.
+@@ usi509z5dr
+Joalheiro da Coroa
+~~
+Joyero de la Corona
+@@ 28ug2ft925j
+Faça 4000 pontos na Forja de Gemas.
+~~
+Consigue 4000 puntos en la Forja de Gemas.
+@@ mpjj8imrnp
+Dedos Ligeiros
+~~
+Dedos Veloces
+@@ 23i4ogh3nzy
+Digite 15 palavras numa partida do Digitador de Runas.
+~~
+Escribe 15 palabras en una partida del Mecanógrafo de Runas.
+@@ t441sfncby
+Mago do Teclado
+~~
+Mago del Teclado
+@@ 1klsh5gwijx
+Digite 30 palavras numa partida do Digitador de Runas.
+~~
+Escribe 30 palabras en una partida del Mecanógrafo de Runas.
+@@ ws1fbi3gn9
+Mudinha
+~~
+Brote
+@@ 1vo7qit9boc
+Conclua seu primeiro campo na Fazenda de Greenhollow.
+~~
+Completa tu primer campo en la Granja de Greenhollow.
+@@ 83zmw1fjfg
+Dedo Verde
+~~
+Buena Mano
+@@ eoiaf8pm0d
+Conclua 10 campos na Fazenda de Greenhollow.
+~~
+Completa 10 campos en la Granja de Greenhollow.
+@@ 1eqlqjip8d2
+Conclua todos os 30 campos da Fazenda do Código.
+~~
+Completa los 30 campos de la Granja del Código.
+@@ 2ec3ai71iku
+Colheita Dourada
+~~
+Cosecha Dorada
+@@ 58e3gfowfl
+Ganhe todas as 90 estrelas da Fazenda do Código.
+~~
+Consigue las 90 estrellas de la Granja del Código.
+@@ ai137s1ht6
+Primeira Colheita
+~~
+Primera Cosecha
+@@ fy23l62bkt
+Colha uma planta na sua horta.
+~~
+Cosecha un cultivo en tu huerto.
+@@ 5nsfkbbs0t
+Horticultor
+~~
+Hortelano
+@@ 14pg6fn18ew
+Colha 50 plantas.
+~~
+Cosecha 50 cultivos.
+@@ 1e16gjh0m57
+Celeiro do Reino
+~~
+Granero del Reino
+@@ tj2els1r81
+Colha 250 plantas.
+~~
+Cosecha 250 cultivos.
+@@ r7fyj19ucs
+Seu Lobato
+~~
+El Viejo MacDonald
+@@ 1z5fc932809
+Consiga seu primeiro animal da fazenda.
+~~
+Consigue tu primer animal de granja.
+@@ 1vw2o0vblmg
+Celeiro Cheio
+~~
+Granero Lleno
+@@ 119pu22u7td
+Tenha 5 animais da fazenda.
+~~
+Ten 5 animales de granja.
+@@ 2fjkv2nxd9c
+Melhores Amigos
+~~
+Mejores Amigos
+@@ 1fltbqa48vy
+Tenha um cachorro e um gato.
+~~
+Ten un perro y un gato.
+@@ 20s959ur8cg
+Fresquinho da Fazenda
+~~
+Fresco de la Granja
+@@ 126dqyjb5m1
+Recolha 25 ovos, leites, lãs ou trufas.
+~~
+Recoge 25 huevos, leches, lanas o trufas.
+@@ 1p2v591sut6
+Rancheiro
+~~
+Ranchero
+@@ 1ex7i1n2hw1
+Recolha 150 produtos de animais.
+~~
+Recoge 150 productos de animales.
+@@ x67yqngy4j
+Dono de Terras
+~~
+Terrateniente
+@@ 1iejcjuiu1u
+Abra todos os 12 canteiros.
+~~
+Abre los 12 bancales.
+@@ 22wk9jhuhbg
+Novo Amigo
+~~
+Nuevo Amigo
+@@ 1mlyth72vqa
+Choque seu primeiro pet.
+~~
+Eclosiona tu primera mascota.
+@@ 1zqgmytv5x2
+Desfile de Pets
+~~
+Desfile de Mascotas
+@@ rnpqljateb
+Encontre 5 tipos de pets.
+~~
+Encuentra 5 tipos de mascotas.
+@@ 1rgjtes5vmy
+Zoológico
+~~
+Zoológico
+@@ 2czke0wjo5b
+Encontre 10 tipos de pets.
+~~
+Encuentra 10 tipos de mascotas.
+@@ 1xpprs26emt
+Enciclopédia dos Pets
+~~
+Enciclopedia de Mascotas
+@@ akdu6s6blm
+Encontre todos os 20 tipos de pets.
+~~
+Encuentra los 20 tipos de mascotas.
+@@ 14olc66x53z
+Achado Raro
+~~
+Hallazgo Raro
+@@ 1kckg13i4su
+Choque um pet raro.
+~~
+Eclosiona una mascota rara.
+@@ 20hih044utb
+Laço Lendário
+~~
+Vínculo Legendario
+@@ lxm83l4cgo
+Choque um pet ultra raro.
+~~
+Eclosiona una mascota ultra rara.
+@@ w72929ve1s
+Algo Brilhante
+~~
+Algo Brillante
+@@ 1lfzhr2glte
+Choque um pet brilhante.
+~~
+Eclosiona una mascota brillante.
+@@ yrvsics1sq
+Colecionador de Brilhos
+~~
+Coleccionista de Brillos
+@@ 20eip8q6hjk
+Choque 5 pets brilhantes.
+~~
+Eclosiona 5 mascotas brillantes.
+@@ 1ylahithuoo
+Bom Cuidador
+~~
+Buen Cuidador
+@@ 1gfel2fcczm
+Alimente seus pets 25 vezes.
+~~
+Alimenta a tus mascotas 25 veces.
+@@ 1tlx9safhtj
+Hora de Brincar
+~~
+Hora de Jugar
+@@ 21q44jsbz5f
+Brinque com seus pets 50 vezes.
+~~
+Juega con tus mascotas 50 veces.
+@@ 1ytxcv2592d
+Melhor Amigo
+~~
+Mejor Amigo
+@@ 10svu9k8avt
+Leve um pet ao nível 10.
+~~
+Sube una mascota al nivel 10.
+@@ ksih88az6j
+Primeiro Sangue... quer dizer, Gosma
+~~
+Primera Sangre... digo, Limo
+@@ 1lt7bfp9kp3
+Vença sua primeira batalha.
+~~
+Gana tu primera batalla.
+@@ ukby7zenk5
+Caçador de Monstros
+~~
+Cazador de Monstruos
+@@ 19yzwisoowf
+Vença 25 batalhas.
+~~
+Gana 25 batallas.
+@@ 1gstfz408kn
+Herói do Reino
+~~
+Héroe del Reino
+@@ 11mxxk4ol3x
+Vença 100 batalhas.
+~~
+Gana 100 batallas.
+@@ 1q84twatoke
+Varredor de Gosmas
+~~
+Barrendero de Limos
+@@ 5slrsnw4tt
+Derrote 20 gosmas.
+~~
+Derrota a 20 limos.
+@@ 1ghr9fn9yrm
+Quebra-Chefes
+~~
+Rompejefes
+@@ dj1f3apauz
+Derrote o chefe de uma região.
+~~
+Derrota al jefe de una región.
+@@ 12ad7pb6y5c
+Guardião das Terras Selvagens
+~~
+Guardián de las Tierras Salvajes
+@@ 26w7ojhtnwh
+Derrote o chefe de todas as regiões.
+~~
+Derrota al jefe de todas las regiones.
+@@ 1xhxljcpqsm
+Matador de Dragões
+~~
+Matadragones
+@@ 1vrpbur4imd
+Derrote o Dragão Negro.
+~~
+Derrota al Dragón Negro.
+@@ 22rrznaboru
+Defensor de Codehaven
+~~
+Defensor de Codehaven
+@@ yt2e8qwkzx
+Expulse monstros da vila.
+~~
+Echa a los monstruos de la aldea.
+@@ ve46wmui2y
+Trainee
+~~
+Becario
+@@ 1a95skhb23a
+Chegue a 30% de uma trilha de carreira.
+~~
+Llega al 30% de una ruta profesional.
+@@ 1fv8x8lmqzx
+Metade do Caminho
+~~
+A Mitad de Camino
+@@ bgnq9bmvwa
+Chegue a 50% de uma trilha de carreira.
+~~
+Llega al 50% de una ruta profesional.
+@@ 106ezj0c7s5
+Pronto para o Mercado
+~~
+Listo para Trabajar
+@@ 25bh55zyss2
+Conclua uma trilha de carreira inteira.
+~~
+Completa una ruta profesional entera.
+@@ 105avl3hhog
+Desenvolvedor Júnior
+~~
+Desarrollador Júnior
+@@ avo9awgbpu
+Passe na Prova Júnior contra o Dragão Ancião dos Bugs.
+~~
+Supera la Prueba Júnior contra el Dragón Anciano de los Bugs.
+@@ 2421cirp598
+Peça de Portfólio
+~~
+Pieza de Portafolio
+@@ 2598ewwetfx
+Conclua 3 projetos que você pode mostrar em entrevistas.
+~~
+Completa 3 proyectos que puedas enseñar en entrevistas.
+@@ 1n6ggyhyenx
+Ouroboros
+~~
+Uróboros
+@@ 1q1pvgsks3e
+Escreva um loop que nunca termina. (Nós o paramos para você.)
+~~
+Escribe un bucle que nunca termina. (Lo detuvimos por ti.)
+@@ 8k33d3hstc
+Erro de Um
+~~
+Error por Uno
+@@ v5sgz3kqhn
+Pare exatamente um passo antes do portão. O bug mais famoso da história!
+~~
+Detente exactamente un paso antes de la puerta. ¡El bug más famoso de la historia!
+@@ 2c0qo2pu1nt
+Aulas de Natação
+~~
+Clases de Natación
+@@ 21awa4ysxn2
+Leve seu herói para dentro da água.
+~~
+Lleva a tu héroe al agua.
+@@ nd1mlpcqvx
+Coruja Noturna
+~~
+Búho Nocturno
+@@ 22z3h7rpctj
+Estude entre meia-noite e 5 da manhã.
+~~
+Estudia entre la medianoche y las 5 de la mañana.
+@@ bvd9c10hs5
+Madrugador
+~~
+Madrugador
+@@ q5feqrol1j
+Estude entre 5 e 8 da manhã.
+~~
+Estudia entre las 5 y las 8 de la mañana.
+@@ x0r7k5xt5z
+Retirada Tática
+~~
+Retirada Táctica
+@@ 1g8ipwn02yv
+Fuja de uma batalha. Às vezes é o mais sensato.
+~~
+Huye de una batalla. A veces es lo más sensato.
+@@ 1wyr0n35xfm
+Amigo da Lumi
+~~
+Amigo de Lumi
+@@ 2u62l326uw
+Peça ajuda à Lumi 10 vezes.
+~~
+Pídele ayuda a Lumi 10 veces.
+@@ b461f4i22h
+Guerreiro de Fim de Semana
+~~
+Guerrero de Fin de Semana
+@@ 1iyzalpv74h
+Conclua uma lição num sábado ou domingo.
+~~
+Completa una lección un sábado o domingo.
+@@ 2c8asljkalj
+Que Nome!
+~~
+¡Qué Nombre!
+@@ 1vfsvg0v68e
+Dê um novo nome ao seu pet.
+~~
+Ponle un nombre nuevo a tu mascota.
+@@ 1y7vio337z1
+Magnata das Trufas
+~~
+Magnate de las Trufas
+@@ 2dib5wbt85r
+Venda uma trufa no mercado.
+~~
+Vende una trufa en el mercado.
+@@ 167jxhktopf
+Candidato a Júnior
+~~
+Candidato a Júnior
+@@ 1t0gici2j1d
+Passe na Prova Júnior
+~~
+Supera la Prueba Júnior
+@@ 1fwslgzha3y
+Conclua sua trilha
+~~
+Completa tu ruta
+@@ f0uetx8jds
+Chegue a 30% da sua trilha
+~~
+Llega al 30% de tu ruta
+@@ 1p6jgdqed0a
+Novato
+~~
+Recién Llegado
+@@ 1nwdwq78mwl
+Conclua suas primeiras lições
+~~
+Completa tus primeras lecciones

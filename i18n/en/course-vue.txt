@@ -1,0 +1,253 @@
+@@ dg16das2cd
+The Emerald Vale
+@@ eejj63j2yy
+Single-file components, reactivity, directives, props and emits, and the Vue ecosystem (Router, Pinia, Nuxt).
+@@ mwfd8xcvcy
+Vue Basics
+@@ k6jajewbog
+Single-file components and reactive refs.
+@@ duayvit4ot
+
+**Key ideas**
+- A `.vue` file has `<script setup>`, `<template>` and `<style scoped>`.
+- `{{ expression }}` shows values in the template.
+- `ref(0)` creates reactive state; use `.value` in the script, not in the template.
+- `@click="..."` listens to events (short for `v-on:click`).
+@@ 1fh3jakg389
+Single-file components
+@@ 1wjc8860wtr
+Three parts, one file
+@@ 1rscezp4ali
+```
+<script setup>
+const name = "Ada";
+</script>
+
+<template>
+  <h1>Welcome, {{ name }}!</h1>
+</template>
+
+<style scoped>
+h1 { color: seagreen; }
+</style>
+```
+`scoped` styles only affect this component.
+@@ rqutl20qk2
+Match the block with its job
+@@ 15w9i5crkt2
+The HTML
+@@ 1au2duk0nfd
+The logic
+@@ 12c9qm6mtma
+CSS for this component only
+@@ 1pdtug5gtgo
+Show the name in the template
+@@ 1j3rpn35s9n
+Scoped styles can accidentally change other components.
+@@ 1op2s88w0ro
+Reactivity with ref
+@@ 2bxvs0zdkhc
+Reactive state
+@@ 16w2dbs8g2i
+Which line does not update the count?
+@@ rgqo0gqwpd
+In the script, a ref is changed through `.value`: `count.value++`.
+@@ 2890clpev3c
+In the template, how do you show a ref called `gold`?
+@@ 1pexmzxtt5y
+{{ gold }}
+@@ 26o6aa9uf24
+{{ gold.value }}
+@@ 9ui6zl1z5a
+{ gold }
+@@ q1x064ui6l
+`@click` is short for...
+@@ 23bbqizlj3a
+Challenge: Your First Vue Spell
+@@ 1knrwitf5x2
+Challenge: The Potion Cauldron
+@@ ybznroc5ar
+Directives and Computed
+@@ 1upnp09g0k3
+v-if, v-for, v-bind, v-model, computed and watch.
+@@ jagkml9xe8
+
+**Key ideas**
+- `v-if` / `v-else` conditionally render; `v-show` only toggles visibility.
+- `v-for="item in items" :key="item.id"` repeats elements.
+- `:src="url"` binds attributes (short for `v-bind:src`).
+- `v-model` = two-way binding for inputs.
+- `computed(() => ...)` derives cached values; `watch` runs side effects when something changes.
+@@ 228370gke53
+Directives
+@@ erhmwwi1x9
+Special attributes
+@@ 1qg8emiu5ll
+Match the directive
+@@ 17agcd0k5g
+Render only when true
+@@ 14hm439bdi2
+Repeat for each item
+@@ 13ei0k3b3j1
+Bind an attribute
+@@ 1ng0e79q4oh
+Listen to an event
+@@ 1z7zxigvojn
+Repeat one li per knight
+@@ 2a5otm85bqh
+`v-show` differs from `v-if` because it...
+@@ 21ihw3tv4sw
+Keeps the element in the page and toggles display
+@@ 1dvawzyhyob
+Removes the element completely
+@@ 81gpqpjuf
+Only works with lists
+@@ 1pks2pk1b8c
+Runs JavaScript
+@@ nl7220d9rf
+v-model and computed
+@@ 256zmptz5t0
+Two-way and derived
+@@ 237b4ssnhbt
+What does `v-model` do on an input?
+@@ 1esnonyos3t
+Keeps the input and the ref in sync both ways
+@@ 24es3egdb71
+Styles the input
+@@ ft2apcxrqd
+Makes the input read-only
+@@ 2fx5ioalh1g
+Why use `computed` instead of a method for derived values?
+@@ 1gykuz9l5wh
+It is cached and only recomputes when its dependencies change
+@@ o9kh7tsfh8
+Methods cannot return values
+@@ 1c5nardolnw
+computed runs on the server
+@@ 1gd9jua5esd
+It is required for v-model
+@@ 1loxmb0tw63
+`watch` is the right tool for side effects such as saving to localStorage when data changes.
+@@ 8shwpw8ee5
+Challenge: Dragons of the Vale
+@@ 1aqpwsrpmwi
+Challenge: The Echo Stone
+@@ 1rmlvqtdtzu
+Components
+@@ hxamw3t98n
+Props down, events up, slots and lifecycle.
+@@ zlcfgr6kl7
+
+**Key ideas**
+- Child: `defineProps({ name: String })`; parent: `<Potion :price="20" name="Healing" />`.
+- Child emits events: `const emit = defineEmits(["buy"]); emit("buy")`; parent listens with `@buy="..."`.
+- **Slots** (`<slot />`) let parents pass content into a child.
+- Lifecycle: `onMounted(() => { ...fetch data... })`.
+@@ 9ex0nl5sty
+Props and emits
+@@ nh7pe11rmy
+Talking between components
+@@ 10znb6slav8
+How does a child send a message to its parent in Vue?
+@@ rb0ne7z1pi
+It emits an event
+@@ 1ycwq9704qr
+It changes its props
+@@ z5spqxhslb
+It edits the parent directly
+@@ b90fs99f4v
+With v-model only
+@@ 25to3fi2yhy
+Why `:price="20"` and not `price="20"`?
+@@ 26kgofz1p10
+:price passes the number 20; price="20" passes the string "20"
+@@ hw5imvau0x
+They are identical
+@@ wclpnj2onk
+Colons are required for all props
+@@ 222ahatg3a8
+To make it reactive
+@@ tcq7umtjqm
+Declare the props
+@@ 1ztqwal1xza
+Slots and lifecycle
+@@ gcg0lw445o
+Content and timing
+@@ 11pmx9zpxet
+```
+<!-- Card.vue -->
+<template><div class="card"><slot /></div></template>
+
+<!-- usage -->
+<Card><h2>Any content here</h2></Card>
+```
+Run code when the component appears:
+
+```
+import { onMounted } from "vue";
+onMounted(async () => {
+  knights.value = await (await fetch("/api/knights")).json();
+});
+```
+@@ 15jxq3ggoix
+What is a slot for?
+@@ 1wbh1moob3b
+Letting the parent put content inside the child
+@@ 62o9s61541
+Storing state
+@@ 1268uezrc43
+Styling
+@@ pqagbxhcaz
+Where is a good place to fetch initial data?
+@@ 15t1e5t6gvh
+The <style> block
+@@ hw9c2n0zr2
+Inside v-for
+@@ 1c1r4nzts2q
+A computed
+@@ 1s5rih9qy6j
+Challenge: Potions on the Shelf
+@@ 12vzcj1k5ao
+Challenge: The Merchant's Ledger
+@@ daxaj4ze8o
+The Vue Ecosystem
+@@ 1ucytc34j7f
+Vue Router, Pinia and Nuxt.
+@@ 217xh7fefey
+
+**Key ideas**
+- **Vue Router**: URLs → components; `<RouterLink to="/shop">` and `<RouterView />`.
+- **Pinia**: the official store for shared state (`defineStore`).
+- **Nuxt**: the full framework (file-based routing, server rendering), like Next.js for React.
+- Create a project: `npm create vue@latest` (with Vite).
+@@ 1gfkyjol0t7
+Router, Pinia and Nuxt
+@@ 2atwdor3ff6
+Growing apps
+@@ 2b4wn2wt6rp
+- **Vue Router** maps URLs to components
+- **Pinia** stores state shared by many components (a cart, the user)
+- **Nuxt** adds file-based routing, server rendering and more
+- Start a project with `npm create vue@latest`
+@@ 25r9bqv9kda
+Vue Router
+@@ efj9ihinm9
+Pages and URLs
+@@ 1ff7ujthfpv
+Pinia
+@@ 2ez4jdy62tj
+Shared state store
+@@ 1jswgab4888
+Full Vue framework
+@@ 27cg4yp2esv
+Dev server and build
+@@ crid6oxyyk
+Several distant components need the shopping cart. Which tool fits?
+@@ yrjxsqhewj
+A scoped style
+@@ 1s23m9zudkc
+A slot
+@@ 1jozrnat4i6
+Nuxt is to Vue what Next.js is to React.
+@@ 18k0a92dsy8
+Project: The Potion Shop

@@ -1,0 +1,188 @@
+@@ 1jfnds14hqp
+Lição expressa: você está mandando bem, então {0} pulada(s).
+~~
+Lección exprés: vas muy bien, así que {0} saltada(s).
+@@ uu1qnojf91
+uma pergunta fácil foi
+~~
+una pregunta fácil fue
+@@ 2c047dwci8b
+duas perguntas fáceis foram
+~~
+dos preguntas fáciles fueron
+@@ 10qroyq49gu
+Primeiro um aquecimento: uma olhada rápida nas perguntas que você errou antes.
+~~
+Primero un calentamiento: un vistazo rápido a las preguntas que fallaste antes.
+@@ 1v95f688ckc
+Tempo esgotado
+~~
+Tiempo agotado
+@@ 2cz9hi3ym5y
+Seu feitiço rodou por tempo demais e foi interrompido. Isso geralmente significa que um loop nunca termina.
+~~
+Tu hechizo se ejecutó demasiado tiempo y se detuvo. Normalmente significa que un bucle nunca termina.
+@@ 1tagnk9oy2x
+Colete todas as gemas
+~~
+Recoge todas las gemas
+@@ xa3s53oie8
+Colete pelo menos {0} gemas
+~~
+Recoge al menos {0} gemas
+@@ 75y0seba8h
+Derrote todos os goblins
+~~
+Derrota a todos los goblins
+@@ 163uyituawv
+Chegue ao portão do castelo
+~~
+Llega a la puerta del castillo
+@@ 1h251oeli70
+Use no máximo {0} linhas de código
+~~
+Usa como máximo {0} líneas de código
+@@ 256xwe656ss
+Nenhuma maldição de tipo (erros de TypeScript)
+~~
+Ninguna maldición de tipos (errores de TypeScript)
+@@ 1c8ylj5mfrc
+Lições de web precisam de um quadro de prévia
+~~
+Las lecciones web necesitan un marco de vista previa
+@@ 2b22nvei7qx
+A consulta rodou por tempo demais e foi interrompida.
+~~
+La consulta se ejecutó demasiado tiempo y se detuvo.
+@@ 1l5z3za4sr4
+Seu herói não conhece `{0}`. Você quis dizer `hero.{1}()`? A grafia e as maiúsculas precisam ser exatamente iguais.
+~~
+Tu héroe no conoce `{0}`. ¿Quisiste decir `hero.{1}()`? La ortografía y las mayúsculas deben coincidir exactamente.
+@@ 2goczr6lvce
+Seu herói não conhece `{0}`. Confira a lista de comandos na lição.
+~~
+Tu héroe no conoce `{0}`. Revisa la lista de comandos de la lección.
+@@ 10dyaymmwry
+O Oráculo nunca ouviu falar de `{0}`. Confira a grafia (maiúsculas importam!), ou crie antes com `let` ou `const`.
+~~
+El Oráculo nunca ha oído hablar de `{0}`. Revisa la ortografía (¡las mayúsculas importan!), o créalo antes con `let` o `const`.
+@@ 2dhx0c4v6q7
+Você tentou abrir `.{0}` em algo que é `{1}`, um pergaminho vazio. Confira se o valor antes do ponto realmente existe.
+~~
+Intentaste abrir `.{0}` en algo que es `{1}`, un pergamino vacío. Comprueba que el valor antes del punto existe de verdad.
+@@ rb8vkcolro
+`{0}` não é um feitiço que você pode lançar com `()`. Confira o nome, ou veja o que o valor realmente é.
+~~
+`{0}` no es un hechizo que puedas lanzar con `()`. Revisa el nombre, o mira qué es realmente el valor.
+@@ 1psxulf49g8
+Uma `const` fica selada para sempre e não pode mudar. Use `let` se o valor precisar mudar.
+~~
+Una `const` queda sellada para siempre y no puede cambiar. Usa `let` si el valor tiene que cambiar.
+@@ bfv50njnwa
+Você criou o mesmo nome duas vezes. Crie uma vez e depois só mude o valor (sem `let`/`const`).
+~~
+Creaste el mismo nombre dos veces. Créalo una vez y luego solo cámbialo (sin `let`/`const`).
+@@ 5y1y1v1rak
+O feitiço termina cedo demais. Provavelmente falta um `}` ou `)`. Conte os parênteses e chaves que abrem e fecham.
+~~
+El hechizo termina demasiado pronto. Probablemente falta un `}` o un `)`. Cuenta los paréntesis y llaves que abres y cierras.
+@@ 22np5tmcf2v
+Algo está no lugar errado. Procure uma vírgula, parêntese ou aspa faltando perto desta linha.
+~~
+Algo está en el lugar equivocado. Busca una coma, un paréntesis o una comilla que falte cerca de esta línea.
+@@ dzafu8czp
+Falta a aspa de fechamento `"` num pedaço de texto.
+~~
+A un trozo de texto le falta la comilla de cierre `"`.
+@@ 2bmx3rvwxlu
+Uma função fica chamando a si mesma para sempre. Dê a ela um jeito de parar (um caso base).
+~~
+Una función se llama a sí misma para siempre. Dale una forma de parar (un caso base).
+@@ 4owk1feeyw
+Confira a condição do seu loop: ela chega a ficar falsa? O contador muda a cada volta?
+~~
+Revisa la condición de tu bucle: ¿llega a ser falsa? ¿El contador cambia en cada vuelta?
+@@ d2k0u5bjna
+Direções são texto, então precisam de aspas: `"up"`, `"down"`, `"left"` ou `"right"`.
+~~
+Las direcciones son texto, así que necesitan comillas: `"up"`, `"down"`, `"left"` o `"right"`.
+@@ qsp0zlympd
+A runa (tipo) não encaixa. O TypeScript esperava outro tipo de valor aqui.
+~~
+La runa (tipo) no encaja. TypeScript esperaba otro tipo de valor aquí.
+@@ 11ab0t6g2xb
+O TypeScript não encontra este nome. Confira a grafia ou declare-o antes.
+~~
+TypeScript no encuentra este nombre. Revisa la ortografía o decláralo antes.
+@@ 7g4wvdu43x
+Este parâmetro precisa de uma runa de tipo, como `(name: string)`.
+~~
+Este parámetro necesita una runa de tipo, como `(name: string)`.
+@@ 21aj8q1qzfn
+Essa propriedade não existe neste tipo. Confira a grafia ou adicione-a ao tipo.
+~~
+Esa propiedad no existe en este tipo. Revisa la ortografía o añádela al tipo.
+@@ 1oxiq6gwlc1
+Este valor pode ser `null`/`undefined`. Verifique com um `if` antes.
+~~
+Este valor podría ser `null`/`undefined`. Compruébalo antes con un `if`.
+@@ 1taey7ysmpd
+A função foi chamada com o número errado de argumentos.
+~~
+La función se llamó con un número incorrecto de argumentos.
+@@ 8x05mtjobl
+O Python nunca ouviu falar de `{0}`. Confira a grafia (maiúsculas importam!), ou dê um valor a ele antes.
+~~
+Python nunca ha oído hablar de `{0}`. Revisa la ortografía (¡las mayúsculas importan!), o dale un valor antes.
+@@ gm5ljepb93
+O Python usa **espaços no começo da linha** para agrupar código. As linhas dentro de `if`, `for`, `while` e `def` precisam de 4 espaços, todos iguais.
+~~
+Python usa **espacios al principio de la línea** para agrupar código. Las líneas dentro de `if`, `for`, `while` y `def` necesitan 4 espacios, todos iguales.
+@@ 1g3bo41gf3q
+Uma linha que começa um bloco (`if`, `for`, `while`, `def`) precisa terminar com dois-pontos `:`.
+~~
+Una línea que empieza un bloque (`if`, `for`, `while`, `def`) debe terminar con dos puntos `:`.
+@@ 241pyeju8o5
+O Python não consegue ler esta linha. Procure um `:`, parêntese ou aspa faltando.
+~~
+Python no puede leer esta línea. Busca un `:`, un paréntesis o una comilla que falte.
+@@ dp7uunsqem
+Você somou texto e número. Transforme o número em texto antes: `str(number)`, ou use uma f-string: `f"score {n}"`.
+~~
+Sumaste texto y un número. Convierte antes el número en texto: `str(number)`, o usa una f-string: `f"score {n}"`.
+@@ g3l0ua8nx1
+Dividir por zero é impossível, até para magos.
+~~
+Dividir entre cero es imposible, incluso para los magos.
+@@ 1rzadrnak79
+Você pediu uma posição que não existe na lista. As listas começam em 0, e o último item fica em `len(list) - 1`.
+~~
+Pediste una posición que no está en la lista. Las listas empiezan en 0, y el último elemento está en `len(list) - 1`.
+@@ 1n1fh8sm9wl
+Essa chave não está no dicionário. Confira a grafia, ou use `.get(key)`.
+~~
+Esa clave no está en el diccionario. Revisa la ortografía, o usa `.get(key)`.
+@@ 2u9fzgqivc
+Esse valor não tem este método ou campo. Confira o nome e o tipo do valor.
+~~
+Ese valor no tiene este método o campo. Revisa el nombre y el tipo del valor.
+@@ zx022fq7io
+O valor tem o tipo certo mas um conteúdo errado, por exemplo `int("abc")`.
+~~
+El valor tiene el tipo correcto pero un contenido incorrecto, por ejemplo `int("abc")`.
+@@ f3k8kqrffy
+As linhas de PHP terminam com ponto e vírgula `;`. Falta um nesta linha ou na anterior.
+~~
+Las líneas de PHP terminan en punto y coma `;`. Falta uno en esta línea o en la anterior.
+@@ xkh0dmhg1c
+O PHP não consegue ler esta linha. Procure um `;`, parêntese, aspa ou `$` faltando.
+~~
+PHP no puede leer esta línea. Busca un `;`, un paréntesis, una comilla o un `$` que falte.
+@@ xyfm5nvv6c
+O PHP não conhece esta função. Confira a grafia, ou defina-a antes com `function name() { ... }`.
+~~
+PHP no conoce esta función. Revisa la ortografía, o defínela antes con `function name() { ... }`.
+@@ 3ju3subnes
+Variáveis em PHP começam com `$` e precisam ter um valor antes de serem usadas.
+~~
+Las variables en PHP empiezan con `$` y deben tener un valor antes de usarlas.

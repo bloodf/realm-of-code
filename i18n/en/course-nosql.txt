@@ -1,0 +1,225 @@
+@@ 1d7v3k28ls7
+NoSQL Databases
+@@ 45vso1m5dy
+The Scroll Vaults
+@@ uuj8y5kzs2
+Document databases (MongoDB): documents, collections, queries, updates, indexes and aggregation. Key-value stores (Redis), and how to choose between SQL and NoSQL.
+@@ g1uruo8ku7
+Documents
+@@ j0zg2ximxt
+Collections, documents, find and filters.
+@@ h4q1ire5zr
+
+**Key ideas**
+- **NoSQL** databases do not use tables. MongoDB stores **documents** (JSON-like objects) in **collections**.
+- Documents in one collection can have different fields (flexible schema). Each has an `_id`.
+- `db.heroes.find({ level: { $gt: 10 } })`, operators: `$gt $gte $lt $in $ne`, `$and`, `$or`.
+- `insertOne`, `updateOne({...}, { $set: {...} })`, `deleteOne`.
+@@ 2eeola8izhy
+Documents and collections
+@@ lhrbi0blnw
+A **document database** like MongoDB keeps data as documents:
+
+```
+{
+  "_id": 1,
+  "name": "Ada",
+  "level": 12,
+  "skills": ["html", "css"],
+  "house": { "name": "Lovelace", "region": "North" }
+}
+```
+Documents live in **collections** (like a table, but each document can have its own shape). Arrays and nested objects are normal.
+@@ 2boznit2g99
+Match SQL and MongoDB words
+@@ 27ss3xpgz6x
+Table
+@@ won65zsyfu
+Collection
+@@ aun4bfis95
+Row
+@@ 1wqvxvu6e8v
+Document
+@@ 1g39fqdkafb
+Column
+@@ 2b4ooflnz1g
+Field
+@@ oqemtfk490
+Primary key
+@@ 2fe7yifae1e
+In MongoDB, two documents in the same collection can have different fields.
+@@ 1f23j5horcv
+Which of these is a document database?
+@@ 1vh7s0sznav
+SQLite
+@@ up0ptijblb
+Finding documents
+@@ 6t0jqbkljd
+Which heroes does this return?
+@@ 1y8if771i0v
+Ada and Eryn
+@@ j5a7drg50i
+Ada, Cyra and Eryn
+@@ 1z5qcscc4pb
+Everyone
+@@ dpyjef21y7
+`$gt` means greater than (not equal). Cyra has exactly 10.
+@@ 1j92s87b23r
+Greater than
+@@ yhc1fidb5k
+Less than or equal
+@@ 1y96ez5tkmf
+One of a list
+@@ 2flehdfcnqu
+Not equal
+@@ 13buahb5n3b
+Find heroes from the North or East
+@@ 1cljwg3tgtb
+What does this return?
+@@ 2b13oqnq20e
+Heroes whose skills array contains "sql"
+@@ 27rg7k2eo59
+Heroes whose skills are exactly "sql"
+@@ oj6tyg8dt0
+Nothing: arrays cannot be searched
+@@ 1wn2pimcawi
+Changing documents
+@@ q5dx10bb5m
+Insert, update, delete
+@@ 1h16ar1778j
+Which line replaces the whole document by mistake?
+@@ 1o4ptqwlqu2
+Without `$set`, the update would replace the document. Write `{ $set: { level: 13 } }`.
+@@ mpr98f6joc
+Match the update operator
+@@ 2e8jyhu08cz
+Set a field
+@@ gybwkdq216
+Add to a number
+@@ ruirpdlso4
+Add to an array
+@@ 1s0iw4iz62i
+Remove a field
+@@ 1a59scgyp0i
+Give Ada 5 gold
+@@ 16zh7s4knsj
+Design and Scale
+@@ 276t43hj2f9
+Indexes, aggregation, Redis, and SQL vs NoSQL.
+@@ 256xhz2i4w5
+
+**Key ideas**
+- **Indexes** make queries fast: `db.heroes.createIndex({ name: 1 })`.
+- **Aggregation pipeline**: `$match` → `$group` → `$sort`, like WHERE / GROUP BY / ORDER BY.
+- **Embed** data you read together; **reference** data shared by many documents.
+- **Redis** is an in-memory key-value store: caches, sessions, counters, queues.
+- Choose SQL for strong relations and transactions; NoSQL for flexible shapes, huge scale or speed.
+@@ 2bs2f49d75d
+Indexes and aggregation
+@@ 447lqmb1s3
+Fast and smart queries
+@@ 1n586354zjt
+```
+db.heroes.createIndex({ level: -1 })   // fast sorting by level
+
+db.heroes.aggregate([
+  { $match: { level: { $gte: 5 } } },
+  { $group: { _id: "$house", total: { $sum: "$gold" } } },
+  { $sort: { total: -1 } }
+])
+```
+Without an index, the database reads **every** document (a collection scan).
+@@ 1vt4n38fo4o
+Match aggregation and SQL
+@@ 203hmpe1bxu
+WHERE
+@@ 1tt99frirnn
+GROUP BY
+@@ 15zodyzfq59
+Why add an index?
+@@ fkfzuy4cy4
+To make searches on that field fast
+@@ 1ybr46aa53o
+To save disk space
+@@ 28vg83qo41j
+To store passwords
+@@ 1hl960wiabz
+To back up the data
+@@ qtbj0fbtou
+Indexes make reading faster but writing a little slower.
+@@ 2eeke4i2dwz
+Embed or reference?
+@@ 1o1zgd1sdjm
+Modelling documents
+@@ zovm10u8xf
+**Embed** when the data belongs to one parent and is read together:
+
+```
+{ "name": "Ada", "address": { "city": "Codehaven" } }
+```
+**Reference** when many documents share it or it grows without limit:
+
+```
+{ "name": "Ada", "guildId": 7 }
+```
+A blog post can embed its tags, but should reference its author (shared by many posts).
+@@ 4lv40ef31w
+A product has 2 or 3 photos that are always shown with it. Embed or reference?
+@@ 238fjioqgc1
+Embed
+@@ 1u4pgds32os
+Reference
+@@ 9grr49sp0k
+Use a new database
+@@ 32gd7o44ku
+Thousands of orders belong to one customer. How should orders relate to the customer?
+@@ dckfcdb278
+Orders reference the customer id
+@@ 17fg8il3hbl
+Embed all orders inside the customer
+@@ 6pm8on4xre
+Copy the customer in every order only
+@@ 10cuexik7qz
+Put everything in one big document
+@@ rbfbuv52ya
+Unbounded growth does not fit in one document (MongoDB has a 16 MB limit per document).
+@@ 26qatelqzxn
+Redis and choosing a database
+@@ 2fffa4eusge
+Key-value stores
+@@ 9kyumccewd
+**Redis** keeps data in memory, so it is extremely fast:
+
+```
+SET session:42 "ada"
+GET session:42
+INCR page:views
+EXPIRE session:42 3600
+```
+Common uses: **caches**, **sessions**, counters, rate limits and queues.
+
+Other NoSQL families: **wide-column** (Cassandra), **graph** (Neo4j), **search** (Elasticsearch).
+@@ 1l3pgg60x5s
+Match the database to its job
+@@ 1xrq2y77v0c
+Redis
+@@ 22bogzrv8ju
+Cache and sessions
+@@ kcv4p9lt8f
+Flexible documents
+@@ 2409z73t5yp
+Relational data and transactions
+@@ 2aibzsleffn
+Relationships as a graph
+@@ 2df3mh41aci
+A bank needs transfers that never lose money, with strict rules between tables. Best choice?
+@@ 3gf36nf56b
+A relational database like PostgreSQL
+@@ 1j7lufttgq7
+Redis only
+@@ g7b57f6knv
+A text file
+@@ 1hh9z116300
+Browser localStorage
+@@ 1smq3fso6ih
+Many real apps use both: PostgreSQL for core data and Redis as a cache.

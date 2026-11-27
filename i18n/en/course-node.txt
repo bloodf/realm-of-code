@@ -1,0 +1,312 @@
+@@ d43h7mxbyi
+The Tavern of Couriers
+@@ 7f82xdyy1t
+JavaScript on the server: modules, Express routes, REST APIs, middleware, authentication and deployment.
+@@ 1eeic1bxhdo
+Node.js Basics
+@@ 9i12qo65p7
+JavaScript outside the browser.
+@@ 1x9eqgvsvqq
+
+**Key ideas**
+- **Node.js** runs JavaScript on servers and computers (no DOM, no `window`).
+- Used for web servers, APIs, command-line tools and build tools (npm, Vite are Node programs).
+- Modules: CommonJS `require()` / `module.exports`, or ES modules `import` / `export` (`"type": "module"` in package.json).
+- `process.env` holds environment variables (secrets, ports). `.env` files are loaded in development.
+- Run a file: `node server.js`; restart on changes: `node --watch server.js`.
+@@ 7pv3ukc1i8
+What is Node.js?
+@@ 1ewju7ad9gg
+JavaScript on the server
+@@ 1oqyqx9hsal
+**Node.js** takes the JavaScript engine from Chrome (V8) and runs it outside the browser. With Node you can:
+- build web servers and APIs
+- read and write files
+- build command-line tools
+
+There is no `document` or `window` in Node: there is no page!
+@@ 1th54wlcnxm
+What can Node.js NOT do by itself?
+@@ 163ei0s0pkj
+Use document.querySelector
+@@ 2fkrlaq5vw1
+Run a web server
+@@ 12jsbrh6hu2
+Read files
+@@ 2ekd6pn29v9
+Install packages with npm
+@@ 123mvr5i5nb
+npm and Vite are themselves programs that run on Node.js.
+@@ 1h63hpvjqyu
+Browser or Node?
+@@ nrjb8bgf9o
+Browser only
+@@ 3b9knhv2ai
+Node only
+@@ 54949phuur
+Both
+@@ 2b1h3duttix
+Node only (files)
+@@ 1qoehw8lnjg
+Which command runs a file called server.js?
+@@ 1f9jy5iidgj
+Modules in Node
+@@ rrbwdlgx5z
+Two module systems
+@@ 1mr34b0sfyo
+Match the syntax with the module system
+@@ 2co1s603ph4
+import ... from
+@@ uhcn2yfd6q
+ES modules
+@@ 15z0kf2gr7w
+CommonJS export
+@@ xz4100kx7i
+ES module export
+@@ 20ur793pnzr
+What makes Node treat `.js` files as ES modules?
+@@ 143zhq6kjgp
+Using Node 1.0
+@@ w95k2qgv2q
+Adding "use strict"
+@@ 2ec8llntwzr
+Import Express (CommonJS)
+@@ 358qg3wpie
+Environment and ports
+@@ p9iftamcxh
+Configuration
+@@ 1aczlcif3k8
+Servers read settings from **environment variables**:
+
+```
+const port = process.env.PORT ?? 3000;
+const dbUrl = process.env.DATABASE_URL;
+app.listen(port);
+```
+In development they often come from a `.env` file (never committed). Hosting platforms let you set them in a dashboard.
+@@ 1bhl0e4ki0m
+Why read the port from `process.env.PORT`?
+@@ 1av6yt4jz1i
+Hosting platforms choose the port for you
+@@ 16c8nwabgjz
+Ports must be secret
+@@ quu4bfzxzg
+Node requires it
+@@ 27slm39lwa3
+It is faster
+@@ 1i7buf3miob
+What is `port` when PORT is not set?
+@@ 1sfi9s2e3a3
+The .env file with secrets should be committed so teammates get it.
+@@ 25dq0eqap8y
+Share a `.env.example` without real values instead.
+@@ 294n2t0st9j
+Express Routes
+@@ 1ambbnvw6fc
+Build a server that answers requests.
+@@ wnp4uetd9c
+
+**Key ideas**
+- `const app = express();` then `app.get(path, (req, res) => ...)`, `app.post`, `app.patch`, `app.delete`.
+- Answer with `res.send(text)`, `res.json(data)`, `res.status(404).json(...)`.
+- `req.params.id` from `/knights/:id` (always a **string**), `req.query.house` from `?house=...`, `req.body` with `express.json()`.
+- `app.listen(3000)` starts the server.
+@@ glj0rvecyb
+Your first server
+@@ 1ofxyyzx4zy
+Express in ten lines
+@@ 12ppz32tym7
+```
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Welcome!");
+});
+
+app.listen(3000, () => console.log("http://localhost:3000"));
+```
+`req` is the request (what came in); `res` is the response (what you send back).
+@@ q8g1vmgoif
+Build a tiny Express server
+@@ xb9prrd1i
+Match the code
+@@ uzd9hxv2q7
+Values from the path (/knights/:id)
+@@ 1dowuiaxry7
+Values after ? in the URL
+@@ 2ealfaqc4hr
+Data sent in the request
+@@ 1eggx7yt9xi
+Send JSON back
+@@ 5e0oiulblu
+A request for `/knights/7` arrives. What is `req.params.id`?
+@@ 1nbjqj53zud
+"7" (a string)
+@@ 1tatsvk16g5
+7 (a number)
+@@ 28nqa00l750
+URL parts are always strings. Convert with `Number()`.
+@@ 1t4x8sidep2
+Answer 404 with JSON
+@@ 4i69ox3jn0
+Challenge: Hello, Tavern
+@@ 98tw7s9gfa
+Challenge: Route Parameters
+@@ 2d6ris1gbl7
+Challenge: Query Strings
+@@ 1vjodh4ssgi
+Building REST APIs
+@@ z5g13a9pv2
+Create, validate and respond with the right status.
+@@ 104eqo4j8yn
+
+**Key ideas**
+- Design around resources: `/quests`, `/quests/:id`.
+- Validate input and answer **400** with a helpful message; **201** for created; **204** for deleted.
+- Keep handlers small: parse input → validate → do the work → respond.
+- Real data lives in a database (next section: SQL).
+@@ 2242xpb5c5o
+Designing an API
+@@ lao2r0hx91
+Good API habits
+@@ 12ml4a02se7
+- Nouns in URLs, methods for actions: `POST /quests` (not `/createQuest`)
+- Correct status codes
+- Consistent JSON: `{ "error": "title is required" }`
+- Validate every input on the server
+- Version big APIs: `/api/v1/...`
+@@ 10gxh4c5spu
+Which route follows REST style for creating a quest?
+@@ lrpcj1ss5
+POST /quests
+@@ 1ilt9k6f02i
+GET /createQuest
+@@ 11484e6r9ha
+POST /quests/create/new
+@@ 97nwsso5d3
+PUT /makeQuest
+@@ 2gjgc429dil
+Match the situation with the status
+@@ 281xx0abwvu
+Created a new quest
+@@ 1m6ebk1ypxq
+Missing title in the body
+@@ 1yabg29dne3
+Quest id does not exist
+@@ 1i3w6en5n0h
+Deleted successfully, no body
+@@ 91wrlkwryh
+The server should trust data that the front end already validated.
+@@ rf6lm1aw6h
+Challenge: Creating Knights
+@@ 13w0p76z46b
+Middleware and Production
+@@ ijsfqdp9kb
+Middleware, auth, databases and deployment.
+@@ xm84lzhnfj
+
+**Key ideas**
+- **Middleware** `(req, res, next)` runs before routes: logging, auth, parsing, CORS. Order matters.
+- Error handlers take four arguments: `(err, req, res, next)`.
+- **Authentication**: sessions (cookie + server storage) or tokens (JWT in the Authorization header). Hash passwords with bcrypt.
+- Deploy: set environment variables, use a managed database, watch the logs. Hosts: Render, Railway, Fly.io, a VPS...
+@@ 16glzmisokh
+Middleware
+@@ fh8pcpghwu
+Guards in the corridor
+@@ s7sd5wufch
+Middleware runs in order, before your routes:
+
+```
+app.use(express.json());          // parse JSON bodies
+app.use((req, res, next) => {     // log every request
+  console.log(req.method, req.url);
+  next();                          // let it continue
+});
+```
+If middleware does not call `next()` and does not answer, the request hangs forever.
+@@ 1kqsk0ed3k8
+What does `next()` do in middleware?
+@@ 1rl7r126y8p
+Passes the request on to the next middleware or route
+@@ 1dqkqx7t8tc
+Sends a 200 response
+@@ 1x7eyu34lg1
+Restarts the server
+@@ 3pr4z1n54g
+Skips all routes
+@@ dyn2cbzt2w
+How does Express recognise an error-handling middleware?
+@@ 137oswtbxg9
+It has four parameters (err, req, res, next)
+@@ 1vj8uav5kg3
+Its name starts with error
+@@ 2a0essr5lrd
+It is added first
+@@ 29d90ha1il2
+It returns false
+@@ 28lb8s31qiu
+The order of app.use calls matters.
+@@ 10fzma025pm
+Challenge: Guards at the Treasury
+@@ b4x00x5sym
+Authentication
+@@ 1ypcwf3cdtv
+Who are you?
+@@ 134s3hfee1t
+- **Authentication**: who is this user? (log in)
+- **Authorization**: what may they do? (admin only?)
+
+Two common approaches:
+- **Sessions**: the server stores the login and gives the browser a cookie
+- **Tokens (JWT)**: the server signs a token; the client sends it in `Authorization: Bearer ...`
+
+Never store plain passwords: hash them with **bcrypt** or **argon2**. Many teams use services like Auth0, Clerk or Supabase Auth.
+@@ th0men54xz
+Proving who you are
+@@ rbddjb7iau
+What you are allowed to do
+@@ n2r1p6bvit
+A signed token
+@@ mw0y7u02pz
+Password hashing
+@@ 2a98quk5zgp
+A logged-in user tries to open the admin page and is not an admin. Which status fits?
+@@ mhwa91jr90
+403 Forbidden
+@@ nykbypowkm
+401 Unauthorized
+@@ 23vka83p6oq
+404 Not Found
+@@ oiitor8a3w
+It is fine to invent your own encryption for passwords.
+@@ 1n9ekqzqc6x
+Use proven libraries. Home-made crypto is a classic security mistake.
+@@ 16v50fpdxkz
+Going live
+@@ 213p7mzzfxn
+Deploying a server
+@@ lcdnnas8py
+To put a Node API online:
+1. Push the code to GitHub
+2. Create a service on a host (Render, Railway, Fly.io, a VPS...)
+3. Set environment variables (`DATABASE_URL`, secrets)
+4. Connect a managed database
+5. Watch the **logs** and set up monitoring
+
+CI/CD can deploy automatically when `main` passes its tests.
+@@ 2c09czqb3pq
+Order the deployment steps
+@@ 1e36pgmfsk9
+Your app works locally but crashes online with "DATABASE_URL is undefined". Most likely cause?
+@@ xi2xcidzrt
+The environment variable is not set on the host
+@@ 296ee1lmaoa
+Node is too old
+@@ 27fkgu65bzj
+The CSS is broken
+@@ 4l39sge36g
+Git is not installed
+@@ 1qej2pfwmk6
+Project: The Quest API

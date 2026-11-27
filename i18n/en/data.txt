@@ -1,0 +1,763 @@
+@@ 1noqvy2ffkh
+Getting to know you
+@@ cjj7megclw
+Finish a few lessons and your path will adapt to your pace.
+@@ adeck1f7q2
+Slow and sure
+@@ 20ffckgmuru
+Lessons start with a warm-up, tough ones get a review stop, and reviews never cost hearts.
+@@ 2al953d10s9
+Nice and steady
+@@ 1e5nlq0mh4h
+Tough lessons get a review stop, and a minigame waits in the middle of every unit.
+@@ ib9cke6ua7
+You are flying!
+@@ 1so66pklmbx
+Lessons skip the easiest questions, and shortcuts appear to test out of units.
+@@ 2euednzh047
+Rune Link
+@@ 267b2as2ph8
+Link each rune to its meaning before the sand runs out.
+@@ q0lkm18pac
+Memory Crypt
+@@ t60ac9ceb5
+Flip the tiles and find the matching pairs.
+@@ su78fcyhca
+Torch Run
+@@ cv1ohjufz
+Answer quick questions before your torch burns out. Right answers feed the flame.
+@@ 1lbqa2amccz
+Bug Hunt
+@@ 9czixs2cw5
+Each spell has one broken line. Find it before the torch burns out.
+@@ 1nb3cnz3gcc
+Selector Archery
+@@ 2bm0ynwd102
+Write CSS selectors that hit every glowing target and nothing else.
+@@ q8rd6fdpf1
+Archive Hunt
+@@ 1ggs9dr391r
+Read the query and pick exactly the rows it returns.
+@@ 5xie48wmkr
+Loop Bridge
+@@ ai22omewb2
+Count how many times each loop runs, and the hero builds the bridge plank by plank.
+@@ ftvwuzq3cw
+Gem Forge
+@@ 29t2lrb4d27
+Swap gems to make rows of three. Every 600 points a bonus rune asks a question: answer it for more time.
+@@ 1ejwyg9mgjr
+Rune Typist
+@@ 8oixk3rcli
+Monsters march toward the wall carrying code words. Type a word to shoot its monster!
+@@ 244l9bymhvc
+Frontend Developer
+@@ bjgpc65ams
+with React
+@@ mxz6hnohb8
+Junior Frontend Developer (React)
+@@ reuptm5sb2
+Build websites and web apps people use every day. The most requested frontend skill set.
+@@ 16wnlmfad5f
+with Vue
+@@ 22gplncaxku
+Junior Frontend Developer (Vue)
+@@ 1dj46dxa8kc
+Build web apps with Vue, a friendly framework loved in Europe and Asia.
+@@ 2ddjva9xrs
+with Svelte
+@@ 1hgrj9n5kig
+Junior Frontend Developer (Svelte)
+@@ 1xzasrd4utf
+Build fast web apps with Svelte, the compiler framework developers love.
+@@ qqqw0bfwxh
+Backend Developer
+@@ 5o4h7vkxsw
+with Node.js & SQL
+@@ 667c3od2y6
+Junior Backend Developer (Node.js)
+@@ 1hrx120tawx
+Build the servers, APIs and databases behind every app.
+@@ 2f395recm3l
+Full-Stack Developer
+@@ 1n9gtpby2l7
+React + Node.js + SQL
+@@ 25ueo6hf731
+Junior Full-Stack Developer
+@@ wivl6z2mgo
+Do it all: interfaces, servers and databases. The longest path, and the most versatile.
+@@ 16gdnjv291x
+with Python & SQL
+@@ 2007zv9zbqz
+Junior Backend Developer (Python)
+@@ 1ffspfv2kan
+Python is the friendliest first language and powers web servers, data and AI. Real Python runs in your browser.
+@@ 1vu05r2e21d
+with PHP & SQL
+@@ 1g70rxtdr84
+Junior Backend Developer (PHP)
+@@ 24hfh7bj1ky
+PHP runs a huge part of the web (WordPress, Laravel). Real PHP 8 runs in your browser.
+@@ 1vq6uoz2ntu
+Software Trainee
+@@ tsrluqebhz
+to Junior Engineer
+@@ dtnitqewg4
+Junior Software Engineer
+@@ 1kcgzrqegys
+A broad trainee programme like the ones big companies run: web, JavaScript, Python, SQL, APIs, algorithms, testing and career skills.
+@@ twnmw3wx4d
+Not sure yet
+@@ bqag0kxtyg
+Start with the foundations
+@@ 1jbfp2f8128
+Choose your path later
+@@ 1njvzgb7nn9
+Learn how the web works, HTML, CSS, JavaScript and the developer tools. Every path starts here, so nothing is wasted. You can choose a path at any time.
+@@ 1c0wqf7c2y5
+Green Slime
+@@ 1n5x4rw5gac
+Bloop! You look tasty.
+@@ 1fi86la9bi4
+Blue Slime
+@@ gj3l1nw4wx
+Splish! Syntax errors are my favourite snack.
+@@ jmhx0o751g
+Will-o-Wisp
+@@ k7rixl1jai
+Follow me... into an endless loop!
+@@ 1hkfhy88b16
+Mushroom Lord
+@@ 1vneyz1db9j
+My spores will fill your code with bugs!
+@@ 2clzu8rzyw2
+Cave Bat
+@@ 1ex05bs8988
+Screech! Your variables are undefined!
+@@ 2c69sy29laq
+Skeleton
+@@ 21fc2x4z77f
+I am all bones and no semicolons.
+@@ 21w3kf8jx56
+Mimic
+@@ 25tb9j7rtaw
+Surprise! I was never a treasure chest.
+@@ 2cemstyfu0s
+Bone King
+@@ 1jqtmzbfmkx
+Kneel before the king of off-by-one errors!
+@@ yflfwiyse3
+Ghost
+@@ 1f5n9pzidbd
+Boo! I haunt unclosed tags.
+@@ kr31lvltgt
+Shadow Wolf
+@@ 6oa5quse2w
+Grrr. I smell a missing bracket.
+@@ 18fp85f3lbi
+Sporeling
+@@ 158lr7w7ftq
+Spores! Spores everywhere!
+@@ 1uhwq35w62m
+Alpha Wolf
+@@ trd4dhzkz1
+The pack never forgets a failing test.
+@@ 17a282c5mzj
+Stone Golem
+@@ p4ov97jp16
+I. AM. HARD. CODED.
+@@ fgpppm6tw6
+Greedy Mimic
+@@ b7fmwpx4n5
+Gold! Give me all your gold!
+@@ j2othcyv6s
+Stone Titan
+@@ 2014d3b86gq
+Nothing gets past my firewall.
+@@ weakxpcz7u
+Dragon Whelp
+@@ 2bs28vh5mas
+Rawr! I am small but my bugs are big.
+@@ pgar1jyry5
+Fire Dragon
+@@ p4jgozcr0
+I will burn your legacy code!
+@@ 1bwcvcgupjt
+Black Dragon
+@@ 1yk19e9dadx
+I am every bug you ever wrote. Face me!
+@@ 23uhiuw16uf
+Elder Dragon of Bugs
+@@ 1pngtcuddmw
+Prove you are ready to be a Junior Developer!
+@@ 1ks5iupa6nh
+Slime Meadow
+@@ bit64uq8tn
+Soft green hills full of bouncy slimes. A good place to start.
+@@ 16q0d0ndrur
+Bat Caves
+@@ 1h72ndjvw9u
+Dark tunnels. Bats, skeletons and chests that bite.
+@@ mk5x0qtcg7
+Haunted Woods
+@@ 1f4pcftwyn7
+Ghosts between the trees and wolves in the shadows.
+@@ 256qcrtst9r
+Golem Quarry
+@@ 1gs6keio8xb
+Stone giants guard the old mines.
+@@ 1jcqyi391h1
+Dragon's Peak
+@@ 19l0vrd4djj
+Dragons are not our friends. Only the bravest coders climb here.
+@@ 7vf18g71c6
+What does a programmer write?
+@@ f2v9rtmf85
+Code
+@@ d1k8cxwco9
+Poems
+@@ vn0qgg1nfl
+Recipes
+@@ 16nahjixi5g
+Which language builds the structure of a web page?
+@@ 2ctnnecaqga
+Which language makes a web page colourful?
+@@ 16f3jzohggx
+Python
+@@ 21zrkjwuk0w
+What is a bug?
+@@ 2fs6of2neeh
+A mistake in a program
+@@ 1if6o6raut3
+A fast computer
+@@ 1pq3sylzivl
+A kind of cable
+@@ k3d69mlzn0
+A computer follows instructions...
+@@ 294yju09898
+exactly, in order
+@@ 1fymjev65o3
+only when it wants
+@@ 1se60h80x4s
+backwards
+@@ 1hilqsu59q3
+What does a browser do?
+@@ 9654tu0k25
+Shows web pages
+@@ o86r3nfoyu
+Cooks food
+@@ 5e16sazl6c
+Stores electricity
+@@ yv9qmuzxtw
+Which one is a programming language?
+@@ 22wisnr2df2
+Photoshop
+@@ 1as4wb0td7q
+Keyboard
+@@ 24u829esqym
+A list of steps to solve a problem is an...
+@@ avb26acifm
+algorithm
+@@ 1z58vkvink
+antenna
+@@ 207ev0tb91i
+avatar
+@@ 2afnisohsi7
+What is a loop for?
+@@ 2al26mokh41
+Repeating steps
+@@ 1o2szs16lje
+Deleting files
+@@ wr537hz1g1
+Drawing circles only
+@@ 27cegs0hsmq
+Where do you type code?
+@@ 1gfwkaa4e6g
+In an editor
+@@ pghbbi8kqv
+In a calculator
+@@ 1s9htcceg8s
+In a photo
+@@ 18776s7fa0k
+What does "debugging" mean?
+@@ 2f9ybyfon7
+Finding and fixing mistakes
+@@ 7oxw9kkmvd
+Adding bugs
+@@ 1gz1p80xu1f
+Turning the computer off
+@@ 259qthytef3
+Which is a good habit when stuck?
+@@ 2ceq5hct10h
+Read the error message
+@@ vabvx899lo
+Give up
+@@ 1aho9fvaxbm
+Delete everything
+@@ d5920flkwz
+None
+@@ 2axpj79q5gd
+git add
+@@ 20hx0mfhfpw
+git commit
+@@ 2fnvyo1wwbo
+git push
+@@ vvlw6om64u
+npm install
+@@ i2omd3nqyf
+Wheat
+@@ 1wzucn9nkvk
+Carrot
+@@ 2503jyv03ex
+Potato
+@@ eytlcxnk3t
+Cabbage
+@@ 1b7pivwqh23
+Tomato
+@@ r2kvsyk1xg
+Strawberry
+@@ xgd514bt2g
+Corn
+@@ 1yvgd8r0ov9
+Pumpkin
+@@ 16bhufvo7nj
+Chicken
+@@ 1hmvnhp9bvg
+Lays an egg every 20 minutes when fed.
+@@ 1ngavmi2afe
+Cow
+@@ 1fem66p2sdm
+Gives milk every 45 minutes when fed.
+@@ 2ft64m7u6ir
+Sheep
+@@ r0c0dde5nv
+Grows wool. Shear it every hour.
+@@ 6e1nv9m5yi
+Pig
+@@ dfflospncv
+Sniffs out a truffle every 90 minutes.
+@@ 1xf5w4a902a
+Goat
+@@ sx743jsyde
+Eats almost anything. Gives milk.
+@@ 1q20ikh4ngf
+Horse
+@@ 1q08x4c8il1
+A happy horse lets you walk faster in the village.
+@@ 1e14y28wml4
+Dog
+@@ 17dz4k7rlu8
+Guards the garden: weeds grow slower. Brings back feathers.
+@@ 1b70244wyii
+Cat
+@@ 1gzxkxfxkqe
+Keeps mice away: ripe crops wait longer before they wither.
+@@ 29ley6wfb3t
+Egg
+@@ qvoagz04we
+Milk
+@@ dwh2tnprpw
+Wool
+@@ 1sv6hjpdl89
+Truffle
+@@ 1cccz1dh4t3
+Feather
+@@ g2ubkqnxla
+Hay
+@@ 6ve6n9vmp4
+Lightbulb
+@@ 1ee8v3vam10
+A hint
+@@ 21igdbvr5dn
+Lights up a clue: removes wrong answers, places a piece for you, or links one pair. In minigames it reveals an answer.
+@@ 12xsqf0omxe
+Torch
+@@ 894wkiqjan
+A second chance
+@@ 22alqeogkzh
+After a wrong answer, burn a torch to try again. No heart lost. In minigames it adds time.
+@@ 1tdyivcboin
+Potion
+@@ 1pls2aiju9j
++1 heart
+@@ gjh1wmkqq0
+Drink it to get one heart back, even in the middle of a lesson.
+@@ eyovgdma75
+Bunny
+@@ yof76uw3to
+Hops around your feet. Loves carrots more than anything.
+@@ vxam717dur
+Frog
+@@ 2c7i2pzhsfe
+Sings by the pond at night. Catches bugs, even in code.
+@@ pd6nt5qzzp
+Hedgehog
+@@ 1osjsmc739f
+Small, spiky and very brave.
+@@ 5gp3hty90v
+Mouse
+@@ 6u80vl85e5
+Reads your spellbooks at night. Tiny scholar.
+@@ 1th796sgys0
+Turtle
+@@ zdts7g7km7
+Slow and steady. Never gives up.
+@@ cvkve75ka8
+Snail
+@@ kttgs6dxk8
+Carries its house everywhere. Leaves a shiny trail.
+@@ 1bq1r01i7xs
+Squirrel
+@@ 1f2r7qnbiyx
+Hides acorns in your pockets for later.
+@@ 2flvx0gytxh
+Duckling
+@@ yir980s4k1
+Follows you in a straight line. Quack!
+@@ aiaqdqwqrv
+Fox
+@@ f73op0xy4k
+Clever and curious. Finds shortcuts everywhere.
+@@ 2713yxw0l9l
+Owl
+@@ 17y0n9umjyi
+Wise night bird. Hoots when you get an answer right.
+@@ 1g6b1ys7lj3
+Raccoon
+@@ 2e731nw4syn
+A masked little thief with a good heart.
+@@ nie8eet9al
+Penguin
+@@ 1953ygi8a9g
+Waddles from the snowy north. Loves cold milk.
+@@ ydle4vf8an
+Bat
+@@ 90cj4u14vx
+Sleeps all day, debugs all night.
+@@ z09ga9c1og
+Red Panda
+@@ 2cb69ne271v
+Fluffy tail, fluffy heart. Very rare in these lands.
+@@ 11g7a70rfh1
+Otter
+@@ 11b0ll3hbvx
+Holds your hand while you sleep so you do not drift away.
+@@ 1ecieggnlu4
+Wolf Pup
+@@ b1wn3sotga
+Loyal to the end. Howls at full moons and failing tests.
+@@ fqbqcx87pz
+Baby Griffin
+@@ ap7fveeof5
+Half eagle, half lion, all courage.
+@@ 16z64yxkbgk
+Phoenix Chick
+@@ urcnuaeo3r
+Reborn from its own ashes. Never lets a streak die.
+@@ 36ys7qbtgz
+Baby Unicorn
+@@ av9a8m61sx
+Its horn glows near true friends. Ultra rare.
+@@ 1y1vt29d5ez
+Kitsune
+@@ 26jqozf5c3q
+A nine-tailed spirit fox. Each tail holds a secret.
+@@ n17upzpcsa
+Common
+@@ 11kqpfnxbmz
+Uncommon
+@@ 18w2vo6lv0n
+Rare
+@@ 1oihdf6b12i
+Ultra rare
+@@ u405l63h45
+Happy
+@@ 1mmakuy60hq
+Content
+@@ nnyjnonr8w
+Hungry
+@@ ohxb3cfojp
+Lonely
+@@ 2c3hyizjsgg
+You got an egg!
+@@ uiowlc9pea
+Earn {n} XP to hatch it at the Pet Sanctuary.
+@@ 3r9s3wo1k9
+An egg is hatching!
+@@ 1chpsh9phu8
+Visit the Pet Sanctuary to meet your new friend.
+@@ 19u74osmp4q
+A gift from Lumi!
+@@ n0tu8fonpx
+Earn 20 XP
+@@ 12o6uy8rkfs
+Earn 50 XP
+@@ 1z3052cuozm
+Complete 2 lessons
+@@ 17q1azfbxqr
+Complete 4 lessons
+@@ 1qx08kof2mp
+Finish a lesson with no mistakes
+@@ 26wcej9la42
+Finish 2 perfect lessons
+@@ 1adabqbmgs4
+Solve a coding challenge
+@@ 13pm0wj0mqa
+Practice a skill or play a minigame
+@@ bdgerzuhsq
+Win 2 battles at the Monster Gate
+@@ rbu8zs6kt9
+Harvest 5 crops at your homestead
+@@ 1rburqavnz7
+Feed or play with your pet 3 times
+@@ lmdx7v4vg4
+Play 2 minigames
+@@ 13lfmwcga25
+Names are case-sensitive: `Gold` is not `gold`.
+@@ 22fj43sbeuq
+Off by one! Indexes go from 0 to length - 1, so use `<`, not `<=`.
+@@ 1ijbcwhi0oa
+`=` assigns a value. To compare, use `===`.
+@@ 2fnt8l5t70j
+A `const` can never change, so line 2 fails. Declare it with `let` on line 1.
+@@ 1dg2vxcpxr6
+The function forgot to `return` its result, so it gives back `undefined`.
+@@ 128i4seovfd
+`i--` makes i smaller, so `i < 3` stays true forever. An endless loop! Use `i++`.
+@@ 1s28oucf3ml
+The last item is at `gems.length - 1`. `gems[gems.length]` is `undefined`.
+@@ 103aaiobx5d
+`"7"` (text) is not `7` (number). Convert first with `Number(input)`.
+@@ 12jbsid80vs
+Typo: it is `length`, not `lenght`.
+@@ pjuxwljixg
+Property names are case-sensitive: `name`, not `Name`.
+@@ 11ibtf3otv2
+With curly braces, an arrow function needs `return`. Write `(p) => p * 2`.
+@@ 1luf6exawrs
+`startGame()` runs the function right away. Pass it without brackets: `startGame`.
+@@ f3jhblu2v8
+`fetch` returns a Promise. You must `await fetch(...)` before reading it.
+@@ uphrz7gm4b
+The condition is backwards: "too young" means `age < 18`.
+@@ kfq2j6c2tq
+The greeting is returned but never printed. Use `console.log(greet("Ada"))`.
+@@ 26tnjx4z3vv
+CSS values are text in JavaScript: `"red"` needs quotes.
+@@ eec7ujtqox
+A **type selector** is just the tag name: `goblin`
+@@ dowkglrbro
+Pick only one kind of tag by its name.
+@@ 2jq2kjn8qo
+A **class selector** starts with a dot: `.gold`
+@@ 1bidqmw0ibc
+An **id selector** starts with a hash: `#king`
+@@ 1qjyua54cqg
+A **descendant selector** has a space: `chest gem` means "a gem inside a chest".
+@@ 1qwn0as6c2g
+chest gem
+@@ 16v4tzl4fp1
+Same idea: only coins that are inside a rack.
+@@ 1dgju106aps
+rack coin
+@@ xx2l5d34cu
+Join a tag and a class with no space: `goblin.cursed`
+@@ 1qzphipjx96
+A **comma** groups selectors: `key, coin`
+@@ 21h13gppxic
+key, coin
+@@ 2dvohkewzd9
+Pseudo-classes pick by position: `:first-child`
+@@ r7lu6bksow
+`:nth-child(n)` picks the n-th child (counting from 1).
+@@ xmxrnuzpyb
+`:not(...)` excludes things: `coin:not(.gold)`
+@@ 2bfsidoktr2
+The **adjacent sibling** `+` means "right after": `gem + scroll`
+@@ 2evuwcng08p
+gem + scroll
+@@ ka6w5i32ll
+Ada
+@@ 1dzcpb8jioe
+Camelot
+@@ jo8svy7cd6
+Bors
+@@ 23j127gawl9
+Avalon
+@@ 1rd3zg8g8ch
+Cai
+@@ pj4geduq01
+Dagon
+@@ 2ftp6ipyk2e
+Tintagel
+@@ 209v85r5228
+Elaine
+@@ 21qj4k713mb
+Fenn
+@@ 44smqp9a5b
+Gwen
+@@ muowz2wwqe
+Hal
+@@ vln8idt6sl
+BETWEEN
+@@ 991kid2ybc
+LIMIT
+@@ 2fb9u1bqqst
+ORDER BY
+@@ 286ig1tm1g7
+
+ORDER BY {0} {1}
+LIMIT {2}
+@@ 26tq2hdf95c
+too many
+@@ 28hm6o2650v
+const logs = [{0}];
+for (const log of logs) {
+{1}
+}
+@@ z29640kne9
+Unlocks after a few more lessons.
+@@ 1i489w083gd
+Unlocks after your first lessons.
+@@ 1uzof3qwf60
+Unlocks when you start JavaScript.
+@@ 1euuix5n4s9
+Unlocks when you learn CSS selectors.
+@@ 17u4xt3eup
+Unlocks when you start SQL.
+@@ 20wjb8xpqlp
+Unlocks when you learn loops.
+@@ 1w5i6603mog
+This minigame is not on your path.
+@@ hvrb2464n1
+Finish the lessons before this minigame to unlock it.
+@@ 1mjiae6cdrq
+There is no such game in the tavern.
+@@ 1r2n1g8mjtk
+Finish a few more lessons to unlock this game.
+@@ t50swy0bqd
+Elder Tomas
+@@ 25jwcsq9fx4
+Keeper of the Village Gate
+@@ 18iesbmgreo
+Welcome, traveller! Every great coder started right here, at the village gate.
+@@ 8xqf9ft4wy
+Hilda
+@@ 17nzek6zbxy
+Master Mason
+@@ cdbcmh3muz
+Every web page is a building. Grab a chisel, we lay the first stones together!
+@@ 21fpcfzh1i7
+Herald Percival
+@@ 1ntvf5ly1p3
+Royal Herald
+@@ 1srrov40o9b
+Colours! Banners! Style! Let me show you how to make the realm beautiful.
+@@ rfpmuqj8gm
+Rowan
+@@ 1i6jv9y0e9p
+Old Hunter of the Forest
+@@ 14kkiy0x27a
+The forest answers only to code. I will teach you to command your hero.
+@@ 25qq3n16qy4
+Gwyn
+@@ 14n3mokna21
+Artificer
+@@ dlrfgrzx34
+Real developers live in the terminal and Git. Welcome to my workshop!
+@@ 4eft8k7y51
+Nia
+@@ ke10pyagi5
+Ravenkeeper
+@@ eyct0cagx0
+My ravens carry messages between servers. Let us learn to send and read them.
+@@ 1ht1m9g0xiy
+Bram
+@@ 1wp1dqaab1u
+Runesmith
+@@ jd6b3kyu2j
+Types are runes that stop bugs before they hatch. To the forge!
+@@ 28fxkoiq05t
+Wendeline
+@@ 10qhneueew5
+Royal Tailor
+@@ 90grbj9huz
+Why sew a whole robe when you can stitch on exactly the threads you need?
+@@ 2fr49tjbi3z
+Lyra
+@@ 2a1wcyr1k1v
+Grand Summoner
+@@ 1vsrzq19owu
+Components are spells you can summon again and again. Shall we begin?
+@@ 7ngi5in7ab
+Elm
+@@ 1c8kpqf8bvi
+Druid of the Vale
+@@ 6k67v1qb75
+In the Vale, data flows like streams and the page follows. Come, learn its ways.
+@@ l5f0206n1p
+Ash
+@@ 38syxha7qi
+Keeper of the Flame
+@@ 1y8klflahmn
+Svelte forges your components in fire into tiny, swift spells.
+@@ eq3rr5xtoq
+Rolf
+@@ t6e2dx3f6i
+Innkeeper
+@@ 2af6hipgcbu
+Hungry requests are queuing at my tavern! Help me build the server that serves them.
+@@ hp8og5q6cx
+Mira
+@@ 1ekgmwasaz9
+Royal Archivist
+@@ y4r9zo4osp
+Every record of the realm lives in my tables. I will teach you to ask them questions.
+@@ 1jst9akcos1
+Sefa
+@@ sac3sp8q8c
+Serpent Librarian
+@@ 81kupaootu
+My library is full of Python scrolls. Python reads almost like English, so let us start reading and writing it.
+@@ 21vvx8uslva
+Quill
+@@ 1hf6wnyhzr5
+Scribe of the Elephant Press
+@@ orm8rr3yra
+Half the pages of the web are printed on my PHP press. Come and set some type with me.
+@@ 1n65pqhr3hr
+Moss
+@@ anzrwc96iz
+Keeper of the Scroll Vaults
+@@ 23e0gz5khe8
+Not every record fits in a table. In my vaults, documents and keys are stored just as they are.
+@@ 1uub3tv15bm
+Tessa
+@@ 2fy0aezun92
+Puzzle Master of the Tower
+@@ yb3w2oxvk6
+Every puzzle in my tower has a clever way and a slow way. I will teach you to find the clever one.
+@@ 25typy5bs0z
+Sergeant Vex
+@@ 2ezo52fs5k5
+Master of the Proving Grounds
+@@ 27j8qztfq3m
+Code you have not tested is code you cannot trust. Prove it works!
+@@ 299fl8lxgbl
+Oona
+@@ gcbb4j9p2r
+Watcher of the Tower
+@@ 24a6y5jvm83
+From my tower I watch for slow pages, barriers and thieves. Let us keep the realm safe.
+@@ 3bcy561jwk
+Bess
+@@ 1aynwxofurh
+Farmer of Greenhollow
+@@ 2akk1gznhpl
+A good farmer plans the whole season. A good coder plans the whole program!
+@@ 20fy303gvvt
+Aldric
+@@ 1el6ltv5f4s
+Guildmaster
+@@ 4s14wzks3i
+You have come far, adventurer. Now let us get you into a guild: your first job!

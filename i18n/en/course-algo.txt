@@ -1,0 +1,261 @@
+@@ 2e31skw2j8s
+Algorithms
+@@ 1he5gcvb9ws
+The Puzzle Tower
+@@ 1j7mogfsher
+Think like an engineer: Big-O, arrays and hash maps, searching and sorting, stacks and queues, recursion, and how to solve interview problems step by step.
+@@ ea1g7yjqdu
+Thinking in Steps
+@@ 1jp55g3zhsu
+Algorithms, Big-O, arrays and hash maps.
+@@ 1uxnh180ogi
+
+**Key ideas**
+- An **algorithm** is a clear list of steps that solves a problem.
+- **Big-O** says how the work grows with the input size n: O(1) constant, O(log n), O(n) linear, O(n log n), O(n²).
+- Arrays: index access is O(1); searching an unsorted array is O(n).
+- Hash maps (`{}` / `Map` / Python `dict`) find a key in O(1) on average: the classic speed-up.
+@@ 22sdsm9whvt
+What is an algorithm?
+@@ 188nj44ljlt
+Recipes for computers
+@@ ejum2s5jk
+An **algorithm** is a finite list of precise steps. Making tea is an algorithm; so is finding a name in a phone book.
+
+Good engineers ask: is it **correct** (for every input, including empty ones)? And is it **fast enough** when the input is big?
+@@ 15042zqvyvx
+Put the steps of "find the biggest number" in order
+@@ z8wwgr5ilt
+Which input do beginners most often forget to test?
+@@ 1cmby9q0ses
+An empty list
+@@ 1yuwom5akdz
+A list with 3 items
+@@ 2ah6kmtcrz4
+A list of numbers
+@@ 3i2cs0llz1
+A sorted list
+@@ 108cvdkqca5
+Two different algorithms can solve the same problem at very different speeds.
+@@ fbesiicfra
+Big-O notation
+@@ jzntffxmfr
+How work grows
+@@ 1q6epn538db
+```
+function first(list) { return list[0]; }          // O(1)
+function total(list) {                            // O(n)
+  let t = 0;
+  for (const x of list) t += x;
+  return t;
+}
+function hasDuplicate(list) {                     // O(n²)
+  for (let i = 0; i < list.length; i++)
+    for (let j = i + 1; j < list.length; j++)
+      if (list[i] === list[j]) return true;
+  return false;
+}
+```
+For 1 million items: O(n) ≈ 1 million steps, O(n²) ≈ 1 trillion (too slow!).
+@@ o4d5k6ubtt
+Match the Big-O
+@@ 11onsq2h8qc
+Read one array item
+@@ 1829nu9v727
+Binary search
+@@ 7ock7ksfi7
+One loop over the list
+@@ ex5lk1j98l
+A loop inside a loop
+@@ 1wb8obnvddy
+What is the Big-O of this function?
+@@ se8o8qllb6
+Sorting with a good algorithm (like JavaScript's sort) takes about...
+@@ 1v42ghh8e0m
+O(n log n)
+@@ 1gm39bmknub
+Hash maps
+@@ 210yvht1p42
+The speed trick
+@@ 12848pwxmue
+Checking "have I seen this?" in an array is O(n). In a **Set** or **Map** it is O(1) on average:
+
+```
+function hasDuplicate(list) {   // O(n) instead of O(n²)
+  const seen = new Set();
+  for (const x of list) {
+    if (seen.has(x)) return true;
+    seen.add(x);
+  }
+  return false;
+}
+```
+@@ 722aoj3lnz
+Which structure answers "is this user id banned?" fastest for millions of ids?
+@@ vw5x4he0z0
+A Set
+@@ uqmug2o5m
+An array
+@@ vaxgyb74xs
+A string
+@@ 186xdbll6n5
+A linked list
+@@ 26bgujbqo2w
+Search and Sort
+@@ 285sjlzqkvu
+Binary search, sorting, two pointers.
+@@ 5deunn4lb1
+
+**Key ideas**
+- **Linear search** checks every item: O(n). **Binary search** halves a **sorted** list each step: O(log n).
+- Sorting: know that bubble sort is O(n²) and merge sort / quicksort are O(n log n). In real code, use the built-in `sort` with a comparator.
+- **Two pointers**: walk from both ends (palindromes) or through two sorted lists (merging).
+@@ 1n7p5nxpotv
+Halving the problem
+@@ ew01e7li2f
+Guess a number from 1 to 100. Best strategy? Always guess the **middle**: 50, then 25 or 75... You need at most 7 guesses. That is binary search, **O(log n)**, and it only works on **sorted** data.
+@@ 2g0mywo560j
+How many steps does binary search need for about 1,000,000 sorted items?
+@@ 1efubwob15d
+About 20
+@@ ahg3k5x2vx
+About 1,000
+@@ 2c55djgw68e
+About 500,000
+@@ 26ye5ezva37
+About 1,000,000
+@@ pg00k4mkts
+2²⁰ is about a million.
+@@ 1cb0np2p6e4
+Which line makes this binary search loop forever?
+@@ 1h2a5v25v5p
+When `arr[mid] < x`, move past mid: `lo = mid + 1`. Otherwise `lo` can get stuck.
+@@ 22983yzd8w0
+Binary search works on any list, sorted or not.
+@@ 2exb8q0h5gt
+Sorting
+@@ 1ux4rga69zt
+Putting things in order
+@@ 19y293o8m4w
+```
+[10, 9, 1].sort()                  // [1, 10, 9]  (as text!)
+[10, 9, 1].sort((a, b) => a - b)   // [1, 9, 10]
+names.sort((a, b) => a.localeCompare(b))
+```
+A comparator returns a **negative** number to put `a` first, **positive** to put `b` first, **0** to keep them.
+@@ 1iqixb6abm7
+Without a comparator, numbers are sorted as text.
+@@ gmkcjjt1si
+Match the algorithm
+@@ 238h2neseyw
+Bubble sort
+@@ 3pv7cmh1jr
+O(n²), swaps neighbours
+@@ 1kgny19jtqj
+Merge sort
+@@ z70o8yizy9
+O(n log n), split and merge
+@@ 1c3rha690gr
+O(log n), needs sorted data
+@@ 27kf3zxolcg
+Linear search
+@@ 20lvpyj6hv6
+O(n), checks every item
+@@ f8vijvn7w5
+Sort heroes by level, highest first
+@@ 1ymprc2c212
+Structures and Recursion
+@@ 44efzj9uc
+Stacks, queues, recursion and problem solving.
+@@ tdnxgbcp1p
+
+**Key ideas**
+- **Stack**: last in, first out (undo, the call stack, matching brackets). `push`/`pop`.
+- **Queue**: first in, first out (waiting lines, tasks). `push`/`shift`.
+- **Recursion**: a function that calls itself on a smaller problem, with a **base case**.
+- Interview method: understand → examples → brute force → improve → code → test edge cases → state the Big-O.
+@@ qwo7lmxeui
+Stacks and queues
+@@ al075j24nm
+Piles and lines
+@@ 1g742iu8gph
+```
+const stack = [];
+stack.push("a"); stack.push("b");
+stack.pop();      // "b"  (last in, first out)
+
+const queue = [];
+queue.push("a"); queue.push("b");
+queue.shift();    // "a"  (first in, first out)
+```
+Your browser's back button is a stack. A printer is a queue.
+@@ uiljd56r7b
+Match each structure to how it works
+@@ 1voibq3mo5g
+Stack
+@@ 2dj01knji4x
+Last in, first out (like a pile of plates)
+@@ 1fs5wfztvlm
+Queue
+@@ 8hrm7o8zi3
+First in, first out (like a line at a shop)
+@@ 1oit40eoab
+push / pop
+@@ 1x1xak54za8
+Add and remove at the top of a stack
+@@ jrggifrgad
+enqueue / dequeue
+@@ 1hc2ayldu52
+Join the back and leave the front of a queue
+@@ 1df37t9frrx
+What does LIFO mean?
+@@ jbs1rpkw5q
+Last in, first out
+@@ s7vh7mo0hb
+Last in, final out
+@@ 144udonxoa
+List in, file out
+@@ eodj6fwwze
+Loop if found once
+@@ qa0m44p3mu
+Recursion
+@@ 1rl9xj17kkn
+Calling yourself
+@@ 16zcox5ir6z
+```
+function countdown(n) {
+  if (n === 0) { console.log("Liftoff!"); return; }  // base case
+  console.log(n);
+  countdown(n - 1);                                   // smaller problem
+}
+```
+Every recursive function needs a **base case**, or it calls itself until the stack overflows.
+@@ 2eazr6csiak
+What is missing in this recursive function?
+@@ 5u5h1rafao
+There is no base case: it never stops. Add `if (n === 0) return;` first.
+@@ oilo2u87n3
+Solving interview problems
+@@ 28ncr6bmg9n
+A method that works
+@@ lxglkhxcrs
+When you meet a new problem (at an interview or at work):
+
+1. **Understand**: repeat the problem, ask about edge cases.
+2. **Examples**: write small inputs and outputs.
+3. **Brute force** first: a simple, slow solution is a start.
+4. **Improve**: can a hash map, sorting or two pointers help?
+5. **Code**, then **test** with your examples and edge cases (empty, one item, duplicates).
+6. Say the **Big-O** of time and memory.
+@@ 1fd82i3nzgo
+Put the steps in order
+@@ 200z6npq6jb
+You are stuck in an interview. What is best?
+@@ ao5q8zoiuc
+Explain your thinking and try a simple solution
+@@ 1i65qijeccw
+Stay silent until you know the perfect answer
+@@ 1t43emeu60r
+Change the subject
+@@ 1anfdlvunbt
+Interviewers care about how you think and communicate, not only about the final code.

@@ -1,0 +1,55 @@
+1ndnrqi3172 ¦ Eco no Salão ¦ Eco en el Salón
+r6wofeef7r ¦ O Salão da Guilda do PHP constrói as páginas de metade da web. Seu primeiro trabalho: dizer olá. ¦ El Salón del Gremio de PHP construye las páginas de media web. Tu primer trabajo: saludar.
+ungq24s809 ¦ Imprima `Hello, Guildhall!` na primeira linha e `PHP builds the web.` na segunda. ¦ Imprime `Hello, Guildhall!` en la primera línea y `PHP builds the web.` en la segunda.
+1z8uitttm1p ¦ Não esqueça o `;` no fim de cada linha. ¦ No olvides el `;` al final de cada línea.
+8s71syrpix ¦ Imprime "Hello, Guildhall!" ¦ Imprime "Hello, Guildhall!"
+1gnqubrt3rh ¦ Depois "PHP builds the web." ¦ Después "PHP builds the web."
+sfm7iu3zej ¦ Dólares e Pontos ¦ Dólares y Puntos
+1kiy8cqdeuz ¦ Os membros da guilda pagam taxas. Guarde os nomes e as moedas deles em variáveis. ¦ Los miembros del gremio pagan cuotas. Guarda sus nombres y monedas en variables.
+13uulmi1fj0 ¦ Crie `$member` = `"Bors"` e `$dues` = 25. Some 15 a `$dues`. Imprima exatamente `Bors paid 40 coins`. ¦ Crea `$member` = `"Bors"` y `$dues` = 25. Suma 15 a `$dues`. Imprime exactamente `Bors paid 40 coins`.
+1phxtzoj4v6 ¦ $member é "Bors" ¦ $member es "Bors"
+2fzt39um1g0 ¦ $dues é 40 ¦ $dues es 40
+z5x6dftrne ¦ Imprime "Bors paid 40 coins" ¦ Imprime "Bors paid 40 coins"
+1pktv8vb3yx ¦ As Regras de Patente ¦ Las Reglas de Rango
+kvcgz2c22j ¦ A guilda dá patentes por pontos de experiência. ¦ El gremio da rangos según los puntos de experiencia.
+2ax7voz9xtl ¦ Escreva `rank($xp)`: `"apprentice"` abaixo de 50, `"journeyman"` de 50 a 99, `"master"` a partir de 100. ¦ Escribe `rank($xp)`: `"apprentice"` por debajo de 50, `"journeyman"` de 50 a 99, `"master"` desde 100.
+10x7xy5pilu ¦ Comece pelo maior: `if ($xp >= 100)` ¦ Empieza por el mayor: `if ($xp >= 100)`
+1g2hnyuofa5 ¦ rank(10) é "apprentice" ¦ rank(10) es "apprentice"
+1z60awjkxa3 ¦ rank(50) e rank(99) são "journeyman" ¦ rank(50) y rank(99) son "journeyman"
+1mepr0n1qyf ¦ rank(100) é "master" ¦ rank(100) es "master"
+tkzqxpdsjp ¦ A Chamada ¦ El Pase de Lista
+shssgjyzwf ¦ Toda manhã o mestre da guilda lê a lista de membros. ¦ Cada mañana el maestro del gremio lee la lista de miembros.
+1o9kgb10rd3 ¦ Adicione `"Eryn"` a `$members`, depois imprima cada membro como `<number>. <name>` começando em 1 e, no fim, `Total: <count>`. ¦ Añade `"Eryn"` a `$members`, luego imprime cada miembro como `<number>. <name>` empezando en 1 y, al final, `Total: <count>`.
+1amlofclubf ¦ Imprime "1. Ada" primeiro ¦ Imprime "1. Ada" primero
+21p0w52gga2 ¦ Imprime "4. Eryn" ¦ Imprime "4. Eryn"
+ky0388dd10 ¦ Termina com "Total: 4" ¦ Termina con "Total: 4"
+gxa6e98my3 ¦ Usa foreach ¦ Usa foreach
+21tmewc3h2j ¦ O Livro-Caixa da Guilda ¦ El Libro de Cuentas del Gremio
+c1iw8fdxs3 ¦ arrays associativos ¦ arrays asociativos
+23i4vl99tyb ¦ O tesoureiro guarda as moedas de cada membro em um array associativo. ¦ El tesorero guarda las monedas de cada miembro en un array asociativo.
+1y7vrnorokc ¦ Escreva `richest($coins)`, que retorna o **nome** com mais moedas, e `total($coins)`, que retorna a soma de todas as moedas. ¦ Escribe `richest($coins)`, que devuelve el **nombre** con más monedas, y `total($coins)`, que devuelve la suma de todas las monedas.
+ix1ube1e48 ¦ `array_sum($coins)` soma os valores ¦ `array_sum($coins)` suma los valores
+251a76iza2p ¦ Percorra e lembre o melhor até agora, ou use `array_search(max($coins), $coins)` ¦ Recorre y recuerda el mejor hasta ahora, o usa `array_search(max($coins), $coins)`
+24hgkk4agq9 ¦ richest(...) é "Bors" ¦ richest(...) es "Bors"
+1n2rnspdyq1 ¦ total(...) é 165 ¦ total(...) es 165
+14nil3613k3 ¦ Páginas Seguras ¦ Páginas Seguras
+2578i2izja0 ¦ funções de string ¦ funciones de cadenas
+2dqwamxi6ko ¦ Um brincalhão escreveu `<script>` no nome para atacar o site da guilda. Defenda-o! ¦ Un bromista escribió `<script>` en su nombre para atacar la web del gremio. ¡Defiéndela!
+1kgmi3ahshm ¦ Escreva `greeting($name)`, que remove os espaços de `$name`, escapa com `htmlspecialchars` e retorna `<p>Welcome, NAME!</p>`. ¦ Escribe `greeting($name)`, que quita los espacios de `$name`, lo escapa con `htmlspecialchars` y devuelve `<p>Welcome, NAME!</p>`.
+1jhht6jw4zn ¦ greeting("  Ada ") é <p>Welcome, Ada!</p> ¦ greeting("  Ada ") es <p>Welcome, Ada!</p>
+4n2jvke32w ¦ Um nome com <script> é escapado ¦ Un nombre con <script> se escapa
+ie4c7wt62n ¦ A Classe Member ¦ La Clase Member
+1ynfdxs9c18 ¦ A guilda está crescendo: hora de modelar os membros como objetos. ¦ El gremio está creciendo: es hora de modelar a los miembros como objetos.
+d5n9f70qfx ¦ Termine `Member`: `train($points)` soma XP (ignore pontos negativos), `level()` retorna `intdiv(xp, 100) + 1`. ¦ Termina `Member`: `train($points)` suma XP (ignora los puntos negativos), `level()` devuelve `intdiv(xp, 100) + 1`.
+16lbpg77z4p ¦ Um membro novo é nível 1 ¦ Un miembro nuevo es nivel 1
+viixx7eifz ¦ 150 XP dão nível 2 ¦ 150 XP dan nivel 2
+beph71tvb9 ¦ Pontos negativos são ignorados ¦ Los puntos negativos se ignoran
+273ah08j0ag ¦ 200 XP dão nível 3 ¦ 200 XP dan nivel 3
+1iysi5xu8bk ¦ Projeto: O Quadro da Guilda ¦ Proyecto: El Tablón del Gremio
+24h063obfac ¦ arrays de arrays ¦ arrays de arrays
+nh4fgd4xye ¦ saída HTML ¦ salida HTML
+1r6j0eezbgq ¦ A guilda quer uma página web que liste as missões, a melhor recompensa primeiro. Muitos sites PHP reais são feitos exatamente assim. ¦ El gremio quiere una página web que liste las misiones, la mejor recompensa primero. Muchas webs PHP reales se hacen exactamente así.
+1ricl9ucah5 ¦ Escreva `board($quests)`, que retorna uma lista HTML: `<ul>`, depois um `<li>TITLE: REWARD gold</li>` por missão **aberta** (`done` é false), ordenadas pela recompensa, a maior primeiro, e então `</ul>`. Escape os títulos com `htmlspecialchars`. ¦ Escribe `board($quests)`, que devuelve una lista HTML: `<ul>`, luego un `<li>TITLE: REWARD gold</li>` por cada misión **abierta** (`done` es false), ordenadas por recompensa, la mayor primero, y después `</ul>`. Escapa los títulos con `htmlspecialchars`.
+1adkxjqaj7k ¦ Só as missões abertas aparecem ¦ Solo aparecen las misiones abiertas
+zksl12ax82 ¦ Maior recompensa primeiro ¦ Mayor recompensa primero
+abnjwzhgqm ¦ HTML exato com títulos escapados ¦ HTML exacto con títulos escapados

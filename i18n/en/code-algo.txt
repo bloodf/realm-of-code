@@ -1,0 +1,307 @@
+@@ 1nq6mtmzx4s
+The Tallest Tower
+@@ 276sw9vvxqg
+tracking the best so far
+@@ 1x30k4mq6g6
+The tower keeper wants the tallest tower in the kingdom, without using Math.max. Interviewers love this one.
+@@ e1gpiog4qr
+Walk through the array once and remember the **best so far**:
+
+```
+function smallest(nums) {
+  let best = nums[0];
+  for (const n of nums) {
+    if (n < best) best = n;
+  }
+  return best;
+}
+```
+One pass over n items is **O(n)** (linear time).
+@@ 1diex9lmgbp
+Write `tallest(heights)` that returns the biggest number **without** `Math.max` or `sort`. Return `null` for an empty array.
+@@ 4pljsckkz0
+Start with `let best = heights[0];`
+@@ x1ek4zld09
+Handle `heights.length === 0` first.
+@@ y7s163353m
+tallest([3, 9, 2, 7]) is 9
+@@ 1b18g1io2q9
+Works with negative numbers
+@@ 1te9oraeh15
+Starting from 0 is a classic bug: start from the first item.
+@@ amzw7y7xyo
+An empty array gives null
+@@ pi93hojo9f
+No Math.max or sort
+@@ 2ghkq7vmf6t
+The Binary Search
+@@ 1fg6pvlb75l
+binary search
+@@ 1rc8y6c7otm
+O(log n)
+@@ fsef75m954
+sorted arrays
+@@ 5co1yoduu3
+The royal archive has a million scrolls, sorted by number. Reading them one by one would take forever.
+@@ lv5gml4xia
+In a **sorted** array, look at the middle: if the target is bigger, throw away the left half, else the right half. Repeat. That is **O(log n)**: a million items need about 20 steps.
+
+```
+let lo = 0, hi = arr.length - 1;
+while (lo <= hi) {
+  const mid = Math.floor((lo + hi) / 2);
+  if (arr[mid] === target) return mid;
+  if (arr[mid] < target) lo = mid + 1; else hi = mid - 1;
+}
+return -1;
+```
+@@ 1jb3abnjiwx
+Write `binarySearch(arr, target)` that returns the index of `target` in the sorted array `arr`, or `-1`. It must not use `indexOf`, `includes` or `find`.
+@@ xo23zrn01a
+Loop while `lo <= hi`.
+@@ mvmyarpbbw
+big, 1998
+@@ xntkl8i5ru
+big, 0
+@@ 14uahtsfwbx
+Finds 7 at index 3
+@@ yfiyto403p
+Returns -1 when missing
+@@ xqyck9c322
+Works at both ends of a long array
+@@ 9r61zm8v4z
+No indexOf, includes or find
+@@ gr5n06cjwv
+Palindrome Mirror
+@@ 1hayve3dbkr
+two pointers
+@@ 1l7mk25fidv
+normalising input
+@@ q36i6khrrz
+The magic mirror only opens for words that read the same both ways: "Racecar", "Was it a cat I saw?".
+@@ 3dkt0oys4
+Clean the text first (lower case, only letters), then compare from both ends with **two pointers**:
+
+```
+const clean = text.toLowerCase().replace(/[^a-z]/g, "");
+let i = 0, j = clean.length - 1;
+while (i < j) {
+  if (clean[i] !== clean[j]) return false;
+  i++; j--;
+}
+return true;
+```
+@@ 28snmv1n1p5
+Write `isPalindrome(text)` that ignores case, spaces and punctuation.
+@@ 1fhg08sq5lo
+Compare `clean[i]` with `clean[clean.length - 1 - i]`.
+@@ 7s0j4bngha
+"Was it a cat I saw?"
+@@ wrmqxtdht4
+"Racecar" is a palindrome
+@@ t3ozmqaz8n
+"Was it a cat I saw?" is a palindrome
+@@ zq7up7wdg2
+"Dragon" is not
+@@ yc9vw0ruit
+An empty text is a palindrome
+@@ bdq6684rap
+Counting Runes
+@@ vn1kxcr9ki
+hash maps
+@@ 1vpbf73lzsb
+objects as counters
+@@ 1ung4icwrvj
+Map
+@@ 1hunrn5o2yf
+The rune master wants to know which rune appears most in a spell.
+@@ 9dnp4t3swb
+A **hash map** (an object or a `Map`) counts things in one pass, **O(n)**:
+
+```
+const counts = {};
+for (const ch of word) {
+  counts[ch] = (counts[ch] || 0) + 1;
+}
+```
+@@ 1wq76zsmf0d
+Write `countRunes(spell)` that returns an object with how many times each character appears (ignore spaces). Then write `mostCommon(spell)` that returns the most frequent character (the first one found on a tie).
+@@ 292rz05vlu8
+Skip spaces: `if (ch === " ") continue;`
+@@ 1nc3s931xvp
+For mostCommon, loop over the counts and keep the best.
+@@ g9fn9jhbss
+"abba c"
+@@ 1v3csofsopj
+"hello world"
+@@ ipgf2noh0v
+countRunes("abba c") is {a: 2, b: 2, c: 1}
+@@ 2etqhdirpuo
+mostCommon("hello world") is "l"
+@@ 1x7jc9qfust
+Ties keep the first one found
+@@ kayfbdof0c
+Two Sum
+@@ zov0vrwqcm
+interview classic
+@@ w9sti9fq2c
+A merchant wants two items whose prices add up exactly to the gold in his purse. Maybe the most asked interview question ever!
+@@ u75k3q1vgb
+The slow way checks every pair: **O(n²)**. The fast way remembers what you have seen in a `Map`: for each price, is `target - price` already there? **O(n)**.
+
+```
+const seen = new Map();   // price -> index
+for (let i = 0; i < prices.length; i++) {
+  const need = target - prices[i];
+  if (seen.has(need)) return [seen.get(need), i];
+  seen.set(prices[i], i);
+}
+```
+@@ 2dk27y3awg0
+Write `twoSum(prices, target)` that returns the two indexes `[i, j]` (i < j) whose prices add up to `target`, or `null`. Use a `Map` or an object (one pass).
+@@ tk52o6t5ad
+Check the map before adding the current price.
+@@ 3qi5hxefxg
+twoSum([2, 7, 11, 15], 9) is [0, 1]
+@@ d2wn3cz0y1
+No answer gives null
+@@ qtxa5u4lfy
+Equal prices work: [5, 5] → [0, 1]
+@@ fqm8ne3ziy
+Uses a Map or an object (one pass)
+@@ gi196mdnda
+Balanced Brackets
+@@ 293xx7u9key
+Every spell must close what it opens: ( ) [ ] { }. Your code editor does this check all the time!
+@@ 2d6u7w41gl2
+A **stack** is last in, first out (like a pile of plates). Push every opening bracket; on a closing bracket, pop and check it matches:
+
+```
+const stack = [];
+stack.push("(");
+stack.pop();   // "("
+```
+@@ 293eu2p5l1k
+Write `balanced(text)` that returns `true` when every `(`, `[` and `{` is closed in the right order. Other characters are ignored.
+@@ 1fufhm6if89
+On a closing bracket: `if (stack.pop() !== pairs[ch]) return false;`
+@@ 7yk5cidkre
+At the end the stack must be empty.
+@@ 13vji2xo6uy
+"no brackets"
+@@ 23yfcugjl6c
+"f(a[1]) { x }" is balanced
+@@ 20a7mjtcfdc
+"([)]" is not (wrong order)
+@@ 1pdqz2gze7c
+Unclosed or extra brackets are not balanced
+@@ 1srgqgbqjgj
+Text without brackets is balanced
+@@ 191oza2o3oh
+Recursion Echoes
+@@ nvq5xp2adg
+base case
+@@ wf989tovjh
+call stack
+@@ 1v2xz4nnuqw
+In the echo chamber, a voice calls a smaller copy of itself until it becomes silent.
+@@ 3md98ej428
+A **recursive** function calls itself with a smaller problem, and has a **base case** that stops:
+
+```
+function countdown(n) {
+  if (n === 0) return;   // base case
+  console.log(n);
+  countdown(n - 1);
+}
+```
+Without a base case it runs forever (stack overflow).
+@@ fjov3nuslx
+Write **recursive** `factorial(n)` (n! = n × (n-1) × ... × 1, and 0! = 1) and `sumDigits(n)` (1234 → 10). Both must call themselves.
+@@ vyopr3o0yg
+factorial(5) is 120 and factorial(0) is 1
+@@ 9dcfnhndoz
+sumDigits(1234) is 10, sumDigits(7) is 7
+@@ 2ar7pai2cyn
+Both functions are recursive
+@@ 2ahyl2o090n
+Sorting the Heroes
+@@ 1xnf6dzfext
+sort with a comparator
+@@ 18z4yism9ih
+stable sort
+@@ l7t6gs42yl
+multiple keys
+@@ w7scb53eh
+The king wants the leaderboard: highest level first; same level, alphabetical by name.
+@@ evjebt0nzy
+`array.sort()` sorts **text** by default: `[10, 9, 1].sort()` gives `[1, 10, 9]`! Give it a **comparator**:
+
+```
+nums.sort((a, b) => a - b);          // ascending numbers
+heroes.sort((a, b) => b.level - a.level || a.name.localeCompare(b.name));
+```
+Return a negative number to put `a` first.
+@@ 1n64i9ucbbw
+Write `leaderboard(heroes)` that returns a **new** array (do not change the original) sorted by `level` (highest first), then by `name` (A to Z).
+@@ 9u6tcch7h0
+Copy first: `[...heroes]`
+@@ 1gil93g12lo
+Order is Ada, Cyra, Bors, Dax
+@@ orrr6cz6mo
+Dax
+@@ z3fmjlu997
+The original array is not changed
+@@ 1yrvbb1j4tk
+sort() changes the array in place: sort a copy.
+@@ 7ufo90s3fb
+The Castle Queue
+@@ wj25ie1l0w
+Visitors wait at the castle gate. VIPs (level 10+) can skip ahead of normal visitors, but keep their order among VIPs.
+@@ 1bfmvbd6t5o
+A **queue** is first in, first out: add with `push`, take the first with `shift`.
+
+```
+const queue = ["Ada", "Bors"];
+queue.push("Cyra");
+const next = queue.shift();   // "Ada"
+```
+@@ wa8pghw5et
+Write `admitOrder(visitors)` that returns the names in the order they enter: all visitors with `level >= 10` first (keeping their order), then the others (keeping their order).
+@@ 1n9ckyhwdhb
+Two queues: `vips` and `others`.
+@@ 26mx01dxurg
+[{ name: "Ada", level: 3 }, { name: "Bors", level: 12 }, { name: "Cyra", level: 1 }, { name: "Dax", level: 10 }]
+@@ 29kqa0lzvv
+Order is Bors, Dax, Ada, Cyra
+@@ ncnwbyy6uw
+Project: The Merchant's Ledger
+@@ eki7vlc5lm
+merging sorted arrays
+@@ ur1l0tihk6
+dedupe with Set
+@@ gqfx352t24
+Two merchants merge their ledgers. Both are already sorted by day. Build the tools to combine and summarise them, fast.
+@@ 10hfmdcamua
+Merging two **sorted** arrays takes one pass with two pointers (O(n + m)), much faster than joining and sorting again.
+
+```
+const out = [];
+let i = 0, j = 0;
+while (i < a.length && j < b.length) out.push(a[i].day <= b[j].day ? a[i++] : b[j++]);
+while (i < a.length) out.push(a[i++]);
+while (j < b.length) out.push(b[j++]);
+```
+A `Set` keeps unique values: `[...new Set(list)]`.
+@@ yzdg4sm5ll
+Write `merge(a, b)` (two arrays of `{day, item, gold}` sorted by day → one sorted array, two pointers, no `sort`), `uniqueItems(entries)` (the item names without duplicates, in first-seen order) and `goldByItem(entries)` (an object `{item: total gold}`).
+@@ 1awdik1nycf
+Use `<=` so that on equal days `a` comes first.
+@@ 2dp3v3qzj00
+merge keeps day order (a first on equal days)
+@@ 21t8jnt41d3
+uniqueItems has no duplicates
+@@ 1oyo7cg68xt
+goldByItem sums gold per item
+@@ 1edy43cj7bq
+merge does not call sort

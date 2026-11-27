@@ -1,0 +1,180 @@
+@@ 5dc1a5gsub
+
+**Ideias principais**
+- `print("Hello")` mostra um texto. Texto é uma **string**, entre aspas.
+- Variáveis: `name = "Ada"` (sem `let`, sem `;`). Os nomes usam `snake_case`.
+- Números: `int` (7) e `float` (7.5). Matemática: `+ - * / // % **`.
+- f-strings: `f"{name} has {gold} gold"`. Comentários começam com `#`.
+- O Python é usado em sites (Django, Flask, FastAPI), ciência de dados, automação e IA.
+~~
+
+**Ideas clave**
+- `print("Hello")` muestra un texto. El texto es un **string**, entre comillas.
+- Variables: `name = "Ada"` (sin `let`, sin `;`). Los nombres usan `snake_case`.
+- Números: `int` (7) y `float` (7.5). Matemáticas: `+ - * / // % **`.
+- f-strings: `f"{name} has {gold} gold"`. Los comentarios empiezan con `#`.
+- Python se usa en sitios web (Django, Flask, FastAPI), ciencia de datos, automatización e IA.
+@@ w3a6evewst
+O Python é uma das linguagens mais populares do mundo. Ele se lê quase como inglês:
+
+[[1]]
+As pessoas o usam para criar **sites** (Django, FastAPI), analisar **dados**, **automatizar** tarefas chatas e treinar modelos de **IA**.
+~~
+Python es uno de los lenguajes más populares del mundo. Se lee casi como inglés:
+
+[[1]]
+La gente lo usa para crear **sitios web** (Django, FastAPI), analizar **datos**, **automatizar** tareas aburridas y entrenar modelos de **IA**.
+@@ 1aie6142lt8
+[[1]]
+Os nomes de variáveis usam **snake_case**: `max_health`, `book_count`. Strings podem usar aspas duplas `"double"` ou simples `'single'`.
+~~
+[[1]]
+Los nombres de variables usan **snake_case**: `max_health`, `book_count`. Los strings pueden usar comillas dobles `"double"` o simples `'single'`.
+@@ 1lr1a9pndsf
+[[1]]
+`int("42")` transforma texto em número, `str(42)` transforma número em texto.
+~~
+[[1]]
+`int("42")` convierte texto en número, `str(42)` convierte un número en texto.
+@@ 1f7ou955ldz
+[[1]]
+`input("Your name? ")` pede para o usuário digitar algo (sempre retorna uma string).
+~~
+[[1]]
+`input("Your name? ")` le pide al usuario que escriba algo (siempre devuelve un string).
+@@ 1t62ndyct1r
+
+**Ideias principais**
+- Booleanos: `True` e `False` (com maiúscula!).
+- Comparar: `== != < > <= >=`. Combinar: `and`, `or`, `not`.
+- `if` / `elif` / `else`: a linha termina com `:` e o bloco é **indentado** com 4 espaços.
+- Em Python a indentação não é estilo: é a sintaxe.
+~~
+
+**Ideas clave**
+- Booleanos: `True` y `False` (¡con mayúscula!).
+- Comparar: `== != < > <= >=`. Combinar: `and`, `or`, `not`.
+- `if` / `elif` / `else`: la línea termina con `:` y el bloque va **sangrado** con 4 espacios.
+- En Python la sangría no es estilo: es la sintaxis.
+@@ 1hw59x824cr
+[[1]]
+Em Python, `True` e `False` começam com **letra maiúscula**.
+~~
+[[1]]
+En Python, `True` y `False` empiezan con **mayúscula**.
+@@ 2el78g5adg6
+[[1]]
+Cada linha de condição termina com **`:`**. O código de dentro é **indentado** com 4 espaços.
+~~
+[[1]]
+Cada línea de condición termina con **`:`**. El código de dentro va **sangrado** con 4 espacios.
+@@ 51e5cqnjwe
+Num `if`, coisas vazias contam como **False**: `0`, `""`, `[]`, `{}`, `None`. Todo o resto é **True**.
+
+[[1]]
+`None` significa "sem valor" (como `null`).
+~~
+En un `if`, las cosas vacías cuentan como **False**: `0`, `""`, `[]`, `{}`, `None`. Todo lo demás es **True**.
+
+[[1]]
+`None` significa "sin valor" (como `null`).
+@@ 28ko3coqhjz
+
+**Ideias principais**
+- `for item in list:` visita cada item. `for i in range(5):` conta de 0 a 4.
+- `range(start, stop, step)`: o stop **não** é incluído.
+- `while condition:` repete até a condição ficar falsa (garanta que ela muda!).
+- `break` sai do loop, `continue` pula para a próxima volta.
+~~
+
+**Ideas clave**
+- `for item in list:` visita cada elemento. `for i in range(5):` cuenta de 0 a 4.
+- `range(start, stop, step)`: el stop **no** se incluye.
+- `while condition:` repite hasta que la condición sea falsa (¡asegúrate de que cambia!).
+- `break` sale del bucle, `continue` salta a la siguiente vuelta.
+@@ uj8g9fn5qe
+
+**Ideias principais**
+- **list** `[1, 2, 3]`: ordenada, pode mudar. `append`, `remove`, `len`, `[0]`, `[-1]`, fatias `[1:3]`.
+- **dict** `{"key": value}`: busca pela chave. `.get()`, `.items()`, `in`.
+- **tuple** `(x, y)`: como uma lista que não muda. **set** `{1, 2}`: valores únicos.
+- Compreensões: `[x * 2 for x in nums if x > 0]`.
+~~
+
+**Ideas clave**
+- **list** `[1, 2, 3]`: ordenada, se puede cambiar. `append`, `remove`, `len`, `[0]`, `[-1]`, porciones `[1:3]`.
+- **dict** `{"key": value}`: busca por clave. `.get()`, `.items()`, `in`.
+- **tuple** `(x, y)`: como una lista que no cambia. **set** `{1, 2}`: valores únicos.
+- Comprensiones: `[x * 2 for x in nums if x > 0]`.
+@@ fxdwclam6c
+[[1]]
+Dicionários são como objetos JSON.
+~~
+[[1]]
+Los diccionarios son como objetos JSON.
+@@ 1kwq514cmvz
+
+**Ideias principais**
+- `def name(params):` e depois um corpo indentado. `return` devolve um valor.
+- Valores padrão: `def greet(name, title="reader"):`. Chame com palavras-chave: `greet(title="sir", name="Ada")`.
+- Variáveis criadas dentro de uma função são **locais**.
+- `import math`, `from random import choice`. Instale pacotes com `pip install` e mantenha-os num **ambiente virtual** (`python -m venv .venv`).
+~~
+
+**Ideas clave**
+- `def name(params):` y luego un cuerpo sangrado. `return` devuelve un valor.
+- Valores por defecto: `def greet(name, title="reader"):`. Llama con palabras clave: `greet(title="sir", name="Ada")`.
+- Las variables creadas dentro de una función son **locales**.
+- `import math`, `from random import choice`. Instala paquetes con `pip install` y guárdalos en un **entorno virtual** (`python -m venv .venv`).
+@@ 1affqv06d22
+[[1]]
+Uma função sem `return` devolve `None`.
+~~
+[[1]]
+Una función sin `return` devuelve `None`.
+@@ ri35wycbaq
+[[1]]
+O Python vem com uma grande **biblioteca padrão**. Outros pacotes vêm do **PyPI** com `pip install requests`. Mantenha os pacotes de cada projeto num **ambiente virtual**:
+
+[[2]]
+~~
+[[1]]
+Python trae una gran **biblioteca estándar**. Otros paquetes vienen de **PyPI** con `pip install requests`. Guarda los paquetes de cada proyecto en un **entorno virtual**:
+
+[[2]]
+@@ agkbdlv7q3
+
+**Ideias principais**
+- Erros têm nomes: `ValueError`, `KeyError`, `IndexError`, `TypeError`, `ZeroDivisionError`.
+- Capture-os com `try:` / `except ValueError:`. `raise ValueError("why")` cria o seu.
+- Classes: `class Book:` com `__init__(self, ...)` e métodos que recebem `self`.
+- Teste com `assert` ou **pytest**: `def test_area(): assert area(2, 3) == 6`.
+~~
+
+**Ideas clave**
+- Los errores tienen nombre: `ValueError`, `KeyError`, `IndexError`, `TypeError`, `ZeroDivisionError`.
+- Captúralos con `try:` / `except ValueError:`. `raise ValueError("why")` lanza el tuyo.
+- Clases: `class Book:` con `__init__(self, ...)` y métodos que reciben `self`.
+- Prueba con `assert` o **pytest**: `def test_area(): assert area(2, 3) == 6`.
+@@ 2fj1n8odri6
+[[1]]
+Sem `try`, o programa quebraria com um **traceback**. Leia os tracebacks de baixo para cima: a última linha diz o que deu errado.
+~~
+[[1]]
+Sin `try`, el programa fallaría con un **traceback**. Lee los tracebacks de abajo arriba: la última línea dice qué salió mal.
+@@ 224qcgl7nuy
+[[1]]
+`__init__` roda quando o objeto é criado. `self` é o próprio objeto.
+~~
+[[1]]
+`__init__` se ejecuta al crear el objeto. `self` es el propio objeto.
+@@ so2qn78bq9
+Código Python profissional tem **testes**:
+
+[[1]]
+Rode `pytest` no terminal: ele encontra arquivos chamados `test_*.py` e roda cada função `test_`.
+~~
+El código Python profesional tiene **pruebas**:
+
+[[1]]
+Ejecuta `pytest` en la terminal: encuentra los archivos llamados `test_*.py` y ejecuta cada función `test_`.

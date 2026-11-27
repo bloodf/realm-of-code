@@ -1,0 +1,161 @@
+1n6sqc5yhiw ¦ SQL e Bancos de Dados ¦ SQL y Bases de Datos
+166pqo659iu ¦ Os Arquivos Reais ¦ Los Archivos Reales
+s9t6axhity ¦ Guarde e consulte dados com SQL: SELECT, WHERE, ORDER BY, agregações, JOINs, alteração de dados, desenho de tabelas e NoSQL. ¦ Guarda y consulta datos con SQL: SELECT, WHERE, ORDER BY, agregaciones, JOINs, cambios de datos, diseño de tablas y NoSQL.
+n32af32kz4 ¦ Lendo Dados ¦ Leer Datos
+1qo2lpmmzrp ¦ Tabelas, SELECT e WHERE. ¦ Tablas, SELECT y WHERE.
+f5xlsre4gb ¦ Tabelas e bancos de dados ¦ Tablas y bases de datos
+1hnsmc2rlda ¦ Uma grade de dados relacionados ¦ Una cuadrícula de datos relacionados
+17t2y31q9qd ¦ Um registro (um cavaleiro) ¦ Un registro (un caballero)
+2cjfes47ji ¦ Um campo (como level) ¦ Un campo (como level)
+2cu94yoieus ¦ A linguagem para consultá-lo ¦ El lenguaje para consultarla
+1ek2xgl7bkp ¦ Qual destes é um banco de dados relacional? ¦ ¿Cuál de estas es una base de datos relacional?
+e9g4xr5tsb ¦ SQL é usado por desenvolvedores backend, analistas de dados e muitos outros. ¦ SQL lo usan desarrolladores backend, analistas de datos y muchos otros.
+13cwiwvjs64 ¦ Pedindo colunas ¦ Pedir columnas
+q81pdiyb7u ¦ Pegue o nome e o ouro de todos os cavaleiros ¦ Obtén el nombre y el oro de todos los caballeros
+dy3ugkzs7b ¦ O que `*` significa em `SELECT *`? ¦ ¿Qué significa `*` en `SELECT *`?
+cmx4etglnm ¦ Todas as colunas ¦ Todas las columnas
+seldx99fpu ¦ Todas as tabelas ¦ Todas las tablas
+2al9zbmffz ¦ A lista completa ¦ La lista completa
+10mfgl5qxy0 ¦ Mostre **todas as colunas** de todos os cavaleiros da tabela `knights`. ¦ Muestra **todas las columnas** de todos los caballeros de la tabla `knights`.
+zvc1slxqos ¦ Nomes e níveis ¦ Nombres y niveles
+1q5vz7oujm2 ¦ Mostre só o `name` e o `level` de todos os cavaleiros. ¦ Muestra solo el `name` y el `level` de todos los caballeros.
+244vrr1o4n5 ¦ Liste as colunas depois do SELECT, separadas por vírgula. ¦ Enumera las columnas después de SELECT, separadas por comas.
+2cr6pffcnj8 ¦ Filtrando linhas ¦ Filtrar filas
+11yd447tzpm ¦ Quais cavaleiros isto retorna? ¦ ¿Qué caballeros devuelve esto?
+160szlnef5r ¦ Dax e Finn ¦ Dax y Finn
+2d43prm63gy ¦ Ada e Bors ¦ Ada y Bors
+13akj2iobff ¦ No SQL padrão, valores de texto usam aspas simples: `'Ada'`. Aspas duplas são para nomes de colunas. ¦ En SQL estándar, los valores de texto usan comillas simples: `'Ada'`. Las comillas dobles son para nombres de columnas.
+sc9mkvcozy ¦ Ligue a condição ¦ Une cada condición
+1jfvxt8lgj4 ¦ Começa com C ¦ Empieza por C
+18fmea5874p ¦ Não tem casa ¦ No tiene casa
+1w2sd2oqd2g ¦ Nível 1, 2 ou 3 ¦ Nivel 1, 2 o 3
+1glo8vzrt2n ¦ O ouro não é 0 ¦ El oro no es 0
+1c9z4o1yxyl ¦ Casa Lovelace ¦ Casa Lovelace
+hin8n556xw ¦ Mostre o `name` de todos os cavaleiros da casa **1** (Lovelace). A casa fica guardada na coluna `house_id`. ¦ Muestra el `name` de todos los caballeros de la casa **1** (Lovelace). La casa se guarda en la columna `house_id`.
+ynkdqlxdyx ¦ Os veteranos ¦ Los veteranos
+8u0ovti81x ¦ Mostre o `name` e o `level` dos cavaleiros com nível **9 ou mais**. ¦ Muestra el `name` y el `level` de los caballeros con nivel **9 o más**.
+1h0scuy2v53 ¦ Missões que valem a pena ¦ Misiones que merecen la pena
+po05oient7 ¦ Mostre o `title` e a `reward` das missões **não concluídas** (`done = 0`) que pagam **mais de 100**. ¦ Muestra el `title` y la `reward` de las misiones **no hechas** (`done = 0`) que pagan **más de 100**.
+xo45rc2vly ¦ Combine duas condições com AND. ¦ Combina dos condiciones con AND.
+po9iv8otzy ¦ Ordenação e Resumos ¦ Ordenar y Resumir
+1ltbeh1lihq ¦ ORDER BY, LIMIT, COUNT, SUM, AVG, GROUP BY. ¦ ORDER BY, LIMIT, COUNT, SUM, AVG, GROUP BY.
+2b1dzze4as0 ¦ ORDER BY e LIMIT ¦ ORDER BY y LIMIT
+1yptyemsi2y ¦ O topo da lista ¦ Lo más alto de la lista
+j45qr0wexb ¦ Qual ordena do nível mais alto para o mais baixo? ¦ ¿Cuál ordena del nivel más alto al más bajo?
+24yngwtc3fi ¦ Coloque as cláusulas na ordem certa ¦ Pon las cláusulas en el orden correcto
+2gmaxea4qft ¦ Os três mais ricos ¦ Los tres más ricos
+1yfan6nnepu ¦ Mostre o `name` e o `gold` dos **3 cavaleiros mais ricos**, do mais rico para o menos. ¦ Muestra el `name` y el `gold` de los **3 caballeros más ricos**, primero el más rico.
+jqrmb600r0 ¦ ORDER BY gold DESC e depois LIMIT 3. ¦ ORDER BY gold DESC y luego LIMIT 3.
+1k0h7lxw9a0 ¦ Contando e somando ¦ Contar y sumar
+1o3np3avhaa ¦ Agregações ¦ Agregaciones
+auam932n2 ¦ Número de linhas ¦ Número de filas
+1i2mfrn2642 ¦ Total ¦ Total
+21av7w60aiy ¦ Média ¦ Media
+i49zhz9pvd ¦ Maior valor ¦ Valor más grande
+u9xxjtrdw ¦ Conte os cavaleiros ¦ Cuenta los caballeros
+20zdg18qrgm ¦ Quantos cavaleiros existem? Retorne um único número com `COUNT(*)`. ¦ ¿Cuántos caballeros hay? Devuelve un solo número con `COUNT(*)`.
+37astxf8qk ¦ O tesouro ¦ El tesoro
+jsitax1uiq ¦ Qual é o **ouro total** de todos os cavaleiros? Retorne um valor chamado `total_gold`. ¦ ¿Cuál es el **oro total** de todos los caballeros? Devuelve un valor llamado `total_gold`.
+176o52zvv10 ¦ GROUP BY e HAVING ¦ GROUP BY y HAVING
+gepev34lqp ¦ Uma linha por grupo ¦ Una fila por grupo
+qx0dplqqxv ¦ Qual é a diferença entre WHERE e HAVING? ¦ ¿Qué diferencia hay entre WHERE y HAVING?
+1nghck2mppy ¦ WHERE filtra linhas, HAVING filtra grupos ¦ WHERE filtra filas, HAVING filtra grupos
+mp2qhoezfj ¦ São iguais ¦ Son iguales
+1t4o0wo5jjb ¦ HAVING é só para texto ¦ HAVING es solo para texto
+17kdtbg6rxf ¦ WHERE só funciona com GROUP BY ¦ WHERE solo funciona con GROUP BY
+31gqwnguch ¦ Cavaleiros por casa ¦ Caballeros por casa
+243x0q3ipm1 ¦ Para cada `house_id`, mostre o id da casa e **quantos cavaleiros** ela tem (cavaleiros sem casa formam um grupo próprio). ¦ Para cada `house_id`, muestra el id de la casa y **cuántos caballeros** tiene (los caballeros sin casa forman su propio grupo).
+299qq3tj2kx ¦ GROUP BY house_id e COUNT(*). ¦ GROUP BY house_id y COUNT(*).
+5afxs7trtd ¦ Casas lotadas ¦ Casas concurridas
+1nvh780dn9d ¦ Mostre o `house_id` das casas que têm **pelo menos 2** cavaleiros. ¦ Muestra el `house_id` de las casas que tienen **al menos 2** caballeros.
+5razox672m ¦ GROUP BY e depois HAVING COUNT(*) >= 2. ¦ GROUP BY y luego HAVING COUNT(*) >= 2.
+1n537zqyxp7 ¦ Juntando Tabelas ¦ Unir Tablas
+1jksyanga2r ¦ Chaves, relacionamentos, INNER JOIN e LEFT JOIN. ¦ Claves, relaciones, INNER JOIN y LEFT JOIN.
+rm4xvhrysy ¦ Chaves e relacionamentos ¦ Claves y relaciones
+u3snss6txw ¦ Ligando tabelas ¦ Conectar tablas
+2f3r4cjbenu ¦ Id único de cada linha ¦ Id único de cada fila
+bmjsjmpw3r ¦ Chave estrangeira ¦ Clave foránea
+1zwbc8fs4jc ¦ Aponta para uma linha de outra tabela ¦ Apunta a una fila de otra tabla
+2aymgvhr1wb ¦ Um-para-muitos ¦ Uno a muchos
+2cc1o9r0gus ¦ Uma casa, muitos cavaleiros ¦ Una casa, muchos caballeros
+121dw21sn4w ¦ Normalização ¦ Normalización
+n7s3bfn1p8 ¦ Guardar cada fato uma vez ¦ Guardar cada dato una sola vez
+151482rdaco ¦ Cavaleiros podem aprender muitas habilidades, e uma habilidade pode ser aprendida por muitos cavaleiros. Do que você precisa? ¦ Los caballeros pueden aprender muchas habilidades, y una habilidad la pueden aprender muchos caballeros. ¿Qué necesitas?
+jivjzp7e91 ¦ Uma tabela de junção como knight_skills (knight_id, skill_id) ¦ Una tabla intermedia como knight_skills (knight_id, skill_id)
+21opy9hx9s6 ¦ Uma coluna skills com uma lista separada por vírgulas ¦ Una columna skills con una lista separada por comas
+117asauwlv2 ¦ Uma tabela por cavaleiro ¦ Una tabla por caballero
+gdqzadpa6t ¦ Nada de especial ¦ Nada especial
+7i76jokjsn ¦ Chaves estrangeiras ajudam a manter os dados consistentes (sem missões para cavaleiros que não existem). ¦ Las claves foráneas ayudan a mantener los datos coherentes (sin misiones para caballeros que no existen).
+3krpscfl9i ¦ INNER JOIN ¦ INNER JOIN
+28h3grxnv5o ¦ Combinando linhas ¦ Combinar filas
+rixwg80bie ¦ Junte os cavaleiros às suas casas ¦ Une los caballeros con sus casas
+snrcieo9sn ¦ Missões e seus heróis ¦ Misiones y sus héroes
+1cza2zwedy9 ¦ Mostre o `title` de cada missão com o `name` do cavaleiro que a pegou. (Missões sem cavaleiro ficam de fora.) ¦ Muestra el `title` de cada misión con el `name` del caballero que la aceptó. (Las misiones sin caballero se quedan fuera.)
+1f7trddkdpq ¦ Cavaleiros e suas casas ¦ Caballeros y sus casas
+10hpf62jyvv ¦ Mostre o `name` de cada cavaleiro com o **nome da casa** dele. ¦ Muestra el `name` de cada caballero con el **nombre de su casa**.
+29afpcvc96r ¦ LEFT JOIN ¦ LEFT JOIN
+2ddppfm7gg2 ¦ Mantenha tudo o que está à esquerda ¦ Conserva todo lo de la izquierda
+uz26t3s6mc ¦ Você quer TODOS os cavaleiros, até os sem casa. Qual join? ¦ Quieres TODOS los caballeros, incluso los que no tienen casa. ¿Qué join?
+e0uz510xwc ¦ Nenhum join ¦ Ningún join
+25kzeo3nqoz ¦ Todas as missões, pegas ou não ¦ Todas las misiones, aceptadas o no
+3bvz4337ka ¦ Mostre o `title` de **todas** as missões com o `name` do cavaleiro (ou NULL se ninguém a pegou). ¦ Muestra el `title` de **todas** las misiones con el `name` del caballero (o NULL si nadie la aceptó).
+6j0tfmhbhb ¦ Cavaleiros ocupados ¦ Caballeros ocupados
+2ge1bzgdoqz ¦ Mostre o `name` de cada cavaleiro e **quantas missões** ele pegou, incluindo cavaleiros com **0** missões. ¦ Muestra el `name` de cada caballero y **cuántas misiones** aceptó, incluidos los caballeros con **0** misiones.
+pmk8v21klb ¦ LEFT JOIN quests, GROUP BY knights.id e COUNT(quests.id) (não COUNT(*), que contaria 1 para cavaleiros sem missões). ¦ LEFT JOIN quests, GROUP BY knights.id y COUNT(quests.id) (no COUNT(*), que contaría 1 para los caballeros sin misiones).
+j8l548mazr ¦ Alterando Dados e Desenho ¦ Cambiar Datos y Diseño
+1jgj8plcmzu ¦ INSERT, UPDATE, DELETE, CREATE TABLE, SQL em aplicativos e NoSQL. ¦ INSERT, UPDATE, DELETE, CREATE TABLE, SQL en aplicaciones y NoSQL.
+zmixnsk084 ¦ INSERT, UPDATE, DELETE ¦ INSERT, UPDATE, DELETE
+1k2zqajm6vo ¦ Escrevendo no arquivo ¦ Escribir en el archivo
+2d5xx0lqxkf ¦ Qual linha seria um desastre? ¦ ¿Qué línea sería un desastre?
+1kinkk4douj ¦ DELETE sem WHERE remove todas as missões. ¦ DELETE sin WHERE borra todas las misiones.
+1y91n4h6erl ¦ Bem-vinda, Gwen ¦ Bienvenida, Gwen
+1xs8az0mvog ¦ Uma nova cavaleira chega: **Gwen**, casa **3**, nível **1**, **10** de ouro. Insira-a em `knights` (o id é criado automaticamente). ¦ Llega una nueva caballera: **Gwen**, casa **3**, nivel **1**, **10** de oro. Insértala en `knights` (el id se crea automáticamente).
+1pu804e3e7s ¦ A Ada sobe de nível ¦ Ada sube de nivel
+7e53zywpp4 ¦ Aumente o nível da **Ada** em **1** (e de mais ninguém). ¦ Sube el nivel de **Ada** en **1** (y el de nadie más).
+1t3vsp1ssua ¦ Limpe as missões concluídas ¦ Borra las misiones completadas
+24tgdt54qvc ¦ Apague todas as missões **concluídas** (`done = 1`). ¦ Borra todas las misiones **hechas** (`done = 1`).
+1grbyg43wwo ¦ Desenhando tabelas ¦ Diseñar tablas
+9r5sj0upef ¦ CREATE TABLE ¦ CREATE TABLE
+s7go6dpp9y ¦ Ligue a restrição ¦ Une cada restricción
+17lzzc7anlf ¦ Id único para cada linha ¦ Id único para cada fila
+p0i7o6z59t ¦ O valor é obrigatório ¦ El valor es obligatorio
+24ko24g682n ¦ Não permite duplicados ¦ No se permiten duplicados
+o7g4ugt5f7 ¦ Precisa existir em outra tabela ¦ Debe existir en otra tabla
+1q1qj89fvl6 ¦ Por que adicionar um índice numa coluna? ¦ ¿Por qué añadir un índice a una columna?
+2srdkf8zwp ¦ Para as buscas nessa coluna ficarem muito mais rápidas ¦ Para que las búsquedas en esa columna sean mucho más rápidas
+s8t8sy5of4 ¦ Para tornar a coluna obrigatória ¦ Para hacer obligatoria la columna
+19vy130s8m ¦ Para ordenar a tabela para sempre ¦ Para ordenar la tabla para siempre
+19xm9y9szqt ¦ Para esconder a coluna ¦ Para ocultar la columna
+1pxc4iqfdlm ¦ Estábulos para cavalos ¦ Establos para caballos
+myxjbo06js ¦ Crie uma tabela `horses` com: `id` (INTEGER PRIMARY KEY), `name` (TEXT, obrigatório) e `knight_id` (INTEGER referenciando `knights(id)`). O arquivo vai adicionar um cavalo para testá-la. ¦ Crea una tabla `horses` con: `id` (INTEGER PRIMARY KEY), `name` (TEXT, obligatorio) y `knight_id` (INTEGER que referencia `knights(id)`). El archivo añadirá un caballo para probarla.
+3sglxx9icy ¦ SQL em aplicativos de verdade ¦ SQL en aplicaciones reales
+1cruhjp46xk ¦ Do Node ao banco de dados ¦ De Node a la base de datos
+zl22ys7usk ¦ Por que usar uma transação para passar ouro da Ada para o Bors? ¦ ¿Por qué usar una transacción para pasar oro de Ada a Bors?
+pwkrd5dol8 ¦ Para que as duas atualizações aconteçam, ou nenhuma ¦ Para que ocurran las dos actualizaciones, o ninguna
+1mp7ebukemq ¦ Para ficar mais rápido ¦ Para que sea más rápido
+hkyqi0tjdd ¦ Porque o UPDATE exige ¦ Porque UPDATE lo exige
+2aabnbk276i ¦ Para esconder dos outros usuários para sempre ¦ Para ocultarlo para siempre a los demás usuarios
+2c2ve8d5kkf ¦ ORM para Node/TypeScript ¦ ORM para Node/TypeScript
+10te92cidfm ¦ Migração ¦ Migración
+kgv1hdhbm ¦ Uma mudança versionada no esquema ¦ Un cambio versionado del esquema
+19ljpp7ine8 ¦ Transação ¦ Transacción
+8ej9xt7fn3 ¦ Grupo de mudanças tudo-ou-nada ¦ Grupo de cambios de todo o nada
+1lub9rkxnqe ¦ Consulta parametrizada ¦ Consulta parametrizada
+1ma99arci0k ¦ Jeito seguro de passar dados do usuário ¦ Forma segura de pasar datos del usuario
+1f1vfz1cpf ¦ `"SELECT * FROM users WHERE name = '" + name + "'"` é um jeito seguro de montar uma consulta. ¦ `"SELECT * FROM users WHERE name = '" + name + "'"` es una forma segura de construir una consulta.
+1ft0f614nlp ¦ Bancos de dados NoSQL ¦ Bases de datos NoSQL
+2brvrxxwjfq ¦ Não só tabelas ¦ No solo tablas
+j6dkjbbp1 ¦ Ligue o banco de dados ao seu tipo ¦ Une cada base de datos con su tipo
+11pf4l2bhrt ¦ Relacional (SQL) ¦ Relacional (SQL)
+1hb2s2qoj1d ¦ Chave-valor ¦ Clave-valor
+1hdqo7pdy16 ¦ Grafo ¦ Grafo
+pk28ytorra ¦ Para que o Redis costuma ser usado? ¦ ¿Para qué se suele usar Redis?
+15g7kytjk8t ¦ Cache e sessões (buscas chave-valor muito rápidas) ¦ Caché y sesiones (búsquedas clave-valor muy rápidas)
+pmcv17vdlw ¦ Desenhar páginas web ¦ Diseñar páginas web
+1vju1p75bq0 ¦ Substituir o Git ¦ Sustituir a Git
+7342vj3jo0 ¦ Editar imagens ¦ Editar imágenes
+1pw7u5w7v26 ¦ O que esta consulta do MongoDB encontra? ¦ ¿Qué encuentra esta consulta de MongoDB?
+ov3b2bghyt ¦ Cavaleiros com nível 10 ou mais ¦ Caballeros con nivel 10 o más
+2cm6wkhajks ¦ Os 10 primeiros cavaleiros ¦ Los 10 primeros caballeros
+58mt9ifrgn ¦ Cavaleiros chamados level ¦ Caballeros llamados level
+26qmxza6zk4 ¦ Bancos relacionais (como o PostgreSQL) continuam sendo a escolha mais comum para aplicações web típicas. ¦ Las bases de datos relacionales (como PostgreSQL) siguen siendo la opción más común para las aplicaciones web típicas.

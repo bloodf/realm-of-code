@@ -1,0 +1,281 @@
+1d7v3k28ls7 ¦ Bancos de Dados NoSQL ¦ Bases de Datos NoSQL
+45vso1m5dy ¦ Os Cofres de Pergaminhos ¦ Las Bóvedas de Pergaminos
+uuj8y5kzs2 ¦ Bancos de documentos (MongoDB): documentos, coleções, consultas, atualizações, índices e agregação. Bancos chave-valor (Redis), e como escolher entre SQL e NoSQL. ¦ Bases de datos de documentos (MongoDB): documentos, colecciones, consultas, actualizaciones, índices y agregación. Almacenes clave-valor (Redis), y cómo elegir entre SQL y NoSQL.
+g1uruo8ku7 ¦ Documentos ¦ Documentos
+j0zg2ximxt ¦ Coleções, documentos, find e filtros. ¦ Colecciones, documentos, find y filtros.
+2eeola8izhy ¦ Documentos e coleções ¦ Documentos y colecciones
+2boznit2g99 ¦ Ligue as palavras do SQL e do MongoDB ¦ Une las palabras de SQL y MongoDB
+27ss3xpgz6x ¦ Tabela ¦ Tabla
+won65zsyfu ¦ Coleção ¦ Colección
+aun4bfis95 ¦ Linha ¦ Fila
+1wqvxvu6e8v ¦ Documento ¦ Documento
+1g39fqdkafb ¦ Coluna ¦ Columna
+2b4ooflnz1g ¦ Campo ¦ Campo
+oqemtfk490 ¦ Chave primária ¦ Clave primaria
+2fe7yifae1e ¦ No MongoDB, dois documentos da mesma coleção podem ter campos diferentes. ¦ En MongoDB, dos documentos de la misma colección pueden tener campos distintos.
+1f23j5horcv ¦ Qual destes é um banco de documentos? ¦ ¿Cuál de estas es una base de datos de documentos?
+up0ptijblb ¦ Encontrando documentos ¦ Encontrar documentos
+6t0jqbkljd ¦ Quais heróis isto retorna? ¦ ¿Qué héroes devuelve esto?
+1y8if771i0v ¦ Ada e Eryn ¦ Ada y Eryn
+j5a7drg50i ¦ Ada, Cyra e Eryn ¦ Ada, Cyra y Eryn
+1z5qcscc4pb ¦ Todo mundo ¦ Todos
+dpyjef21y7 ¦ `$gt` significa maior que (não igual). A Cyra tem exatamente 10. ¦ `$gt` significa mayor que (no igual). Cyra tiene exactamente 10.
+1j92s87b23r ¦ Maior que ¦ Mayor que
+yhc1fidb5k ¦ Menor ou igual ¦ Menor o igual
+1y96ez5tkmf ¦ Um de uma lista ¦ Uno de una lista
+2flehdfcnqu ¦ Diferente ¦ Distinto
+13buahb5n3b ¦ Encontre heróis do Norte ou do Leste ¦ Encuentra héroes del Norte o del Este
+1cljwg3tgtb ¦ O que isto retorna? ¦ ¿Qué devuelve esto?
+2b13oqnq20e ¦ Heróis cujo array skills contém "sql" ¦ Héroes cuyo array skills contiene "sql"
+27rg7k2eo59 ¦ Heróis cujas skills são exatamente "sql" ¦ Héroes cuyas skills son exactamente "sql"
+oj6tyg8dt0 ¦ Nada: arrays não podem ser buscados ¦ Nada: en los arrays no se puede buscar
+1wn2pimcawi ¦ Alterando documentos ¦ Cambiar documentos
+q5dx10bb5m ¦ Inserir, atualizar, apagar ¦ Insertar, actualizar, borrar
+1h16ar1778j ¦ Qual linha substitui o documento inteiro por engano? ¦ ¿Qué línea sustituye el documento entero por error?
+1o4ptqwlqu2 ¦ Sem `$set`, a atualização substituiria o documento. Escreva `{ $set: { level: 13 } }`. ¦ Sin `$set`, la actualización sustituiría el documento. Escribe `{ $set: { level: 13 } }`.
+mpr98f6joc ¦ Ligue o operador de atualização ¦ Une cada operador de actualización
+2e8jyhu08cz ¦ Definir um campo ¦ Asignar un campo
+gybwkdq216 ¦ Somar a um número ¦ Sumar a un número
+ruirpdlso4 ¦ Adicionar a um array ¦ Añadir a un array
+1s0iw4iz62i ¦ Remover um campo ¦ Quitar un campo
+1a59scgyp0i ¦ Dê 5 de ouro à Ada ¦ Dale 5 de oro a Ada
+16zh7s4knsj ¦ Desenho e Escala ¦ Diseño y Escala
+276t43hj2f9 ¦ Índices, agregação, Redis e SQL vs NoSQL. ¦ Índices, agregación, Redis y SQL vs NoSQL.
+2bs2f49d75d ¦ Índices e agregação ¦ Índices y agregación
+447lqmb1s3 ¦ Consultas rápidas e espertas ¦ Consultas rápidas e inteligentes
+1vt4n38fo4o ¦ Ligue a agregação ao SQL ¦ Une la agregación con SQL
+15zodyzfq59 ¦ Por que adicionar um índice? ¦ ¿Por qué añadir un índice?
+fkfzuy4cy4 ¦ Para as buscas nesse campo ficarem rápidas ¦ Para que las búsquedas en ese campo sean rápidas
+1ybr46aa53o ¦ Para economizar espaço em disco ¦ Para ahorrar espacio en disco
+28vg83qo41j ¦ Para guardar senhas ¦ Para guardar contraseñas
+1hl960wiabz ¦ Para fazer backup dos dados ¦ Para hacer copia de los datos
+qtbj0fbtou ¦ Índices deixam a leitura mais rápida, mas a escrita um pouco mais lenta. ¦ Los índices hacen la lectura más rápida, pero la escritura algo más lenta.
+2eeke4i2dwz ¦ Embutir ou referenciar? ¦ ¿Incrustar o referenciar?
+1o1zgd1sdjm ¦ Modelando documentos ¦ Modelar documentos
+4lv40ef31w ¦ Um produto tem 2 ou 3 fotos que sempre aparecem com ele. Embutir ou referenciar? ¦ Un producto tiene 2 o 3 fotos que siempre se muestran con él. ¿Incrustar o referenciar?
+238fjioqgc1 ¦ Embutir ¦ Incrustar
+1u4pgds32os ¦ Referenciar ¦ Referenciar
+9grr49sp0k ¦ Usar um banco novo ¦ Usar una base de datos nueva
+32gd7o44ku ¦ Milhares de pedidos pertencem a um cliente. Como os pedidos devem se relacionar com o cliente? ¦ Miles de pedidos pertenecen a un cliente. ¿Cómo deben relacionarse los pedidos con el cliente?
+dckfcdb278 ¦ Os pedidos referenciam o id do cliente ¦ Los pedidos referencian el id del cliente
+17fg8il3hbl ¦ Embutir todos os pedidos dentro do cliente ¦ Incrustar todos los pedidos dentro del cliente
+6pm8on4xre ¦ Só copiar o cliente em cada pedido ¦ Solo copiar el cliente en cada pedido
+10cuexik7qz ¦ Colocar tudo num documento enorme ¦ Meterlo todo en un documento enorme
+rbfbuv52ya ¦ Um crescimento sem limite não cabe num documento (o MongoDB tem um limite de 16 MB por documento). ¦ Un crecimiento sin límite no cabe en un documento (MongoDB tiene un límite de 16 MB por documento).
+26qatelqzxn ¦ Redis e a escolha do banco ¦ Redis y cómo elegir base de datos
+2fffa4eusge ¦ Bancos chave-valor ¦ Almacenes clave-valor
+1l3pgg60x5s ¦ Ligue o banco de dados à sua função ¦ Une cada base de datos con su función
+22bogzrv8ju ¦ Cache e sessões ¦ Caché y sesiones
+kcv4p9lt8f ¦ Documentos flexíveis ¦ Documentos flexibles
+2409z73t5yp ¦ Dados relacionais e transações ¦ Datos relacionales y transacciones
+2aibzsleffn ¦ Relacionamentos como grafo ¦ Relaciones como grafo
+2df3mh41aci ¦ Um banco precisa de transferências que nunca percam dinheiro, com regras rígidas entre tabelas. Melhor escolha? ¦ Un banco necesita transferencias que nunca pierdan dinero, con reglas estrictas entre tablas. ¿La mejor opción?
+3gf36nf56b ¦ Um banco relacional como o PostgreSQL ¦ Una base de datos relacional como PostgreSQL
+1j7lufttgq7 ¦ Só Redis ¦ Solo Redis
+g7b57f6knv ¦ Um arquivo de texto ¦ Un archivo de texto
+1hh9z116300 ¦ O localStorage do navegador ¦ El localStorage del navegador
+1smq3fso6ih ¦ Muitos apps reais usam os dois: PostgreSQL para os dados principais e Redis como cache. ¦ Muchas apps reales usan los dos: PostgreSQL para los datos principales y Redis como caché.
+l3dmzxmy3q ¦ A Forja do Ferreiro de Runas ¦ La Forja del Herrero de Runas
+2gjr72eyml6 ¦ JavaScript com tipos: pegue bugs antes de o código rodar. Usado pela maioria das equipes profissionais. ¦ JavaScript con tipos: atrapa bugs antes de que el código se ejecute. Lo usan la mayoría de los equipos profesionales.
+1lgs30ymuu9 ¦ Tipos Básicos ¦ Tipos Básicos
+1p2k9hy4v1s ¦ Por que tipos, anotações e inferência. ¦ Por qué tipos, anotaciones e inferencia.
+1k3rbbxyo09 ¦ Por que TypeScript? ¦ ¿Por qué TypeScript?
+o5ewe170h9 ¦ Runas que pegam bugs ¦ Runas que atrapan bugs
+19esqwazk9r ¦ Quando o TypeScript pega erros de tipo? ¦ ¿Cuándo atrapa TypeScript los errores de tipos?
+p7j58ifrha ¦ Antes de o código rodar (na compilação / no editor) ¦ Antes de que el código se ejecute (al compilar / en el editor)
+1xetso2prtx ¦ Só depois que os usuários os encontram ¦ Solo cuando los encuentran los usuarios
+l0b4ckvssd ¦ Só no servidor ¦ Solo en el servidor
+110cnnhlhae ¦ Os navegadores rodam arquivos TypeScript diretamente. ¦ Los navegadores ejecutan archivos TypeScript directamente.
+26lefrbosax ¦ O TypeScript é compilado (ou tem os tipos removidos) para JavaScript antes. Ferramentas de build como o Vite fazem isso por você. ¦ TypeScript se compila (o se le quitan los tipos) a JavaScript antes. Herramientas de build como Vite lo hacen por ti.
+1ngp3pwyaws ¦ Por que as empresas gostam de TypeScript? ¦ ¿Por qué a las empresas les gusta TypeScript?
+21aug6wfr9s ¦ Menos bugs, autocompletar melhor, refatoração mais segura ¦ Menos bugs, mejor autocompletado, refactorizaciones más seguras
+15epv2g14i8 ¦ Deixa os apps muito mais rápidos ¦ Hace las apps mucho más rápidas
+1raomq1d8ax ¦ Os navegadores exigem ¦ Lo exigen los navegadores
+1iqz1txx1l8 ¦ O compilador do TypeScript ¦ El compilador de TypeScript
+1ojzy8hpozx ¦ Um arquivo TypeScript ¦ Un archivo TypeScript
+2dp29iq1wb8 ¦ TypeScript com JSX ¦ TypeScript con JSX
+186q815i6uc ¦ Erro de tipo ¦ Error de tipos
+vq1fm3mw9v ¦ Um valor do tipo errado ¦ Un valor del tipo equivocado
+fpe1c4gqg2 ¦ Anotações e inferência ¦ Anotaciones e inferencia
+185a9yjkov8 ¦ Escrevendo tipos ¦ Escribir tipos
+1646d3bwc9z ¦ Que tipo o TypeScript infere para `xp`? ¦ ¿Qué tipo infiere TypeScript para `xp`?
+14djtoin46b ¦ Qual linha tem um erro de tipo? ¦ ¿Qué línea tiene un error de tipos?
+1rb9bndamlq ¦ `level` é um número, então não dá para atribuir uma string a ele. ¦ `level` es un número, así que no se le puede asignar un string.
+gsihzd14rk ¦ Um array de strings ¦ Un array de strings
+1tuuhe5i7yi ¦ Onde as anotações de tipo são mais úteis? ¦ ¿Dónde son más útiles las anotaciones de tipo?
+2ew8t79z6js ¦ Nos parâmetros e retornos de funções ¦ En los parámetros y valores de retorno de las funciones
+3ozssep26e ¦ Em cada variável ¦ En cada variable
+2edco896ae0 ¦ Só em números ¦ Solo en números
+26vyz4lziae ¦ Em arquivos CSS ¦ En archivos CSS
+29o2hjxllr6 ¦ Por que evitar o tipo `any`? ¦ ¿Por qué evitar el tipo `any`?
+1e6ghw32kww ¦ Ele desliga a verificação de tipos ¦ Desactiva la comprobación de tipos
+19uv8us9ss0 ¦ É mais lento na execução ¦ Es más lento al ejecutarse
+jxiya90f7h ¦ Só funciona com números ¦ Solo funciona con números
+11llknqkswm ¦ Não é TypeScript válido ¦ No es TypeScript válido
+2f2c2hczbfj ¦ Desafio: Runas de Tipo ¦ Desafío: Runas de Tipos
+2g5wj7qmymc ¦ Desafio: Runas nas Funções ¦ Desafío: Runas en las Funciones
+22pt971qtz8 ¦ Tipos de Objeto e Uniões ¦ Tipos de Objeto y Uniones
+1iv2i7fpiey ¦ Interfaces, uniões, tipos literais e estreitamento. ¦ Interfaces, uniones, tipos literales y estrechamiento.
+1j6d8mgzd9n ¦ Interfaces e types ¦ Interfaces y types
+2323o1y14dl ¦ O formato dos dados ¦ La forma de los datos
+h9feaw5s3l ¦ Este objeto é um `Knight` válido? ¦ ¿Es este objeto un `Knight` válido?
+1at3uemmvry ¦ Sim, horse é opcional ¦ Sí, horse es opcional
+uhuyl39wb1 ¦ Não, falta horse ¦ No, falta horse
+7xo2v43op9 ¦ Não, level precisa ser string ¦ No, level debe ser un string
+225dft14cau ¦ Só com any ¦ Solo con any
+1t1p64l22pl ¦ `reward` precisa ser um número. ¦ `reward` debe ser un número.
+jpyxfartnn ¦ Deixe o horse opcional ¦ Haz opcional el horse
+12ej629c3d6 ¦ Propriedades `readonly` podem ser mudadas depois que o objeto é criado. ¦ Las propiedades `readonly` se pueden cambiar después de crear el objeto.
+6upup066r7 ¦ Uniões e estreitamento ¦ Uniones y estrechamiento
+j25qxs1gu6 ¦ Isto ou aquilo ¦ Esto o aquello
+x4gp0g4ps ¦ Qual valor é permitido? ¦ ¿Qué valor está permitido?
+a99bk4678g ¦ O que é estreitamento (narrowing)? ¦ ¿Qué es el estrechamiento (narrowing)?
+phtesqp8m7 ¦ Conferir um valor para o TypeScript saber o tipo exato dele naquele ramo ¦ Comprobar un valor para que TypeScript sepa su tipo exacto en esa rama
+1kykl5ft75f ¦ Encurtar uma string ¦ Acortar un string
+oe5q2zrk9u ¦ Remover propriedades ¦ Quitar propiedades
+1oiq9aaeiw0 ¦ Um truque de CSS ¦ Un truco de CSS
+1qmdy0zbo91 ¦ Por que o TypeScript reclama aqui? ¦ ¿Por qué se queja TypeScript aquí?
+l00oo9ltq4 ¦ k pode ser undefined ¦ k podría ser undefined
+1c3pc1ixvsw ¦ name não é uma string ¦ name no es un string
+1iqstji1zv1 ¦ Funções não podem retornar strings ¦ Las funciones no pueden devolver strings
+1iggvq6yn5k ¦ Knight não está definido no JS ¦ Knight no está definido en JS
+l2v3ak1bhz ¦ Confira antes: `if (!k) return "nobody";` ou use `k?.name`. ¦ Compruébalo antes: `if (!k) return "nobody";` o usa `k?.name`.
+12mvsi708on ¦ Aceite uma string ou um número ¦ Acepta un string o un número
+1d1tx0lxuo5 ¦ Desafio: O Formato de um Herói ¦ Desafío: La Forma de un Héroe
+23ijbrtmn6k ¦ Desafio: A Runa das Direções ¦ Desafío: La Runa de las Direcciones
+mh98bplumd ¦ Desafio: Talvez Esteja, Talvez Não ¦ Desafío: Quizá Esté, Quizá No
+1r7noeov45t ¦ Genéricos e Projetos Reais ¦ Genéricos y Proyectos Reales
+14kujddhgvi ¦ Genéricos, classes, tipos utilitários e TypeScript no trabalho. ¦ Genéricos, clases, tipos de utilidad y TypeScript en el trabajo.
+ibru49cuxa ¦ Genéricos ¦ Genéricos
+1i6uyjoj5yw ¦ Tipos como parâmetros ¦ Tipos como parámetros
+85joqnthvk ¦ O que é `T` quando você chama `last(["gold", "silver"])`? ¦ ¿Qué es `T` cuando llamas a `last(["gold", "silver"])`?
+xglfanj5x4 ¦ `useState<number>(0)` no React usa... ¦ `useState<number>(0)` en React usa...
+cwq8t4qiwt ¦ Um genérico ¦ Un genérico
+2ggsip69prg ¦ Uma interface ¦ Una interfaz
+2b0xkq9bf8d ¦ Uma união de literais ¦ Una unión de literales
+ijy0k1f6ei ¦ Um decorator ¦ Un decorador
+fdk9kpoun4 ¦ Genéricos mantêm a segurança de tipos enquanto trabalham com muitos tipos. ¦ Los genéricos mantienen la seguridad de tipos trabajando con muchos tipos.
+6ngdfeyef1 ¦ Tipos utilitários ¦ Tipos de utilidad
+k9a8vielte ¦ Ajudantes de tipo embutidos ¦ Ayudantes de tipo integrados
+peltgv9djq ¦ Ligue o tipo utilitário ¦ Une cada tipo de utilidad
+aaj65wdd7s ¦ Todas as propriedades opcionais ¦ Todas las propiedades opcionales
+fyqx1itlt2 ¦ Manter só algumas propriedades ¦ Quedarse solo con algunas propiedades
+bq7c2ddqtu ¦ Remover algumas propriedades ¦ Quitar algunas propiedades
+2c7lf7wf0ks ¦ Objeto com chaves K e valores V ¦ Objeto con claves K y valores V
+8qn3bg3gwm ¦ Uma requisição PATCH pode enviar só alguns campos de uma Quest. Qual tipo serve para o corpo? ¦ Una petición PATCH puede enviar solo algunos campos de una Quest. ¿Qué tipo encaja con el cuerpo?
+1j09pet0n0o ¦ O servidor cria o `id`. Qual tipo serve para os dados de criação de um cavaleiro? ¦ El servidor crea el `id`. ¿Qué tipo encaja con los datos para crear un caballero?
+245tf3bbtrz ¦ TypeScript no trabalho ¦ TypeScript en el trabajo
+w2g63kwt6n ¦ Em projetos de verdade ¦ En proyectos reales
+j9ozzhm5k9 ¦ Qual opção do tsconfig pega mais bugs? ¦ ¿Qué opción de tsconfig atrapa más bugs?
+ynqb0lzdbf ¦ De onde costumam vir as definições de tipo de uma biblioteca JS pura? ¦ ¿De dónde suelen venir las definiciones de tipos de una librería JS normal?
+j3tyvxp3fj ¦ Pacotes @types/nome-da-biblioteca ¦ Paquetes @types/nombre-de-la-libreria
+1zjda066ncb ¦ Do arquivo CSS ¦ Del archivo CSS
+x8ahmfno7s ¦ Do navegador ¦ Del navegador
+1vd6zzy1w7e ¦ Você sempre precisa escrever todas ¦ Siempre tienes que escribirlas todas
+s0qyqe7hz2 ¦ Tipe as props de um componente React ¦ Pon tipos a las props de un componente de React
+1ir9bhw9pno ¦ Os tipos só existem durante o desenvolvimento; o navegador nunca os vê. ¦ Los tipos solo existen durante el desarrollo; el navegador nunca los ve.
+1v7euj3imw9 ¦ Desafio: Baús Genéricos ¦ Desafío: Cofres Genéricos
+1fmw5gq5dto ¦ Desafio: Classes da Guilda ¦ Desafío: Clases del Gremio
+z7khbp223e ¦ Projeto: O Inventário de Runas ¦ Proyecto: El Inventario de Runas
+d43h7mxbyi ¦ A Taverna dos Mensageiros ¦ La Taberna de los Mensajeros
+7f82xdyy1t ¦ JavaScript no servidor: módulos, rotas do Express, APIs REST, middleware, autenticação e publicação. ¦ JavaScript en el servidor: módulos, rutas de Express, APIs REST, middleware, autenticación y publicación.
+1eeic1bxhdo ¦ O Básico do Node.js ¦ Lo Básico de Node.js
+9i12qo65p7 ¦ JavaScript fora do navegador. ¦ JavaScript fuera del navegador.
+7pv3ukc1i8 ¦ O que é o Node.js? ¦ ¿Qué es Node.js?
+1ewju7ad9gg ¦ JavaScript no servidor ¦ JavaScript en el servidor
+1th54wlcnxm ¦ O que o Node.js NÃO consegue fazer sozinho? ¦ ¿Qué NO puede hacer Node.js por sí solo?
+163ei0s0pkj ¦ Usar document.querySelector ¦ Usar document.querySelector
+2fkrlaq5vw1 ¦ Rodar um servidor web ¦ Ejecutar un servidor web
+12jsbrh6hu2 ¦ Ler arquivos ¦ Leer archivos
+2ekd6pn29v9 ¦ Instalar pacotes com npm ¦ Instalar paquetes con npm
+123mvr5i5nb ¦ O npm e o Vite também são programas que rodam no Node.js. ¦ npm y Vite también son programas que se ejecutan en Node.js.
+1h63hpvjqyu ¦ Navegador ou Node? ¦ ¿Navegador o Node?
+nrjb8bgf9o ¦ Só no navegador ¦ Solo en el navegador
+3b9knhv2ai ¦ Só no Node ¦ Solo en Node
+54949phuur ¦ Nos dois ¦ En ambos
+2b1h3duttix ¦ Só no Node (arquivos) ¦ Solo en Node (archivos)
+1qoehw8lnjg ¦ Qual comando roda um arquivo chamado server.js? ¦ ¿Qué comando ejecuta un archivo llamado server.js?
+1f9jy5iidgj ¦ Módulos no Node ¦ Módulos en Node
+rrbwdlgx5z ¦ Dois sistemas de módulos ¦ Dos sistemas de módulos
+1mr34b0sfyo ¦ Ligue a sintaxe ao sistema de módulos ¦ Une cada sintaxis con su sistema de módulos
+uhcn2yfd6q ¦ Módulos ES ¦ Módulos ES
+15z0kf2gr7w ¦ Exportação CommonJS ¦ Exportación CommonJS
+xz4100kx7i ¦ Exportação de módulo ES ¦ Exportación de módulo ES
+20ur793pnzr ¦ O que faz o Node tratar arquivos `.js` como módulos ES? ¦ ¿Qué hace que Node trate los archivos `.js` como módulos ES?
+143zhq6kjgp ¦ Usar o Node 1.0 ¦ Usar Node 1.0
+w95k2qgv2q ¦ Adicionar "use strict" ¦ Añadir "use strict"
+2ec8llntwzr ¦ Importe o Express (CommonJS) ¦ Importa Express (CommonJS)
+358qg3wpie ¦ Ambiente e portas ¦ Entorno y puertos
+p9iftamcxh ¦ Configuração ¦ Configuración
+1bhl0e4ki0m ¦ Por que ler a porta de `process.env.PORT`? ¦ ¿Por qué leer el puerto de `process.env.PORT`?
+1av6yt4jz1i ¦ As plataformas de hospedagem escolhem a porta para você ¦ Las plataformas de hosting eligen el puerto por ti
+16c8nwabgjz ¦ As portas precisam ser secretas ¦ Los puertos deben ser secretos
+quu4bfzxzg ¦ O Node exige ¦ Node lo exige
+27slm39lwa3 ¦ É mais rápido ¦ Es más rápido
+1i7buf3miob ¦ Quanto vale `port` quando PORT não está definida? ¦ ¿Cuánto vale `port` cuando PORT no está definida?
+1sfi9s2e3a3 ¦ O arquivo .env com segredos deve ir para o commit para os colegas o receberem. ¦ El archivo .env con secretos debería ir en el commit para que lo reciban los compañeros.
+25dq0eqap8y ¦ Compartilhe um `.env.example` sem os valores reais em vez disso. ¦ Comparte en su lugar un `.env.example` sin los valores reales.
+294n2t0st9j ¦ Rotas do Express ¦ Rutas de Express
+1ambbnvw6fc ¦ Crie um servidor que responde requisições. ¦ Crea un servidor que responda peticiones.
+glj0rvecyb ¦ Seu primeiro servidor ¦ Tu primer servidor
+1ofxyyzx4zy ¦ Express em dez linhas ¦ Express en diez líneas
+q8g1vmgoif ¦ Crie um servidor Express pequenininho ¦ Crea un servidor Express diminuto
+xb9prrd1i ¦ Ligue o código ¦ Une cada código
+uzd9hxv2q7 ¦ Valores do caminho (/knights/:id) ¦ Valores de la ruta (/knights/:id)
+1dowuiaxry7 ¦ Valores depois do ? na URL ¦ Valores después del ? en la URL
+2ealfaqc4hr ¦ Dados enviados na requisição ¦ Datos enviados en la petición
+1eggx7yt9xi ¦ Devolver JSON ¦ Devolver JSON
+5e0oiulblu ¦ Chega uma requisição para `/knights/7`. Quanto vale `req.params.id`? ¦ Llega una petición a `/knights/7`. ¿Cuánto vale `req.params.id`?
+1nbjqj53zud ¦ "7" (uma string) ¦ "7" (un string)
+1tatsvk16g5 ¦ 7 (um número) ¦ 7 (un número)
+28nqa00l750 ¦ Partes da URL são sempre strings. Converta com `Number()`. ¦ Las partes de la URL son siempre strings. Conviértelas con `Number()`.
+1t4x8sidep2 ¦ Responda 404 com JSON ¦ Responde 404 con JSON
+4i69ox3jn0 ¦ Desafio: Olá, Taverna ¦ Desafío: Hola, Taberna
+98tw7s9gfa ¦ Desafio: Parâmetros de Rota ¦ Desafío: Parámetros de Ruta
+2d6ris1gbl7 ¦ Desafio: Query Strings ¦ Desafío: Query Strings
+1vjodh4ssgi ¦ Construindo APIs REST ¦ Construir APIs REST
+z5g13a9pv2 ¦ Crie, valide e responda com o status certo. ¦ Crea, valida y responde con el estado correcto.
+2242xpb5c5o ¦ Desenhando uma API ¦ Diseñar una API
+lao2r0hx91 ¦ Bons hábitos de API ¦ Buenos hábitos de API
+10gxh4c5spu ¦ Qual rota segue o estilo REST para criar uma missão? ¦ ¿Qué ruta sigue el estilo REST para crear una misión?
+2gjgc429dil ¦ Ligue a situação ao status ¦ Une cada situación con su estado
+281xx0abwvu ¦ Criou uma nova missão ¦ Se creó una misión nueva
+1m6ebk1ypxq ¦ Falta o título no corpo ¦ Falta el título en el cuerpo
+1yabg29dne3 ¦ O id da missão não existe ¦ El id de la misión no existe
+1i3w6en5n0h ¦ Apagado com sucesso, sem corpo ¦ Borrado correctamente, sin cuerpo
+91wrlkwryh ¦ O servidor deve confiar em dados que o front end já validou. ¦ El servidor debería fiarse de los datos que ya validó el front end.
+rf6lm1aw6h ¦ Desafio: Criando Cavaleiros ¦ Desafío: Crear Caballeros
+13w0p76z46b ¦ Middleware e Produção ¦ Middleware y Producción
+ijsfqdp9kb ¦ Middleware, autenticação, bancos de dados e publicação. ¦ Middleware, autenticación, bases de datos y publicación.
+16glzmisokh ¦ Middleware ¦ Middleware
+fh8pcpghwu ¦ Guardas no corredor ¦ Guardias en el pasillo
+1kqsk0ed3k8 ¦ O que o `next()` faz num middleware? ¦ ¿Qué hace `next()` en un middleware?
+1rl7r126y8p ¦ Passa a requisição para o próximo middleware ou rota ¦ Pasa la petición al siguiente middleware o ruta
+1dqkqx7t8tc ¦ Envia uma resposta 200 ¦ Envía una respuesta 200
+1x7eyu34lg1 ¦ Reinicia o servidor ¦ Reinicia el servidor
+3pr4z1n54g ¦ Pula todas as rotas ¦ Se salta todas las rutas
+dyn2cbzt2w ¦ Como o Express reconhece um middleware de tratamento de erros? ¦ ¿Cómo reconoce Express un middleware de manejo de errores?
+137oswtbxg9 ¦ Ele tem quatro parâmetros (err, req, res, next) ¦ Tiene cuatro parámetros (err, req, res, next)
+1vj8uav5kg3 ¦ O nome dele começa com error ¦ Su nombre empieza por error
+2a0essr5lrd ¦ Ele é adicionado primeiro ¦ Se añade el primero
+29d90ha1il2 ¦ Ele retorna false ¦ Devuelve false
+28lb8s31qiu ¦ A ordem das chamadas app.use importa. ¦ El orden de las llamadas a app.use importa.
+10fzma025pm ¦ Desafio: Guardas no Tesouro ¦ Desafío: Guardias en el Tesoro
+b4x00x5sym ¦ Autenticação ¦ Autenticación
+1ypcwf3cdtv ¦ Quem é você? ¦ ¿Quién eres?
+th0men54xz ¦ Provar quem você é ¦ Demostrar quién eres
+rbddjb7iau ¦ O que você tem permissão para fazer ¦ Lo que tienes permiso para hacer
+n2r1p6bvit ¦ Um token assinado ¦ Un token firmado
+mw0y7u02pz ¦ Hash de senhas ¦ Hash de contraseñas
+2a98quk5zgp ¦ Um usuário logado tenta abrir a página de admin e não é admin. Qual status serve? ¦ Un usuario con sesión intenta abrir la página de administración y no es administrador. ¿Qué estado encaja?
+oiitor8a3w ¦ Tudo bem inventar sua própria criptografia para senhas. ¦ No pasa nada por inventar tu propio cifrado para las contraseñas.
+1n9ekqzqc6x ¦ Use bibliotecas comprovadas. Criptografia caseira é um erro clássico de segurança. ¦ Usa librerías probadas. La criptografía casera es un error de seguridad clásico.
+16v50fpdxkz ¦ Entrando no ar ¦ Salir a producción
+213p7mzzfxn ¦ Publicando um servidor ¦ Publicar un servidor
+2c09czqb3pq ¦ Ordene os passos da publicação ¦ Ordena los pasos de la publicación
+1e36pgmfsk9 ¦ Seu app funciona localmente mas quebra online com "DATABASE_URL is undefined". Causa mais provável? ¦ Tu app funciona en local pero falla en línea con "DATABASE_URL is undefined". ¿La causa más probable?
+xi2xcidzrt ¦ A variável de ambiente não está definida na hospedagem ¦ La variable de entorno no está definida en el hosting
+296ee1lmaoa ¦ O Node é antigo demais ¦ Node es demasiado antiguo
+27fkgu65bzj ¦ O CSS está quebrado ¦ El CSS está roto
+4l39sge36g ¦ O Git não está instalado ¦ Git no está instalado
+1qej2pfwmk6 ¦ Projeto: A API de Missões ¦ Proyecto: La API de Misiones

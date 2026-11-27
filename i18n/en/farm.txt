@@ -1,0 +1,516 @@
+@@ 1s09bctuu2d
+right
+@@ 198pv3f7eoh
+left
+@@ 297898w0in7
+down
+@@ 27qlhuq15ul
+up
+@@ 1u81itfelld
+wheat
+@@ 15l20akatqp
+carrot
+@@ 1nxhy1hypnb
+pumpkin
+@@ 28s1bxqp0i1
+A question: true or false
+@@ 2d2i9qhoxdg
+when ▶ Run
+@@ 26rzu56a3b5
+Your program starts here
+@@ 1q4mo7xawgn
+%1 move %2
+@@ 19njz1hpeuq
+Walk one tile
+@@ x4ld1jvn0z
+%1 plant %2
+@@ 22zfh4mchg1
+Plant a seed on this tile
+@@ 1fqkl8by14j
+%1 water
+@@ 1lax5tp04d8
+Water this tile
+@@ sh13drylf2
+%1 harvest
+@@ 1b29mj0wc6e
+Pick a ripe crop
+@@ 1a08rs6kbrq
+%1 sleep until morning
+@@ 1z60r5wgaky
+Watered crops grow one step overnight
+@@ 1drwszdnbti
+%1 till the grass
+@@ 1ijxvkgf8tm
+Turn grass into farmland
+@@ ws0oykjssk
+%1 pull weed
+@@ 1jn1d48dsp0
+Pull the weeds on this tile
+@@ 11rd3xs0q65
+%1 next row
+@@ 11n68jdss1f
+Go down one row and back to the left side
+@@ 2awwlchj6v0
+%1 refill can
+@@ 16n14wtdpoq
+Fill your can at the pond
+@@ 17pbzr577k9
+say %1
+@@ 151no1rlal1
+Hello!
+@@ 6cysx9a0jo
+repeat %1 times %2 %3
+@@ uatd4r98bs
+TIMES
+@@ 2ce4cjjy8mh
+Run the blocks inside again and again
+@@ 56x8tcbik8
+while %1 %2 %3
+@@ 2bsi910oqas
+Keep going as long as the question is true
+@@ 274f066jzxu
+if %1 then %2 %3
+@@ 1aoiidef7as
+Only when the question is true
+@@ 1w7xl7rip8l
+if %1 then %2 %3 else %4 %5
+@@ 15usu9tw8mc
+Two paths: one for true, one for false
+@@ 125sbwbi8xl
+dry?
+@@ q17d5pp76j
+ripe?
+@@ 1gqx25hf5cc
+crop here?
+@@ 2b9d1645fuc
+weeds here?
+@@ yz2l3vmi9s
+grass?
+@@ 4qas9851qh
+on farmland?
+@@ 1ys7vxws5k
+can move %1 ?
+@@ 1s5yl53fafy
+'Jersey 15', sans-serif
+@@ ge44mnhb5r
+'Jersey 15', monospace
+@@ 2il4rpwjn3
+Ouch! Something is in the way.
+@@ 2c2tmhaj1ue
+Too early! That crop was not ripe.
+@@ rz8hcwdnns
+Zzz... night {0}
+@@ rubw5u54q0
+Can refilled!
+@@ 2fkxtuzuean
+First Furrows
+@@ fq8q4sh00d
+Commands and repeat loops, with blocks
+@@ 1vshhbiz12
+The Six-by-Six
+@@ 2dm404g9wrg
+Loops inside loops
+@@ 7bbhcrhpuq
+The Smart Farmer
+@@ s67s7os8d5
+If, else and while. See the code your blocks make
+@@ 1zi1376f8nb
+Words of Power
+@@ 1dl19y37so9
+Type real JavaScript: for, if, variables, functions, arrays
+@@ 1koihh7lns3
+Master of the Valley
+@@ lsh7gczins
+Put it all together
+@@ 1dg7b5qydxn
+Plant {0} on every farm tile
+@@ 24dfkbcghwj
+Water every crop
+@@ 19x323p85v1
+Harvest {0} {1}
+@@ 1f753ir3g1x
+Pull every weed
+@@ 27p6efnwiry
+Do not harvest anything unripe
+@@ bi3k1h9vsf
+Plant the crops in the pattern shown
+@@ 1b39qv29kll
+A Seed in the Ground
+@@ 1523eb1zt0w
+Welcome to Greenhollow Farm! Your farmer only does what the blocks say. Walk to the farmland and plant one seed.
+@@ 9hk1g6cqov
+Programs are instructions
+@@ slry11et79
+A **program** is a list of instructions that run **one after another**, from top to bottom.
+
+Drag blocks under **when ▶ Run** to build your program, then press **Run**.
+@@ adcfhzvtwu
+The farmer stands on the left. The brown tile is farmland.
+@@ yons6py4lf
+Move right two times, then plant.
+@@ 6ikkp42q9d
+A Row of Seeds
+@@ 26vdx5wna5e
+Three tiles of good soil. Plant a seed on each one.
+@@ 12p0wh904w6
+Plant, then move right, then plant again...
+@@ 1k71kg3wlkz
+Thirsty Seeds
+@@ 1kpb5hgz6xk
+Seeds need water to grow. Give each seed a drink from your watering can.
+@@ c0p7m95qvh
+Water acts on the tile the farmer is standing on.
+@@ 7ys72v1ayi
+Day and Night
+@@ 27fnmez2bny
+A watered seed grows a little every night. Water it, sleep, and repeat until it is ripe. Then harvest!
+@@ 18319wocghs
+How crops grow
+@@ 1xdewj3x7j4
+1. **water** the crop
+2. **sleep** until morning: every watered crop grows one step
+
+A seed needs **3 nights** to become ripe. Harvesting too early wastes the crop!
+@@ qriowy4wks
+Water, sleep, water, sleep, water, sleep... then harvest.
+@@ 97lotv4iet
+Soil dries out every night, so water again each day.
+@@ py1xy992l2
+Repeat After Me
+@@ lo86my9ptx
+That was a lot of blocks! The repeat block does the same thing many times. Grow this wheat with fewer blocks.
+@@ 100zjhefoxj
+Loops
+@@ mo5cxta7gj
+A **repeat** block runs the blocks inside it again and again.
+
+`repeat 3 times: water, sleep` does the same as six blocks in a row.
+
+Programmers call this a **loop**. Loops make programs short.
+@@ 1jdslatnvi1
+Put water and sleep inside a repeat 3 times block.
+@@ 194eb8o49u5
+The Long Row
+@@ rejoc0relc
+Eight tiles of soil! Use a loop so you do not need sixteen blocks.
+@@ 166siosxtie
+What do you do on every tile? Plant, then move right. Repeat that 8 times.
+@@ 1jh6sp03hyw
+Plant and Water
+@@ 1x3pe9yxz28
+Plant each seed and water it right away. One loop can do both.
+@@ yzv71x2b7j
+Three blocks go inside the loop: plant, water, move right.
+@@ 13aevzay9p2
+Harvest Festival
+@@ 1ioyzbupcsl
+The wheat is golden and ripe. Bring it all in for the festival!
+@@ tclgv6xb7k
+Same loop as before, with harvest inside.
+@@ 22ypny01oxw
+Two Rows
+@@ 24uemgz05ym
+Now the field has two rows. The "next row" block walks you down to the start of the next row.
+@@ jew30fmgmn
+You can put a **repeat inside a repeat**.
+
+The inside loop plants **one row**. The outside loop does that **for every row**.
+
+This is called a **nested loop**.
+@@ 2713jr1jz1h
+Plant one row with a loop, then use next row.
+@@ 2dpcnw60vki
+Put all of that inside a repeat 2 times.
+@@ 1rxmu471ov1
+The Whole Field
+@@ sp6rv2dsg9
+Six rows of six. Thirty-six seeds! A nested loop makes it easy.
+@@ gttryqk7tt
+It is the same program as Two Rows. Only one number changes.
+@@ 2dgd3ppcnjc
+Break New Ground
+@@ e4te44aw8v
+This field is still grass. Till each tile to turn it into farmland, then plant.
+@@ 11dc5ro3v03
+On each tile: till, then plant, then move.
+@@ 1283q0ej6ca
+The Big Harvest
+@@ 2bgodepwq0o
+Thirty-six ripe ears of wheat. Fill the barn!
+@@ 2clcc4vm5uy
+A nested loop again, with harvest inside.
+@@ 1vlg17m7tao
+Three Days of Rain
+@@ 28i94qw5vt1
+No rain this week. Water the row, walk back, and sleep. Do it for three days, then harvest.
+@@ 23recer9wh9
+One day: water the row, walk back left 6 times, sleep.
+@@ y4r3mma3re
+Repeat that day 3 times, then harvest the row.
+@@ 1k4pmab8e3l
+Only the Thirsty Ones
+@@ 1mf1a53jo46
+Some seeds are already wet, and your can only holds 5 drinks. Water only the dry ones.
+@@ 11qf4oh8s94
+If: making decisions
+@@ 15vmh771aeu
+An **if** block only runs the blocks inside it **when its question is true**.
+
+`if dry? then water` waters dry tiles and skips wet ones.
+
+Look at the code panel: every block is also a line of **JavaScript**.
+@@ 1vjzdnhoym
+Wet tiles look darker. Use the "dry?" question inside an if.
+@@ e4thhcv9oh
+Ripe or Not?
+@@ 12usupg95s
+Harvest the golden wheat, and water the green wheat so it keeps growing.
+@@ 18qxhg02fqh
+If ... else
+@@ f6o3kk6vlq
+An **if / else** block has two paths:
+
+- if the question is **true**, run the first part
+- **else** (otherwise) run the second part
+@@ 1rl0w8gghkk
+if ripe? harvest, else water. Then move right.
+@@ 1cfk7ot6c15
+Weeds!
+@@ w0b0g0ljsi
+Weeds crept into the row. Pull them where you find them, then plant a seed on every tile.
+@@ 64wueq5b73
+Only pull a weed if there is one. But plant on every tile.
+@@ 1pcw9evderk
+Rows of Every Size
+@@ 1esrxve9wh2
+These rows have different lengths. A while loop keeps going as long as you are on farmland.
+@@ a6fcnmq3qk
+While loops
+@@ huri4vjsnx
+A **repeat** loop runs a fixed number of times.
+
+A **while** loop runs **as long as** its question is true. You do not need to know how many times!
+@@ 244jxhya4wl
+While on farmland: plant and move right.
+@@ 11pfjvighj9
+Put that while loop and a next row inside repeat 3 times.
+@@ 25b4zotb4xo
+The Messy Field
+@@ 28nim89dja6
+Weeds, ripe wheat and empty soil, all mixed up. Clean it up, harvest, and plant fresh seeds everywhere.
+@@ krdu5marut
+Two if blocks on each tile: one for weeds, one for ripe wheat. Then plant.
+@@ syis4xpvaa
+Your First Line of Code
+@@ 2bnmheamm1z
+Time to write spells with words! Every block you used is also a line of code. Finish the program.
+@@ hxwect59zx
+Blocks become words
+@@ 1i4iwm63h04
+Each block is a **command**: its name, brackets, and a semicolon.
+
+```
+move("right");
+plant("wheat");
+```
+Text like `"right"` goes inside quotes.
+@@ 29sut2j9rr6
+Copy the two lines and paste them three more times.
+@@ 20epvu8gyjw
+The For Loop
+@@ 1ogo3skdb3f
+Eight tiles again. In code, a repeat block is written as a for loop.
+@@ q7jt1grr7u
+for loops
+@@ hu3nohfugn
+```
+for (let i = 0; i < 8; i++) {
+  plant("wheat");
+  move("right");
+}
+```
+- `let i = 0` starts a counter
+- `i < 8` keeps going while this is true
+- `i++` adds 1 after each round
+@@ 2cyvwzpj98t
+Inside the curly braces: plant, then move right.
+@@ 99qly04noi
+Loops in Loops
+@@ 1plhhhjtju0
+The whole field, in code. Put one for loop inside another.
+@@ 1kjrt5p7sit
+The inner loop plants one row. After it, call nextRow().
+@@ n3epu3ke7p
+Give each loop its own counter: row and col.
+@@ 2aylpzyfie3
+If, in Code
+@@ 1yhrktt3bt9
+The weeds are back. Check each tile with if.
+@@ 1nvaeestjtd
+if statements
+@@ 279gs50z3o4
+```
+if (hasWeed()) {
+  pullWeed();
+}
+```
+The question goes in round brackets. Questions like `hasWeed()` give back **true** or **false**.
+@@ 1mxfznzdbf3
+Plant after the if, not inside it.
+@@ 1ze583oamb9
+Count Your Crops
+@@ 1e6nqc4tb50
+Harvest the ripe wheat, and tell me how many you picked. A variable can count for you.
+@@ 20ezr181l3h
+Variables
+@@ 1bgr69g7v04
+A **variable** is a box with a name that holds a value.
+
+```
+let count = 0;   // make a box called count
+count++;         // add 1 to it
+say(count);      // the farmer says the number
+```
+@@ 627iy1tysn
+Say how many you harvested ({0})
+@@ g7no2violv
+Inside an if (isRipe()) { ... } do two things: harvest(); and count++;
+@@ s6o9958u3i
+Write Your Own Command
+@@ hf00d9frpb
+The next-row command is broken today! Write your own function called nextRow.
+@@ 1p5k6fp77no
+Functions
+@@ 296yjzwc30k
+A **function** is a new command you make yourself.
+
+```
+function nextRow() {
+  move("down");
+  // walk back to the left...
+}
+
+nextRow();   // use it like any other command
+```
+@@ 1j3uhia5v93
+Inside the function: move("down"); then a for loop that moves left 6 times.
+@@ 6l7njo0hwf
+Commands With Ingredients
+@@ 2b4faocvx3s
+Wheat on the first row, carrots on the second, pumpkins on the third. One function can plant any crop.
+@@ 1p9dm5b8mv8
+Parameters
+@@ 2c234vjxbqm
+A function can take an **ingredient** (a parameter):
+
+```
+function plantRow(crop) {
+  // use crop here, like plant(crop);
+}
+
+plantRow("carrot");
+```
+@@ 1h8lvofe2y3
+Inside the loop: plant(crop); with no quotes around crop.
+@@ 13n3lm106tv
+Call plantRow three times with different crops.
+@@ 2a25ul6o8hp
+Crop Rotation
+@@ 2culga1qbqi
+Wise farmers mix their crops: wheat, carrot, pumpkin, then again. Keep the crop names in an array.
+@@ 63d4toppnn
+Arrays
+@@ 2eo2zgy0fzv
+An **array** is a list of values:
+
+```
+const crops = ["wheat", "carrot", "pumpkin"];
+crops[0]  // "wheat"
+crops[2]  // "pumpkin"
+```
+`i % 3` is the **remainder** after dividing by 3: it goes 0, 1, 2, 0, 1, 2...
+@@ yfdw0ecgg7
+The Thirsty Valley
+@@ e6ar9yjuo0
+A long row and a small can: it holds only 3 drinks. The pond is right beside you. Refill when the can is empty.
+@@ 129e4b8r66d
+Numbers and comparisons
+@@ 2djmp8vnae5
+`waterLeft()` gives back a **number**: how much water is in the can.
+
+`===` asks "is it equal?":
+```
+if (waterLeft() === 0) {
+  refill();
+}
+```
+@@ 288hcgv6y1e
+Check the can before you water: if (waterLeft() === 0) refill();
+@@ dln7mddled
+The Market Count
+@@ 1buu2cjqb7g
+Harvest only the ripe crops in both rows, and tell the merchant how many you picked in total.
+@@ qtmqfr3ffk
+Say the total ({0})
+@@ xiea5vz4n0
+A nested loop, with an if (isRipe()) inside, that also counts.
+@@ 14cymnfjooh
+Seasons
+@@ 2c0xqoai3lp
+Two rows of seeds and three dry days. Write a function that waters the field and brings you home. Then sleep, three times.
+@@ 27jrw5pnv1a
+After two nextRow() calls you are on the path below the field. Move up twice to get home.
+@@ 1unrtwm5p6z
+The final test! A field of wild grass. Till it, plant wheat, carrots and pumpkins in rows, grow them for three days, and harvest everything.
+@@ 1q24p7vhp2w
+Write a function that visits every tile and comes home. You will use it three times.
+@@ 3utx3dhnh8
+Functions can take other functions as ingredients: eachTile(() => water());
+@@ 1xzhfglvnv3
+{0}for (let i = 0; i < {1}; i++) {
+{2}
+{3}}
+@@ 25ota22bohu
+{0}while ({1}) {
+{2}
+{3}}
+@@ 14xz3tyzii9
+{0}if ({1}) {
+{2}
+{3}} else {
+{4}
+{5}}
+@@ 15ihqrk3syj
+Your farmer is exhausted after 3000 actions. Is a loop running forever?
+@@ 16todbuwykw
+Exhausted
+@@ md8jx4lnpp
+{0}() is not available in this level. Can you write it yourself?
+@@ 19yuvc7mbib
+move() needs "up", "down", "left" or "right", not {0}
+@@ 1egt5c5is5m
+plant() knows "wheat", "carrot" and "pumpkin", not {0}
+@@ 12hlicyu6i3
+This soil is already tilled.
+@@ v8f7r2hv91
+You can only till grass.
+@@ fppv0ffg3g
+Till the grass before planting.
+@@ 2bvsazsxf26
+Seeds only grow in farmland.
+@@ 2fpyzwazra3
+Weeds are in the way! Pull them first.
+@@ 1xe828ebz8v
+Something is already growing here.
+@@ 17zl9gqpv7e
+Your watering can is empty. Refill it at the pond.
+@@ 8uge6xepsx
+Only farmland needs water.
+@@ 1onzt3m4my8
+Already wet! Do not waste water.
+@@ oiq4rke4zv
+There is nothing to harvest here.
+@@ 14j9kjvo9rc
+No weeds here.
+@@ 9a04t142iq
+There is no pond next to you.

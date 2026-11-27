@@ -1,0 +1,1091 @@
+@@ 237iaan1atj
+The Forest of Loops
+@@ qp06vs7r
+Programming from zero: commands, loops, variables, conditions, functions, arrays, objects, the DOM, async code and modern JavaScript.
+@@ 1mngvvb6ikq
+First Commands
+@@ 5wli43i2l8
+Guide your hero with statements and function calls.
+@@ jyj7ssppkq
+
+**Key ideas**
+- A program is a list of **statements**, run from top to bottom.
+- `hero.moveRight()` **calls** a function (a command). The `()` makes it run.
+- Values inside the brackets are **arguments**: `hero.moveRight(3)`.
+- Text after `//` is a **comment**; the computer ignores it.
+- Spelling and capital letters matter: `moveright` is not `moveRight`.
+@@ 28nlqmtoww7
+Commands for your hero
+@@ 1mx2vdseplv
+Talking to your hero
+@@ 1nhqznc6zyl
+In the Forest of Loops your hero obeys JavaScript **commands**:
+
+```
+hero.moveRight();
+hero.moveDown();
+```
+Each line is a **statement**. They run one after another, from top to bottom. The `()` brackets make the command happen.
+@@ 1dc61qfxgju
+What do the `()` in `hero.moveUp()` do?
+@@ k7fdnzyg7s
+They make the command run
+@@ 13ydxy05zgu
+They are decoration
+@@ ovu6nraro8
+They make it a comment
+@@ 1io112e3rht
+They end the program
+@@ 3kht9wmrqu
+Walk right twice, then down once
+@@ 15nmxtut0dj
+Which line will not work?
+@@ zqxagv0cgk
+JavaScript is case-sensitive: it must be `moveRight` with a capital R.
+@@ 1mqfnyoecpr
+The computer runs statements from top to bottom.
+@@ gnkjwvvfuv
+Move the hero up
+@@ 61ix7yox4c
+Arguments and comments
+@@ 23kcqd6xp62
+A value inside the brackets is an **argument**. It gives the command extra information:
+
+```
+hero.moveRight(4);   // walk 4 steps
+```
+Everything after `//` is a **comment**: a note for humans that the computer skips.
+@@ 1gwdbdq60i8
+`hero.moveDown(3)` makes the hero...
+@@ q0j1pxjcny
+Walk 3 steps down
+@@ 1kwm1pnld42
+Walk down, 3 times slower
+@@ 1t1n6vx01en
+Wait 3 seconds
+@@ 1uzp58nn96u
+Walk 3 steps right
+@@ 10ki06t2pjm
+What does the computer do with `// go to the gate`?
+@@ npovw0pdg7
+Ignores it
+@@ 1ico2f9c6b1
+Walks to the gate
+@@ 230411z2iyy
+Shows an error
+@@ 1higpfophg0
+Prints it
+@@ phu82fs1e5
+Challenge: First Steps
+@@ kynjb3x2vf
+Challenge: Around the Old Oak
+@@ 21o1oeu7rl4
+Challenge: Steps with Numbers
+@@ 21roti3szbp
+Challenge: Gems of the Glade
+@@ sm53gdfusz
+Loops and Decisions
+@@ 1zlq1v4wjqm
+Repeat with for and while, decide with if.
+@@ qjdg78mu6c
+
+**Key ideas**
+- `for (let i = 0; i < 5; i++) { ... }` repeats 5 times (i = 0, 1, 2, 3, 4).
+- The three parts: start (`let i = 0`), condition (`i < 5`), update (`i++`).
+- `while (condition) { ... }` repeats as long as the condition is true. Make sure it can become false!
+- `if (condition) { ... } else { ... }` runs code only when the condition is true.
+- `===` means "is equal", `!==` means "is not equal".
+@@ 5j51mzdawk
+The for loop
+@@ ticgp0vein
+Repeat without copying
+@@ 115vb1ke1b2
+```
+for (let i = 0; i < 3; i++) {
+  hero.moveRight();
+}
+```
+1. `let i = 0`: start a counter at 0
+2. `i < 3`: keep going while this is true
+3. `i++`: add 1 after each round
+
+The code inside `{ }` runs **3 times** (i = 0, 1, 2).
+@@ 1rwztjok6kk
+How many times does this loop run? `for (let i = 0; i < 5; i++)`
+@@ 1wwp757gfv7
+Forever
+@@ 1opuhng02s2
+How many times does this loop run? `for (let i = 1; i <= 3; i++)`
+@@ 1vixe51ztv6
+Repeat 10 times
+@@ azilgca03b
+Match the part of the loop
+@@ 1k9urgr2bx8
+Start
+@@ xta2o34gih
+Condition
+@@ hfyvd7rli6
+Update
+@@ f38idfci3d
+Body that repeats
+@@ d6ax5ya8qa
+`i++` is short for `i = i + 1`.
+@@ cerm7ud8cj
+Challenge: The Bridge of Seven Planks
+@@ 23d1c0xsz81
+Challenge: Zig-Zag Stairs
+@@ h75q3zasgm
+while and if
+@@ 1ahpecz3p15
+Repeat until...
+@@ 1eef8lq4c2j
+```
+while (hero.look("right") !== "tree") {
+  hero.moveRight();
+}
+```
+A **while** loop repeats *as long as* its condition is true. Use it when you don't know how many times to repeat.
+@@ 1j3ae5w9k5o
+Making decisions
+@@ h3c4r9egl
+```
+if (hero.look("right") === "goblin") {
+  hero.attack("right");
+} else {
+  hero.moveRight();
+}
+```
+`===` means "is exactly equal to". The `else` part runs when the condition is false.
+@@ o9gwrk9c6k
+When should you use a `while` loop instead of `for`?
+@@ 2cndrmefv9h
+When you repeat until something happens, without knowing how many times
+@@ 6zskvrugiu
+When you know the exact count
+@@ 1om7fpekc59
+Only with numbers
+@@ 1gahwgtnpkx
+Which line makes this loop run forever?
+@@ 2f2ya3e9ryh
+`torches++` makes the number bigger, so `torches > 0` stays true forever. It should be `torches--`.
+@@ edyl44q7ec
+Match the operator
+@@ hbpmp5kkhr
+Is equal to
+@@ 29no98t79nq
+Is not equal to
+@@ 1x9j9qoxu2q
+Greater than or equal
+@@ 20o8xb5nx0j
+Less than
+@@ 115mfw6gtc5
+Challenge: While the Path Is Clear
+@@ cjt7ng61ji
+Challenge: If a Goblin Blocks the Way
+@@ 398z8cjx8b
+Variables and Types
+@@ 29karfln9bq
+Store values: numbers, strings and booleans.
+@@ 1sbz17d852i
+
+**Key ideas**
+- `const name = "Ada";` can never be reassigned. `let gold = 10;` can change. Avoid `var`.
+- Types: **number** (`42`, `3.5`), **string** (`"text"`), **boolean** (`true`/`false`), plus `undefined` and `null`.
+- Maths: `+ - * /`, `%` (remainder), `**` (power). `gold += 5` adds 5.
+- Strings: `"a" + "b"` joins them; template literals: `\`Hi ${name}\``. `.length`, `.toUpperCase()`.
+- `typeof x` tells you the type. `"5" + 3` is `"53"` (text wins!), use `Number("5")`.
+@@ 2ssnjsw1vf
+let and const
+@@ swt8q6s795
+Boxes with labels
+@@ qj1xglsxnc
+**Variables** store values so you can use them later:
+
+```
+const heroName = "Ada";   // const: never changes
+let gold = 10;            // let: can change
+gold = gold + 5;          // now 15
+```
+Use `const` by default and `let` when the value must change.
+@@ vd7l0vd2s3
+Which line causes an error?
+@@ 7eib31b5vg
+A `const` can never be reassigned. Use `let` if it has to change.
+@@ 288m3vh6dnj
+Which keyword should you use for a value that will change?
+@@ 190cx1jmfm1
+var only
+@@ br49tcl02y
+Create a variable that will never change
+@@ lo47jc0m7
+Variable names are case-sensitive: `gold` and `Gold` are different variables.
+@@ 2ctcg8oagvj
+Which variable name follows JavaScript style (camelCase)?
+@@ 1o5s9jps9u0
+Max-Health
+@@ 1tn1ne0vl41
+MAXHEALTH
+@@ 24pjzs0eajp
+Numbers and maths
+@@ 19qd492sihs
+Doing sums
+@@ 2adl66ytjmp
+```
+10 + 5    // 15
+10 - 5    // 5
+10 * 5    // 50
+10 / 4    // 2.5
+10 % 3    // 1  (the remainder)
+2 ** 3    // 8  (2 × 2 × 2)
+```
+Shortcuts: `gold += 5` means `gold = gold + 5`. `lives--` subtracts 1.
+@@ ho16h7djkx
+Multiplication happens before addition, like in maths class.
+@@ 1r1nv5j1yw8
+How can you check if a number is even?
+@@ rz9c61mn5
+Multiply
+@@ 8ju8zqboy3
+Divide
+@@ 1l1du1sophk
+Remainder
+@@ 1r95rrawymu
+Power
+@@ 20xug061dgt
+Strings
+@@ bjv4g441j1
+Working with text
+@@ 26qpwwiin6o
+Text is called a **string**. Use quotes `"..."` or `'...'`, or backticks for **template literals**:
+
+```
+const name = "Ada";
+const greeting = `Hail, ${name}!`;   // "Hail, Ada!"
+name.length          // 3
+name.toUpperCase()   // "ADA"
+```
+@@ f0rtxbjbg
+When one side is a string, `+` joins text instead of adding numbers.
+@@ j82vynzphs
+Print the name in capitals
+@@ 19gisxllhgl
+Which character starts a template literal?
+@@ oj1rpo0ra2
+` (backtick)
+@@ 4xa87u7vcr
+" (double quote)
+@@ rij2q8a96e
+' (single quote)
+@@ 1z3naevqv6n
+$ (dollar)
+@@ 28h36cpie6d
+Booleans and types
+@@ wx5qad9ic
+true, false and friends
+@@ l4cg39k5sj
+- **boolean**: `true` or `false`
+- `undefined`: a variable with no value yet
+- `null`: "empty on purpose"
+
+`typeof` tells you the type:
+
+```
+typeof 42        // "number"
+typeof "hi"      // "string"
+typeof true      // "boolean"
+```
+@@ 2dgf6xajthq
+Match the value with its type
+@@ 1q45h8qnqv8
+`Number()` turns text into a number.
+@@ 25j2bc9bkyp
+`null` and `undefined` both mean "no value", but `null` is usually set on purpose.
+@@ iquidhspeb
+Challenge: The Scribe's First Words
+@@ 11r7a1a4olw
+Conditions and Logic
+@@ 1osks0jl35p
+Comparisons, if/else, && || ! and truthy values.
+@@ 16qgefwijk7
+
+**Key ideas**
+- Comparisons give booleans: `===`, `!==`, `>`, `<`, `>=`, `<=`. Always use `===`, not `==`.
+- `if / else if / else` picks one branch.
+- Logic: `&&` (and), `||` (or), `!` (not).
+- **Falsy** values: `false, 0, "", null, undefined, NaN`. Everything else is **truthy**.
+- Ternary: `cond ? a : b`. `switch` for many fixed cases.
+@@ nm2c1jtlqv
+Comparing values
+@@ 1ua3suohdxa
+Questions with yes/no answers
+@@ jgbyo57gbv
+```
+5 === 5       // true
+5 === "5"     // false (different types)
+3 !== 4       // true
+10 >= 10      // true
+```
+Always use `===` and `!==`. The old `==` converts types in surprising ways (`0 == ""` is `true`!).
+@@ 1zrs11zmago
+Which comparison should you normally use?
+@@ 1ht22eg6bgv
+Which line has a classic mistake?
+@@ 1phtof5kg4n
+`=` *assigns* a value. To compare, use `===`.
+@@ 28xn6fs3aaf
+`age >= 18` is true when age is...
+@@ 1ti04g2g8u0
+18 or more
+@@ iobdg534kk
+More than 18 only
+@@ hneqqx5tqz
+Less than 18
+@@ jpnoj4cvke
+Exactly 18 only
+@@ 2bpt9dcex2e
+if, else if, else
+@@ 1aygu09q9ph
+Choosing a path
+@@ 183d2e1s4he
+```
+if (score >= 90) {
+  console.log("Gold medal");
+} else if (score >= 50) {
+  console.log("Silver medal");
+} else {
+  console.log("Try again");
+}
+```
+Only the **first** true branch runs.
+@@ 1rx3j978q5i
+Write: if it rains, print "Umbrella", otherwise print "Sun hat"
+@@ 1xhny5h48kx
+In an if / else if / else chain, several branches can run.
+@@ zve6h8qv67
+Only the first branch whose condition is true runs.
+@@ 1pmxcabwnt0
+And, or, not
+@@ f0rvq85hvy
+Combining conditions
+@@ 3u8ifvqvb6
+Truthy and falsy
+@@ mm5jq0t2jr
+In an `if`, any value is treated as true or false. These are **falsy**: `false`, `0`, `""` (empty string), `null`, `undefined`, `NaN`. Everything else is **truthy**, even `"0"` and `[]`.
+@@ j2s88dzg21
+Which value is falsy?
+@@ hsnkfkchn3
+Ternary and switch
+@@ d89ihia6f0
+Short decisions
+@@ o55xmsh6vn
+```
+const label = gold > 100 ? "rich" : "poor";
+```
+`condition ? valueIfTrue : valueIfFalse`
+
+For many fixed cases, `switch` can be clearer:
+
+```
+switch (day) {
+  case "sat":
+  case "sun":
+    console.log("Weekend!");
+    break;
+  default:
+    console.log("Work day");
+}
+```
+@@ cqq72dnhs0
+Pick "day" or "night"
+@@ 1l62vvtgl8t
+In a `switch`, what does `break` do?
+@@ fpdv19f6v1
+Stops running the switch
+@@ 1re8z66uzkz
+Crashes the program
+@@ 2bzb2qmd13y
+Skips to the next case
+@@ p4bgn66kr
+Restarts the switch
+@@ 5jifxl5htp
+Name, reuse and combine your spells.
+@@ v1wfgtdee3
+
+**Key ideas**
+- Declare: `function greet(name) { return "Hi " + name; }` Call: `greet("Ada")`.
+- **Parameters** are the names in the declaration; **arguments** are the values you pass.
+- `return` sends a value back and stops the function. Without it, you get `undefined`.
+- Arrow functions: `const double = (n) => n * 2;`
+- Default parameters: `function heal(hp, amount = 10)`.
+- **Scope**: variables created inside a function (or a `{ }` block) only exist inside it.
+@@ 1urafu6yr90
+Defining functions
+@@ 164tblly807
+Your own commands
+@@ lwfff1b1z1
+```
+function climb() {
+  hero.moveRight();
+  hero.moveUp();
+}
+
+climb();   // run it
+climb();   // and again
+```
+Define once, call many times. Good names are verbs: `climb`, `openDoor`, `countGems`.
+@@ 1xku9sfxaqs
+Define a function that says hi, then call it
+@@ 1qn9usp0nbs
+What happens if you define a function but never call it?
+@@ 2d17xp5jqg4
+Nothing: its code never runs
+@@ 239519xfzdv
+It runs once automatically
+@@ 1w2aianeq2o
+An error appears
+@@ 1f2u5awkfhk
+It runs forever
+@@ dtdn19izgs
+Functions help you avoid repeating the same code (DRY: Don't Repeat Yourself).
+@@ o3khmohqss
+Parameters and return
+@@ 22c41m0r3st
+Inputs and outputs
+@@ 1fy40k50hl1
+```
+function add(a, b) {
+  return a + b;
+}
+const total = add(2, 3);   // 5
+```
+- `a` and `b` are **parameters** (placeholders)
+- `2` and `3` are **arguments** (real values)
+- `return` gives a value back
+@@ 1fjzfs8tuey
+The function forgot `return`, so it gives back `undefined`.
+@@ lith6yamku
+Return the area of a rectangle
+@@ 1cpoxjmvaj0
+Parameter
+@@ ppej1irttv
+Name in the function definition
+@@ 26m66idec7i
+Argument
+@@ 2b1gfb98wdb
+Value passed when calling
+@@ k9hqd4lord
+Sends a value back
+@@ mt5joh8fit
+Call
+@@ upg35mp466
+Running the function
+@@ 6u0njoiwik
+`return` also stops the function immediately.
+@@ 4raanmuzyx
+Arrow functions and defaults
+@@ 1aiuvym8w4l
+A shorter way
+@@ 9jdaio530g
+```
+// the same function, three ways
+function triple(n) { return n * 3; }
+const triple2 = (n) => { return n * 3; };
+const triple3 = (n) => n * 3;   // one expression: return is automatic
+```
+Default parameters give a value when none is passed:
+
+```
+function heal(hp, amount = 10) { return hp + amount; }
+heal(50);      // 60
+```
+@@ 1i95yf9g0hd
+Which line returns undefined by mistake?
+@@ he428pagoh
+With curly braces, an arrow function needs `return`: `{ return a - b; }`.
+@@ 1zbfsh3wtf2
+Write an arrow function that adds 1
+@@ 2e3hwkvr3w3
+Scope
+@@ 18w11j6cm0f
+Where variables live
+@@ 2aadsfsrki5
+A variable made **inside** a function or a `{ }` block only exists there:
+
+```
+function loot() {
+  const gold = 50;
+}
+console.log(gold);   // ReferenceError: gold is not defined
+```
+Variables made outside are visible inside (but keep them to a minimum).
+@@ e2t2zgbs6e
+Why does `console.log(gold)` fail in the example?
+@@ f5l0bodsl7
+gold only exists inside the function
+@@ 24a9cucuvr9
+gold is misspelled
+@@ 122czi94vbr
+const values cannot be printed
+@@ 20dn0fz9nbm
+A `let` variable declared inside an `if` block can be used after the block ends.
+@@ ypsm39uqiu
+Challenge: Teach Your Hero a Trick
+@@ wbra9c093m
+Challenge: The Locked Door
+@@ 24pxx6egeok
+Challenge: The Hero's Sheet
+@@ yd9lwkt6jl
+Project: The Goblin Gauntlet
+@@ 2eegmdiu88i
+Lists of values: index, add, remove, loop.
+@@ coy2j9ebr5
+
+**Key ideas**
+- `const bag = ["rope", "torch"];` Index starts at **0**: `bag[0]` is `"rope"`.
+- `bag.length` is the number of items; the last one is `bag[bag.length - 1]`.
+- Add/remove: `push` (end), `pop` (end), `unshift` (start), `shift` (start).
+- Search: `includes(x)`, `indexOf(x)` (-1 if missing). Copy part: `slice(start, end)`.
+- Loop: `for (const item of bag) { ... }` or `bag.forEach((item) => ...)`.
+@@ nr0lizea4q
+Creating and reading arrays
+@@ zr3bekafwf
+```
+const knights = ["Ada", "Bo", "Cy"];
+knights[0]        // "Ada" (first)
+knights[2]        // "Cy"
+knights.length    // 3
+```
+Arrays count from **0**. The last item is at `length - 1`.
+@@ 158aftp71l3
+How do you get the last item of any array `a`?
+@@ 1ih4bwbd6gb
+a[a.length - 1]
+@@ zsr6bjch6o
+Change the first item to "axe"
+@@ 18jk6mgdm6g
+Changing arrays
+@@ 2ar7mz1h7ui
+Add and remove
+@@ 4qwezcdbts
+Match the method
+@@ 28jiein481k
+Add to the end
+@@ cisghk2whf
+Remove from the end
+@@ 1negczpii4n
+Add to the start
+@@ 150jwbaxomr
+Remove from the start
+@@ 22n3fjbp4wo
+`slice(start, end)` copies from start up to (not including) end.
+@@ s1dmxvsehx
+A `const` array can still have items pushed into it.
+@@ 1dmb3vol9ba
+`const` stops you replacing the whole array, not changing its contents.
+@@ 16y27zbbfsa
+Looping over arrays
+@@ b9u67fjsmh
+Visit every item
+@@ arxs8pyzn0
+Which line has an off-by-one bug?
+@@ 29kb9gqdlvm
+Indexes go from 0 to length - 1, so use `<`, not `<=`. Otherwise it prints `undefined` at the end.
+@@ n4bq3jfwqc
+Print every quest
+@@ 26m5o3gd41m
+Challenge: Arrays of Supplies
+@@ 2euzq8hz7w5
+Objects and JSON
+@@ 5l3qr4i9ri
+Group data with properties; send it as JSON.
+@@ 7v2iwyylfn
+
+**Key ideas**
+- `const hero = { name: "Ada", level: 3 };` Read with `hero.name` or `hero["name"]`.
+- Add or change: `hero.gold = 10;` Remove: `delete hero.gold`.
+- Methods are functions in objects: `hero.greet()`. Inside, `this` is the object.
+- Destructuring: `const { name, level } = hero;` Spread copies: `{ ...hero, level: 4 }`.
+- `Object.keys(o)`, `Object.values(o)`, `Object.entries(o)`.
+- JSON: `JSON.stringify(obj)` → text, `JSON.parse(text)` → object. Keys need double quotes in JSON.
+@@ 1htx4bo6kf
+Properties
+@@ q38flg4rvo
+Named values
+@@ 20tn4uehg6s
+When must you use brackets instead of a dot?
+@@ 1is053zx59p
+When the property name is in a variable
+@@ xrg35s35xw
+Always
+@@ 10nyb9dwt9u
+For numbers only
+@@ 1a7vraez8k7
+Example: `const key = "level"; hero[key]`.
+@@ qbcu7glkmu
+Read the name
+@@ chxoapa0qb
+Methods and this
+@@ 1w4pdcn0f89
+Functions inside objects
+@@ 29ep8j6bcnn
+```
+const hero = {
+  name: "Ada",
+  hp: 10,
+  heal(amount) {
+    this.hp += amount;
+  },
+};
+hero.heal(5);   // hero.hp is now 15
+```
+Inside a method, `this` means "the object the method was called on".
+@@ 1zr1kzpoert
+`console.log` is itself a method: the `log` function of the `console` object.
+@@ 257z8lncybm
+Destructuring and spread
+@@ 2d4wcurtfo2
+Unpack and copy
+@@ 1rtwebnlphn
+The spread makes a *copy*, so the original stays the same.
+@@ 3zdg98db6y
+Copy the settings and change the theme
+@@ 4dbkridovw
+Data as text
+@@ o7hve6d8w5
+**JSON** (JavaScript Object Notation) is how apps send data over the internet:
+
+```
+{ "name": "Ada", "level": 3, "skills": ["sword"] }
+```
+In JSON, keys **must** use double quotes.
+
+```
+const text = JSON.stringify(hero);   // object → text
+const obj = JSON.parse(text);        // text → object
+```
+@@ 10xs3bw1s36
+Which is valid JSON?
+@@ nor00ulech
+{ "name": "Ada", "level": 3 }
+@@ slymvp0kod
+{ name: 'Ada', level: 3 }
+@@ y60jcatsup
+{ "name": "Ada", }
+@@ 263d00c9kz5
+{ name = "Ada" }
+@@ berexjsto2
+JSON needs double-quoted keys and strings, and no trailing comma.
+@@ 189r5eo70a4
+Match the function
+@@ 22896ckt8fm
+Object → text
+@@ 69squyb91m
+Text → object
+@@ 1stsckcicf9
+List of property names
+@@ 29jtivtd2r9
+List of values
+@@ ou27ek0yxo
+Array Methods
+@@ 4r6ob5rjk3
+map, filter, find, reduce, some, every and sort.
+@@ x6sbwosrei
+
+**Key ideas**
+- `map(fn)`: a new array with every item changed.
+- `filter(fn)`: a new array with only the items that pass.
+- `find(fn)`: the first matching item (or `undefined`). `findIndex` gives its index.
+- `reduce((acc, x) => ..., start)`: combine everything into one value.
+- `some` (any pass?), `every` (all pass?), `includes`.
+- `sort((a, b) => a - b)` sorts numbers (it changes the array!). These methods can be **chained**.
+@@ 1wh4x1gj614
+Change every item
+@@ 1cnfnk77ja9
+```
+const prices = [1, 2, 3];
+const doubled = prices.map((p) => p * 2);   // [2, 4, 6]
+
+const names = knights.map((k) => k.name);
+```
+`map` always returns a **new** array of the same length.
+@@ 1cx5fe8ezsn
+Make every word uppercase
+@@ 1fd18vm2p90
+`map` changes the original array.
+@@ y00kppdl4e
+It returns a new array and leaves the original alone.
+@@ ii2y8bljyi
+filter and find
+@@ 22iiq2yaz16
+Keep some, find one
+@@ 10wlolnnnst
+Which method?
+@@ abvbb3i6mt
+Keep all items that match
+@@ c8lrq4q86u
+Get the first match
+@@ aaadzlzvd3
+Transform every item
+@@ 1gufy61kl57
+Check if any item matches
+@@ 176z7sy0ho0
+reduce, sort and chains
+@@ 19ocwt1g3rx
+Combine into one
+@@ 1uf82oahd8w
+```
+const total = [5, 10, 15].reduce((sum, n) => sum + n, 0);   // 30
+```
+`reduce` walks the array keeping a running result (`sum`), starting from `0`.
+
+Sorting numbers needs a compare function:
+
+```
+[10, 2, 33].sort((a, b) => a - b);   // [2, 10, 33]
+```
+@@ 1haww6s4gi
+Without a compare function, `sort` compares items as **text**, so "10" comes before "2".
+@@ 1jkyjuseq5l
+Chain: keep even numbers, then double them
+@@ 19ptzuupmuz
+Challenge: Counting the Treasure
+@@ w3rnf5vedt
+The DOM and Events
+@@ 1v8ri5cj56b
+Change web pages with JavaScript.
+@@ q6qyrlrvld
+
+**Key ideas**
+- The **DOM** is the page as objects. `document.querySelector("#id")` finds one element; `querySelectorAll(".x")` finds all.
+- Change it: `el.textContent`, `el.classList.add/remove/toggle`, `el.style.color`, `el.setAttribute`.
+- Create: `document.createElement("li")`, then `parent.append(li)`. Remove: `el.remove()`.
+- Events: `el.addEventListener("click", () => { ... })`. Form: listen to `"submit"` and call `event.preventDefault()`.
+- Inputs: read `input.value`. Use `textContent` (not `innerHTML`) for user text to avoid XSS.
+- `localStorage.setItem/getItem` saves strings in the browser.
+@@ 1tvnihfugd6
+Finding elements
+@@ g0gpsn44nk
+The page as objects
+@@ 1x2q64f525q
+The browser turns your HTML into the **DOM** (Document Object Model). JavaScript can find elements with CSS selectors:
+
+```
+const title = document.querySelector("h1");
+const bell = document.querySelector("#bell");
+const cards = document.querySelectorAll(".card");   // all of them
+```
+@@ 2eyqge4l2ht
+Which finds the element with `id="score"`?
+@@ up64hrwt07
+What does `querySelector` return when nothing matches?
+@@ imat2tv1wb
+An empty array
+@@ 1r04rgt4mxd
+Which gets **every** element with the class `gem`?
+@@ 3o6selr6eq
+Find the first button
+@@ uod4ztw4b6
+Changing the page
+@@ rlm2kgepka
+Text, classes and styles
+@@ 20gg3gm1q8f
+```
+const title = document.querySelector("h1");
+title.textContent = "Victory!";
+title.classList.add("gold");        // add a CSS class
+title.classList.toggle("hidden");   // add or remove
+title.style.color = "crimson";       // inline style
+```
+Prefer classes over inline styles: keep the looks in CSS.
+@@ 146wawqrm3i
+Match the code with what it does
+@@ oqwgk1pfzh
+el.textContent = "Hi"
+@@ 140zzzv032a
+Changes the text
+@@ hf73ldxbto
+Adds a class
+@@ xzwy8prsk8
+Adds or removes a class
+@@ nd02rqheow
+Removes the element
+@@ 21hjv7ufvpi
+Which is safest for showing text a user typed?
+@@ 22gq1yy1u9l
+el.textContent = userText
+@@ 18rmys294vb
+el.innerHTML = userText
+@@ s2w3n0p2f6
+`innerHTML` would run any HTML the user types: a security hole called XSS.
+@@ 28ur0f1wbak
+Which line has a bug?
+@@ e23hs6lwor
+CSS values are strings in JavaScript: `"red"` needs quotes. Without them, JS looks for a variable named `red`.
+@@ 28puami0g3q
+Hide the panel by adding a class
+@@ 1d1fk3ebudf
+Events
+@@ 9spiqcm5r7
+Reacting to people
+@@ 1w7vea7smkv
+```
+const bell = document.querySelector("#bell");
+bell.addEventListener("click", () => {
+  console.log("Ding!");
+});
+```
+Other events: `"input"` (typing), `"submit"` (forms), `"keydown"`, `"mouseover"`...
+@@ bdq2a33kzt
+Which event fires when someone types in an input?
+@@ 14cmzm1umy1
+Which line runs the function too early?
+@@ mzjtr30v4z
+`ring()` runs immediately. Pass the function itself: `addEventListener("click", ring)`.
+@@ 2cat3vcxdle
+React to clicks
+@@ 1r2rkdmyp6i
+By default, submitting a form reloads the page. Stop that with `preventDefault`:
+
+```
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  console.log(input.value);
+});
+```
+@@ 1prgp3tpuoh
+Why call `event.preventDefault()` in a submit handler?
+@@ 1i4fut78afr
+To stop the page from reloading
+@@ 16o1wyfvxg3
+To clear the form
+@@ 21rgj68shvt
+To submit twice
+@@ 94ve8iouv1
+To disable the button
+@@ f8bivea3w4
+Creating elements
+@@ 215c01deswq
+Building with code
+@@ 2d6vxqrfjxl
+Add a new list item that says "Feed the goat"
+@@ 2ee53ex7h05
+`document.createElement("li")` puts the new li on the page...
+@@ 131ztwgwyuh
+Only after you append it somewhere
+@@ 10tjxxitbm1
+Immediately at the top
+@@ 1lbirx7rz13
+`list.innerHTML = ""` removes everything inside the list.
+@@ 1ytdax7m5mv
+Challenge: Ring the Village Bell
+@@ 1k6rgo4n15v
+Challenge: The Notice Board
+@@ 2f5sk61t2du
+Saving in the browser
+@@ 2bnokvlwuiz
+```
+localStorage.setItem("theme", "dark");
+localStorage.getItem("theme");    // "dark"
+localStorage.removeItem("theme");
+```
+It stores **strings** only. Use JSON for arrays and objects.
+@@ 1tv12fd6s7i
+How do you save an array in localStorage?
+@@ 7ukuxg7jym
+localStorage.list = list
+@@ 12c7u33gjfb
+What does `localStorage.getItem("missing")` return?
+@@ qir0ep73le
+localStorage is a safe place for passwords.
+@@ 2etvs1hm20t
+Any script on the page can read it. Never store secrets there.
+@@ 17nk30ul6nq
+Challenge: The Saved Quest List
+@@ 1lm5zoesr1d
+Asynchronous JavaScript
+@@ 13insp4250l
+Timers, promises and async/await.
+@@ 12z54iyghap
+
+**Key ideas**
+- Some work takes time (timers, network). JavaScript keeps going and handles the result **later**.
+- `setTimeout(fn, ms)` runs `fn` after a delay.
+- A **Promise** is a value that arrives later: pending → fulfilled (or rejected).
+- `async function` + `await promise` waits for the value in a readable way.
+- Handle failures with `try { ... } catch (err) { ... }`.
+- `fetch(url)` returns a promise (next section: APIs).
+@@ 2dx0prnkicv
+Later, not now
+@@ 11x4ht5vcss
+Asynchronous code
+@@ 1dmxegr04hm
+```
+console.log("1. Send the raven");
+setTimeout(() => {
+  console.log("3. The raven returns");
+}, 1000);
+console.log("2. Eat dinner");
+```
+JavaScript does **not** stop and wait. It schedules the timer and continues. The timer runs later.
+@@ zjfgdf66w
+Even with 0 ms, the timer callback runs after the current code finishes.
+@@ 1l9gxsb14i9
+What is the second argument of `setTimeout(fn, 500)`?
+@@ 18pkm4nc6ti
+The delay in milliseconds
+@@ if4gk74ie9
+How many times to repeat
+@@ 5us4um3l3z
+The seconds to wait
+@@ 7vzul0028m
+A name
+@@ 23qp7ibtrbk
+`setInterval` runs a function again and again until you clear it.
+@@ 1ldwhmgxe3t
+Promises
+@@ 1stwaorn22g
+A promise of a value
+@@ 1j4flmaj693
+A **Promise** represents a value that will arrive later:
+
+```
+const raven = new Promise((resolve) => {
+  setTimeout(() => resolve("A letter!"), 1000);
+});
+raven.then((msg) => console.log(msg));
+```
+A promise is **pending**, then **fulfilled** (it worked) or **rejected** (it failed).
+@@ 1vcxiwcdqex
+Match the promise state
+@@ 2656jffcm9q
+Still waiting
+@@ 1tf4xag7hkk
+Finished with a value
+@@ 16yq7pkbh22
+Failed with an error
+@@ eho402wc9z
+Which method runs code when a promise is fulfilled?
+@@ 1hp2nqzf6i2
+Which method handles a rejected promise?
+@@ xrqk60v2ew
+async and await
+@@ cf8oceachb
+Readable waiting
+@@ wig81ug1wq
+```
+async function getLetter() {
+  const msg = await raven;   // pause here until it arrives
+  console.log(msg);
+}
+```
+`await` only works inside an `async` function (or at the top of a module). It makes async code read like normal code.
+@@ 2cm1ylsokvz
+When things fail
+@@ qaptp2e123
+Wait for the promise
+@@ 1oy09wbnmd4
+`fetch` returns a promise, so it needs `await fetch(...)`.
+@@ 15gpmo95auj
+Where can you use `await`?
+@@ 1xn1le8hsaz
+Inside an async function (or a module top level)
+@@ rbj9ewyirn
+Anywhere
+@@ 10qgyw7297
+Only in loops
+@@ 1u1ri4ivvp2
+Only in HTML
+@@ 2cvpfwbcj3r
+Handle an error around an awaited call
+@@ 23zqzxzb5j4
+Challenge: The Messenger Ravens
+@@ 13voob3veew
+Modern JavaScript
+@@ pu45j493f9
+Modules, classes, errors and handy operators.
+@@ kd3baf8a8j
+
+**Key ideas**
+- **Modules**: `export function x() {}` / `export default App`; `import App, { x } from "./file.js"`.
+- **Classes**: `class Knight { constructor(name) { this.name = name; } greet() {} }`; `new Knight("Ada")`; `extends` for inheritance.
+- Errors: `throw new Error("message")`; `try/catch/finally`.
+- Optional chaining: `user?.address?.city` (no crash on undefined).
+- Nullish coalescing: `value ?? "default"` (only for null/undefined, unlike `||`).
+@@ a69olxf55y
+Modules
+@@ 2fzcwba909
+Code in many files
+@@ 1vb0eo4us40
+Big programs are split into **modules** (files):
+
+```
+// math.js
+export function add(a, b) { return a + b; }
+export default function square(n) { return n * n; }
+
+// main.js
+import square, { add } from "./math.js";
+```
+Named exports use `{ }` when importing; a default export does not.
+@@ 3qrwszpzyo
+How do you import a **named** export called `add`?
+@@ 1g59p2jxmvb
+import add from "./math.js"
+@@ z05ictgetw
+require add from "./math.js"
+@@ 2cxvsiltgg
+include add
+@@ 22yo2t7uva9
+How many default exports can a file have?
+@@ 21l5rpcq28w
+Unlimited
+@@ t6c2ao04dd
+Zero
+@@ 17simvfbflf
+Two
+@@ 3zguh5jj0s
+Export the function so other files can use it
+@@ 27r1ublzeyk
+In Node.js you will also see the older `require()` and `module.exports` style.
+@@ 11hr56h5fdm
+Classes
+@@ 26rvfcjzyf4
+Blueprints for objects
+@@ 1q6dt52vljn
+What keyword creates an object from a class?
+@@ dt4lyfpozy
+`class Mage extends Hero` makes Mage inherit Hero's methods.
+@@ 29shhecni1q
+Errors
+@@ 8zk1oplmvv
+Throwing and catching
+@@ v1zsegenz7
+`finally` always runs. `catch` only runs when there is an error.
+@@ 22jjj4ehpsz
+Match the error with its usual cause
+@@ 10kaacohz99
+A name that does not exist
+@@ 1f5q5r6ya8r
+Using a value the wrong way
+@@ 1lml48ze8n0
+Broken code (missing bracket...)
+@@ 9h5dy315wa
+Handy operators
+@@ 15ioxqtpcry
+?. and ??
+@@ uznokbrh5b
+```
+const city = user?.address?.city;    // undefined instead of a crash
+const name = input ?? "stranger";      // default only for null/undefined
+```
+`||` also gives defaults, but for **any** falsy value: `0 || 10` is `10`, while `0 ?? 10` is `0`.
+@@ 1wxt74l6c5p
+Which prevents "Cannot read properties of undefined"?
+@@ 2aj00tl3d0f
+Optional chaining ?.
+@@ 29x0lc12m4q
+The ++ operator
+@@ pymoh27dr6
+The spread ...
+@@ 1v3t1yrve8
+Project: The Quest Board App

@@ -1,0 +1,256 @@
+@@ 2ektmzcp6kw
+
+**Ideias principais**
+- O **terminal** (linha de comando, shell) roda programas quando você digita comandos.
+- `pwd` mostra onde você está, `ls` lista arquivos, `cd folder` entra numa pasta, `cd ..` sobe, `cd ~` vai para casa.
+- `mkdir name` cria uma pasta, `touch file` cria um arquivo vazio, `cat file` mostra um arquivo.
+- `mv a b` move/renomeia, `cp a b` copia, `rm file` apaga (`rm -r folder` para pastas). Não existe lixeira!
+- Aperte ↑ para repetir comandos e Tab para completar nomes.
+~~
+
+**Ideas clave**
+- La **terminal** (línea de comandos, shell) ejecuta programas cuando escribes comandos.
+- `pwd` muestra dónde estás, `ls` lista archivos, `cd folder` entra en una carpeta, `cd ..` sube, `cd ~` va a casa.
+- `mkdir name` crea una carpeta, `touch file` crea un archivo vacío, `cat file` muestra un archivo.
+- `mv a b` mueve/renombra, `cp a b` copia, `rm file` borra (`rm -r folder` para carpetas). ¡No hay papelera!
+- Pulsa ↑ para repetir comandos y Tab para autocompletar nombres.
+@@ xhphpl1uof
+O **terminal** permite controlar o computador digitando **comandos** em vez de clicar. Os desenvolvedores o usam todo dia para rodar servidores, instalar pacotes, usar o Git e muito mais.
+
+[[1]]
+O texto antes do `$` é o **prompt**: ele mostra quem você é e onde está.
+~~
+La **terminal** te permite controlar el ordenador escribiendo **comandos** en lugar de hacer clic. Los desarrolladores la usan cada día para ejecutar servidores, instalar paquetes, usar Git y mucho más.
+
+[[1]]
+El texto antes del `$` es el **prompt**: muestra quién eres y dónde estás.
+@@ 2f66xdi6v4i
+[[1]]
+Dica: aperte **Tab** para completar um nome e **↑** para reaproveitar um comando.
+~~
+[[1]]
+Consejo: pulsa **Tab** para completar un nombre y **↑** para reutilizar un comando.
+@@ 1odsko0vj26
+[[1]]
+Cuidado: o `rm` não usa lixeira. Apagou, sumiu.
+~~
+[[1]]
+Cuidado: `rm` no usa papelera. Lo borrado, borrado está.
+@@ k48hv0xtyh
+
+**Ideias principais**
+- O **Git** registra o histórico do projeto como **commits** (pontos de salvamento). O **GitHub** hospeda projetos Git online.
+- `git init` começa um repositório. `git status` mostra o que mudou.
+- `git add file` (ou `git add .`) **prepara** as mudanças; `git commit -m "message"` as salva.
+- `git log --oneline` mostra o histórico.
+- Bons commits são pequenos e têm mensagens claras no imperativo: "Add login form".
+- `.gitignore` lista arquivos que o Git deve ignorar (`node_modules`, `.env`, `dist`).
+~~
+
+**Ideas clave**
+- **Git** registra la historia de tu proyecto como **commits** (puntos de guardado). **GitHub** aloja proyectos Git en línea.
+- `git init` empieza un repositorio. `git status` muestra qué cambió.
+- `git add file` (o `git add .`) **prepara** los cambios; `git commit -m "message"` los guarda.
+- `git log --oneline` muestra el historial.
+- Los buenos commits son pequeños y tienen mensajes claros en imperativo: "Add login form".
+- `.gitignore` lista los archivos que Git debe ignorar (`node_modules`, `.env`, `dist`).
+@@ 2c4lh7bp076
+O **Git** guarda o histórico completo de um projeto. Cada ponto de salvamento é um **commit**. Com o Git você pode:
+- voltar a qualquer versão anterior
+- ver quem mudou o quê e por quê
+- trabalhar em novidades sem quebrar a versão principal
+- trabalhar em equipe sem um sobrescrever o outro
+
+O **GitHub** (ou GitLab, Bitbucket) guarda projetos Git online.
+~~
+**Git** guarda la historia completa de un proyecto. Cada punto de guardado es un **commit**. Con Git puedes:
+- volver a cualquier versión anterior
+- ver quién cambió qué y por qué
+- trabajar en novedades sin romper la versión principal
+- trabajar en equipo sin pisaros el trabajo
+
+**GitHub** (o GitLab, Bitbucket) guarda proyectos Git en línea.
+@@ 117uk601t39
+[[1]]
+A **preparação** (staging) permite escolher exatamente o que entra no próximo commit.
+~~
+[[1]]
+El **área de preparación** (staging) te deja elegir exactamente qué entra en el siguiente commit.
+@@ 18magi6eum3
+- Faça commits **pequenos e focados** com frequência
+- Escreva as mensagens no imperativo: "Add login form", "Fix price rounding"
+- Confira `git status` e `git diff` antes do commit
+- Nunca faça commit de segredos (senhas, chaves de API)
+
+Um arquivo `.gitignore` lista o que o Git deve ignorar:
+
+[[1]]
+~~
+- Haz commits **pequeños y centrados** a menudo
+- Escribe los mensajes en imperativo: "Add login form", "Fix price rounding"
+- Revisa `git status` y `git diff` antes del commit
+- Nunca hagas commit de secretos (contraseñas, claves de API)
+
+Un archivo `.gitignore` lista lo que Git debe ignorar:
+
+[[1]]
+@@ 1jsi7yv0a3i
+
+**Ideias principais**
+- Uma **branch** é uma linha de trabalho separada. `git switch -c feature` cria uma e muda para ela.
+- `git switch main` volta; `git merge feature` traz o trabalho para a branch atual.
+- Um **remoto** (`origin`) é uma cópia no GitHub. `git push` envia, `git pull` baixa, `git clone url` copia um repo.
+- **Pull requests (PRs)**: propõem juntar uma branch; os colegas a revisam antes do merge.
+- **Conflitos de merge** acontecem quando duas branches mudam as mesmas linhas: edite o arquivo, tire os marcadores `<<<<<<<`/`=======`/`>>>>>>>` e faça o commit.
+~~
+
+**Ideas clave**
+- Una **rama** es una línea de trabajo separada. `git switch -c feature` crea una y se cambia a ella.
+- `git switch main` vuelve; `git merge feature` trae el trabajo a la rama actual.
+- Un **remoto** (`origin`) es una copia en GitHub. `git push` sube, `git pull` descarga, `git clone url` copia un repo.
+- **Pull requests (PR)**: proponen fusionar una rama; los compañeros la revisan antes de fusionarla.
+- Los **conflictos de merge** ocurren cuando dos ramas cambian las mismas líneas: edita el archivo, quita los marcadores `<<<<<<<`/`=======`/`>>>>>>>` y haz commit.
+@@ 1w9m08ru8ie
+Uma **branch** permite trabalhar em algo novo sem mexer na versão principal:
+
+[[1]]
+(`git checkout -b` é o jeito antigo de escrever `git switch -c`.)
+~~
+Una **rama** te deja trabajar en algo nuevo sin tocar la versión principal:
+
+[[1]]
+(`git checkout -b` es la forma antigua de escribir `git switch -c`.)
+@@ 1arhqs4bb3q
+[[1]]
+`origin` é o nome de costume do remoto principal.
+~~
+[[1]]
+`origin` es el nombre habitual del remoto principal.
+@@ 1kucv14ner3
+Na maioria das empresas você nunca envia direto para a `main`. Em vez disso:
+1. Crie uma branch e faça commit do seu trabalho
+2. Envie a branch para o GitHub
+3. Abra um **pull request** (PR): "por favor, juntem minha branch"
+4. Os colegas **revisam** o código e comentam
+5. Verificações automáticas (testes) rodam
+6. Depois da aprovação, o PR é juntado (merge)
+~~
+En la mayoría de las empresas nunca subes directamente a `main`. En su lugar:
+1. Crea una rama y haz commit de tu trabajo
+2. Sube la rama a GitHub
+3. Abre un **pull request** (PR): "por favor, fusionad mi rama"
+4. Los compañeros **revisan** el código y comentan
+5. Se ejecutan comprobaciones automáticas (pruebas)
+6. Tras la aprobación, se fusiona el PR
+@@ 1hp8j4x2nwe
+Se duas branches mudam as **mesmas linhas**, o Git não consegue decidir e marca um **conflito**:
+
+[[1]]
+Para resolver: edite o arquivo deixando a versão que você quer, apague os marcadores e depois faça `git add` e `git commit`.
+~~
+Si dos ramas cambian las **mismas líneas**, Git no puede decidir y marca un **conflicto**:
+
+[[1]]
+Para arreglarlo: edita el archivo con la versión que quieras, borra los marcadores y luego haz `git add` y `git commit`.
+@@ 1b9a1mylj6m
+
+**Ideias principais**
+- O **Node.js** roda JavaScript fora do navegador. O **npm** instala pacotes (código de outras pessoas).
+- `package.json` descreve o projeto: nome, **scripts**, **dependencies** e **devDependencies**.
+- `npm install` (ou `npm i`) instala tudo em `node_modules` (nunca faça commit dela).
+- `npm install react` adiciona uma dependência; `npm install -D vitest` adiciona uma ferramenta só de desenvolvimento.
+- `npm run dev` inicia o servidor de desenvolvimento; `npm run build` cria uma pasta `dist/` otimizada.
+- O **Vite** é uma ferramenta de build rápida usada por muitos frameworks.
+~~
+
+**Ideas clave**
+- **Node.js** ejecuta JavaScript fuera del navegador. **npm** instala paquetes (código de otras personas).
+- `package.json` describe el proyecto: nombre, **scripts**, **dependencies** y **devDependencies**.
+- `npm install` (o `npm i`) lo instala todo en `node_modules` (nunca hagas commit de ella).
+- `npm install react` añade una dependencia; `npm install -D vitest` añade una herramienta solo de desarrollo.
+- `npm run dev` arranca el servidor de desarrollo; `npm run build` crea una carpeta `dist/` optimizada.
+- **Vite** es una herramienta de build rápida que usan muchos frameworks.
+@@ 1eii2u504f6
+O **npm** (Node Package Manager) baixa **pacotes**: código escrito por outras pessoas, como React ou Express. Todo projeto tem um `package.json`:
+
+[[1]]
+~~
+**npm** (Node Package Manager) descarga **paquetes**: código escrito por otros, como React o Express. Cada proyecto tiene un `package.json`:
+
+[[1]]
+@@ 1qdf450szac
+[[1]]
+O `package-lock.json` registra as versões exatas, para todo mundo receber as mesmas. Faça commit dele.
+~~
+[[1]]
+`package-lock.json` registra las versiones exactas, para que todos tengan las mismas. Haz commit de él.
+@@ 1cj0lun77b
+Durante o desenvolvimento, um **servidor de desenvolvimento** mostra as mudanças na hora:
+
+[[1]]
+Para produção, um **build** empacota e minifica tudo numa pasta `dist/` que você envia para uma hospedagem:
+
+[[2]]
+~~
+Durante el desarrollo, un **servidor de desarrollo** muestra los cambios al instante:
+
+[[1]]
+Para producción, un **build** empaqueta y minifica todo en una carpeta `dist/` que subes a un hosting:
+
+[[2]]
+@@ qskrmgp8gh
+
+**Ideias principais**
+- Painéis das DevTools: **Elements** (HTML/CSS), **Console** (logs, erros), **Network** (requisições), **Sources** (breakpoints), **Application** (armazenamento).
+- Leia as mensagens de erro: o **tipo** (TypeError...), a **mensagem** e o **arquivo:linha** no stack trace.
+- `console.log`, `console.table` e a instrução `debugger` / breakpoints para pausar o código.
+- Estratégia: reproduzir → ler o erro → formar um palpite → testar uma mudança → repetir. Comente metades para achar o culpado.
+~~
+
+**Ideas clave**
+- Paneles de las DevTools: **Elements** (HTML/CSS), **Console** (logs, errores), **Network** (peticiones), **Sources** (puntos de interrupción), **Application** (almacenamiento).
+- Lee los mensajes de error: el **tipo** (TypeError...), el **mensaje** y el **archivo:línea** de la traza de pila.
+- `console.log`, `console.table` y la sentencia `debugger` / puntos de interrupción para pausar el código.
+- Estrategia: reproducir → leer el error → hacer una hipótesis → probar un cambio → repetir. Comenta mitades para encontrar al culpable.
+@@ j4rk82rlk9
+Abra as DevTools com **F12** (ou clique direito → Inspecionar):
+- **Elements**: veja e edite o HTML e o CSS ao vivo
+- **Console**: logs e erros, e você pode digitar JS
+- **Network**: cada requisição, seu status e tempo
+- **Sources**: coloque breakpoints e avance pelo código
+- **Application**: localStorage, cookies
+~~
+Abre las DevTools con **F12** (o clic derecho → Inspeccionar):
+- **Elements**: mira y edita el HTML y el CSS en vivo
+- **Console**: logs y errores, y puedes escribir JS
+- **Network**: cada petición, su estado y su tiempo
+- **Sources**: pon puntos de interrupción y avanza por el código
+- **Application**: localStorage, cookies
+@@ 1vtfji8l48f
+[[1]]
+- **TypeError**: o tipo de erro
+- a mensagem: algo era `undefined` quando lemos `.name`
+- o **stack trace**: onde aconteceu, **app.js linha 14**, chamado a partir da linha 30
+~~
+[[1]]
+- **TypeError**: el tipo de error
+- el mensaje: algo era `undefined` cuando leímos `.name`
+- la **traza de pila**: dónde ocurrió, **app.js línea 14**, llamado desde la línea 30
+@@ 23twx9rsgem
+Adicione um **breakpoint** clicando num número de linha em DevTools → Sources, ou escreva `debugger;` no código. O código pausa ali e você pode inspecionar cada variável e depois **avançar** linha por linha.
+
+Um bom processo de depuração:
+1. Reproduza o bug de forma confiável
+2. Leia o erro e o stack trace
+3. Dê um palpite sobre a causa
+4. Teste **uma** mudança
+5. Repita
+~~
+Añade un **punto de interrupción** haciendo clic en un número de línea en DevTools → Sources, o escribe `debugger;` en tu código. El código se pausa ahí y puedes inspeccionar cada variable y luego **avanzar** línea a línea.
+
+Un buen proceso de depuración:
+1. Reproduce el bug de forma fiable
+2. Lee el error y la traza de pila
+3. Haz una hipótesis sobre la causa
+4. Prueba **un** cambio
+5. Repite

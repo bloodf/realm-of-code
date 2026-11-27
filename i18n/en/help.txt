@@ -1,0 +1,768 @@
+@@ 3wrsz3zozc
+I want to do something else
+@@ s8ugg2dp8g
+That is fine! Your progress is saved after every lesson, game and field. Come back any time.
+@@ 1u999tl2ahe
+The village of Codehaven
+@@ 1on0ittev5r
+This is your home base. Every building is a part of the game: **lessons** in the Academy, **coding puzzles** on the Farm, **games and items** in the Tavern, **quests** at the Guild. Walk to a door (or click a building) to go in.
+@@ cd56u7q40e
+Welcome, adventurer!
+@@ 271vznp0965
+I am **Lumi**, your guide. This quick tour shows you around the village. You can replay it any time from the **Help** button.
+@@ 1jm1kqrfwh8
+This is you
+@@ 622xvwyi7
+Move with the **arrow keys** or **WASD**, or **click the ground** to walk there. On a phone, tap where you want to go.
+@@ 171o08oj6v
+The Academy
+@@ pc1rjezi75
+Start here! Short lessons teach you to code, step by step, from zero. Click the castle to walk to its door.
+@@ 1u3mczx96qu
+Greenhollow Farm
+@@ iglhf98af8
+Program a farmer to plant and harvest. You start with **blocks** and end up writing real **JavaScript**.
+@@ habprp6kj0
+The Tavern
+@@ 2axu7npxca2
+Minigames, practice and a **merchant** who sells hints and potions for gold.
+@@ lrejgph4d7
+The travel bar
+@@ 63nwpbj7vc
+A shortcut to every building. You do not have to walk if you are in a hurry.
+@@ l9bsp6bdov
+Your **level** and **XP**. The green bar is today's goal. Click it to see your profile.
+@@ 1zmf0n5js1n
+Streak, gold and items
+@@ 10j6i874db1
+**Streak** = days in a row you learned. **Gold** buys items. **Hearts** are lost on wrong answers in lessons. Lightbulbs give hints, torches give second chances, potions give hearts.
+@@ 103je9vk4hj
+Need help? Tap me!
+@@ 1r3g6tfc9k6
+I am always here. Tap me on any screen to see what it does, get a tour, or get unstuck.
+@@ 1e8r3dwh797
+I don't know what to do first
+@@ 25rkpi7e4f2
+Go to **the Academy** and press the glowing stop on the map. Lessons are short (2-5 minutes).
+@@ 2euklv0ti9s
+Open the Academy
+@@ 1xpn61p235l
+My hero won't move
+@@ 21qytd33qp9
+Click on the game first, then use the arrow keys or WASD. Or just click the place you want to walk to. Buildings and trees block the way, so walk around them.
+@@ 788zydgj7t
+How do I go inside a building?
+@@ 7i7jks5g5b
+Walk to its door and press **Enter** (or the Enter button that appears). Clicking a building walks there and goes in automatically.
+@@ 1gobeo25cj3
+I can't find a building
+@@ 12rimt93awp
+Use the travel bar at the bottom of the screen. It opens every building directly.
+@@ no2j8amv2c
+Your learning path, drawn as a map. Each **stop** is a short lesson. Finish one to unlock the next. Along the way you will meet **review stops** (to remember), **minigames**, **coding challenges** and a **unit test** at the end of each unit.
+@@ jp3fu60s87
+Your next lesson
+@@ 10oe1h7ee2k
+The glowing stop is where you are. Click it, then press **Start**.
+@@ 2dn2sl7f6y5
+Your path
+@@ 195qc340gz3
+The path you chose (for example *Web Developer*). You can switch paths any time at the **Path Board**.
+@@ 42rsv9rpns
+Your pace
+@@ 1h34qtrubb7
+I watch how you do. If a topic is hard, I add **review stops**. If it is easy, I offer **shortcuts** to skip ahead.
+@@ 19agyhd91hl
+More of the map
+@@ 15gvid6pjum
+The map is split into sections, one unit at a time. Use the arrows to look ahead or back.
+@@ 1ifrwbvkfpb
+Back to the village
+@@ pd69vn0pzs
+Close the window (or press **Esc**) to go back outside.
+@@ wa97uq9mkn
+A stop is locked
+@@ 5bsseyr9pg
+Stops open in order. Finish the glowing one first. Strong learners get a **shortcut** stop to jump ahead.
+@@ b1x3n7uvkr
+The lessons are too easy
+@@ 1pti6btlqzv
+Answer well and I will offer **shortcut** stops to jump to the next unit. You can also pick a more advanced path at the Path Board.
+@@ 1zi81yn70he
+Open the Path Board
+@@ f9uieu6uf2
+The lessons are too hard
+@@ 1cg0auyfw1a
+Take it slow: use **lightbulbs** for hints, turn **Hearts** off in Settings (Relaxed mode), and replay earlier lessons. Mistakes come back later so you can learn them.
+@@ 1ksy657t31o
+What is a review stop?
+@@ 1b12fjtdfn2
+A short lesson with questions you missed before. They help you remember. They are quick, I promise.
+@@ 239eev02m0u
+The Path Board
+@@ 2elwphi544d
+A **path** is a list of courses in a good order for a goal: web design, front-end, back-end, data, and more. Pick one and the Academy map follows it. Your finished lessons count in every path.
+@@ 28odaxkk30o
+Choose a path
+@@ 26lskg5kel
+Click a path card to see its courses, then pick it. You keep everything you already learned.
+@@ 1qrrsxrggo9
+Done?
+@@ 7c392tf4n1
+Close the board to go back to the village.
+@@ dcvfvbn5mk
+Which path should I pick?
+@@ 1gxt292c3rf
+New to coding? **Web Designer** (HTML and CSS) shows results fastest. Want games or apps? Try the JavaScript paths. Data lover? The SQL path.
+@@ 1v96a8cjbyy
+30 fields, each a small puzzle. You write a **program** for the farmer: move, plant, water, harvest. Chapters 1-3 use **blocks**, then blocks turn into **JavaScript**, and at the end you type real code.
+@@ 1gr6wknv0ui
+Pick a field
+@@ 7mzdbpqpso
+Click a field to play it. Each one gives up to **3 stars**.
+@@ q4om5viorw
+Stars
+@@ 1byq75ehk7l
+1 star = all goals done. 2 stars = **no mistakes** (no bumping, no planting on grass). 3 stars = a **short program** (the "par").
+@@ me0divjj4k
+A field is locked
+@@ qudxreha85
+Fields open one by one. Finish the one before it (1 star is enough).
+@@ 1a598d5x1iv
+I can't get 3 stars
+@@ 1tyo9i1kovb
+The third star wants a short program. Look for repeated blocks and put them in a **repeat** loop.
+@@ mc1rxpdrya
+Practice what you learned. Replay your **mistakes**, play **minigames** for items, and buy hints or potions from the **merchant**.
+@@ aj1bu00eoo
+Quick games about the topics you learned. Stars give **items** (lightbulbs, torches, potions).
+@@ i29epign5y
+The merchant
+@@ 945gnnclke
+Spend gold on items. You earn gold in lessons, games, fields and quests.
+@@ 1kki9w2vytu
+A minigame is locked
+@@ 1fg70edsnwn
+Each minigame needs a few lessons of its topic first. Keep going in the Academy.
+@@ 19l97b8xf2c
+I have no gold
+@@ 1ek1tsvklmy
+Finish lessons (5 gold each, more if perfect), quests and minigames. Daily quests are a quick way to earn some.
+@@ jmqwt22rft
+See today's quests
+@@ 1gwo3bshvgr
+The Guild Hall
+@@ 26l6rkopw6j
+Three new **daily quests** every day (like "finish 2 lessons"). Done quests give gold and XP: press **Claim** to collect. You can also buy a **streak freeze** here.
+@@ 28szuq9tkh7
+Daily quests
+@@ 1nswaazy6jd
+Quests fill up while you play. Come back and press **Claim** when one is done.
+@@ 6h3hggo8bz
+My quest did not count
+@@ 183e83munq9
+Some quests only count lessons (not reviews), or need a perfect lesson. Read the quest text closely.
+@@ fjcp13jug5
+The Library
+@@ ba8pptfco4
+All your **skills**, one per course: how far you went and how fresh it is in your memory. Skills fade a little over time: practice them to keep them strong.
+@@ d1yr7by39b
+Your skills
+@@ s3bpicm2ts
+Each book is a course. The bar shows progress. Press **Practice** for a quick mixed session of that course.
+@@ 1hvfg28wlp7
+A skill is getting weak
+@@ tkll2xwic4
+That is normal: memory fades. A short practice session makes it strong again.
+@@ 1yj95ffcc2k
+Hall of Trophies
+@@ 2704dphlzo1
+Your **achievements**. Grey ones are still to win: the text tells you how.
+@@ 11u4mtuntuz
+Achievements
+@@ 245n3kbhvjl
+Finish courses, keep streaks, play games and farm to unlock them all.
+@@ 1v27bb4w3w9
+Your Cottage
+@@ dxzl770bie
+Your hero: name, look, class, level and stats. Change your tunic colour or class any time.
+@@ 55zmf22na8
+Change the look of your hero here. It does not change your progress.
+@@ 1mge26ozluc
+Settings
+@@ 45yqbnur23
+Sound, music, **Hearts** on or off (Relaxed mode), daily goal, code font and size, tips, and a backup of your save.
+@@ 8u7kuffj45
+Changes are saved at once. Turn off **Hearts** if mistakes make you nervous: you still learn the same.
+@@ 1hrcascx9xg
+Help & FAQ
+@@ 16stxebuzzd
+Answers to common questions. Type in the search box or pick a topic.
+@@ 224vi178xx9
+Your Homestead
+@@ 50yrtpvvok
+Your own little farm. **Grow vegetables** in the garden plots and **care for animals** in the pen. Crops grow in real time (minutes to hours), so plant before a lesson and harvest after. Sell what you grow at the **market stall** for gold.
+@@ 2893i98befy
+Walk around
+@@ 1h6mocskxls
+Move with **WASD** or the **arrow keys**, or click the ground. Stand next to something and press **Space** to use it.
+@@ uayfttyuup
+Garden plots
+@@ 8kbb0jbos2
+Press **Space** (or click) on an empty plot to plant a seed. **Water** it to make it grow faster. When it is ripe, harvest it.
+@@ 1d83i0ysmsy
+The market stall
+@@ 1w1j24alaqy
+Buy seeds, hay, new plots and animals here, and sell your vegetables, eggs, milk and wool.
+@@ 1r36vfdxgfv
+Your basket
+@@ 2nkffsphlf
+Everything you harvested or collected. Pets eat vegetables from your basket too.
+@@ 1e457be36i7
+Nothing is growing
+@@ 262xrx1a4u9
+Crops grow in **real time**. Each seed shows how long it takes. Watered plots grow faster. Check back after a lesson!
+@@ 29txcdhmebk
+My plants withered
+@@ kuyj8d48ay
+If you stay away for a long time, weeds grow and ripe crops can wither. Press **Space** on the plot to clear it and plant again.
+@@ 1bz11m8th6h
+How do I get an animal?
+@@ 2a21gih6tgg
+Buy one at the market stall (Animals tab). Feed it **hay** once a day and it gives eggs, milk, wool or truffles. Pet it to make it happy.
+@@ 1r4cue3y8kg
+Open the shop
+@@ 10sauvcnozf
+I have no gold for seeds
+@@ 2geluic4mg9
+Finish a lesson or a daily quest, then come back. Wheat is the cheapest seed and grows in 3 minutes: a good start.
+@@ lcpb9rh7na
+The Pet Sanctuary
+@@ 1ax6r70j2gd
+Hatch **eggs** into pets, care for them, and complete your **Petdex**. There are **20 kinds** of pets, from common bunnies to **ultra rare** phoenixes, and any of them can hatch **shiny** (1 in 20). Your active pet follows you and gives a small **XP bonus** when it is happy.
+@@ d4p8vhfzxb
+Eggs
+@@ 1wpjdi2hu40
+Eggs warm up while you learn: every **XP** you earn counts. When an egg is ready, press **Hatch!**
+@@ 9gk3n9so1d
+Care
+@@ nx86auzmd4
+Feed your pet vegetables from your homestead and play with it. Happy pets give more XP and follow you around the village.
+@@ 1by8emw3ott
+More eggs
+@@ 24iss5llkm2
+Buy eggs with gold. Rarer eggs cost more but have better odds of rare pets.
+@@ 1ynjgh76z2x
+My egg will not hatch
+@@ 1ai8ro53ncv
+Eggs hatch with **XP**. Finish a lesson, a minigame or a battle and come back.
+@@ ol8epb3a4u
+Go to the Academy
+@@ rysqifgslq
+My pet is sad
+@@ 220lg29h613
+It is hungry or lonely. Feed it and play with it. Pets get sad if you stay away for many days, but they always forgive you.
+@@ ixz5fdzkik
+I have no food for my pet
+@@ 262ftvk52h5
+Pets eat vegetables and animal products from your homestead basket.
+@@ 8qwl1fxcgy
+Go to the homestead
+@@ szp0hhknda
+The Monster Gate
+@@ 1eepsbky5g1
+Monsters made of bugs live beyond the gate. Each **region** has its own monsters and a **boss**. You fight with what you learned: **Strike** answers a question, **Spell** asks you to type a word fast. The final **Junior Trial** against the Elder Dragon is the exam of your path.
+@@ qzr1x1lc8b
+Pick a monster
+@@ 719vk0w6a1
+Click a monster (or **Fight**) to start a battle. Harder regions open as your level grows.
+@@ xgluxtr67c
+Bosses
+@@ 2dl7evtsure
+Each region has a boss. Bosses hit hard but give big rewards, rare eggs and achievements. The last ones are dragons.
+@@ 15d5npe5zyp
+When most of your path is done, face the Trial. Win it to earn the **Junior Developer** rank.
+@@ 21x1yiasbqc
+I keep losing
+@@ 1ozjsyeh8ei
+Fight easier monsters first to gain levels. Use **Defend** when your HP is low and drink a **potion**. Questions come from lessons you finished, so review helps too.
+@@ zsenu2y53h
+Practice in the Tavern
+@@ 1aw98mnpkbs
+A region is locked
+@@ 1ik0onstzfs
+Regions open at higher hero levels. Lessons, games and your homestead all give XP.
+@@ 11idbxn7lnw
+A battle
+@@ 173ycfhgrx1
+Turn-based battle. On your turn pick an action. **Strike**: answer a question, right = a hit. **Spell**: type the word before the time runs out, fast typing hits harder. **Defend** halves the next hit. **Potion** heals you.
+@@ 261kaxor8j0
+Answer a question about what you learned. Right answers hurt the monster, wrong ones let it hit you.
+@@ 1ozljdvshzs
+A word appears: type it and press **Enter** before the bar empties.
+@@ paoazvobqt
+Take half damage on the next hit. Good when your HP is low.
+@@ 1zxnvbpq4zo
+Run away
+@@ 1youds1yj6g
+You can always leave the battle. Nothing is lost, but you get no reward.
+@@ 1a0vjf0p0i6
+I don't know the answer
+@@ 237epiiq75i
+Take your best guess, or **Defend** instead. Every question is from a lesson you finished, and wrong ones come back in your reviews.
+@@ 1kz3da4pbup
+I type too slowly for spells
+@@ 28xgysw6be3
+Use **Strike** instead, or practice in the **Rune Typist** minigame at the Tavern.
+@@ d6cy2iyxbs
+I want to leave
+@@ 20da4ffjlij
+Press the run-away button at the top. Your progress is saved.
+@@ 1ztycvurxg4
+The Raven Post
+@@ 15w5srke5kv
+Letters from Lumi and the villagers: welcome-back news, gifts, reminders and tips. You can also turn on **browser notifications** here so Lumi reminds you to practise each day.
+@@ m1hmzvm1vd
+Daily reminders
+@@ 1u75ddsvcqm
+Allow notifications and Lumi will remind you once a day at the time you choose in Settings.
+@@ iato173yaq
+I do not get reminders
+@@ 2aqjt74a6p5
+Your browser must allow notifications for this site, and the game must have been opened recently. You can change the time in **Settings**.
+@@ 1lw3tfj6b0f
+Open Settings
+@@ t5fsxhh3rt
+While you were away the realm changed: weeds grew, pets missed you and monsters came to the village. One lesson makes everything better again.
+@@ 1dr23z0dx6c
+Back on track
+@@ 1v516mdazx3
+Do one short lesson to clean up the village and get a comeback gift.
+@@ 27g1l25hatt
+Tools for developers and testers: change XP, gold and items, unlock lessons, skip time, hatch pets, grow crops, start battles, test notifications and jump to any screen. Changes are saved into your game, so make a backup first.
+@@ 25exhp7waz8
+A lesson
+@@ 2b4cs52rblj
+A lesson is a few short questions. Read the question, answer, then press **Check**. Right answers give XP. Wrong answers cost a **heart** (if hearts are on) and come back later so you can learn them.
+@@ 1occ1gb3xo1
+Answer here
+@@ 2d706hibo3d
+Tap an answer (or type it). The line above the answers tells you what to do.
+@@ hwu1vdqh9t
+Check
+@@ nww5im4w15
+When you are ready, press **Check** (or **Enter**). You will see if you are right, and why.
+@@ 1qssu1n4dk2
+Stuck? A lightbulb removes wrong answers or places a piece for you. Shortcut: **H**.
+@@ 65uxxwi22e
+Progress bar
+@@ ok2lty9pp3
+The bar fills as you go. The **X** leaves the lesson (you will start it again later).
+@@ 6dqin0eajd
+Give me a hint
+@@ 21yrivnpmmf
+A lightbulb lights up a clue for this question.
+@@ 1pab8dg0mlx
+Use a lightbulb
+@@ 6rp8vgatx8
+I got it wrong and don't understand why
+@@ 2et7z4ezd88
+Read the green **correct answer** and the explanation at the bottom. The question will come back later in the lesson, so you get another try.
+@@ dq4e4y9uum
+I keep making mistakes
+@@ 23xw9k55ot2
+After two wrong answers in a row I show the teaching card again, and your next lightbulb is **free**. You can also turn Hearts off in Settings.
+@@ 1560a3wefu4
+Try again without losing
+@@ 1t10yz9x6ps
+Burn a **torch** after a wrong answer to retry at once.
+@@ 2cyuwq70xc2
+Use a torch
+@@ 25gx8qrscf1
+I ran out of hearts
+@@ 13xklgi9ypd
+Drink a potion, wait (one heart comes back every 20 minutes), or practice old lessons in the Tavern to earn hearts back.
+@@ 3ev8vxayfm
+Drink a potion
+@@ 1bvscm3zrg2
+A coding challenge
+@@ 2bqspk7zmaz
+Here you write real code. Read the **task** on the left, write code in the **editor**, then press **Run & check**. The objectives tick green when your code does what was asked.
+@@ 1h7cc08wlkv
+The task
+@@ 20s0uuie9qq
+What to build and the **objectives** to pass. Hints are at the bottom of this panel.
+@@ p1554gf4xf
+The editor
+@@ 1deg25ckskt
+Write your code here. It is a real editor: **Tab** indents, **Ctrl+Enter** runs your code.
+@@ mzaiw5h7p0
+The result
+@@ uvtjajh9il
+Your web page, the console output, or the hero's map appears here when you run.
+@@ 19vg1jvokjy
+Run & check
+@@ ljvr3n04z3
+Runs your code and checks each objective. Try as many times as you like: no hearts are lost here.
+@@ 1r49fsormkp
+Each challenge has hints, from small to big.
+@@ 1lm3bu1j434
+Show a hint
+@@ 1dcidtfekfn
+My code shows an error
+@@ k1dwjy83cy
+Read the error: it often says the **line number**. Common causes: a missing `)` or `}`, a missing quote `"`, or a name spelled differently (JavaScript cares about upper and lower case).
+@@ 1lnguptqw5z
+Nothing happens when I run
+@@ 1i3m3p2cwx3
+Did you save the result? In JavaScript, use `console.log(...)` to print. On a web page, check the preview after you run.
+@@ dkln9dmsmk
+I broke everything
+@@ xoot7tth7m
+Press **Reset** under the editor to get the starting code back.
+@@ 4zxgw35d8u
+Reset the code
+@@ 14m8j5jhmh1
+Show me the answer
+@@ 1ktc3c9vtwq
+After two tries the **Show solution** button appears. Read it, then type it yourself: that is how it sticks.
+@@ 28bwourzf74
+Show the solution
+@@ 25yicn67vl8
+A minigame
+@@ 20xzlezroux
+A quick game about what you learned. Score well for **stars**: each new star gives you an **item**. There is no penalty for losing, so have fun and try again.
+@@ 1yj6t5o6ate
+Your host explains how this game works. Read it before you start.
+@@ 2ca0fdjqatb
+Stars and prizes
+@@ 18dnx4jt63i
+Score well to win **stars**. Each new star puts items in your satchel.
+@@ 1gcfl4tmfvw
+Ready?
+@@ 2fhnevxb4fb
+Press **Play** (or Enter) to start. There is a clock, so stay sharp!
+@@ 1ro0xcwhk9k
+Items
+@@ up45yhfiqn
+A lightbulb reveals an answer. A torch adds time.
+@@ 31e44bh2bd
+You can leave any time. Your best score is kept.
+@@ 1lx8zgv5xwj
+Ask me
+@@ 13nw9b91ibu
+If a game confuses you, tap me: I explain how it works.
+@@ nwbxgr8cv
+Show me an answer
+@@ vdzwofoioi
+A lightbulb reveals the answer to the current question.
+@@ k6ot3j6ae6
+I need more time
+@@ 1t39m4xfit8
+A torch adds time to the clock.
+@@ nl4f3mabso
+This game is too hard
+@@ 1jbx6bx90fl
+The games use the lessons you already did. Replay those lessons, then come back. Even 1 star gives you an item.
+@@ 1zy4v0t6nb4
+A farm field
+@@ 1ttygp0s45c
+Build a **program** for the farmer with blocks. Drag blocks from the left and snap them under **when ▶ Run**. Press **Run** to watch the farmer do exactly what the blocks say, in order.
+@@ 8tciytgs6z
+Bess explains the job
+@@ 2f1eetru5rc
+Bess the farmer tells you what this field needs.
+@@ 14de1ksiksx
+Drag blocks from the list on the left into the work area. Snap them **under "when ▶ Run"**, one after the other. Drag a block back to the list to delete it.
+@@ 2dx061puime
+Run it
+@@ x88qfyu69c
+Press **Run** and watch. Blocks light up as they run. **Reset** puts the farm back.
+@@ 2291hsbhchm
+Goals and stars
+@@ 235kunmyun0
+Tick every goal for 1 star. No mistakes for 2. A program as short as the **par** for 3.
+@@ 6xg2fum4xi
+Hints
+@@ g8u7s82n4v
+The first hint is free. More hints cost a lightbulb.
+@@ 13a0chvlv2o
+Bess will tell you what to try.
+@@ 2dkttdwwvrw
+Get a hint
+@@ vfizpkledc
+The farmer does nothing
+@@ r77ynlkghu
+Blocks must be **attached under "when ▶ Run"**. Loose blocks turn grey and do not run. Drag them until they click into place.
+@@ 1ft21vwjhp
+The farmer walks the wrong way
+@@ 6updhfvuxc
+Press **Run** at **1x** speed and watch which block lights up when it goes wrong. That is the block to change.
+@@ 2aai8hl0tr3
+How do I delete a block?
+@@ 2aal40amo21
+Drag it back to the block list on the left, or onto the bin.
+@@ 18cpief9v1t
+After two tries a **Solution** button appears next to the hint button.
+@@ yojiiqamy
+A farm field (code)
+@@ kay5ag9axs
+Now you type **JavaScript** for the farmer. Click a command at the top of the editor to insert it. Press **Run** (or Ctrl+Enter) to watch the farmer follow your code line by line.
+@@ 233v6z454e9
+The job
+@@ 2eps6yzph0r
+Bess explains what this field needs.
+@@ 1r0ykgi6yz9
+Every command the farmer knows. Click one to insert it into your code.
+@@ 12ky6cgwl2d
+Type here. Each command ends with `;` and text goes in quotes: `move("right");`
+@@ 27w899pv4uv
+The running line is highlighted while the farmer works.
+@@ 16eong5xw5n
+I get an error
+@@ h2wr2ya3j6
+Check the spelling (`move`, not `Move`), the quotes around words (`"right"`), and that every `(` has a `)` and every `{` has a `}`.
+@@ 203vctha5by
+My loop runs forever
+@@ y4w55bexzh
+A `while` loop needs something that changes so it can stop. A `for` loop needs `i++` at the end of its first line.
+@@ htho9vil7a
+After two tries a **Solution** button appears.
+@@ 16slpyz73v5
+Realm of Code
+@@ 7eakq4bbna
+A medieval adventure where you **learn to code from zero**: HTML, CSS, JavaScript, TypeScript, React, Node.js, SQL and more. Short lessons, coding puzzles on a farm, minigames, XP, gold and trophies. Press **Get started** to create your hero: it takes one minute.
+@@ n7qi621xr3
+What do I do here?
+@@ 17tgly4i6nq
+Press **Get started**. I ask you 5 quick questions (your goal, your level, a daily goal, your name) and then you arrive in the village.
+@@ 17wtlc2wl7t
+Do I need an account?
+@@ 2b9vkurfiy9
+No. Your progress is saved in this browser. You can back it up to a file from **Settings**.
+@@ 157yjikeyjo
+I have a backup file
+@@ 28iffh2gx9u
+Create a hero first (any name), then go to **Settings → Load a backup**.
+@@ n2ahnwpaz5
+Five quick questions so the game fits you: your goal, how much code you know, a daily goal, the kind of lessons you like, and your hero. You can change everything later.
+@@ qsm5cspoup
+New to coding? **Web Designer** or **Frontend Developer** shows results fastest (you build web pages). Data lovers can pick the data path. You can switch any time.
+@@ 22dmher4zy7
+The Continue button is grey
+@@ 1usc4q4qf8n
+Pick one of the cards first. On the last step, type a **name** for your hero.
+@@ 24gxh6l86xx
+I already know some code
+@@ 1oh8tvnyhch
+Say so on the second question. Answer well in the first lessons and **shortcut** stops will let you skip ahead.
+@@ 1upj2t8y8v
+This is a **teaching card**: nothing to answer. Read it and press **Continue**. The next questions use what it says.
+@@ 2br4nperpby
+Read the question and the code (if any), then **tap one answer** and press **Check**. Tip: cross out answers you know are wrong first.
+@@ oy4nce5kbp
+Tap a tile at the bottom to put it in the **first empty gap**. Tap a placed tile to take it back. Fill every gap, then press **Check**.
+@@ h8eldhsby
+Tap the pieces **in the order they should run**, top to bottom. Tap a placed piece to remove it.
+@@ k63ji74g8w
+Tap an item on the left, then its partner on the right. Pairs that belong together disappear.
+@@ 27qgwuls2gn
+Drag a rope from a rune on the left to its meaning on the right (or tap both). Link all pairs, then press **Check**.
+@@ 1p6c9nxslob
+One line has a bug. Read each line slowly, **tap the broken one**, then press **Check**.
+@@ lnh9gvigi7
+Type commands in the terminal and press **Enter** after each. The goal ticks when you get there. `ls` lists files, `cd` moves into a folder.
+@@ zdy5gg3sj7
+Tap a rune on the left, then its meaning on the right. Link every pair before the sand runs out.
+@@ 11ogtpiqno0
+Flip two tiles. If they belong together (a code word and its meaning), they stay open. Remember where you saw each tile!
+@@ 26u825abz90
+Answer fast: every right answer feeds the torch. When the torch burns out, the run ends.
+@@ 14xw459rzr
+Each spell has **one** broken line. Tap it before the torch burns out.
+@@ fanwzavkv3
+Type a **CSS selector** that hits every glowing target and nothing else, then shoot. `.name` = class, `#name` = id, `a b` = b inside a.
+@@ htz56mltjp
+Read the SQL query and tap **exactly** the rows it returns. Check the `WHERE` part for each row.
+@@ 1ptwb6u8uw5
+Swap two gems next to each other to line up **3 or more** of the same colour. Lines of 4 or 5 score extra. When the rune glows, answer its question for bonus time.
+@@ 247yoq0ykr9
+Words fall towards the village. **Type a word** and press Enter (or just finish it) to zap it before it lands. Longer words give more points.
+@@ 242jknljlvd
+Count how many times the loop runs. Look at the start value, the condition, and the step (`i++` adds 1, `i += 2` adds 2).
+@@ 39j8oqw3rh
+Getting started
+@@ 1gjk2ig12it
+Writing code
+@@ 2381zebilt3
+Games & farm
+@@ 268go27ssj8
+Pets, homestead & battles
+@@ 3njzhc3l5v
+Rewards & items
+@@ 27w9t3l4g3z
+Progress & settings
+@@ 6n9bcbgp0
+Where do I start?
+@@ blirvgewnn
+In **the Academy** (the castle). Press the glowing stop on the map and then **Start**. Each lesson takes 2-5 minutes.
+@@ 2dj91lb1fqi
+Do I need to know anything before?
+@@ 15x8gzfrwt4
+No. The first lessons start from zero: what code is, what a tag is, what a variable is. If you already code, say so when you create your hero, and answer well: **shortcut** stops let you skip what you know.
+@@ 1blpa81ll5m
+How do I move in the village?
+@@ cyv8flqtve
+Arrow keys or WASD, or click (tap) where you want to go. Click a building to walk to it and go in. The bar at the bottom opens every building directly.
+@@ z6tt4vnvvy
+Which languages can I learn?
+@@ irw4n7nrp6
+HTML, CSS, JavaScript, TypeScript, Tailwind, React, Vue, Svelte, Node.js, **Python**, **PHP**, SQL and NoSQL, Git and the terminal, APIs, algorithms, testing, accessibility and security. Everything runs **in your browser**: real Python and PHP interpreters are loaded the first time you need them.
+@@ 154j7o6gni
+What is a path? Can I change it?
+@@ 1z75e5z3rfd
+A path is a list of courses in a good order for a goal (like *Front-end Developer*). Change it any time at the **Path Board** in the village. Lessons you finished stay finished.
+@@ 8kqq04r77e
+Is it for kids or adults?
+@@ kkikyzbm2d
+Both. Kids can turn **Hearts off** (Relaxed mode) and start on the Farm with blocks. Adults can turn on **Sage's notes** in Settings for real-world details.
+@@ 20589yi579g
+What kinds of questions are there?
+@@ 14t0h82xi4i
+Pick an answer, fill the gaps, put lines in order, match pairs, link runes, type an answer, find the bug, and real **coding challenges** where you write and run code.
+@@ mr9bgm8h7t
+What happens when I answer wrong?
+@@ e5tz5v7trl
+You see the right answer and why. The question comes back later in the same lesson, and again in a review stop. If hearts are on, you lose one heart.
+@@ otvhaaxmcp
+What are review stops and warm-ups?
+@@ 1rphftnhydp
+I remember what you got wrong. **Review stops** appear on the map with those questions, and lessons may start with a **warm-up** of one old mistake. This is how your memory gets strong.
+@@ 18eb8qca087
+What is the unit test?
+@@ tvrk69klx9
+At the end of each unit, a short test of everything in it. Pass it to open the next unit. You may make a few mistakes; hints are off.
+@@ 1upluydpuif
+Can I skip lessons I already know?
+@@ 1b2w7unvn56
+Yes. If you answer well, **shortcut** stops appear that let you jump to the next unit by passing a short test.
+@@ 19seubogumj
+Can I replay a lesson?
+@@ 1ysy3cp8vtm
+Yes. Click any finished stop on the map and press **Practice again**. You get half the XP, but it is great practice.
+@@ o1y6eswmwi
+How does the code editor work?
+@@ ffg4kscvvx
+Type like in any editor. **Tab** indents, **Ctrl+Enter** (Cmd+Enter on Mac) runs. Some challenges have several files: switch with the tabs above the editor. Your code is saved as you type.
+@@ mlenygqx54
+My code has an error. What do I do?
+@@ 1rsjrl7n5xy
+Read the message: it usually gives a **line number**. Most errors are a missing bracket `)` `}`, a missing quote, a missing comma, or a name with different upper/lower case. Fix one thing, run again.
+@@ 22heiokvg1u
+Where does my code run?
+@@ 7rg628jcyu
+In your browser. JavaScript and TypeScript run in a safe sandbox (endless loops are stopped), SQL runs on a real SQLite database compiled to **WebAssembly**, and web pages render in a preview frame. No server sees your code.
+@@ 1ko4cp8yb4l
+Can I see the solution?
+@@ 1owzxbyq6en
+Yes, after two tries a **Show solution** button appears. Read it, then try to type it yourself: that is how you learn.
+@@ bm46fn973a
+The code is hard to read
+@@ tiqw7vsh6z
+In **Settings**, turn on **Classic code font** and choose a bigger **Editor text size**.
+@@ 26q6rodojm0
+What are the minigames for?
+@@ 1f83ybg8156
+Quick practice with a twist (and a clock). New stars give **items**. Minigame stops appear on the Academy map, and you can replay them in the Tavern arcade.
+@@ 2c4aiw8mbgq
+What is the Code Farm?
+@@ 1zafliyp52m
+Thirty puzzle fields. You program a farmer to move, plant, water and harvest. It teaches **sequences, loops, conditions, variables and functions**, from blocks to real JavaScript.
+@@ zulnd095ql
+Blocks are easy. When do I type code?
+@@ 2bt59e7w4jf
+From chapter 4 the Farm shows the JavaScript your blocks make, and you can press **Type it instead**. Later fields are code only.
+@@ 27j49asxgyr
+What counts as a mistake on the farm?
+@@ cjx2bphun3
+Walking into a tree or fence, planting on grass, harvesting an empty tile, or watering with an empty can. The farmer says "Ouch!" when it happens.
+@@ 1gw409eqjcx
+How do XP and levels work?
+@@ a7eno2kr38
+Every lesson, game, field and quest gives **XP**. XP raises your level and fills your **daily goal** (the green bar). Perfect lessons give more.
+@@ 18jv0w3ztcz
+How do I get gold?
+@@ 1h27e7cib40
+Lessons (5 gold, +3 if perfect), projects (30), minigames, farm fields and daily quests. Spend it at the Tavern merchant.
+@@ 2cpzx5nmu8b
+What do the items do?
+@@ 48j1qs3lni
+**Lightbulb**: a hint (removes wrong answers or places a piece). **Torch**: retry after a wrong answer without losing a heart; more time in minigames. **Potion**: one heart back.
+@@ 1rzpj8mw4lz
+What are hearts?
+@@ 1ev7jcl7nhl
+You have 5. A wrong answer in a lesson costs one. At 0 you must stop, refill (potion or gold), or practice. One heart comes back every 20 minutes. Turn them off in **Settings** if you prefer Relaxed mode.
+@@ etq56v0xjb
+What is a streak?
+@@ 1611dgg69z
+The number of days in a row you finished at least one lesson. Miss a day and it starts again, unless you own a **streak freeze** (buy it at the Guild Hall).
+@@ 1d2kdwj8re0
+Can this get me a job?
+@@ 1upkug3jq93
+The paths follow what junior developers and trainees are asked to know: one language well, the web, SQL, Git, APIs, algorithms, testing and career skills (CV, portfolio, interviews). Finish a path and the **Junior Trial** to earn the Junior Developer rank. Then build your own projects: employers want to see them.
+@@ 10muy284144
+How does the homestead work?
+@@ 1d52qd7cvky
+Plant seeds in your garden plots; they grow in **real time** (a few minutes to a few hours). Water them to grow faster. Buy animals at the market stall, feed them hay once a day and collect eggs, milk, wool and more. Sell it all for gold.
+@@ 1potdq5s8yu
+How do I get pets?
+@@ 18mq4gxqbdu
+Lumi gives you a first egg. Eggs hatch with **XP**, and you can buy more in the Pet Sanctuary. There are 20 kinds: common, uncommon, rare and **ultra rare** (phoenix, unicorn, kitsune). Happy pets give a small XP bonus.
+@@ 19w5vlectwo
+What is a shiny pet?
+@@ mqepktgv1j
+Every pet has a 1 in 20 chance to hatch **shiny**: same pet, different colours and a sparkle. Shiny ultra rare pets are the rarest thing in the realm.
+@@ 26995cdhpn6
+How do battles work?
+@@ c1a8fep4c9
+At the **Monster Gate** you fight bug monsters, turn by turn. **Strike** = answer a question, **Spell** = type a word in time, **Defend** = half damage, **Potion** = heal. Win for XP, gold and sometimes eggs. The strongest monsters are dragons.
+@@ jexyazjyws
+What is the Junior Trial?
+@@ im71okdq1b
+The final battle of your path against the **Elder Dragon of Bugs**. It opens when most of your path is done and asks questions from every course in it. Win it to become a **Junior Developer**.
+@@ 2cdgth2ol3
+What happens if I don't play for a while?
+@@ d5hdqwuj3c
+The realm notices! After a day or more, weeds grow on your homestead, ripe crops may wither, pets get sad and bug monsters wander into the village. After a few days the sky over the village turns grey and it starts to rain. Do **one lesson** to clean it all up and get a comeback gift.
+@@ 132nhre6zok
+Can Lumi remind me to practise?
+@@ 2aeenmudr6c
+Yes. In **Settings**, turn on **Daily reminders** and choose a time. Your browser will ask for permission. Reminders only work in browsers that support notifications.
+@@ v1ic37v11
+Can I play in Portuguese or Spanish?
+@@ 1trrxqbu557
+Yes: **Settings → Language** (or the flags on the title screen). Menus, help, achievements and the lessons (teaching cards, questions and explanations) are translated. Some coding-challenge instructions are still in English. Code itself (keywords like `if` or `print`) stays in English, as in real work.
+@@ nqa8fzn6zy
+What is developer mode?
+@@ 1u32sue7vtc
+A panel for developers and testers: add XP, gold or items, unlock everything, skip time, hatch pets, grow crops, start battles and test notifications. Turn it on in **Settings → Developer mode**, or add `?debug` to the address. Press the **`** key or the DEV button to open it.
+@@ s7cwic0xmp
+Is my progress saved?
+@@ dr0ng1b6jb
+Yes, automatically, in this browser. To move it to another computer, use **Settings → Back up my progress**, then **Load a backup** on the other one.
+@@ 1mvp4tv7btm
+How do I start over?
+@@ 2962pogqpo4
+**Settings → Start over** deletes your hero and all progress in this browser. Make a backup first if you may want it back.
+@@ kooq27g6cp
+How do I turn the sound off?
+@@ h579zmn6ai
+In **Settings**: sound effects and music have their own switches.
+@@ csqfacvfe1
+Can I play on a phone?
+@@ 29net51i7bq
+Yes. Everything works with touch. Coding challenges use tabs (Task / Code / Result) on small screens. A keyboard helps for long code.
+@@ 21hgkml62dt
+How do I see the tours again?
+@@ 1w09ehdg53j
+Press the **Lumi** button on any screen and choose **Show me step by step**. In Settings you can also **Replay the welcome tour** or switch the first-visit tips on and off.

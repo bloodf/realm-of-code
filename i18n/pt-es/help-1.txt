@@ -1,0 +1,800 @@
+@@ 3wrsz3zozc
+Quero fazer outra coisa
+~~
+Quiero hacer otra cosa
+@@ s8ugg2dp8g
+Tudo bem! Seu progresso é salvo depois de cada lição, jogo e campo. Volte quando quiser.
+~~
+¡No pasa nada! Tu progreso se guarda después de cada lección, juego y campo. Vuelve cuando quieras.
+@@ 1u999tl2ahe
+A vila de Codehaven
+~~
+La aldea de Codehaven
+@@ 1on0ittev5r
+Esta é a sua base. Cada prédio é uma parte do jogo: **lições** na Academia, **quebra-cabeças de código** na Fazenda, **jogos e itens** na Taverna, **missões** na Guilda. Ande até uma porta (ou clique num prédio) para entrar.
+~~
+Esta es tu base. Cada edificio es una parte del juego: **lecciones** en la Academia, **rompecabezas de código** en la Granja, **juegos y objetos** en la Taberna, **misiones** en el Gremio. Camina hasta una puerta (o haz clic en un edificio) para entrar.
+@@ cd56u7q40e
+Bem-vindo, aventureiro!
+~~
+¡Bienvenido, aventurero!
+@@ 271vznp0965
+Eu sou a **Lumi**, sua guia. Este tour rápido mostra a vila. Você pode repeti-lo quando quiser pelo botão **Ajuda**.
+~~
+Soy **Lumi**, tu guía. Este recorrido rápido te enseña la aldea. Puedes repetirlo cuando quieras desde el botón **Ayuda**.
+@@ 1jm1kqrfwh8
+Este é você
+~~
+Este eres tú
+@@ 622xvwyi7
+Ande com as **setas** ou **WASD**, ou **clique no chão** para ir até lá. No celular, toque aonde quer ir.
+~~
+Muévete con las **flechas** o **WASD**, o **haz clic en el suelo** para ir allí. En el móvil, toca adonde quieras ir.
+@@ 171o08oj6v
+A Academia
+~~
+La Academia
+@@ pc1rjezi75
+Comece aqui! Lições curtas ensinam a programar, passo a passo, do zero. Clique no castelo para andar até a porta.
+~~
+¡Empieza aquí! Lecciones cortas te enseñan a programar, paso a paso, desde cero. Haz clic en el castillo para caminar hasta su puerta.
+@@ 1u3mczx96qu
+Fazenda de Greenhollow
+~~
+Granja de Greenhollow
+@@ iglhf98af8
+Programe um fazendeiro para plantar e colher. Você começa com **blocos** e termina escrevendo **JavaScript** de verdade.
+~~
+Programa a un granjero para plantar y cosechar. Empiezas con **bloques** y terminas escribiendo **JavaScript** de verdad.
+@@ habprp6kj0
+A Taverna
+~~
+La Taberna
+@@ 2axu7npxca2
+Minijogos, prática e um **mercador** que vende dicas e poções por ouro.
+~~
+Minijuegos, práctica y un **mercader** que vende pistas y pociones por oro.
+@@ lrejgph4d7
+A barra de viagem
+~~
+La barra de viaje
+@@ 63nwpbj7vc
+Um atalho para cada prédio. Você não precisa andar se estiver com pressa.
+~~
+Un atajo a cada edificio. No tienes que caminar si tienes prisa.
+@@ l9bsp6bdov
+Seu **nível** e **XP**. A barra verde é a meta de hoje. Clique nela para ver seu perfil.
+~~
+Tu **nivel** y tu **XP**. La barra verde es la meta de hoy. Haz clic en ella para ver tu perfil.
+@@ 1zmf0n5js1n
+Sequência, ouro e itens
+~~
+Racha, oro y objetos
+@@ 10j6i874db1
+**Sequência** = dias seguidos em que você estudou. **Ouro** compra itens. **Corações** são perdidos com respostas erradas nas lições. Lâmpadas dão dicas, tochas dão segundas chances, poções devolvem corações.
+~~
+**Racha** = días seguidos que estudiaste. El **oro** compra objetos. Los **corazones** se pierden con respuestas incorrectas en las lecciones. Las bombillas dan pistas, las antorchas dan segundas oportunidades y las pociones devuelven corazones.
+@@ 103je9vk4hj
+Precisa de ajuda? Toque em mim!
+~~
+¿Necesitas ayuda? ¡Tócame!
+@@ 1r3g6tfc9k6
+Estou sempre aqui. Toque em mim em qualquer tela para ver o que ela faz, fazer um tour ou destravar.
+~~
+Siempre estoy aquí. Tócame en cualquier pantalla para ver qué hace, hacer un recorrido o desatascarte.
+@@ 1e8r3dwh797
+Não sei o que fazer primeiro
+~~
+No sé qué hacer primero
+@@ 25rkpi7e4f2
+Vá até **a Academia** e aperte a parada brilhante no mapa. As lições são curtas (2 a 5 minutos).
+~~
+Ve a **la Academia** y pulsa la parada brillante del mapa. Las lecciones son cortas (de 2 a 5 minutos).
+@@ 1xpn61p235l
+Meu herói não se mexe
+~~
+Mi héroe no se mueve
+@@ 21qytd33qp9
+Clique no jogo primeiro e depois use as setas ou WASD. Ou simplesmente clique no lugar aonde quer ir. Prédios e árvores bloqueiam o caminho, então dê a volta neles.
+~~
+Haz clic primero en el juego y luego usa las flechas o WASD. O simplemente haz clic en el lugar adonde quieras ir. Los edificios y los árboles bloquean el paso, así que rodéalos.
+@@ 788zydgj7t
+Como entro num prédio?
+~~
+¿Cómo entro en un edificio?
+@@ 7i7jks5g5b
+Ande até a porta e aperte **Enter** (ou o botão Entrar que aparece). Clicar num prédio leva você até lá e entra automaticamente.
+~~
+Camina hasta su puerta y pulsa **Enter** (o el botón Entrar que aparece). Al hacer clic en un edificio caminas hasta él y entras automáticamente.
+@@ 1gobeo25cj3
+Não encontro um prédio
+~~
+No encuentro un edificio
+@@ 12rimt93awp
+Use a barra de viagem na parte de baixo da tela. Ela abre cada prédio diretamente.
+~~
+Usa la barra de viaje de la parte de abajo de la pantalla. Abre cada edificio directamente.
+@@ no2j8amv2c
+Sua trilha de aprendizado, desenhada como um mapa. Cada **parada** é uma lição curta. Conclua uma para desbloquear a próxima. No caminho você vai encontrar **paradas de revisão** (para lembrar), **minijogos**, **desafios de programação** e um **teste de unidade** no fim de cada unidade.
+~~
+Tu ruta de aprendizaje, dibujada como un mapa. Cada **parada** es una lección corta. Completa una para desbloquear la siguiente. Por el camino encontrarás **paradas de repaso** (para recordar), **minijuegos**, **desafíos de programación** y una **prueba de unidad** al final de cada unidad.
+@@ jp3fu60s87
+Sua próxima lição
+~~
+Tu próxima lección
+@@ 10oe1h7ee2k
+A parada brilhante é onde você está. Clique nela e aperte **Começar**.
+~~
+La parada brillante es donde estás. Haz clic en ella y pulsa **Empezar**.
+@@ 2dn2sl7f6y5
+Sua trilha
+~~
+Tu ruta
+@@ 195qc340gz3
+A trilha que você escolheu (por exemplo *Desenvolvedor Web*). Você pode trocar de trilha quando quiser no **Quadro de Trilhas**.
+~~
+La ruta que elegiste (por ejemplo *Desarrollador Web*). Puedes cambiar de ruta cuando quieras en el **Tablón de Rutas**.
+@@ 42rsv9rpns
+Seu ritmo
+~~
+Tu ritmo
+@@ 1h34qtrubb7
+Eu observo como você vai. Se um assunto é difícil, adiciono **paradas de revisão**. Se é fácil, ofereço **atalhos** para avançar.
+~~
+Observo cómo te va. Si un tema es difícil, añado **paradas de repaso**. Si es fácil, te ofrezco **atajos** para avanzar.
+@@ 19agyhd91hl
+Mais do mapa
+~~
+Más del mapa
+@@ 15gvid6pjum
+O mapa é dividido em seções, uma unidade por vez. Use as setas para olhar adiante ou para trás.
+~~
+El mapa se divide en secciones, una unidad cada vez. Usa las flechas para mirar hacia delante o hacia atrás.
+@@ 1ifrwbvkfpb
+De volta à vila
+~~
+Volver a la aldea
+@@ pd69vn0pzs
+Feche a janela (ou aperte **Esc**) para voltar para fora.
+~~
+Cierra la ventana (o pulsa **Esc**) para volver afuera.
+@@ wa97uq9mkn
+Uma parada está bloqueada
+~~
+Una parada está bloqueada
+@@ 5bsseyr9pg
+As paradas abrem em ordem. Conclua a brilhante primeiro. Quem vai bem ganha uma parada de **atalho** para avançar.
+~~
+Las paradas se abren en orden. Completa primero la brillante. Quienes van bien reciben una parada de **atajo** para avanzar.
+@@ b1x3n7uvkr
+As lições estão fáceis demais
+~~
+Las lecciones son demasiado fáciles
+@@ 1pti6btlqzv
+Responda bem e eu vou oferecer paradas de **atalho** para pular para a próxima unidade. Você também pode escolher uma trilha mais avançada no Quadro de Trilhas.
+~~
+Responde bien y te ofreceré paradas de **atajo** para saltar a la siguiente unidad. También puedes elegir una ruta más avanzada en el Tablón de Rutas.
+@@ 1zi81yn70he
+Abrir o Quadro de Trilhas
+~~
+Abrir el Tablón de Rutas
+@@ f9uieu6uf2
+As lições estão difíceis demais
+~~
+Las lecciones son demasiado difíciles
+@@ 1cg0auyfw1a
+Vá com calma: use **lâmpadas** para dicas, desligue os **Corações** nas Configurações (Modo tranquilo) e refaça lições anteriores. Os erros voltam depois para você aprendê-los.
+~~
+Ve con calma: usa **bombillas** para pistas, desactiva los **Corazones** en Ajustes (Modo relajado) y repite lecciones anteriores. Los errores vuelven más tarde para que los aprendas.
+@@ 1ksy657t31o
+O que é uma parada de revisão?
+~~
+¿Qué es una parada de repaso?
+@@ 1b12fjtdfn2
+Uma lição curta com perguntas que você errou antes. Elas ajudam a lembrar. São rápidas, prometo.
+~~
+Una lección corta con preguntas que fallaste antes. Te ayudan a recordar. Son rápidas, lo prometo.
+@@ 239eev02m0u
+O Quadro de Trilhas
+~~
+El Tablón de Rutas
+@@ 2elwphi544d
+Uma **trilha** é uma lista de cursos numa boa ordem para um objetivo: design web, front-end, back-end, dados e mais. Escolha uma e o mapa da Academia passa a segui-la. Suas lições concluídas contam em todas as trilhas.
+~~
+Una **ruta** es una lista de cursos en buen orden para una meta: diseño web, front-end, back-end, datos y más. Elige una y el mapa de la Academia la seguirá. Tus lecciones completadas cuentan en todas las rutas.
+@@ 28odaxkk30o
+Escolha uma trilha
+~~
+Elige una ruta
+@@ 26lskg5kel
+Clique no cartão de uma trilha para ver os cursos e depois escolha. Você mantém tudo o que já aprendeu.
+~~
+Haz clic en la tarjeta de una ruta para ver sus cursos y luego elígela. Conservas todo lo que ya aprendiste.
+@@ 1qrrsxrggo9
+Terminou?
+~~
+¿Listo?
+@@ 7c392tf4n1
+Feche o quadro para voltar à vila.
+~~
+Cierra el tablón para volver a la aldea.
+@@ dcvfvbn5mk
+Qual trilha devo escolher?
+~~
+¿Qué ruta debo elegir?
+@@ 1gxt292c3rf
+Novo em programação? **Web Designer** (HTML e CSS) mostra resultados mais rápido. Quer jogos ou apps? Experimente as trilhas de JavaScript. Ama dados? A trilha de SQL.
+~~
+¿Nuevo en programación? **Diseñador Web** (HTML y CSS) da resultados más rápido. ¿Quieres juegos o apps? Prueba las rutas de JavaScript. ¿Te encantan los datos? La ruta de SQL.
+@@ 1v96a8cjbyy
+30 campos, cada um um pequeno quebra-cabeça. Você escreve um **programa** para o fazendeiro: andar, plantar, regar, colher. Os capítulos 1 a 3 usam **blocos**, depois os blocos viram **JavaScript**, e no fim você digita código de verdade.
+~~
+30 campos, cada uno un pequeño rompecabezas. Escribes un **programa** para el granjero: moverse, plantar, regar, cosechar. Los capítulos 1 a 3 usan **bloques**, luego los bloques se convierten en **JavaScript**, y al final escribes código de verdad.
+@@ 1gr6wknv0ui
+Escolha um campo
+~~
+Elige un campo
+@@ 7mzdbpqpso
+Clique num campo para jogá-lo. Cada um dá até **3 estrelas**.
+~~
+Haz clic en un campo para jugarlo. Cada uno da hasta **3 estrellas**.
+@@ q4om5viorw
+Estrelas
+~~
+Estrellas
+@@ 1byq75ehk7l
+1 estrela = todos os objetivos cumpridos. 2 estrelas = **sem erros** (sem trombadas, sem plantar na grama). 3 estrelas = um **programa curto** (a "meta").
+~~
+1 estrella = todos los objetivos cumplidos. 2 estrellas = **sin errores** (sin choques, sin plantar en el césped). 3 estrellas = un **programa corto** (el "objetivo").
+@@ me0divjj4k
+Um campo está bloqueado
+~~
+Un campo está bloqueado
+@@ qudxreha85
+Os campos abrem um por um. Conclua o anterior (1 estrela basta).
+~~
+Los campos se abren uno a uno. Completa el anterior (basta con 1 estrella).
+@@ 1a598d5x1iv
+Não consigo 3 estrelas
+~~
+No consigo 3 estrellas
+@@ 1tyo9i1kovb
+A terceira estrela quer um programa curto. Procure blocos repetidos e coloque-os num loop **repetir**.
+~~
+La tercera estrella pide un programa corto. Busca bloques repetidos y ponlos en un bucle **repetir**.
+@@ mc1rxpdrya
+Pratique o que aprendeu. Refaça seus **erros**, jogue **minijogos** para ganhar itens e compre dicas ou poções do **mercador**.
+~~
+Practica lo que aprendiste. Repite tus **errores**, juega **minijuegos** para ganar objetos y compra pistas o pociones al **mercader**.
+@@ aj1bu00eoo
+Jogos rápidos sobre os assuntos que você aprendeu. Estrelas dão **itens** (lâmpadas, tochas, poções).
+~~
+Juegos rápidos sobre los temas que aprendiste. Las estrellas dan **objetos** (bombillas, antorchas, pociones).
+@@ i29epign5y
+O mercador
+~~
+El mercader
+@@ 945gnnclke
+Gaste ouro em itens. Você ganha ouro em lições, jogos, campos e missões.
+~~
+Gasta oro en objetos. Ganas oro en lecciones, juegos, campos y misiones.
+@@ 1kki9w2vytu
+Um minijogo está bloqueado
+~~
+Un minijuego está bloqueado
+@@ 1fg70edsnwn
+Cada minijogo precisa antes de algumas lições do seu assunto. Continue na Academia.
+~~
+Cada minijuego necesita antes algunas lecciones de su tema. Sigue en la Academia.
+@@ 19l97b8xf2c
+Não tenho ouro
+~~
+No tengo oro
+@@ 1ek1tsvklmy
+Conclua lições (5 de ouro cada, mais se perfeitas), missões e minijogos. As missões diárias são um jeito rápido de ganhar um pouco.
+~~
+Completa lecciones (5 de oro cada una, más si son perfectas), misiones y minijuegos. Las misiones diarias son una forma rápida de ganar algo.
+@@ jmqwt22rft
+Ver as missões de hoje
+~~
+Ver las misiones de hoy
+@@ 26l6rkopw6j
+Três **missões diárias** novas todo dia (como "conclua 2 lições"). Missões feitas dão ouro e XP: aperte **Resgatar** para pegar. Aqui você também pode comprar um **protetor de sequência**.
+~~
+Tres **misiones diarias** nuevas cada día (como "completa 2 lecciones"). Las misiones hechas dan oro y XP: pulsa **Recoger** para cobrarlas. Aquí también puedes comprar un **protector de racha**.
+@@ 28szuq9tkh7
+Missões diárias
+~~
+Misiones diarias
+@@ 1nswaazy6jd
+As missões vão enchendo enquanto você joga. Volte e aperte **Resgatar** quando uma estiver pronta.
+~~
+Las misiones se van llenando mientras juegas. Vuelve y pulsa **Recoger** cuando una esté hecha.
+@@ 6h3hggo8bz
+Minha missão não contou
+~~
+Mi misión no contó
+@@ 183e83munq9
+Algumas missões só contam lições (não revisões) ou pedem uma lição perfeita. Leia o texto da missão com atenção.
+~~
+Algunas misiones solo cuentan lecciones (no repasos) o piden una lección perfecta. Lee con atención el texto de la misión.
+@@ fjcp13jug5
+A Biblioteca
+~~
+La Biblioteca
+@@ ba8pptfco4
+Todas as suas **habilidades**, uma por curso: até onde você foi e o quanto está fresco na memória. As habilidades desbotam um pouco com o tempo: pratique para mantê-las fortes.
+~~
+Todas tus **habilidades**, una por curso: hasta dónde llegaste y lo fresco que está en tu memoria. Las habilidades se desgastan un poco con el tiempo: practícalas para mantenerlas fuertes.
+@@ d1yr7by39b
+Suas habilidades
+~~
+Tus habilidades
+@@ s3bpicm2ts
+Cada livro é um curso. A barra mostra o progresso. Aperte **Praticar** para uma sessão rápida e variada desse curso.
+~~
+Cada libro es un curso. La barra muestra el progreso. Pulsa **Practicar** para una sesión rápida y variada de ese curso.
+@@ 1hvfg28wlp7
+Uma habilidade está enfraquecendo
+~~
+Una habilidad se está debilitando
+@@ tkll2xwic4
+É normal: a memória desbota. Uma sessão curta de prática a deixa forte de novo.
+~~
+Es normal: la memoria se desgasta. Una sesión corta de práctica la vuelve a poner fuerte.
+@@ 1yj95ffcc2k
+Salão dos Troféus
+~~
+Salón de los Trofeos
+@@ 2704dphlzo1
+Suas **conquistas**. As cinzentas ainda faltam: o texto diz como ganhá-las.
+~~
+Tus **logros**. Los grises aún están por ganar: el texto te dice cómo.
+@@ 11u4mtuntuz
+Conquistas
+~~
+Logros
+@@ 245n3kbhvjl
+Conclua cursos, mantenha sequências, jogue e cultive para desbloquear todas.
+~~
+Completa cursos, mantén rachas, juega y cultiva para desbloquearlos todos.
+@@ 1v27bb4w3w9
+Seu Chalé
+~~
+Tu Cabaña
+@@ dxzl770bie
+Seu herói: nome, aparência, classe, nível e estatísticas. Mude a cor da túnica ou a classe quando quiser.
+~~
+Tu héroe: nombre, aspecto, clase, nivel y estadísticas. Cambia el color de la túnica o la clase cuando quieras.
+@@ 55zmf22na8
+Mude a aparência do seu herói aqui. Isso não muda seu progresso.
+~~
+Cambia aquí el aspecto de tu héroe. No cambia tu progreso.
+@@ 45yqbnur23
+Som, música, **Corações** ligados ou desligados (Modo tranquilo), meta diária, fonte e tamanho do código, dicas e um backup do seu progresso.
+~~
+Sonido, música, **Corazones** activados o no (Modo relajado), meta diaria, fuente y tamaño del código, consejos y una copia de tu partida.
+@@ 8u7kuffj45
+As mudanças são salvas na hora. Desligue os **Corações** se os erros deixam você nervoso: você aprende do mesmo jeito.
+~~
+Los cambios se guardan al instante. Desactiva los **Corazones** si los errores te ponen nervioso: aprendes igual.
+@@ 16stxebuzzd
+Respostas para perguntas comuns. Digite na caixa de busca ou escolha um tema.
+~~
+Respuestas a preguntas frecuentes. Escribe en el buscador o elige un tema.
+@@ 224vi178xx9
+Seu Sítio
+~~
+Tu Rancho
+@@ 50yrtpvvok
+Sua própria fazendinha. **Plante legumes** nos canteiros e **cuide dos animais** no cercado. As plantas crescem em tempo real (de minutos a horas), então plante antes de uma lição e colha depois. Venda o que você produz na **barraca do mercado** por ouro.
+~~
+Tu propia granjita. **Cultiva verduras** en los bancales y **cuida animales** en el corral. Los cultivos crecen en tiempo real (de minutos a horas), así que planta antes de una lección y cosecha después. Vende lo que produces en el **puesto del mercado** por oro.
+@@ 2893i98befy
+Ande por aí
+~~
+Camina por ahí
+@@ 1h6mocskxls
+Ande com **WASD** ou as **setas**, ou clique no chão. Fique ao lado de algo e aperte **Espaço** para usar.
+~~
+Muévete con **WASD** o las **flechas**, o haz clic en el suelo. Ponte junto a algo y pulsa **Espacio** para usarlo.
+@@ uayfttyuup
+Canteiros
+~~
+Bancales
+@@ 8kbb0jbos2
+Aperte **Espaço** (ou clique) num canteiro vazio para plantar uma semente. **Regue** para crescer mais rápido. Quando estiver madura, colha.
+~~
+Pulsa **Espacio** (o haz clic) en un bancal vacío para plantar una semilla. **Riégalo** para que crezca más rápido. Cuando esté maduro, cosecha.
+@@ 1d83i0ysmsy
+A barraca do mercado
+~~
+El puesto del mercado
+@@ 1w1j24alaqy
+Compre sementes, feno, novos canteiros e animais aqui, e venda seus legumes, ovos, leite e lã.
+~~
+Compra aquí semillas, heno, bancales nuevos y animales, y vende tus verduras, huevos, leche y lana.
+@@ 1r36vfdxgfv
+Sua cesta
+~~
+Tu cesta
+@@ 2nkffsphlf
+Tudo o que você colheu ou recolheu. Os pets também comem legumes da sua cesta.
+~~
+Todo lo que cosechaste o recogiste. Las mascotas también comen verduras de tu cesta.
+@@ 1e457be36i7
+Nada está crescendo
+~~
+No crece nada
+@@ 262xrx1a4u9
+As plantas crescem em **tempo real**. Cada semente mostra quanto tempo leva. Canteiros regados crescem mais rápido. Volte depois de uma lição!
+~~
+Los cultivos crecen en **tiempo real**. Cada semilla muestra cuánto tarda. Los bancales regados crecen más rápido. ¡Vuelve después de una lección!
+@@ 29txcdhmebk
+Minhas plantas murcharam
+~~
+Mis plantas se marchitaron
+@@ kuyj8d48ay
+Se você ficar fora muito tempo, o mato cresce e plantas maduras podem murchar. Aperte **Espaço** no canteiro para limpar e plante de novo.
+~~
+Si te ausentas mucho tiempo, crece la maleza y los cultivos maduros pueden marchitarse. Pulsa **Espacio** en el bancal para limpiarlo y vuelve a plantar.
+@@ 1bz11m8th6h
+Como consigo um animal?
+~~
+¿Cómo consigo un animal?
+@@ 2a21gih6tgg
+Compre um na barraca do mercado (aba Animais). Dê **feno** uma vez por dia e ele dá ovos, leite, lã ou trufas. Faça carinho para deixá-lo feliz.
+~~
+Compra uno en el puesto del mercado (pestaña Animales). Dale **heno** una vez al día y te dará huevos, leche, lana o trufas. Acarícialo para que esté feliz.
+@@ 1r4cue3y8kg
+Abrir a loja
+~~
+Abrir la tienda
+@@ 10sauvcnozf
+Não tenho ouro para sementes
+~~
+No tengo oro para semillas
+@@ 2geluic4mg9
+Conclua uma lição ou uma missão diária e volte. O trigo é a semente mais barata e cresce em 3 minutos: um bom começo.
+~~
+Completa una lección o una misión diaria y vuelve. El trigo es la semilla más barata y crece en 3 minutos: un buen comienzo.
+@@ lcpb9rh7na
+O Santuário dos Pets
+~~
+El Santuario de Mascotas
+@@ 1ax6r70j2gd
+Choque **ovos** para ganhar pets, cuide deles e complete sua **Petdex**. Existem **20 tipos** de pets, de coelhinhos comuns a fênix **ultra raras**, e qualquer um pode nascer **brilhante** (1 em 20). Seu pet ativo segue você e dá um pequeno **bônus de XP** quando está feliz.
+~~
+Eclosiona **huevos** para conseguir mascotas, cuídalas y completa tu **Petdex**. Hay **20 tipos** de mascotas, desde conejitos comunes hasta fénix **ultra raros**, y cualquiera puede nacer **brillante** (1 de cada 20). Tu mascota activa te sigue y da un pequeño **bono de XP** cuando está feliz.
+@@ d4p8vhfzxb
+Ovos
+~~
+Huevos
+@@ 1wpjdi2hu40
+Os ovos esquentam enquanto você aprende: cada **XP** que você ganha conta. Quando um ovo estiver pronto, aperte **Chocar!**
+~~
+Los huevos se calientan mientras aprendes: cada **XP** que ganas cuenta. Cuando un huevo esté listo, pulsa **¡Eclosionar!**
+@@ 9gk3n9so1d
+Cuidados
+~~
+Cuidados
+@@ nx86auzmd4
+Dê legumes do seu sítio ao seu pet e brinque com ele. Pets felizes dão mais XP e seguem você pela vila.
+~~
+Dale a tu mascota verduras de tu rancho y juega con ella. Las mascotas felices dan más XP y te siguen por la aldea.
+@@ 1by8emw3ott
+Mais ovos
+~~
+Más huevos
+@@ 24iss5llkm2
+Compre ovos com ouro. Ovos mais raros custam mais, mas têm mais chance de pets raros.
+~~
+Compra huevos con oro. Los más raros cuestan más, pero tienen más probabilidad de mascotas raras.
+@@ 1ynjgh76z2x
+Meu ovo não choca
+~~
+Mi huevo no eclosiona
+@@ 1ai8ro53ncv
+Ovos chocam com **XP**. Conclua uma lição, um minijogo ou uma batalha e volte.
+~~
+Los huevos eclosionan con **XP**. Completa una lección, un minijuego o una batalla y vuelve.
+@@ ol8epb3a4u
+Ir para a Academia
+~~
+Ir a la Academia
+@@ rysqifgslq
+Meu pet está triste
+~~
+Mi mascota está triste
+@@ 220lg29h613
+Ele está com fome ou sozinho. Alimente-o e brinque com ele. Pets ficam tristes se você ficar fora por muitos dias, mas sempre perdoam você.
+~~
+Tiene hambre o se siente sola. Dale de comer y juega con ella. Las mascotas se ponen tristes si te ausentas muchos días, pero siempre te perdonan.
+@@ ixz5fdzkik
+Não tenho comida para meu pet
+~~
+No tengo comida para mi mascota
+@@ 262ftvk52h5
+Os pets comem legumes e produtos de animais da cesta do seu sítio.
+~~
+Las mascotas comen verduras y productos animales de la cesta de tu rancho.
+@@ 8qwl1fxcgy
+Ir para o sítio
+~~
+Ir al rancho
+@@ szp0hhknda
+O Portão dos Monstros
+~~
+La Puerta de los Monstruos
+@@ 1eepsbky5g1
+Monstros feitos de bugs vivem além do portão. Cada **região** tem seus monstros e um **chefe**. Você luta com o que aprendeu: **Golpe** responde a uma pergunta, **Feitiço** pede que você digite uma palavra rápido. A **Prova Júnior** final contra o Dragão Ancião é o exame da sua trilha.
+~~
+Más allá de la puerta viven monstruos hechos de bugs. Cada **región** tiene sus monstruos y un **jefe**. Luchas con lo que aprendiste: **Golpe** responde una pregunta, **Hechizo** te pide escribir una palabra rápido. La **Prueba Júnior** final contra el Dragón Anciano es el examen de tu ruta.
+@@ qzr1x1lc8b
+Escolha um monstro
+~~
+Elige un monstruo
+@@ 719vk0w6a1
+Clique num monstro (ou em **Lutar**) para começar uma batalha. Regiões mais difíceis abrem conforme seu nível sobe.
+~~
+Haz clic en un monstruo (o en **Luchar**) para empezar una batalla. Las regiones más difíciles se abren a medida que sube tu nivel.
+@@ xgluxtr67c
+Chefes
+~~
+Jefes
+@@ 2dl7evtsure
+Cada região tem um chefe. Chefes batem forte, mas dão grandes recompensas, ovos raros e conquistas. Os últimos são dragões.
+~~
+Cada región tiene un jefe. Los jefes golpean fuerte, pero dan grandes recompensas, huevos raros y logros. Los últimos son dragones.
+@@ 15d5npe5zyp
+Quando a maior parte da sua trilha estiver feita, enfrente a Prova. Vença para ganhar o título de **Desenvolvedor Júnior**.
+~~
+Cuando hayas hecho la mayor parte de tu ruta, afronta la Prueba. Gánala para obtener el rango de **Desarrollador Júnior**.
+@@ 21x1yiasbqc
+Continuo perdendo
+~~
+Sigo perdiendo
+@@ 1ozjsyeh8ei
+Lute primeiro com monstros mais fáceis para ganhar níveis. Use **Defender** quando sua vida estiver baixa e beba uma **poção**. As perguntas vêm das lições que você concluiu, então revisar também ajuda.
+~~
+Lucha primero contra monstruos más fáciles para ganar niveles. Usa **Defender** cuando tengas poca vida y bebe una **poción**. Las preguntas vienen de las lecciones que completaste, así que repasar también ayuda.
+@@ zsenu2y53h
+Praticar na Taverna
+~~
+Practicar en la Taberna
+@@ 1aw98mnpkbs
+Uma região está bloqueada
+~~
+Una región está bloqueada
+@@ 1ik0onstzfs
+As regiões abrem em níveis mais altos do herói. Lições, jogos e seu sítio dão XP.
+~~
+Las regiones se abren con niveles más altos del héroe. Las lecciones, los juegos y tu rancho dan XP.
+@@ 11idbxn7lnw
+Uma batalha
+~~
+Una batalla
+@@ 173ycfhgrx1
+Batalha por turnos. No seu turno, escolha uma ação. **Golpe**: responda a uma pergunta, acerto = um golpe. **Feitiço**: digite a palavra antes que o tempo acabe; digitar rápido bate mais forte. **Defender** reduz o próximo golpe à metade. **Poção** cura você.
+~~
+Batalla por turnos. En tu turno elige una acción. **Golpe**: responde una pregunta, acierto = un golpe. **Hechizo**: escribe la palabra antes de que se acabe el tiempo; escribir rápido golpea más fuerte. **Defender** reduce a la mitad el próximo golpe. **Poción** te cura.
+@@ 261kaxor8j0
+Responda a uma pergunta sobre o que você aprendeu. Acertos ferem o monstro, erros deixam ele bater em você.
+~~
+Responde una pregunta sobre lo que aprendiste. Los aciertos hieren al monstruo, los fallos le dejan golpearte.
+@@ 1ozljdvshzs
+Uma palavra aparece: digite-a e aperte **Enter** antes que a barra esvazie.
+~~
+Aparece una palabra: escríbela y pulsa **Enter** antes de que se vacíe la barra.
+@@ paoazvobqt
+Receba metade do dano no próximo golpe. Bom quando sua vida está baixa.
+~~
+Recibe la mitad de daño en el próximo golpe. Útil cuando tienes poca vida.
+@@ 1zxnvbpq4zo
+Fugir
+~~
+Huir
+@@ 1youds1yj6g
+Você sempre pode sair da batalha. Nada é perdido, mas você não ganha recompensa.
+~~
+Siempre puedes salir de la batalla. No pierdes nada, pero no recibes recompensa.
+@@ 1a0vjf0p0i6
+Não sei a resposta
+~~
+No sé la respuesta
+@@ 237epiiq75i
+Dê seu melhor palpite, ou use **Defender**. Toda pergunta vem de uma lição que você concluiu, e as erradas voltam nas suas revisões.
+~~
+Da tu mejor respuesta, o usa **Defender**. Todas las preguntas vienen de lecciones que completaste, y las que fallas vuelven en tus repasos.
+@@ 1kz3da4pbup
+Digito devagar demais para os feitiços
+~~
+Escribo demasiado lento para los hechizos
+@@ 28xgysw6be3
+Use **Golpe** em vez disso, ou pratique no minijogo **Digitador de Runas** na Taverna.
+~~
+Usa **Golpe** en su lugar, o practica en el minijuego **Mecanógrafo de Runas** de la Taberna.
+@@ d6cy2iyxbs
+Quero sair
+~~
+Quiero salir
+@@ 20da4ffjlij
+Aperte o botão de fugir no alto. Seu progresso está salvo.
+~~
+Pulsa el botón de huir de arriba. Tu progreso está guardado.
+@@ 1ztycvurxg4
+O Correio dos Corvos
+~~
+El Correo de Cuervos
+@@ 15w5srke5kv
+Cartas da Lumi e dos moradores: notícias de boas-vindas, presentes, lembretes e dicas. Aqui você também pode ativar as **notificações do navegador** para que a Lumi lembre você de praticar todo dia.
+~~
+Cartas de Lumi y de los aldeanos: noticias de bienvenida, regalos, recordatorios y consejos. Aquí también puedes activar las **notificaciones del navegador** para que Lumi te recuerde practicar cada día.
+@@ m1hmzvm1vd
+Lembretes diários
+~~
+Recordatorios diarios
+@@ 1u75ddsvcqm
+Permita as notificações e a Lumi vai lembrar você uma vez por dia, no horário que você escolher nas Configurações.
+~~
+Permite las notificaciones y Lumi te lo recordará una vez al día, a la hora que elijas en Ajustes.
+@@ iato173yaq
+Não recebo lembretes
+~~
+No recibo recordatorios
+@@ 2aqjt74a6p5
+Seu navegador precisa permitir notificações deste site, e o jogo precisa ter sido aberto recentemente. Você pode mudar o horário nas **Configurações**.
+~~
+Tu navegador debe permitir las notificaciones de este sitio, y el juego debe haberse abierto hace poco. Puedes cambiar la hora en **Ajustes**.
+@@ 1lw3tfj6b0f
+Abrir as Configurações
+~~
+Abrir Ajustes
+@@ t5fsxhh3rt
+Enquanto você estava fora, o reino mudou: o mato cresceu, os pets sentiram sua falta e monstros vieram para a vila. Uma lição deixa tudo melhor de novo.
+~~
+Mientras no estabas, el reino cambió: creció la maleza, las mascotas te extrañaron y llegaron monstruos a la aldea. Una lección lo arregla todo.
+@@ 1dr23z0dx6c
+De volta aos trilhos
+~~
+De vuelta al camino
+@@ 1v516mdazx3
+Faça uma lição curta para limpar a vila e ganhar um presente de retorno.
+~~
+Haz una lección corta para limpiar la aldea y recibir un regalo de regreso.
+@@ 27g1l25hatt
+Ferramentas para desenvolvedores e testadores: mudar XP, ouro e itens, desbloquear lições, avançar o tempo, chocar pets, fazer plantas crescerem, começar batalhas, testar notificações e pular para qualquer tela. As mudanças ficam salvas no seu jogo, então faça um backup antes.
+~~
+Herramientas para desarrolladores y testers: cambiar XP, oro y objetos, desbloquear lecciones, adelantar el tiempo, eclosionar mascotas, hacer crecer cultivos, empezar batallas, probar notificaciones y saltar a cualquier pantalla. Los cambios se guardan en tu partida, así que haz una copia antes.
+@@ 25exhp7waz8
+Uma lição
+~~
+Una lección
+@@ 2b4cs52rblj
+Uma lição são algumas perguntas curtas. Leia a pergunta, responda e aperte **Verificar**. Acertos dão XP. Erros custam um **coração** (se os corações estiverem ligados) e voltam depois para você aprender.
+~~
+Una lección son unas pocas preguntas cortas. Lee la pregunta, responde y pulsa **Comprobar**. Los aciertos dan XP. Los fallos cuestan un **corazón** (si los corazones están activados) y vuelven más tarde para que los aprendas.
+@@ 1occ1gb3xo1
+Responda aqui
+~~
+Responde aquí
+@@ 2d706hibo3d
+Toque numa resposta (ou digite). A linha acima das respostas diz o que fazer.
+~~
+Toca una respuesta (o escríbela). La línea de encima de las respuestas te dice qué hacer.
+@@ hwu1vdqh9t
+Verificar
+~~
+Comprobar
+@@ nww5im4w15
+Quando estiver pronto, aperte **Verificar** (ou **Enter**). Você verá se acertou, e por quê.
+~~
+Cuando estés listo, pulsa **Comprobar** (o **Enter**). Verás si acertaste, y por qué.
+@@ 1qssu1n4dk2
+Travou? Uma lâmpada tira respostas erradas ou coloca uma peça para você. Atalho: **H**.
+~~
+¿Atascado? Una bombilla quita respuestas incorrectas o coloca una pieza por ti. Atajo: **H**.
+@@ 65uxxwi22e
+Barra de progresso
+~~
+Barra de progreso
+@@ ok2lty9pp3
+A barra enche conforme você avança. O **X** sai da lição (você vai começá-la de novo depois).
+~~
+La barra se llena a medida que avanzas. La **X** sale de la lección (la empezarás de nuevo más tarde).
+@@ 6dqin0eajd
+Me dê uma dica
+~~
+Dame una pista
+@@ 21yrivnpmmf
+Uma lâmpada acende uma pista para esta pergunta.
+~~
+Una bombilla enciende una pista para esta pregunta.
+@@ 1pab8dg0mlx
+Usar uma lâmpada
+~~
+Usar una bombilla
+@@ 6rp8vgatx8
+Errei e não entendo por quê
+~~
+Fallé y no entiendo por qué
+@@ 2et7z4ezd88
+Leia a **resposta certa** em verde e a explicação embaixo. A pergunta vai voltar mais tarde na lição, então você terá outra chance.
+~~
+Lee la **respuesta correcta** en verde y la explicación de abajo. La pregunta volverá más tarde en la lección, así que tendrás otra oportunidad.
+@@ dq4e4y9uum
+Continuo errando
+~~
+Sigo fallando
+@@ 23xw9k55ot2
+Depois de dois erros seguidos eu mostro o cartão de ensino de novo, e sua próxima lâmpada é **grátis**. Você também pode desligar os Corações nas Configurações.
+~~
+Tras dos fallos seguidos te muestro otra vez la tarjeta de enseñanza, y tu próxima bombilla es **gratis**. También puedes desactivar los Corazones en Ajustes.
+@@ 1560a3wefu4
+Tentar de novo sem perder
+~~
+Reintentar sin perder
+@@ 1t10yz9x6ps
+Queime uma **tocha** depois de uma resposta errada para tentar de novo na hora.
+~~
+Quema una **antorcha** tras una respuesta incorrecta para reintentar al instante.
+@@ 2cyuwq70xc2
+Usar uma tocha
+~~
+Usar una antorcha
+@@ 25gx8qrscf1
+Meus corações acabaram
+~~
+Me quedé sin corazones
+@@ 13xklgi9ypd
+Beba uma poção, espere (um coração volta a cada 20 minutos) ou pratique lições antigas na Taverna para ganhar corações de volta.
+~~
+Bebe una poción, espera (vuelve un corazón cada 20 minutos) o practica lecciones antiguas en la Taberna para recuperar corazones.
+@@ 3ev8vxayfm
+Beber uma poção
+~~
+Beber una poción
+@@ 1bvscm3zrg2
+Um desafio de programação
+~~
+Un desafío de programación
+@@ 2bqspk7zmaz
+Aqui você escreve código de verdade. Leia a **tarefa** à esquerda, escreva o código no **editor** e aperte **Rodar e verificar**. Os objetivos ficam verdes quando seu código faz o que foi pedido.
+~~
+Aquí escribes código de verdad. Lee la **tarea** de la izquierda, escribe código en el **editor** y pulsa **Ejecutar y comprobar**. Los objetivos se marcan en verde cuando tu código hace lo que se pidió.
+@@ 1h7cc08wlkv
+A tarefa
+~~
+La tarea
+@@ 20s0uuie9qq
+O que construir e os **objetivos** a cumprir. As dicas ficam no fim deste painel.
+~~
+Qué construir y los **objetivos** a cumplir. Las pistas están al final de este panel.
+@@ p1554gf4xf
+O editor
+~~
+El editor
+@@ 1deg25ckskt
+Escreva seu código aqui. É um editor de verdade: **Tab** indenta, **Ctrl+Enter** roda seu código.
+~~
+Escribe tu código aquí. Es un editor de verdad: **Tab** sangra, **Ctrl+Enter** ejecuta tu código.
+@@ mzaiw5h7p0
+O resultado
+~~
+El resultado
+@@ uvtjajh9il
+Sua página web, a saída do console ou o mapa do herói aparecem aqui quando você roda.
+~~
+Tu página web, la salida de la consola o el mapa del héroe aparecen aquí cuando ejecutas.
+@@ 19vg1jvokjy
+Rodar e verificar
+~~
+Ejecutar y comprobar
+@@ ljvr3n04z3
+Roda seu código e confere cada objetivo. Tente quantas vezes quiser: aqui nenhum coração é perdido.
+~~
+Ejecuta tu código y comprueba cada objetivo. Inténtalo cuantas veces quieras: aquí no se pierden corazones.
+@@ 1r49fsormkp
+Cada desafio tem dicas, das pequenas às grandes.
+~~
+Cada desafío tiene pistas, de pequeñas a grandes.

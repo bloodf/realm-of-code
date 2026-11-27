@@ -1,0 +1,340 @@
+@@ n9332of2eu
+__probe = {}
+for __k, __e in [{0}]:
+    try:
+        __probe[__k] = eval(__e)
+    except Exception as __x:
+        __probe[__k] = "ERR:" + type(__x).__name__
+@@ oq6cixxfqq
+Hello, Serpent
+@@ 1vsm1okq9nm
+The librarian of the Serpent Library speaks only Python. Greet her in her own language.
+@@ 1sboo8jxv4h
+`print()` shows text on the screen. Text (a **string**) goes inside quotes:
+
+```
+print("Hello!")
+print('Single quotes work too')
+```
+Each `print` writes one line.
+@@ n9g8wmeim6
+Print two lines: `Hello, Library!` and then `I am learning Python.`
+@@ ik767wf5gr
+Two `print(...)` lines, one after the other.
+@@ 9vye7tuzlv
+Prints "Hello, Library!"
+@@ 1fefoligose
+Check the spelling, the comma and the "!"
+@@ 1dktkk5bn65
+Then prints "I am learning Python."
+@@ p33xuhysz9
+Boxes with Names
+@@ 1k483tt3o2w
+The library counts its books. Help the librarian keep the numbers in named boxes.
+@@ 22uk4lb2tk8
+A **variable** is a name for a value. No `let` or `const` in Python, just `=`:
+
+```
+books = 120
+name = "Serpent Library"
+books = books + 30      # now 150
+print(f"{name} has {books} books")
+```
+An **f-string** (`f"..."`) puts values inside text with `{}`.
+@@ nak4zy73vl
+Create `books` with the value 120 and `new_books` with 35. Create `total` as their sum. Print exactly: `Total: 155 books` using an f-string.
+@@ 1g4vg59x23m
+new_books is 35
+@@ 2csfx0xeyfr
+total is 155
+@@ 2e8srwbt8e6
+Prints "Total: 155 books"
+@@ rhxdad7ooz
+Use an f-string
+@@ 1hllaj6zz61
+The Fee Calculator
+@@ 64rqlepbaf
+Late books cost 0.25 gold per day. The librarian needs a calculator.
+@@ cs5xuri7wp
+Python does maths: `+ - * /`, `//` (whole division), `%` (remainder), `**` (power).
+
+```
+days = 7
+fee = days * 0.25     # 1.75 (a float)
+print(round(fee, 1))   # 1.8
+print(7 // 2, 7 % 2)   # 3 1
+```
+@@ 1wnofqjlb6a
+With `days = 9` and `fee_per_day = 0.25`, compute `fee` (days times fee per day) and print exactly: `Fee: 2.25 gold`. Then compute `weeks` as the whole number of weeks in `days` (use `//`) and print it.
+@@ cw279xtuhi
+`weeks = days // 7` gives 1
+@@ 1ey45mrig0l
+fee is 2.25
+@@ ax6qozmh0h
+Prints "Fee: 2.25 gold"
+@@ 1p57k47qr3x
+weeks is 1 (whole weeks)
+@@ wwpzwjj6pi
+The Guardian of the Gate
+@@ 26gk5rnrevm
+A stone guardian lets readers in by age. Write its rules.
+@@ 1s15be0t935
+Python chooses with `if`, `elif` and `else`. The line ends with `:` and the code inside is **indented** (4 spaces):
+
+```
+if age < 12:
+    print("Children's room")
+elif age < 18:
+    print("Young readers")
+else:
+    print("Main hall")
+```
+@@ 15q9o3qk93j
+Write a function `room(age)` that **returns** `"children"` for ages under 12, `"young"` for 12 to 17, and `"main"` for 18 or more.
+@@ 1zvf7zppdki
+`def room(age):` then an `if` inside it (indented).
+@@ 1j63lmkc80l
+Use `return "children"` instead of print.
+@@ 2f4flw5uhnp
+room(5) is "children"
+@@ b4cv8myfyy
+room(12) and room(17) are "young"
+@@ 23c8cx0ie8n
+12 is not under 12: it is young.
+@@ 1h08subqfxz
+room(18) and room(70) are "main"
+@@ bun8xvxtau
+Counting the Shelves
+@@ 28uy1ctpj3m
+Each shelf holds more books than the one below. Count them all.
+@@ ughx8au4p5
+`for` repeats code for each item. `range(1, 6)` gives 1, 2, 3, 4, 5 (the end is **not** included):
+
+```
+total = 0
+for n in range(1, 6):
+    total = total + n
+print(total)   # 15
+```
+@@ j9p2jdtu2t
+Shelf number `n` holds `n * 10` books. There are 8 shelves (1 to 8). Use a `for` loop to compute `total_books` and print it.
+@@ 7izutljvgm
+`for n in range(1, 9):` (9 is not included)
+@@ zvsgxp0f6l
+Inside: `total_books += n * 10`
+@@ 230i4oqx35b
+total_books is 360
+@@ 27muxqp5acr
+Shelves 1 to 8: check the end of your range.
+@@ qreiv6pnxt
+Prints 360
+@@ ffhg7kgpyv
+Uses a for loop
+@@ 1hqija0loto
+FizzBuzz of the Bards
+@@ g7ib7xjcxl
+The bards sing a counting song: multiples of 3 are "Fizz", of 5 are "Buzz", of both "FizzBuzz". It is also the most famous interview warm-up!
+@@ 1zdbem5ztje
+`n % 3 == 0` is true when `n` divides by 3 with no remainder. Check **both** first:
+
+```
+if n % 15 == 0:
+    ...
+elif n % 3 == 0:
+    ...
+```
+@@ 1h6vfyisau1
+Print the song for the numbers 1 to 15: the number itself, or `Fizz`, `Buzz` or `FizzBuzz`.
+@@ ztzyowpzbe
+Test `n % 15 == 0` before the others; `else: print(n)`
+@@ 2dyfwjnqez
+15 lines
+@@ 1sf5imimzv5
+3 is Fizz, 5 is Buzz
+@@ 2bkld0os4nm
+15 is FizzBuzz
+@@ 1aqwiunb1ex
+Check for 15 (both) first.
+@@ 1xva4m2ob5q
+Other numbers are printed
+@@ nwxsmjcfka
+The Borrowed Books
+@@ 28u7lh6vg8a
+Readers borrow and return books all day. Keep the list up to date.
+@@ 28gpgn7v2jr
+A **list** keeps items in order:
+
+```
+books = ["Dune", "Emma"]
+books.append("Ulysses")    # add at the end
+books.remove("Emma")        # remove an item
+print(len(books))          # 2
+print(books[0])            # Dune (positions start at 0)
+print("Dune" in books)     # True
+```
+@@ el8gkn2nrk
+Start from the `borrowed` list. Add `"Hamlet"`, remove `"Emma"`, then print how many books are borrowed and the **last** book (use `borrowed[-1]`).
+@@ hxei8scjeh
+`print(len(borrowed))` then `print(borrowed[-1])`
+@@ 13pop8p3gpz
+The list is Dune, Odyssey, Hamlet
+@@ 12pv8ce94sm
+Dune
+@@ 2ezesvq2stj
+Odyssey
+@@ xf2kykwn04
+Hamlet
+@@ 1kzlnbcsb1b
+Prints 3 then Hamlet
+@@ 1hm3gpewxjn
+The Catalogue
+@@ h4hyujeszn
+Every book has an author. The catalogue is a dictionary.
+@@ 21y75t4r0ax
+A **dictionary** maps keys to values:
+
+```
+authors = {"Dune": "Herbert", "Emma": "Austen"}
+print(authors["Dune"])          # Herbert
+authors["Hamlet"] = "Shakespeare" # add
+print(authors.get("Nope", "?"))   # ? (no error)
+for book, who in authors.items():
+    print(book, "by", who)
+```
+@@ 1zus3jqxpzv
+Add `"Odyssey": "Homer"` to `catalogue`, then print every book as `<book> by <author>` (one line each, in order).
+@@ y1rd6vrpkw
+`for book, author in catalogue.items():` then `print(f"{book} by {author}")`
+@@ 2jpnyumec8
+Odyssey by Homer is in the catalogue
+@@ 15ybn4rtt7p
+Prints the three books
+@@ 20x3aax0v93
+A Reusable Spell
+@@ 13reaore1i0
+default values
+@@ ohy2enc5we
+The librarian stamps due dates all day. Teach her a function.
+@@ iz4uywv9y1
+```
+def greet(name, title="reader"):
+    return f"Welcome, {title} {name}!"
+
+print(greet("Ada"))            # Welcome, reader Ada!
+print(greet("Ada", "scholar")) # Welcome, scholar Ada!
+```
+`return` gives a value back. A parameter with `=` has a **default value**.
+@@ l15zaz1dnc
+Write `due_date(day, loan_days=14)` that returns the day the book is due: `day + loan_days`. Then write `is_late(due, today)` that returns `True` when `today` is after `due`.
+@@ tadre9trps
+due_date(10, 7) is 17
+@@ 20g3onbbne5
+is_late works (16 is late, 15 is not)
+@@ 6b9487dotx
+Comprehension Charms
+@@ hrnuyrrso6
+list comprehension
+@@ 1s9012gtkg8
+A shelf of book lengths. The librarian wants quick answers.
+@@ 25wlhgk6wya
+A **list comprehension** builds a list in one line:
+
+```
+nums = [1, 2, 3, 4]
+doubled = [n * 2 for n in nums]          # [2, 4, 6, 8]
+big = [n for n in nums if n > 2]          # [3, 4]
+print(sum(nums), max(nums), min(nums))   # 10 4 1
+```
+@@ 1foau8tajag
+From `pages`, make `long_books` (books with **more than 300** pages) with a comprehension, and `total_pages` with `sum`. Print both.
+@@ 18p4olskmoh
+long_books is [450, 980, 310]
+@@ 1z8fb8o1jxo
+300 is not MORE than 300.
+@@ 25cmbgxa7r
+total_pages is 2235
+@@ 28kexh88eo2
+Use a list comprehension
+@@ 2cpe24wjl40
+Catching Falling Books
+@@ 1oduag58f5k
+Readers type the number of days they want a book. Some type words. The program must not crash!
+@@ 7oxjcycw19
+`int("12")` turns text into a number, but `int("ten")` raises a **ValueError**. Catch it:
+
+```
+try:
+    n = int(text)
+except ValueError:
+    n = 0
+```
+@@ 4imuwtjj5
+Write `parse_days(text)` that returns the number in `text`, or `None` when it is not a whole number. Numbers must be between 1 and 30, otherwise also return `None`.
+@@ 1a3pronc9z0
+Then `if 1 <= n <= 30: return n` else `return None`
+@@ ptnrqyx32q
+"7" gives 7
+@@ tpscl1k5tw
+"ten" gives None (no crash)
+@@ q023jt0vug
+Only 1 to 30 is allowed
+@@ gd1qukszor
+Uses try/except
+@@ mkv5draelj
+The Book Class
+@@ 1hcp2oinx9a
+Each book knows its title, its pages and whether it is borrowed. Time for objects!
+@@ hnyeye9i20
+A **class** is a blueprint for objects:
+
+```
+class Book:
+    def __init__(self, title, pages):
+        self.title = title
+        self.pages = pages
+        self.borrowed = False
+
+    def borrow(self):
+        self.borrowed = True
+
+b = Book("Dune", 412)
+b.borrow()
+```
+`self` is the object itself.
+@@ 1ymcw90arst
+Finish the `Book` class: `borrow()` returns `False` if the book is already borrowed, otherwise marks it borrowed and returns `True`. `give_back()` marks it not borrowed. `describe()` returns `"<title> (<pages> pages)"`.
+@@ 248oyotlr6c
+In borrow: `if self.borrowed: return False`
+@@ 1dd77ugnk31
+Book("Dune", 412).describe()
+@@ 262r0bi5bvk
+(lambda b: [b.borrow(), b.borrow(), b.give_back(), b.borrow()])(Book("Emma", 300))
+@@ 1li1qcfxcgp
+describe() gives "Dune (412 pages)"
+@@ 1l3ihe0yox9
+borrow twice: True then False
+@@ 2936ir4f7qw
+give_back() makes it free again
+@@ at1d2rh4h0
+Project: The Library Report
+@@ 26qvbozrmsy
+At the end of the season, the head librarian wants a report of the most borrowed books. This is your first real Python program!
+@@ 1nuab09qoeb
+Sort with a **key**:
+
+```
+scores = {"a": 3, "b": 9}
+ranked = sorted(scores.items(), key=lambda kv: kv[1], reverse=True)
+# [("b", 9), ("a", 3)]
+```
+Count with a dictionary: `counts[name] = counts.get(name, 0) + 1`.
+@@ 1pqob4l2esg
+Write `count_loans(loans)` that returns a dict `{title: times}` from the list of borrowed titles. Write `top(counts, n)` that returns the `n` most borrowed titles, most borrowed first (ties: alphabetical). Finally print the top 3 as `1. <title> (<times>)`, one per line.
+@@ 1n070ypba9c
+count_loans counts every title
+@@ lvppls0ty7
+top() sorts by loans, then by title
+@@ 1hl846s0cum
+Prints "1. Dune (3)"
+@@ 27wphb6u96z
+Prints "2. Emma (3)" and "3. Odyssey (2)"

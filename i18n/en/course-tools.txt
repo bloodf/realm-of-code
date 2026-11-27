@@ -1,0 +1,680 @@
+@@ xr5hhe4pnp
+Developer Workshop
+@@ 5nwlgsib9j
+The Artificers' Workshop
+@@ asoitc1wtn
+How developers really work: the terminal, Git and GitHub, pull requests, npm, build tools and debugging.
+@@ 1lnln8m1827
+The Terminal
+@@ 10fbchjudlb
+Move around and manage files by typing commands.
+@@ 2ektmzcp6kw
+
+**Key ideas**
+- The **terminal** (command line, shell) runs programs by typing commands.
+- `pwd` shows where you are, `ls` lists files, `cd folder` moves in, `cd ..` moves up, `cd ~` goes home.
+- `mkdir name` makes a folder, `touch file` makes an empty file, `cat file` shows a file.
+- `mv a b` moves/renames, `cp a b` copies, `rm file` deletes (`rm -r folder` for folders). There is no recycle bin!
+- Press ↑ to repeat commands, Tab to auto-complete names.
+@@ 1thxqdw30q3
+What is the terminal?
+@@ 1fb29pkvatn
+Talking to the computer
+@@ xhphpl1uof
+The **terminal** lets you control the computer by typing **commands** instead of clicking. Developers use it every day to run servers, install packages, use Git and much more.
+
+```
+hero@realm:~$ ls
+projects  notes.txt
+```
+The text before `$` is the **prompt**: it shows who and where you are.
+@@ 1ouk3i4a0z6
+Why do developers use the terminal?
+@@ 111gn2djcer
+Many tools (Git, npm, servers) are run by typing commands
+@@ dwif7znme6
+It is the only way to open files
+@@ 1219ttxnj1
+It makes the computer faster
+@@ 1cr25yf4fbl
+Only for hacking
+@@ 2376g5ypkk4
+Match the command with what it does
+@@ ee538l8nm9
+Print the current folder
+@@ hhn7lq4lvt
+List files
+@@ 189d9vn4lg4
+Change folder
+@@ uld8u7b04l
+Make a folder
+@@ 5kvuu5miji
+In `hero@realm:~$`, the `~` means your home folder.
+@@ 1rgqjwmrrzc
+What does `..` mean in `cd ..`?
+@@ mbhdtj6xy3
+The folder above (the parent)
+@@ kwzedp60f
+The home folder
+@@ eyfnmjbz0i
+All folders
+@@ 1qr5yfr97kq
+Which command shows the folder you are in?
+@@ 1l5wovvg5bd
+Moving around
+@@ ejo59ebd7w
+Navigation
+@@ 2f66xdi6v4i
+```
+pwd              # where am I?
+ls               # what is here?
+cd dungeon       # go into "dungeon"
+cd dungeon/cellar  # go two levels down
+cd ..            # go up one level
+cd ~             # go home
+```
+Tip: press **Tab** to complete a name, **↑** to reuse a command.
+@@ 17mi161m7kd
+You are in `/home/hero/castle/hall`. Where are you after this?
+@@ 1hd1d1a8c4t
+Which command lists hidden files too (like `.git`)?
+@@ 17wabonf4xp
+ls -hidden
+@@ 1n8myl52za9
+show all
+@@ e515z1v46u
+A treasure is hidden in the `cellar` inside the `dungeon` folder. Go there with `cd` and read `treasure.txt` with `cat`.
+@@ 28eserhyfg7
+Use `ls` to look around. `cd dungeon`, then `cd cellar`, then `cat treasure.txt`.
+@@ 1aueh008bse
+You found 500 gold coins!
+@@ 966btk69lq
+Squeak.
+@@ ghj1zefx8a
+Remember: the treasure is deep below.
+@@ 1nkvh4xyd2z
+Files and folders
+@@ 1zdjs84hy3e
+Creating and cleaning up
+@@ 1odsko0vj26
+```
+mkdir my-site          # new folder
+touch index.html       # new empty file
+mv old.txt new.txt     # rename (move)
+cp a.txt backup.txt    # copy
+rm notes.txt           # delete a file
+rm -r old-folder       # delete a folder and everything in it
+```
+Careful: `rm` does not use a recycle bin. Deleted means gone.
+@@ f7p4vljx6p
+Match the command
+@@ 8iacpsf0h4
+Create an empty file
+@@ 1ukifkywfpu
+Move or rename
+@@ 1u8fb2niukv
+Copy
+@@ 1cen5mjir88
+Delete
+@@ 30wa43e0h9
+Files deleted with `rm` go to the recycle bin.
+@@ 1qhy4g62uvs
+Which creates a folder called `images`?
+@@ 18jl23dxf9g
+mkdir images
+@@ whkzsv7gm4
+touch images
+@@ rj1n4tbkb8
+cd images
+@@ 1fjy84vbs13
+new images
+@@ 6itoafs7yk
+Set up a new website project: create a folder `my-site` containing `index.html`, `style.css` and an `images` folder.
+@@ 1tw9nu96jm5
+Git Basics
+@@ 3bcs7a8ghg
+Save points for your code: init, add, commit, log.
+@@ k48hv0xtyh
+
+**Key ideas**
+- **Git** records the history of your project as **commits** (save points). **GitHub** hosts Git projects online.
+- `git init` starts a repository. `git status` shows what changed.
+- `git add file` (or `git add .`) **stages** changes; `git commit -m "message"` saves them.
+- `git log --oneline` shows the history.
+- Good commits are small and have clear messages in the imperative: "Add login form".
+- `.gitignore` lists files Git should ignore (`node_modules`, `.env`, `dist`).
+@@ 142n0n8gp2a
+Why version control?
+@@ 2fiatpvjovc
+Save points for code
+@@ 2c4lh7bp076
+**Git** keeps the full history of a project. Each save point is a **commit**. With Git you can:
+- go back to any earlier version
+- see who changed what and why
+- work on new features without breaking the main version
+- work with a team without overwriting each other
+
+**GitHub** (or GitLab, Bitbucket) stores Git projects online.
+@@ 2bxga0ahswe
+What is a commit?
+@@ 113zahq6wv1
+A saved snapshot of the project
+@@ 1dvko5khkvx
+A file that was deleted
+@@ 14t3c0uns2x
+A kind of branch
+@@ 15jgibcnfmp
+A GitHub account
+@@ 13eusi9qop5
+Git and GitHub are the same thing.
+@@ 1zwcvjcs0jl
+Git is the tool on your computer. GitHub is a website that hosts Git repositories.
+@@ 1ghicycziov
+Repository (repo)
+@@ 1wsd0677c8l
+A project tracked by Git
+@@ 171qfmzs5t4
+Commit
+@@ 1l2jtzb8u0j
+A saved snapshot
+@@ 9hlc5t60i
+Website that hosts repos
+@@ 22wi4adg3sl
+History
+@@ 1qhfn8mc0v6
+All commits in order
+@@ 2ftq5ytpqpm
+Why do companies require Git?
+@@ 1b2iwcd6m7w
+Teams can work together and undo mistakes safely
+@@ nd2uqparhq
+It makes code run faster
+@@ 294thxru4cn
+It is needed to write HTML
+@@ 13j4lkup5hm
+It replaces testing
+@@ 5m0lboy1u6
+Your first commit
+@@ r1lk9cwlpx
+The three steps
+@@ 117uk601t39
+```
+git init                     # start tracking this folder
+git status                   # what changed?
+git add index.html           # stage a file (or: git add .)
+git commit -m "Add homepage" # save the snapshot
+```
+**Staging** lets you choose exactly what goes into the next commit.
+@@ xqrusx21ue
+Put the commands in order for a first commit
+@@ 1obij96ytu6
+What does `git add` do?
+@@ vm517g5qjo
+Stages changes for the next commit
+@@ 21pyf74v3p2
+Creates a new file
+@@ op8g19jwkx
+Uploads to GitHub
+@@ 273oekiuzcg
+Deletes old commits
+@@ 2avlct3ew30
+Commit with a message
+@@ 21pzjx1mj2m
+Put the `quest-log` project under version control: initialise a repository, stage `index.html` and make your first commit (with a message).
+@@ hxeh4g0l9i
+`git init`, then `git add index.html` (or `git add .`), then `git commit -m "Add quest log page"`. Use `git status` to see what is going on.
+@@ 1a4jj9j3ych
+Good commits and .gitignore
+@@ bzoe0m1887
+Habits of good developers
+@@ 18magi6eum3
+- Commit **small, focused** changes often
+- Write messages in the imperative: "Add login form", "Fix price rounding"
+- Check `git status` and `git diff` before committing
+- Never commit secrets (passwords, API keys)
+
+A `.gitignore` file lists things Git should ignore:
+
+```
+node_modules
+dist
+.env
+```
+@@ 1pgs9va2wqd
+Which commit message is best?
+@@ fbr79zt0xv
+Fix total price rounding in cart
+@@ it9h85agbh
+Which folder should almost always be in `.gitignore`?
+@@ 18qoe5l2b2a
+`node_modules` can be rebuilt with `npm install`, and it is huge.
+@@ 1w4tsaifog8
+It is fine to commit a `.env` file with your API keys to a public repository.
+@@ zmqy0i646x
+Bots scan GitHub for leaked keys within minutes. Keep secrets out of Git.
+@@ 2bjjdfj56fd
+Which command shows the history in short form?
+@@ 2ctg781ivoa
+git log --oneline
+@@ 10b0sq6s00c
+git history
+@@ 1lltqmyea3a
+git show all
+@@ y4yy4tayj6
+git status -h
+@@ 1sdvk1li2t3
+Make **two** commits in the `shop` project: first commit the page, then create `style.css` and commit it separately. Check your work with `git log --oneline`.
+@@ b7epil4pva
+Branches and GitHub
+@@ 1srgl80tw7
+Work in parallel, share code and review it as a team.
+@@ 1jsi7yv0a3i
+
+**Key ideas**
+- A **branch** is a separate line of work. `git switch -c feature` creates one and moves to it.
+- `git switch main` goes back; `git merge feature` brings the work into the current branch.
+- A **remote** (`origin`) is a copy on GitHub. `git push` uploads, `git pull` downloads, `git clone url` copies a repo.
+- **Pull requests (PRs)**: propose merging a branch; teammates review it before it is merged.
+- **Merge conflicts** happen when two branches change the same lines: edit the file, remove the `<<<<<<<`/`=======`/`>>>>>>>` markers, then commit.
+@@ nrq042dgwh
+Branches
+@@ 161xkfb9bll
+Parallel timelines
+@@ 1w9m08ru8ie
+A **branch** lets you work on something new without touching the main version:
+
+```
+git switch -c add-moat     # create a branch and move to it
+# ...edit, add, commit...
+git switch main            # back to main
+git merge add-moat         # bring the changes in
+```
+(`git checkout -b` is the older way to write `git switch -c`.)
+@@ 2o56chwr
+Why use a branch for a new feature?
+@@ 7mp4sadco9
+To work without breaking the main version
+@@ yl7bcq99ij
+To delete old code
+@@ 1yvd73pgmg
+To make Git faster
+@@ 28kw63pjgqe
+Branches are only for big teams
+@@ 158h61t100i
+Workflow: create a branch, commit, and merge it back
+@@ 1c5tvfjzfgl
+Which command lists the branches?
+@@ 10hjmnnju0m
+git branch
+@@ 1ph0ynbqdsl
+git list
+@@ 2flyg1opwqg
+git log --branches-only
+@@ ntfozj4kv5
+git switch
+@@ xbisdxuo5i
+In the `castle` project: make a first commit on `main`. Then create a branch `add-moat`, add a file `moat.html` and commit it there. Finally switch back to `main` and merge `add-moat`.
+@@ 1d83sio6isu
+GitHub and remotes
+@@ 28sszqwljhc
+Your code in the cloud
+@@ 1arhqs4bb3q
+```
+git clone https://github.com/guild/quests.git   # copy a repo to your computer
+git remote add origin https://github.com/you/site.git
+git push origin main    # upload your commits
+git pull                # download new commits
+```
+`origin` is the usual name for the main remote.
+@@ 74sxumgang
+git clone
+@@ h5f5zrywl9
+Copy a repo from GitHub
+@@ tdqx6pkprk
+Upload your commits
+@@ 1i23dsgicsn
+git pull
+@@ 17065rvvwno
+Download new commits
+@@ jyc1z7apcb
+git remote
+@@ 1jbsjyjfjms
+Manage online copies
+@@ 1q1hfkg3kuh
+A teammate pushed new commits. How do you get them?
+@@ 1vv52c2kkkl
+git init
+@@ quiyzfmnyd
+`git commit` automatically uploads your work to GitHub.
+@@ 1zkcgz14xgz
+Commits are local until you `git push`.
+@@ 1oug6qc6em0
+Which command copies an existing repository from GitHub to your computer? (just the two words)
+@@ 1j81x353upg
+Pull requests and code review
+@@ 2chdmz50m67
+Teamwork on GitHub
+@@ 1kucv14ner3
+In most companies you never push straight to `main`. Instead:
+1. Create a branch and commit your work
+2. Push the branch to GitHub
+3. Open a **pull request** (PR): "please merge my branch"
+4. Teammates **review** the code and comment
+5. Automated checks (tests) run
+6. After approval, the PR is merged
+@@ 1catxvj0109
+Order the pull-request workflow
+@@ muw0f08gzm
+Which review comment is most helpful?
+@@ hlx5v5dx1v
+"This loop runs on every render; could we move it into useMemo?"
+@@ mnfkd4lexa
+"Bad code."
+@@ v3qz8ktztd
+"I would never do it like this."
+@@ 2a9zmp5mtnf
+Why keep pull requests small?
+@@ 1iwv4hftujt
+They are easier and faster to review well
+@@ dxoacnci44
+GitHub limits PRs to 10 lines
+@@ nl65hfjsm4
+Big PRs are not allowed by Git
+@@ 2gkd6owsc5b
+It makes the app smaller
+@@ 1pu61f4j0ol
+Code review is also a great way for juniors to learn from seniors.
+@@ 2dpx5aj850q
+Merge conflicts
+@@ d3zeq9xfhz
+When two changes collide
+@@ 1hp8j4x2nwe
+If two branches change the **same lines**, Git cannot decide and marks a **conflict**:
+
+```
+<<<<<<< HEAD
+<h1>Welcome to the Castle</h1>
+=======
+<h1>Welcome to the Fortress</h1>
+>>>>>>> rename-castle
+```
+To fix it: edit the file to the version you want, delete the markers, then `git add` and `git commit`.
+@@ 2g6nepylv7j
+In this conflict, which text comes from your current branch?
+@@ tx59j6s762
+The part between `<<<<<<< HEAD` and `=======` is from your current branch (HEAD).
+@@ aoyhqslt9p
+Resolve a merge conflict
+@@ kgxs6p841l
+Merge conflicts mean you did something wrong.
+@@ 1ihvk1k0u4x
+They are completely normal when people work in parallel. Communicating and pulling often keeps them small.
+@@ 15l3i6920qw
+npm and Build Tools
+@@ 1vqk5q7ff3
+Packages, package.json, scripts, Vite and builds.
+@@ 1b9a1mylj6m
+
+**Key ideas**
+- **Node.js** runs JavaScript outside the browser. **npm** installs packages (other people's code).
+- `package.json` describes the project: name, **scripts**, **dependencies** and **devDependencies**.
+- `npm install` (or `npm i`) installs everything into `node_modules` (never commit it).
+- `npm install react` adds a dependency; `npm install -D vitest` adds a dev-only tool.
+- `npm run dev` starts the dev server; `npm run build` makes an optimised `dist/` folder.
+- **Vite** is a fast build tool used by many frameworks.
+@@ 19kg6uiuovn
+Node and npm
+@@ 1jkt62i4l53
+Standing on giants' shoulders
+@@ 1eii2u504f6
+**npm** (Node Package Manager) downloads **packages**: code written by others, like React or Express. Each project has a `package.json`:
+
+```
+{
+  "name": "tavern-app",
+  "scripts": { "dev": "vite", "build": "vite build" },
+  "dependencies": { "react": "^19.0.0" },
+  "devDependencies": { "vite": "^7.0.0" }
+}
+```
+@@ x8wduzhmj4
+Commands you can run
+@@ 1jko0ejpq0t
+Packages the app needs
+@@ 2c0ybdn988o
+Tools only for development
+@@ 1jzh8xq3cy1
+The project name
+@@ 6q6kkeoxuc
+Where do installed packages go?
+@@ 1p5eu16d7x3
+You should commit the `node_modules` folder to Git.
+@@ 3365vs4v8t
+Anyone can recreate it with `npm install`. It is huge, so it goes in `.gitignore`.
+@@ 1zrm8xeuev8
+A testing tool used only while developing belongs in...
+@@ 1ijqodk4g3o
+Installing packages
+@@ 1vieanivno
+npm commands
+@@ 1qdf450szac
+```
+npm init -y              # create package.json
+npm install express      # add a dependency
+npm install -D vitest    # add a dev dependency
+npm install              # install everything listed in package.json
+```
+`package-lock.json` records the exact versions, so everyone gets the same ones. Commit it.
+@@ j8yq23zk6l
+Add vitest as a dev dependency
+@@ btfj675i1t
+You cloned a project. What do you run before starting it?
+@@ e4dxyfx3b0
+npm delete
+@@ 1w8eiw9ferd
+npm publish
+@@ x84vmowrqj
+Start a Node project in `tavern-app`: create a `package.json`, install `express` as a dependency and `vitest` as a dev dependency. Then look at the result with `cat package.json`.
+@@ nrt2oq7qsy
+`npm init -y`, then `npm install express`, then `npm install -D vitest`.
+@@ 1s0u36fro0w
+Scripts, Vite and builds
+@@ 2aad86l0963
+From code to website
+@@ 1cj0lun77b
+During development, a **dev server** shows changes instantly:
+
+```
+npm run dev     # e.g. Vite at http://localhost:5173
+```
+For production, a **build** bundles and minifies everything into a `dist/` folder that you upload to a host:
+
+```
+npm run build
+```
+@@ jr0ur64wv0
+What does `npm run build` usually create?
+@@ 2erchxnr4wz
+An optimised dist/ folder ready to deploy
+@@ skwz94jsex
+A new Git branch
+@@ ddfs82foh1
+A database
+@@ 222ehsmb337
+The node_modules folder
+@@ qqqygu0rdb
+What is Vite?
+@@ i19cjdtz91
+A fast build tool and dev server
+@@ 126w8e5chw6
+A CSS framework
+@@ obv7viz70w
+A browser
+@@ 1p5mrti8f53
+How do you run the `test` script?
+@@ 105v1wfazy6
+npm run test
+@@ 3g0c6mpns8
+run test
+@@ 1yuz6rw1i1i
+node test
+@@ 9e7k47gnf1
+`npm test` also works as a shortcut for this one script.
+@@ 11yb0gi8o94
+Vite
+@@ 15gdbeq1izz
+Build tool / dev server
+@@ 1cxrkblj5l4
+Package manager
+@@ lesag9bvto
+Runs JS outside the browser
+@@ p9ow5tredx
+Output of a build
+@@ 2cx6409nhlp
+Debugging Like a Pro
+@@ 1qpjm0sua76
+DevTools, error messages, stack traces and breakpoints.
+@@ qskrmgp8gh
+
+**Key ideas**
+- DevTools panels: **Elements** (HTML/CSS), **Console** (logs, errors), **Network** (requests), **Sources** (breakpoints), **Application** (storage).
+- Read error messages: the **type** (TypeError...), the **message**, and the **file:line** in the stack trace.
+- `console.log`, `console.table`, and the `debugger` statement / breakpoints to pause code.
+- Strategy: reproduce → read the error → form a guess → test one change → repeat. Comment out halves to find the culprit.
+@@ 1097eie5vn0
+A tour of DevTools
+@@ 2g8699eolv5
+Your X-ray glasses
+@@ j4rk82rlk9
+Open DevTools with **F12** (or right-click → Inspect):
+- **Elements**: see and edit the HTML and CSS live
+- **Console**: logs and errors, and you can type JS
+- **Network**: every request, its status and timing
+- **Sources**: set breakpoints and step through code
+- **Application**: localStorage, cookies
+@@ 1er4sqsak29
+Which panel?
+@@ 25st43xks43
+A request returns 404
+@@ 2663n8cb8eb
+Network
+@@ 1ma19ab6n8w
+A button has the wrong colour
+@@ pqzll7rqbu
+Elements
+@@ 1d754x4jts9
+An error message appeared
+@@ 667t1e1zr5
+Console
+@@ tidqk006bi
+Pause code on line 20
+@@ y5j7fa4qmt
+Sources
+@@ 2ahczfiv0pi
+Changes you make in the Elements panel are saved to your files.
+@@ m8xrwr2l0s
+They are only temporary experiments in the browser. Copy what works into your code.
+@@ 1611a0nryl
+`console.table(knights)` shows...
+@@ 19sssflvxxa
+An array of objects as a table
+@@ b9mqxix5hs
+A red error
+@@ 4muj38e23h
+Only the first item
+@@ dn0d25plb1
+Reading error messages
+@@ gohufpf87o
+Errors are clues
+@@ 1vtfji8l48f
+```
+Uncaught TypeError: Cannot read properties of undefined (reading 'name')
+    at showHero (app.js:14:23)
+    at main (app.js:30:3)
+```
+- **TypeError**: the kind of error
+- the message: something was `undefined` when we read `.name`
+- the **stack trace**: where it happened, **app.js line 14**, called from line 30
+@@ ucm2ghn941
+On which line did the error happen?
+@@ e2y47rpcbh
+Unknown
+@@ 173linlmx5h
+The top line of the stack trace is where it actually happened.
+@@ jwofaejb70
+"Cannot read properties of undefined (reading 'name')" means...
+@@ isur62pg1s
+You used .name on something that is undefined
+@@ 28oboenby5y
+The variable name is misspelled in CSS
+@@ 1i0vvkc15u0
+The page has no title
+@@ 16ckw1hh7u
+name is a reserved word
+@@ 6tnqotu8b5
+Using a variable that does not exist
+@@ 15n4dgh12zh
+Wrong kind of value (e.g. calling a non-function)
+@@ 14uh83cz7x6
+Code that cannot be read (missing bracket)
+@@ 6fowu474ol
+404 in Network
+@@ 8u06lbz02u
+The file or endpoint was not found
+@@ 21lhitn3tyq
+The console says "TypeError: knight is undefined" at line 3. Which line is the real cause?
+@@ 1u0th2xmnpz
+The crash is on line 3, but the cause is line 2: `"1"` (text) never equals `1` (number), so `find` returns `undefined`.
+@@ dp1aevilvs
+Breakpoints and strategy
+@@ 68miarxam2
+Pause time
+@@ 23twx9rsgem
+Add a **breakpoint** by clicking a line number in DevTools → Sources, or write `debugger;` in your code. The code pauses there and you can inspect every variable, then **step over** line by line.
+
+A good debugging process:
+1. Reproduce the bug reliably
+2. Read the error and stack trace
+3. Guess the cause
+4. Test **one** change
+5. Repeat
+@@ 1n7u09fvmmj
+Order a good debugging process
+@@ nag6ratleu
+What does the `debugger;` statement do when DevTools is open?
+@@ fbr3xf2d9k
+Pauses the code at that line
+@@ 2dle2qsn5af
+Fixes the bug
+@@ 7wagpbceey
+Deletes the line
+@@ 1599qlrq188
+Prints all variables
+@@ fbv7psjgy9
+A big function is broken and you have no idea where. A classic trick is to...
+@@ 1zxkbg37fc
+Comment out half and see if the bug remains (then repeat)
+@@ 1oa5eterh
+Rewrite everything
+@@ 10305svug2v
+Add random changes
+@@ qnl6oeui6s
+Wait for it to fix itself
+@@ 15luhspa6s3
+Before asking for help, it is good to write down what you tried.
+@@ dtdyr0d5cp
+Bug hunt: spot the mistakes
+@@ 2d3t0w2ou6b
+Bug hunt!
+@@ otl33b1bfp
+Time to use your debugging eyes. Each snippet has **one** broken line. Read carefully, like a code reviewer.
+@@ 98vz3wrn9d
+The loop starts at `1`, so it skips the first price. Arrays start at index `0`.
+@@ wc2hxz3z32
+An 18-year-old is an adult: use `>=`.
+@@ qi3nnxa1al
+Without `e.preventDefault()`, the page reloads and the log disappears.
+@@ xiasbsk6ur
+`res.json()` returns a promise: it needs `await`.
+@@ 16yppd5uddj
+`copy = user` points to the same object. Use `{ ...user }` to make a copy.

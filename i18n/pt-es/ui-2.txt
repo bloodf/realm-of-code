@@ -1,0 +1,1390 @@
+@@ 1b1x4629cef
+Fazer o tour de boas-vindas
+~~
+Hacer el recorrido de bienvenida
+@@ 31dzumbu3h
+Mostrar as dicas das telas de novo
+~~
+Mostrar otra vez los consejos de las pantallas
+@@ 239tqgwl0sj
+Oferecer um tour curto na primeira vez que eu abrir uma tela
+~~
+Ofrecer un recorrido corto la primera vez que abra una pantalla
+@@ 15vdxxay80v
+Perguntas e respostas
+~~
+Preguntas y respuestas
+@@ xgjnc4zk6m
+Nenhuma resposta encontrada. Tente outras palavras ou pergunte à Lumi com o botão da fada.
+~~
+No se encontró respuesta. Prueba con otras palabras o pregúntale a Lumi con el botón del hada.
+@@ 2ffwo9fe5v2
+Entendi!
+~~
+¡Entendido!
+@@ o54cnfr1fb
+Próximo
+~~
+Siguiente
+@@ 25zuw1es8rz
+Pular
+~~
+Saltar
+@@ 1s3bgxbwlkh
+Todos
+~~
+Todos
+@@ u3x4e0wamn
+Mercado
+~~
+Mercado
+@@ 9pcwxivl8a
+Cesta
+~~
+Cesta
+@@ as0i6rkmir
+Toque num canteiro ou num animal
+~~
+Toca un bancal o un animal
+@@ id8a34t5ev
+WASD ou setas para andar · Espaço para plantar, regar, colher, alimentar e recolher · clique num canteiro ou animal
+~~
+WASD o flechas para caminar · Espacio para plantar, regar, cosechar, alimentar y recoger · haz clic en un bancal o un animal
+@@ 232bditxzrr
+Canteiro {n}
+~~
+Bancal {n}
+@@ 19zva5v7qmb
+O mato cresceu aqui enquanto o canteiro estava vazio.
+~~
+Creció maleza aquí mientras el bancal estaba vacío.
+@@ ae2ntt1uau
+Esta planta murchou: ficou madura por tempo demais.
+~~
+Este cultivo se marchitó: estuvo maduro demasiado tiempo.
+@@ 1p0xcsixvby
+Limpar o canteiro
+~~
+Limpiar el bancal
+@@ z0oqlatytp
+Escolha uma semente para plantar:
+~~
+Elige una semilla para plantar:
+@@ 5ri121yuwg
+Você não tem sementes. Compre algumas no mercado.
+~~
+No tienes semillas. Compra algunas en el mercado.
+@@ o2mvv92g3k
+{n} min
+~~
+{n} min
+@@ s5gg4qp3ol
+Comprar sementes
+~~
+Comprar semillas
+@@ kv160zncvn
+Madura! Pode colher.
+~~
+¡Maduro! Coséchalo.
+@@ ozt27afw7o
+Regada
+~~
+Regado
+@@ 1wb4dtdeh8h
+Seca: cresce 3 vezes mais devagar
+~~
+Seco: crece 3 veces más despacio
+@@ vn4x3rpc4t
+faltam uns {n} min
+~~
+faltan unos {n} min
+@@ 21o29v7etuu
+Colher
+~~
+Cosechar
+@@ 24uhc1w9ess
+Regar
+~~
+Regar
+@@ kkcpysutjo
+Volte mais tarde: as plantas continuam crescendo enquanto você estuda.
+~~
+Vuelve más tarde: los cultivos siguen creciendo mientras estudias.
+@@ 10a0gelj0ta
+Comida
+~~
+Comida
+@@ 1wojf5zq7dh
+Alegria
+~~
+Alegría
+@@ 10pdqio54ml
+{n} × {item} pronto para recolher!
+~~
+¡{n} × {item} listo para recoger!
+@@ apl8xankhg
+Produz {item} quando alimentado.
+~~
+Produce {item} cuando come.
+@@ mxuqxsbq7v
+Recolher
+~~
+Recoger
+@@ xd7b6bkh4h
+Alimentar ({food})
+~~
+Alimentar ({food})
+@@ 2au83ojp6jf
+Sem comida
+~~
+Sin comida
+@@ 1j98rocppup
+Fazer carinho
+~~
+Acariciar
+@@ 1gkqnjdylet
+Come: {list}
+~~
+Come: {list}
+@@ 1naddnoao2m
+A barraca da Bess
+~~
+El puesto de Bess
+@@ u723flb6e9
+Você tem {n} de ouro.
+~~
+Tienes {n} de oro.
+@@ 1eiaf4a6ry
+Sementes e feno
+~~
+Semillas y heno
+@@ r3gcmnh69y
+Animais
+~~
+Animales
+@@ 7i94oudokz
+Vender
+~~
+Vender
+@@ 1z3lowl9the
+Terreno
+~~
+Terreno
+@@ 1pzlf8hxzbb
+Sementes de {crop}
+~~
+Semillas de {crop}
+@@ 2gnm3jn7ni0
+{n} min · vende por {p}
+~~
+{n} min · se vende por {p}
+@@ hf26qh3lnk
+Feno ×5
+~~
+Heno ×5
+@@ 29r254tekiu
+Comida para os animais
+~~
+Comida para los animales
+@@ 1g3kqhe6o3z
+você tem {n}
+~~
+tienes {n}
+@@ 2c63acipfxc
+Seu cercado tem espaço para {n} animais ({have} agora).
+~~
+Tu corral tiene sitio para {n} animales ({have} ahora).
+@@ tn2nyy634w
+Nada para vender ainda. Colha plantações e recolha ovos, leite e lã.
+~~
+Nada que vender todavía. Cosecha cultivos y recoge huevos, leche y lana.
+@@ 12d4s4dyh23
+{p} de ouro cada
+~~
+{p} de oro cada uno
+@@ 1ii73jxe4h1
+Vender 1
+~~
+Vender 1
+@@ woqcbybeyw
+Dica: guarde um pouco de comida para seus pets e animais!
+~~
+Consejo: ¡guarda algo de comida para tus mascotas y animales!
+@@ 7v39c0emla
+Você tem {n} de 12 canteiros.
+~~
+Tienes {n} de 12 bancales.
+@@ 154quloqgpd
+Comprar um canteiro · {p} de ouro
+~~
+Comprar un bancal · {p} de oro
+@@ luraacsk09
+Sua horta já está do tamanho máximo!
+~~
+¡Tu huerto ya tiene el tamaño máximo!
+@@ oa9lxw59bo
+Vazia. Compre sementes no mercado para começar sua horta.
+~~
+Vacía. Compra semillas en el mercado para empezar tu huerto.
+@@ 1xc96bgytnr
+Barraca do mercado
+~~
+Puesto del mercado
+@@ 2xw4wpeq1v
+Para a vila
+~~
+A la aldea
+@@ 2e3flmlh6fe
+Você
+~~
+Tú
+@@ 1yzkfm34ql3
+Ótimo trabalho!
+~~
+¡Buen trabajo!
+@@ 1vi2lub5jkg
+Excelente!
+~~
+¡Excelente!
+@@ 10qb39x08px
+Muito bem!
+~~
+¡Muy bien!
+@@ xbot7itm6x
+Correto!
+~~
+¡Correcto!
+@@ 1ks9olkqj2r
+Belo feitiço!
+~~
+¡Buen hechizo!
+@@ 1l3sd870ycs
+Esplêndido!
+~~
+¡Espléndido!
+@@ 1ltqsp1rew5
+Viva!
+~~
+¡Hurra!
+@@ ds27st1brn
+Verdadeiro ou falso? Toque em um
+~~
+¿Verdadero o falso? Toca uno
+@@ e5nwbehy9s
+Leia o código e toque no que ele imprime
+~~
+Lee el código y toca lo que imprime
+@@ qg3i1cln46
+Toque na resposta certa
+~~
+Toca la respuesta correcta
+@@ 19541upcne5
+Toque nas peças para preencher as lacunas brilhantes
+~~
+Toca las fichas para llenar los huecos que brillan
+@@ 1rz8m2eoei3
+Toque na peça que preenche a lacuna
+~~
+Toca la ficha que llena el hueco
+@@ 1zki1p5ub56
+Toque nas peças na ordem certa
+~~
+Toca las piezas en el orden correcto
+@@ 29v56ibj93i
+Ligue cada item ao seu par: arraste uma corda ou toque nos dois
+~~
+Une cada elemento con su pareja: arrastra una cuerda o toca los dos
+@@ 27nkhobsmtd
+Toque num item da esquerda e depois no seu par à direita
+~~
+Toca un elemento de la izquierda y luego su pareja de la derecha
+@@ 1anmbw95wl5
+Digite sua resposta e aperte Verificar
+~~
+Escribe tu respuesta y pulsa Comprobar
+@@ 2dvdchd5dj6
+Toque na linha com o bug
+~~
+Toca la línea con el bug
+@@ reqo583akf
+Voltar à trilha
+~~
+Volver a la ruta
+@@ 15oqnc4a383
+{0} seguidas!
+~~
+¡{0} seguidas!
+@@ b5ovihnavc
+ERRO ANTERIOR
+~~
+ERROR ANTERIOR
+@@ 1tzuts4j4ud
+AQUECIMENTO: VOCÊ ERROU ESTA ANTES
+~~
+CALENTAMIENTO: ESTA LA FALLASTE ANTES
+@@ 1jjfuhztc9d
+Não se preocupe! Vamos ler isso mais uma vez.
+~~
+¡No te preocupes! Leámoslo una vez más.
+@@ jfgi98349
+Preste atenção, aventureiro! Aqui vai algo novo.
+~~
+¡Atención, aventurero! Aquí hay algo nuevo.
+@@ 92uio6m2d7
+Mostrar solução
+~~
+Mostrar solución
+@@ 1fqjptcd8w0
+Encontre todos os pares
+~~
+Encuentra todas las parejas
+@@ 19cedqkwmso
+Não exatamente
+~~
+No del todo
+@@ 1jp8mzikbf4
+Resposta certa: 
+~~
+Respuesta correcta: 
+@@ 1inbnsnr4lr
+Ler mais
+~~
+Leer más
+@@ 20jw1tnr89r
+Tentar de novo · {0}
+~~
+Reintentar · {0}
+@@ 1gor7ehvx0l
+Ainda não. Continue digitando comandos até alcançar o objetivo.
+~~
+Todavía no. Sigue escribiendo comandos hasta alcanzar el objetivo.
+@@ 1mb1s2x7gb4
+Ainda não! Leia os resultados, corrija seu código e tente de novo.
+~~
+¡Todavía no! Lee los resultados, corrige tu código e inténtalo otra vez.
+@@ eyduo6qk3o
+Vamos ver isso de novo. Sua próxima lâmpada é grátis!
+~~
+Veamos esto otra vez. ¡Tu próxima bombilla es gratis!
+@@ 15w0d8pzowh
+Travou? Toque na lâmpada lá embaixo (ou aperte H) para uma dica.
+~~
+¿Atascado? Toca la bombilla de abajo (o pulsa H) para una pista.
+@@ 3xffeu6khs
+Acabaram as lâmpadas. Vença minijogos na trilha para ganhar mais!
+~~
+No quedan bombillas. ¡Gana minijuegos en la ruta para conseguir más!
+@@ 23dh2gx3r4z
+A tocha ilumina o caminho: tente de novo, sem prejuízo.
+~~
+La antorcha ilumina el camino: inténtalo otra vez, sin perder nada.
+@@ 1z57eyi5dfo
+Fechar
+~~
+Cerrar
+@@ 1h0ve9peovf
+Espere, não vá!
+~~
+¡Espera, no te vayas!
+@@ 7q14zcqxrr
+Você vai perder seu progresso nesta {0}.
+~~
+Perderás tu progreso en esta {0}.
+@@ fk84lzajh9
+Continuar aprendendo
+~~
+Seguir aprendiendo
+@@ 1cnpi0ceep6
+Encerrar sessão
+~~
+Terminar sesión
+@@ 1f35eukj4m0
+Seus corações acabaram
+~~
+Te quedaste sin corazones
+@@ 2aqxhqun5o0
+Os corações voltam com o tempo (um a cada 20 minutos). Beba uma poção, recarregue com ouro ou ganhe de volta praticando.
+~~
+Los corazones vuelven con el tiempo (uno cada 20 minutos). Bebe una poción, recárgalos con oro o recupéralos practicando.
+@@ 19bk2b5zwh8
+Beber uma poção (restam {0})
+~~
+Beber una poción (quedan {0})
+@@ nh5d0kl1lw
+Recarregar por 50 de ouro
+~~
+Recargar por 50 de oro
+@@ ash0uhtrzo
+Praticar para ganhar corações
+~~
+Practicar para ganar corazones
+@@ fsp5p31uh1
+Sair da lição
+~~
+Salir de la lección
+@@ 19fxsaii9k8
+Dica: ative o Modo tranquilo nas Configurações para ter corações ilimitados.
+~~
+Consejo: activa el Modo relajado en Ajustes para tener corazones ilimitados.
+@@ 1o9g3ajk1ic
+Não foi desta vez
+~~
+Esta vez no
+@@ nhd6znxqwd
+Erros demais para pular adiante. Sem problema: as lições vão ensinar o que você precisa, passo a passo.
+~~
+Demasiados errores para saltar adelante. No pasa nada: las lecciones te enseñarán lo que necesitas, paso a paso.
+@@ 1z2mio87tgc
+Tente de novo quando estiver pronto.
+~~
+Inténtalo otra vez cuando estés listo.
+@@ hbazumygch
+Unidade desbloqueada!
+~~
+¡Unidad desbloqueada!
+@@ 2d9mdcshh3r
+Prática concluída!
+~~
+¡Práctica completada!
+@@ r28asq0npn
+Revisão concluída!
+~~
+¡Repaso completado!
+@@ 1vhfe846idp
+Lição concluída!
+~~
+¡Lección completada!
+@@ 16a48drufvw
+XP total
+~~
+XP total
+@@ 3laomdr8hu
+Perfeito!
+~~
+¡Perfecto!
+@@ 18g75doazll
+Precisão
+~~
+Precisión
+@@ 265mpo913mw
+Ouro
+~~
+Oro
+@@ hwvz22coic
+**A Lumi adicionou uma parada de revisão à sua trilha.** Uma recapitulação curta desta lição antes da próxima. Revisões nunca custam corações.
+~~
+**Lumi añadió una parada de repaso a tu ruta.** Un repaso corto de esta lección antes de la siguiente. Los repasos nunca cuestan corazones.
+@@ pprejp11c4
+**O caminho à frente está aberto de novo!**
+~~
+**¡El camino vuelve a estar abierto!**
+@@ lyvln37qy2
+**Sequência de {0} dias!**
+~~
+**¡Racha de {0} días!**
+@@ 2d7x76zt33x
+**Meta diária alcançada!**
+~~
+**¡Meta diaria alcanzada!**
+@@ 15p7g3280ju
+**Subiu de nível!** Agora você está no nível {0}.
+~~
+**¡Subiste de nivel!** Ahora estás en el nivel {0}.
+@@ 1ghbywh41ff
+**+1 coração** por praticar
+~~
+**+1 corazón** por practicar
+@@ 14otl2xozt0
+Esta lição não existe.
+~~
+Esta lección no existe.
+@@ 1d39r7co2lb
+Esta lição ainda está bloqueada. Conclua as lições anteriores primeiro.
+~~
+Esta lección sigue bloqueada. Completa antes las lecciones anteriores.
+@@ 1o4go8vk3jw
+A Lumi pede que você conclua sua parada de revisão primeiro. É curta e nunca custa corações.
+~~
+Lumi te pide que completes primero tu parada de repaso. Es corta y nunca cuesta corazones.
+@@ i6fddg8l6
+Começar a revisão
+~~
+Empezar el repaso
+@@ 21dxb6chckm
+{0} dominado
+~~
+{0} dominado
+@@ 27xugdy5z0f
+{0}: trilha concluída
+~~
+{0}: ruta completada
+@@ 1g3tmjlbdum
+Conclua algumas lições primeiro e depois volte para praticá-las.
+~~
+Completa algunas lecciones primero y luego vuelve para practicarlas.
+@@ 11vmvzkdulg
+Prática: {0}
+~~
+Práctica: {0}
+@@ 21g0shmadnb
+Prática mista
+~~
+Práctica mixta
+@@ 250ylbu4g8j
+Nenhum erro para revisar. Impecável!
+~~
+No hay errores que repasar. ¡Impecable!
+@@ 1w68matmakm
+Revisão de erros
+~~
+Repaso de errores
+@@ i5ah39cti9
+Não há revisão aqui.
+~~
+Aquí no hay repaso.
+@@ 1x8g56s2o5j
+Revisão feita!
+~~
+¡Repaso hecho!
+@@ g38uvotp7e
+Revisão: {0}
+~~
+Repaso: {0}
+@@ 23t49ko2944
+Esta unidade não existe.
+~~
+Esta unidad no existe.
+@@ do7wjhd6x
+Você já pode abrir esta unidade.
+~~
+Ya puedes abrir esta unidad.
+@@ 8auj46efvh
+Pular para: {0}
+~~
+Saltar a: {0}
+@@ 167ulp388e7
+Esse exercício não existe.
+~~
+Ese ejercicio no existe.
+@@ 2antxipe7md
+Nada para jogar aqui.
+~~
+Nada que jugar aquí.
+@@ 1fd50xmqh18
+(nenhuma linha)
+~~
+(ninguna fila)
+@@ 1zrrhdlbysv
+… mais {0} linhas · {1} linhas
+~~
+… {0} filas más · {1} filas
+@@ mhdt9ahfnx
+{n} linha
+~~
+{n} fila
+@@ cidc7slm1g
+{n} linhas
+~~
+{n} filas
+@@ 18hy4wrreq9
+Resultado
+~~
+Resultado
+@@ 22u75hmzone
+Tarefa
+~~
+Tarea
+@@ 2e1hxoyo8qu
+Nenhum erro de tipo
+~~
+Ningún error de tipos
+@@ 9azfls1e6x
+PROJETO
+~~
+PROYECTO
+@@ 2dk27x8bpo0
+DESAFIO DE PROGRAMAÇÃO
+~~
+DESAFÍO DE PROGRAMACIÓN
+@@ ploafa4m7d
+Sua tarefa
+~~
+Tu tarea
+@@ 2d57tkgjtx1
+Objetivos
+~~
+Objetivos
+@@ 1vjrdvaijv5
+Não há mais dicas.
+~~
+No hay más pistas.
+@@ 22cug9o15ov
+Esconder as Notas do Sábio
+~~
+Ocultar las Notas del Sabio
+@@ h08nrwe2n1
+Notas do Sábio (indo mais fundo)
+~~
+Notas del Sabio (para profundizar)
+@@ quughxafn7
+Ctrl+Enter roda seu código
+~~
+Ctrl+Enter ejecuta tu código
+@@ 1deknw8bj6t
+Prévia
+~~
+Vista previa
+@@ 1s9oant9buz
+Nada impresso ainda.
+~~
+Todavía no se imprimió nada.
+@@ 26xpbpf3u5
+Gema, goblin, chave, porta, árvore, portão: chegue ao portão!
+~~
+Gema, goblin, llave, puerta, árbol, portón: ¡llega al portón!
+@@ 2g43x26rxea
+Carregando o compilador de TypeScript… (só na primeira vez)
+~~
+Cargando el compilador de TypeScript… (solo la primera vez)
+@@ 28jd4f3h1ap
+Carregando {lang}… (cerca de 12 MB, só na primeira vez)
+~~
+Cargando {lang}… (unos 12 MB, solo la primera vez)
+@@ 8u07wfugbs
+Rode seu código para ver a saída aqui.
+~~
+Ejecuta tu código para ver la salida aquí.
+@@ kdt47wl241
+Nada foi impresso.
+~~
+No se imprimió nada.
+@@ d1zyfxac1
+**Quase!** Seu código rodou sem erros, mas alguns objetivos ainda não foram cumpridos.
+~~
+**¡Casi!** Tu código se ejecutó sin errores, pero algunos objetivos aún no están hechos.
+@@ 6ygdykmqm5
+Loop infinito!
+~~
+¡Bucle infinito!
+@@ 1nixc7hafmd
+ na linha {0}
+~~
+ en la línea {0}
+@@ dx01a3mmwh
+**Erro de tipo** na linha {0}: {1}
+~~
+**Error de tipos** en la línea {0}: {1}
+@@ 81ujef34bb
+**A Lumi diz:** {0}
+~~
+**Lumi dice:** {0}
+@@ adfd7her5g
+Linhas
+~~
+Filas
+@@ 16lvv3t84fs
+DESAFIO DE SQL
+~~
+DESAFÍO DE SQL
+@@ ndn6lwxmtj
+Dica
+~~
+Pista
+@@ kw1whrtvl6
+O arquivo (tabelas)
+~~
+El archivo (tablas)
+@@ 2gljfap06zk
+Abrindo o arquivo…
+~~
+Abriendo el archivo…
+@@ s5xwk6pstv
+Ctrl+Enter roda sua consulta
+~~
+Ctrl+Enter ejecuta tu consulta
+@@ 1nptr0xu1t1
+Rode sua consulta para ver as linhas que ela retorna.
+~~
+Ejecuta tu consulta para ver las filas que devuelve.
+@@ i2d5mk8ev9
+**Erro de SQL:** {0}
+~~
+**Error de SQL:** {0}
+@@ aowftljmsr
+Não exatamente. O resultado esperado é assim:
+~~
+No del todo. El resultado esperado es este:
+@@ 1vme5w2jzc4
+Bem-vindo ao terminal do reino. Digite comandos e aperte Enter. Experimente: help
+~~
+Bienvenido a la terminal del reino. Escribe comandos y pulsa Enter. Prueba: help
+@@ cbl7avsb4
+DESAFIO DE TERMINAL
+~~
+DESAFÍO DE TERMINAL
+@@ immw821ikl
+A Lumi sussurra: tente estes comandos:
+  {0}
+~~
+Lumi susurra: prueba estos comandos:
+  {0}
+@@ 1yppfxm89m6
+Objetivo alcançado!
+~~
+¡Objetivo alcanzado!
+@@ 1zak2u6ponv
+RELEMBRANDO
+~~
+REPASO
+@@ 1qib12izvxb
+CONCEITO NOVO
+~~
+CONCEPTO NUEVO
+@@ 22otkgp700g
+toque numa peça abaixo
+~~
+toca una pieza de abajo
+@@ 1dgxvmbn9tp
+Digite sua resposta
+~~
+Escribe tu respuesta
+@@ o5uit5nmix
+MUDAR
+~~
+CAMBIAR
+@@ blorhnl0st
+Uma parada de revisão está esperando
+~~
+Te espera una parada de repaso
+@@ 20hfnkh8lx
+Seu ritmo: {0}
+~~
+Tu ritmo: {0}
+@@ xplf1vozvh
+A última lição foi difícil, então a Lumi adicionou uma revisão curta à sua trilha. Conclua-a para abrir a próxima lição. Ela nunca custa corações.
+~~
+La última lección fue difícil, así que Lumi añadió un repaso corto a tu ruta. Complétalo para abrir la siguiente lección. Nunca cuesta corazones.
+@@ 9yokkmgcw4
+{n} parada de revisão adicionada
+~~
+{n} parada de repaso añadida
+@@ 14g22ffb4i2
+{n} paradas de revisão adicionadas
+~~
+{n} paradas de repaso añadidas
+@@ 25m090hht5b
+{n} estrela de jogo
+~~
+{n} estrella de juego
+@@ zhztiegm7d
+{n} estrelas de jogo
+~~
+{n} estrellas de juego
+@@ 13c32qhd060
+Revisão
+~~
+Repaso
+@@ 1hpropwwalj
+Seção {n} de {total}
+~~
+Sección {n} de {total}
+@@ zv4bg9wd3w
+UNIDADE {0}
+~~
+UNIDAD {0}
+@@ 2ecg8pbeacf
+Guia
+~~
+Guía
+@@ 1y8ahept57a
+Pular para cá
+~~
+Saltar aquí
+@@ kunnqze5gh
+Você concluiu os fundamentos!
+~~
+¡Completaste los fundamentos!
+@@ 1l4yjrfitg9
+Trilha concluída: {0}
+~~
+Ruta completada: {0}
+@@ hb4dzvn99a
+Escolher minha trilha
+~~
+Elegir mi ruta
+@@ 18ko7qah3hs
+Começar outra trilha
+~~
+Empezar otra ruta
+@@ 1x0hk0e56x3
+Próximo: {0}
+~~
+Siguiente: {0}
+@@ dxg45mebvs
+Projeto
+~~
+Proyecto
+@@ 9uecauirde
+Desafio de programação
+~~
+Desafío de programación
+@@ dkiakz8p7j
+Lição {0} de {1}
+~~
+Lección {0} de {1}
+@@ 1qcxn3iboac
+Conclua as paradas anteriores para desbloquear esta.
+~~
+Completa las paradas anteriores para desbloquear esta.
+@@ 1fz574m0mh7
+Praticar de novo +{0} XP
+~~
+Practicar otra vez +{0} XP
+@@ 37fj7ozpx7
+Começar +{0} XP
+~~
+Empezar +{0} XP
+@@ a9ptwpf1li
+COMEÇAR
+~~
+EMPEZAR
+@@ np31ek3rw6
+CONTINUAR
+~~
+CONTINUAR
+@@ 1fgp3g3tk1x
+Parada de revisão
+~~
+Parada de repaso
+@@ nhedk3gmwv
+Revisada
+~~
+Repasada
+@@ 1t0mq1eg6xf
+Adicionada porque aquela lição foi difícil
+~~
+Añadida porque esa lección fue difícil
+@@ gl1s5xtvcg
+Uma recapitulação curta: as ideias principais de novo e as perguntas que você errou. Revisões nunca custam corações.
+~~
+Un repaso corto: las ideas clave otra vez y las preguntas que fallaste. Los repasos nunca cuestan corazones.
+@@ 28ecoixpfzo
+Começar revisão
+~~
+Empezar repaso
+@@ xwlthoc89y
+REVISÃO
+~~
+REPASO
+@@ 1z5bfkj32ew
+Minijogo · ganha lâmpadas, tochas e poções
+~~
+Minijuego · gana bombillas, antorchas y pociones
+@@ 1yh43prgrw9
+Conclua as lições anteriores para desbloquear este jogo.
+~~
+Completa las lecciones anteriores para desbloquear este juego.
+@@ 11c29m9hqdk
+Jogue de novo para mais estrelas
+~~
+Juega otra vez para más estrellas
+@@ bo5p4it8ln
+Atalho
+~~
+Atajo
+@@ rgxrhre9qa
+Você está mandando bem!
+~~
+¡Vas muy bien!
+@@ 6fb3nl6ys0
+Faça um teste curto sobre o resto desta unidade e pule direto para a próxima.
+~~
+Haz una prueba corta sobre el resto de esta unidad y salta directamente a la siguiente.
+@@ l5yy2b8pw4
+Fazer o teste
+~~
+Hacer la prueba
+@@ 137i9g4kxt9
+Bloqueado
+~~
+Bloqueado
+@@ aj1ftfae0r
+GUIA DE ESTUDO
+~~
+GUÍA DE ESTUDIO
+@@ 2g6568pba64
+Entendi
+~~
+Entendido
+@@ kqqmn6vk1w
+Meta diária
+~~
+Meta diaria
+@@ 13dowe7fiev
+Meta alcançada! A Lumi está dançando.
+~~
+¡Meta alcanzada! Lumi está bailando.
+@@ 1ygue51v4ag
+Ganhe mais {0} XP hoje.
+~~
+Gana {0} XP más hoy.
+@@ 254ejh69lo7
+VER TUDO
+~~
+VER TODO
+@@ 26mtcyig9d9
+Portão dos Monstros
+~~
+Puerta de los Monstruos
+@@ 1hhq4puidx
+Além deste portão vivem monstros feitos de bugs. Sua arma é o que você aprende: responda perguntas para atacar e digite palavras de código para lançar feitiços. Os dragões vivem no pico. Eles não são nossos amigos!
+~~
+Más allá de esta puerta viven monstruos hechos de bugs. Tu arma es lo que aprendes: responde preguntas para atacar y escribe palabras de código para lanzar hechizos. Los dragones viven en la cima. ¡No son nuestros amigos!
+@@ 24oq2lmauus
+Sir Gareth · Capitão do Portão
+~~
+Sir Gareth · Capitán de la Puerta
+@@ 1nqwi9a0q0
+{name} · Nível {lv}
+~~
+{name} · Nivel {lv}
+@@ 188yc9q1bu4
+Vida {hp} · Ataque {atk} · Poções {p} · Batalhas vencidas {w}
+~~
+Vida {hp} · Ataque {atk} · Pociones {p} · Batallas ganadas {w}
+@@ 1lmu37h6o3y
+{n} monstros entraram na vila enquanto você estava fora! Encontre-os e aperte Espaço perto deles.
+~~
+¡{n} monstruos entraron en la aldea mientras no estabas! Encuéntralos y pulsa Espacio junto a ellos.
+@@ 1rs9hai09m
+Regiões
+~~
+Regiones
+@@ 2ee0wrvu8o2
+Chefe derrotado ×{n}
+~~
+Jefe derrotado ×{n}
+@@ 140zfltijvo
+Abre depois de {n} lições ({have} feitas).
+~~
+Se abre tras {n} lecciones ({have} hechas).
+@@ 233qlk67hq6
+Lutar
+~~
+Luchar
+@@ 2egsqdgnx43
+Luta contra o chefe
+~~
+Pelea contra el jefe
+@@ m5qiuyveel
+A prova final da sua trilha: perguntas sobre tudo o que você aprendeu. Vença para ganhar o título de Desenvolvedor Júnior.
+~~
+El examen final de tu ruta: preguntas sobre todo lo que aprendiste. Gánalo para obtener el rango de Desarrollador Júnior.
+@@ 137hvzsi43e
+{path}: {pct}% feito · precisa de {need}%
+~~
+{path}: {pct}% hecho · necesita {need}%
+@@ 235vesa16zs
+Enfrentar a prova
+~~
+Afrontar la prueba
+@@ 2a6fwftc68n
+agora mesmo
+~~
+ahora mismo
+@@ 1tl4828200n
+há {n} minuto
+~~
+hace {n} minuto
+@@ 26stf4wx24e
+há {n} minutos
+~~
+hace {n} minutos
+@@ m6uym1ml6d
+há {n} hora
+~~
+hace {n} hora
+@@ 4eogge6vne
+há {n} horas
+~~
+hace {n} horas
+@@ 1vng0ug4fjl
+há {n} dia
+~~
+hace {n} día
+@@ e2nlwjv61x
+há {n} dias
+~~
+hace {n} días
+@@ b0kzlv64b2
+Correio dos Corvos
+~~
+Correo de Cuervos
+@@ 185irprncz3
+Os corvos trazem notícias de todo o reino: pets, ovos, plantações, missões e lembretes.
+~~
+Los cuervos traen noticias de todo el reino: mascotas, huevos, cultivos, misiones y recordatorios.
+@@ 1nfqdw20e47
+Quer lembretes mesmo quando o jogo estiver em segundo plano?
+~~
+¿Quieres recordatorios aunque el juego esté en segundo plano?
+@@ 1szo4wvkawl
+Ativar
+~~
+Activar
+@@ 1iwlzhdpntr
+Nenhuma mensagem ainda.
+~~
+Todavía no hay mensajes.
+@@ outy3k44nk
+Ir
+~~
+Ir
+@@ 2ayjl9e8oz7
+Bem-vindo de volta, {name}!
+~~
+¡Bienvenido de nuevo, {name}!
+@@ 1e0pmnohl5u
+Você ficou fora por {n} dia.
+~~
+Estuviste fuera {n} día.
+@@ 129ub77y0b9
+Você ficou fora por {n} dias.
+~~
+Estuviste fuera {n} días.
+@@ 1ewddxe330d
+Que bom ver você de novo.
+~~
+Qué bueno verte otra vez.
+@@ 23t2wdnm43e
+Enquanto você estava fora
+~~
+Mientras no estabas
+@@ 2bc98tvwcnr
+Sua sequência apagou. Comece uma nova hoje: uma lição basta.
+~~
+Tu racha se apagó. Empieza una nueva hoy: basta con una lección.
+@@ 13iw9e5zwmw
+Aprender
+~~
+Aprender
+@@ 1i21hpmx1qp
+{names} sentiram sua falta e precisam de comida e brincadeira.
+~~
+{names} te extrañaron y necesitan comida y juego.
+@@ 4vx26iw80x
+{n} planta está madura na sua horta.
+~~
+{n} cultivo está maduro en tu huerto.
+@@ 22j7aysqrd9
+{n} plantas estão maduras na sua horta.
+~~
+{n} cultivos están maduros en tu huerto.
+@@ vgtjmrbhm4
+Horta
+~~
+Huerto
+@@ 2l1cby3hkr
+{n} planta murchou.
+~~
+{n} cultivo se marchitó.
+@@ 20w54ua42j0
+{n} plantas murcharam.
+~~
+{n} cultivos se marchitaron.
+@@ 1pwrhirl8jq
+{n} animal tem algo para você.
+~~
+{n} animal tiene algo para ti.
+@@ bc215fe1rq
+{n} animais têm algo para você.
+~~
+{n} animales tienen algo para ti.
+@@ ay78z9pdsl
+Celeiro
+~~
+Granero
+@@ wx3z49tjkj
+{n} monstro entrou na vila.
+~~
+{n} monstruo entró en la aldea.
+@@ 12w3jtrff56
+{n} monstros entraram na vila.
+~~
+{n} monstruos entraron en la aldea.
+@@ 20554t135ke
+Expulsar
+~~
+Expulsar
+@@ 1u8ob2giuzj
+Mato e tristeza tomaram conta da vila. Cada lição que você conclui limpa um pouco, e uma vila limpa dá um bônus de retorno!
+~~
+La maleza y la tristeza cubrieron la aldea. Cada lección que completas la limpia, ¡y una aldea limpia da un bono de regreso!
+@@ 290qeu6z979
+Está tudo calmo e pronto para você.
+~~
+Todo está en calma y listo para ti.
+@@ 285s7h4ypoa
+Começar uma lição de retorno
+~~
+Empezar una lección de regreso
+@@ a9hmmf46qe
+Santuário dos Pets
+~~
+Santuario de Mascotas
+@@ 12hqccv1o6n
+Os ovos chocam enquanto você aprende: cada XP que você ganha os aquece. Os pets seguem você pela vila, e um pet feliz dá XP de bônus. Lembre-se de alimentá-los!
+~~
+Los huevos eclosionan mientras aprendes: cada XP que ganas los calienta. Las mascotas te siguen por la aldea, y una mascota feliz te da XP extra. ¡Acuérdate de alimentarlas!
+@@ 1mvflre8q3v
+Nenhum ovo agora. Vença batalhas, conclua missões ou compre um abaixo.
+~~
+Ningún huevo ahora. Gana batallas, completa misiones o compra uno abajo.
+@@ 156gg3iyf4x
+Pronto para chocar!
+~~
+¡Listo para eclosionar!
+@@ 1d2j6qgxy6p
+Chocar!
+~~
+¡Eclosionar!
+@@ 1htzgkod7mu
+Seus pets
+~~
+Tus mascotas
+@@ 25d5lace621
+Choque um ovo para ganhar seu primeiro pet.
+~~
+Eclosiona un huevo para conseguir tu primera mascota.
+@@ msaonho00
+Brilhante
+~~
+Brillante
+@@ 27pqm3rg6ae
+Nível
+~~
+Nivel
+@@ kqjdd8wb64
+Seguindo
+~~
+Siguiéndote
+@@ 26bz4et7re3
+Siga-me
+~~
+Sígueme
+@@ m01rqb7zlk
+Alimentar
+~~
+Alimentar
+@@ 11z1x0tf8px
+Brincar
+~~
+Jugar
+@@ 1z0stx5nz0h
+Renomear
+~~
+Renombrar
+@@ 1ov9kbs939f
+Petdex
+~~
+Petdex
+@@ icxmu0b0u
+Todo pet pode nascer brilhante (1 em 20): o mesmo amigo, com cores raras.
+~~
+Cualquier mascota puede nacer brillante (1 de cada 20): el mismo amigo, con colores raros.
+@@ 23fe9namj93
+Loja de ovos
+~~
+Tienda de huevos
+@@ b45a9jjoxp
+Ovo {r}
+~~
+Huevo {r}
+@@ 18jyc8pcvyv
+Ovos ultra raros não podem ser comprados: derrote chefes no Portão dos Monstros para encontrá-los.
+~~
+Los huevos ultra raros no se pueden comprar: derrota jefes en la Puerta de los Monstruos para encontrarlos.
+@@ i3138fvly6
+BRILHANTE!
+~~
+¡BRILLANTE!
+@@ pvvdcb7v6y
+Diga olá!
+~~
+¡Saluda!
+@@ 2f07lpqup0t
+Alimentar {name}
+~~
+Alimentar a {name}
+@@ l1emhjrdjx
+Você não tem comida. Plante legumes ou recolha ovos e leite no seu sítio.
+~~
+No tienes comida. Cultiva verduras o recoge huevos y leche en tu rancho.
+@@ cl1b271zv6
+♥ = comida favorita: mais alegria.
+~~
+♥ = comida favorita: más alegría.
+@@ 1x3l8w01ikn
+Um novo nome para seu pet
+~~
+Un nombre nuevo para tu mascota
+@@ 1zsap8x3yrr
+Salvar
+~~
+Guardar
+@@ 1bm5zscauco
+Cancelar
+~~
+Cancelar
+@@ 2bxjdid1ldz
+Bem-vindo à taverna! Pratique lições antigas (cada sessão dá um coração), jogue para encher sua bolsa e visite o mercador.
+~~
+¡Bienvenido a la taberna! Practica lecciones antiguas (cada sesión da un corazón), juega para llenar tu bolsa y visita al mercader.
+@@ 1dczqmdvwby
+Rolf · Taverneiro
+~~
+Rolf · Tabernero
+@@ 1r5v10armpv
+Sua bolsa
+~~
+Tu bolsa
+@@ 29n2l1izm5t
+{n} exercício que você errou antes
+~~
+{n} ejercicio que fallaste antes
+@@ 1lty55ul1m0
+{n} exercícios que você errou antes
+~~
+{n} ejercicios que fallaste antes
+@@ 27uegasif18
+Nenhum erro para revisar ainda.
+~~
+Todavía no hay errores que repasar.
+@@ rxvl70a5w9
+10 exercícios rápidos de tudo o que você aprendeu.
+~~
+10 ejercicios rápidos de todo lo que aprendiste.
+@@ ljo65klo8g
+Jogos da taverna
+~~
+Juegos de la taberna
+@@ wqu0hfx6gu
+"Falta luz? Vendo as melhores lâmpadas, tochas e poções do reino." Você tem **{0} de ouro**.
+~~
+"¿Te falta luz? Vendo las mejores bombillas, antorchas y pociones del reino." Tienes **{0} de oro**.
+@@ xuv0n7wuf7
+Praticar uma habilidade
+~~
+Practicar una habilidad
+@@ 1q6y3ayq4ew
+Conclua sua primeira lição e suas habilidades vão aparecer aqui.
+~~
+Completa tu primera lección y tus habilidades aparecerán aquí.
+@@ 27lhz3rp72m
+Precisa praticar
+~~
+Necesita práctica
+@@ c9i3wnlq75
+Fresca
+~~
+Fresca
+@@ 24sc25qxork
+Praticar
+~~
+Practicar
+@@ pdp4ev3noh
+Bem-vindo a Greenhollow! Cada campo é um quebra-cabeça: escreva um programa e seu fazendeiro o executa. Começamos com blocos que você arrasta e solta. Depois você vai digitar JavaScript de verdade.
+~~
+¡Bienvenido a Greenhollow! Cada campo es un rompecabezas: escribe un programa y tu granjero lo ejecuta. Empezamos con bloques que arrastras y sueltas. Más adelante escribirás JavaScript de verdad.
+@@ 1oedht0n856
+Bess · Fazendeira de Greenhollow
+~~
+Bess · Granjera de Greenhollow
+@@ vwisxo5h1r
+{0} / {1} estrelas
+~~
+{0} / {1} estrellas
+@@ top0jcoecf
+Começar a plantar
+~~
+Empezar a cultivar
+@@ 1vwfklmvhm2
+CAPÍTULO {0}
+~~
+CAPÍTULO {0}
+@@ 1761svpejcr
+Salão da Guilda
+~~
+Salón del Gremio
+@@ e5gkhjf8m0
+A guilda publica três missões novas todo dia. Conclua-as e um baú do tesouro é seu.
+~~
+El gremio publica tres misiones nuevas cada día. Complétalas y un cofre del tesoro será tuyo.
+@@ 10j2sfvw0yr
+Aldric · Mestre da Guilda
+~~
+Aldric · Maestro del Gremio
+@@ 9lpvqn40sj
+RESGATADO
+~~
+RECOGIDO
+@@ 1ao75llp044
+Abrir +{0}
+~~
+Abrir +{0}
+@@ 1f2t3au4hom
+Conclua uma lição todo dia. Recorde: {0} dias. Protetores de sequência: {1}/2 (um protetor salva sua sequência se você perder um dia).
+~~
+Completa una lección cada día. Récord: {0} días. Protectores de racha: {1}/2 (un protector salva tu racha si te saltas un día).
+@@ 142w5e52g4j
+Sequência de {0} dias
+~~
+Racha de {0} días
+@@ 4vj15a5nsm
+Protetor · 100
+~~
+Protector · 100
+@@ 1pkbarblqq8
+Torre da Biblioteca
+~~
+Torre de la Biblioteca
+@@ 27tij7wuz5q
+Cada lição afia uma habilidade. Mantenha as barras de frescor cheias praticando e veja sua prontidão para o emprego crescer.
+~~
+Cada lección afila una habilidad. Mantén llenas las barras de frescura practicando y mira cómo crece tu preparación laboral.
+@@ 6vqhcmp22c
+Bram · Ferreiro de Runas
+~~
+Bram · Herrero de Runas
+@@ 14fsxh18ugu
+PRONTIDÃO PARA O EMPREGO
+~~
+PREPARACIÓN LABORAL
+@@ 1ffq497vzuq
+{0}% da trilha · {1}/{2} lições
+~~
+{0}% de la ruta · {1}/{2} lecciones
+@@ 1vpbogjsd1c
+Nível {0}
+~~
+Nivel {0}
+@@ 14p9eovhp3t
+{0} XP · {1}/{2} lições
+~~
+{0} XP · {1}/{2} lecciones
+@@ 13acrbaz5eg
+Habilidades técnicas
+~~
+Habilidades técnicas
+@@ 1quz2uobmik
+Linguagens e frameworks. Cada lição dá XP à sua habilidade. As barrinhas mostram o frescor: pratique para mantê-las cheias.
+~~
+Lenguajes y frameworks. Cada lección da XP a su habilidad. Las barritas muestran la frescura: practica para mantenerlas llenas.
+@@ utby8bpvbu
+Habilidades de processo
+~~
+Habilidades de proceso
+@@ 1rzf6ilk79c
+Como os desenvolvedores trabalham: a web, ferramentas, Git, APIs, testes, qualidade e conseguir um emprego.
+~~
+Cómo trabajan los desarrolladores: la web, herramientas, Git, APIs, pruebas, calidad y conseguir trabajo.

@@ -1,0 +1,1152 @@
+@@ 4se0wuz8yd
+Fundamentos da Web
+~~
+Fundamentos de la Web
+@@ 2cid8a69a1e
+O Portão da Vila
+~~
+La Puerta de la Aldea
+@@ eukhkt1pd6
+Como a internet e os sites funcionam, e como os programadores pensam.
+~~
+Cómo funcionan internet y los sitios web, y cómo piensan los programadores.
+@@ 10hrrxvi3sa
+Como a Web Funciona
+~~
+Cómo Funciona la Web
+@@ 1h1f8woado6
+Navegadores, servidores, endereços e as três linguagens da web.
+~~
+Navegadores, servidores, direcciones y los tres lenguajes de la web.
+@@ 27yotgmjkpj
+
+**Ideias principais**
+- Um **navegador** (Chrome, Firefox, Safari, Edge) mostra páginas web.
+- Um **servidor** é um computador que envia páginas quando um navegador pede.
+- Uma **URL** é um endereço: `https://realm.dev/quests?level=2` = protocolo + domínio + caminho + consulta.
+- Navegadores e servidores conversam com **HTTP**: o navegador envia uma *requisição* e o servidor envia uma *resposta* com um *código de status* (200 OK, 404 Not Found, 500 Server Error).
+- **HTML** monta a estrutura, **CSS** dá o estilo, **JavaScript** dá o comportamento.
+- O **front end** roda no navegador; o **back end** roda no servidor (bancos de dados, logins, pagamentos).
+~~
+
+**Ideas clave**
+- Un **navegador** (Chrome, Firefox, Safari, Edge) muestra páginas web.
+- Un **servidor** es un ordenador que envía páginas cuando un navegador las pide.
+- Una **URL** es una dirección: `https://realm.dev/quests?level=2` = protocolo + dominio + ruta + consulta.
+- Navegadores y servidores hablan con **HTTP**: el navegador envía una *petición* y el servidor envía una *respuesta* con un *código de estado* (200 OK, 404 Not Found, 500 Server Error).
+- **HTML** construye la estructura, **CSS** añade el estilo, **JavaScript** añade el comportamiento.
+- El **front end** se ejecuta en el navegador; el **back end** se ejecuta en el servidor (bases de datos, inicios de sesión, pagos).
+@@ sg7z8apvjr
+Navegadores e servidores
+~~
+Navegadores y servidores
+@@ 15g55lrfpuf
+A web é uma conversa
+~~
+La web es una conversación
+@@ 1pub9717qt6
+Quando você abre um site, seu **navegador** (o aplicativo que você usa para visitar sites) pede a página a outro computador, chamado **servidor**.
+
+O servidor responde enviando arquivos de volta, e seu navegador desenha a página na sua tela.
+~~
+Cuando abres un sitio web, tu **navegador** (la aplicación que usas para visitar sitios) le pide la página a otro ordenador, llamado **servidor**.
+
+El servidor responde enviando archivos, y tu navegador dibuja la página en tu pantalla.
+@@ 1x7hg2hfoll
+O que é um navegador?
+~~
+¿Qué es un navegador?
+@@ bwio6g4bm4
+Um programa que mostra páginas web
+~~
+Un programa que muestra páginas web
+@@ 1adbo2sbqyy
+Um computador que guarda sites
+~~
+Un ordenador que guarda sitios web
+@@ 1pq3sylzivl
+Um tipo de cabo
+~~
+Un tipo de cable
+@@ lhc5dwf3fs
+Uma linguagem de programação
+~~
+Un lenguaje de programación
+@@ 17y3pljroa7
+Qual destes é um navegador?
+~~
+¿Cuál de estos es un navegador?
+@@ 2ehrepjf5np
+Firefox
+~~
+Firefox
+@@ 1vqeis2nay1
+Google Search
+~~
+Google Search
+@@ 1wog2kqalgo
+A Pesquisa Google é um *site*. O Chrome é o navegador do Google.
+~~
+La Búsqueda de Google es un *sitio web*. Chrome es el navegador de Google.
+@@ moz8qw1izx
+Um servidor é um computador que envia sites para outros computadores quando eles pedem.
+~~
+Un servidor es un ordenador que envía sitios web a otros ordenadores cuando se los piden.
+@@ 85f6sb4md3
+Ligue cada palavra ao seu significado
+~~
+Une cada palabra con su significado
+@@ 6h7nuel3bw
+Navegador
+~~
+Navegador
+@@ 13nqi8ovf9y
+Mostra páginas para você
+~~
+Te muestra páginas
+@@ vbic45ph09
+Servidor
+~~
+Servidor
+@@ 241abyjjiz7
+Envia páginas quando pedem
+~~
+Envía páginas cuando se las piden
+@@ 2d4e31g0tq5
+Internet
+~~
+Internet
+@@ 24jy9dhryu
+A rede que liga computadores
+~~
+La red que conecta ordenadores
+@@ o7yja4m6z4
+Site
+~~
+Sitio web
+@@ n1b16te28m
+Um grupo de páginas relacionadas
+~~
+Un grupo de páginas relacionadas
+@@ skzm2ykrca
+Quando seu navegador pede algo a um servidor, essa mensagem se chama...
+~~
+Cuando tu navegador le pide algo a un servidor, ese mensaje se llama...
+@@ bvab9tnesq
+O navegador envia uma **requisição** (request); o servidor devolve uma **resposta** (response).
+~~
+El navegador envía una **petición** (request); el servidor contesta con una **respuesta** (response).
+@@ 1gu9ugoq7vd
+Um site mora dentro do seu navegador, mesmo quando você está offline.
+~~
+Un sitio web vive dentro de tu navegador, incluso cuando estás sin conexión.
+@@ 14li90o35t5
+Os arquivos ficam num servidor. Seu navegador os baixa quando você visita.
+~~
+Los archivos están en un servidor. Tu navegador los descarga cuando lo visitas.
+@@ 92qndn9nuz
+Endereços web (URLs)
+~~
+Direcciones web (URLs)
+@@ 19cs9y89nm7
+Anatomia de uma URL
+~~
+Anatomía de una URL
+@@ 1vhligjmivz
+Uma **URL** é o endereço de uma página:
+
+```
+https://shop.realm.dev/swords?color=gold
+```
+- `https` é o **protocolo** (como conversar)
+- `shop.realm.dev` é o **domínio** (qual servidor)
+- `/swords` é o **caminho** (qual página)
+- `?color=gold` é a **consulta** (opções extras)
+~~
+Una **URL** es la dirección de una página:
+
+```
+https://shop.realm.dev/swords?color=gold
+```
+- `https` es el **protocolo** (cómo hablar)
+- `shop.realm.dev` es el **dominio** (qué servidor)
+- `/swords` es la **ruta** (qué página)
+- `?color=gold` es la **consulta** (opciones extra)
+@@ 1xitrnoisae
+Ligue as partes de https://shop.realm.dev/swords?color=gold
+~~
+Une las partes de https://shop.realm.dev/swords?color=gold
+@@ dbv54iu18i
+Protocolo
+~~
+Protocolo
+@@ 1gaf0bfq2pe
+Domínio
+~~
+Dominio
+@@ 4zk4mvxyck
+Caminho
+~~
+Ruta
+@@ ac78hhe4h1
+Consulta
+~~
+Consulta
+@@ recp76rxev
+Em `https://maps.realm.dev/castles/42`, qual é o caminho?
+~~
+En `https://maps.realm.dev/castles/42`, ¿cuál es la ruta?
+@@ 1b2q9zjfl9
+Em `https://realm.dev/search?q=dragon`, o que a consulta pede?
+~~
+En `https://realm.dev/search?q=dragon`, ¿qué pide la consulta?
+@@ 1nosb7bi0dp
+Uma busca por "dragon"
+~~
+Una búsqueda de "dragon"
+@@ lw40gvaamf
+O domínio chamado q
+~~
+El dominio llamado q
+@@ 2ejugjumhjm
+Uma conexão segura
+~~
+Una conexión segura
+@@ pym9a851l
+A página número 42
+~~
+La página número 42
+@@ 2f02mfa3425
+`https` é mais seguro que `http` porque a conexão é criptografada.
+~~
+`https` es más seguro que `http` porque la conexión está cifrada.
+@@ 11gxd3j4kn8
+O "s" significa *secure* (seguro): ninguém no meio do caminho consegue ler os dados.
+~~
+La "s" significa *secure* (seguro): nadie en medio puede leer los datos.
+@@ 21evwe52mun
+Qual protocolo todo site moderno deve usar? Digite.
+~~
+¿Qué protocolo debe usar todo sitio web moderno? Escríbelo.
+@@ 90jtgm8br4
+Nomes e números
+~~
+Nombres y números
+@@ 1z1i3navdk9
+Os computadores se encontram por números chamados **endereços IP** (como `93.184.216.34`). Humanos preferem nomes como `realm.dev`.
+
+O **DNS** (Sistema de Nomes de Domínio) é a lista telefônica da internet: ele transforma um nome de domínio num endereço IP.
+~~
+Los ordenadores se encuentran mediante números llamados **direcciones IP** (como `93.184.216.34`). Los humanos preferimos nombres como `realm.dev`.
+
+El **DNS** (Sistema de Nombres de Dominio) es la guía telefónica de internet: convierte un nombre de dominio en una dirección IP.
+@@ h4qras2e7s
+O que o DNS faz?
+~~
+¿Qué hace el DNS?
+@@ 14d0qmtvbn9
+Transforma um nome de domínio num endereço IP
+~~
+Convierte un nombre de dominio en una dirección IP
+@@ evjyzbvuyn
+Faz os sites carregarem mais rápido
+~~
+Hace que los sitios carguen más rápido
+@@ ve7hke9p40
+Guarda suas senhas
+~~
+Guarda tus contraseñas
+@@ v608ucgbo2
+Desenha a página na tela
+~~
+Dibuja la página en la pantalla
+@@ 19qws9c06gv
+Dois sites diferentes podem ter exatamente o mesmo nome de domínio.
+~~
+Dos sitios web distintos pueden tener exactamente el mismo nombre de dominio.
+@@ 1u7vd22nl4p
+Um nome de domínio é único, como um endereço postal. Quem o registra é o dono.
+~~
+Un nombre de dominio es único, como una dirección postal. Quien lo registra es su dueño.
+@@ 117852dcaa5
+Requisições e respostas
+~~
+Peticiones y respuestas
+@@ 1lazxbswp3y
+Navegadores e servidores conversam usando **HTTP**. Cada requisição tem um **método**:
+- `GET`: "me dê algo" (abrir uma página)
+- `POST`: "aqui vão dados novos" (enviar um formulário)
+
+Cada resposta tem um **código de status**:
+- `200` OK
+- `404` Não encontrado
+- `500` Erro no servidor
+~~
+Navegadores y servidores hablan usando **HTTP**. Cada petición tiene un **método**:
+- `GET`: "dame algo" (abrir una página)
+- `POST`: "aquí van datos nuevos" (enviar un formulario)
+
+Cada respuesta tiene un **código de estado**:
+- `200` OK
+- `404` No encontrado
+- `500` Error del servidor
+@@ 1hk36ra9ob9
+Você abre uma página para lê-la. Qual método HTTP o navegador usa?
+~~
+Abres una página para leerla. ¿Qué método HTTP usa el navegador?
+@@ 96kfjs1eog
+Você envia um formulário de cadastro. Qual método é usado para enviar os dados novos?
+~~
+Envías un formulario de registro. ¿Qué método se usa para enviar los datos nuevos?
+@@ 2392adaippz
+Ligue o código de status ao seu significado
+~~
+Une el código de estado con su significado
+@@ 1x96fpxnxg1
+OK, aqui está
+~~
+OK, aquí tienes
+@@ h5sz7ewxzg
+Não encontrado
+~~
+No encontrado
+@@ 1y05pse1xm8
+O servidor teve um erro
+~~
+El servidor tuvo un error
+@@ dji54itl4g
+Mudou para um novo endereço
+~~
+Se movió a una nueva dirección
+@@ u343wuurp3
+Um erro 404 significa que o servidor travou.
+~~
+Un error 404 significa que el servidor se colgó.
+@@ 24pt21wqa96
+404 significa que a página não existe. Uma falha do servidor geralmente é um código 5xx, como 500.
+~~
+404 significa que la página no existe. Un fallo del servidor suele ser un código 5xx, como el 500.
+@@ 2a3upd21g0q
+Códigos de status que começam com 4 (como 403 ou 404) geralmente significam...
+~~
+Los códigos de estado que empiezan por 4 (como 403 o 404) suelen significar...
+@@ 1rxu0omcjic
+A requisição tem um problema (erro do cliente)
+~~
+La petición tiene un problema (error del cliente)
+@@ 25pw99mgrco
+Tudo funcionou
+~~
+Todo funcionó
+@@ 1pkzc8hbw9n
+O servidor está quebrado
+~~
+El servidor está roto
+@@ 1efcc6gmrce
+A página mudou de lugar
+~~
+La página cambió de sitio
+@@ 1m0pql7kjhk
+4xx = a requisição está errada (página faltando, sem permissão). 5xx = o servidor falhou.
+~~
+4xx = la petición está mal (página que no existe, sin permiso). 5xx = el servidor falló.
+@@ 260lgr4d8ln
+O que volta
+~~
+Lo que vuelve
+@@ ajx6yn2yji
+Uma resposta não é só HTML. Um servidor pode enviar páginas **HTML**, arquivos **CSS**, arquivos **JavaScript**, **imagens** e dados num formato chamado **JSON**.
+
+Uma página web normalmente precisa de muitas requisições: uma para o HTML e depois mais para os estilos, scripts e imagens.
+~~
+Una respuesta no es solo HTML. Un servidor puede enviar páginas **HTML**, archivos **CSS**, archivos **JavaScript**, **imágenes** y datos en un formato llamado **JSON**.
+
+Una página web suele necesitar muchas peticiones: una para el HTML y luego más para sus estilos, scripts e imágenes.
+@@ rxjv3iknb5
+Carregar uma página web pode levar muitas requisições.
+~~
+Cargar una página web puede requerir muchas peticiones.
+@@ w1wrfcvilk
+Qual formato os servidores costumam usar para enviar dados puros aos aplicativos?
+~~
+¿Qué formato suelen usar los servidores para enviar datos puros a las aplicaciones?
+@@ 17hs5qqms1l
+JSON se parece com `{ "name": "Ada", "level": 3 }`. Você vai usá-lo muito.
+~~
+JSON se ve así: `{ "name": "Ada", "level": 3 }`. Lo usarás mucho.
+@@ 238aprcg1qa
+As três linguagens
+~~
+Los tres lenguajes
+@@ cy9hm7mfi3
+HTML, CSS e JavaScript
+~~
+HTML, CSS y JavaScript
+@@ 2osb84uycj
+Todo site usa três linguagens:
+- **HTML** monta a estrutura (paredes e cômodos)
+- **CSS** deixa bonito (tinta e estandartes)
+- **JavaScript** faz as coisas acontecerem (magia!)
+~~
+Todo sitio web usa tres lenguajes:
+- **HTML** construye la estructura (paredes y habitaciones)
+- **CSS** lo deja bonito (pintura y estandartes)
+- **JavaScript** hace que pasen cosas (¡magia!)
+@@ ah52lv6jr0
+Ligue a linguagem à sua função
+~~
+Une cada lenguaje con su función
+@@ 18ajrzj5z1c
+Estrutura e conteúdo
+~~
+Estructura y contenido
+@@ 1d36kovo3ha
+Cores e layout
+~~
+Colores y diseño
+@@ 1wa97njnw72
+Comportamento e lógica
+~~
+Comportamiento y lógica
+@@ hvv43750si
+Você quer que o título fique vermelho. Qual linguagem você usa?
+~~
+Quieres que el título sea rojo. ¿Qué lenguaje usas?
+@@ 2b7bw2wyf27
+Você quer que uma mensagem apareça quando alguém clicar num botão. Qual linguagem?
+~~
+Quieres que aparezca un mensaje cuando alguien pulse un botón. ¿Qué lenguaje?
+@@ 1hl8soxqv33
+Que linguagem é esta?
+~~
+¿Qué lenguaje es este?
+@@ 1u64mhtorto
+Uma página web pode funcionar só com HTML, sem CSS nem JavaScript.
+~~
+Una página web puede funcionar solo con HTML, sin CSS ni JavaScript.
+@@ yxqochqqd7
+Vai ficar simples, mas funciona. O HTML é a base; CSS e JS são colocados por cima.
+~~
+Quedará sencilla, pero funciona. HTML es la base; CSS y JS se añaden encima.
+@@ 35wz277e41
+Front end e back end
+~~
+Front end y back end
+@@ 1tjk34aunsv
+Os dois lados de todo aplicativo
+~~
+Los dos lados de toda aplicación
+@@ 1zrs2yrr49v
+O **front end** é tudo o que roda no navegador: o que você vê e clica.
+
+O **back end** roda em servidores: ele guarda dados em **bancos de dados**, confere senhas, recebe pagamentos e envia dados para o front end.
+
+Um desenvolvedor **full-stack** trabalha nos dois.
+~~
+El **front end** es todo lo que se ejecuta en el navegador: lo que ves y pulsas.
+
+El **back end** se ejecuta en servidores: guarda datos en **bases de datos**, comprueba contraseñas, cobra pagos y envía datos al front end.
+
+Un desarrollador **full-stack** trabaja en ambos.
+@@ 1p3jt9ca7sw
+Ligue cada palavra ao seu significado
+~~
+Une cada palabra con su significado
+@@ 1dshcnuo10d
+Front end
+~~
+Front end
+@@ ukpjjl3xa2
+Roda no navegador
+~~
+Se ejecuta en el navegador
+@@ f31jg37ryf
+Back end
+~~
+Back end
+@@ 1hzppxf0y6p
+Roda no servidor
+~~
+Se ejecuta en el servidor
+@@ 1jcudmc30ca
+Banco de dados
+~~
+Base de datos
+@@ zvn4l1vewh
+Guarda os dados
+~~
+Guarda los datos
+@@ pb4zxvt0uu
+Full-stack
+~~
+Full-stack
+@@ 1ububhtr3dn
+Trabalha nos dois lados
+~~
+Trabaja en ambos lados
+@@ woyqjkbi20
+Onde uma senha deve ser conferida?
+~~
+¿Dónde se debe comprobar una contraseña?
+@@ 1odts6q6ecl
+No back end (servidor)
+~~
+En el back end (servidor)
+@@ 2aplri54ila
+Só no navegador
+~~
+Solo en el navegador
+@@ 1i0hl4tj1rt
+Na URL
+~~
+En la URL
+@@ 2dpnw2v3s28
+Tudo o que está no navegador pode ser visto e alterado pelo usuário, então segredos e verificações ficam no servidor.
+~~
+Todo lo que hay en el navegador lo puede ver y cambiar el usuario, así que los secretos y las comprobaciones van en el servidor.
+@@ 1v1z5v9a9g5
+O que é um banco de dados?
+~~
+¿Qué es una base de datos?
+@@ 2eu7c6q08ab
+Um armazém organizado de dados
+~~
+Un almacén organizado de datos
+@@ n2zyba4sug
+Um navegador rápido
+~~
+Un navegador rápido
+@@ 1t03fk8cnb
+Um tipo de página web
+~~
+Un tipo de página web
+@@ 1vyaj5jvdi4
+Uma ferramenta de design
+~~
+Una herramienta de diseño
+@@ 35jfshu26
+React, Vue e Svelte são ferramentas para construir front ends.
+~~
+React, Vue y Svelte son herramientas para construir front ends.
+@@ 1e4tomg6zgx
+Um desenvolvedor que cria tanto a interface quanto o servidor se chama...
+~~
+Un desarrollador que crea tanto la interfaz como el servidor se llama...
+@@ 100snrnkq0d
+Half-stack
+~~
+Half-stack
+@@ glb5jl2193
+Back-office
+~~
+Back-office
+@@ yceumbu53g
+Cross-browser
+~~
+Cross-browser
+@@ 1rfeoylmpdz
+Qual linguagem roda **tanto** no navegador quanto em servidores (com Node.js)?
+~~
+¿Qué lenguaje se ejecuta **tanto** en el navegador como en servidores (con Node.js)?
+@@ 1qtdy15gue3
+Pensando como Programador
+~~
+Pensar como Programador
+@@ 13wanxz955q
+Programas, algoritmos, bugs e as ferramentas que os desenvolvedores usam.
+~~
+Programas, algoritmos, bugs y las herramientas que usan los desarrolladores.
+@@ pjqkkdotwb
+
+**Ideias principais**
+- Um **programa** é uma lista de instruções. O computador as segue exatamente, em ordem.
+- Um **algoritmo** é um plano passo a passo para resolver um problema. Divida problemas grandes em passos pequenos.
+- Passos repetidos viram **loops**; decisões ("se chover...") viram **condições**.
+- Um **bug** é um erro num programa. Depurar = encontrá-lo e corrigi-lo: leia o erro, mude uma coisa de cada vez, teste de novo.
+- Desenvolvedores escrevem código num **editor** (como o VS Code), salvam arquivos com extensões (`.html`, `.css`, `.js`) e usam as **DevTools** do navegador (F12).
+- Quem aprende bem pratica um pouco todo dia, lê a documentação (MDN) e faz perguntas claras.
+~~
+
+**Ideas clave**
+- Un **programa** es una lista de instrucciones. El ordenador las sigue exactamente, en orden.
+- Un **algoritmo** es un plan paso a paso para resolver un problema. Divide los problemas grandes en pasos pequeños.
+- Los pasos repetidos se convierten en **bucles**; las decisiones ("si llueve...") en **condiciones**.
+- Un **bug** es un error en un programa. Depurar = encontrarlo y corregirlo: lee el error, cambia una cosa cada vez, vuelve a probar.
+- Los desarrolladores escriben código en un **editor** (como VS Code), guardan archivos con extensiones (`.html`, `.css`, `.js`) y usan las **DevTools** del navegador (F12).
+- Quien aprende bien practica un poco cada día, lee la documentación (MDN) y hace preguntas claras.
+@@ 1qshb7n322z
+O que é um programa?
+~~
+¿Qué es un programa?
+@@ ixvb81498g
+Instruções, em ordem
+~~
+Instrucciones, en orden
+@@ 1rb5hunknlj
+Um **programa** é uma lista de instruções para um computador. O computador as segue **exatamente** e **em ordem**, uma depois da outra.
+
+Computadores são rápidos, mas não adivinham o que você quis dizer. Por isso instruções precisas importam.
+~~
+Un **programa** es una lista de instrucciones para un ordenador. El ordenador las sigue **exactamente** y **en orden**, una tras otra.
+
+Los ordenadores son rápidos, pero no adivinan lo que quisiste decir. Por eso importan las instrucciones precisas.
+@@ h7wvw01sq8
+Um computador entende o que você quis dizer, mesmo quando suas instruções não são claras.
+~~
+Un ordenador entiende lo que quisiste decir, aunque tus instrucciones no sean claras.
+@@ 3oeifrl4e4
+Computadores fazem exatamente o que o código diz, nem mais nem menos.
+~~
+Los ordenadores hacen exactamente lo que dice el código, ni más ni menos.
+@@ 17i0djfkelh
+Coloque em ordem as instruções para fazer uma torrada
+~~
+Ordena las instrucciones para hacer una tostada
+@@ k8kk2o9pvu
+Qual é a melhor descrição de um programa?
+~~
+¿Cuál es la mejor descripción de un programa?
+@@ xty0c6t4s1
+Instruções exatas que um computador segue em ordem
+~~
+Instrucciones exactas que un ordenador sigue en orden
+@@ 28cpullcve7
+Uma imagem numa tela
+~~
+Una imagen en una pantalla
+@@ 1br9sxf99fb
+Um tipo de computador
+~~
+Un tipo de ordenador
+@@ 15je7d2ep15
+Um endereço de site
+~~
+Una dirección web
+@@ 1x49hnxztpt
+Um robô precisa seguir: "Ande para frente. Vire à esquerda. Ande para frente." O que acontece se você trocar as duas últimas linhas?
+~~
+Un robot debe seguir: "Camina hacia delante. Gira a la izquierda. Camina hacia delante." ¿Qué pasa si cambias las dos últimas líneas?
+@@ tg069nj6ht
+Ele termina num lugar diferente
+~~
+Termina en un lugar distinto
+@@ xy0kapmo53
+Nada muda
+~~
+No cambia nada
+@@ 1rd8wtspmo0
+O robô se recusa
+~~
+El robot se niega
+@@ 1dlwg75xa0f
+Ele anda o dobro
+~~
+Camina el doble
+@@ vma92frtja
+A ordem importa! Mudar a ordem muda o resultado.
+~~
+¡El orden importa! Cambiar el orden cambia el resultado.
+@@ f2v9rtmf85
+Código
+~~
+Código
+@@ a9fs98tgcn
+Texto escrito numa linguagem de programação
+~~
+Texto escrito en un lenguaje de programación
+@@ 12nk2hhieye
+Programa
+~~
+Programa
+@@ 1qn4grzqsmn
+Um conjunto de instruções que faz um trabalho
+~~
+Un conjunto de instrucciones que hace un trabajo
+@@ 1d8h7z7ufgn
+Programador
+~~
+Programador
+@@ 725mvl6zc0
+Uma pessoa que escreve código
+~~
+Una persona que escribe código
+@@ 17013cyv2mu
+Executar
+~~
+Ejecutar
+@@ 1ohay4subkj
+Mandar o computador fazer as instruções
+~~
+Decirle al ordenador que haga las instrucciones
+@@ 245caewxx8t
+A mesma tarefa muitas vezes pode ser resolvida por muitos programas diferentes.
+~~
+La misma tarea a menudo puede resolverse con muchos programas distintos.
+@@ k2y5h90iil
+Algoritmos e padrões
+~~
+Algoritmos y patrones
+@@ 7j4y4wg0l6
+Divida em partes
+~~
+Divídelo en partes
+@@ 1anja9po676
+Um **algoritmo** é um plano passo a passo. Programadores resolvem problemas grandes dividindo-os em passos pequenos.
+
+Procure **padrões**:
+- Passos que se repetem → um **loop** ("faça isto 10 vezes")
+- Decisões → uma **condição** ("se chover, leve um guarda-chuva")
+~~
+Un **algoritmo** es un plan paso a paso. Los programadores resuelven problemas grandes dividiéndolos en pasos pequeños.
+
+Busca **patrones**:
+- Pasos que se repiten → un **bucle** ("haz esto 10 veces")
+- Decisiones → una **condición** ("si llueve, lleva paraguas")
+@@ k3h5msa05o
+"Bata em cada uma das 20 portas da rua." Qual ideia combina melhor?
+~~
+"Llama a cada una de las 20 puertas de la calle." ¿Qué idea encaja mejor?
+@@ k5o3godkxm
+Um loop
+~~
+Un bucle
+@@ kc1y2r4qq
+Uma condição
+~~
+Una condición
+@@ myqhusj4u2
+Um nome de variável
+~~
+Un nombre de variable
+@@ 1267sd0eqis
+Um bug
+~~
+Un bug
+@@ 288u4c9r0hv
+"Se a porta estiver trancada, use a chave." Qual ideia combina melhor?
+~~
+"Si la puerta está cerrada con llave, usa la llave." ¿Qué idea encaja mejor?
+@@ 1u5cc1p3hkf
+Um algoritmo para achar o cavaleiro mais alto de uma fila
+~~
+Un algoritmo para encontrar al caballero más alto de una fila
+@@ 1slce0rr857
+Um algoritmo precisa ser escrito numa linguagem de programação.
+~~
+Un algoritmo debe escribirse en un lenguaje de programación.
+@@ da1tnxk7v
+Um algoritmo é o plano. Você pode escrevê-lo primeiro em palavras simples e depois transformá-lo em código.
+~~
+Un algoritmo es el plan. Puedes escribirlo primero con palabras sencillas y luego convertirlo en código.
+@@ 16at6o3b2a5
+Por que os programadores dividem problemas grandes em passos menores?
+~~
+¿Por qué los programadores dividen los problemas grandes en pasos más pequeños?
+@@ dricjf7edl
+Passos pequenos são mais fáceis de resolver e testar
+~~
+Los pasos pequeños son más fáciles de resolver y probar
+@@ 17a9zhr6dul
+Computadores não conseguem rodar programas longos
+~~
+Los ordenadores no pueden ejecutar programas largos
+@@ bvz9mw2i9
+Deixa o programa mais lento
+~~
+Hace el programa más lento
+@@ 1n949g45wm
+É exigido por lei
+~~
+Lo exige la ley
+@@ 1aj2qyoqjdg
+Ligue a tarefa do dia a dia à ideia de programação
+~~
+Une la tarea cotidiana con la idea de programación
+@@ 1cjfu2jbpkg
+Repetir 10 flexões
+~~
+Repetir 10 flexiones
+@@ 21pgq12ycju
+Loop
+~~
+Bucle
+@@ 156576qt0v6
+Se estiver com fome, coma
+~~
+Si tienes hambre, come
+@@ 10jnay4a8s4
+Escrever seu nome numa caixa
+~~
+Escribir tu nombre en una caja
+@@ 1owqo35de79
+Variável
+~~
+Variable
+@@ z2l6yzaz3v
+Uma receita
+~~
+Una receta
+@@ 1auy3mokqfe
+Algoritmo
+~~
+Algoritmo
+@@ 1rldub9r021
+Bugs e depuração
+~~
+Bugs y depuración
+@@ 1ma1zuvmofx
+Todo mundo escreve bugs
+~~
+Todos escriben bugs
+@@ lvbk12i6ui
+Um **bug** é um erro num programa. Todos os programadores, até os experientes, escrevem bugs todos os dias.
+
+**Depurar** (debugging) significa encontrá-los e corrigi-los:
+1. Leia a mensagem de erro com atenção
+2. Descubra onde acontece
+3. Mude **uma** coisa
+4. Teste de novo
+~~
+Un **bug** es un error en un programa. Todos los programadores, incluso los expertos, escriben bugs cada día.
+
+**Depurar** (debugging) significa encontrarlos y corregirlos:
+1. Lee el mensaje de error con atención
+2. Encuentra dónde ocurre
+3. Cambia **una** cosa
+4. Vuelve a probar
+@@ 1l0ao9ak3d7
+Bons programadores nunca erram.
+~~
+Los buenos programadores nunca se equivocan.
+@@ 1dcii07jrym
+Bons programadores erram o tempo todo. Eles só são bons em encontrar e corrigir os erros.
+~~
+Los buenos programadores se equivocan todo el tiempo. Solo son buenos encontrando y corrigiendo los errores.
+@@ 1vb13czd4yi
+Coloque os passos da depuração em ordem
+~~
+Ordena los pasos de la depuración
+@@ 6ha1fg32rt
+Seu código mostra um erro. O que você deve fazer primeiro?
+~~
+Tu código muestra un error. ¿Qué deberías hacer primero?
+@@ urkvwwwn2q
+Ler a mensagem de erro com atenção
+~~
+Leer el mensaje de error con atención
+@@ 1tkzmw4p7s5
+Apagar todo o código
+~~
+Borrar todo el código
+@@ 6ylsf9fs6c
+Reiniciar o computador
+~~
+Reiniciar el ordenador
+@@ clz1nyso38
+Mudar muitas coisas de uma vez
+~~
+Cambiar muchas cosas a la vez
+@@ 21k1pph1add
+Por que mudar só uma coisa de cada vez ao depurar?
+~~
+¿Por qué cambiar solo una cosa cada vez al depurar?
+@@ ryblcsq1oe
+Para saber qual mudança corrigiu (ou quebrou) o programa
+~~
+Para saber qué cambio lo arregló (o lo rompió)
+@@ 2vyr7izr5n
+Porque os editores só permitem uma mudança
+~~
+Porque los editores solo permiten un cambio
+@@ 1lw4juuijj0
+Para deixar o programa mais rápido
+~~
+Para que el programa sea más rápido
+@@ 2ftuwx3kwf7
+Não faz diferença
+~~
+Da igual
+@@ 1m8g95ji0zi
+O patinho de borracha
+~~
+El patito de goma
+@@ 4hmfnbe6dq
+Um truque famoso: explique seu código, linha por linha, para um patinho de borracha (ou um amigo, ou um pet). Falar em voz alta muitas vezes revela o bug. Isso se chama **depuração com patinho de borracha** (rubber duck debugging).
+~~
+Un truco famoso: explica tu código, línea por línea, a un patito de goma (o a un amigo, o a tu mascota). Decirlo en voz alta a menudo revela el bug. Se llama **depuración con patito de goma** (rubber duck debugging).
+@@ 181hzpc6ppy
+Explicar seu código em voz alta pode ajudar a encontrar bugs.
+~~
+Explicar tu código en voz alta puede ayudarte a encontrar bugs.
+@@ 1yhgnefnokm
+A palavra "bug" (inseto) ficou famosa quando engenheiros encontraram um inseto de verdade preso num computador. Hoje um bug significa...
+~~
+La palabra "bug" (bicho) se hizo famosa cuando unos ingenieros encontraron un insecto de verdad atrapado en un ordenador. Hoy un bug significa...
+@@ 2fs6of2neeh
+Um erro num programa
+~~
+Un error en un programa
+@@ 1s61t342d8x
+Um vírus de computador
+~~
+Un virus informático
+@@ 2e7yndp6a5a
+Uma internet lenta
+~~
+Una conexión a internet lenta
+@@ 2doqpyc2si4
+Uma tela quebrada
+~~
+Una pantalla rota
+@@ zqygprzgo3
+Suas ferramentas
+~~
+Tus herramientas
+@@ vu2d93hvbw
+A oficina do desenvolvedor
+~~
+El taller del desarrollador
+@@ 27df2g53b7w
+Desenvolvedores escrevem código num **editor de código**. O mais popular é o **VS Code** (grátis).
+
+O código é salvo em **arquivos** dentro de **pastas**. A **extensão** do arquivo diz o que tem dentro:
+- `.html` para HTML
+- `.css` para CSS
+- `.js` para JavaScript
+~~
+Los desarrolladores escriben código en un **editor de código**. El más popular es **VS Code** (gratis).
+
+El código se guarda en **archivos** dentro de **carpetas**. La **extensión** del archivo dice qué hay dentro:
+- `.html` para HTML
+- `.css` para CSS
+- `.js` para JavaScript
+@@ 17bhhpi5rsp
+Ligue o arquivo à sua linguagem
+~~
+Une el archivo con su lenguaje
+@@ 1u4y6jwa9ze
+Dados JSON
+~~
+Datos JSON
+@@ 1pprqa4uu1u
+O que é o VS Code?
+~~
+¿Qué es VS Code?
+@@ 22pggcozjle
+Um editor de código grátis
+~~
+Un editor de código gratuito
+@@ 2g9x64hijh7
+Um navegador web
+~~
+Un navegador web
+@@ sv7q0wk0p
+Um criador de sites só para crianças
+~~
+Un creador de sitios web solo para niños
+@@ aeka0hd25z
+Todo navegador tem **DevTools** embutidas (abra com **F12** ou clique direito → *Inspecionar*). Com elas você pode:
+- ver o HTML de qualquer página
+- testar mudanças de CSS ao vivo
+- ler erros no **Console**
+~~
+Todo navegador tiene **DevTools** integradas (ábrelas con **F12** o clic derecho → *Inspeccionar*). Con ellas puedes:
+- ver el HTML de cualquier página
+- probar cambios de CSS en vivo
+- leer errores en la **Consola**
+@@ 167gpl87d3g
+Como você normalmente abre as DevTools do navegador?
+~~
+¿Cómo sueles abrir las DevTools del navegador?
+@@ n52nl1ti06
+Apertando F12 ou clique direito → Inspecionar
+~~
+Pulsando F12 o clic derecho → Inspeccionar
+@@ 103deuuit65
+Digitando "devtools" na barra de endereço
+~~
+Escribiendo "devtools" en la barra de direcciones
+@@ 2f2frba76y
+Reiniciando o navegador
+~~
+Reiniciando el navegador
+@@ 27miall0xlf
+Instalando um navegador novo
+~~
+Instalando un navegador nuevo
+@@ 1dvurosrh1m
+Onde aparecem os erros de JavaScript nas DevTools?
+~~
+¿Dónde aparecen los errores de JavaScript en las DevTools?
+@@ 2ejkyuflv58
+No Console
+~~
+En la Consola
+@@ 1o8nr7ylyos
+Na barra de endereço
+~~
+En la barra de direcciones
+@@ 16h0d28ixrx
+Nos favoritos
+~~
+En los marcadores
+@@ 3s3m436sjd
+Na lista de downloads
+~~
+En la lista de descargas
+@@ 9g7en9v3nx
+A página principal de um site normalmente se chama index.html.
+~~
+La página principal de un sitio web suele llamarse index.html.
+@@ c6rc3n5ia9
+Os servidores procuram `index.html` por padrão quando você visita uma pasta.
+~~
+Los servidores buscan `index.html` por defecto cuando visitas una carpeta.
+@@ 2e19jvv4v9l
+Que extensão tem um arquivo JavaScript? (por exemplo: .txt)
+~~
+¿Qué extensión tiene un archivo JavaScript? (por ejemplo: .txt)
+@@ v99ieyofn9
+Como aprender a programar
+~~
+Cómo aprender a programar
+@@ 5l26lqagxu
+Aprendendo como um profissional
+~~
+Aprender como un profesional
+@@ 1gea3yzefky
+Ninguém decora tudo. Desenvolvedores profissionais:
+- praticam **um pouco todo dia**
+- leem a **documentação** (para a web: **MDN**, developer.mozilla.org)
+- pesquisam as mensagens de erro
+- fazem perguntas claras, mostrando o código e o erro
+~~
+Nadie lo memoriza todo. Los desarrolladores profesionales:
+- practican **un poco cada día**
+- leen la **documentación** (para la web: **MDN**, developer.mozilla.org)
+- buscan los mensajes de error
+- hacen preguntas claras, mostrando su código y el error
+@@ 4wm5idw3bh
+Qual site é a melhor referência para HTML, CSS e JavaScript?
+~~
+¿Qué sitio es la mejor referencia para HTML, CSS y JavaScript?
+@@ 1ulq0c0asxu
+MDN (developer.mozilla.org)
+~~
+MDN (developer.mozilla.org)
+@@ 2btqlupi2c4
+Um post aleatório de fórum de 2009
+~~
+Un post cualquiera de un foro de 2009
+@@ 1cty8npwhto
+Um aplicativo de rede social
+~~
+Una aplicación de redes sociales
+@@ i7131drelk
+Uma wiki de videogame
+~~
+Una wiki de videojuegos
+@@ 1oyvohf9shb
+Desenvolvedores profissionais pesquisam coisas o tempo todo.
+~~
+Los desarrolladores profesionales buscan cosas todo el tiempo.
+@@ 14kkpl7mkrk
+Pesquisar e ler documentação é uma habilidade essencial, não trapaça.
+~~
+Buscar y leer documentación es una habilidad esencial, no hacer trampa.
+@@ 22xqs672tz5
+Qual pergunta é mais fácil de alguém responder?
+~~
+¿Qué pregunta es más fácil de responder?
+@@ 1hazfru6dwg
+"Meu botão não faz nada quando clico. Aqui está meu código e o erro do console."
+~~
+"Mi botón no hace nada al pulsarlo. Aquí está mi código y el error de la consola."
+@@ 142qodbk9tg
+"Meu código quebrou, socorro!"
+~~
+"Mi código está roto, ¡ayuda!"
+@@ xfxxp3zhx0
+"Por que não funciona?"
+~~
+"¿Por qué no funciona?"
+@@ 3nsihyq2sf
+"Programar é difícil?"
+~~
+"¿Programar es difícil?"
+@@ 1vl4dvnu0bc
+Assistentes de IA conseguem escrever código. Qual é o jeito esperto de usá-los enquanto você aprende?
+~~
+Los asistentes de IA pueden escribir código. ¿Cuál es la forma inteligente de usarlos mientras aprendes?
+@@ 1d6c7lxxcrr
+Pedir que expliquem e depois escrever e entender o código você mesmo
+~~
+Pedirles que expliquen y luego escribir y entender el código tú mismo
+@@ jcaebqokxg
+Copiar tudo sem ler
+~~
+Copiarlo todo sin leerlo
+@@ 1ief5fssjeb
+Nunca conferir as respostas deles
+~~
+No revisar nunca sus respuestas
+@@ yu3wpczf2n
+Usá-los em vez de praticar
+~~
+Usarlos en lugar de practicar
+@@ zj0g7t2cwz
+Ferramentas de IA erram. Você precisa entender código para perceber. Por isso aprender o básico continua importante.
+~~
+Las herramientas de IA se equivocan. Necesitas entender el código para darte cuenta. Por eso aprender lo básico sigue siendo importante.
+@@ 1tdfwzq39fy
+O que mais ajuda você a lembrar de novas habilidades?
+~~
+¿Qué te ayuda más a recordar habilidades nuevas?
+@@ 1fk9yijhbx6
+Prática curta todo dia
+~~
+Práctica corta cada día
+@@ 55ni9fshdb
+Uma sessão de 10 horas por mês
+~~
+Una sesión de 10 horas al mes
+@@ 12tx09457fe
+Ler sem tentar
+~~
+Leer sin intentarlo
+@@ 1sqmq0vnd4y
+Só assistir vídeos
+~~
+Solo ver vídeos
+@@ 1eo2vh6wrqv
+Prática curta diária vence sessões longas e raras. Por isso este jogo tem sequências!
+~~
+La práctica corta diaria gana a las sesiones largas y escasas. ¡Por eso este juego tiene rachas!
+@@ twy3p97k9e
+Ligue o hábito ao motivo de ele ajudar
+~~
+Une cada hábito con por qué ayuda
+@@ siy3n4pbdg
+Constrói memória
+~~
+Construye memoria
+@@ 16j05f1q44y
+Encontra bugs mais rápido
+~~
+Encuentra bugs más rápido
+@@ pg0s4we3ah
+Criar projetos
+~~
+Crear proyectos
+@@ 19rp5r3rto5
+Mostra suas habilidades para empregadores
+~~
+Muestra tus habilidades a las empresas
+@@ mqvuv8f262
+Fazer perguntas claras
+~~
+Hacer preguntas claras
+@@ 1i8mqg4zjj3
+Consegue uma ajuda melhor
+~~
+Consigue mejor ayuda

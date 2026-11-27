@@ -1,0 +1,123 @@
+11ihd8bw7gx ¦ Meu Castelo ¦ Mi Castillo
+2fzxjxoig0q ¦ A Primeira Pedra ¦ La Primera Piedra
+1scmjkut4vw ¦ A Mestre Pedreira Hilda entrega um cinzel a você. "Todo castelo começa com uma pedra. Toda página web começa com uma tag." ¦ La Maestra Cantera Hilda te da un cincel. "Todo castillo empieza con una piedra. Toda página web empieza con una etiqueta."
+17si7jromqc ¦ Dentro do `<body>`, adicione um título `<h1>` com o nome do seu castelo (o nome que quiser). ¦ Dentro de `<body>`, añade un encabezado `<h1>` con el nombre de tu castillo (el que quieras).
+5p1rc7cfa4 ¦ Os navegadores leem o HTML e montam o **DOM** (Document Object Model), uma árvore de elementos. Buscadores e leitores de tela usam os títulos para entender a página, então cada página deve ter exatamente um `<h1>`. As tags não diferenciam maiúsculas, mas a convenção em todo lugar é usar minúsculas. ¦ Los navegadores leen el HTML y construyen el **DOM** (Document Object Model), un árbol de elementos. Los buscadores y los lectores de pantalla usan los encabezados para entender una página, así que cada página debería tener exactamente un `<h1>`. Las etiquetas no distinguen mayúsculas, pero la convención en todas partes es usar minúsculas.
+2gk1avbkku8 ¦ Escreva a tag de abertura `<h1>`, depois seu texto, depois a tag de fechamento `</h1>`. ¦ Escribe la etiqueta de apertura `<h1>`, luego tu texto y luego la etiqueta de cierre `</h1>`.
+12i58p7zkcb ¦ Exemplo: `<h1>Castle Blackstone</h1>`. Coloque na linha vazia dentro do `<body>`. ¦ Ejemplo: `<h1>Castle Blackstone</h1>`. Ponlo en la línea vacía dentro de `<body>`.
+2ab98y8nf9x ¦ A página tem um título <h1> ¦ La página tiene un encabezado <h1>
+hmhsaw1re7 ¦ Nenhum <h1> encontrado. Confira se você escreveu <h1> e </h1>. ¦ No se encontró ningún <h1>. Comprueba que escribiste <h1> y </h1>.
+1ho9ja35i5q ¦ O título tem um nome dentro ¦ El encabezado tiene un nombre dentro
+gusifzbgzg ¦ A tag é fechada com </h1> ¦ La etiqueta se cierra con </h1>
+1xp14lybydt ¦ Uma tag de fechamento precisa de uma barra: </h1> ¦ Una etiqueta de cierre necesita una barra: </h1>
+1zsc0mb2xk2 ¦ Palavras no Pergaminho ¦ Palabras en el Pergamino
+1c0pwzgsrw9 ¦ O castelo precisa de uma placa no portão que conte aos viajantes sobre ele. ¦ El castillo necesita un cartel en la puerta que hable de él a los viajeros.
+34wt6arrb3 ¦ Abaixo do `<h1>`, adicione um título de seção `<h2>` e **pelo menos dois** parágrafos (`<p>`) sobre o seu castelo. ¦ Debajo del `<h1>`, añade un encabezado de sección `<h2>` y **al menos dos** párrafos (`<p>`) sobre tu castillo.
+2f9ibpqrhhd ¦ Não escolha os níveis de título pelo tamanho: escolha pelo significado (um sumário). O CSS muda o tamanho que eles aparentam. Pular níveis (h1 direto para h4) confunde quem usa leitor de tela, que muitas vezes navega pela página pelos títulos. ¦ No elijas los niveles de encabezado por su tamaño: elígelos por su significado (un esquema). El CSS cambia lo grandes que se ven. Saltarse niveles (de h1 directo a h4) confunde a quienes usan lector de pantalla, que a menudo recorren la página por sus encabezados.
+1fcyw7y4ef6 ¦ Cada parágrafo é seu próprio par de tags: `<p>...</p>`. ¦ Cada párrafo es su propio par de etiquetas: `<p>...</p>`.
+4l377nrrpb ¦ Coloque o `<h2>` primeiro e depois duas linhas `<p>` abaixo dele. ¦ Pon primero el `<h2>` y luego dos líneas `<p>` debajo.
+2a2dfgbo2cn ¦ Há um título de seção <h2> ¦ Hay un encabezado de sección <h2>
+76z9jq6ul4 ¦ Há pelo menos dois parágrafos com texto ¦ Hay al menos dos párrafos con texto
+10k89w13he3 ¦ O <h2> vem depois do <h1> ¦ El <h2> va después del <h1>
+1qk5pm2h9j1 ¦ Estandartes em Negrito ¦ Estandartes en Negrita
+29so6scwg74 ¦ O pregoeiro da cidade quer que algumas palavras se destaquem: avisos precisam ser fortes, sussurros precisam de ênfase. ¦ El pregonero quiere que algunas palabras destaquen: los avisos deben ser fuertes y los susurros deben tener énfasis.
+1xe3wm7vo3e ¦ Escreva um parágrafo que contenha uma palavra em `<strong>` e uma em `<em>`. ¦ Escribe un párrafo que contenga una palabra en `<strong>` y otra en `<em>`.
+hnf5imwapy ¦ `<strong>` e `<em>` carregam **significado** (importância, ênfase). `<b>` e `<i>` só mudam a aparência. Leitores de tela podem mudar a voz para a ênfase, então prefira as tags com significado. ¦ `<strong>` y `<em>` tienen **significado** (importancia, énfasis). `<b>` e `<i>` solo cambian el aspecto. Los lectores de pantalla pueden cambiar la voz para el énfasis, así que prefiere las etiquetas con significado.
+1zn1yy4jo3a ¦ Comece com `<p>` e coloque `<strong>word</strong>` em algum lugar da frase. ¦ Empieza con `<p>` y pon `<strong>word</strong>` en algún sitio de la frase.
+1pkksknais8 ¦ Exemplo: `<p>Beware of the <strong>dragon</strong>, it is <em>very</em> grumpy.</p>` ¦ Ejemplo: `<p>Beware of the <strong>dragon</strong>, it is <em>very</em> grumpy.</p>`
+1cmte8e1kug ¦ Uma palavra em <strong> está dentro de um parágrafo ¦ Una palabra en <strong> está dentro de un párrafo
+2diziioegdn ¦ Uma palavra em <em> está dentro de um parágrafo ¦ Una palabra en <em> está dentro de un párrafo
+1wibks840by ¦ O Esqueleto de uma Página ¦ El Esqueleto de una Página
+f751v6dgkf ¦ A Hilda mostra a planta que toda página bem-feita segue. "Pule isso e o castelo inteiro entorta." ¦ Hilda te enseña el plano que sigue toda página como es debido. "Sáltatelo y todo el castillo se inclina."
+rydjp4hta2 ¦ O arquivo está vazio. Monte o esqueleto inteiro: `<!DOCTYPE html>`, `<html>`, `<head>` com um `<title>` e um `<body>` contendo um `<h1>`. ¦ El archivo está vacío. Construye todo el esqueleto: `<!DOCTYPE html>`, `<html>`, `<head>` con un `<title>`, y un `<body>` que contenga un `<h1>`.
+140ps9kt8kd ¦ `<!DOCTYPE html>` diz ao navegador para usar o *modo padrão* moderno. `<meta charset="utf-8">` faz letras como é e emojis aparecerem corretamente. `lang="en"` ajuda os leitores de tela a pronunciar as palavras e ajuda os buscadores. Os navegadores são tolerantes e consertariam um esqueleto faltando, mas depender disso causa bugs estranhos. ¦ `<!DOCTYPE html>` le dice al navegador que use el *modo estándar* moderno. `<meta charset="utf-8">` hace que letras como la é y los emojis se vean bien. `lang="en"` ayuda a los lectores de pantalla a pronunciar las palabras y a los buscadores. Los navegadores son tolerantes y arreglarían un esqueleto que falte, pero depender de eso causa bugs extraños.
+iaew6xz8ga ¦ Copie a estrutura do texto da lição, depois mude o título e adicione um `<h1>` dentro do `<body>`. ¦ Copia la estructura del texto de la lección, luego cambia el título y añade un `<h1>` dentro de `<body>`.
+de9h06ls7e ¦ O `<title>` fica dentro do `<head>`, o `<h1>` dentro do `<body>`. ¦ El `<title>` va dentro de `<head>`, el `<h1>` dentro de `<body>`.
+1id74bzz7fz ¦ Começa com <!DOCTYPE html> ¦ Empieza con <!DOCTYPE html>
+3gqwv78f8h ¦ Tem as tags <html>, <head> e <body> ¦ Tiene las etiquetas <html>, <head> y <body>
+52ufz875k5 ¦ A página tem um <title> ¦ La página tiene un <title>
+1poxghekh43 ¦ O body tem um <h1> ¦ El body tiene un <h1>
+wsgyitcfn9 ¦ A tag <html> tem um atributo lang ¦ La etiqueta <html> tiene un atributo lang
+b4n2b382oc ¦ Estradas entre Castelos ¦ Caminos entre Castillos
+1ex8k5yail1 ¦ Uma página sozinha é solitária. Os links são as estradas que ligam todos os castelos da web. ¦ Una página sola se siente sola. Los enlaces son los caminos que conectan todos los castillos de la web.
+1uyit7y1wbm ¦ Adicione um link para `https://developer.mozilla.org` (a melhor biblioteca de conhecimento web). O texto do link deve descrever para onde ele leva. ¦ Añade un enlace a `https://developer.mozilla.org` (la mejor biblioteca de conocimiento web). El texto del enlace debe describir adónde lleva.
+1pwrezo2tf2 ¦ Um bom texto de link faz sentido sozinho: "Leia o guia do MDN" é melhor que "clique aqui". Quem usa leitor de tela costuma listar todos os links da página. Para abrir um link numa nova aba, adicione `target="_blank"`. Os navegadores modernos já protegem a página de origem automaticamente, mas muitas equipes ainda adicionam `rel="noopener"`. ¦ Un buen texto de enlace tiene sentido por sí solo: "Lee la guía de MDN" es mejor que "haz clic aquí". Quienes usan lector de pantalla suelen listar todos los enlaces de una página. Para abrir un enlace en una pestaña nueva, añade `target="_blank"`. Los navegadores modernos ya protegen la página de origen automáticamente, pero muchos equipos siguen añadiendo `rel="noopener"`.
+144a5esffj ¦ O endereço vai entre aspas depois de `href=`. ¦ La dirección va entre comillas después de `href=`.
+13czxx34pen ¦ Há um link (<a>) com href ¦ Hay un enlace (<a>) con href
+1l3crd84k5p ¦ Ele aponta para https://developer.mozilla.org ¦ Apunta a https://developer.mozilla.org
+1ue4nj1iqyy ¦ O link tem texto clicável ¦ El enlace tiene texto que se puede pulsar
+2bdl60c16ps ¦ O texto do link é descritivo (não "clique aqui") ¦ El texto del enlace es descriptivo (no "haz clic aquí")
+ax5iscez27 ¦ Janelas para o Mundo ¦ Ventanas al Mundo
+2kxl3qghhl ¦ elementos vazios ¦ elementos vacíos
+1flxkirbuak ¦ O pintor real entregou um retrato do castelo. Pendure-o na sua página para todos verem. ¦ El pintor real entregó un retrato del castillo. Cuélgalo en tu página para que todos lo vean.
+21kyupbvylg ¦ Mostre a imagem `castle.svg` com uma descrição `alt` útil. ¦ Muestra la imagen `castle.svg` con una descripción `alt` útil.
+1cnsqhfqh3a ¦ Escreva o texto `alt` como se estivesse descrevendo a imagem ao telefone. Para imagens só decorativas, use um `alt=""` vazio para os leitores de tela as pularem. Adicionar `width` e `height` deixa o navegador reservar o espaço e impede o layout de pular enquanto as imagens carregam. ¦ Escribe el texto `alt` como si describieras la imagen por teléfono. Para imágenes solo decorativas usa un `alt=""` vacío para que los lectores de pantalla se las salten. Añadir `width` y `height` deja que el navegador reserve el espacio y evita que la página salte mientras cargan las imágenes.
+12aqva3jbov ¦ `<img>` precisa de dois atributos: `src` e `alt`. ¦ `<img>` necesita dos atributos: `src` y `alt`.
+o2drcb3rjm ¦ A imagem realmente carrega (o nome do arquivo está certo) ¦ La imagen carga de verdad (el nombre del archivo es correcto)
+23ha01hofot ¦ A imagem tem uma descrição alt útil ¦ La imagen tiene una descripción alt útil
+13x7022tqmm ¦ Adicione alt="..." com algumas palavras descrevendo a imagem. ¦ Añade alt="..." con unas palabras que describan la imagen.
+2az69d756be ¦ Listas de Suprimentos ¦ Listas de Provisiones
+10scmhbj5ub ¦ O intendente precisa de duas listas: o que levar na bagagem e os passos para selar um cavalo. ¦ El intendente necesita dos listas: qué meter en el equipaje y los pasos para ensillar un caballo.
+2fcvv3qz5am ¦ Faça uma lista de bagagem `<ul>` com **pelo menos 3** itens e uma `<ol>` com **pelo menos 3** passos para selar um cavalo. ¦ Haz una lista de equipaje `<ul>` con **al menos 3** elementos y una `<ol>` con **al menos 3** pasos para ensillar un caballo.
+1yspbprf21i ¦ Menus de navegação normalmente são uma `<ul>` de links dentro de um `<nav>`. As listas dizem aos leitores de tela "lista, 5 itens", o que ajuda as pessoas a saberem o que esperar. As listas podem ser aninhadas: coloque uma nova `<ul>` dentro de um `<li>`. ¦ Los menús de navegación suelen ser una `<ul>` de enlaces dentro de un `<nav>`. Las listas les dicen a los lectores de pantalla "lista, 5 elementos", lo que ayuda a saber qué esperar. Las listas se pueden anidar: pon una nueva `<ul>` dentro de un `<li>`.
+1e8gfio4kj8 ¦ Cada item é `<li>...</li>` e todos os itens ficam entre `<ul>` e `</ul>`. ¦ Cada elemento es `<li>...</li>` y todos van entre `<ul>` y `</ul>`.
+1do7zd108ah ¦ Faça o mesmo com `<ol>` para os passos. ¦ Haz lo mismo con `<ol>` para los pasos.
+1vtzm12l2cm ¦ Uma <ul> com pelo menos 3 itens ¦ Una <ul> con al menos 3 elementos
+ldpn5d3avt ¦ Uma <ol> com pelo menos 3 passos ¦ Una <ol> con al menos 3 pasos
+1gj0rqcudvo ¦ Todo item tem texto ¦ Todos los elementos tienen texto
+1gb121b56vw ¦ O Livro-Caixa Real ¦ El Libro de Cuentas Real
+2bca3jscbiq ¦ O tesoureiro acompanha quem pagou os impostos. Linhas e colunas, arrumadas como um tabuleiro de xadrez. ¦ El tesorero lleva la cuenta de quién pagó sus impuestos. Filas y columnas, ordenadas como un tablero de ajedrez.
+20ltilf7cjn ¦ Monte uma tabela com uma linha de cabeçalho em `<thead>` (**Name** e **Gold**) e pelo menos **3 linhas de dados** em `<tbody>`. ¦ Construye una tabla con una fila de encabezado en `<thead>` (**Name** y **Gold**) y al menos **3 filas de datos** en `<tbody>`.
+95udaphslb ¦ Use tabelas só para dados em tabela, nunca para o layout da página (para isso existem o CSS Grid e o Flexbox). `<th scope="col">` diz às tecnologias assistivas que o cabeçalho rotula uma coluna. Adicione uma `<caption>` para dar um título à tabela. ¦ Usa tablas solo para datos tabulares, nunca para maquetar la página (para eso están CSS Grid y Flexbox). `<th scope="col">` les dice a las tecnologías de apoyo que el encabezado etiqueta una columna. Añade un `<caption>` para darle un título a la tabla.
+22l9uf6yjdp ¦ Comece com `<table>`, depois `<thead>` contendo um `<tr>` com dois `<th>`. ¦ Empieza con `<table>`, luego `<thead>` con un `<tr>` que tenga dos `<th>`.
+chl4foq8ma ¦ Depois `<tbody>` com três `<tr>`, cada um com dois `<td>`. ¦ Luego `<tbody>` con tres `<tr>`, cada uno con dos `<td>`.
+1o8z13hgia4 ¦ Há uma <table> ¦ Hay una <table>
+1pg3o5so52r ¦ A linha de cabeçalho tem "Name" e "Gold" em células <th> ¦ La fila de encabezado tiene "Name" y "Gold" en celdas <th>
+1pt5rc1bigp ¦ Pelo menos 3 linhas de dados no <tbody> ¦ Al menos 3 filas de datos en <tbody>
+aq1y7fr1ja ¦ As Perguntas do Porteiro ¦ Las Preguntas del Portero
+1tluucwvn18 ¦ O porteiro faz duas perguntas a cada viajante. Monte o formulário que ele entrega. ¦ El portero hace dos preguntas a cada viajero. Construye el formulario que reparte.
+23tan4p50vj ¦ Dentro do `<form>`, adicione um campo de texto para o **nome** e um campo numérico para a **idade**. Cada um precisa de um `<label>` ligado com `for`/`id`. Termine com um `<button>`. ¦ Dentro del `<form>`, añade un campo de texto para el **nombre** y un campo numérico para la **edad**. Cada uno necesita un `<label>` conectado con `for`/`id`. Termina con un `<button>`.
+f4bjoxit1u ¦ Os rótulos são um dos recursos de acessibilidade mais importantes: eles são lidos em voz alta quando o campo recebe o foco e aumentam a área de clique no celular. Um `placeholder` **não** substitui um rótulo (ele some quando você digita). Adicione `name="..."` para o valor ser enviado quando o formulário for submetido. ¦ Las etiquetas son una de las funciones de accesibilidad más importantes: se leen en voz alta cuando el campo recibe el foco y agrandan la zona de clic en el móvil. Un `placeholder` **no** sustituye a una etiqueta (desaparece al escribir). Añade `name="..."` para que el valor se envíe con el formulario.
+1888v2yyfft ¦ `<label for="age">Age</label>` + `<input id="age" type="number">`. O `for` precisa ser exatamente igual ao `id`. ¦ `<label for="age">Age</label>` + `<input id="age" type="number">`. El `for` debe coincidir exactamente con el `id`.
+97al37z5cf ¦ O botão: `<button>Enter</button>`. ¦ El botón: `<button>Enter</button>`.
+2y9bvshp4k ¦ Um campo de texto dentro do formulário ¦ Un campo de texto dentro del formulario
+7rxtwmve5e ¦ Um campo numérico dentro do formulário ¦ Un campo numérico dentro del formulario
+16qxe9zojj3 ¦ Todo campo tem um rótulo ligado com for/id ¦ Todos los campos tienen una etiqueta conectada con for/id
+wsvsybi1qy ¦ Cada campo precisa de um id, e de um label com for="esse-id". ¦ Cada campo necesita un id, y una etiqueta con for="ese-id".
+1jd84z6aw5x ¦ O formulário tem um botão ¦ El formulario tiene un botón
+1dpqbd7axm0 ¦ Os campos têm um atributo name ¦ Los campos tienen un atributo name
+15ukybs5fk5 ¦ Escolha Seu Caminho ¦ Elige tu Camino
+2neswqb1ve ¦ Os novos recrutas precisam escolher uma guilda, uma arma e dizer se sabem nadar. ¦ Los nuevos reclutas deben elegir un gremio, un arma y decir si saben nadar.
+1774fey26ag ¦ Adicione um `<select>` com pelo menos 3 guildas, um grupo de pelo menos 2 botões **radio** que compartilham um `name` e uma **checkbox**. Todo campo precisa de um rótulo. ¦ Añade un `<select>` con al menos 3 gremios, un grupo de al menos 2 botones **radio** que compartan un `name`, y una **casilla** (checkbox). Cada campo necesita una etiqueta.
+2ei8hffs7s ¦ Agrupe botões radio relacionados num `<fieldset>` com uma `<legend>`: os leitores de tela anunciam a legenda como a pergunta. Use um `<select>` quando houver muitas opções e radios quando houver poucas (2–5) e você quiser todas visíveis. ¦ Agrupa los botones radio relacionados en un `<fieldset>` con una `<legend>`: los lectores de pantalla anuncian la leyenda como la pregunta. Usa un `<select>` cuando hay muchas opciones y radios cuando hay pocas (2–5) y quieres verlas todas.
+1uhpc9m1g6j ¦ Radios: dê a todos o mesmo `name`, como `name="weapon"`, mas ids diferentes. ¦ Radios: ponles a todos el mismo `name`, como `name="weapon"`, pero ids distintos.
+p010mmi6ic ¦ Checkbox: `<input type="checkbox" id="swim"> <label for="swim">I can swim</label>` ¦ Casilla: `<input type="checkbox" id="swim"> <label for="swim">I can swim</label>`
+2ccnr6rh875 ¦ Um <select> com pelo menos 3 opções ¦ Un <select> con al menos 3 opciones
+2g89jyic2hn ¦ Pelo menos 2 botões radio com o mesmo name ¦ Al menos 2 botones radio con el mismo name
+1i3sjaxwbye ¦ Uma checkbox ¦ Una casilla (checkbox)
+1pr1jxzb8hp ¦ Todo campo e select tem um rótulo ¦ Todos los campos y select tienen etiqueta
+2573vu5q2mb ¦ Os radios estão agrupados num <fieldset> com uma <legend> ¦ Los radios están agrupados en un <fieldset> con una <legend>
+m8oeera3n8 ¦ Cômodos com Significado ¦ Salas con Significado
+2fr12dmirnb ¦ HTML semântico ¦ HTML semántico
+1xawuzp4wpk ¦ Um castelo tem uma portaria, um grande salão e uma adega. Uma página também tem cômodos, e cada cômodo tem um propósito. ¦ Un castillo tiene una garita, un gran salón y una bodega. Una página también tiene salas, y cada sala tiene un propósito.
+uw484wqyhw ¦ Transforme a página em cômodos de verdade: um `<header>` com o `<h1>`, um `<nav>` com links, um `<main>` contendo uma `<section>` ou `<article>`, e um `<footer>`. ¦ Convierte la página en salas como es debido: un `<header>` con el `<h1>`, un `<nav>` con enlaces, un `<main>` que contenga una `<section>` o un `<article>`, y un `<footer>`.
+bg2srsi06n ¦ Quem usa leitor de tela pode pular direto para o `<main>` ou o `<nav>` ("pontos de referência"). Uma `<div>` não tem significado: use-a só quando nenhuma tag semântica servir (por exemplo, só para agrupar coisas para estilizar). Esse é um dos jeitos mais fáceis de deixar sites mais acessíveis, e é uma pergunta comum em entrevistas para júnior. ¦ Quienes usan lector de pantalla pueden saltar directamente a `<main>` o `<nav>` ("puntos de referencia"). Un `<div>` no tiene significado: úsalo solo cuando no encaje ninguna etiqueta semántica (por ejemplo, solo para agrupar cosas para darles estilo). Es una de las formas más fáciles de hacer los sitios más accesibles, y suele preguntarse en entrevistas para júnior.
+2bnu77651io ¦ Envolva o `<h1>` em `<header>...</header>` e os links em `<nav>...</nav>`. ¦ Envuelve el `<h1>` en `<header>...</header>` y los enlaces en `<nav>...</nav>`.
+116hd7wkktc ¦ Coloque a história em `<main><article>...</article></main>` e a última linha em `<footer>`. ¦ Pon la historia en `<main><article>...</article></main>` y la última línea en `<footer>`.
+2945d2n0ksc ¦ O <h1> está dentro de um <header> ¦ El <h1> está dentro de un <header>
+21evp2j7p70 ¦ Os links estão dentro de um <nav> ¦ Los enlaces están dentro de un <nav>
+19e8ei66guy ¦ Há um <main> com uma <section> ou <article> dentro ¦ Hay un <main> con una <section> o un <article> dentro
+1ucjah89d55 ¦ A história (h2 + parágrafo) está dentro do <main> ¦ La historia (h2 + párrafo) está dentro de <main>
+xg8dl1abg6 ¦ Há um <footer> ¦ Hay un <footer>
+71ab7t5dgn ¦ O Cardápio da Taverna ¦ El Menú de la Taberna
+e28cwzh6vf ¦ O taverneiro do *Ponteiro Empinado* precisa de uma página web antes da festa da colheita. Use todas as pedras que você aprendeu a assentar. Abra a aba **Objetivo** para ver um exemplo. ¦ El tabernero de *El Puntero Encabritado* necesita una página web antes de la fiesta de la cosecha. Usa todas las piedras que aprendiste a colocar. Abre la pestaña **Objetivo** para ver un ejemplo.
+1mbfw9ublhl ¦ Projetos de verdade começam exatamente assim: estrutura primeiro (HTML), depois estilo (CSS), depois comportamento (JavaScript). Se o HTML estiver limpo e semântico, estilizar e programar ficam muito mais fáceis. Experimente o **validador do W3C** (validator.w3.org) nos seus projetos reais. ¦ Los proyectos reales empiezan exactamente así: primero la estructura (HTML), luego el estilo (CSS), luego el comportamiento (JavaScript). Si el HTML es limpio y semántico, dar estilo y programar es mucho más fácil. Prueba el **validador del W3C** (validator.w3.org) con tus proyectos reales.
+oitfmcc5uu ¦ Vá seção por seção, usando a aba Objetivo como guia. Confira seus objetivos com frequência lançando o feitiço. ¦ Ve sección por sección, con la pestaña Objetivo como guía. Comprueba tus objetivos a menudo lanzando el hechizo.
+1hjcd4lkb9t ¦ Lembre-se: todo campo precisa de um `<label for>` com um `id` correspondente. ¦ Recuerda: cada campo necesita un `<label for>` con un `id` que coincida.
+2ajkdhphnrg ¦ <header> com um <h1> ¦ <header> con un <h1>
+14evzb3y76w ¦ <nav> com 3 links ¦ <nav> con 3 enlaces
+2en5fkoeioo ¦ O <main> mostra tavern.svg com texto alternativo ¦ El <main> muestra tavern.svg con texto alternativo
+47vlg1bjo3 ¦ Uma lista de cardápio com pelo menos 4 pratos ¦ Una lista de menú con al menos 4 platos
+17ib1shpey8 ¦ Uma tabela de horários com 2+ linhas de dados ¦ Una tabla de horarios con 2+ filas de datos
+1da73ro36x ¦ Um formulário com um campo rotulado e um botão ¦ Un formulario con un campo etiquetado y un botón
+27uz863nmn ¦ Um <footer> ¦ Un <footer>

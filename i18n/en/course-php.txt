@@ -1,0 +1,301 @@
+@@ 15l6oszma4g
+The Elephant Guildhall
+@@ 2068y32ol3d
+Server-side PHP 8: variables, arrays, functions, forms, security, classes, databases with PDO, Composer and Laravel.
+@@ 7r9n99xjmn
+PHP Basics
+@@ 1z7pm1i3jyb
+echo, variables, strings and numbers.
+@@ df8mprtct
+
+**Key ideas**
+- PHP runs on the **server** and sends HTML to the browser. Files start with `<?php`.
+- `echo` prints. Statements end with `;`.
+- Variables start with `$`: `$name = "Ada";`. Join strings with `.`; double quotes put variables inside: `"Hi $name"`.
+- PHP powers WordPress, Wikipedia and Laravel apps.
+@@ 18qlg38jhb
+What is PHP?
+@@ 151n5k68c15
+The Guildhall
+@@ pku191z0s1
+PHP is a **server-side** language: it runs on the web server, builds a page, and sends the HTML to the browser.
+
+```
+<?php
+echo "<h1>Welcome!</h1>";
+```
+Around 75% of websites that use a server language use PHP, including **WordPress** and apps built with **Laravel**.
+@@ 203xpw9qvgn
+Where does PHP code run?
+@@ ykd8rm4lk9
+On the web server
+@@ bytz60dq5j
+In the browser
+@@ 16hdo73gs8j
+On the graphics card
+@@ zurvq4ilkh
+Match
+@@ 188p3y4w5az
+A CMS built with PHP
+@@ enx5rypv4d
+Laravel
+@@ 1ccy6uf5wwe
+A PHP framework
+@@ 1gn8rfk63zf
+Composer
+@@ a81a10w7ii
+PHP package manager
+@@ igqct2da21
+Prints output
+@@ 8244prx2f9
+Which line is missing something?
+@@ 1aog5320jfo
+Each statement ends with a semicolon: `echo "Two";`
+@@ ejzi6sy9d8
+Variables and strings
+@@ 2bm3cl5vs47
+Dollar signs
+@@ rg86ozcvdy
+Single quotes keep the text exactly as it is.
+@@ mmaxyr77je
+Make a variable
+@@ 4zupucbgw3
+How do you join two strings in PHP?
+@@ 1e2gb155sd8
+With a dot: $a . $b
+@@ 11sespc6pro
+With a plus: $a + $b
+@@ 28siok9fj5z
+With &&
+@@ 10vjremn7g3
+With a comma only
+@@ 24znp9ocovg
+Numbers and types
+@@ mlo0qnyeyq
+Numbers
+@@ 6i3b9rz2er
+```
+<?php
+echo 7 + 3;        // 10
+echo 7 / 2;        // 3.5
+echo intdiv(7, 2); // 3
+echo 7 % 2;        // 1
+echo 2 ** 3;       // 8
+var_dump(3.0);     // float(3)
+```
+`var_dump()` shows a value and its type: useful for debugging.
+@@ bx4lnxjos3
+Match the type
+@@ 2dknrlc68xm
+Control and Arrays
+@@ 20ra65u6sc0
+if, loops, arrays and functions.
+@@ 1j3605rkhx3
+
+**Key ideas**
+- `if (...) { } elseif (...) { } else { }`. Compare with `===` (value and type) rather than `==`.
+- Loops: `for`, `while`, and `foreach ($items as $item)`.
+- Arrays: `[1, 2, 3]` and associative arrays `["name" => "Ada"]`. `count()`, `$a[] = x` to add.
+- Functions: `function add(int $a, int $b): int { return $a + $b; }`.
+@@ 1v3rgyjtv18
+Decisions
+@@ 22ox47t5rk2
+if, elseif, else
+@@ or930m2kv1
+```
+<?php
+$gold = 30;
+if ($gold >= 50) {
+    echo "Buy the sword";
+} elseif ($gold >= 20) {
+    echo "Buy the dagger";
+} else {
+    echo "Keep saving";
+}
+```
+Use `===` to compare: `"1" == 1` is true, but `"1" === 1` is false.
+@@ oke4lkx9uz
+Why prefer `===` over `==`?
+@@ svq1ouut6d
+It also checks the type
+@@ 1twmezhxos1
+It is faster to type
+@@ 2cdhl7w58y5
+It works on arrays only
+@@ 27lge5tf1ik
+There is no difference
+@@ 9fs2jnjj8t
+Loops and arrays
+@@ jyb9m6jk92
+Lists of things
+@@ 1y5iq1b1bh4
+Loop over every item
+@@ 9xuc713u82
+How do you add "Dax" to the end of `$heroes`?
+@@ 2a34nnnia6j
+Associative arrays and functions
+@@ 29afkxijmg2
+Keys and functions
+@@ 1sldebmxmza
+```
+<?php
+$hero = ["name" => "Ada", "level" => 12];
+echo $hero["name"];
+foreach ($hero as $key => $value) {
+    echo "$key: $value\n";
+}
+
+function greet(string $name, string $title = "traveller"): string {
+    return "Hello $title $name";
+}
+echo greet("Ada");
+```
+Type hints (`string`, `int`) catch mistakes early.
+@@ 1dw7oazgd41
+How many items
+@@ 7m43dpr0c5
+Adds all values
+@@ 1c4s2s4wgaa
+Is a value inside?
+@@ 83cyck7aza
+List of the keys
+@@ 1dgfzbaawcc
+PHP on the Web
+@@ 9wtikgk0xh
+Forms, security, sessions and databases.
+@@ cq2uxaghs7
+
+**Key ideas**
+- Form data arrives in `$_GET` (from the URL) and `$_POST` (from a form).
+- **Never trust user input.** Escape output with `htmlspecialchars()` (stops XSS).
+- Talk to databases with **PDO** and **prepared statements** (stops SQL injection): `$stmt = $pdo->prepare("SELECT * FROM users WHERE id = ?"); $stmt->execute([$id]);`
+- `session_start()` and `$_SESSION` remember a user between pages. Hash passwords with `password_hash()`.
+@@ 277ykg6rqzl
+Forms and superglobals
+@@ 18h9shmqj17
+Reading a form
+@@ zdszqr2hp4
+A form sends data to a PHP page:
+
+```
+<form method="post" action="join.php">
+  <input name="hero">
+  <button>Join</button>
+</form>
+```
+```
+<?php // join.php
+$hero = $_POST["hero"] ?? "";
+echo "Welcome, " . htmlspecialchars($hero);
+```
+`??` gives a default when the value is missing.
+@@ 1l6ybfj531c
+Values from the URL (?page=2)
+@@ 7zs1sdrufw
+Values sent by a form
+@@ 26knug2n1r4
+Remembered between pages
+@@ 282k5yskdlm
+Small data stored in the browser
+@@ 11qy0yrzxbd
+What does `$_GET["page"] ?? 1` give when there is no page in the URL?
+@@ 1lqpvbj6o9l
+Security first
+@@ 1q1nmgadabe
+Never trust input
+@@ 27958tm6441
+Two classic attacks:
+
+- **XSS**: someone types `<script>` into a form. Fix: `echo htmlspecialchars($text);`
+- **SQL injection**: someone types `' OR 1=1 --`. Fix: **prepared statements**:
+
+```
+$stmt = $pdo->prepare("SELECT * FROM heroes WHERE name = ?");
+$stmt->execute([$name]);
+$hero = $stmt->fetch();
+```
+And store passwords with `password_hash()`, check them with `password_verify()`.
+@@ 1hxwuzs42l1
+Which line is dangerous?
+@@ zlze2omhua
+Putting user input directly into SQL allows SQL injection. Use `prepare()` with `?` placeholders.
+@@ 26jbrpslfwp
+How should passwords be stored?
+@@ g9w6499exw
+With password_hash()
+@@ 5j58htoce8
+As plain text
+@@ 136a1y7s04w
+With md5()
+@@ 1ybllwebyhm
+In a cookie
+@@ te90cpx57z
+`md5` is far too fast to crack. `password_hash` uses a slow, salted algorithm (bcrypt or argon2).
+@@ 1815hvtd7ku
+Prepared statements protect against SQL injection.
+@@ gbca2xnan5
+Modern PHP
+@@ tt4av7n04j
+Classes, Composer, Laravel and a project.
+@@ rej9u0zyro
+
+**Key ideas**
+- Classes: properties, `__construct`, `$this->`, `public`/`private`. Namespaces organise code.
+- **Composer** installs packages (`composer require monolog/monolog`) and autoloads classes.
+- **Laravel** (routes, controllers, Blade views, Eloquent ORM, migrations) and **Symfony** are the big frameworks.
+- PSR-12 is the common code style; PHPUnit or Pest run tests.
+@@ kyumyxv71p
+Classes and objects
+@@ 11ij1iyycqt
+Objects in PHP
+@@ 1fgd072l94q
+Call a method
+@@ 1bn1y17sxst
+Anyone can use it
+@@ 27a9k053gdz
+Only inside the class
+@@ 6oset8txm8
+The current object
+@@ 2afduy2ylik
+Creates an object
+@@ 6i3nbpagvx
+Composer and Laravel
+@@ 1wiacngnujq
+The modern toolbox
+@@ kw7sho395j
+Real PHP projects use **Composer**:
+
+```
+composer require guzzlehttp/guzzle
+```
+It writes `composer.json`, downloads to `vendor/`, and gives you `require "vendor/autoload.php";`.
+
+**Laravel** is the most popular framework:
+
+```
+// routes/web.php
+Route::get("/heroes/{id}", [HeroController::class, "show"]);
+```
+It brings **Eloquent** (an ORM: `Hero::where("level", ">", 10)->get()`), **Blade** templates and **migrations** for the database.
+@@ f47tzol2la
+Match the Laravel piece
+@@ 21y338fq4ci
+Route
+@@ 179rolyycki
+Maps a URL to code
+@@ 1r61y40sjry
+Controller
+@@ 27nn6d4tqgj
+Handles the request
+@@ 1m87yju82kr
+Eloquent
+@@ kbas5fto1m
+Talks to the database
+@@ wdeb6jk023
+Blade
+@@ ac1ljnrrpu
+HTML templates
+@@ 21e5t81ti0j
+Start a Laravel project
+@@ kqwnbjt34m
+Where does Composer put downloaded packages?

@@ -1,0 +1,298 @@
+@@ h4q1ire5zr
+
+**Ideias principais**
+- Bancos **NoSQL** não usam tabelas. O MongoDB guarda **documentos** (objetos parecidos com JSON) em **coleções**.
+- Documentos da mesma coleção podem ter campos diferentes (esquema flexível). Cada um tem um `_id`.
+- `db.heroes.find({ level: { $gt: 10 } })`, operadores: `$gt $gte $lt $in $ne`, `$and`, `$or`.
+- `insertOne`, `updateOne({...}, { $set: {...} })`, `deleteOne`.
+~~
+
+**Ideas clave**
+- Las bases de datos **NoSQL** no usan tablas. MongoDB guarda **documentos** (objetos parecidos a JSON) en **colecciones**.
+- Los documentos de una colección pueden tener campos distintos (esquema flexible). Cada uno tiene un `_id`.
+- `db.heroes.find({ level: { $gt: 10 } })`, operadores: `$gt $gte $lt $in $ne`, `$and`, `$or`.
+- `insertOne`, `updateOne({...}, { $set: {...} })`, `deleteOne`.
+@@ lhrbi0blnw
+Um **banco de documentos** como o MongoDB guarda os dados como documentos:
+
+[[1]]
+Os documentos moram em **coleções** (como uma tabela, mas cada documento pode ter seu próprio formato). Arrays e objetos aninhados são normais.
+~~
+Una **base de datos de documentos** como MongoDB guarda los datos como documentos:
+
+[[1]]
+Los documentos viven en **colecciones** (como una tabla, pero cada documento puede tener su propia forma). Los arrays y los objetos anidados son normales.
+@@ 256xhz2i4w5
+
+**Ideias principais**
+- **Índices** deixam as consultas rápidas: `db.heroes.createIndex({ name: 1 })`.
+- **Pipeline de agregação**: `$match` → `$group` → `$sort`, como WHERE / GROUP BY / ORDER BY.
+- **Embuta** os dados que você lê juntos; **referencie** dados compartilhados por muitos documentos.
+- O **Redis** é um banco chave-valor em memória: caches, sessões, contadores, filas.
+- Escolha SQL para relacionamentos fortes e transações; NoSQL para formatos flexíveis, escala enorme ou velocidade.
+~~
+
+**Ideas clave**
+- Los **índices** hacen rápidas las consultas: `db.heroes.createIndex({ name: 1 })`.
+- **Pipeline de agregación**: `$match` → `$group` → `$sort`, como WHERE / GROUP BY / ORDER BY.
+- **Incrusta** los datos que lees juntos; **referencia** los datos que comparten muchos documentos.
+- **Redis** es un almacén clave-valor en memoria: cachés, sesiones, contadores, colas.
+- Elige SQL para relaciones fuertes y transacciones; NoSQL para formas flexibles, escala enorme o velocidad.
+@@ 1n586354zjt
+[[1]]
+Sem um índice, o banco lê **todos** os documentos (uma varredura da coleção).
+~~
+[[1]]
+Sin un índice, la base de datos lee **todos** los documentos (un recorrido completo de la colección).
+@@ zovm10u8xf
+**Embuta** quando os dados pertencem a um só pai e são lidos juntos:
+
+[[1]]
+**Referencie** quando muitos documentos os compartilham ou eles crescem sem limite:
+
+[[2]]
+Um post de blog pode embutir suas tags, mas deve referenciar o autor (compartilhado por muitos posts).
+~~
+**Incrusta** cuando los datos pertenecen a un solo padre y se leen juntos:
+
+[[1]]
+**Referencia** cuando muchos documentos los comparten o crecen sin límite:
+
+[[2]]
+Una entrada de blog puede incrustar sus etiquetas, pero debería referenciar a su autor (compartido por muchas entradas).
+@@ 9kyumccewd
+O **Redis** guarda os dados na memória, então é extremamente rápido:
+
+[[1]]
+Usos comuns: **caches**, **sessões**, contadores, limites de requisições e filas.
+
+Outras famílias NoSQL: **colunas largas** (Cassandra), **grafo** (Neo4j), **busca** (Elasticsearch).
+~~
+**Redis** guarda los datos en memoria, así que es rapidísimo:
+
+[[1]]
+Usos habituales: **cachés**, **sesiones**, contadores, límites de peticiones y colas.
+
+Otras familias NoSQL: **columnas anchas** (Cassandra), **grafo** (Neo4j), **búsqueda** (Elasticsearch).
+@@ grxqfyk74o
+
+**Ideias principais**
+- TypeScript = JavaScript + **tipos**. O compilador (`tsc`) confere seu código e depois gera JavaScript puro.
+- Anotações: `let gold: number = 5`, `name: string`, `alive: boolean`, `tags: string[]`.
+- **Inferência**: `let gold = 5` já é um `number`. Anote os parâmetros e retornos das funções.
+- `any` desliga a verificação (evite). `unknown` é o "qualquer coisa" seguro (você precisa conferir antes).
+- Os tipos desaparecem na execução: não custam nada no navegador.
+~~
+
+**Ideas clave**
+- TypeScript = JavaScript + **tipos**. El compilador (`tsc`) revisa tu código y luego genera JavaScript normal.
+- Anotaciones: `let gold: number = 5`, `name: string`, `alive: boolean`, `tags: string[]`.
+- **Inferencia**: `let gold = 5` ya es un `number`. Anota los parámetros y los valores de retorno de las funciones.
+- `any` desactiva la comprobación (evítalo). `unknown` es el "cualquier cosa" seguro (tienes que comprobarlo antes).
+- Los tipos desaparecen al ejecutar: no cuestan nada en el navegador.
+@@ s1lsie1vt7
+O TypeScript acrescenta **tipos** ao JavaScript:
+
+[[1]]
+O compilador do TypeScript confere seu código e depois gera JavaScript puro. Os editores usam os tipos para o autocompletar.
+~~
+TypeScript añade **tipos** a JavaScript:
+
+[[1]]
+El compilador de TypeScript revisa tu código y luego genera JavaScript normal. Los editores usan los tipos para autocompletar.
+@@ 97x6wxfl7u
+
+**Ideias principais**
+- Descreva objetos com `interface Hero { name: string; level: number; title?: string }` ou `type Hero = { ... }`.
+- `?` = propriedade opcional; `readonly` = não pode mudar.
+- União: `string | number`. União de literais: `type Dir = "up" | "down"`.
+- **Estreitamento**: confira antes de usar: `if (typeof x === "string")`, `if (hero)`, `x?.y`, `??`.
+- `strictNullChecks` obriga você a tratar `undefined`/`null`.
+~~
+
+**Ideas clave**
+- Describe objetos con `interface Hero { name: string; level: number; title?: string }` o `type Hero = { ... }`.
+- `?` = propiedad opcional; `readonly` = no puede cambiar.
+- Unión: `string | number`. Unión de literales: `type Dir = "up" | "down"`.
+- **Estrechamiento**: comprueba antes de usar: `if (typeof x === "string")`, `if (hero)`, `x?.y`, `??`.
+- `strictNullChecks` te obliga a manejar `undefined`/`null`.
+@@ 1s17lcrooq9
+[[1]]
+Conferir o tipo dentro de um `if` se chama **estreitamento** (narrowing).
+~~
+[[1]]
+Comprobar el tipo dentro de un `if` se llama **estrechamiento** (narrowing).
+@@ n3rr69gfe1
+
+**Ideias principais**
+- **Genéricos** são parâmetros de tipo: `function first<T>(items: T[]): T | undefined`. Você já os usa: `Array<T>`, `Promise<T>`.
+- Classes: `private`, `public`, `readonly`, `implements`.
+- Tipos utilitários: `Partial<T>` (tudo opcional), `Pick<T, "a">`, `Omit<T, "a">`, `Record<K, V>`.
+- Projetos: `tsconfig.json` com `"strict": true`; pacotes de tipos `@types/...`; no React, tipe as props com uma interface.
+~~
+
+**Ideas clave**
+- Los **genéricos** son parámetros de tipo: `function first<T>(items: T[]): T | undefined`. Ya los usas: `Array<T>`, `Promise<T>`.
+- Clases: `private`, `public`, `readonly`, `implements`.
+- Tipos de utilidad: `Partial<T>` (todo opcional), `Pick<T, "a">`, `Omit<T, "a">`, `Record<K, V>`.
+- Proyectos: `tsconfig.json` con `"strict": true`; paquetes de tipos `@types/...`; en React, pon tipos a las props con una interfaz.
+@@ seep08mf34
+- O `tsconfig.json` configura o compilador. Ligue sempre `"strict": true`.
+- As bibliotecas trazem tipos, ou eles ficam em pacotes `@types/...` (ex.: `@types/node`).
+- No React, tipe as props:
+
+[[1]]
+- Vite, Next.js e outros compilam TS automaticamente.
+~~
+- `tsconfig.json` configura el compilador. Activa siempre `"strict": true`.
+- Las librerías traen tipos, o los tienen en paquetes `@types/...` (p. ej. `@types/node`).
+- En React, pon tipos a las props:
+
+[[1]]
+- Vite, Next.js y otros compilan TS automáticamente.
+@@ 1x9eqgvsvqq
+
+**Ideias principais**
+- O **Node.js** roda JavaScript em servidores e computadores (sem DOM, sem `window`).
+- Usado para servidores web, APIs, ferramentas de linha de comando e ferramentas de build (npm e Vite são programas Node).
+- Módulos: CommonJS `require()` / `module.exports`, ou módulos ES `import` / `export` (`"type": "module"` no package.json).
+- `process.env` guarda variáveis de ambiente (segredos, portas). Arquivos `.env` são carregados no desenvolvimento.
+- Rodar um arquivo: `node server.js`; reiniciar a cada mudança: `node --watch server.js`.
+~~
+
+**Ideas clave**
+- **Node.js** ejecuta JavaScript en servidores y ordenadores (sin DOM, sin `window`).
+- Se usa para servidores web, APIs, herramientas de línea de comandos y de build (npm y Vite son programas de Node).
+- Módulos: CommonJS `require()` / `module.exports`, o módulos ES `import` / `export` (`"type": "module"` en package.json).
+- `process.env` guarda las variables de entorno (secretos, puertos). Los archivos `.env` se cargan en desarrollo.
+- Ejecutar un archivo: `node server.js`; reiniciar con cada cambio: `node --watch server.js`.
+@@ 1oqyqx9hsal
+O **Node.js** pega o motor de JavaScript do Chrome (V8) e o roda fora do navegador. Com o Node você pode:
+- criar servidores web e APIs
+- ler e escrever arquivos
+- criar ferramentas de linha de comando
+
+No Node não existe `document` nem `window`: não há página!
+~~
+**Node.js** toma el motor de JavaScript de Chrome (V8) y lo ejecuta fuera del navegador. Con Node puedes:
+- crear servidores web y APIs
+- leer y escribir archivos
+- crear herramientas de línea de comandos
+
+En Node no hay `document` ni `window`: ¡no hay página!
+@@ 1aczlcif3k8
+Servidores leem configurações de **variáveis de ambiente**:
+
+[[1]]
+No desenvolvimento elas costumam vir de um arquivo `.env` (nunca vai para o commit). As plataformas de hospedagem deixam você defini-las num painel.
+~~
+Los servidores leen su configuración de **variables de entorno**:
+
+[[1]]
+En desarrollo suelen venir de un archivo `.env` (nunca va en el commit). Las plataformas de hosting te dejan definirlas en un panel.
+@@ wnp4uetd9c
+
+**Ideias principais**
+- `const app = express();` e depois `app.get(path, (req, res) => ...)`, `app.post`, `app.patch`, `app.delete`.
+- Responda com `res.send(text)`, `res.json(data)`, `res.status(404).json(...)`.
+- `req.params.id` vem de `/knights/:id` (sempre uma **string**), `req.query.house` de `?house=...`, `req.body` com `express.json()`.
+- `app.listen(3000)` inicia o servidor.
+~~
+
+**Ideas clave**
+- `const app = express();` y luego `app.get(path, (req, res) => ...)`, `app.post`, `app.patch`, `app.delete`.
+- Responde con `res.send(text)`, `res.json(data)`, `res.status(404).json(...)`.
+- `req.params.id` viene de `/knights/:id` (siempre un **string**), `req.query.house` de `?house=...`, `req.body` con `express.json()`.
+- `app.listen(3000)` arranca el servidor.
+@@ 12ppz32tym7
+[[1]]
+`req` é a requisição (o que chegou); `res` é a resposta (o que você devolve).
+~~
+[[1]]
+`req` es la petición (lo que llegó); `res` es la respuesta (lo que devuelves).
+@@ 104eqo4j8yn
+
+**Ideias principais**
+- Desenhe em torno de recursos: `/quests`, `/quests/:id`.
+- Valide a entrada e responda **400** com uma mensagem útil; **201** para criado; **204** para apagado.
+- Mantenha os handlers pequenos: ler a entrada → validar → fazer o trabalho → responder.
+- Os dados de verdade ficam num banco de dados (próxima seção: SQL).
+~~
+
+**Ideas clave**
+- Diseña en torno a recursos: `/quests`, `/quests/:id`.
+- Valida la entrada y responde **400** con un mensaje útil; **201** al crear; **204** al borrar.
+- Mantén pequeños los manejadores: leer la entrada → validar → hacer el trabajo → responder.
+- Los datos reales viven en una base de datos (siguiente sección: SQL).
+@@ 12ml4a02se7
+- Substantivos nas URLs, métodos para as ações: `POST /quests` (não `/createQuest`)
+- Códigos de status corretos
+- JSON consistente: `{ "error": "title is required" }`
+- Valide toda entrada no servidor
+- Versione APIs grandes: `/api/v1/...`
+~~
+- Sustantivos en las URLs, métodos para las acciones: `POST /quests` (no `/createQuest`)
+- Códigos de estado correctos
+- JSON coherente: `{ "error": "title is required" }`
+- Valida cada entrada en el servidor
+- Versiona las APIs grandes: `/api/v1/...`
+@@ xm84lzhnfj
+
+**Ideias principais**
+- **Middleware** `(req, res, next)` roda antes das rotas: logs, autenticação, parsing, CORS. A ordem importa.
+- Handlers de erro recebem quatro argumentos: `(err, req, res, next)`.
+- **Autenticação**: sessões (cookie + armazenamento no servidor) ou tokens (JWT no cabeçalho Authorization). Faça hash das senhas com bcrypt.
+- Publicar: defina variáveis de ambiente, use um banco gerenciado, acompanhe os logs. Hospedagens: Render, Railway, Fly.io, um VPS...
+~~
+
+**Ideas clave**
+- El **middleware** `(req, res, next)` se ejecuta antes de las rutas: logs, autenticación, parsing, CORS. El orden importa.
+- Los manejadores de errores reciben cuatro argumentos: `(err, req, res, next)`.
+- **Autenticación**: sesiones (cookie + almacenamiento en el servidor) o tokens (JWT en la cabecera Authorization). Haz hash de las contraseñas con bcrypt.
+- Publicar: define las variables de entorno, usa una base de datos gestionada, vigila los logs. Hostings: Render, Railway, Fly.io, un VPS...
+@@ s7sd5wufch
+O middleware roda em ordem, antes das suas rotas:
+
+[[1]]
+Se um middleware não chama `next()` e não responde, a requisição fica pendurada para sempre.
+~~
+El middleware se ejecuta en orden, antes de tus rutas:
+
+[[1]]
+Si un middleware no llama a `next()` y no responde, la petición se queda colgada para siempre.
+@@ 134s3hfee1t
+- **Autenticação**: quem é este usuário? (login)
+- **Autorização**: o que ele pode fazer? (só admin?)
+
+Duas abordagens comuns:
+- **Sessões**: o servidor guarda o login e dá um cookie ao navegador
+- **Tokens (JWT)**: o servidor assina um token; o cliente o envia em `Authorization: Bearer ...`
+
+Nunca guarde senhas em texto puro: faça hash com **bcrypt** ou **argon2**. Muitas equipes usam serviços como Auth0, Clerk ou Supabase Auth.
+~~
+- **Autenticación**: ¿quién es este usuario? (iniciar sesión)
+- **Autorización**: ¿qué puede hacer? (¿solo administradores?)
+
+Dos enfoques habituales:
+- **Sesiones**: el servidor guarda la sesión y le da una cookie al navegador
+- **Tokens (JWT)**: el servidor firma un token; el cliente lo envía en `Authorization: Bearer ...`
+
+Nunca guardes contraseñas en texto plano: haz hash con **bcrypt** o **argon2**. Muchos equipos usan servicios como Auth0, Clerk o Supabase Auth.
+@@ lcdnnas8py
+Para colocar uma API Node online:
+1. Envie o código para o GitHub
+2. Crie um serviço numa hospedagem (Render, Railway, Fly.io, um VPS...)
+3. Defina as variáveis de ambiente (`DATABASE_URL`, segredos)
+4. Conecte um banco de dados gerenciado
+5. Acompanhe os **logs** e configure o monitoramento
+
+A CI/CD pode publicar automaticamente quando a `main` passa nos testes.
+~~
+Para poner una API de Node en línea:
+1. Sube el código a GitHub
+2. Crea un servicio en un hosting (Render, Railway, Fly.io, un VPS...)
+3. Define las variables de entorno (`DATABASE_URL`, secretos)
+4. Conecta una base de datos gestionada
+5. Vigila los **logs** y configura la monitorización
+
+La CI/CD puede publicar automáticamente cuando `main` pasa sus pruebas.

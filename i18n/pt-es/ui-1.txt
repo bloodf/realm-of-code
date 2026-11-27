@@ -1,0 +1,1366 @@
+@@ pb3uoyyiot
+O que este código imprime?
+~~
+¿Qué imprime este código?
+@@ 1hnygwzeeez
+Verdadeiro
+~~
+Verdadero
+@@ 12u8s6vu2gj
+Falso
+~~
+Falso
+@@ 1gvnz6e2xg0
+Sua sequência apagou, mas uma nova começa hoje.
+~~
+Tu racha se apagó, pero hoy empieza una nueva.
+@@ 1e9e8tvkzg1
+{names} sentiu sua falta e {is} com fome.
+~~
+{names} te extrañó y {is} con hambre.
+@@ 1ga5p5t73gb
+estão
+~~
+están
+@@ 1gjz87otzfz
+está
+~~
+está
+@@ 515jj1uy57
+{n} plantações estão prontas na sua horta.
+~~
+{n} cultivos están listos en tu huerto.
+@@ 24g31cs2cn0
+{n} plantações murcharam. Limpe e plante de novo.
+~~
+{n} cultivos se marchitaron. Límpialos y vuelve a plantar.
+@@ 1wx7nvvk6wx
+Monstros entraram na vila! Expulse-os.
+~~
+¡Unos monstruos entraron en la aldea! Échalos.
+@@ q9d5wbku9w
+Sentimos sua falta, {name}!
+~~
+¡Te echamos de menos, {name}!
+@@ 2cc38t66mxw
+Bem-vindo de volta!
+~~
+¡Bienvenido de nuevo!
+@@ 4izux2bv7
+Está tudo calmo. Pronto para aprender?
+~~
+Todo está en calma. ¿Listo para aprender?
+@@ 1cmquyf71ng
+A vila está limpa de novo!
+~~
+¡La aldea está limpia otra vez!
+@@ q7kuitthjx
+Bônus de retorno: +50 de ouro. A Lumi está orgulhosa de você.
+~~
+Bono de regreso: +50 de oro. Lumi está orgullosa de ti.
+@@ 1tpl7oc65kz
+Lembretes ativados!
+~~
+¡Recordatorios activados!
+@@ 1j0vesy820h
+A Lumi vai lembrar você de manter sua sequência.
+~~
+Lumi te recordará mantener tu racha.
+@@ 1zfret7zafu
+Sua sequência de {n} dias está em perigo!
+~~
+¡Tu racha de {n} días está en peligro!
+@@ 1dxz7ucpgz9
+Uma lição curta mantém a chama acesa. A Lumi acredita em você.
+~~
+Una lección corta mantiene viva la llama. Lumi cree en ti.
+@@ d2hmrp5w5w
+{name} está esperando por você
+~~
+{name} te está esperando
+@@ 2cmvce5uxqh
+Seu pet está com fome e um pouco sozinho. Venha dar um oi!
+~~
+Tu mascota tiene hambre y se siente un poco sola. ¡Ven a saludarla!
+@@ pxk24qcg29
+Suas plantações estão prontas!
+~~
+¡Tus cultivos están listos!
+@@ 25l6bdykfrc
+{n} plantações esperam por você na horta.
+~~
+{n} cultivos te esperan en el huerto.
+@@ 1u0p1ukmjpn
+A Lumi sente sua falta!
+~~
+¡Lumi te extraña!
+@@ 27a2f9892hc
+Cinco minutos de estudo hoje? Sua próxima lição está esperando.
+~~
+¿Cinco minutos de estudio hoy? Tu próxima lección te espera.
+@@ 1qarckz11rr
+Lição
+~~
+Lección
+@@ rcmzsphsxe
+Minijogo
+~~
+Minijuego
+@@ 282k3q63ry7
+Batalha
+~~
+Batalla
+@@ at99v4jtm7
+Tour
+~~
+Recorrido
+@@ jegomwnmzl
+Mundo
+~~
+Mundo
+@@ jh1mxdp0xb
+Camponês
+~~
+Campesino
+@@ 1fsvixdo1pt
+Paladino
+~~
+Paladín
+@@ 1wl13ned22o
+Campeão
+~~
+Campeón
+@@ t7p1n65041
+Arquimago
+~~
+Archimago
+@@ 2d6zs5lf5dc
+Lenda
+~~
+Leyenda
+@@ 1np509zs6mc
+Missão concluída!
+~~
+¡Misión cumplida!
+@@ kml5a54bc6
+{0}. Pegue seu baú na página de Missões.
+~~
+{0}. Recoge tu cofre en la página de Misiones.
+@@ 2gol1ixovnw
+Nível {0}!
+~~
+¡Nivel {0}!
+@@ 2cijt03fkzf
+Seu herói fica mais forte.
+~~
+Tu héroe se hace más fuerte.
+@@ 1vbnm2jgt4j
+Troféu conquistado!
+~~
+¡Trofeo ganado!
+@@ 14rub2zdu5q
+Troféu lendário!
+~~
+¡Trofeo legendario!
+@@ 12la9hzjsn
+Casual
+~~
+Casual
+@@ 208fnz60wl1
+5 minutos por dia
+~~
+5 minutos al día
+@@ 23imb8j3x2a
+10 minutos por dia
+~~
+10 minutos al día
+@@ 1stl8ql02xz
+Sério
+~~
+En serio
+@@ 1yp3o1h2a60
+15 minutos por dia
+~~
+15 minutos al día
+@@ 27inaa48x
+Intenso
+~~
+Intenso
+@@ xbz1jns6di
+20+ minutos por dia
+~~
+20+ minutos al día
+@@ vaacn8my31
+Mago
+~~
+Mago
+@@ g7hp9ezwfk
+Patrulheiro
+~~
+Explorador
+@@ 2go077nv5eh
+O que você quer se tornar?
+~~
+¿En qué te quieres convertir?
+@@ 2aqbf2yij9f
+Escolha um objetivo. Você pode mudar de trilha quando quiser, e seu progresso vai junto!
+~~
+Elige una meta. Puedes cambiar de ruta cuando quieras, ¡y tu progreso te acompaña!
+@@ 1h4s1fd8ja9
+Quanto de código você já sabe?
+~~
+¿Cuánto sabes de programación?
+@@ c6ta6vls0u
+Aqui não existe resposta errada!
+~~
+¡Aquí no hay respuestas incorrectas!
+@@ 25we0p9oan4
+Escolha uma meta diária
+~~
+Elige una meta diaria
+@@ 185hozenhny
+Um pouco todo dia vale mais que muito uma vez por mês.
+~~
+Un poco cada día vale más que mucho una vez al mes.
+@@ 10p3k5zq5yi
+Como você prefere suas lições?
+~~
+¿Cómo prefieres tus lecciones?
+@@ 27ekb95z2xr
+Isso só muda as notas extras. Todos aprendem as mesmas habilidades.
+~~
+Esto solo cambia las notas extra. Todos aprenden las mismas habilidades.
+@@ mf12oc683f
+Crie seu herói
+~~
+Crea tu héroe
+@@ 1oz6wz4idxf
+Toda lenda precisa de um nome.
+~~
+Toda leyenda necesita un nombre.
+@@ mbyive52pc
+{0} lições
+~~
+{0} lecciones
+@@ 87vwn0mwtn
+Sou novo em programação
+~~
+Soy nuevo en programación
+@@ 1zfl4qc5e2m
+Comece do zero. Perfeito para crianças e adultos.
+~~
+Empieza desde cero. Perfecto para niños y adultos.
+@@ 12wqff3u3fc
+Já sei um pouco
+~~
+Ya sé algo
+@@ 1kxenxj1tso
+Comece do início, mas use a chave **Pular para cá** em qualquer unidade para fazer um teste curto e avançar.
+~~
+Empieza desde el principio, pero usa la llave **Saltar aquí** en cualquier unidad para hacer una prueba corta y avanzar.
+@@ 25ftyy8y2au
+Curtas e simples
+~~
+Cortas y sencillas
+@@ 1ti9qxpe6iq
+Só o essencial. Ótimo para crianças e pessoas ocupadas.
+~~
+Solo lo esencial. Ideal para niños y personas ocupadas.
+@@ fa999olb24
+Com detalhes do mundo real
+~~
+Con detalles del mundo real
+@@ 1fxu4lvo85o
+Adiciona as "Notas do Sábio" aos desafios: como as coisas funcionam num emprego de verdade, dicas de entrevista e boas práticas.
+~~
+Añade las "Notas del Sabio" a los desafíos: cómo funcionan las cosas en un trabajo real, consejos para entrevistas y buenas prácticas.
+@@ dtbhstxvf4
+Seu nome
+~~
+Tu nombre
+@@ 7gqysfvinh
+Nome
+~~
+Nombre
+@@ m79bdx71dp
+ex.: Ada
+~~
+p. ej.: Ada
+@@ 1h8qh0j4anc
+Classe
+~~
+Clase
+@@ 2cnzxzhynth
+Começar a aprender
+~~
+Empezar a aprender
+@@ 167vf3bxief
+Continuar
+~~
+Continuar
+@@ 3c0ukkydpe
+Vila
+~~
+Aldea
+@@ 1brl8e72f3m
+Academia
+~~
+Academia
+@@ 2ya9mwuy6n
+Sítio
+~~
+Rancho
+@@ rbl0z2caik
+Taverna
+~~
+Taberna
+@@ mw2fhy6czv
+Missões
+~~
+Misiones
+@@ 20hvuw6iada
+Habilidades
+~~
+Habilidades
+@@ 227z7lko6s0
+Troféus
+~~
+Trofeos
+@@ 1301h3t80d8
+Herói
+~~
+Héroe
+@@ 1mge26ozluc
+Configurações
+~~
+Ajustes
+@@ 2bnyu98kr2v
+Nv {n}
+~~
+Nv {n}
+@@ 1ihrzibv9s0
+Seu herói, nível {n}
+~~
+Tu héroe, nivel {n}
+@@ n8i5xkvn60
+Sequência, ouro, corações e itens
+~~
+Racha, oro, corazones y objetos
+@@ 21ety3yqhji
+Voltar
+~~
+Volver
+@@ 5ko7d20n8t
+Mais
+~~
+Más
+@@ 2cwcy0n8rnc
+Barra de viagem
+~~
+Barra de viaje
+@@ 27m794l92x7
+Ajuda
+~~
+Ayuda
+@@ 1rkypds2xst
+Entrar: {place}
+~~
+Entrar: {place}
+@@ zn59ul9eq9
+WASD ou setas para andar · Espaço ou Enter para agir · clique num prédio para ir até ele
+~~
+WASD o flechas para caminar · Espacio o Enter para actuar · haz clic en un edificio para ir allí
+@@ 16slpyz73v5
+Realm of Code
+~~
+Realm of Code
+@@ sdurigh0ug
+Um RPG em pixel art onde você aprende a programar: primeiro com blocos, depois com código de verdade.
+~~
+Un RPG de pixel art donde aprendes a programar: primero con bloques, luego con código de verdad.
+@@ 7jmrfssy0j
+Continuar como {0}
+~~
+Continuar como {0}
+@@ 1hrcascx9xg
+Ajuda e perguntas
+~~
+Ayuda y preguntas
+@@ 1rncc50vod0
+Começar
+~~
+Empezar
+@@ 24gxh6l86xx
+Já sei um pouco de código
+~~
+Ya sé algo de programación
+@@ 1myeg3784xz
+Conquista desbloqueada
+~~
+Logro desbloqueado
+@@ 1smyx66v049
+Subiu de nível
+~~
+Subiste de nivel
+@@ 2c2qks3iifv
+Troféu
+~~
+Trofeo
+@@ 24emjk4z7o1
+Novidades
+~~
+Novedades
+@@ 2hnmvuppbi
+Missão diária
+~~
+Misión diaria
+@@ 13pz1xr3uhm
+A Prova Júnior abre quando você concluir {n}% da sua trilha. Você está em {pct}%.
+~~
+La Prueba Júnior se abre cuando completes el {n}% de tu ruta. Vas por el {pct}%.
+@@ mw53vtfzte
+Este monstro já fugiu.
+~~
+Este monstruo ya huyó.
+@@ k83on979cn
+Não existe esse monstro aqui.
+~~
+Aquí no hay ningún monstruo así.
+@@ wr5th6yk3x
+Esta região ainda está fechada. Conclua mais lições primeiro.
+~~
+Esta región sigue cerrada. Completa más lecciones primero.
+@@ 22vy0ni9n0a
+A Prova Júnior
+~~
+La Prueba Júnior
+@@ 15624foauop
+Defesa da vila
+~~
+Defensa de la aldea
+@@ 1lnhtl72e2
+Combo ×{n}!
+~~
+¡Combo ×{n}!
+@@ 10hsjuw5ipa
+Um chefe apareceu! Chefes batem forte, então defenda e use poções.
+~~
+¡Aparece un jefe! Los jefes golpean fuerte, así que defiéndete y usa pociones.
+@@ n2amdlacsv
+Um {name} selvagem apareceu!
+~~
+¡Apareció un {name} salvaje!
+@@ 261ep2k2u5j
+Ataque respondendo perguntas e lance feitiços digitando palavras de código. Acertos seguidos fazem combos.
+~~
+Ataca respondiendo preguntas y lanza hechizos escribiendo palabras de código. Los aciertos seguidos hacen combos.
+@@ 1z261ruxa6f
+Lutar!
+~~
+¡A luchar!
+@@ 1d239q5kn5f
+Golpe
+~~
+Golpe
+@@ 2agyukf6vel
+Responda a uma pergunta
+~~
+Responde una pregunta
+@@ o9xl4uzmjc
+Feitiço
+~~
+Hechizo
+@@ 2cd5ubj2zvl
+Digite uma palavra de código
+~~
+Escribe una palabra de código
+@@ so6oebpt3o
+Defender
+~~
+Defender
+@@ 2ds4msgmg9z
+Reduz o próximo golpe à metade
+~~
+Reduce a la mitad el próximo golpe
+@@ 17vhx0m8h8z
+Poção ({n})
+~~
+Poción ({n})
+@@ qg0ikmbsdk
+Cura 40% da sua vida
+~~
+Cura el 40% de tu vida
+@@ 15cp74i4bzc
+TRÊS
+~~
+TRES
+@@ 2421dh26647
+Combo ×{n}! Você causa {d} de dano!
+~~
+¡Combo ×{n}! ¡Causas {d} de daño!
+@@ 13e5v5eni93
+Certo! Você causa {d} de dano!
+~~
+¡Correcto! ¡Causas {d} de daño!
+@@ zwq29pycns
+Lento demais!
+~~
+¡Demasiado lento!
+@@ bh4sow4wk
+Errou!
+~~
+¡Fallaste!
+@@ 1e101glxefi
+A resposta era: {a}
+~~
+La respuesta era: {a}
+@@ 1hpns3ahs83
+Digite a runa para lançar o feitiço:
+~~
+Escribe la runa para lanzar el hechizo:
+@@ 1xbhvlpjjbx
+O feitiço "{w}" causa {d} de dano!
+~~
+¡El hechizo "{w}" causa {d} de daño!
+@@ oofe6xzgtj
+O feitiço falhou!
+~~
+¡El hechizo falló!
+@@ x7j85djsmy
+Você ergue o escudo (+{n} de vida).
+~~
+Levantas el escudo (+{n} de vida).
+@@ zcner8mcx6
+Você bebe uma poção: +{n} de vida!
+~~
+Bebes una poción: ¡+{n} de vida!
+@@ 28cxfm9fdi2
+Fugir?
+~~
+¿Huir?
+@@ 1gq2lmtmtrf
+Você não perde nada, mas o monstro continua aqui.
+~~
+No pierdes nada, pero el monstruo se queda.
+@@ 1ckwgp1p1ob
+Continuar lutando
+~~
+Seguir luchando
+@@ ztah51sfqw
+{name} usa um ataque pesado!
+~~
+¡{name} usa un ataque pesado!
+@@ o5k0eoidk7
+{name} causa {d} de dano em você.
+~~
+{name} te causa {d} de daño.
+@@ ieu3k81taf
+O {name} deixou cair um ovo!
+~~
+¡El {name} soltó un huevo!
+@@ 1zpxfxj1lsf
+Você é um Desenvolvedor Júnior!
+~~
+¡Eres Desarrollador Júnior!
+@@ uyc5za6qls
+Você passou na Prova Júnior. Este é o nível de um desenvolvedor júnior: agora crie projetos, capriche no portfólio e se candidate!
+~~
+Superaste la Prueba Júnior. Este es el nivel de un desarrollador júnior: ahora crea proyectos, pule tu portafolio ¡y postúlate!
+@@ rpgmg3hwbk
+Você derrotou o {name}!
+~~
+¡Derrotaste al {name}!
+@@ 1jm4tktkhbk
+Desenvolvedor Júnior!
+~~
+¡Desarrollador Júnior!
+@@ e7c239o81v
+Vitória!
+~~
+¡Victoria!
+@@ 15l4kkbu3zo
++{n} de ouro
+~~
++{n} de oro
+@@ 1loey0hvfu5
+Um item: {item}!
+~~
+¡Un objeto: {item}!
+@@ 2dlmiyaj000
+Um ovo {r}!
+~~
+¡Un huevo {r}!
+@@ mhaht70o77
+A vila está um pouco mais segura.
+~~
+La aldea está un poco más segura.
+@@ 22hfpkc81ye
+De novo
+~~
+Otra vez
+@@ 1pevz48nsj5
+Você desmaiou...
+~~
+Te desmayaste...
+@@ 26wndg2mj27
+A Lumi levou você para casa. Você não perdeu nada. Faça mais algumas lições, suba de nível, leve poções e tente de novo!
+~~
+Lumi te llevó a casa. No perdiste nada. Haz algunas lecciones más, sube de nivel, lleva pociones ¡e inténtalo de nuevo!
+@@ 21yijj331bq
+Anda uma casa: "right" (direita), "left" (esquerda), "up" (cima) ou "down" (baixo)
+~~
+Camina una casilla: "right" (derecha), "left" (izquierda), "up" (arriba) o "down" (abajo)
+@@ 2cluuh17pj
+Planta "wheat" (trigo), "carrot" (cenoura) ou "pumpkin" (abóbora)
+~~
+Planta "wheat" (trigo), "carrot" (zanahoria) o "pumpkin" (calabaza)
+@@ vu8duh5pn1
+Termina o dia: plantas regadas crescem
+~~
+Termina el día: los cultivos regados crecen
+@@ 147r6bl8pr7
+Arranca o mato daqui
+~~
+Arranca la maleza de aquí
+@@ 2g79w4xhqa3
+Desce uma fileira e volta para a esquerda
+~~
+Baja una fila y vuelve al lado izquierdo
+@@ 2dlgmhtl8at
+Enche o regador (ao lado do lago)
+~~
+Llena la regadera (junto al estanque)
+@@ 1itv474gzlz
+O fazendeiro diz algo
+~~
+El granjero dice algo
+@@ 18zeku1fp95
+true se esta casa for terra arada seca
+~~
+true si esta casilla es tierra de cultivo seca
+@@ zg608zwwb5
+true se a planta aqui estiver madura
+~~
+true si el cultivo de aquí está maduro
+@@ 1te90ixzeho
+true se algo crescer aqui
+~~
+true si aquí crece algo
+@@ r955qmu37j
+true se houver mato aqui
+~~
+true si aquí hay maleza
+@@ 1xef2yn3f55
+true se esta casa for grama
+~~
+true si esta casilla es césped
+@@ 1hqp5g735fj
+true se você estiver em terra arada
+~~
+true si estás en tierra de cultivo
+@@ 1m9lajl6xbn
+true se der para andar nessa direção
+~~
+true si puedes caminar en esa dirección
+@@ 1tk7xwduxuf
+Quanta água tem no regador
+~~
+Cuánta agua hay en la regadera
+@@ 21q2j8ahpgy
+Esse campo não existe.
+~~
+Ese campo no existe.
+@@ 28880axkger
+Conclua primeiro o campo anterior.
+~~
+Completa primero el campo anterior.
+@@ 1odvxz2mqux
+Voltar à fazenda
+~~
+Volver a la granja
+@@ 173plui2fah
+A Bess está buscando os blocos...
+~~
+Bess está trayendo los bloques...
+@@ 2fhdrjafxpr
+Capítulo {n}
+~~
+Capítulo {n}
+@@ 12ud6om16ni
+BLOCOS
+~~
+BLOQUES
+@@ 24m5djzt8b7
+BLOCOS + CÓDIGO
+~~
+BLOQUES + CÓDIGO
+@@ 1xtxr4qsk9s
+JAVASCRIPT
+~~
+JAVASCRIPT
+@@ ph3t13e1fo
+Dia {0}
+~~
+Día {0}
+@@ nnurxw805m
+Parar
+~~
+Detener
+@@ 2554s8khkhe
+Reiniciar
+~~
+Reiniciar
+@@ 7yfrchjsi5
+Objetivos
+~~
+Objetivos
+@@ 2eryvctw971
+Sem erros
+~~
+Sin errores
+@@ 26axyv1d07a
+{0} {1} ou menos
+~~
+{0} {1} o menos
+@@ 1c5o0kj0t09
+Fazenda
+~~
+Granja
+@@ ht1yqye90b
+Blocos
+~~
+Bloques
+@@ 1r267ijeglo
+O código
+~~
+El código
+@@ an6c6z7hj2
+Digitar em vez disso
+~~
+Escribirlo en su lugar
+@@ 2596aaufi0s
+Seu programa
+~~
+Tu programa
+@@ vn78136ty8
+Este é o JavaScript que seus blocos geram. Ele faz exatamente a mesma coisa.
+~~
+Este es el JavaScript que generan tus bloques. Hace exactamente lo mismo.
+@@ vkqdt2i299
+◀ Arraste um bloco da esquerda e solte embaixo de "quando ▶ Executar"
+~~
+◀ Arrastra un bloque desde la izquierda y suéltalo debajo de "al ▶ Ejecutar"
+@@ 15wwozm2wan
+Comandos
+~~
+Comandos
+@@ 2fa3ibo3qce
+{0} linhas · 3ª estrela com {1} ou menos
+~~
+{0} líneas · 3.ª estrella con {1} o menos
+@@ nrysefz3fl
+Seu código
+~~
+Tu código
+@@ 2a2a61poc73
+{0} {1} · 3ª estrela com {2} ou menos
+~~
+{0} {1} · 3.ª estrella con {2} o menos
+@@ 1gexugb9v12
+Dica grátis
+~~
+Pista gratis
+@@ 22n7t0441hg
+Acabou
+~~
+No quedan
+@@ 20p91y13xm5
+Dica · {0}
+~~
+Pista · {0}
+@@ da70xsia5i
+Solução
+~~
+Solución
+@@ 1r5dvb3w52l
+{0} blocos · 3ª estrela com {1} ou menos
+~~
+{0} bloques · 3.ª estrella con {1} o menos
+@@ 1tdj4dbjhgn
+Seu programa rodou para sempre, então o fazendeiro parou. Será que um loop nunca termina?
+~~
+Tu programa se ejecutó para siempre, así que el granjero se detuvo. ¿Algún bucle nunca termina?
+@@ glkhg2mdup
+ (linha {0})
+~~
+ (línea {0})
+@@ amwx1nndvl
+Perfeito! Três estrelas. Você cultiva como um verdadeiro programador!
+~~
+¡Perfecto! Tres estrellas. ¡Cultivas como un verdadero programador!
+@@ 13uki9axixa
+Muito bem! Consegue fazer com menos {0} para ganhar a terceira estrela?
+~~
+¡Bien hecho! ¿Puedes hacerlo con menos {0} para la tercera estrella?
+@@ 2cx8yggvn9m
+Você conseguiu! Tente de novo sem erros para ganhar mais estrelas.
+~~
+¡Lo lograste! Inténtalo otra vez sin errores para ganar más estrellas.
+@@ 293fiq9he6e
+Algo deu errado no programa. Leia a mensagem e tente de novo!
+~~
+Algo salió mal en el programa. ¡Lee el mensaje e inténtalo de nuevo!
+@@ 28rj7yg78nm
+Ainda não: "{0}" não foi cumprido. Aperte Reiniciar, mude seu programa e rode de novo.
+~~
+Todavía no: "{0}" no está hecho. Pulsa Reiniciar, cambia tu programa y ejecútalo otra vez.
+@@ d9cn47l9lg
+Quase!
+~~
+¡Casi!
+@@ ijywfwq50b
+Suas lâmpadas acabaram! Ganhe mais nos minijogos ou compre com o mercador.
+~~
+¡Te quedaste sin bombillas! Gánalas en los minijuegos o cómpralas al mercader.
+@@ xbh42biym2
+Aqui está um jeito de fazer. Leia e depois rode para ver como funciona.
+~~
+Aquí tienes una forma de hacerlo. Léela y luego ejecútala para ver cómo funciona.
+@@ 1zp25wm82wv
+Agora você está digitando JavaScript de verdade! É o mesmo programa que seus blocos faziam.
+~~
+¡Ahora escribes JavaScript de verdad! Es el mismo programa que hacían tus bloques.
+@@ 195ovbsthze
+NOVA IDEIA
+~~
+NUEVA IDEA
+@@ 1m95pzeekj6
+Vamos plantar!
+~~
+¡A cultivar!
+@@ gjne8wx45t
+Colheita perfeita!
+~~
+¡Cosecha perfecta!
+@@ 20dus6qv5cu
+Campo concluído!
+~~
+¡Campo completado!
+@@ 26tg43lynzw
+Todos os objetivos cumpridos
+~~
+Todos los objetivos cumplidos
+@@ 1p1lq8x1ya5
+{0} (trombadas, água desperdiçada, colheitas verdes...)
+~~
+{0} (choques, agua desperdiciada, cosechas verdes...)
+@@ rddw5y2458
+{n} erro
+~~
+{n} error
+@@ 207ccpdb1ks
+{n} erros
+~~
+{n} errores
+@@ 1e5g39begu4
+(meta {0})
+~~
+(objetivo {0})
+@@ i0ia5aff9t
+: tente com {0} ou menos
+~~
+: intenta con {0} o menos
+@@ 1da6det9zr7
++{0} de ouro
+~~
++{0} de oro
+@@ 1dyf8d7ysu6
+Jogar de novo
+~~
+Jugar otra vez
+@@ 1d8fvpxqjpu
+Mapa da fazenda
+~~
+Mapa de la granja
+@@ hwgwo5o0oc
+Próximo campo
+~~
+Siguiente campo
+@@ tp3js8hudt
+O programa parou
+~~
+El programa se detuvo
+@@ 1eszrcdklto
+Corrigir
+~~
+Corregir
+@@ 1gdl6sjojw7
+As regras
+~~
+Las reglas
+@@ 1qz4cos1lp9
+Recompensas
+~~
+Recompensas
+@@ 24ucsvw25oy
+Ganhe estrelas para encher sua bolsa
+~~
+Gana estrellas para llenar tu bolsa
+@@ 23nzulmvnnt
+Prêmios do fliperama
+~~
+Premios de los juegos
+@@ 20hcprf2msg
+Ouro e XP em toda partida, e uma lâmpada por partida de 3 estrelas (até 3 por dia).
+~~
+Oro y XP en cada partida, y una bombilla por cada partida de 3 estrellas (hasta 3 al día).
+@@ 182aq6ck19q
+Melhor pontuação: {best}
+~~
+Mejor puntuación: {best}
+@@ 2phbf0sa4q
+jogado {n} vez
+~~
+jugado {n} vez
+@@ 10uzyhl52y0
+jogado {n} vezes
+~~
+jugado {n} veces
+@@ 147oxj5z5rx
+Jogar!
+~~
+¡Jugar!
+@@ 1k8xdeobw77
+Sair do jogo?
+~~
+¿Salir del juego?
+@@ 1j3d9orl87s
+Sua pontuação nesta partida será perdida.
+~~
+Perderás tu puntuación de esta partida.
+@@ gx5p59hwo4
+Continuar jogando
+~~
+Seguir jugando
+@@ 10b5sd0jplc
+Lendário!
+~~
+¡Legendario!
+@@ 1myztxiw2f8
+Bem jogado!
+~~
+¡Bien jugado!
+@@ 17rgiiaynwd
+Nada mal!
+~~
+¡Nada mal!
+@@ amdkf0ed6m
+Continue tentando!
+~~
+¡Sigue intentándolo!
+@@ ir6y3bq8r3
+ · novo recorde!
+~~
+ · ¡nuevo récord!
+@@ xnes9t6pq
+Jogue de novo para ganhar as estrelas que faltaram. Cada estrela nova coloca itens na sua bolsa.
+~~
+Juega otra vez para ganar las estrellas que te faltaron. Cada estrella nueva añade objetos a tu bolsa.
+@@ 11rmip74jc6
+Rodada {0}/{1}
+~~
+Ronda {0}/{1}
+@@ f619wi1uw3
+Runas ligadas: {0}/{1}
+~~
+Runas unidas: {0}/{1}
+@@ 1dv8pvucid8
+Arraste uma corda de uma runa até o seu significado, ou toque em uma e depois na outra. Uma ligação errada custa 3 segundos.
+~~
+Arrastra una cuerda desde una runa hasta su significado, o toca una y luego la otra. Una unión incorrecta cuesta 3 segundos.
+@@ 214bgbz6zts
+Pares encontrados: {0}/{1}
+~~
+Parejas encontradas: {0}/{1}
+@@ 1k1mjzaejz8
+Erros: {0}
+~~
+Fallos: {0}
+@@ cp2or71va0
+Peça escondida
+~~
+Ficha oculta
+@@ o8q0i1ne53
+Cada termo tem um par: o seu significado. Menos erros, mais estrelas.
+~~
+Cada término tiene pareja: su significado. Menos fallos, más estrellas.
+@@ 1oi62jaluom
+Pergunta {0}/{1}
+~~
+Pregunta {0}/{1}
+@@ 17kaayr8njb
+Acertos: {0}
+~~
+Aciertos: {0}
+@@ k433ost2e9
+Bug {0}/{1}
+~~
+Bug {0}/{1}
+@@ ceiki4gmfx
+Esmagados: {0}
+~~
+Aplastados: {0}
+@@ 1g173uyxvla
+Esmagado!
+~~
+¡Aplastado!
+@@ 21f9e04eyca
+A tocha apagou...
+~~
+La antorcha se apagó...
+@@ 14q63l1lld5
+Não é essa. O bug estava na linha {0}.
+~~
+Esa no. El bug estaba en la línea {0}.
+@@ 2and044ibun
+Ver resultado
+~~
+Ver resultados
+@@ upgdxl05a9
+Próximo bug
+~~
+Siguiente bug
+@@ a82l009tpb
+Flechas: {0}
+~~
+Flechas: {0}
+@@ 25o7h7rpejz
+Pontos: {0}
+~~
+Puntos: {0}
+@@ 256x4wh5ybr
+**Dica:** {0}
+~~
+**Consejo:** {0}
+@@ 1m72cve6h8k
+O HTML do pátio
+~~
+El HTML del patio
+@@ e9flgo6yvv
+Seletor
+~~
+Selector
+@@ 1pxc53z34o9
+ex.: goblin
+~~
+p. ej.: goblin
+@@ atynq2s3is
+Esse seletor não é CSS válido. Confira se há erros de digitação.
+~~
+Ese selector no es CSS válido. Revisa si hay errores de escritura.
+@@ 227nrjczrf5
+Na mosca! Todos os alvos acertados, e nada mais.
+~~
+¡En el blanco! Todos los objetivos alcanzados, y nada más.
+@@ 1ob3icbbnt3
+Errou {n} alvo.
+~~
+Fallaste {n} objetivo.
+@@ qu6vnljy5e
+Errou {n} alvos.
+~~
+Fallaste {n} objetivos.
+@@ 2zoyl9yh77
+Acertou {n} coisa inocente!
+~~
+¡Le diste a {n} cosa inocente!
+@@ 2gn67qi420h
+Acertou {n} coisas inocentes!
+~~
+¡Le diste a {n} cosas inocentes!
+@@ 1kiz2i44nft
+Soltar flecha
+~~
+Soltar flecha
+@@ 1a38qoucp22
+Próxima rodada
+~~
+Siguiente ronda
+@@ 1ffcw193x56
+Pergaminho {0}/{1}
+~~
+Pergamino {0}/{1}
+@@ 1d5u935jwm8
+Pedido da Mira: quais linhas esta consulta retorna?
+~~
+Petición de Mira: ¿qué filas devuelve esta consulta?
+@@ ljymdenr1p
+Toque nas linhas para escolhê-las ({0} escolhidas).
+~~
+Toca las filas para elegirlas ({0} elegidas).
+@@ 18pm3u6duru
+Lançar consulta
+~~
+Lanzar consulta
+@@ ok0tmcefu5
+**Exatamente!** A Mira arquiva o pergaminho.
+~~
+**¡Exacto!** Mira archiva el pergamino.
+@@ 1jgjpykzx80
+**Não exatamente:** ela retorna {0}.{1}
+~~
+**No del todo:** devuelve {0}.{1}
+@@ 2fdktemhq5q
+
+ORDER BY ordena as linhas primeiro, depois LIMIT mantém só as primeiras.
+~~
+
+ORDER BY ordena primero las filas y luego LIMIT se queda solo con las primeras.
+@@ 21ore4s8dg8
+Próximo pergaminho
+~~
+Siguiente pergamino
+@@ 9btqk4hcz9
+Ponte {0}/{1}
+~~
+Puente {0}/{1}
+@@ 1unbc8hk068
+Atravessadas: {0}
+~~
+Cruzados: {0}
+@@ 25l9syqx1cv
+Quantas tábuas este loop coloca?
+~~
+¿Cuántas tablas coloca este bucle?
+@@ o1ci0fhiof
+{n} tábua
+~~
+{n} tabla
+@@ 23vgs8rq03a
+{n} tábuas
+~~
+{n} tablas
+@@ njxzemgpcq
+**Atravessou!** O loop rodou {n} vez.
+~~
+**¡Cruzaste!** El bucle se ejecutó {n} vez.
+@@ 28b8xyucwo4
+**Atravessou!** O loop rodou {n} vezes.
+~~
+**¡Cruzaste!** El bucle se ejecutó {n} veces.
+@@ mrk4hr0eiw
+**Tchibum!** Tábuas de menos: o loop roda {0} vezes.
+~~
+**¡Chapuzón!** Faltan tablas: el bucle se ejecuta {0} veces.
+@@ 18hhyhfdlbb
+**Tábuas demais!** O loop roda só {0} vezes.
+~~
+**¡Demasiadas tablas!** El bucle solo se ejecuta {0} veces.
+@@ au4um5g44i
+Próxima ponte
+~~
+Siguiente puente
+@@ 1gedfeg3mb
+Pontos {n}
+~~
+Puntos {n}
+@@ yo646qgmhc
+Corrente ×{n}!
+~~
+¡Cadena ×{n}!
+@@ bpookhhajb
+Runa bônus! Responda para ganhar +15 segundos e +200 pontos.
+~~
+¡Runa extra! Responde para ganar +15 segundos y +200 puntos.
+@@ dvcaer4dvp
+Toque numa gema e depois numa vizinha para trocá-las. Três iguais em linha se quebram!
+~~
+Toca una gema y luego una vecina para intercambiarlas. ¡Tres iguales en línea se rompen!
+@@ 1wmeejx7zqb
+Palavras {n}
+~~
+Palabras {n}
+@@ 26gbbm4stj4
+digite uma palavra...
+~~
+escribe una palabra...
+@@ w5miz4io8g
+Digite a palavra que está num monstro (espaços contam!). A cada 5 palavras: +5 segundos.
+~~
+Escribe la palabra de un monstruo (¡los espacios cuentan!). Cada 5 palabras: +5 segundos.
+@@ k042oy282f
+**Primeira vez em {0}?** Quer que eu mostre tudo? Leva 30 segundos.
+~~
+**¿Primera vez en {0}?** ¿Quieres que te lo enseñe? Son 30 segundos.
+@@ sux7g2aybf
+**Essa é difícil!** Quer uma dica? Posso explicar como funciona ou dar uma pista.
+~~
+**¡Esta es difícil!** ¿Quieres un consejo? Puedo explicarte cómo funciona o darte una pista.
+@@ 1s9xbzfzgxn
+**Travou?** Sem pressa. Se quiser, posso dar uma dica.
+~~
+**¿Atascado?** Tómate tu tiempo. Si quieres, te doy un consejo.
+@@ 22hidc9vl66
+Mostre-me
+~~
+Enséñame
+@@ 29epdzv8g1a
+Me ajude
+~~
+Ayúdame
+@@ 19qxbxedzsu
+Agora não
+~~
+Ahora no
+@@ 1ynuqp4nhmb
+Não, obrigado
+~~
+No, gracias
+@@ 1c7odn0dzx7
+LUMI · SUA GUIA
+~~
+LUMI · TU GUÍA
+@@ x12t0qx7g0
+Esta tela
+~~
+Esta pantalla
+@@ 1i1h8i6q60w
+Estou travado
+~~
+Estoy atascado
+@@ iyy2fm6onb
+Perguntas
+~~
+Preguntas
+@@ cvody7ufzy
+Buscar: corações, salvar, erro...
+~~
+Buscar: corazones, guardar, error...
+@@ 1lkjqre6y76
+Mostre passo a passo
+~~
+Enséñame paso a paso
+@@ 1gmjc4z6xcm
+Estou travado: me ajude
+~~
+Estoy atascado: ayúdame
+@@ 1gg5z2yw79d
+Rever o tour de boas-vindas
+~~
+Repetir el recorrido de bienvenida
+@@ 8sjtkorjbr
+Todas as perguntas e respostas
+~~
+Todas las preguntas y respuestas
+@@ 1hy1j6ndel1
+Oferecer um tour na primeira vez que eu abrir uma tela
+~~
+Ofrecer un recorrido la primera vez que abra una pantalla
+@@ 1eizuqvtw4p
+Esta pergunta
+~~
+Esta pregunta
+@@ hgzet8gi6g
+Como jogar
+~~
+Cómo jugar
+@@ cjy5ri7bfv
+Tudo bem, todo mundo trava às vezes. **Escolha o que está acontecendo:**
+~~
+Tranquilo, a todos nos pasa. **Elige lo que está pasando:**
+@@ 1ywq9d0ptsx
+Como este jogo funciona?
+~~
+¿Cómo funciona este juego?
+@@ 2cmf7ht3456
+Como respondo esta pergunta?
+~~
+¿Cómo respondo esta pregunta?
+@@ z7bckgx81b
+Nada para fazer aqui?
+~~
+¿Nada que hacer aquí?
+@@ 1b8ofx95xvp
+Esta tela só mostra informações. Feche para voltar à vila, ou abra a Academia para continuar aprendendo.
+~~
+Esta pantalla solo muestra información. Ciérrala para volver a la aldea, o abre la Academia para seguir aprendiendo.
+@@ 2euklv0ti9s
+Abrir a Academia
+~~
+Abrir la Academia
+@@ 2ghbxivs4m6
+não disponível agora
+~~
+no disponible ahora
+@@ q5liu5eswr
+Ainda travado? Veja a aba **Perguntas**, ou faça uma pausa: seu progresso está salvo.
+~~
+¿Sigues atascado? Mira la pestaña **Preguntas**, o tómate un descanso: tu progreso está guardado.
+@@ xn8qoaa4et
+SOBRE ESTA TELA
+~~
+SOBRE ESTA PANTALLA
+@@ 130j9wj4tpd
+Ver todas as perguntas
+~~
+Ver todas las preguntas
+@@ 1yltftjx3hm
+Nenhuma resposta encontrada. Tente outras palavras.
+~~
+No se encontró respuesta. Prueba con otras palabras.
+@@ 1hbp8xqei7g
+Ande pela vila
+~~
+Recorre la aldea
+@@ 2fy7at13dgp
+Setas, WASD ou clique para onde ir. Clique num prédio para entrar, ou use a barra de viagem lá embaixo.
+~~
+Flechas, WASD o haz clic adonde quieras ir. Haz clic en un edificio para entrar, o usa la barra de viaje de abajo.
+@@ 24ja33w799k
+Aprenda na Academia
+~~
+Aprende en la Academia
+@@ 1ek74b79ji4
+Siga sua trilha no mapa. Cada parada é uma lição curta (2 a 5 minutos) que começa do zero.
+~~
+Sigue tu ruta en el mapa. Cada parada es una lección corta (de 2 a 5 minutos) que empieza desde cero.
+@@ 2cl9oudo0e8
+Responda e confira
+~~
+Responde y comprueba
+@@ 1h17ouphxov
+Toque ou digite uma resposta e aperte **Verificar**. Respostas erradas voltam depois, para você aprender de verdade.
+~~
+Toca o escribe una respuesta y pulsa **Comprobar**. Las respuestas incorrectas vuelven más tarde, para que las aprendas de verdad.
+@@ 2iuube8dai
+Escreva código de verdade
+~~
+Escribe código de verdad
+@@ y35m23fanu
+Os desafios de programação rodam seu código direto no navegador: páginas web, JavaScript, TypeScript, React, SQL e mais.
+~~
+Los desafíos de programación ejecutan tu código en el navegador: páginas web, JavaScript, TypeScript, React, SQL y más.
+@@ 2fu049tzwyh
+Jogue e ganhe
+~~
+Juega y gana
+@@ 90jz59z94m
+Minijogos, a Fazenda do Código e as missões diárias dão XP, ouro e itens que ajudam nas lições.
+~~
+Los minijuegos, la Granja del Código y las misiones diarias dan XP, oro y objetos que te ayudan en las lecciones.
+@@ 28wdabpcs04
+Pergunte à Lumi
+~~
+Pregúntale a Lumi
+@@ qsgsg7p8hs
+Toque na pequena fada em qualquer tela: o que a tela faz, um tour passo a passo, ou ajuda quando você travar.
+~~
+Toca el hada en cualquier pantalla: qué hace la pantalla, un recorrido paso a paso, o ayuda cuando te atasques.
+@@ 17i7zstu6b3
+Oi, eu sou a **Lumi**! Veja como o jogo funciona e as respostas para as perguntas que os aventureiros mais me fazem.
+~~
+¡Hola, soy **Lumi**! Así funciona el juego, y aquí están las respuestas a lo que más me preguntan los aventureros.
+@@ is0he2fgy8
+Lumi · sua guia
+~~
+Lumi · tu guía

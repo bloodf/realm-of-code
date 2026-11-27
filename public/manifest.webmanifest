@@ -1,0 +1,10 @@
+{
+  "name": "Realm of Code",
+  "short_name": "Realm of Code",
+  "description": "A medieval pixel RPG that teaches programming from zero to junior developer.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#1c110a",
+  "theme_color": "#2b1a12",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

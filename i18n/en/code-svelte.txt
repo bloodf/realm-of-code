@@ -1,0 +1,274 @@
+@@ 2dwqf3z90k7
+First Flame
+@@ 10cxpswtd4r
+svelte components
+@@ 3yvfho0xy8
+scoped styles
+@@ 186ays9geyk
+At the Ember Falls, the fire-smiths say: "Svelte is not a library that runs in the browser. It is a **compiler** that forges your components into tiny, fast JavaScript."
+@@ ge1odnudtk
+A Svelte component is a `.svelte` file: a script, some markup and styles. Use **single braces** to show values:
+
+```
+<script>
+  let name = "Ada";
+</script>
+
+<h1>Hello, {name}!</h1>
+
+<style>
+  h1 { color: orangered; }
+</style>
+```
+
+Styles in a component are **scoped** automatically: they only affect this component.
+@@ 6gms779oop
+Make the h1 say **Hello, Ada!** using `{name}`. Add `<p>{name.length} letters</p>`. Colour the h1 **orangered** in the `<style>` block.
+@@ 2704oe32xmf
+Because Svelte compiles away at build time, apps ship very little framework code. It regularly tops developer-satisfaction surveys. SvelteKit is its full-stack framework, like Next.js for React or Nuxt for Vue.
+@@ 1rnle4mm4nl
+The h1 says "Hello, Ada!" using {name}
+@@ 1wg1vhhe5ln
+A <p> with "3 letters"
+@@ 14y7sldj9k8
+The h1 is orangered
+@@ zdvd89nfnl
+Living Embers
+@@ lf2c96djoq
+Embers glow brighter every time you blow on them, and die down when you pour water.
+@@ bfpcnh9zai
+In Svelte 5, reactive state uses the **`$state` rune**:
+
+```
+<script>
+  let embers = $state(0);
+</script>
+
+<button onclick={() => embers++}>Blow</button>
+<p>Embers: {embers}</p>
+```
+
+You change it like a normal variable, and the page updates. Events are attributes like `onclick`.
+@@ ivcpdvzh0u
+Use `$state` for `embers` (start at 0). `#blow` adds 1; `#water` sets it back to **0**. Show **Embers: N** in `#embers`.
+@@ kr85wbuioe
+Runes (`$state`, `$derived`, `$effect`, `$props`) arrived in Svelte 5 (2024). Older Svelte code made every top-level `let` reactive automatically, with `$:` for derived values. You will see both styles in the wild.
+@@ pjeknscmny
+Starts at "Embers: 0"
+@@ 8ubcg83jsp
+Blow 3 times: "Embers: 3"
+@@ 1mbcmnc7lx0
+Water resets to 0
+@@ 14ouyhbczvj
+Uses the $state rune
+@@ zh18xmguq4
+Reflections in the Falls
+@@ ljg4lubgcy
+computed values
+@@ 2vkboytkl1
+The falls reflect your training: every 100 experience points, your level rises.
+@@ 2g6wd0edjuk
+The **`$derived` rune** computes a value from other state, and keeps it up to date:
+
+```
+let xp = $state(0);
+let level = $derived(Math.floor(xp / 100) + 1);
+```
+
+`Math.floor` rounds down: `Math.floor(1.9)` is `1`.
+@@ gx5yhovisx
+`#train` adds **40** xp. Show `#xp` as **XP: N**, `#level` as **Level N** (level 1 at 0 xp, +1 every 100 xp) using `$derived`, and `#next` as **N xp to next level**.
+@@ 5ybfulbi5f
+Same idea as Vue's `computed`: derive, don't duplicate. `$derived` is lazy and cached. For side effects (logging, saving, timers) Svelte has `$effect`, similar to React's `useEffect` but with automatic dependency tracking.
+@@ 2fyng0avsl6
+Starts at Level 1, 100 xp to next level
+@@ 1u7d24h21y7
+Train twice: XP 80, still Level 1, 20 to go
+@@ 166vsjpde32
+Train again: Level 2 at 120 xp
+@@ 76r8xwtguk
+Uses $derived
+@@ 118fu4c8y3v
+The Torch Wall
+@@ 2g9bybgctm3
+updating arrays
+@@ 2g64nxhsq2t
+A long wall of torches guards the falls. Light them, snuff them, count them.
+@@ 1ozd9cjliq0
+Svelte has **blocks** for logic in markup:
+
+```
+{#each torches as torch (torch.id)}
+  <li>{torch.name}</li>
+{/each}
+
+{#if count === 0}
+  <p>Darkness...</p>
+{:else}
+  <p>{count} lit</p>
+{/if}
+```
+
+`(torch.id)` is the key. With `$state`, arrays and objects are deeply reactive: `torch.lit = !torch.lit` just works.
+@@ 1hft7dg493c
+Render each torch as an `<li class="torch">` showing its name and a button that toggles `lit` (button text **Snuff** when lit, **Light** when not). Show `#count` as **N lit**, or `#dark` with **Darkness...** when none are lit.
+@@ xd9tiu8dnj
+Deep reactivity (proxies) is why Svelte 5 and Vue let you mutate objects directly, while React asks you to create new ones. Both approaches work; know which world you are in.
+@@ iwa51uvz0p
+<script>
+  let torches = $state([
+    { id: 1, name: "North torch", lit: true },
+    { id: 2, name: "East torch", lit: false },
+    { id: 3, name: "South torch", lit: true },
+  ]);
+  let lit = $derived(torches.filter((t) => t.lit).length);
+</script>
+
+<h1>The Torch Wall</h1>
+<ul>
+  {#each torches as torch (torch.id)}
+    <li class="torch">
+      {torch.name}
+      <button onclick={() => (torch.lit = !torch.lit)}>{torch.lit ? "Snuff" : "Light"}</button>
+    </li>
+  {/each}
+</ul>
+
+{#if lit === 0}
+  <p id="dark">Darkness...</p>
+{:else}
+  <p id="count">{lit} lit</p>
+{/if}
+
+@@ 28xasvr2m44
+Three torches with buttons
+@@ 1lsdhw9ptqi
+Buttons say Snuff / Light / Snuff
+@@ qgexrmchnc
+#count shows "2 lit"
+@@ qfmo8kdu74
+Snuff two torches: "Darkness..." appears
+@@ 1otc2bb0ezq
+Light one: "1 lit"
+@@ 2dqughaf81b
+The Bound Scroll
+@@ 22bhhyd1s5i
+Magic scrolls that write back: whatever you type appears in the flames at once.
+@@ 26ju65hv4r1
+`bind:` connects an input to state in **both directions**:
+
+```
+<script>
+  let name = $state("");
+  let brave = $state(false);
+</script>
+
+<input bind:value={name} />
+<input type="checkbox" bind:checked={brave} />
+```
+@@ qqa0ud74or
+Bind `#name` to `name` and `#brave` (a checkbox) to `brave`. `#oath` shows **I, <name>, swear to be brave!** when brave is checked, or **I, <name>, swear nothing.** when not.
+@@ k0ae6zmv82
+`bind:` is syntax sugar for "set the value, and update state on input". It is similar to Vue's `v-model`. React has no two-way binding on purpose: you write `value` and `onChange` by hand.
+@@ c15a3x9smt
+`<input id="name" bind:value={name} />` and `<input id="brave" type="checkbox" bind:checked={brave} />`
+@@ 2aimqea387f
+Typing "Ada": "I, Ada, swear nothing."
+@@ 199s2h7y6ka
+Checking brave: "I, Ada, swear to be brave!"
+@@ 22ts5rpykk4
+Uses bind:value and bind:checked
+@@ 5j525kgqg8
+Passing the Torch
+@@ 86w0mk4kjd
+child components
+@@ 5ma2b64kf8
+Each torch-bearer carries a torch with a name. Some torches are lit, some wait for a spark.
+@@ 1yywukajdw3
+A child component receives **props** with the `$props` rune:
+
+```
+<!-- Torch.svelte -->
+<script>
+  let { name, lit = false } = $props();   // lit defaults to false
+</script>
+<div class="torch">{name}: {lit ? "burning" : "cold"}</div>
+```
+
+The parent imports and uses it:
+
+```
+<script>
+  import Torch from "./Torch.svelte";
+</script>
+<Torch name="Old Faithful" lit={true} />
+```
+@@ 8nlktaa68t
+Finish **Torch.svelte** to show **<name>: burning** or **<name>: cold** in `.torch`. In **App.svelte**, render **Old Faithful** (lit), **Spark** (lit) and **Wick** (no `lit` prop, so it uses the default).
+@@ cyxyp8nhrn
+Default values for props make components easy to use: callers only pass what differs. With TypeScript you can type props: `let { name, lit = false }: { name: string; lit?: boolean } = $props();`.
+@@ 24tvk24yw1e
+In Torch.svelte: `<div class="torch">{name}: {lit ? "burning" : "cold"}</div>`
+@@ 1nustr1525e
+In App.svelte: `<Torch name="Wick" />`
+@@ qvxgmmxvr8
+<script>
+  import Torch from "./Torch.svelte";
+</script>
+
+<h1>Torch Bearers</h1>
+<Torch name="Old Faithful" lit={true} />
+
+@@ 2ge7a53i8dp
+<script>
+  import Torch from "./Torch.svelte";
+</script>
+
+<h1>Torch Bearers</h1>
+<Torch name="Old Faithful" lit={true} />
+<Torch name="Spark" lit={true} />
+<Torch name="Wick" />
+
+@@ byozcvts1f
+Three torches
+@@ sbsulllf87
+"Old Faithful: burning", "Spark: burning", "Wick: cold"
+@@ 19by90yy64g
+Wick uses the default (no lit prop)
+@@ p76gxj5mz0
+The Forge Queue
+@@ 1bpab4b1262
+The Keeper of the Flame runs the great forge. Orders pile up: swords, shields, horseshoes. Build the queue that keeps the forge in order.
+@@ 2azdgj7q82k
+Boss challenge! To let a child talk to its parent, pass a **function as a prop**:
+
+```
+<!-- OrderItem.svelte -->
+<script>
+  let { order, onremove } = $props();
+</script>
+<li>{order.item} <button onclick={onremove}>Done</button></li>
+
+<!-- App.svelte -->
+<OrderItem {order} onremove={() => remove(order.id)} />
+```
+
+`{order}` is a shortcut for `order={order}`.
+@@ 28u2nq73sne
+Build the forge queue:
+- `#item` input + `#add` button add an order; the input clears; empty input adds nothing
+- each order is rendered by **OrderItem.svelte** as an `<li class="order">` with a **Done** button that removes it
+- `#queue-count` shows **N orders** (use `$derived`)
+- `#idle` shows **The forge is idle.** when there are no orders
+@@ zn5dnd9vqu
+You have now built the same kind of app in React, Vue and Svelte. The concepts transfer: components, props, state, derived values, events, lists. Frameworks change over the years, these ideas stay. You have completed the frontend course. The backend lands await!
+@@ 1wnv0lvcc8q
+Idle at first: "The forge is idle." and "0 orders"
+@@ 286xhmf1sa6
+Adding "Sword" and "Shield" makes 2 orders
+@@ j9hvdknp0u
+The input clears, and empty input adds nothing
+@@ 215avo25aky
+Done removes the order
+@@ yez7ldlwpe
+Uses OrderItem and $derived

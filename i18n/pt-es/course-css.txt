@@ -1,0 +1,334 @@
+@@ 19m67srzcix
+
+**Ideias principais**
+- Uma **regra**: `selector { property: value; }` por exemplo `h1 { color: crimson; }`
+- Seletores: tag `p`, classe `.gold`, id `#king`, descendente `nav a`, grupo `h1, h2`.
+- Cores: nomes (`crimson`), hex (`#dc143c`), `rgb(220 20 60)`, com transparência `rgb(0 0 0 / 0.5)`.
+- `color` = cor do texto, `background-color` = fundo.
+- Ligue o CSS com `<link rel="stylesheet" href="style.css">` no `<head>`.
+~~
+
+**Ideas clave**
+- Una **regla**: `selector { property: value; }` por ejemplo `h1 { color: crimson; }`
+- Selectores: etiqueta `p`, clase `.gold`, id `#king`, descendiente `nav a`, grupo `h1, h2`.
+- Colores: nombres (`crimson`), hex (`#dc143c`), `rgb(220 20 60)`, con transparencia `rgb(0 0 0 / 0.5)`.
+- `color` = color del texto, `background-color` = fondo.
+- Enlaza el CSS con `<link rel="stylesheet" href="style.css">` en el `<head>`.
+@@ b5c61fc8lb
+O CSS é uma lista de **regras**. Cada regra escolhe elementos com um **seletor** e define **propriedades**:
+
+[[1]]
+A propriedade e o valor são separados por `:`, e cada linha termina com `;`.
+~~
+CSS es una lista de **reglas**. Cada regla elige elementos con un **selector** y define **propiedades**:
+
+[[1]]
+La propiedad y el valor se separan con `:`, y cada línea termina en `;`.
+@@ 5mko5k2sy5
+[[1]]
+`color` muda o **texto**. `background-color` muda o **fundo**.
+~~
+[[1]]
+`color` cambia el **texto**. `background-color` cambia el **fondo**.
+@@ 2bko1rd31sd
+[[1]]
+[[2]]
+Muitos elementos podem ter a mesma **classe**. Um **id** precisa ser único na página.
+~~
+[[1]]
+[[2]]
+Muchos elementos pueden compartir una **clase**. Un **id** debe ser único en la página.
+@@ 2dnbnhy9xqx
+1. Um arquivo externo (o melhor): `<link rel="stylesheet" href="style.css">` no `<head>`
+2. Uma tag `<style>` no `<head>`
+3. Inline: `<p style="color: red">` (difícil de manter)
+
+Uma folha de estilo pode estilizar um site inteiro.
+~~
+1. Un archivo externo (lo mejor): `<link rel="stylesheet" href="style.css">` en el `<head>`
+2. Una etiqueta `<style>` en el `<head>`
+3. En línea: `<p style="color: red">` (difícil de mantener)
+
+Una hoja de estilos puede dar estilo a un sitio web entero.
+@@ a42r0topks
+
+**Ideias principais**
+- `font-family: Georgia, serif;`: liste fontes de reserva e termine com uma família genérica.
+- `font-size`, `font-weight` (400 normal, 700 negrito), `font-style: italic`.
+- Unidades: `px` (fixa), `rem` (relativa ao tamanho de fonte raiz, normalmente 16px), `em` (relativa ao pai), `%`.
+- `text-align`, `line-height` (1,5–1,7 para leitura), `text-transform`, `letter-spacing`, `text-decoration`.
+~~
+
+**Ideas clave**
+- `font-family: Georgia, serif;`: enumera fuentes de respaldo y termina con una familia genérica.
+- `font-size`, `font-weight` (400 normal, 700 negrita), `font-style: italic`.
+- Unidades: `px` (fija), `rem` (relativa al tamaño de fuente raíz, normalmente 16px), `em` (relativa al padre), `%`.
+- `text-align`, `line-height` (1,5–1,7 para leer), `text-transform`, `letter-spacing`, `text-decoration`.
+@@ 1wgu75v4x6p
+[[1]]
+O navegador usa a primeira fonte que tiver. Termine sempre com uma **família genérica**: `serif`, `sans-serif` ou `monospace`. Nomes de fonte com espaços precisam de aspas.
+~~
+[[1]]
+El navegador usa la primera fuente que tenga. Termina siempre con una **familia genérica**: `serif`, `sans-serif` o `monospace`. Los nombres de fuente con espacios necesitan comillas.
+@@ ma233k5na0
+- `px`: pixels fixos. `font-size: 16px`
+- `rem`: relativo ao tamanho de fonte **raiz** (normalmente 16px). `2rem` = 32px
+- `em`: relativo ao tamanho de fonte do **pai**
+- `%`: porcentagem do pai
+
+O `rem` respeita as configurações do navegador do leitor, então é ótimo para acessibilidade.
+~~
+- `px`: píxeles fijos. `font-size: 16px`
+- `rem`: relativo al tamaño de fuente **raíz** (normalmente 16px). `2rem` = 32px
+- `em`: relativo al tamaño de fuente del **padre**
+- `%`: porcentaje del padre
+
+`rem` respeta los ajustes del navegador del lector, así que es genial para la accesibilidad.
+@@ uw9aqc982z
+
+**Ideias principais**
+- Todo elemento é uma caixa: **conteúdo → padding → borda → margem** (de dentro para fora).
+- `padding` = espaço interno, `margin` = espaço externo. Atalho: `padding: 10px 20px` (cima/baixo, esquerda/direita).
+- `box-sizing: border-box` faz `width` incluir padding e borda (use em tudo).
+- `display: block` (largura total, nova linha), `inline` (flui no texto, sem largura/altura), `inline-block`, `none` (escondido).
+- `border-radius` arredonda cantos; `box-shadow` adiciona sombras.
+~~
+
+**Ideas clave**
+- Cada elemento es una caja: **contenido → padding → borde → margen** (de dentro hacia fuera).
+- `padding` = espacio interior, `margin` = espacio exterior. Abreviatura: `padding: 10px 20px` (arriba/abajo, izquierda/derecha).
+- `box-sizing: border-box` hace que `width` incluya el padding y el borde (úsalo en todo).
+- `display: block` (ancho completo, línea nueva), `inline` (fluye en el texto, sin ancho/alto), `inline-block`, `none` (oculto).
+- `border-radius` redondea esquinas; `box-shadow` añade sombras.
+@@ 1vgx2n8wda7
+De dentro para fora:
+1. **conteúdo**: texto ou imagem
+2. **padding**: espaço dentro da borda
+3. **borda**: a beirada
+4. **margem**: espaço de fora, que afasta as outras caixas
+~~
+De dentro hacia fuera:
+1. **contenido**: texto o imagen
+2. **padding**: espacio dentro del borde
+3. **borde**: el filo
+4. **margen**: espacio exterior, que aparta a las otras cajas
+@@ 24yyl4l8n62
+Por padrão, `width` define só o **conteúdo**. Padding e borda são somados por cima:
+
+[[1]]
+Com `box-sizing: border-box`, `width` inclui padding e borda. A maioria dos projetos define isso para tudo:
+
+[[2]]
+~~
+Por defecto, `width` define solo el **contenido**. El padding y el borde se suman encima:
+
+[[1]]
+Con `box-sizing: border-box`, `width` incluye el padding y el borde. La mayoría de los proyectos lo aplican a todo:
+
+[[2]]
+@@ 12dhetwbs11
+- elementos de **bloco** (`<div>`, `<p>`, `<h1>`) começam numa nova linha e ocupam toda a largura
+- elementos **inline** (`<span>`, `<a>`, `<strong>`) fluem dentro do texto; largura e altura não se aplicam
+- `inline-block`: flui como texto, mas aceita largura e altura
+- `display: none` esconde o elemento completamente
+~~
+- los elementos de **bloque** (`<div>`, `<p>`, `<h1>`) empiezan en una línea nueva y ocupan todo el ancho
+- los elementos **inline** (`<span>`, `<a>`, `<strong>`) fluyen dentro del texto; el ancho y el alto no se aplican
+- `inline-block`: fluye como el texto, pero acepta ancho y alto
+- `display: none` oculta el elemento por completo
+@@ tqv3v01nsb
+
+**Ideias principais**
+- `display: flex` no **pai** alinha os filhos numa linha.
+- `flex-direction: row | column`, `flex-wrap: wrap`, `gap: 12px`.
+- `justify-content` = ao longo do eixo principal (start, center, space-between...).
+- `align-items` = atravessando o eixo (stretch, center, flex-start...).
+- Nos filhos: `flex: 1` (cresce para preencher), `flex-shrink`, `order`.
+- Centralize qualquer coisa: `display: flex; justify-content: center; align-items: center;`
+~~
+
+**Ideas clave**
+- `display: flex` en el **padre** alinea a sus hijos en una fila.
+- `flex-direction: row | column`, `flex-wrap: wrap`, `gap: 12px`.
+- `justify-content` = a lo largo del eje principal (start, center, space-between...).
+- `align-items` = a lo ancho (stretch, center, flex-start...).
+- En los hijos: `flex: 1` (crece para llenar), `flex-shrink`, `order`.
+- Centra lo que sea: `display: flex; justify-content: center; align-items: center;`
+@@ 1jeklb2d6x6
+Coloque `display: flex` num **pai**, e os filhos dele se alinham numa linha:
+
+[[1]]
+Mude a direção com `flex-direction: column`.
+~~
+Pon `display: flex` en un **padre** y sus hijos se alinean en una fila:
+
+[[1]]
+Cambia la dirección con `flex-direction: column`.
+@@ ylnqs2zp3v
+- `justify-content`: ao longo do eixo **principal** (numa linha: esquerda ↔ direita)
+- `align-items`: atravessando o eixo (numa linha: cima ↕ baixo)
+
+Valores: `flex-start`, `center`, `flex-end`, `space-between`, `space-around`, `stretch`...
+~~
+- `justify-content`: a lo largo del eje **principal** (en una fila: izquierda ↔ derecha)
+- `align-items`: a lo ancho (en una fila: arriba ↕ abajo)
+
+Valores: `flex-start`, `center`, `flex-end`, `space-between`, `space-around`, `stretch`...
+@@ urk2wcod2q
+
+**Ideias principais**
+- `display: grid` + `grid-template-columns: repeat(3, 1fr)` = 3 colunas iguais.
+- `fr` = uma fração do espaço livre. `gap` = espaço entre as células.
+- Os filhos preenchem as células em ordem. `grid-column: span 2` faz um deles ocupar duas colunas.
+- Cartões responsivos sem media queries: `repeat(auto-fill, minmax(200px, 1fr))`.
+- `grid-template-areas` dá nomes às partes de um layout (header, sidebar, main, footer).
+- Grid = 2D (linhas e colunas). Flexbox = 1D (uma linha ou uma coluna).
+~~
+
+**Ideas clave**
+- `display: grid` + `grid-template-columns: repeat(3, 1fr)` = 3 columnas iguales.
+- `fr` = una fracción del espacio libre. `gap` = espacio entre celdas.
+- Los hijos llenan las celdas en orden. `grid-column: span 2` hace que uno ocupe dos columnas.
+- Tarjetas responsive sin media queries: `repeat(auto-fill, minmax(200px, 1fr))`.
+- `grid-template-areas` pone nombre a las partes de una distribución (header, sidebar, main, footer).
+- Grid = 2D (filas y columnas). Flexbox = 1D (una fila o una columna).
+@@ 24n9li3vle1
+[[1]]
+`1fr` significa "uma parte do espaço livre". `repeat(3, 1fr)` é o mesmo que `1fr 1fr 1fr`.
+~~
+[[1]]
+`1fr` significa "una parte del espacio libre". `repeat(3, 1fr)` es lo mismo que `1fr 1fr 1fr`.
+@@ 2zx564yt2z
+[[1]]
+Dê nomes às áreas para um layout completo:
+
+[[2]]
+~~
+[[1]]
+Pon nombre a las áreas para una distribución completa:
+
+[[2]]
+@@ 172hap0o7p3
+
+**Ideias principais**
+- **Cascata**: quando regras entram em conflito, o seletor mais **específico** vence (inline > id > classe > tag); se empatar, vence a regra que vem **depois**.
+- Algumas propriedades são **herdadas** pelos filhos (color, font); outras não (border, padding).
+- Pseudoclasses: `:hover`, `:focus-visible`, `:first-child`, `:nth-child(2)`, `:not(.x)`.
+- Pseudoelementos: `::before`, `::after` (com `content`), `::placeholder`.
+- `transition: all 0.3s` anima as mudanças; `transform: scale(1.1) rotate(5deg) translateY(-4px)`.
+- Propriedades personalizadas: `:root { --gold: #e8a92b; }` e depois `color: var(--gold);`
+~~
+
+**Ideas clave**
+- **Cascada**: cuando las reglas chocan, gana el selector más **específico** (en línea > id > clase > etiqueta); si empatan, gana la regla que va **después**.
+- Algunas propiedades las **heredan** los hijos (color, font); otras no (border, padding).
+- Pseudoclases: `:hover`, `:focus-visible`, `:first-child`, `:nth-child(2)`, `:not(.x)`.
+- Pseudoelementos: `::before`, `::after` (con `content`), `::placeholder`.
+- `transition: all 0.3s` anima los cambios; `transform: scale(1.1) rotate(5deg) translateY(-4px)`.
+- Propiedades personalizadas: `:root { --gold: #e8a92b; }` y luego `color: var(--gold);`
+@@ 1o7h5qaah94
+Quando duas regras estilizam o mesmo elemento:
+1. O seletor mais **específico** vence: id `#x` > classe `.x` > tag `p`
+2. Se forem igualmente específicos, vence o **último**
+
+[[1]]
+~~
+Cuando dos reglas dan estilo al mismo elemento:
+1. Gana el selector más **específico**: id `#x` > clase `.x` > etiqueta `p`
+2. Si son igual de específicos, gana el **último**
+
+[[1]]
+@@ sybdu9wl4c
+Algumas propriedades passam do pai para os filhos: `color`, `font-family`, `font-size`, `line-height`...
+
+Outras não: `border`, `padding`, `margin`, `background`.
+
+[[1]]
+~~
+Algunas propiedades pasan del padre a los hijos: `color`, `font-family`, `font-size`, `line-height`...
+
+Otras no: `border`, `padding`, `margin`, `background`.
+
+[[1]]
+@@ 1yh4jhinryz
+[[1]]
+Pseudo**elementos** adicionam conteúdo:
+
+[[2]]
+~~
+[[1]]
+Los pseudo**elementos** añaden contenido:
+
+[[2]]
+@@ 2bx5o2ox9cw
+[[1]]
+`transform` pode `scale()`, `rotate()` e `translate()` (mover) elementos sem afetar o layout.
+~~
+[[1]]
+`transform` puede hacer `scale()`, `rotate()` y `translate()` (mover) elementos sin afectar a la distribución.
+@@ 11rpgvo0jf8
+[[1]]
+Mude a variável uma vez e todos os usos se atualizam. Ótimo para temas como o modo escuro.
+~~
+[[1]]
+Cambia la variable una vez y todos sus usos se actualizan. Genial para temas como el modo oscuro.
+@@ 1gjexsv93lz
+
+**Ideias principais**
+- `position: static` é o padrão.
+- `relative`: se move do lugar normal com `top/left`; também vira a âncora dos filhos absolute.
+- `absolute`: sai do fluxo e é posicionado em relação ao ancestral posicionado mais próximo.
+- `fixed`: grudado na tela (fica ao rolar). `sticky`: normal até chegar numa borda, depois gruda.
+- `z-index` controla qual elemento posicionado fica por cima (maior = mais perto de você).
+~~
+
+**Ideas clave**
+- `position: static` es el valor por defecto.
+- `relative`: se mueve desde su sitio normal con `top/left`; además es el ancla de los hijos absolute.
+- `absolute`: sale del flujo y se coloca respecto al ancestro posicionado más cercano.
+- `fixed`: pegado a la pantalla (se queda al desplazarte). `sticky`: normal hasta llegar a un borde, luego se queda fijo.
+- `z-index` controla qué elemento posicionado queda encima (mayor = más cerca de ti).
+@@ 2c0qket9f8q
+[[1]]
+Elementos `absolute` são posicionados em relação ao ancestral mais próximo que tenha um `position` diferente de `static`.
+~~
+[[1]]
+Los elementos `absolute` se colocan respecto al ancestro más cercano que tenga un `position` distinto de `static`.
+@@ 1hgsun8c1p5
+- `fixed`: sempre no mesmo lugar da tela, mesmo ao rolar (botões de chat, avisos de cookies)
+- `sticky` com `top: 0`: rola normalmente e depois gruda no topo (cabeçalhos de tabela, barras de navegação)
+- `z-index`: qual elemento posicionado fica por cima (maior = na frente)
+~~
+- `fixed`: siempre en el mismo sitio de la pantalla, incluso al desplazarte (botones de chat, avisos de cookies)
+- `sticky` con `top: 0`: se desplaza normal y luego se queda fijo arriba (cabeceras de tabla, barras de navegación)
+- `z-index`: qué elemento posicionado queda encima (mayor = delante)
+@@ okda7ep1w9
+
+**Ideias principais**
+- Inclua sempre `<meta name="viewport" content="width=device-width, initial-scale=1">`.
+- Media queries: `@media (max-width: 600px) { ... }` aplica estilos em telas pequenas.
+- **Mobile-first**: escreva os estilos base para celular e depois adicione `@media (min-width: 768px)` para telas maiores.
+- Tamanhos fluidos: `%`, `vw`, `max-width: 100%` nas imagens, `clamp(1rem, 4vw, 2rem)`.
+- Teste com a barra de dispositivos das DevTools.
+~~
+
+**Ideas clave**
+- Incluye siempre `<meta name="viewport" content="width=device-width, initial-scale=1">`.
+- Media queries: `@media (max-width: 600px) { ... }` aplica estilos en pantallas pequeñas.
+- **Mobile-first**: escribe los estilos base para el móvil y luego añade `@media (min-width: 768px)` para pantallas más grandes.
+- Tamaños fluidos: `%`, `vw`, `max-width: 100%` en las imágenes, `clamp(1rem, 4vw, 2rem)`.
+- Prueba con la barra de dispositivos de las DevTools.
+@@ 22u2is9jst9
+[[1]]
+Dentro da media query, as regras só se aplicam quando a tela tem **600px de largura ou menos**.
+~~
+[[1]]
+Dentro de la media query, las reglas solo se aplican cuando la pantalla mide **600px de ancho o menos**.
+@@ 29tlsodxnb8
+A maioria das visitas vem de celulares. Uma abordagem comum: escreva os estilos para **telas pequenas primeiro** e depois adicione media queries de `min-width` para telas maiores:
+
+[[1]]
+~~
+La mayoría de las visitas vienen del móvil. Un enfoque habitual: escribe los estilos para **pantallas pequeñas primero** y luego añade media queries de `min-width` para pantallas más grandes:
+
+[[1]]

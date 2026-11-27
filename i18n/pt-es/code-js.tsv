@@ -1,0 +1,163 @@
+s4rlcttkv0 ¦ chamadas de função ¦ llamadas a funciones
+146ldr1egof ¦ Seu herói está na beira da Floresta dos Loops. O portão do castelo está logo à frente, mas aqui os heróis só se mexem quando recebem **código**. ¦ Tu héroe está al borde del Bosque de los Bucles. La puerta del castillo está justo delante, pero aquí los héroes solo se mueven cuando reciben **código**.
+trgtb9i6sf ¦ Leve seu herói até o portão do castelo. Um `hero.moveRight();` já está escrito. De quantos mais você precisa? ¦ Lleva a tu héroe hasta la puerta del castillo. Ya hay un `hero.moveRight();` escrito. ¿Cuántos más necesitas?
+1kp865zqj36 ¦ Em JavaScript, `hero.moveRight` é um *método*: uma função que pertence a um objeto. Escrever o nome sem `()` só *se refere* à função; os parênteses a *chamam*. O ponto e vírgula no fim das instruções é opcional em JavaScript, mas a maioria dos guias de estilo o usa. ¦ En JavaScript, `hero.moveRight` es un *método*: una función que pertenece a un objeto. Escribir el nombre sin `()` solo *hace referencia* a la función; los paréntesis la *llaman*. El punto y coma al final de las sentencias es opcional en JavaScript, pero la mayoría de las guías de estilo lo usan.
+1wx3m3q4dz9 ¦ Conte as casas entre o herói e o portão. ¦ Cuenta las casillas entre tu héroe y la puerta.
+1sdnpx6asuq ¦ Você precisa de 4 linhas `hero.moveRight();` no total, uma por linha. ¦ Necesitas 4 líneas `hero.moveRight();` en total, una por línea.
+q3llsuuzwj ¦ Em Volta do Velho Carvalho ¦ Alrededor del Viejo Roble
+1xs3oejx1p7 ¦ Um carvalho antigo bloqueia a estrada reta. Você vai ter que dar a volta nele. ¦ Un roble antiguo bloquea el camino recto. Tendrás que rodearlo.
+9h5qbu2eid ¦ Dê a volta nas árvores para chegar ao portão. ¦ Rodea los árboles para llegar a la puerta.
+aoxobtz5h5 ¦ Dividir um problema grande em passos pequenos e ordenados se chama **algoritmo**. Desenvolvedores profissionais fazem o mesmo: primeiro descrevem os passos, depois escrevem o código. Rodar o código com frequência e observar o que acontece é um hábito real de bons programadores, não coisa de iniciante. ¦ Dividir un problema grande en pasos pequeños y ordenados se llama **algoritmo**. Los desarrolladores profesionales hacen lo mismo: primero describen los pasos y luego escriben el código. Ejecutar el código a menudo y observar qué pasa es un hábito real de los buenos programadores, no cosa de principiantes.
+3cihmagnif ¦ Vá 2 vezes para a direita, depois 2 vezes para baixo, depois para a direita de novo. ¦ Ve 2 veces a la derecha, luego 2 veces abajo y luego otra vez a la derecha.
+gemdx6f25s ¦ Depois de `moveRight` duas vezes e `moveDown` duas vezes, você precisa de mais 3 `moveRight()`. ¦ Después de `moveRight` dos veces y `moveDown` dos veces, necesitas 3 `moveRight()` más.
+1w1pxhpoyek ¦ Passos com Números ¦ Pasos con Números
+nibyaobnvu ¦ O caminho da floresta é longo. Escrever o mesmo comando de novo e de novo cansa o pulso. ¦ El camino del bosque es largo. Escribir el mismo comando una y otra vez cansa la muñeca.
+10kj6uulhom ¦ Chegue ao portão usando números como argumentos. ¦ Llega a la puerta usando números como argumentos.
+19o5q5u0m52 ¦ Argumentos deixam uma função fazer muitos trabalhos. `moveRight()` sem argumento usa um *valor padrão* de 1 passo. Logo você vai escrever suas próprias funções com parâmetros e valores padrão. ¦ Los argumentos dejan que una función haga muchos trabajos. `moveRight()` sin argumento usa un *valor por defecto* de 1 paso. Pronto escribirás tus propias funciones con parámetros y valores por defecto.
+18x49633lp5 ¦ Direita 5, baixo 3, direita 2. ¦ Derecha 5, abajo 3, derecha 2.
+1j7ejra6heh ¦ Gemas da Clareira ¦ Gemas del Claro
+jm04yhdu6o ¦ Três gemas azuis brilham na clareira. O joalheiro real paga bem... mas só se você trouxer as três. ¦ Tres gemas azules brillan en el claro. El joyero real paga bien... pero solo si traes las tres.
+ynbku7zknx ¦ Passar por cima de uma gema a recolhe. Planeje sua rota no mapa antes de escrever o código: onde está cada gema, e em que ordem você vai pegá-las? ¦ Pasar por encima de una gema la recoge. Planea tu ruta en el mapa antes de escribir código: ¿dónde está cada gema y en qué orden las recogerás?
+17alpgelc6x ¦ Colete **as três gemas** e depois ande até o portão. ¦ Recoge **las tres gemas** y luego camina hasta la puerta.
+1xcsfy1mtzq ¦ Esta é uma versão pequena de um quebra-cabeça famoso da computação: o *problema do caixeiro-viajante* (achar a rota mais curta por muitos lugares). Em mapas grandes ele é extremamente difícil de resolver perfeitamente, por isso as empresas de entrega usam aproximações espertas. ¦ Esta es una versión pequeña de un famoso rompecabezas de la informática: el *problema del viajante* (encontrar la ruta más corta por muchos lugares). En mapas grandes es extremadamente difícil de resolver a la perfección, por eso las empresas de reparto usan aproximaciones ingeniosas.
+3yhekd902i ¦ A gema abaixo de você está a só 2 passos para baixo. Depois volte para cima. ¦ La gema de debajo está solo 2 pasos abajo. Luego vuelve arriba.
+34h4s4zqrb ¦ A Ponte das Sete Tábuas ¦ El Puente de las Siete Tablas
+1aspwkhj8d4 ¦ loop for ¦ bucle for
+kckkywsnvn ¦ Uma ponte de cordas atravessa o rio. O troll que a guarda só respeita heróis que conhecem o **feitiço do loop**. ¦ Un puente de cuerda cruza el río. El trol que lo vigila solo respeta a los héroes que conocen el **hechizo del bucle**.
+1v5v2b4slt0 ¦ Atravesse a ponte até o portão usando um loop `for`. **Não** use um número dentro de `moveRight()` desta vez: o troll está olhando. ¦ Cruza el puente hasta la puerta usando un bucle `for`. Esta vez **no** uses un número dentro de `moveRight()`: el trol está mirando.
+24zo66i8pf0 ¦ Contar a partir do 0 é normal em programação (os arrays também começam no índice 0). `i++` é um atalho para `i = i + 1`. As três partes do cabeçalho do `for` são: *inicialização*, *condição* e *atualização*. Se a condição nunca ficar falsa, o loop roda para sempre: um loop infinito. ¦ Contar desde 0 es normal en programación (los arrays también empiezan en el índice 0). `i++` es la forma corta de `i = i + 1`. Las tres partes de la cabecera del `for` son: *inicialización*, *condición* y *actualización*. Si la condición nunca se vuelve falsa, el bucle se ejecuta para siempre: un bucle infinito.
+1t945s1ebbw ¦ Conte os movimentos: do herói ao portão são 8 passos. ¦ Cuenta los movimientos: del héroe a la puerta hay 8 pasos.
+103twf81c22 ¦ Use um loop for ¦ Usa un bucle for
+1k5j53ukxq1 ¦ Nenhum número dentro de moveRight() ¦ Ningún número dentro de moveRight()
+1j520dnp5ae ¦ O troll quer ver um loop, não moveRight(8). ¦ El trol quiere ver un bucle, no moveRight(8).
+kv5eco11qq ¦ Escada em Zigue-Zague ¦ Escalera en Zigzag
+hltxdjt6vm ¦ corpo do loop ¦ cuerpo del bucle
+3n0fbzpqfu ¦ Há gemas numa escada de pedras que desce o morro. Encontre o padrão! ¦ Hay gemas en una escalera de piedras que baja por la colina. ¡Encuentra el patrón!
+1pban2w42bj ¦ Colete todas as gemas da escada e chegue ao portão com um loop. ¦ Recoge todas las gemas de la escalera y llega a la puerta con un bucle.
+2dxhw1f7flt ¦ Encontrar um padrão que se repete e transformá-lo num loop se chama *abstração*. Deixa o código mais curto e também mais fácil de mudar: para descer 10 degraus em vez de 5, você muda um número. ¦ Encontrar un patrón que se repite y convertirlo en un bucle se llama *abstracción*. Hace el código más corto y también más fácil de cambiar: para bajar 10 escalones en lugar de 5, cambias un número.
+2ao95v8be1i ¦ O padrão é: direita, depois baixo. Repita-o. ¦ El patrón es: derecha y luego abajo. Repítelo.
+e56xmuxo8g ¦ Enquanto o Caminho Estiver Livre ¦ Mientras el Camino Esté Libre
+1xvh6rojrhi ¦ loop while ¦ bucle while
+108nlqld9b2 ¦ A neblina enche o túnel de árvores. Você não consegue ver o tamanho dele... mas seu herói consegue olhar adiante. ¦ La niebla llena el túnel de árboles. No ves lo largo que es... pero tu héroe puede mirar hacia delante.
+xu7lynm0y5 ¦ Use loops `while` e `hero.look()` para seguir o túnel (direita, depois baixo) sem contar os passos. ¦ Usa bucles `while` y `hero.look()` para seguir el túnel (derecha y luego abajo) sin contar los pasos.
+2bf7asrcdkx ¦ Use `for` quando você sabe quantas vezes repetir, e `while` quando repete *até algo acontecer*. Use sempre `===` e `!==` em JavaScript: o antigo `==` converte tipos de jeitos surpreendentes (`"0" == false` é verdadeiro!). ¦ Usa `for` cuando sabes cuántas veces repetir, y `while` cuando repites *hasta que pase algo*. Usa siempre `===` y `!==` en JavaScript: el viejo `==` convierte tipos de formas sorprendentes (¡`"0" == false` es verdadero!).
+11ywtd7vx6p ¦ Primeiro loop: mova para a direita enquanto o que estiver à direita não for uma árvore. ¦ Primer bucle: muévete a la derecha mientras lo que hay a la derecha no sea un árbol.
+104lfs2ndm0 ¦ Use um loop while ¦ Usa un bucle while
+tr3szl9iln ¦ Use hero.look() ¦ Usa hero.look()
+1hfl9v1y03b ¦ Nada de contar passos com números ¦ Nada de contar pasos con números
+1mhv5jgygx3 ¦ Deixe o loop e o hero.look() decidirem quando parar. ¦ Deja que el bucle y hero.look() decidan cuándo parar.
+iw0y48l87f ¦ Se um Goblin Bloquear o Caminho ¦ Si un Goblin Bloquea el Paso
+25vb5p5a81n ¦ Goblins se escondem na passagem estreita. Você não sabe onde. Confira antes de cada passo e ataque quando precisar! ¦ Los goblins se esconden en el paso estrecho. No sabes dónde. ¡Comprueba antes de cada paso y ataca cuando haga falta!
+1opmmu0zg5k ¦ Ande até o portão. Antes de cada passo, confira se há um goblin e ataque-o. ¦ Camina hasta la puerta. Antes de cada paso, comprueba si hay un goblin y atácalo.
+q52w6vms0k ¦ Um `if` pode ter um ramo `else`: `if (...) { ... } else { ... }`, e você pode encadear `else if`. As condições são expressões *booleanas*: ou são `true` ou `false`. Colocar um `if` dentro de um loop, para reagir ao mundo, é o coração da maioria dos programas. ¦ Un `if` puede tener una rama `else`: `if (...) { ... } else { ... }`, y puedes encadenar `else if`. Las condiciones son expresiones *booleanas*: o son `true` o son `false`. Poner un `if` dentro de un bucle, para reaccionar al mundo, es el corazón de la mayoría de los programas.
+2dnq9arwtwj ¦ Coloque o `if` dentro de um loop, e ande depois do `if`. ¦ Pon el `if` dentro de un bucle, y muévete después del `if`.
+q2zuc5vgwf ¦ Use um comando if ¦ Usa una sentencia if
+oggrpqjov7 ¦ Ensine um Truque ao Seu Herói ¦ Enséñale un Truco a tu Héroe
+16fenidcqve ¦ definir e chamar ¦ definir y llamar
+1dof05b7tx7 ¦ O velho caçador ensina seu truque de escalada: "pé direito, depois para cima". Dê um nome ao truque e você pode usá-lo de novo e de novo. ¦ El viejo cazador te enseña su truco para trepar: "pie derecho y luego arriba". Ponle nombre al truco y podrás usarlo una y otra vez.
+1skkuprjt6k ¦ Escreva uma função que sobe um degrau e depois chame-a (num loop ou muitas vezes) para chegar ao topo e ao portão. ¦ Escribe una función que suba un escalón y luego llámala (en un bucle o muchas veces) para llegar arriba y a la puerta.
+16wcyvdpysi ¦ Funções são o principal jeito de organizar o código: dê nome a um pedaço de lógica e reutilize-o. Um bom nome de função é um verbo que diz o que ela faz (`climbStair`, `openDoor`). A regra DRY diz: "Don't Repeat Yourself" (não se repita). Se você copiar as mesmas linhas três vezes, crie uma função. ¦ Las funciones son la forma principal de organizar el código: ponle nombre a un trozo de lógica y reutilízalo. Un buen nombre de función es un verbo que dice lo que hace (`climbStair`, `openDoor`). La regla DRY dice: "Don't Repeat Yourself" (no te repitas). Si copias las mismas líneas tres veces, crea una función.
+ejyibbeegm ¦ Defina `function climb() { hero.moveRight(); hero.moveUp(); }`. ¦ Define `function climb() { hero.moveRight(); hero.moveUp(); }`.
+1kuul12y543 ¦ Chame-a 6 vezes (um loop ajuda) e depois faça um último `hero.moveRight();`. ¦ Llámala 6 veces (un bucle ayuda) y luego haz un último `hero.moveRight();`.
+1ij26053mkg ¦ Defina sua própria função ¦ Define tu propia función
+4ojf4zu20a ¦ A Porta Trancada ¦ La Puerta Cerrada
+1nzj4sdhtq7 ¦ Uma porta pesada bloqueia o caminho até o portão. Em algum lugar por perto está a chave dela. ¦ Una puerta pesada bloquea el camino a la puerta del castillo. En algún sitio cerca está su llave.
+1uymfjjeyr1 ¦ Pegue a chave, imprima `hero.keys` com `console.log` e depois passe pela porta até o portão. ¦ Coge la llave, imprime `hero.keys` con `console.log` y luego cruza la puerta hasta la salida.
+11i8e78m6qo ¦ Imprimir valores para ver o que um programa está fazendo se chama *depurar*. Profissionais usam `console.log` todo dia, e também *breakpoints* nas DevTools do navegador, que pausam o código para você inspecionar tudo. ¦ Imprimir valores para ver qué hace un programa se llama *depurar*. Los profesionales usan `console.log` cada día, y también *puntos de interrupción* en las DevTools del navegador, que pausan el código para que lo inspecciones todo.
+20lpfy7ay8h ¦ A chave está 2 passos para baixo. ¦ La llave está 2 pasos abajo.
+8xsha17b3j ¦ Imprima o número de chaves (1) com console.log ¦ Imprime el número de llaves (1) con console.log
+1xw8bzkbtkq ¦ As Primeiras Palavras do Escriba ¦ Las Primeras Palabras del Escriba
+1lcjvh1pbw5 ¦ template literals ¦ plantillas literales
+2fljr2ynzs3 ¦ A escriba da vila guarda os registros de todos os heróis. Ela pede que você escreva o seu. ¦ La escriba de la aldea guarda el registro de cada héroe. Te pide que escribas el tuyo.
+jcccykkowm ¦ Crie `heroName` (seu nome, uma string) e `gold` (começando em 100). Some 50 a `gold`. Depois imprima exatamente: `<name> has 150 gold`. ¦ Crea `heroName` (tu nombre, un string) y `gold` (empezando en 100). Suma 50 a `gold`. Luego imprime exactamente: `<name> has 150 gold`.
+1n1cyqfat5n ¦ Use `const` por padrão e `let` só quando o valor precisar mudar. Evite a palavra-chave antiga `var`: ela tem regras de escopo confusas. Em JavaScript os nomes de variáveis usam *camelCase* (`heroName`, `maxHealth`). ¦ Usa `const` por defecto y `let` solo cuando el valor tenga que cambiar. Evita la antigua palabra clave `var`: tiene reglas de ámbito confusas. En JavaScript los nombres de variables usan *camelCase* (`heroName`, `maxHealth`).
+349pmrsxiz ¦ `gold = gold + 50;` ou o atalho `gold += 50;` ¦ `gold = gold + 50;` o el atajo `gold += 50;`
+27x4wk23doj ¦ heroName é uma string ¦ heroName es un string
+2927dyagi1q ¦ gold vale 150 no fim ¦ gold vale 150 al final
+7nokulp46r ¦ Comece em 100 e depois some 50. ¦ Empieza en 100 y luego suma 50.
+13z59fwdnbt ¦ Imprime "<name> has 150 gold" ¦ Imprime "<name> has 150 gold"
+3rytrca235 ¦ Use uma template literal (crases) ¦ Usa una plantilla literal (acentos graves)
+442ya8ycbe ¦ Arrays de Suprimentos ¦ Arrays de Provisiones
+26mbej6igdz ¦ O intendente guarda os suprimentos numa lista comprida. Ajude-o a adicionar pão e a chamar cada item. ¦ El intendente guarda las provisiones en una lista larga. Ayúdale a añadir pan y a nombrar cada elemento.
+nqx8wb76d4 ¦ Adicione `"bread"` a `supplies`. Imprima quantos suprimentos existem. Depois imprima cada item em MAIÚSCULAS, um por linha. ¦ Añade `"bread"` a `supplies`. Imprime cuántas provisiones hay. Luego imprime cada elemento en MAYÚSCULAS, uno por línea.
+2aaj9r9mzpw ¦ Arrays são *objetos* em JavaScript, então um array `const` ainda pode ser mudado com `push`: `const` só impede trocar o array inteiro. Outros métodos úteis: `pop`, `includes`, `indexOf`, `slice`, `splice`. ¦ Los arrays son *objetos* en JavaScript, así que un array `const` todavía se puede cambiar con `push`: `const` solo impide sustituir el array entero. Otros métodos útiles: `pop`, `includes`, `indexOf`, `slice`, `splice`.
+yfrjmgktd ¦ supplies é ["rope", "torch", "bread"] ¦ supplies es ["rope", "torch", "bread"]
+24rabgog4ne ¦ Imprime a contagem: 3 ¦ Imprime la cuenta: 3
+1nwk8kfev59 ¦ Imprime ROPE, TORCH, BREAD em ordem ¦ Imprime ROPE, TORCH, BREAD en orden
+yc7h2hwn12 ¦ Use um loop (não três logs separados) ¦ Usa un bucle (no tres logs separados)
+1fpboz2yb4v ¦ A Ficha do Herói ¦ La Ficha del Héroe
+2ex9wy47zbu ¦ funções com parâmetros ¦ funciones con parámetros
+9jrh7r075c ¦ Todo herói tem uma ficha: nome, nível, vida. Quando você sobe de nível, a escriba precisa atualizá-la. ¦ Cada héroe tiene una ficha: nombre, nivel, vida. Cuando subes de nivel, la escriba debe actualizarla.
+dqgkwrzusm ¦ Escreva `levelUp(hero)`: ela soma 1 a `hero.level`, soma 10 a `hero.maxHp` e retorna o herói. Crie `myHero` com level 1 e maxHp 20, e suba-o de nível **duas vezes**. ¦ Escribe `levelUp(hero)`: suma 1 a `hero.level`, suma 10 a `hero.maxHp` y devuelve el héroe. Crea `myHero` con level 1 y maxHp 20, y súbelo de nivel **dos veces**.
+16sdpawfx7a ¦ Objetos são passados *por referência*: a função muda o mesmo objeto que você deu a ela. No React e em outros códigos modernos você muitas vezes cria um objeto *novo* em vez disso (`return { ...hero, level: hero.level + 1 }`). Isso se chama imutabilidade. ¦ Los objetos se pasan *por referencia*: la función cambia el mismo objeto que le diste. En React y otro código moderno a menudo crearás un objeto *nuevo* en su lugar (`return { ...hero, level: hero.level + 1 }`). Eso se llama inmutabilidad.
+khpdw0x2ri ¦ Dentro da função: `hero.level += 1; hero.maxHp += 10; return hero;` ¦ Dentro de la función: `hero.level += 1; hero.maxHp += 10; return hero;`
+1kkhgq06h8 ¦ levelUp soma 1 nível ¦ levelUp suma 1 nivel
+tsjtumgdnl ¦ levelUp soma 10 de maxHp ¦ levelUp suma 10 de maxHp
+1h27t8pge13 ¦ levelUp retorna o herói ¦ levelUp devuelve el héroe
+2fmiomlnrrp ¦ myHero termina no nível 3 com 40 de maxHp ¦ myHero termina en el nivel 3 con 40 de maxHp
+8o7bo8coii ¦ Contando o Tesouro ¦ Contar el Tesoro
+u7fkjnagqf ¦ arrow functions ¦ funciones flecha
+1td963kwisl ¦ O tesouro do dragão finalmente é seu! O tesoureiro precisa de dois números antes do banquete. ¦ ¡El tesoro del dragón por fin es tuyo! El tesorero necesita dos números antes del banquete.
+j7973l1jsf ¦ Escreva `totalValue(loot)`, que retorna a soma de todos os `value`s, e `valuableNames(loot)`, que retorna os **nomes** dos itens que valem 50 ou mais. ¦ Escribe `totalValue(loot)`, que devuelve la suma de todos los `value`, y `valuableNames(loot)`, que devuelve los **nombres** de los objetos que valen 50 o más.
+q1whrwx5sz ¦ `map`, `filter` e `reduce` nunca mudam o array original; eles retornam valores novos. Esse estilo se chama *programação funcional* e está em todo lugar no JavaScript moderno e no React. Um loop `for` simples também está ótimo e às vezes é mais claro. ¦ `map`, `filter` y `reduce` nunca cambian el array original; devuelven valores nuevos. Este estilo se llama *programación funcional* y está por todas partes en el JavaScript moderno y en React. Un bucle `for` normal también vale y a veces es más claro.
+1jigfnmdh0p ¦ totalValue(loot) dá 174 ¦ totalValue(loot) da 174
+rc3gx03byx ¦ totalValue funciona com outras listas (e [] dá 0) ¦ totalValue funciona con otras listas (y [] da 0)
+199t4cma8ux ¦ valuableNames(loot) dá ["golden cup", "silver ring"] ¦ valuableNames(loot) da ["golden cup", "silver ring"]
+1gn8852m9qh ¦ valuableNames funciona com outras listas ¦ valuableNames funciona con otras listas
+xshgqb84tt ¦ Use filter e map ¦ Usa filter y map
+6p09z0zi3p ¦ Toque o Sino da Vila ¦ Toca la Campana de la Aldea
+8h81ttn7bc ¦ A vila precisa de um contador do sino: toda vez que alguém tocar o sino, o número na placa deve subir. ¦ La aldea necesita un contador de la campana: cada vez que alguien la toca, el número del cartel debe subir.
+1wdfhjunwyi ¦ No **script.js**: quando `#bell` for clicado, some 1 a um contador e mostre-o em `#count`. ¦ En **script.js**: cuando se pulse `#bell`, suma 1 a un contador y muéstralo en `#count`.
+2cmp7t4t1kj ¦ Esse padrão (encontrar elementos, escutar eventos, atualizar o DOM) é o que frameworks como React, Vue e Svelte automatizam para você. Aprender à mão primeiro deixa esses frameworks muito mais fáceis de entender. O `<script>` fica no fim do `<body>` para os elementos existirem antes de o script rodar (ou use `defer`). ¦ Este patrón (encontrar elementos, escuchar eventos, actualizar el DOM) es lo que frameworks como React, Vue y Svelte automatizan por ti. Aprenderlo a mano primero hace esos frameworks mucho más fáciles de entender. El `<script>` va al final de `<body>` para que los elementos existan antes de que se ejecute (o usa `defer`).
+x3t9vxlq7z ¦ Você precisa de um `let rings = 0;` fora do manipulador de clique. ¦ Necesitas un `let rings = 0;` fuera del manejador del clic.
+tig9zm5wjh ¦ Dentro do manipulador: `rings++; count.textContent = rings;` ¦ Dentro del manejador: `rings++; count.textContent = rings;`
+2b396lrg42n ¦ A contagem começa em 0 ¦ La cuenta empieza en 0
+3umysq4hyc ¦ Um clique mostra 1 ¦ Un clic muestra 1
+ok64lk68l3 ¦ Mais dois cliques mostram 3 ¦ Dos clics más muestran 3
+1arj6k7kvtg ¦ Use addEventListener ¦ Usa addEventListener
+1faqz41pb5y ¦ O Quadro de Avisos ¦ El Tablón de Anuncios
+56dbvjvbs2 ¦ valor do input ¦ valor del input
+e66ppst41p ¦ Os moradores querem pregar avisos no quadro: "Dragão avistado!", "Cabra perdida"... Monte o quadro. ¦ Los aldeanos quieren clavar avisos en el tablón: "¡Dragón avistado!", "Cabra perdida"... Construye el tablón.
+rxawa590he ¦ Quando `#post` for clicado, adicione o texto de `#notice` como um novo `<li>` em `#board` e limpe o campo. **Bônus:** ignore avisos vazios. ¦ Cuando se pulse `#post`, añade el texto de `#notice` como un nuevo `<li>` en `#board` y vacía el campo. **Extra:** ignora los avisos vacíos.
+249smpwucbb ¦ Use `textContent`, não `innerHTML`, para textos digitados pelos usuários. `innerHTML` rodaria qualquer HTML que eles digitassem, uma falha de segurança chamada **XSS** (cross-site scripting). `value.trim()` tira os espaços do começo e do fim, útil para detectar um campo "vazio". ¦ Usa `textContent`, no `innerHTML`, para el texto que escriben los usuarios. `innerHTML` ejecutaría cualquier HTML que escribieran, un fallo de seguridad llamado **XSS** (cross-site scripting). `value.trim()` quita los espacios del principio y del final, útil para detectar un campo "vacío".
+h9p033t6nl ¦ Dentro do manipulador de clique: `const li = document.createElement("li"); li.textContent = notice.value; board.append(li);` ¦ Dentro del manejador del clic: `const li = document.createElement("li"); li.textContent = notice.value; board.append(li);`
+245hwi82ttr ¦ Para pular avisos vazios: `if (notice.value.trim() === "") return;` ¦ Para saltarte los avisos vacíos: `if (notice.value.trim() === "") return;`
+1fzfb3qrn8 ¦ Pregar "Dragon spotted!" o adiciona ao quadro ¦ Clavar "Dragon spotted!" lo añade al tablón
+1rtftwakpnx ¦ O campo é limpo depois de pregar ¦ El campo se vacía después de clavar
+9xh23ia2uc ¦ Um segundo aviso também é adicionado ¦ También se añade un segundo aviso
+26zqeo4mkfm ¦ Avisos vazios são ignorados ¦ Los avisos vacíos se ignoran
+19r6m8njcrp ¦ Os Corvos Mensageiros ¦ Los Cuervos Mensajeros
+frw0x7wpel ¦ Promise ¦ Promise
+2fglezco5lk ¦ Os corvos levam mensagens entre castelos. Eles demoram para voar, e seu código precisa **esperar** a resposta. ¦ Los cuervos llevan mensajes entre castillos. Tardan en volar, y tu código debe **esperar** su respuesta.
+2bka63tjqy9 ¦ Escreva `sendRaven(message)`, que retorna uma Promise que, depois de 200 ms, resolve para `"Delivered: " + message`. Depois, numa `main` assíncrona, espere (await) `sendRaven("Help!")` e imprima a resposta. ¦ Escribe `sendRaven(message)`, que devuelva una Promise que, tras 200 ms, se resuelva con `"Delivered: " + message`. Luego, en una `main` asíncrona, espera (await) `sendRaven("Help!")` e imprime la respuesta.
+1x77z7oxrb4 ¦ É assim que o `fetch()` funciona: `const res = await fetch(url); const data = await res.json();`. Código que roda "depois" se chama *assíncrono*. Esquecer o `await` é um dos bugs mais comuns em projetos reais: você recebe um objeto Promise em vez do valor. ¦ Así funciona `fetch()`: `const res = await fetch(url); const data = await res.json();`. El código que se ejecuta "más tarde" se llama *asíncrono*. Olvidar el `await` es uno de los bugs más comunes en proyectos reales: obtienes un objeto Promise en lugar del valor.
+19u5htui0hu ¦ sendRaven retorna uma Promise ¦ sendRaven devuelve una Promise
+74gdx2mylh ¦ Ela resolve para "Delivered: <message>" ¦ Se resuelve con "Delivered: <message>"
+1g9sh4g7vci ¦ Imprime "Delivered: Help!" ¦ Imprime "Delivered: Help!"
+80y7ov4b02 ¦ Use await ¦ Usa await
+7v1u03oku2 ¦ O Corredor dos Goblins ¦ El Pasillo de los Goblins
+1i09odof80j ¦ O Rei Goblin construiu um corredor: um caminho longo cheio de goblins, gemas e uma porta trancada. Só um herói que combina **loops, condições e funções** consegue atravessá-lo. ¦ El Rey Goblin ha construido un pasillo: un camino largo lleno de goblins, gemas y una puerta cerrada. Solo un héroe que combine **bucles, condiciones y funciones** puede superarlo.
+2atgnnfif0r ¦ Colete todas as gemas, derrote todos os goblins, pegue a chave e chegue ao portão. O caminho vai para a direita, para baixo e depois para a esquerda. ¦ Recoge todas las gemas, derrota a todos los goblins, coge la llave y llega a la puerta. El camino va a la derecha, hacia abajo y luego a la izquierda.
+27pcdia6uvf ¦ Parâmetros deixam as funções flexíveis: um `walk(dir, steps)` substitui quatro funções quase idênticas. Encontrar os *parâmetros* certos para uma função é uma das habilidades centrais do design de software. ¦ Los parámetros hacen flexibles las funciones: un `walk(dir, steps)` sustituye a cuatro funciones casi idénticas. Encontrar los *parámetros* adecuados para una función es una de las habilidades centrales del diseño de software.
+1bpxo7iw9co ¦ Defina uma função com parâmetros ¦ Define una función con parámetros
+16sjqrfrbk8 ¦ Use um loop ¦ Usa un bucle
+1gvrv5rj6uv ¦ A Lista de Missões Salva ¦ La Lista de Misiones Guardada
+196tiyrjb3k ¦ Toda noite a vila esquece suas missões, porque a página recarrega. A sábia ensina a você um feitiço que lembra. ¦ Cada noche la aldea olvida sus misiones, porque la página se recarga. La sabia te enseña un hechizo que recuerda.
+2c1jlotuju1 ¦ Guarde as missões num array. Quando `#add` for clicado, adicione o texto de `#quest`, **salve** o array no localStorage com a chave `"quests"` e mostre-o em `#list`. Quando a página carregar, mostre as missões salvas. ¦ Guarda las misiones en un array. Cuando se pulse `#add`, añade el texto de `#quest`, **guarda** el array en localStorage con la clave `"quests"` y muéstralo en `#list`. Al cargar la página, muestra las misiones guardadas.
+zm6cki2oje ¦ O localStorage é perfeito para coisas pequenas como configurações, rascunhos ou a escolha de tema. Ele não é seguro (qualquer script da página consegue lê-lo), então nunca guarde senhas ou tokens nele. Para dados maiores, os navegadores têm o IndexedDB. ¦ localStorage es perfecto para cosas pequeñas como ajustes, borradores o la elección de tema. No es seguro (cualquier script de la página puede leerlo), así que nunca guardes ahí contraseñas ni tokens. Para datos más grandes, los navegadores tienen IndexedDB.
+1tu62autbxu ¦ Comece com `const quests = JSON.parse(localStorage.getItem("quests") ?? "[]");` e escreva uma função `render()` que preenche `#list`. ¦ Empieza con `const quests = JSON.parse(localStorage.getItem("quests") ?? "[]");` y escribe una función `render()` que rellene `#list`.
+227x8bvq8fz ¦ No manipulador de clique: `quests.push(input.value); localStorage.setItem("quests", JSON.stringify(quests)); render();` ¦ En el manejador del clic: `quests.push(input.value); localStorage.setItem("quests", JSON.stringify(quests)); render();`
+20wrt9931d6 ¦ Adicionar "Find the goat" o mostra na lista ¦ Añadir "Find the goat" lo muestra en la lista
+1q8mbqq0ak3 ¦ As missões ficam salvas no localStorage como JSON na chave "quests" ¦ Las misiones se guardan en localStorage como JSON con la clave "quests"
+eep2f2xxta ¦ Depois de recarregar, a missão salva continua aparecendo ¦ Después de recargar, la misión guardada sigue apareciendo
+16mmtq6nr91 ¦ O App do Quadro de Missões ¦ La App del Tablón de Misiones
+1vl9nkx1fhd ¦ estado + render ¦ estado + render
+2c98q6kco40 ¦ delegação de eventos ¦ delegación de eventos
+1eyp8lvlwnd ¦ Os anciões da vila querem um app de verdade, feito com JavaScript puro: adicionar missões, marcá-las como feitas e sempre saber quantas faltam. ¦ Los ancianos de la aldea quieren una app de verdad, hecha con JavaScript puro: añadir misiones, marcarlas como hechas y saber siempre cuántas quedan.
+1ftzjvjqucd ¦ Reconstruir a lista inteira a cada mudança é simples e rápido o bastante para apps pequenos. Os frameworks fazem o mesmo, só que de forma mais esperta: comparam a interface antiga com a nova e só mexem no que mudou. ¦ Reconstruir toda la lista con cada cambio es sencillo y lo bastante rápido para apps pequeñas. Los frameworks hacen lo mismo, pero de forma más inteligente: comparan la interfaz antigua con la nueva y solo tocan lo que cambió.
+10gdf5cxkbk ¦ Estado: `const quests = [];` Cada missão: `{ title: input.value, done: false }`. No `render()`: limpe a lista, percorra, crie um `li` e um `button`. ¦ Estado: `const quests = [];` Cada misión: `{ title: input.value, done: false }`. En `render()`: vacía la lista, recórrela, crea un `li` y un `button`.
+113n75wv6if ¦ Adicionar duas missões mostra dois itens <li> ¦ Añadir dos misiones muestra dos elementos <li>
+2dqqyimkjuz ¦ O campo é limpo e "#left" diz "2 left" ¦ El campo se vacía y "#left" dice "2 left"
+1bxfsmn9pq ¦ Done alterna a classe "done" e atualiza para "1 left" ¦ Done alterna la clase "done" y actualiza a "1 left"
+1z7uss5zxd9 ¦ Clicar em Done de novo a reativa: "2 left" ¦ Pulsar Done otra vez la reactiva: "2 left"
+176asafzut8 ¦ Texto vazio não adiciona nada ¦ El texto vacío no añade nada

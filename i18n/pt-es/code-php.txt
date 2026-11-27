@@ -1,0 +1,58 @@
+@@ 2fz9blt92v1
+Código PHP começa com `<?php`. `echo` imprime texto. Toda instrução termina com `;`:
+
+[[1]]
+`\n` começa uma nova linha.
+~~
+El código PHP empieza con `<?php`. `echo` imprime texto. Cada sentencia termina con `;`:
+
+[[1]]
+`\n` empieza una línea nueva.
+@@ r4o1m5zoqr
+Variáveis começam com `$`. Junte textos com um ponto `.`, ou coloque variáveis dentro de **aspas duplas**:
+
+[[1]]
+~~
+Las variables empiezan con `$`. Une textos con un punto `.`, o pon variables dentro de **comillas dobles**:
+
+[[1]]
+@@ 17g6ykggvu5
+[[1]]
+Atenção: `elseif` é uma palavra só em PHP.
+~~
+[[1]]
+Ojo: `elseif` es una sola palabra en PHP.
+@@ n1yz95flwp
+Um **array associativo** liga chaves a valores:
+
+[[1]]
+~~
+Un **array asociativo** asocia claves con valores:
+
+[[1]]
+@@ 1q91ayddfm4
+Nunca imprima texto do usuário direto no HTML. `htmlspecialchars()` transforma `<` em `&lt;`, e o navegador mostra como texto:
+
+[[1]]
+Outras funções úteis: `trim()`, `strtolower()`, `ucfirst()`, `strlen()`.
+~~
+Nunca imprimas texto del usuario directamente en el HTML. `htmlspecialchars()` convierte `<` en `&lt;`, y el navegador lo muestra como texto:
+
+[[1]]
+Otras funciones útiles: `trim()`, `strtolower()`, `ucfirst()`, `strlen()`.
+@@ 2815mvrysno
+[[1]]
+`->` acessa uma propriedade ou método. Propriedades `private` só podem ser mudadas pela própria classe.
+~~
+[[1]]
+`->` accede a una propiedad o un método. Las propiedades `private` solo las puede cambiar la propia clase.
+@@ 2a0zgyuqmbx
+Ordene um array com a sua própria regra:
+
+[[1]]
+`<=>` (a nave espacial) retorna -1, 0 ou 1. `fn` é uma função curta.
+~~
+Ordena un array con tu propia regla:
+
+[[1]]
+`<=>` (la nave espacial) devuelve -1, 0 o 1. `fn` es una función corta.

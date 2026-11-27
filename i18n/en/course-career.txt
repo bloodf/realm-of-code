@@ -1,0 +1,442 @@
+@@ 1m6wy5c8mql
+Getting Hired
+@@ 4rllwh46sh
+From learner to junior developer: portfolio projects, GitHub, deploying, CV, interviews and your first job on a team.
+@@ 1zmkx0u6fsd
+Your Portfolio
+@@ ml6wtsgrnp
+Projects that prove your skills.
+@@ 1z41e07b43n
+
+**Key ideas**
+- Employers hire juniors for **proof of skills** and **ability to learn**: real projects beat certificates.
+- Build 3–5 projects that solve real problems, each a bit harder. Deploy them so anyone can click a link.
+- Each repo needs a good **README**: what it is, screenshot, live link, tech used, how to run it, what you learned.
+- A tidy GitHub profile with a pinned projects section and regular commits.
+- Free hosting: GitHub Pages, Netlify, Vercel (front end); Render, Railway, Fly.io (back end).
+@@ 1ad4dz7pb18
+What employers look for
+@@ 2abkxcpthpl
+Proof, not promises
+@@ 1wwvzd3kzwx
+For junior roles, companies mainly want to see:
+- you can **build working things** (projects)
+- you understand the **fundamentals** (HTML, CSS, JS, Git, APIs)
+- you can **learn** and **communicate**
+- you can work in a **team** (Git, pull requests, asking good questions)
+
+Nobody expects a junior to know everything.
+@@ ymtzdxyxjs
+What convinces employers most that a junior can code?
+@@ 17g2me9wqum
+Working projects they can see and try
+@@ 16jrpvjzk2h
+A long list of course certificates
+@@ pidtf8pmmw
+Saying "I am a fast learner"
+@@ 25z5z0uw6t
+A very colourful CV
+@@ htw05hinaf
+Juniors are expected to know every framework before their first job.
+@@ 3ea9j73csc
+Match the skill with the proof
+@@ 694rnn115w
+Can build UIs
+@@ dnoc5rhx58
+Deployed projects
+@@ 1wqn8n6o9to
+Works with teams
+@@ 6j9rrqb2o6
+Clean Git history, PRs
+@@ 3oun906fji
+Communicates well
+@@ 25v99hjf7io
+Clear README files
+@@ 117ycr0vo1u
+Keeps learning
+@@ 13keya9o8ts
+Recent activity and new skills
+@@ 2dokls8hbpn
+Projects to build
+@@ qcp9epsknx
+A ladder of projects
+@@ 2otccjjt8r
+Build projects that grow in difficulty:
+1. A **personal site** (HTML/CSS, responsive, accessible)
+2. An **interactive app** (JS: quiz, todo with localStorage, weather app with an API)
+3. A **framework app** (React/Vue/Svelte + TypeScript + routing + API data)
+4. A **full-stack app** (your own API + database + login)
+
+Best of all: solve a **real problem** for someone (a club, a family business, yourself).
+@@ 9tav77ld2v
+Order these projects from easiest to hardest
+@@ 28hdr224fgl
+Which project idea stands out most to employers?
+@@ u8s8cxmnhf
+An app that solves a real problem for a real group of people
+@@ ueev9agf7
+A copy of a tutorial with no changes
+@@ 19tmhnecjr8
+A "hello world" page
+@@ qz79s260s5
+A project that is not deployed
+@@ 20eobb8258o
+It is fine to build projects with a tutorial, as long as you then extend them with your own features.
+@@ 2a61qslp78o
+GitHub and READMEs
+@@ 16n3knlahne
+Your shop window
+@@ p5ii1xf6lg
+Recruiters and developers will look at your GitHub. Make it easy:
+- **pin** your best 3–6 repositories
+- a profile README: who you are, what you build, how to contact you
+- each project README:
+
+```
+# Quest Board
+A todo app for adventurers. Live: https://quest.example.dev
+![Screenshot](screenshot.png)
+## Features
+## Tech: React, TypeScript, Vite
+## Run locally: npm install && npm run dev
+## What I learned
+```
+@@ 8x08i1vc2d
+Order a good project README
+@@ 1grak56es1o
+What is the single most important link in a project README?
+@@ 2eov5mkqsvy
+The live demo link
+@@ vn6zyyevz9
+Your favourite song
+@@ 1ar7z3fw1g1
+A link to the framework docs
+@@ 1ba5uic1y6c
+A link to another repo
+@@ 1mjjk9xau4y
+Meaningful commit messages make your projects look more professional.
+@@ 16ztrv4j5fk
+Deploying your work
+@@ x0djg47tr
+Put it online
+@@ ktykzf19n1
+- **Static sites** (HTML/CSS/JS, React/Vue/Svelte builds): GitHub Pages, Netlify, Vercel, Cloudflare Pages (free)
+- **Backends** (Node + database): Render, Railway, Fly.io
+- Connect the repo: every push to `main` redeploys automatically
+- Optional: buy a custom domain (a few euros/dollars per year)
+@@ 1di0mh8pyjo
+Match the project with a host
+@@ 1sw88eeqi5h
+A React app (static build)
+@@ denl7rbo3d
+Netlify or Vercel
+@@ 28yw5btuzxu
+A Node API with a database
+@@ 712eckpa3t
+Render or Railway
+@@ 29ojk0p0b3r
+A simple HTML portfolio
+@@ 19za8492tvz
+GitHub Pages
+@@ r9cyn1h9tg
+Your own name as the address
+@@ 2e41lf38v01
+A custom domain
+@@ euf4mo6t3e
+Why deploy your projects instead of only sharing code?
+@@ 1oicg9snrph
+Recruiters can try them in one click
+@@ 2bsbc5auztp
+It makes the code shorter
+@@ lzods85fbs
+GitHub requires it
+@@ 16d4wm3hr96
+It is the only way to save code
+@@ f1yz2y6fsx
+CV, job search and interviews.
+@@ 1s8i250gxjz
+
+**Key ideas**
+- **CV**: one page, skills, projects with links and results, relevant experience (also from earlier careers!).
+- LinkedIn + GitHub + portfolio site tell the same story.
+- Job search: apply regularly, tailor each application, network (meetups, online communities), referrals work best.
+- Interviews: screening call → technical interview (live coding, take-home, or questions) → behavioural interview (STAR).
+- Think out loud, ask clarifying questions, and it is OK to say "I don't know, but here is how I would find out".
+@@ l8yj1950gp
+Your CV and profiles
+@@ 1eg3xb8f6la
+One page that opens doors
+@@ 2a42a9hp01l
+- Keep it to **one page**, clean and easy to scan
+- Top: name, role you want ("Junior Frontend Developer"), links (GitHub, portfolio, LinkedIn)
+- **Projects** with one line each: what it does, tech, a link
+- Skills you can actually discuss
+- Previous experience: career switchers bring real value (teamwork, domain knowledge, customer skills)!
+@@ 190g0xjfklu
+A career switcher worked 5 years in a restaurant. Should that be on the CV?
+@@ 24pfhs4jssv
+Yes: teamwork, pressure and customer skills are valuable
+@@ izeqgco5ui
+No, only tech jobs count
+@@ 25x5wvtx346
+Only if it was a tech restaurant
+@@ 1tnk06loax1
+Hide it completely
+@@ f4j0ze408k
+Which project line is strongest?
+@@ 23bb8d7txo2
+"Built a React booking app used by my climbing club (30 members)"
+@@ 1obpudwmdvo
+"Did a React project"
+@@ 1xl4x66agah
+"Knows React"
+@@ 15p1gy9q3dj
+"Interested in React"
+@@ 14ovfq9bwih
+Listing 40 technologies you have only heard of makes your CV stronger.
+@@ unn6in0gcw
+Interviewers ask about what you list. Only include what you can talk about.
+@@ 1xjlpnjr19a
+The job search
+@@ q0epxi0nkx
+A steady campaign
+@@ gpkouihonx
+- Apply regularly (many junior applications get no answer; it is not personal)
+- **Tailor** each application: match the job's keywords and say why this company
+- **Network**: meetups, online communities, open source, friends in tech. Referrals are the fastest way in
+- Track applications in a simple spreadsheet
+- Look beyond big tech: agencies, startups, local businesses, internships, apprenticeships
+@@ 17q83yv650u
+What usually gives the best chance of an interview?
+@@ 256604zuksa
+A referral from someone who works there
+@@ 1m5czhx34l0
+Sending the same CV to 500 jobs in one day
+@@ 1kktev5g5c2
+Only applying to famous companies
+@@ cll77sznu9
+Waiting for recruiters to find you
+@@ lq2cpo8j1i
+Many successful developers were rejected many times before their first job.
+@@ 22dwi55pkes
+Match the place with what you get
+@@ 842adanrvq
+Meetups
+@@ 2ca7o914f93
+People and referrals
+@@ 1ehxwzx6yb
+Open source
+@@ 1rypuqe3ezz
+Real teamwork on your CV
+@@ 1ruxakiwcm8
+Job boards
+@@ tdox4u031
+Lots of openings
+@@ 1z0yiqw8h3x
+Internships
+@@ 1goa7tsu32u
+Paid learning on the job
+@@ 30eo4prvll
+Behavioural interviews
+@@ ionke0eetd
+The STAR method
+@@ nhw5d0p21j
+Behavioural questions ask about your past: "Tell me about a time you solved a hard problem." Answer with **STAR**:
+- **S**ituation: the context
+- **T**ask: what you had to do
+- **A**ction: what **you** did
+- **R**esult: what happened (numbers help!)
+@@ 1g1jg06cm4j
+Order a STAR answer
+@@ 22i6704so22
+"What is your biggest weakness?" A good answer...
+@@ 97p6ovgp83
+Names a real weakness and what you do to improve it
+@@ nx3csj8xfr
+Says you have no weaknesses
+@@ kv4420gdhq
+Says you work too hard
+@@ guncx9hh10
+Criticises a former boss
+@@ 1nanql8gj8b
+At the end, the interviewer asks if you have questions. You should...
+@@ 172qpyv2sgr
+Ask thoughtful questions about the team and the work
+@@ 26fsod8e52j
+Say no
+@@ 1hrsenoty10
+Ask only about holidays
+@@ 1n7t978yao5
+Ask for the answers to the interview
+@@ 1eihpffbcu6
+Technical interviews
+@@ 17h03f4ffs6
+Show how you think
+@@ 9uoniwjwnf
+- **Think out loud**: interviewers care about your reasoning
+- Ask clarifying questions before coding
+- Start simple, then improve
+- Test your code with an example
+- If stuck, say what you are thinking; it is OK to say "I don't know, but I would look it up here..."
+
+Common junior topics: `let`/`const`/`var`, `==` vs `===`, the box model, flexbox, HTTP methods, async/await, React state and props, Git basics.
+@@ 257h8mj1n0u
+You do not understand the exercise. What do you do?
+@@ xk7adim8v9
+Ask clarifying questions
+@@ 6ohfwm8a4s
+Start typing anything
+@@ 9edti1tonq
+Stay silent
+@@ 25961b54rlx
+Quick interview revision
+@@ 2293vlq8rtd
+Strict vs loose equality
+@@ 1k0fzeg4w9
+let vs const
+@@ 178q7suo2j1
+Can vs cannot be reassigned
+@@ 18r6grqykor
+props vs state
+@@ 1tftdgmefrv
+Input from parent vs own memory
+@@ cdjt4t89s4
+GET vs POST
+@@ 1rsuvhexyn7
+Read vs create/send data
+@@ 2csx278gdv4
+Saying "I don't know, but here is how I would find out" can leave a good impression.
+@@ 2avbrx43sas
+Your First Job
+@@ e99mzvdrk3
+How teams work and how to grow.
+@@ 2dhmat97wpv
+
+**Key ideas**
+- Teams often work in **Agile/Scrum**: short **sprints**, daily **stand-ups**, **tickets** in Jira/Linear/GitHub Issues, demos and retrospectives.
+- Your flow: pick a ticket → branch → small commits → PR → review → merge → deploy.
+- Code review etiquette: be kind, specific and curious; don't take feedback personally.
+- Ask for help after you have tried for a while (e.g. 30–60 minutes) and write down what you tried.
+- Imposter syndrome is normal. Keep learning: read code, docs, and ask seniors how they think.
+@@ q44effjafb
+How teams work
+@@ 295kli3dohf
+Sprints and stand-ups
+@@ 2776mv3hj8l
+Many teams use **Scrum**, a kind of **Agile**:
+- work is split into **tickets** (Jira, Linear, GitHub Issues)
+- a **sprint** is 1–2 weeks of planned work
+- a short daily **stand-up**: what I did, what I will do, what blocks me
+- a **demo** at the end, and a **retrospective** to improve the process
+@@ dux9nulw5y
+Match the Agile word
+@@ 17sim2pbiph
+Sprint
+@@ 1m2kn2rjytb
+1–2 weeks of planned work
+@@ 17an2dhhsox
+Stand-up
+@@ 2favq3emr7g
+Short daily sync
+@@ 2dbfyzr641f
+Ticket
+@@ 1c1u78d2d1q
+One piece of work to do
+@@ 105qbcbgueo
+Retrospective
+@@ 11vftqq7f57
+Meeting to improve how we work
+@@ 190gy3421dy
+In a stand-up you are stuck on a bug. You should...
+@@ 1etqqu32w41
+Mention it as a blocker and ask who can help
+@@ 1qg145pehxv
+Hide it until you solve it alone
+@@ 14htiwh5kuq
+Skip the stand-up
+@@ 215jfg96wyj
+Blame the computer
+@@ 86kncryusx
+Order the daily workflow for a ticket
+@@ 15h5ahia6yn
+Code review etiquette
+@@ 168lrje0q2j
+Kind and useful
+@@ 2f0yszauod0
+As an **author**: keep PRs small, describe what and why, add screenshots for UI, respond openly to comments.
+
+As a **reviewer**: be kind and specific, ask questions ("What happens if the list is empty?"), praise good things, and separate must-fix from nice-to-have ("nit:").
+@@ cnlsoii3j3
+Which review comment is best?
+@@ 1sn2h8nmvih
+"Nice refactor! One question: what happens if user is null here?"
+@@ 1zuh5zk1xsb
+"This is wrong."
+@@ s9dqp8d5v6
+"Rewrite all of it."
+@@ 2g0w76joib9
+"Why didn't you use my way?"
+@@ 255q739xemj
+A reviewer asks you to change something you disagree with. Best reaction?
+@@ knqc1m946f
+Explain your reasoning politely and discuss it
+@@ 1c0oyw57oe1
+Ignore the comment
+@@ 13exrop1dqj
+Close the PR angrily
+@@ 19u3l6faffl
+Change it without understanding
+@@ xh3l046j3a
+Feedback on your code is feedback on you as a person.
+@@ 25rgdyjmgd4
+It is about the code. Everyone, including seniors, gets review comments.
+@@ 14159wj5hka
+Growing as a developer
+@@ qindeh3ohs
+The long game
+@@ 25z3jkzjy65
+- **Ask for help** after trying for a while, and explain what you already tried
+- Write things down: notes, docs, "today I learned"
+- Read other people's code: it is the fastest way to level up
+- Feeling like an imposter is normal, even for seniors
+- Keep practising: a little every day (like here!)
+@@ cbbeenleof
+You have been stuck for two hours on a problem. What now?
+@@ t1vaql4f8u
+Ask a teammate, sharing what you tried
+@@ 42hbzthl6a
+Keep trying alone all week
+@@ ynfnzwmvzz
+Quietly give up on the ticket
+@@ 25p1wifztcp
+Copy random code until it works
+@@ 2tdgl5uu26
+Even senior developers look things up every day.
+@@ 1dgdv6n5v14
+What is imposter syndrome?
+@@ 1op0dle5mio
+Feeling like you are not as skilled as others think, despite evidence
+@@ hccoadebbz
+Pretending to be someone else online
+@@ 1ezltlron12
+A JavaScript error
+@@ 1cbnpqgya1i
+A kind of interview
+@@ 1ncfcp6c5ew
+Match the habit with its benefit
+@@ 1ukjzh9dvvy
+Reading others' code
+@@ 16htra8766l
+Learn new patterns
+@@ vfy7p2e1cq
+Writing notes
+@@ 1hq1bwdul5f
+Remember and share knowledge
+@@ 2fs8m8aew35
+Asking good questions
+@@ 15916kuu0zu
+Get unstuck faster
+@@ 2ck2p9972nl
+Daily practice
+@@ 16e8u61si91
+Steady growth

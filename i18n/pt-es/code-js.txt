@@ -1,0 +1,302 @@
+@@ 5mutuwhwvn
+Seu herói entende estes comandos:
+
+[[1]]
+~~
+Tu héroe entiende estos comandos:
+
+[[1]]
+@@ e9cszhqmst
+{0}
+
+Cada linha é uma **instrução**: um comando. O computador as roda **uma depois da outra**, de cima para baixo.
+
+`hero.moveRight()` significa: pegue o `hero` e chame o comando `moveRight` dele. Os parênteses `()` fazem acontecer.
+~~
+{0}
+
+Cada línea es una **sentencia**: un comando. El ordenador las ejecuta **una tras otra**, de arriba abajo.
+
+`hero.moveRight()` significa: coge el `hero` y llama a su comando `moveRight`. Los paréntesis `()` hacen que ocurra.
+@@ 1h7wl07z1r6
+{0}
+
+Programas são **sequências**: a ordem das linhas importa. Se você andar contra uma árvore, o herói só diz "Ai!" e fica onde está.
+
+Dica: você pode rodar o código quantas vezes quiser. Tente, observe, corrija.
+~~
+{0}
+
+Los programas son **secuencias**: el orden de las líneas importa. Si chocas con un árbol, tu héroe solo dice "¡Ay!" y se queda donde está.
+
+Consejo: puedes ejecutar tu código tantas veces como quieras. Prueba, observa, corrige.
+@@ 1wi3w0nhdg2
+Você pode dar informação extra a um comando dentro dos parênteses. Isso se chama **argumento**:
+
+[[1]]
+
+Texto depois de `//` é um **comentário**. O computador o ignora; é uma nota para humanos.
+~~
+Puedes darle información extra a un comando dentro de los paréntesis. Se llama **argumento**:
+
+[[1]]
+
+El texto después de `//` es un **comentario**. El ordenador lo ignora; es una nota para humanos.
+@@ y1eizio4gr
+Um **loop for** repete código. Este repete 3 vezes:
+
+[[1]]
+
+Leia assim:
+1. `let i = 0`: comece um contador em 0
+2. `i < 3`: continue enquanto o contador for menor que 3
+3. `i++`: some 1 ao contador depois de cada volta
+
+O código entre `{ }` roda uma vez por volta.
+~~
+Un **bucle for** repite código. Este repite 3 veces:
+
+[[1]]
+
+Léelo así:
+1. `let i = 0`: empieza un contador en 0
+2. `i < 3`: sigue mientras el contador sea menor que 3
+3. `i++`: suma 1 al contador después de cada vuelta
+
+El código entre `{ }` se ejecuta una vez por vuelta.
+@@ 1z4g6byqw8m
+Um loop pode repetir **mais de uma linha**. Tudo dentro de `{ }` se repete:
+
+[[1]]
+
+Isto anda: direita, baixo, direita, baixo, direita, baixo.
+
+Quando o herói chega ao portão, a fase termina na hora, mesmo no meio de um loop.
+~~
+Un bucle puede repetir **más de una línea**. Todo lo que hay dentro de `{ }` se repite:
+
+[[1]]
+
+Esto camina: derecha, abajo, derecha, abajo, derecha, abajo.
+
+Cuando el héroe llega a la puerta, el nivel termina al momento, incluso en mitad de un bucle.
+@@ 167pj1bb5ce
+`hero.look("right")` diz o que está ao lado do herói. Ele devolve uma **string** (texto), como `"tree"`, `"empty"`, `"gem"` ou `"exit"`.
+
+Um **loop while** repete *enquanto* uma condição for verdadeira:
+
+[[1]]
+
+`!==` significa "é diferente de". `===` significa "é igual a".
+~~
+`hero.look("right")` te dice qué hay junto al héroe. Devuelve un **string** (texto), como `"tree"`, `"empty"`, `"gem"` o `"exit"`.
+
+Un **bucle while** repite *mientras* una condición sea verdadera:
+
+[[1]]
+
+`!==` significa "no es igual a". `===` significa "es igual a".
+@@ e7r3k9xjas
+Um comando **if** só roda código quando uma condição é verdadeira:
+
+[[1]]
+
+`hero.attack("right")` golpeia com a espada a casa da direita. Andar contra um goblin não funciona: você esbarra nele.
+~~
+Una sentencia **if** ejecuta código solo cuando una condición es verdadera:
+
+[[1]]
+
+`hero.attack("right")` lanza un golpe de espada a la casilla de la derecha. Caminar contra un goblin no funciona: chocas con él.
+@@ 272ggkq06b2
+Uma **função** é um grupo de comandos com nome. Primeiro você a *define*, depois a *chama*:
+
+[[1]]
+~~
+Una **función** es un grupo de comandos con nombre. Primero la *defines* y luego la *llamas*:
+
+[[1]]
+@@ 204sh4reaih
+As chaves são recolhidas como as gemas. Uma porta abre se você andar contra ela carregando uma chave.
+
+Seu herói também tem **propriedades**, valores que você pode ler:
+
+[[1]]
+
+`console.log(value)` imprime um valor no console abaixo do mapa. É a ferramenta nº 1 para achar bugs.
+~~
+Las llaves se recogen como las gemas. Una puerta se abre si caminas contra ella llevando una llave.
+
+Tu héroe también tiene **propiedades**, valores que puedes leer:
+
+[[1]]
+
+`console.log(value)` imprime un valor en la consola debajo del mapa. Es la herramienta n.º 1 para encontrar bugs.
+@@ 23ancsfbonw
+**Variáveis** são caixas com etiqueta que guardam valores:
+
+[[1]]
+
+Texto se chama **string** e vai entre aspas. **Template literals** usam crases e `${}` para colocar valores dentro do texto:
+
+[[2]]
+~~
+Las **variables** son cajas con etiqueta que guardan valores:
+
+[[1]]
+
+El texto se llama **string** y va entre comillas. Las **plantillas literales** usan acentos graves y `${}` para meter valores dentro del texto:
+
+[[2]]
+@@ y7s0na9eqm
+Um **array** é uma lista de valores entre colchetes:
+
+[[1]]
+
+Percorra cada item com **for...of**:
+
+[[2]]
+
+`item.toUpperCase()` transforma o texto em MAIÚSCULAS.
+~~
+Un **array** es una lista de valores entre corchetes:
+
+[[1]]
+
+Recorre cada elemento con **for...of**:
+
+[[2]]
+
+`item.toUpperCase()` convierte el texto a MAYÚSCULAS.
+@@ 1csmvmtyfvl
+Um **objeto** agrupa valores com nome (*propriedades*):
+
+[[1]]
+
+Funções podem receber **parâmetros** e **retornar** um resultado:
+
+[[2]]
+~~
+Un **objeto** agrupa valores con nombre (*propiedades*):
+
+[[1]]
+
+Las funciones pueden recibir **parámetros** y **devolver** un resultado:
+
+[[2]]
+@@ 2bm1swc3zg8
+**Arrow functions** são um jeito curto de escrever funções: `(x) => x * 2`.
+
+Os arrays têm métodos poderosos que recebem uma função:
+
+[[1]]
+
+Para uma lista de objetos: `loot.map((item) => item.name)`.
+~~
+Las **funciones flecha** son una forma corta de escribir funciones: `(x) => x * 2`.
+
+Los arrays tienen métodos potentes que reciben una función:
+
+[[1]]
+
+Para una lista de objetos: `loot.map((item) => item.name)`.
+@@ 1cmm0xc1jvd
+O JavaScript pode mudar a página. A página se chama **DOM**.
+
+[[1]]
+
+`element.textContent = "new text"` muda o texto de um elemento.
+
+`querySelector` usa seletores CSS: `#id`, `.class`, `tag`.
+~~
+JavaScript puede cambiar la página. La página se llama **DOM**.
+
+[[1]]
+
+`element.textContent = "new text"` cambia el texto de un elemento.
+
+`querySelector` usa selectores CSS: `#id`, `.class`, `tag`.
+@@ s6qt4e07oo
+Leia o que foi digitado com `input.value`. Crie elementos novos e adicione-os à página:
+
+[[1]]
+
+Limpe um campo com `input.value = ""`.
+~~
+Lee lo que se escribió con `input.value`. Crea elementos nuevos y añádelos a la página:
+
+[[1]]
+
+Vacía un campo con `input.value = ""`.
+@@ 2bc2hnllz68
+Algumas coisas levam tempo (temporizadores, baixar dados). O JavaScript não para e espera; ele usa **Promises**: a promessa de um valor *depois*.
+
+[[1]]
+
+Dentro de uma função **async**, o `await` pausa até a promise ficar pronta:
+
+[[2]]
+~~
+Algunas cosas llevan tiempo (temporizadores, descargar datos). JavaScript no se detiene a esperar; usa **Promises**: la promesa de un valor *más tarde*.
+
+[[1]]
+
+Dentro de una función **async**, `await` pausa hasta que la promesa está lista:
+
+[[2]]
+@@ ej8u1frtsd
+`hero.move(direction)` recebe a direção como string: `"up"`, `"down"`, `"left"` ou `"right"`. Isso significa que você pode escrever **uma** função que funciona para qualquer direção:
+
+[[1]]
+~~
+`hero.move(direction)` recibe la dirección como string: `"up"`, `"down"`, `"left"` o `"right"`. Eso significa que puedes escribir **una** función que funcione para cualquier dirección:
+
+[[1]]
+@@ 1c8bnez8hud
+O `localStorage` guarda texto no navegador, mesmo depois de recarregar:
+
+[[1]]
+
+Ele só guarda **strings**, então transforme arrays em texto com JSON:
+
+[[2]]
+~~
+`localStorage` guarda texto en el navegador, incluso después de recargar:
+
+[[1]]
+
+Solo guarda **strings**, así que convierte los arrays en texto con JSON:
+
+[[2]]
+@@ 116l40pq970
+Hora do projeto! Um padrão comum para apps pequenos sem framework:
+
+1. Guarde os dados num array: o **estado**
+2. Escreva uma função `render()` que desenha a página a partir do estado
+3. Em cada manipulador de evento: mude o estado e depois chame `render()`
+
+[[1]]
+
+Essa é exatamente a ideia que React, Vue e Svelte automatizam para você.
+~~
+¡Hora del proyecto! Un patrón habitual para apps pequeñas sin framework:
+
+1. Guarda los datos en un array: el **estado**
+2. Escribe una función `render()` que dibuje la página a partir del estado
+3. En cada manejador de eventos: cambia el estado y luego llama a `render()`
+
+[[1]]
+
+Esta es exactamente la idea que React, Vue y Svelte automatizan por ti.
+@@ 2elyvwcdnyf
+Monte o quadro de missões:
+- `#add` adiciona o texto de `#quest` como uma missão nova (ignore texto vazio) e limpa o campo
+- cada missão é um `<li>` em `#list` com o título e um botão **Done**
+- clicar em **Done** alterna a classe `done` naquele `<li>`
+- `#left` mostra **N left** (missões não concluídas)
+~~
+Construye el tablón de misiones:
+- `#add` añade el texto de `#quest` como una misión nueva (ignora el texto vacío) y vacía el campo
+- cada misión es un `<li>` en `#list` con su título y un botón **Done**
+- pulsar **Done** alterna la clase `done` en ese `<li>`
+- `#left` muestra **N left** (misiones no hechas)

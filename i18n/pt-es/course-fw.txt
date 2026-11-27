@@ -1,0 +1,514 @@
+@@ df8mprtct
+
+**Ideias principais**
+- O PHP roda no **servidor** e envia HTML para o navegador. Os arquivos começam com `<?php`.
+- `echo` imprime. As instruções terminam com `;`.
+- Variáveis começam com `$`: `$name = "Ada";`. Junte strings com `.`; aspas duplas colocam variáveis dentro: `"Hi $name"`.
+- O PHP move o WordPress, a Wikipédia e os apps em Laravel.
+~~
+
+**Ideas clave**
+- PHP se ejecuta en el **servidor** y envía HTML al navegador. Los archivos empiezan con `<?php`.
+- `echo` imprime. Las sentencias terminan con `;`.
+- Las variables empiezan con `$`: `$name = "Ada";`. Une strings con `.`; las comillas dobles meten variables dentro: `"Hi $name"`.
+- PHP mueve WordPress, Wikipedia y las apps hechas con Laravel.
+@@ pku191z0s1
+O PHP é uma linguagem de **servidor**: ele roda no servidor web, monta uma página e envia o HTML para o navegador.
+
+[[1]]
+Cerca de 75% dos sites que usam uma linguagem de servidor usam PHP, inclusive o **WordPress** e apps feitos com **Laravel**.
+~~
+PHP es un lenguaje de **servidor**: se ejecuta en el servidor web, construye una página y envía el HTML al navegador.
+
+[[1]]
+Alrededor del 75% de los sitios que usan un lenguaje de servidor usan PHP, incluidos **WordPress** y las apps hechas con **Laravel**.
+@@ 6i3b9rz2er
+[[1]]
+`var_dump()` mostra um valor e o tipo dele: útil para depurar.
+~~
+[[1]]
+`var_dump()` muestra un valor y su tipo: útil para depurar.
+@@ 1j3605rkhx3
+
+**Ideias principais**
+- `if (...) { } elseif (...) { } else { }`. Compare com `===` (valor e tipo) em vez de `==`.
+- Loops: `for`, `while` e `foreach ($items as $item)`.
+- Arrays: `[1, 2, 3]` e arrays associativos `["name" => "Ada"]`. `count()`, `$a[] = x` para adicionar.
+- Funções: `function add(int $a, int $b): int { return $a + $b; }`.
+~~
+
+**Ideas clave**
+- `if (...) { } elseif (...) { } else { }`. Compara con `===` (valor y tipo) en lugar de `==`.
+- Bucles: `for`, `while` y `foreach ($items as $item)`.
+- Arrays: `[1, 2, 3]` y arrays asociativos `["name" => "Ada"]`. `count()`, `$a[] = x` para añadir.
+- Funciones: `function add(int $a, int $b): int { return $a + $b; }`.
+@@ or930m2kv1
+[[1]]
+Use `===` para comparar: `"1" == 1` é verdadeiro, mas `"1" === 1` é falso.
+~~
+[[1]]
+Usa `===` para comparar: `"1" == 1` es verdadero, pero `"1" === 1` es falso.
+@@ 1sldebmxmza
+[[1]]
+Indicações de tipo (`string`, `int`) pegam erros cedo.
+~~
+[[1]]
+Las indicaciones de tipo (`string`, `int`) atrapan los errores pronto.
+@@ cq2uxaghs7
+
+**Ideias principais**
+- Os dados de formulário chegam em `$_GET` (da URL) e `$_POST` (de um formulário).
+- **Nunca confie na entrada do usuário.** Escape a saída com `htmlspecialchars()` (impede XSS).
+- Converse com bancos de dados usando **PDO** e **prepared statements** (impede SQL injection): `$stmt = $pdo->prepare("SELECT * FROM users WHERE id = ?"); $stmt->execute([$id]);`
+- `session_start()` e `$_SESSION` lembram o usuário entre páginas. Faça hash das senhas com `password_hash()`.
+~~
+
+**Ideas clave**
+- Los datos de formulario llegan en `$_GET` (de la URL) y `$_POST` (de un formulario).
+- **Nunca confíes en la entrada del usuario.** Escapa la salida con `htmlspecialchars()` (frena el XSS).
+- Habla con las bases de datos con **PDO** y **sentencias preparadas** (frenan la inyección SQL): `$stmt = $pdo->prepare("SELECT * FROM users WHERE id = ?"); $stmt->execute([$id]);`
+- `session_start()` y `$_SESSION` recuerdan al usuario entre páginas. Haz hash de las contraseñas con `password_hash()`.
+@@ zdszqr2hp4
+Um formulário envia dados para uma página PHP:
+
+[[1]]
+[[2]]
+`??` dá um valor padrão quando o valor não existe.
+~~
+Un formulario envía datos a una página PHP:
+
+[[1]]
+[[2]]
+`??` da un valor por defecto cuando falta el valor.
+@@ 27958tm6441
+Dois ataques clássicos:
+
+- **XSS**: alguém digita `<script>` num formulário. Solução: `echo htmlspecialchars($text);`
+- **SQL injection**: alguém digita `' OR 1=1 --`. Solução: **prepared statements**:
+
+[[1]]
+E guarde as senhas com `password_hash()` e confira com `password_verify()`.
+~~
+Dos ataques clásicos:
+
+- **XSS**: alguien escribe `<script>` en un formulario. Solución: `echo htmlspecialchars($text);`
+- **Inyección SQL**: alguien escribe `' OR 1=1 --`. Solución: **sentencias preparadas**:
+
+[[1]]
+Y guarda las contraseñas con `password_hash()` y compruébalas con `password_verify()`.
+@@ rej9u0zyro
+
+**Ideias principais**
+- Classes: propriedades, `__construct`, `$this->`, `public`/`private`. Namespaces organizam o código.
+- O **Composer** instala pacotes (`composer require monolog/monolog`) e carrega as classes automaticamente.
+- **Laravel** (rotas, controllers, views Blade, ORM Eloquent, migrações) e **Symfony** são os grandes frameworks.
+- PSR-12 é o estilo de código comum; PHPUnit ou Pest rodam os testes.
+~~
+
+**Ideas clave**
+- Clases: propiedades, `__construct`, `$this->`, `public`/`private`. Los namespaces organizan el código.
+- **Composer** instala paquetes (`composer require monolog/monolog`) y carga las clases automáticamente.
+- **Laravel** (rutas, controladores, vistas Blade, ORM Eloquent, migraciones) y **Symfony** son los grandes frameworks.
+- PSR-12 es el estilo de código habitual; PHPUnit o Pest ejecutan las pruebas.
+@@ kw7sho395j
+Projetos PHP de verdade usam o **Composer**:
+
+[[1]]
+Ele escreve o `composer.json`, baixa para `vendor/` e dá a você o `require "vendor/autoload.php";`.
+
+O **Laravel** é o framework mais popular:
+
+[[2]]
+Ele traz o **Eloquent** (um ORM: `Hero::where("level", ">", 10)->get()`), templates **Blade** e **migrações** para o banco de dados.
+~~
+Los proyectos PHP de verdad usan **Composer**:
+
+[[1]]
+Escribe `composer.json`, descarga en `vendor/` y te da `require "vendor/autoload.php";`.
+
+**Laravel** es el framework más popular:
+
+[[2]]
+Trae **Eloquent** (un ORM: `Hero::where("level", ">", 10)->get()`), plantillas **Blade** y **migraciones** para la base de datos.
+@@ 1h3k2riy59b
+
+**Ideias principais**
+- Utility-first: classes pequenas que fazem uma coisa cada, escritas no HTML.
+- Cores: `bg-amber-100`, `text-red-800` (tons de 50 a 950). Espaçamento: `p-4` = 16px (1 passo = 4px), `px-6`, `mt-2`, `m-auto`.
+- Texto: `text-sm … text-3xl`, `font-bold`, `text-center`. Cantos: `rounded-lg`, `rounded-full`. Sombras: `shadow-lg`.
+- Layout: `flex`, `gap-4`, `justify-between`, `items-center`, `grid grid-cols-3`, `w-full`, `max-w-sm`.
+~~
+
+**Ideas clave**
+- Utility-first: clases pequeñas que hacen una sola cosa cada una, escritas en el HTML.
+- Colores: `bg-amber-100`, `text-red-800` (tonos del 50 al 950). Espaciado: `p-4` = 16px (1 paso = 4px), `px-6`, `mt-2`, `m-auto`.
+- Texto: `text-sm … text-3xl`, `font-bold`, `text-center`. Esquinas: `rounded-lg`, `rounded-full`. Sombras: `shadow-lg`.
+- Distribución: `flex`, `gap-4`, `justify-between`, `items-center`, `grid grid-cols-3`, `w-full`, `max-w-sm`.
+@@ uxlyqerits
+Com o Tailwind você raramente escreve arquivos CSS. Você adiciona classes:
+
+[[1]]
+Cada classe faz uma coisa. A escala de espaçamento é 4px por passo: `p-1` = 4px, `p-4` = 16px, `p-8` = 32px.
+~~
+Con Tailwind casi nunca escribes archivos CSS. Añades clases:
+
+[[1]]
+Cada clase hace una cosa. La escala de espaciado es de 4px por paso: `p-1` = 4px, `p-4` = 16px, `p-8` = 32px.
+@@ 8nr8yckr9b
+
+**Ideias principais**
+- Variantes: `hover:bg-amber-500`, `focus:ring-4`, `active:scale-95`, `disabled:opacity-50`, `dark:bg-slate-900`.
+- Responsivo (mobile-first): `sm:` 640px+, `md:` 768px+, `lg:` 1024px+. `grid-cols-1 md:grid-cols-3`.
+- Em projetos: instale com o plugin do Vite, personalize com `@theme` e reutilize com componentes (não com listas longas de classes copiadas).
+~~
+
+**Ideas clave**
+- Variantes: `hover:bg-amber-500`, `focus:ring-4`, `active:scale-95`, `disabled:opacity-50`, `dark:bg-slate-900`.
+- Responsive (mobile-first): `sm:` 640px+, `md:` 768px+, `lg:` 1024px+. `grid-cols-1 md:grid-cols-3`.
+- En proyectos: instálalo con el plugin de Vite, personalízalo con `@theme` y reutiliza con componentes (no con listas largas de clases copiadas).
+@@ 1uv3w1lyb4c
+[[1]]
+Um prefixo aplica a classe só naquele estado ou a partir daquela largura de tela **para cima**.
+~~
+[[1]]
+Un prefijo aplica la clase solo en ese estado o a partir de ese ancho de pantalla **hacia arriba**.
+@@ x5dzcu8plf
+- Instale com o **plugin oficial do Vite** (ou PostCSS)
+- Personalize cores e fontes com `@theme` no seu CSS
+- Evite copiar listas longas de classes: crie um **componente** (React, Vue, Svelte) e reutilize
+- Ferramentas como `clsx` ajudam a combinar classes condicionalmente
+- Muitas equipes usam kits de componentes feitos com Tailwind, como o **shadcn/ui**
+~~
+- Instálalo con el **plugin oficial de Vite** (o PostCSS)
+- Personaliza colores y fuentes con `@theme` en tu CSS
+- Evita copiar listas largas de clases: crea un **componente** (React, Vue, Svelte) y reutilízalo
+- Herramientas como `clsx` ayudan a combinar clases según condiciones
+- Muchos equipos usan kits de componentes hechos con Tailwind, como **shadcn/ui**
+@@ duayvit4ot
+
+**Ideias principais**
+- Um arquivo `.vue` tem `<script setup>`, `<template>` e `<style scoped>`.
+- `{{ expression }}` mostra valores no template.
+- `ref(0)` cria estado reativo; use `.value` no script, não no template.
+- `@click="..."` escuta eventos (atalho para `v-on:click`).
+~~
+
+**Ideas clave**
+- Un archivo `.vue` tiene `<script setup>`, `<template>` y `<style scoped>`.
+- `{{ expression }}` muestra valores en la plantilla.
+- `ref(0)` crea estado reactivo; usa `.value` en el script, no en la plantilla.
+- `@click="..."` escucha eventos (forma corta de `v-on:click`).
+@@ 1rscezp4ali
+[[1]]
+Estilos `scoped` só afetam este componente.
+~~
+[[1]]
+Los estilos `scoped` solo afectan a este componente.
+@@ jagkml9xe8
+
+**Ideias principais**
+- `v-if` / `v-else` renderizam condicionalmente; `v-show` só alterna a visibilidade.
+- `v-for="item in items" :key="item.id"` repete elementos.
+- `:src="url"` liga atributos (atalho para `v-bind:src`).
+- `v-model` = ligação nos dois sentidos para inputs.
+- `computed(() => ...)` deriva valores em cache; `watch` roda efeitos colaterais quando algo muda.
+~~
+
+**Ideas clave**
+- `v-if` / `v-else` muestran según una condición; `v-show` solo alterna la visibilidad.
+- `v-for="item in items" :key="item.id"` repite elementos.
+- `:src="url"` vincula atributos (forma corta de `v-bind:src`).
+- `v-model` = vinculación en ambos sentidos para los inputs.
+- `computed(() => ...)` deriva valores en caché; `watch` ejecuta efectos secundarios cuando algo cambia.
+@@ zlcfgr6kl7
+
+**Ideias principais**
+- Filho: `defineProps({ name: String })`; pai: `<Potion :price="20" name="Healing" />`.
+- O filho emite eventos: `const emit = defineEmits(["buy"]); emit("buy")`; o pai escuta com `@buy="..."`.
+- **Slots** (`<slot />`) deixam o pai passar conteúdo para dentro do filho.
+- Ciclo de vida: `onMounted(() => { ...fetch data... })`.
+~~
+
+**Ideas clave**
+- Hijo: `defineProps({ name: String })`; padre: `<Potion :price="20" name="Healing" />`.
+- El hijo emite eventos: `const emit = defineEmits(["buy"]); emit("buy")`; el padre escucha con `@buy="..."`.
+- Los **slots** (`<slot />`) dejan que el padre meta contenido dentro del hijo.
+- Ciclo de vida: `onMounted(() => { ...fetch data... })`.
+@@ 11pmx9zpxet
+[[1]]
+Rode código quando o componente aparece:
+
+[[2]]
+~~
+[[1]]
+Ejecuta código cuando aparece el componente:
+
+[[2]]
+@@ 217xh7fefey
+
+**Ideias principais**
+- **Vue Router**: URLs → componentes; `<RouterLink to="/shop">` e `<RouterView />`.
+- **Pinia**: o store oficial para estado compartilhado (`defineStore`).
+- **Nuxt**: o framework completo (rotas por arquivos, renderização no servidor), como o Next.js para o React.
+- Crie um projeto: `npm create vue@latest` (com Vite).
+~~
+
+**Ideas clave**
+- **Vue Router**: URLs → componentes; `<RouterLink to="/shop">` y `<RouterView />`.
+- **Pinia**: el store oficial para el estado compartido (`defineStore`).
+- **Nuxt**: el framework completo (rutas por archivos, renderizado en el servidor), como Next.js para React.
+- Crea un proyecto: `npm create vue@latest` (con Vite).
+@@ 2b4wn2wt6rp
+- O **Vue Router** liga URLs a componentes
+- O **Pinia** guarda o estado compartilhado por muitos componentes (um carrinho, o usuário)
+- O **Nuxt** acrescenta rotas por arquivos, renderização no servidor e mais
+- Comece um projeto com `npm create vue@latest`
+~~
+- **Vue Router** asocia URLs con componentes
+- **Pinia** guarda el estado que comparten muchos componentes (un carrito, el usuario)
+- **Nuxt** añade rutas por archivos, renderizado en el servidor y más
+- Empieza un proyecto con `npm create vue@latest`
+@@ 28uxkolgyha
+
+**Ideias principais**
+- Um arquivo `.svelte`: `<script>`, marcação, `<style>` (escopo automático).
+- Mostre valores com chaves simples: `{name}`.
+- Estado reativo com a rune `let count = $state(0)`; mude como uma variável normal.
+- Eventos são atributos: `onclick={() => count++}`.
+- O Svelte **compila** os componentes em JavaScript pequeno e rápido.
+~~
+
+**Ideas clave**
+- Un archivo `.svelte`: `<script>`, marcado, `<style>` (con ámbito automático).
+- Muestra valores con llaves simples: `{name}`.
+- Estado reactivo con la runa `let count = $state(0)`; cámbialo como una variable normal.
+- Los eventos son atributos: `onclick={() => count++}`.
+- Svelte **compila** los componentes en JavaScript pequeño y rápido.
+@@ 2ayniyoi9az
+React e Vue rodam uma biblioteca no navegador. O **Svelte** é um **compilador**: ele transforma seus componentes em JavaScript puro e eficiente na hora do build.
+
+[[1]]
+~~
+React y Vue ejecutan una librería en el navegador. **Svelte** es un **compilador**: convierte tus componentes en JavaScript simple y eficiente al hacer el build.
+
+[[1]]
+@@ m9ff204yci
+[[1]]
+`$state` é uma **rune**: uma instrução especial para o compilador. Você muda o valor como uma variável normal.
+~~
+[[1]]
+`$state` es una **runa**: una instrucción especial para el compilador. Cambias el valor como una variable normal.
+@@ 1rsbgjleqoz
+
+**Ideias principais**
+- `let double = $derived(count * 2)` fica sincronizado automaticamente.
+- `{#if cond}...{:else}...{/if}`, `{#each items as item (item.id)}...{/each}`.
+- `bind:value={name}`, `bind:checked={brave}` para ligação nos dois sentidos.
+- `$effect(() => { ... })` para efeitos colaterais (roda de novo quando o que ele lê muda).
+~~
+
+**Ideas clave**
+- `let double = $derived(count * 2)` se mantiene sincronizado automáticamente.
+- `{#if cond}...{:else}...{/if}`, `{#each items as item (item.id)}...{/each}`.
+- `bind:value={name}`, `bind:checked={brave}` para vincular en ambos sentidos.
+- `$effect(() => { ... })` para efectos secundarios (se vuelve a ejecutar cuando cambia lo que lee).
+@@ 11l20wlrvm3
+
+**Ideias principais**
+- Props: `let { name, lit = false } = $props();` (com valores padrão).
+- Filho → pai: passe uma prop de função (`onremove`) e chame-a.
+- `{order}` é atalho para `order={order}`.
+- **SvelteKit**: o framework completo (rotas por arquivos em `src/routes`, `+page.svelte`, funções load no servidor).
+~~
+
+**Ideas clave**
+- Props: `let { name, lit = false } = $props();` (con valores por defecto).
+- Hijo → padre: pasa una prop función (`onremove`) y llámala.
+- `{order}` es la forma corta de `order={order}`.
+- **SvelteKit**: el framework completo (rutas por archivos en `src/routes`, `+page.svelte`, funciones load en el servidor).
+@@ 1daegu7459m
+O **SvelteKit** é o framework para apps Svelte de verdade:
+- as rotas são pastas em `src/routes` (`src/routes/about/+page.svelte` → `/about`)
+- `+page.js` / `+page.server.js` carregam dados
+- renderização no servidor, formulários e endpoints de API já vêm prontos
+- comece com `npx sv create my-app`
+~~
+**SvelteKit** es el framework para apps Svelte de verdad:
+- las rutas son carpetas en `src/routes` (`src/routes/about/+page.svelte` → `/about`)
+- `+page.js` / `+page.server.js` cargan datos
+- renderizado en el servidor, formularios y endpoints de API incluidos
+- empieza con `npx sv create my-app`
+@@ q3pi8r1rsu
+
+**Ideias principais**
+- Um **componente** é uma função que retorna JSX. Os nomes começam com letra maiúscula: `function QuestCard()`.
+- Regras do JSX: um elemento pai (ou `<>...</>`), `className` em vez de `class`, feche todas as tags (`<img />`), `{ }` para expressões JavaScript, eventos em camelCase (`onClick`).
+- O React renderiza de novo os componentes quando os dados mudam e atualiza no DOM só o que mudou.
+~~
+
+**Ideas clave**
+- Un **componente** es una función que devuelve JSX. Los nombres empiezan por mayúscula: `function QuestCard()`.
+- Reglas de JSX: un elemento padre (o `<>...</>`), `className` en lugar de `class`, cierra todas las etiquetas (`<img />`), `{ }` para expresiones JavaScript, eventos en camelCase (`onClick`).
+- React vuelve a renderizar los componentes cuando cambian sus datos y actualiza en el DOM solo lo que cambió.
+@@ 4d2ahbfx4j
+O **React** é uma biblioteca JavaScript para montar interfaces a partir de **componentes**:
+
+[[1]]
+Você descreve **como** a interface deve ficar para os dados atuais. O React descobre **como** atualizar a página.
+~~
+**React** es una librería de JavaScript para construir interfaces a partir de **componentes**:
+
+[[1]]
+Describes **cómo** debe verse la interfaz para los datos actuales. React averigua **cómo** actualizar la página.
+@@ 1qyhn31e5ao
+[[1]]
+- `className`, não `class`
+- feche todas as tags: `<img />`
+- `{ }` para JavaScript
+- um só elemento pai
+~~
+[[1]]
+- `className`, no `class`
+- cierra todas las etiquetas: `<img />`
+- `{ }` para JavaScript
+- un solo elemento padre
+@@ 1rg2b222xsv
+
+**Ideias principais**
+- Props passam dados do pai para o filho: `<Knight name="Ada" level={3} />`; leia com `function Knight({ name, level })`.
+- Props são **só de leitura**. `children` é o conteúdo entre as tags.
+- Listas: `items.map((item) => <li key={item.id}>{item.title}</li>)`. As chaves precisam ser únicas e estáveis (não o índice quando a lista pode mudar).
+~~
+
+**Ideas clave**
+- Las props pasan datos del padre al hijo: `<Knight name="Ada" level={3} />`; léelas con `function Knight({ name, level })`.
+- Las props son de **solo lectura**. `children` es el contenido entre las etiquetas.
+- Listas: `items.map((item) => <li key={item.id}>{item.title}</li>)`. Las claves deben ser únicas y estables (no el índice si la lista puede cambiar).
+@@ 12kmf8v4qbt
+[[1]]
+Props de texto usam aspas; números, booleanos, arrays e objetos usam `{ }`.
+~~
+[[1]]
+Las props de texto usan comillas; los números, booleanos, arrays y objetos usan `{ }`.
+@@ 1eptd010cnl
+[[1]]
+A `key` ajuda o React a acompanhar os itens entre renderizações.
+~~
+[[1]]
+La `key` ayuda a React a seguir los elementos entre renderizados.
+@@ 736x3x5y3r
+
+**Ideias principais**
+- `const [count, setCount] = useState(0);` Chamar o setter renderiza o componente de novo.
+- Nunca mude o estado diretamente. Use o setter; para atualizações baseadas no valor antigo: `setCount((c) => c + 1)`.
+- Eventos: `onClick={() => ...}`, `onChange`, `onSubmit` (chame `e.preventDefault()`).
+- Renderização condicional: `{isOpen && <Dragon />}`, `{isOpen ? "Open" : "Closed"}`.
+- Hooks só no nível mais alto de um componente (não dentro de ifs ou loops).
+~~
+
+**Ideas clave**
+- `const [count, setCount] = useState(0);` Llamar al setter vuelve a renderizar el componente.
+- Nunca cambies el estado directamente. Usa el setter; para actualizaciones basadas en el valor anterior: `setCount((c) => c + 1)`.
+- Eventos: `onClick={() => ...}`, `onChange`, `onSubmit` (llama a `e.preventDefault()`).
+- Renderizado condicional: `{isOpen && <Dragon />}`, `{isOpen ? "Open" : "Closed"}`.
+- Los hooks solo en el nivel superior de un componente (no dentro de ifs ni bucles).
+@@ q03bh25gst
+[[1]]
+O `useState` retorna o valor atual e um **setter**. Chamar o setter renderiza o componente de novo com o valor novo.
+~~
+[[1]]
+`useState` devuelve el valor actual y un **setter**. Llamar al setter vuelve a renderizar el componente con el valor nuevo.
+@@ 13jj7z0d4zy
+
+**Ideias principais**
+- Input controlado: `<input value={name} onChange={(e) => setName(e.target.value)} />`.
+- Atualize arrays e objetos de forma imutável: `[...list, item]`, `list.filter(...)`, `list.map(...)`, `{ ...obj, key: value }`.
+- `useEffect(() => { ... }, [deps])` roda depois da renderização quando as deps mudam; `[]` = uma vez. Retorne uma função de limpeza para timers e inscrições.
+- Efeitos servem para sincronizar com coisas de fora do React (título, timers, rede), não para calcular valores.
+~~
+
+**Ideas clave**
+- Input controlado: `<input value={name} onChange={(e) => setName(e.target.value)} />`.
+- Actualiza arrays y objetos de forma inmutable: `[...list, item]`, `list.filter(...)`, `list.map(...)`, `{ ...obj, key: value }`.
+- `useEffect(() => { ... }, [deps])` se ejecuta tras el renderizado cuando cambian las deps; `[]` = una vez. Devuelve una función de limpieza para temporizadores y suscripciones.
+- Los efectos sirven para sincronizarse con cosas de fuera de React (título, temporizadores, red), no para calcular valores.
+@@ b6ushoz2gq
+[[1]]
+Para mudar arrays no estado, crie arrays **novos**:
+
+[[2]]
+~~
+[[1]]
+Para cambiar arrays en el estado, crea arrays **nuevos**:
+
+[[2]]
+@@ 1w3gzlbzfy9
+
+**Ideias principais**
+- Busque dados num efeito com `[]`; mantenha os estados `data`, `loading` e `error`.
+- **Suba o estado** até o pai comum mais próximo; passe os valores e os callbacks (`onToggle`) para baixo.
+- O **Context** (`createContext`/`useContext`) compartilha valores (tema, usuário) sem passar props por todos os níveis.
+- **Hooks personalizados** (`useKnights()`) reutilizam lógica com estado. Os nomes começam com `use`.
+~~
+
+**Ideas clave**
+- Obtén los datos en un efecto con `[]`; guarda los estados `data`, `loading` y `error`.
+- **Sube el estado** hasta el padre común más cercano; pasa hacia abajo los valores y los callbacks (`onToggle`).
+- El **Context** (`createContext`/`useContext`) comparte valores (tema, usuario) sin pasar props por todos los niveles.
+- Los **hooks personalizados** (`useKnights()`) reutilizan lógica con estado. Sus nombres empiezan por `use`.
+@@ 290dlusqxnb
+Quando dois componentes precisam dos mesmos dados, mova o estado para o **pai comum mais próximo** e passe para baixo:
+
+[[1]]
+Para valores do app inteiro (tema, usuário logado), use o **Context**.
+~~
+Cuando dos componentes necesitan los mismos datos, mueve el estado a su **padre común más cercano** y pásalo hacia abajo:
+
+[[1]]
+Para valores de toda la app (tema, usuario con sesión), usa **Context**.
+@@ l1z7issi8d
+Extraia a lógica com estado numa função cujo nome começa com `use`:
+
+[[1]]
+~~
+Extrae la lógica con estado a una función cuyo nombre empiece por `use`:
+
+[[1]]
+@@ 1mibi2646mp
+
+**Ideias principais**
+- O **React Router** liga URLs a componentes em single-page apps (SPAs).
+- O **Next.js** (e o Remix/modo framework do React Router) acrescenta rotas, renderização no servidor e carregamento de dados.
+- O **Vite** é a ferramenta comum para apps React puros. Bibliotecas de estado: Zustand, Redux Toolkit. Dados: TanStack Query. Formulários: React Hook Form. Testes: Vitest + Testing Library.
+- Desempenho: evite estado desnecessário, use as chaves corretamente, `memo`/`useMemo` só depois de medir.
+~~
+
+**Ideas clave**
+- **React Router** asocia URLs con componentes en las single-page apps (SPA).
+- **Next.js** (y Remix/el modo framework de React Router) añade rutas, renderizado en el servidor y carga de datos.
+- **Vite** es la herramienta habitual para apps de React sin más. Librerías de estado: Zustand, Redux Toolkit. Datos: TanStack Query. Formularios: React Hook Form. Pruebas: Vitest + Testing Library.
+- Rendimiento: evita estado innecesario, usa bien las claves, `memo`/`useMemo` solo después de medir.
+@@ 19vklnbzzo7
+Uma **single-page app** (SPA) muda a tela sem recarregar a página. O **React Router** liga URLs a componentes:
+
+[[1]]
+Use `<Link to="/quests/2">` em vez de `<a>` nos links internos.
+~~
+Una **single-page app** (SPA) cambia la vista sin recargar la página. **React Router** asocia URLs con componentes:
+
+[[1]]
+Usa `<Link to="/quests/2">` en lugar de `<a>` para los enlaces internos.
+@@ kawtin7j30
+- **Next.js**: framework React com rotas por arquivos, renderização no servidor e rotas de API (muito presente nas vagas)
+- **Vite**: servidor de desenvolvimento e build rápidos para apps React
+- **TanStack Query**: busca e cache de dados do servidor
+- **Zustand / Redux Toolkit**: estado compartilhado do app
+- **React Hook Form + zod**: formulários e validação
+- **Vitest + Testing Library**: testes
+~~
+- **Next.js**: framework de React con rutas por archivos, renderizado en el servidor y rutas de API (muy presente en las ofertas)
+- **Vite**: servidor de desarrollo y build rápidos para apps de React
+- **TanStack Query**: obtener y cachear datos del servidor
+- **Zustand / Redux Toolkit**: estado compartido de la app
+- **React Hook Form + zod**: formularios y validación
+- **Vitest + Testing Library**: pruebas

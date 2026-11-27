@@ -1,0 +1,345 @@
+1jf0ieb05ez ¦ Testes ¦ Pruebas
+4q86gmz0nf ¦ O Campo de Provas ¦ El Campo de Pruebas
+8o5y2zr4u2 ¦ Prove que seu código funciona: testes unitários, matchers, TDD, testes de interface, testes de ponta a ponta e CI. ¦ Demuestra que tu código funciona: pruebas unitarias, matchers, TDD, pruebas de interfaz, pruebas de extremo a extremo y CI.
+ohoqclm9s ¦ Testes Unitários ¦ Pruebas Unitarias
+1wo75vvtm85 ¦ Escreva testes com test() e expect(). ¦ Escribe pruebas con test() y expect().
+1u4mzp8rj19 ¦ Por que testar? ¦ ¿Por qué probar?
+1r2jxq7wsxh ¦ Prova, não esperança ¦ Pruebas, no esperanza
+1ya14ceqrr5 ¦ Qual é o principal benefício dos testes automatizados? ¦ ¿Cuál es el principal beneficio de las pruebas automatizadas?
+1d7ssmls4fs ¦ Você pode mudar o código com confiança porque os erros são pegos rápido ¦ Puedes cambiar el código con confianza porque los errores se detectan rápido
+lv2toxgddh ¦ O app fica mais rápido ¦ La app va más rápido
+23vkaz2wav5 ¦ Você nunca mais precisa depurar ¦ No vuelves a necesitar depurar
+23e46a9xs6p ¦ Eles substituem a revisão de código ¦ Sustituyen a la revisión de código
+1oc95xxf1h4 ¦ Ligue o tipo de teste ¦ Une cada tipo de prueba
+1fwxlmf5u37 ¦ Teste unitário ¦ Prueba unitaria
+eco2u086ee ¦ Uma função ou componente ¦ Una función o un componente
+708iuodgk7 ¦ Teste de integração ¦ Prueba de integración
+lvmmpz427b ¦ Várias partes funcionando juntas ¦ Varias partes funcionando juntas
+1msb4f0r6ak ¦ Teste de ponta a ponta ¦ Prueba de extremo a extremo
+1x0vp4aevpy ¦ O app inteiro num navegador de verdade ¦ La app entera en un navegador real
+xdxa1x1m7r ¦ Teste manual ¦ Prueba manual
+emsvxku616 ¦ Uma pessoa clicando por aí ¦ Una persona haciendo clic
+1j1jd368aej ¦ A maioria dos projetos tem muitos testes unitários e menos testes de ponta a ponta (a "pirâmide de testes"). ¦ La mayoría de los proyectos tienen muchas pruebas unitarias y menos de extremo a extremo (la "pirámide de pruebas").
+mesj7pbvpa ¦ Quais ferramentas são populares para testes unitários de JavaScript? ¦ ¿Qué herramientas son populares para las pruebas unitarias de JavaScript?
+1ygol9bhh5s ¦ Vitest e Jest ¦ Vitest y Jest
+s5vdj335g4 ¦ Photoshop e Figma ¦ Photoshop y Figma
+731umvj238 ¦ Git e npm ¦ Git y npm
+2ekwczii6f1 ¦ Nginx e Apache ¦ Nginx y Apache
+1tnttydf1t1 ¦ test e expect ¦ test y expect
+12swvdih793 ¦ Matchers ¦ Matchers
+1cj6v1525pv ¦ Qual matcher compara dois arrays pelo conteúdo? ¦ ¿Qué matcher compara dos arrays por su contenido?
+14lvu748prj ¦ Este teste passa? ¦ ¿Pasa esta prueba?
+1vh50pvxav7 ¦ Não: toBe confere a identidade, e estes são dois arrays diferentes ¦ No: toBe comprueba la identidad, y son dos arrays distintos
+23ehf2huqbh ¦ Sim ¦ Sí
+2f5fpnsz4pn ¦ Só no Jest ¦ Solo en Jest
+1ep7jtpf5 ¦ Lança um erro de sintaxe ¦ Lanza un error de sintaxis
+1nlelac8f6t ¦ Confira se a função lança um erro ¦ Comprueba que la función lanza un error
+1pr7be06fsn ¦ Preparar, agir, verificar ¦ Preparar, actuar, comprobar
+azoo1cv3qz ¦ Um bom nome de teste se lê como uma frase que descreve o comportamento. ¦ Un buen nombre de prueba se lee como una frase que describe el comportamiento.
+47bgj7z7je ¦ Desafio: Seus Primeiros Testes ¦ Desafío: Tus Primeras Pruebas
+bv8i8lo27a ¦ Desafio: Faça os Testes Passarem ¦ Desafío: Haz que Pasen las Pruebas
+1e5nb9gxvj8 ¦ Desafio: A Armadilha de Bugs ¦ Desafío: La Trampa de Bugs
+nt5bxoz6fy ¦ Testes na Prática ¦ Pruebas en la Práctica
+1et6d46s42e ¦ TDD, mocks, testes de interface, ponta a ponta e CI. ¦ TDD, mocks, pruebas de interfaz, de extremo a extremo y CI.
+owg8tejo79 ¦ TDD e mocks ¦ TDD y mocks
+1qzoc1qo7bs ¦ Vermelho, verde, refatorar ¦ Rojo, verde, refactorizar
+2aofs9sxk ¦ Ordene o ciclo do TDD ¦ Ordena el ciclo de TDD
+13nbvk2pg4y ¦ Por que fazer mock de uma API de pagamento nos testes unitários? ¦ ¿Por qué simular (mock) una API de pagos en las pruebas unitarias?
+1d5frsaqu5i ¦ Os testes continuam rápidos, grátis e previsíveis ¦ Las pruebas siguen siendo rápidas, gratis y predecibles
+4e5a6vxelk ¦ Para deixar os pagamentos reais mais rápidos ¦ Para que los pagos reales sean más rápidos
+1lc7lylfavq ¦ O Vitest exige mocks ¦ Vitest exige mocks
+1921v8lzqpa ¦ Para esconder bugs ¦ Para ocultar bugs
+1heq0jjsmru ¦ Testes que às vezes passam e às vezes falham ("instáveis") são inofensivos. ¦ Las pruebas que a veces pasan y a veces fallan ("inestables") son inofensivas.
+1pvxl536b8i ¦ Testes instáveis destroem a confiança: as pessoas começam a ignorar as falhas. Conserte ou remova-os. ¦ Las pruebas inestables minan la confianza: la gente empieza a ignorar los fallos. Arréglalas o quítalas.
+6s9gzhrnxv ¦ Testando interfaces ¦ Probar interfaces
+1g8prvkio8t ¦ Teste como um usuário ¦ Prueba como un usuario
+pdcs5k3okv ¦ Qual consulta combina melhor com o jeito que o usuário acha um botão? ¦ ¿Qué consulta se parece más a cómo un usuario encuentra un botón?
+3b0a9y1kcl ¦ Testes de componentes ¦ Pruebas de componentes
+smwnyu7kxq ¦ Testes de ponta a ponta no navegador ¦ Pruebas de extremo a extremo en el navegador
+1izp59n765e ¦ Executor de testes ¦ Ejecutor de pruebas
+1peymikcfj6 ¦ Roda os testes a cada push ¦ Ejecuta las pruebas en cada push
+17t2k4ozoso ¦ Consultas por papel (role) também empurram você a criar interfaces acessíveis. ¦ Las consultas por rol también te empujan a crear interfaces accesibles.
+14l8x3niizq ¦ Integração contínua ¦ Integración continua
+o0aunwd8xc ¦ Robôs que conferem cada mudança ¦ Robots que revisan cada cambio
+1iocchgtt8b ¦ O que acontece na CI quando um pull request é aberto? ¦ ¿Qué pasa en la CI cuando se abre un pull request?
+29bs4x6bmup ¦ Testes e verificações rodam automaticamente ¦ Las pruebas y comprobaciones se ejecutan automáticamente
+1fb6cz94fc9 ¦ O código é juntado na hora ¦ El código se fusiona al instante
+24sqx7hgwrq ¦ A branch é apagada ¦ La rama se borra
+27l7awae9vc ¦ Um passo do GitHub Actions que roda os testes ¦ Un paso de GitHub Actions que ejecuta las pruebas
+23h6q6inehn ¦ 100% de cobertura de código garante que não há bugs. ¦ Un 100% de cobertura de código garantiza que no hay bugs.
+w5rqe4zf9h ¦ A cobertura mostra quais linhas rodaram, não se as verificações eram boas. Busque testes significativos, não um número. ¦ La cobertura muestra qué líneas se ejecutaron, no si las comprobaciones eran buenas. Busca pruebas con sentido, no un número.
+2d83ah1008p ¦ Qualidade ¦ Calidad
+rwlb5799gg ¦ A Torre de Vigia ¦ La Atalaya
+1ax7d0vbizt ¦ Crie coisas que funcionam para todos, carregam rápido e são seguras: acessibilidade, desempenho e segurança. ¦ Crea cosas que funcionen para todos, carguen rápido y sean seguras: accesibilidad, rendimiento y seguridad.
+wn0cao3c9f ¦ Acessibilidade ¦ Accesibilidad
+2bttcyrtxnl ¦ WCAG, usuários de teclado, leitores de tela e ARIA. ¦ WCAG, usuarios de teclado, lectores de pantalla y ARIA.
+1wzg2eqoj6b ¦ WCAG e POUR ¦ WCAG y POUR
+1m5gtgqmxcw ¦ Quatro princípios ¦ Cuatro principios
+29121vkmy1z ¦ Ligue a correção ao princípio ¦ Une cada solución con su principio
+mjj26e1udk ¦ Texto alternativo nas imagens ¦ Texto alternativo en las imágenes
+1l6y7vx4l0z ¦ Perceptível ¦ Perceptible
+gxmlm2p21w ¦ Funciona com o teclado ¦ Funciona con el teclado
+wf4l934e6m ¦ Operável ¦ Operable
+1ux2t4wv4ot ¦ Mensagens de erro claras ¦ Mensajes de error claros
+ah5zx52yom ¦ Compreensível ¦ Comprensible
+2cw8eeoztkv ¦ HTML semântico e válido ¦ HTML semántico y válido
+enyweywuhf ¦ Robusto ¦ Robusto
+3coqbhjmn0 ¦ Mais ou menos quantas pessoas vivem com alguma deficiência? ¦ ¿Aproximadamente cuántas personas viven con alguna discapacidad?
+1967hhovhwo ¦ Cerca de 1 em cada 6 pessoas no mundo ¦ Alrededor de 1 de cada 6 personas en el mundo
+973it17l9c ¦ Quase ninguém ¦ Casi nadie
+1mq3c2u83cz ¦ Só pessoas idosas ¦ Solo las personas mayores
+1w75rist0j ¦ A OMS estima cerca de 1,3 bilhão de pessoas, uns 16% do mundo. ¦ La OMS estima unos 1.300 millones de personas, alrededor del 16% del mundo.
+1osucztzymq ¦ A acessibilidade também ajuda pessoas com problemas temporários, como um braço quebrado ou uma tela sob o sol forte. ¦ La accesibilidad también ayuda a personas con problemas temporales, como un brazo roto o una pantalla a pleno sol.
+13flm56jagh ¦ Teclado e foco ¦ Teclado y foco
+2b5wy25ytxp ¦ Sem precisar de mouse ¦ Sin necesidad de ratón
+tnkpdijhht ¦ Qual linha prejudica quem usa teclado? ¦ ¿Qué línea perjudica a quienes usan teclado?
+16bn2k4iyrs ¦ Tirar o contorno de foco esconde onde o usuário de teclado está. Estilize o `:focus-visible` em vez disso. ¦ Quitar el contorno de foco oculta dónde está el usuario de teclado. Dale estilo a `:focus-visible` en su lugar.
+2b02gsr714f ¦ Qual elemento é alcançável com Tab e funciona com Enter por padrão? ¦ ¿Qué elemento se alcanza con Tab y funciona con Enter por defecto?
+2drrhsedlfr ¦ Um link "pular para o conteúdo principal" ajuda quem usa teclado a pular a navegação. ¦ Un enlace "saltar al contenido principal" ayuda a quienes usan teclado a saltarse la navegación.
+1kjrs7dbigv ¦ Leitores de tela e ARIA ¦ Lectores de pantalla y ARIA
+1l2hp5vncdt ¦ Ajudando as tecnologias assistivas ¦ Ayudar a las tecnologías de apoyo
+2b1kdp9vpsq ¦ Ligue o atributo ¦ Une cada atributo
+2bwojliqerd ¦ Um nome quando não há texto visível ¦ Un nombre cuando no hay texto visible
+1frcc04muqs ¦ Se um menu está aberto ¦ Si un menú está abierto
+181eed5h7ea ¦ Anunciar atualizações ¦ Anunciar actualizaciones
+1rhmx7kt8n8 ¦ Descrever uma imagem ¦ Describir una imagen
+280zc6htd8a ¦ Um botão só com ícone "🗑" apaga um item. Do que ele precisa? ¦ Un botón solo con icono "🗑" borra un elemento. ¿Qué necesita?
+1ewkm1mfbqz ¦ Um ícone maior ¦ Un icono más grande
+1nd0ls2yp8u ¦ Desafio: Abra os Portões para Todos ¦ Desafío: Abre las Puertas a Todos
+gxp0nz1txv ¦ Desempenho ¦ Rendimiento
+11gftrg88hx ¦ Páginas rápidas: Core Web Vitals, imagens, bundles e cache. ¦ Páginas rápidas: Core Web Vitals, imágenes, bundles y caché.
+1vtlgsoz8oi ¦ Por que a velocidade importa ¦ Por qué importa la velocidad
+22iv0z253jr ¦ Cada segundo conta ¦ Cada segundo cuenta
+1mq436ott03 ¦ Ligue a métrica ¦ Une cada métrica
+264w4id7nff ¦ O conteúdo principal carrega ¦ Carga el contenido principal
+1p64magg18b ¦ Reage à interação ¦ Reacciona a la interacción
+1rk1tk519jz ¦ O layout pula ¦ La distribución salta
+cgs5sqvuus ¦ Ferramenta que as mede ¦ Herramienta que las mide
+1cmssabxbve ¦ O texto pula para baixo enquanto uma imagem carrega. Qual métrica sofre? ¦ El texto salta hacia abajo mientras carga una imagen. ¿Qué métrica empeora?
+1g2h77tg5ks ¦ Como evitar esse pulo? ¦ ¿Cómo evitas ese salto?
+11pifm4m6om ¦ Definir width e height nas imagens ¦ Poner width y height en las imágenes
+1v6ojh5zc5 ¦ Usar mais JavaScript ¦ Usar más JavaScript
+1q8t0dmx0df ¦ Remover o CSS ¦ Quitar el CSS
+4iex23bhke ¦ Usar uma fonte maior ¦ Usar una fuente más grande
+v1s5wjqhjr ¦ Deixando as páginas mais rápidas ¦ Hacer las páginas más rápidas
+2u26hb4qd6 ¦ Vitórias rápidas ¦ Mejoras rápidas
+1mm2ktupsz0 ¦ Qual configuração de imagem adia o carregamento das imagens fora da tela? ¦ ¿Qué ajuste de imagen retrasa la carga de las imágenes fuera de pantalla?
+1w3q5h77a9 ¦ Uma foto de 4000px de largura é mostrada com 400px. O que fazer? ¦ Una foto de 4000px de ancho se muestra a 400px. ¿Qué deberías hacer?
+1v8ommpah0d ¦ Servir uma versão menor da imagem ¦ Servir una versión más pequeña de la imagen
+2ebwxlhwxs8 ¦ Nada, os navegadores resolvem ¦ Nada, los navegadores se encargan
+5jpcwjt1go ¦ Transformá-la em PNG ¦ Convertirla en PNG
+l4t2ra2r6s ¦ Colocar opacity em 0.5 ¦ Poner opacity a 0.5
+2d6wexluvtl ¦ Adicionar uma biblioteca enorme para formatar uma data pode deixar seu app inteiro mais lento. ¦ Añadir una librería enorme para formatear una fecha puede ralentizar toda tu app.
+20zd34hh1f0 ¦ Ordene uma correção de desempenho do jeito profissional ¦ Ordena una mejora de rendimiento al estilo profesional
+1ecdlb1cdnb ¦ Segurança ¦ Seguridad
+8a8scev7hz ¦ XSS, segredos, HTTPS, CORS, SQL injection e senhas. ¦ XSS, secretos, HTTPS, CORS, inyección SQL y contraseñas.
+1xqkau0l7xy ¦ XSS e saída segura ¦ XSS y salida segura
+1a9xp6bdyj1 ¦ Nunca confie na entrada do usuário ¦ Nunca confíes en lo que escribe el usuario
+188v7tn0l4h ¦ Qual linha é vulnerável a XSS? ¦ ¿Qué línea es vulnerable a XSS?
+294fpek0rjn ¦ O nome vem da URL, então qualquer um pode criar um link com HTML/JS nele. Use `textContent`. ¦ El nombre viene de la URL, así que cualquiera puede crear un enlace con HTML/JS dentro. Usa `textContent`.
+gpy38p9x41 ¦ O que é seguro para mostrar o comentário de um usuário? ¦ ¿Qué es seguro para mostrar el comentario de un usuario?
+2bhd8aqb853 ¦ Validar a entrada no navegador basta para impedir ataques. ¦ Validar la entrada en el navegador basta para frenar los ataques.
+10quexks66k ¦ Atacantes podem pular o navegador completamente. O servidor também precisa validar. ¦ Los atacantes pueden saltarse el navegador por completo. El servidor también debe validar.
+1bkf2rns52 ¦ Segredos, HTTPS e CORS ¦ Secretos, HTTPS y CORS
+1dmpu3u6t9m ¦ Guardando as chaves ¦ Proteger las claves
+ny0me35lyl ¦ Onde deve ficar a chave secreta de uma API de pagamentos? ¦ ¿Dónde debe estar la clave secreta de una API de pagos?
+1y1jq13qb7y ¦ Numa variável de ambiente no servidor ¦ En una variable de entorno en el servidor
+go63b56q89 ¦ Num componente React ¦ En un componente de React
+ruc6jbpb5m ¦ No localStorage ¦ En localStorage
+nve0oy5upn ¦ Nos comentários do HTML ¦ En los comentarios del HTML
+1jmdg1yk7l0 ¦ Você enviou sem querer uma chave de API para o GitHub. O que fazer? ¦ Subiste sin querer una clave de API a GitHub. ¿Qué haces?
+91q91g1u6x ¦ Revogar/trocar a chave imediatamente e depois tirá-la do código ¦ Revocar/rotar la clave de inmediato y luego quitarla del código
+r3ucw1wn5l ¦ Apagar o commit e torcer ¦ Borrar el commit y cruzar los dedos
+1jzmdecloga ¦ Deixar o repo privado e esquecer ¦ Hacer privado el repo y olvidarse
+20v01cifi4a ¦ Nada, ninguém vai perceber ¦ Nada, nadie se dará cuenta
+1xngrafdvlg ¦ Robôs acham chaves vazadas em minutos. Uma chave vazada deve ser tratada como comprometida. ¦ Los bots encuentran claves filtradas en minutos. Una clave filtrada debe darse por comprometida.
+1ef891sggsv ¦ O CORS protege os servidores de todos os ataques. ¦ CORS protege a los servidores de todos los ataques.
+twvy905sff ¦ O CORS é uma regra do navegador sobre ler respostas. Os servidores ainda precisam de autenticação e validação. ¦ CORS es una regla del navegador sobre leer respuestas. Los servidores siguen necesitando autenticación y validación.
+21wzxpkkr8v ¦ Injeção e senhas ¦ Inyección y contraseñas
+8y2gqth59 ¦ Dois desastres clássicos ¦ Dos desastres clásicos
+13s63q7cbdv ¦ Qual linha permite SQL injection? ¦ ¿Qué línea permite inyección SQL?
+13x9et3cc2r ¦ O id da URL é colado no SQL. Use um parâmetro: `db.query("... WHERE id = ?", [req.query.id])`. ¦ El id de la URL se pega en el SQL. Usa un parámetro: `db.query("... WHERE id = ?", [req.query.id])`.
+x8alyf2nnh ¦ Como hashes lentos com sal (bcrypt ou argon2) ¦ Como hashes lentos con sal (bcrypt o argon2)
+gw5aropmw3 ¦ Em texto puro ¦ En texto plano
+15axcfvy3k6 ¦ Criptografadas com uma chave no código ¦ Cifradas con una clave en el código
+138meya5zrh ¦ Ligue o ataque à defesa ¦ Une cada ataque con su defensa
+jd7y9gjtfj ¦ Escapar a saída (textContent) ¦ Escapar la salida (textContent)
+k0tav2oti9 ¦ SQL injection ¦ Inyección SQL
+1tbr64gttu0 ¦ Consultas parametrizadas ¦ Consultas parametrizadas
+1y97jislbxh ¦ Banco de senhas roubado ¦ Base de datos de contraseñas robada
+1ogykuqy29i ¦ Fazer hash das senhas com bcrypt ¦ Hacer hash de las contraseñas con bcrypt
+2c0ehpgiru3 ¦ Chave de API vazada ¦ Clave de API filtrada
+1ki0gxn52ye ¦ Guardar segredos em variáveis de ambiente ¦ Guardar los secretos en variables de entorno
+165cy261ahw ¦ O OWASP Top 10 é uma lista conhecida dos riscos de segurança web mais comuns. ¦ El OWASP Top 10 es una lista conocida de los riesgos de seguridad web más comunes.
+1m6wy5c8mql ¦ Conseguindo o Emprego ¦ Conseguir Trabajo
+1gwo3bshvgr ¦ O Salão da Guilda ¦ El Salón del Gremio
+4rllwh46sh ¦ De aprendiz a desenvolvedor júnior: projetos de portfólio, GitHub, publicação, currículo, entrevistas e seu primeiro emprego numa equipe. ¦ De aprendiz a desarrollador júnior: proyectos de portafolio, GitHub, publicación, CV, entrevistas y tu primer trabajo en un equipo.
+1zmkx0u6fsd ¦ Seu Portfólio ¦ Tu Portafolio
+ml6wtsgrnp ¦ Projetos que provam suas habilidades. ¦ Proyectos que demuestran tus habilidades.
+1ad4dz7pb18 ¦ O que os empregadores procuram ¦ Qué buscan las empresas
+2abkxcpthpl ¦ Provas, não promessas ¦ Pruebas, no promesas
+ymtzdxyxjs ¦ O que mais convence os empregadores de que um júnior sabe programar? ¦ ¿Qué convence más a las empresas de que un júnior sabe programar?
+17g2me9wqum ¦ Projetos funcionando que eles podem ver e testar ¦ Proyectos que funcionan y que pueden ver y probar
+16jrpvjzk2h ¦ Uma lista longa de certificados de cursos ¦ Una larga lista de certificados de cursos
+pidtf8pmmw ¦ Dizer "eu aprendo rápido" ¦ Decir "aprendo rápido"
+25z5z0uw6t ¦ Um currículo bem colorido ¦ Un CV muy colorido
+htw05hinaf ¦ Espera-se que juniores saibam todos os frameworks antes do primeiro emprego. ¦ Se espera que los júnior conozcan todos los frameworks antes de su primer trabajo.
+3ea9j73csc ¦ Ligue a habilidade à prova ¦ Une cada habilidad con su prueba
+694rnn115w ¦ Sabe criar interfaces ¦ Sabe crear interfaces
+dnoc5rhx58 ¦ Projetos publicados ¦ Proyectos publicados
+1wqn8n6o9to ¦ Trabalha em equipe ¦ Trabaja en equipo
+6j9rrqb2o6 ¦ Histórico de Git limpo, PRs ¦ Historial de Git limpio, PRs
+3oun906fji ¦ Comunica-se bem ¦ Se comunica bien
+25v99hjf7io ¦ Arquivos README claros ¦ Archivos README claros
+117ycr0vo1u ¦ Continua aprendendo ¦ Sigue aprendiendo
+13keya9o8ts ¦ Atividade recente e novas habilidades ¦ Actividad reciente y habilidades nuevas
+2dokls8hbpn ¦ Projetos para criar ¦ Proyectos para crear
+qcp9epsknx ¦ Uma escada de projetos ¦ Una escalera de proyectos
+9tav77ld2v ¦ Ordene estes projetos do mais fácil ao mais difícil ¦ Ordena estos proyectos del más fácil al más difícil
+28hdr224fgl ¦ Qual ideia de projeto mais chama a atenção dos empregadores? ¦ ¿Qué idea de proyecto llama más la atención de las empresas?
+u8s8cxmnhf ¦ Um app que resolve um problema real de um grupo real de pessoas ¦ Una app que resuelve un problema real de un grupo real de personas
+ueev9agf7 ¦ Uma cópia de tutorial sem mudanças ¦ Una copia de un tutorial sin cambios
+19tmhnecjr8 ¦ Uma página "hello world" ¦ Una página "hello world"
+qz79s260s5 ¦ Um projeto que não está publicado ¦ Un proyecto que no está publicado
+20eobb8258o ¦ Tudo bem criar projetos com um tutorial, desde que você depois os amplie com funcionalidades suas. ¦ No pasa nada por crear proyectos con un tutorial, siempre que luego los amplíes con funcionalidades propias.
+2a61qslp78o ¦ GitHub e READMEs ¦ GitHub y READMEs
+16n3knlahne ¦ Sua vitrine ¦ Tu escaparate
+8x08i1vc2d ¦ Ordene um bom README de projeto ¦ Ordena un buen README de proyecto
+1grak56es1o ¦ Qual é o link mais importante num README de projeto? ¦ ¿Cuál es el enlace más importante de un README de proyecto?
+2eov5mkqsvy ¦ O link da demonstração ao vivo ¦ El enlace a la demo en vivo
+vn6zyyevz9 ¦ Sua música favorita ¦ Tu canción favorita
+1ar7z3fw1g1 ¦ Um link para a documentação do framework ¦ Un enlace a la documentación del framework
+1ba5uic1y6c ¦ Um link para outro repo ¦ Un enlace a otro repo
+1mjjk9xau4y ¦ Mensagens de commit significativas deixam seus projetos mais profissionais. ¦ Los mensajes de commit con sentido hacen que tus proyectos parezcan más profesionales.
+16ztrv4j5fk ¦ Publicando seu trabalho ¦ Publicar tu trabajo
+x0djg47tr ¦ Coloque online ¦ Ponlo en línea
+1di0mh8pyjo ¦ Ligue o projeto a uma hospedagem ¦ Une cada proyecto con un hosting
+1sw88eeqi5h ¦ Um app React (build estático) ¦ Una app de React (build estático)
+denl7rbo3d ¦ Netlify ou Vercel ¦ Netlify o Vercel
+28yw5btuzxu ¦ Uma API Node com banco de dados ¦ Una API de Node con base de datos
+712eckpa3t ¦ Render ou Railway ¦ Render o Railway
+29ojk0p0b3r ¦ Um portfólio simples em HTML ¦ Un portafolio sencillo en HTML
+19za8492tvz ¦ GitHub Pages ¦ GitHub Pages
+r9cyn1h9tg ¦ Seu próprio nome como endereço ¦ Tu propio nombre como dirección
+2e41lf38v01 ¦ Um domínio próprio ¦ Un dominio propio
+euf4mo6t3e ¦ Por que publicar seus projetos em vez de só compartilhar o código? ¦ ¿Por qué publicar tus proyectos en lugar de solo compartir el código?
+1oicg9snrph ¦ Recrutadores podem testá-los com um clique ¦ Los reclutadores pueden probarlos con un clic
+2bsbc5auztp ¦ Deixa o código mais curto ¦ Hace el código más corto
+lzods85fbs ¦ O GitHub exige ¦ GitHub lo exige
+16d4wm3hr96 ¦ É o único jeito de salvar código ¦ Es la única forma de guardar código
+f1yz2y6fsx ¦ Currículo, busca de emprego e entrevistas. ¦ CV, búsqueda de empleo y entrevistas.
+l8yj1950gp ¦ Seu currículo e perfis ¦ Tu CV y perfiles
+1eg3xb8f6la ¦ Uma página que abre portas ¦ Una página que abre puertas
+190g0xjfklu ¦ Alguém mudando de carreira trabalhou 5 anos num restaurante. Isso deve ir para o currículo? ¦ Alguien que cambia de carrera trabajó 5 años en un restaurante. ¿Debería ir en el CV?
+24pfhs4jssv ¦ Sim: trabalho em equipe, pressão e atendimento ao cliente são valiosos ¦ Sí: el trabajo en equipo, la presión y el trato con clientes son valiosos
+izeqgco5ui ¦ Não, só empregos de tecnologia contam ¦ No, solo cuentan los trabajos de tecnología
+25x5wvtx346 ¦ Só se fosse um restaurante de tecnologia ¦ Solo si era un restaurante tecnológico
+1tnk06loax1 ¦ Esconder completamente ¦ Ocultarlo por completo
+f4j0ze408k ¦ Qual linha de projeto é mais forte? ¦ ¿Qué línea de proyecto es más sólida?
+23bb8d7txo2 ¦ "Criei um app de reservas em React usado pelo meu clube de escalada (30 membros)" ¦ "Creé una app de reservas en React que usa mi club de escalada (30 miembros)"
+1obpudwmdvo ¦ "Fiz um projeto em React" ¦ "Hice un proyecto en React"
+1xl4x66agah ¦ "Sabe React" ¦ "Sabe React"
+15p1gy9q3dj ¦ "Interessado em React" ¦ "Interesado en React"
+14ovfq9bwih ¦ Listar 40 tecnologias de que você só ouviu falar deixa seu currículo mais forte. ¦ Enumerar 40 tecnologías de las que solo has oído hablar hace tu CV más sólido.
+unn6in0gcw ¦ Os entrevistadores perguntam sobre o que você lista. Inclua só o que você consegue explicar. ¦ Quienes entrevistan preguntan por lo que enumeras. Incluye solo aquello de lo que puedas hablar.
+1xjlpnjr19a ¦ A busca de emprego ¦ La búsqueda de empleo
+q0epxi0nkx ¦ Uma campanha constante ¦ Una campaña constante
+17q83yv650u ¦ O que costuma dar a melhor chance de uma entrevista? ¦ ¿Qué suele dar la mejor oportunidad de conseguir una entrevista?
+256604zuksa ¦ Uma indicação de alguém que trabalha lá ¦ Una recomendación de alguien que trabaja allí
+1m5czhx34l0 ¦ Enviar o mesmo currículo para 500 vagas num dia ¦ Enviar el mismo CV a 500 ofertas en un día
+1kktev5g5c2 ¦ Só se candidatar a empresas famosas ¦ Postularse solo a empresas famosas
+cll77sznu9 ¦ Esperar os recrutadores acharem você ¦ Esperar a que los reclutadores te encuentren
+lq2cpo8j1i ¦ Muitos desenvolvedores de sucesso foram rejeitados muitas vezes antes do primeiro emprego. ¦ Muchos desarrolladores de éxito fueron rechazados muchas veces antes de su primer trabajo.
+22dwi55pkes ¦ Ligue o lugar ao que você ganha ¦ Une cada lugar con lo que consigues
+842adanrvq ¦ Meetups ¦ Meetups
+2ca7o914f93 ¦ Pessoas e indicações ¦ Contactos y recomendaciones
+1ehxwzx6yb ¦ Código aberto ¦ Código abierto
+1rypuqe3ezz ¦ Trabalho em equipe de verdade no currículo ¦ Trabajo en equipo real en tu CV
+1ruxakiwcm8 ¦ Sites de vagas ¦ Portales de empleo
+tdox4u031 ¦ Muitas vagas ¦ Muchas ofertas
+1z0yiqw8h3x ¦ Estágios ¦ Prácticas
+1goa7tsu32u ¦ Aprender sendo pago no trabalho ¦ Aprender en el trabajo cobrando
+30eo4prvll ¦ Entrevistas comportamentais ¦ Entrevistas de comportamiento
+ionke0eetd ¦ O método STAR ¦ El método STAR
+1g1jg06cm4j ¦ Ordene uma resposta STAR ¦ Ordena una respuesta STAR
+22i6704so22 ¦ "Qual é o seu maior defeito?" Uma boa resposta... ¦ "¿Cuál es tu mayor debilidad?" Una buena respuesta...
+97p6ovgp83 ¦ Cita um defeito real e o que você faz para melhorar ¦ Nombra una debilidad real y lo que haces para mejorar
+nx3csj8xfr ¦ Diz que você não tem defeitos ¦ Dice que no tienes debilidades
+kv4420gdhq ¦ Diz que você trabalha demais ¦ Dice que trabajas demasiado
+guncx9hh10 ¦ Critica um ex-chefe ¦ Critica a un antiguo jefe
+1nanql8gj8b ¦ No final, o entrevistador pergunta se você tem perguntas. Você deve... ¦ Al final, te preguntan si tienes preguntas. Deberías...
+172qpyv2sgr ¦ Fazer perguntas pensadas sobre a equipe e o trabalho ¦ Hacer preguntas pensadas sobre el equipo y el trabajo
+26fsod8e52j ¦ Dizer que não ¦ Decir que no
+1hrsenoty10 ¦ Perguntar só sobre férias ¦ Preguntar solo por las vacaciones
+1n7t978yao5 ¦ Pedir as respostas da entrevista ¦ Pedir las respuestas de la entrevista
+1eihpffbcu6 ¦ Entrevistas técnicas ¦ Entrevistas técnicas
+17h03f4ffs6 ¦ Mostre como você pensa ¦ Muestra cómo piensas
+257h8mj1n0u ¦ Você não entendeu o exercício. O que faz? ¦ No entiendes el ejercicio. ¿Qué haces?
+xk7adim8v9 ¦ Faz perguntas para esclarecer ¦ Hacer preguntas para aclararlo
+6ohfwm8a4s ¦ Começa a digitar qualquer coisa ¦ Empezar a escribir cualquier cosa
+9edti1tonq ¦ Fica em silêncio ¦ Quedarse callado
+zn6dycc1te ¦ Vai embora ¦ Irse
+25961b54rlx ¦ Revisão rápida para entrevistas ¦ Repaso rápido para entrevistas
+2293vlq8rtd ¦ Igualdade estrita vs solta ¦ Igualdad estricta vs laxa
+1k0fzeg4w9 ¦ let vs const ¦ let vs const
+178q7suo2j1 ¦ Pode vs não pode receber outro valor ¦ Se puede vs no se puede reasignar
+18r6grqykor ¦ props vs state ¦ props vs state
+1tftdgmefrv ¦ Entrada do pai vs memória própria ¦ Entrada del padre vs memoria propia
+cdjt4t89s4 ¦ GET vs POST ¦ GET vs POST
+1rsuvhexyn7 ¦ Ler vs criar/enviar dados ¦ Leer vs crear/enviar datos
+2csx278gdv4 ¦ Dizer "não sei, mas é assim que eu descobriria" pode deixar uma boa impressão. ¦ Decir "no lo sé, pero así lo averiguaría" puede dejar una buena impresión.
+2avbrx43sas ¦ Seu Primeiro Emprego ¦ Tu Primer Trabajo
+e99mzvdrk3 ¦ Como as equipes trabalham e como crescer. ¦ Cómo trabajan los equipos y cómo crecer.
+q44effjafb ¦ Como as equipes trabalham ¦ Cómo trabajan los equipos
+295kli3dohf ¦ Sprints e dailies ¦ Sprints y reuniones diarias
+dux9nulw5y ¦ Ligue a palavra do Agile ¦ Une cada palabra de Agile
+17sim2pbiph ¦ Sprint ¦ Sprint
+1m2kn2rjytb ¦ 1–2 semanas de trabalho planejado ¦ 1–2 semanas de trabajo planificado
+17an2dhhsox ¦ Daily (stand-up) ¦ Reunión diaria (stand-up)
+2favq3emr7g ¦ Sincronização curta diária ¦ Sincronización corta diaria
+2dbfyzr641f ¦ Ticket ¦ Ticket
+1c1u78d2d1q ¦ Uma tarefa a fazer ¦ Una tarea por hacer
+105qbcbgueo ¦ Retrospectiva ¦ Retrospectiva
+11vftqq7f57 ¦ Reunião para melhorar o jeito de trabalhar ¦ Reunión para mejorar cómo trabajamos
+190gy3421dy ¦ Na daily você está travado num bug. Você deve... ¦ En la reunión diaria estás atascado con un bug. Deberías...
+1etqqu32w41 ¦ Citar como bloqueio e perguntar quem pode ajudar ¦ Mencionarlo como bloqueo y preguntar quién puede ayudar
+1qg145pehxv ¦ Esconder até resolver sozinho ¦ Ocultarlo hasta resolverlo solo
+14htiwh5kuq ¦ Faltar na daily ¦ Saltarte la reunión diaria
+215jfg96wyj ¦ Culpar o computador ¦ Echarle la culpa al ordenador
+86kncryusx ¦ Ordene o fluxo diário de um ticket ¦ Ordena el flujo diario de un ticket
+15h5ahia6yn ¦ Etiqueta na revisão de código ¦ Buenas maneras en la revisión de código
+168lrje0q2j ¦ Gentil e útil ¦ Amable y útil
+cnlsoii3j3 ¦ Qual comentário de revisão é o melhor? ¦ ¿Qué comentario de revisión es el mejor?
+1sn2h8nmvih ¦ "Bela refatoração! Uma pergunta: o que acontece se user for null aqui?" ¦ "¡Buen refactor! Una pregunta: ¿qué pasa si user es null aquí?"
+1zuh5zk1xsb ¦ "Isto está errado." ¦ "Esto está mal."
+s9dqp8d5v6 ¦ "Reescreva tudo." ¦ "Reescríbelo todo."
+2g0w76joib9 ¦ "Por que você não fez do meu jeito?" ¦ "¿Por qué no lo hiciste a mi manera?"
+255q739xemj ¦ Um revisor pede para mudar algo com que você não concorda. Melhor reação? ¦ Un revisor te pide cambiar algo con lo que no estás de acuerdo. ¿La mejor reacción?
+knqc1m946f ¦ Explicar seu raciocínio com educação e conversar ¦ Explicar tu razonamiento con educación y hablarlo
+1c0oyw57oe1 ¦ Ignorar o comentário ¦ Ignorar el comentario
+13exrop1dqj ¦ Fechar o PR com raiva ¦ Cerrar el PR enfadado
+19u3l6faffl ¦ Mudar sem entender ¦ Cambiarlo sin entenderlo
+xh3l046j3a ¦ Um feedback sobre seu código é um feedback sobre você como pessoa. ¦ Una opinión sobre tu código es una opinión sobre ti como persona.
+25rgdyjmgd4 ¦ É sobre o código. Todo mundo, inclusive seniores, recebe comentários na revisão. ¦ Es sobre el código. Todo el mundo, incluidos los sénior, recibe comentarios en las revisiones.
+14159wj5hka ¦ Crescendo como desenvolvedor ¦ Crecer como desarrollador
+qindeh3ohs ¦ O jogo longo ¦ Una carrera de fondo
+cbbeenleof ¦ Você está travado há duas horas num problema. E agora? ¦ Llevas dos horas atascado en un problema. ¿Y ahora?
+t1vaql4f8u ¦ Perguntar a um colega, contando o que você tentou ¦ Preguntar a un compañero, contándole lo que probaste
+42hbzthl6a ¦ Continuar tentando sozinho a semana inteira ¦ Seguir intentándolo solo toda la semana
+ynfnzwmvzz ¦ Desistir do ticket em silêncio ¦ Abandonar el ticket en silencio
+25p1wifztcp ¦ Copiar código aleatório até funcionar ¦ Copiar código al azar hasta que funcione
+2tdgl5uu26 ¦ Até desenvolvedores seniores pesquisam coisas todo dia. ¦ Incluso los desarrolladores sénior buscan cosas cada día.
+1dgdv6n5v14 ¦ O que é a síndrome do impostor? ¦ ¿Qué es el síndrome del impostor?
+1op0dle5mio ¦ Sentir que você não é tão capaz quanto os outros acham, apesar das evidências ¦ Sentir que no eres tan capaz como creen los demás, a pesar de las pruebas
+hccoadebbz ¦ Fingir ser outra pessoa na internet ¦ Hacerse pasar por otra persona en internet
+1ezltlron12 ¦ Um erro de JavaScript ¦ Un error de JavaScript
+1cbnpqgya1i ¦ Um tipo de entrevista ¦ Un tipo de entrevista
+1ncfcp6c5ew ¦ Ligue o hábito ao seu benefício ¦ Une cada hábito con su beneficio
+1ukjzh9dvvy ¦ Ler o código dos outros ¦ Leer el código de otros
+16htra8766l ¦ Aprender novos padrões ¦ Aprender patrones nuevos
+vfy7p2e1cq ¦ Fazer anotações ¦ Tomar notas
+1hq1bwdul5f ¦ Lembrar e compartilhar conhecimento ¦ Recordar y compartir conocimiento
+2fs8m8aew35 ¦ Fazer boas perguntas ¦ Hacer buenas preguntas
+15916kuu0zu ¦ Destravar mais rápido ¦ Desatascarse más rápido
+2ck2p9972nl ¦ Prática diária ¦ Práctica diaria
+16e8u61si91 ¦ Crescimento constante ¦ Crecimiento constante

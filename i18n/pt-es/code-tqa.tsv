@@ -1,0 +1,66 @@
+xxm8tlc3yq ¦ Abra os Portões para Todos ¦ Abre las Puertas a Todos
+75gapus8w4 ¦ auditoria de acessibilidade ¦ auditoría de accesibilidad
+10udxs2s5sr ¦ Um cavaleiro que usa leitor de tela não consegue entrar na guilda: a página de cadastro está cheia de barreiras. Corrija todas. ¦ Un caballero que usa lector de pantalla no puede unirse al gremio: la página de registro está llena de barreras. Arréglalas todas.
+8dbz15bq6z ¦ Corrija a página: adicione `lang="en"`, transforme o título em `<h1>`, dê um texto alt à imagem do escudo, adicione um label para cada input e troque a div clicável por um `<button>`. ¦ Arregla la página: añade `lang="en"`, convierte el título en un `<h1>`, da texto alt a la imagen del escudo, añade un label a cada input y cambia el div clicable por un `<button>`.
+29rqrc3mukn ¦ Ferramentas como o Lighthouse (no Chrome DevTools) e o axe acham muitos problemas sozinhas, mas não todos. Teste também a página só com o teclado (Tab, Enter, Espaço) e com um leitor de tela (VoiceOver no Mac, NVDA no Windows). ¦ Herramientas como Lighthouse (en Chrome DevTools) y axe encuentran muchos problemas solas, pero no todos. Prueba también la página solo con el teclado (Tab, Enter, Espacio) y con un lector de pantalla (VoiceOver en Mac, NVDA en Windows).
+18amxd3s48a ¦ Para cada input: `<label for="name">Your name</label>`. O botão: `<button>Join</button>`. ¦ Para cada input: `<label for="name">Your name</label>`. El botón: `<button>Join</button>`.
+du3n8uv9je ¦ A página tem lang="en" ¦ La página tiene lang="en"
+2e2w7e95gny ¦ O título principal é um <h1> ¦ El título principal es un <h1>
+9tnlp9nfbx ¦ A imagem do escudo tem texto alt ¦ La imagen del escudo tiene texto alt
+1l7n8mcf9fv ¦ Os dois inputs têm um <label> ligado ¦ Los dos inputs tienen un <label> conectado
+28555t6vt2m ¦ Um <button> de verdade substitui a div clicável ¦ Un <button> de verdad sustituye al div clicable
+o4fqnaiffm ¦ Convoque os Cavaleiros ¦ Convoca a los Caballeros
+2evv5arporq ¦ O arquivo real tem uma API. Mande um corvo (uma requisição) e liste todos os cavaleiros do reino. ¦ El archivo real tiene una API. Envía un cuervo (una petición) y lista a todos los caballeros del reino.
+27cigew2g40 ¦ Em `main`, busque todos os cavaleiros e imprima o **nome** de cada um em uma linha. ¦ En `main`, obtén todos los caballeros e imprime el **nombre** de cada uno en su propia línea.
+1e07vvvhe6q ¦ São precisos dois awaits: o primeiro espera os cabeçalhos da resposta, o segundo (`res.json()`) espera o corpo baixar e ser lido. No DevTools do navegador, a aba **Network** mostra cada requisição, seu status e sua resposta. ¦ Hacen falta dos awaits: el primero espera las cabeceras de la respuesta, el segundo (`res.json()`) espera a que el cuerpo se descargue y se analice. En las DevTools del navegador, la pestaña **Network** muestra cada petición, su estado y su respuesta.
+vi2w4c3qsx ¦ Busca https://api.realm.dev/knights ¦ Pide https://api.realm.dev/knights
+e62e5hwa6b ¦ Imprime Ada, Bors e Cyra ¦ Imprime Ada, Bors y Cyra
+1rfabggc0vm ¦ Usa await e res.json() ¦ Usa await y res.json()
+g6r2ksrr83 ¦ Cavaleiro Não Encontrado ¦ Caballero No Encontrado
+2acnkwk5d34 ¦ códigos de status ¦ códigos de estado
+uspbtyvd7l ¦ tratamento de erros ¦ manejo de errores
+1tayrz2dxvr ¦ Nem todo cavaleiro existe. Um escriba descuidado pediu o cavaleiro número 99 e o arquivo inteiro quebrou. Trate isso com elegância. ¦ No todos los caballeros existen. Un escriba descuidado pidió el caballero número 99 y todo el archivo se cayó. Manéjalo con elegancia.
+1ru8uxb6802 ¦ Escreva `async function getKnight(id)`, que retorna o objeto do cavaleiro, ou `null` quando a API responde com um status de erro. ¦ Escribe `async function getKnight(id)`, que devuelve el objeto del caballero, o `null` cuando la API responde con un estado de error.
+tn21q95huz ¦ `fetch` só rejeita (lança erro) em falhas de rede, como estar offline. Erros HTTP chegam como respostas normais. Muitos times envolvem o fetch num pequeno helper que lança erro quando `!res.ok`, para que erros nunca sejam ignorados em silêncio. ¦ `fetch` solo rechaza (lanza error) con fallos de red, como estar sin conexión. Los errores HTTP llegan como respuestas normales. Muchos equipos envuelven fetch en un pequeño helper que lanza un error si `!res.ok`, para que los errores nunca se ignoren en silencio.
+21rxpqx0tog ¦ getKnight(2) retorna Bors ¦ getKnight(2) devuelve Bors
+2be8kx9t5hv ¦ getKnight(3) retorna Cyra ¦ getKnight(3) devuelve Cyra
+1pqdk1pppeq ¦ getKnight(99) retorna null ¦ getKnight(99) devuelve null
+1igqtyb9xdh ¦ Confere res.ok (ou res.status) ¦ Comprueba res.ok (o res.status)
+158e8q8nq84 ¦ Recrute um Cavaleiro ¦ Recluta a un Caballero
+opiuubof4f ¦ corpo da requisição ¦ cuerpo de la petición
+2gk4l3y05sg ¦ Um novo escudeiro quer entrar. Mande ao arquivo uma requisição POST para criar o registro dele. ¦ Un nuevo escudero quiere unirse. Envía al archivo una petición POST para crear su registro.
+10hn52f5ewr ¦ Escreva `async function recruit(name, house)`, que faz POST do novo cavaleiro como JSON e retorna o cavaleiro criado da resposta. ¦ Escribe `async function recruit(name, house)`, que hace POST del nuevo caballero como JSON y devuelve el caballero creado de la respuesta.
+1sc6qt85bag ¦ O cabeçalho `Content-Type` diz ao servidor como ler o corpo. As APIs costumam responder a uma criação bem-sucedida com **201 Created** e devolver o novo recurso, incluindo o id gerado pelo servidor. ¦ La cabecera `Content-Type` le dice al servidor cómo leer el cuerpo. Las APIs suelen responder a una creación correcta con **201 Created** y devolver el nuevo recurso, incluido el id que generó el servidor.
+qxdp5msxp4 ¦ Use `method: "POST"`, um objeto `headers` e `body: JSON.stringify({ name, house })`. ¦ Usa `method: "POST"`, un objeto `headers` y `body: JSON.stringify({ name, house })`.
+3zo8zi72in ¦ Envia uma requisição POST ¦ Envía una petición POST
+eqzfnyupeq ¦ Retorna o cavaleiro criado (com um id novo) ¦ Devuelve el caballero creado (con un id nuevo)
+bnb81quyed ¦ Envia JSON com um cabeçalho Content-Type ¦ Envía JSON con una cabecera Content-Type
+2kylogw2io ¦ Seus Primeiros Testes ¦ Tus Primeros Tests
+26hq8dpswgj ¦ A tesoureira real não confia em ninguém. Antes de usar as novas funções auxiliares, ela quer provas de que funcionam. ¦ La tesorera real no se fía de nadie. Antes de usar las nuevas funciones auxiliares, quiere pruebas de que funcionan.
+188guy8dcs9 ¦ Escreva **pelo menos 4 testes**: pelo menos dois para `add` e dois para `isEven`. Todos os testes devem passar. ¦ Escribe **al menos 4 tests**: al menos dos para `add` y dos para `isEven`. Todos los tests deben pasar.
+1g1zmh1iiv6 ¦ Bons testes conferem casos normais **e** casos extremos (zero, números negativos, listas vazias). Cada teste deve checar um comportamento e ter um nome que se lê como uma frase, para que um teste falhando diga exatamente o que quebrou. ¦ Los buenos tests comprueban casos normales **y** casos límite (cero, números negativos, listas vacías). Cada test debe comprobar un comportamiento y tener un nombre que se lea como una frase, para que un test que falla diga exactamente qué se rompió.
+14tm11y6vfw ¦ `test("4 is even", () => { expect(isEven(4)).toBe(true); });` e um para um número ímpar. ¦ `test("4 is even", () => { expect(isEven(4)).toBe(true); });` y uno para un número impar.
+20y4tktqkbb ¦ Pelo menos 4 testes ¦ Al menos 4 tests
+1sz253pdu8k ¦ Todos os testes passam ¦ Todos los tests pasan
+smd4c51z4k ¦ Os testes chamam add e isEven ¦ Los tests llaman a add y a isEven
+1whtjwbvnq0 ¦ Faça os Testes Passarem ¦ Haz que Pasen los Tests
+1od0aayoax1 ¦ lendo testes ¦ leer tests
+28d2wn9vjgf ¦ métodos de string ¦ métodos de cadenas
+22pcznlbrp4 ¦ Os escribas precisam de endereços web para cada missão: "Slay the Dragon" deve virar "slay-the-dragon". Os testes já estão escritos. Agora escreva o código. ¦ Los escribas necesitan direcciones web para cada misión: "Slay the Dragon" debe convertirse en "slay-the-dragon". Los tests ya están escritos. Ahora escribe el código.
+1pcu2a1zgp9 ¦ Faça `slugify(title)` passar em **todos os testes**: minúsculas, sem espaços nas pontas e palavras unidas por um único traço. Não mude os testes. ¦ Haz que `slugify(title)` pase **todos los tests**: minúsculas, sin espacios en los extremos y palabras unidas por un solo guion. No cambies los tests.
+288godg0e3z ¦ É assim que muitos times trabalham: primeiro os testes descrevem o comportamento esperado, depois você escreve código até eles passarem. Isso se chama **Test-Driven Development (TDD)**: vermelho (teste falhando) → verde (passando) → refatorar (limpar). ¦ Así trabajan muchos equipos: primero los tests describen el comportamiento esperado y luego escribes código hasta que pasen. Se llama **Test-Driven Development (TDD)**: rojo (test que falla) → verde (pasa) → refactorizar (limpiar).
+26o1gsnnv78 ¦ Comece com `title.trim().toLowerCase()`. ¦ Empieza con `title.trim().toLowerCase()`.
+skpirkrz2q ¦ Depois separe nos espaços, descarte as partes vazias e junte com traços: `.split(" ").filter((w) => w).join("-")` ¦ Luego separa por espacios, descarta las partes vacías y une con guiones: `.split(" ").filter((w) => w).join("-")`
+2ap1ihgvv3e ¦ Os 4 testes continuam lá ¦ Los 4 tests siguen ahí
+aiq9amopq2 ¦ Funciona com entradas novas também ("  A  B c " → "a-b-c") ¦ Funciona también con entradas nuevas ("  A  B c " → "a-b-c")
+1s8ikas2ca9 ¦ A Armadilha de Bugs ¦ La Trampa de Bugs
+28u1felaijy ¦ testes de regressão ¦ tests de regresión
+1z12cmywaku ¦ depurando com testes ¦ depurar con tests
+2ajl4p8v034 ¦ Os mercadores reclamam: o feitiço de desconto dá preços errados. Primeiro prenda o bug num teste, depois corrija, para que ele nunca mais volte. ¦ Los mercaderes se quejan: el hechizo de descuento da precios equivocados. Primero atrapa el bug en un test y luego arréglalo, para que nunca vuelva.
+st2tfzc46d ¦ `applyDiscount(price, percent)` deve retornar o preço depois de um desconto percentual (100 com 20% de desconto = 80). Escreva pelo menos 2 testes para ela, ache o bug e corrija a função para todos os testes passarem. ¦ `applyDiscount(price, percent)` debe devolver el precio tras un descuento porcentual (100 con un 20% de descuento = 80). Escribe al menos 2 tests, encuentra el bug y arregla la función para que pasen todos los tests.
+2bvf06qnwpe ¦ Quando você corrige um bug num trabalho de verdade, escreva o teste primeiro e veja-o falhar. Isso prova que o teste realmente pega o bug. Depois corrija o código e veja-o passar. ¦ Cuando arreglas un bug en un trabajo de verdad, escribe primero el test y míralo fallar. Eso demuestra que el test realmente detecta el bug. Luego arregla el código y míralo pasar.
+1vdlwei7056 ¦ Tente `expect(applyDiscount(100, 20)).toBe(80);` O que ela retorna agora? ¦ Prueba `expect(applyDiscount(100, 20)).toBe(80);` ¿Qué devuelve ahora?
+23705ole28s ¦ A fórmula deveria ser `price - (price * percent) / 100`. ¦ La fórmula debería ser `price - (price * percent) / 100`.
+2e95wwwqg77 ¦ Pelo menos 2 testes para applyDiscount ¦ Al menos 2 tests para applyDiscount
+me7gdf4ap3 ¦ O bug foi corrigido (100, 20% → 80; 50, 10% → 45; 200, 50% → 100) ¦ El bug está arreglado (100, 20% → 80; 50, 10% → 45; 200, 50% → 100)
+21l40h3oay ¦ Usa expect ¦ Usa expect

@@ -1,0 +1,1086 @@
+@@ 1vss5cdstsa
+The Heraldry Hall
+@@ cnfl4hs8zh
+Colours, fonts, the box model, Flexbox, Grid, positioning, animations and responsive design.
+@@ fk0bwnddlj
+Selectors and Colours
+@@ 1niqlnlnamk
+Rules, selectors, colours and linking a stylesheet.
+@@ 19m67srzcix
+
+**Key ideas**
+- A **rule**: `selector { property: value; }` e.g. `h1 { color: crimson; }`
+- Selectors: tag `p`, class `.gold`, id `#king`, descendant `nav a`, group `h1, h2`.
+- Colours: names (`crimson`), hex (`#dc143c`), `rgb(220 20 60)`, with transparency `rgb(0 0 0 / 0.5)`.
+- `color` = text colour, `background-color` = background.
+- Link CSS with `<link rel="stylesheet" href="style.css">` in `<head>`.
+@@ 1mhajism65e
+Rules and selectors
+@@ 1zs6hwchfi5
+Painting with rules
+@@ b5c61fc8lb
+CSS is a list of **rules**. Each rule picks elements with a **selector** and sets **properties**:
+
+```
+h1 {
+  color: crimson;
+  font-size: 40px;
+}
+```
+Property and value are separated by `:`, and each line ends with `;`.
+@@ gqi1px9cbc
+In this rule, what is the selector?
+@@ 1ieug4iqsdy
+And what is `color`?
+@@ x65xw321nk
+The property
+@@ 2ep8cnf1xyz
+The selector
+@@ 1tnsyp4t0dm
+The value
+@@ 1s49qxraof6
+A tag
+@@ 23bo33oop6f
+Make every paragraph green
+@@ 1fvz53aqkis
+Which line has a mistake?
+@@ 1eerx6oqrps
+A `;` is missing after `gold`, so the browser reads `gold font-size: 32px` as one broken value.
+@@ en86ycyvxe
+Write a rule that makes h2 purple
+@@ 1z7bebtim78
+One CSS rule can set many properties.
+@@ 2ehhx0qja0q
+Many ways to say "red"
+@@ 5mko5k2sy5
+```
+color: red;                  /* a name */
+color: #ff0000;              /* hex: red, green, blue */
+color: rgb(255 0 0);         /* numbers 0-255 */
+color: rgb(255 0 0 / 0.5);   /* 50% see-through */
+```
+`color` changes the **text**. `background-color` changes the **background**.
+@@ 1imuzofjuxc
+Which property changes the colour of the text?
+@@ emi9w0lrje
+Which property paints behind an element?
+@@ 1z8gwxz5dxf
+Match the colour value to its format
+@@ 14xf1g3te4d
+Colour name
+@@ 21d9e1t2enr
+Hex code
+@@ 2rm6zt53u4
+RGB numbers
+@@ 13ketgfrgkl
+With transparency
+@@ 2edm6cj0l33
+What does `#000000` look like?
+@@ 9dvzsfq64z
+Black
+@@ 149edxvwfuy
+White
+@@ b9pq9lvwmk
+Red
+@@ 1kgft2a5dlj
+See-through
+@@ 2c2ow5x8h6n
+All three channels (red, green, blue) are 0: no light = black.
+@@ 1xs6o78838e
+What does `#ffffff` look like?
+@@ 1kp4pl7s4js
+Yellow
+@@ jyejr4v085
+Grey
+@@ 2af8r8y4tlt
+Make the background wheat and the text dark red
+@@ 1gzil3616k
+Light grey text on a white background is easy for everyone to read.
+@@ 1nou3sletcy
+Low contrast is hard to read, especially for people with low vision. Aim for strong contrast.
+@@ 1qbfz59wumh
+Classes and ids
+@@ 2dwc4vtgzhp
+Picking the right elements
+@@ 2bko1rd31sd
+```
+<p class="gold">Sir Ada</p>
+<h2 id="king">King Bors</h2>
+```
+```
+.gold { color: goldenrod; }   /* class: a dot */
+#king { font-size: 40px; }    /* id: a hash */
+```
+Many elements can share a **class**. An **id** must be unique on the page.
+@@ 1p0les41b8z
+Which selector matches `<p class="note">`?
+@@ za8118l6yp
+Which selector matches `<div id="map">`?
+@@ bjhtio9gs2
+Two elements on the same page can share the same class.
+@@ 2wohshhlrn
+Two elements on the same page should share the same id.
+@@ 1yzp9uuqa0u
+Ids must be unique. Use a class for groups.
+@@ exvum5nzpi
+Which elements turn red?
+@@ 4bp02spnbh
+A and C
+@@ 1byauy66khl
+Only A
+@@ sluqhako72
+A and B
+@@ 2f1h1l8ted8
+All three
+@@ 17692an94zz
+Combining selectors
+@@ 29bzdksra6a
+Match the selector with what it picks
+@@ 1h7ll8dmu5p
+nav a
+@@ 6mx836in6b
+Links inside nav
+@@ 1e0ezl3hi3b
+All h1 and h2
+@@ 2a3dg2waub0
+Paragraphs with class intro
+@@ e8m6uivlo0
+Every element
+@@ 7prmvc862g
+Write the selector for elements with the class `hero`
+@@ 1wzns37dvk1
+Where CSS lives
+@@ 1jqt7mnatbj
+Three places for CSS
+@@ 2dnbnhy9xqx
+1. An external file (best): `<link rel="stylesheet" href="style.css">` in `<head>`
+2. A `<style>` tag in `<head>`
+3. Inline: `<p style="color: red">` (hard to maintain)
+
+One stylesheet can style a whole website.
+@@ 17ugcdpbv6v
+Link the stylesheet
+@@ 1uji2mjy5bk
+Where does the `<link>` tag go?
+@@ 1tybtgkgtf2
+Inside <head>
+@@ 1p2gwx93m9t
+At the end of <body>
+@@ 2dyisz5lbfd
+Inside <title>
+@@ 1emzbp1jvmq
+In the CSS file
+@@ 1rcao04hzzr
+Why are external CSS files usually best?
+@@ 1ffryux5czp
+One file can style many pages, and browsers cache it
+@@ 1gguaf82o2h
+They are the only kind browsers understand
+@@ 1jkqxhrlsff
+They run faster than HTML
+@@ nf5xrtcaom
+They hide the code from users
+@@ nr2ab810k8
+Why is this page unstyled?
+@@ 1wg28qzy3mi
+`<link>` uses `href`, not `src`.
+@@ 22ajqptkfwl
+CSS comments are written like `/* this */`.
+@@ 28t73myukif
+Challenge: The First Paint
+@@ 5p6mbvcqil
+Challenge: Linking the Paint Pot
+@@ eok42qbfzw
+Challenge: Classes and Ids
+@@ 17v18ir0iq4
+Text and Fonts
+@@ 1qb4p80k4tg
+Fonts, sizes, units and text styling.
+@@ a42r0topks
+
+**Key ideas**
+- `font-family: Georgia, serif;`: list fallbacks, end with a generic family.
+- `font-size`, `font-weight` (400 normal, 700 bold), `font-style: italic`.
+- Units: `px` (fixed), `rem` (relative to the root font size, usually 16px), `em` (relative to the parent), `%`.
+- `text-align`, `line-height` (1.5–1.7 for reading), `text-transform`, `letter-spacing`, `text-decoration`.
+@@ 12t1ke2k02m
+Fonts
+@@ ol6rcv27vx
+Choosing a font
+@@ 1wgu75v4x6p
+```
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+```
+The browser uses the first font it has. Always end with a **generic family**: `serif`, `sans-serif` or `monospace`. Font names with spaces need quotes.
+@@ 19klm574pwy
+Why end a font list with `sans-serif`?
+@@ 2f8xxd1glcr
+As a fallback if the other fonts are missing
+@@ 1uxrkngzr5f
+To make the text bold
+@@ 1weismlxj9h
+It is required to load fonts
+@@ hwkc8j4pd5
+To make text load faster
+@@ 1kle9m7sizw
+Match the generic family with its look
+@@ z79i603cqk
+Little feet on letters (like books)
+@@ 1nkzr58sgk0
+Clean, no feet (like most apps)
+@@ 5snv8tytdq
+Every letter the same width (code)
+@@ 1vtdawwc1uw
+Which value makes text bold?
+@@ 1b6aaqc3gzx
+font-weight: 700
+@@ 21vtexl9d7p
+font-size: bold
+@@ wyatp0vrqa
+font-style: bold
+@@ 1vy8xr2asl4
+text-weight: 700
+@@ db7l5dwuaw
+Which makes text italic?
+@@ 1kcfe8cst8t
+font-style: italic
+@@ 1hitx0j0mcn
+font-weight: italic
+@@ 24cp4u7pr3r
+text-style: italic
+@@ efn6u183r4
+font: slanted
+@@ 1uypmwdaocy
+Use Georgia, with serif as the fallback
+@@ 4081zf2h2p
+Web fonts (like Google Fonts) let you use fonts that visitors do not have installed.
+@@ h3aeg5atfl
+Sizes and units
+@@ wqql39jvce
+px, rem and em
+@@ ma233k5na0
+- `px`: fixed pixels. `font-size: 16px`
+- `rem`: relative to the **root** font size (usually 16px). `2rem` = 32px
+- `em`: relative to the **parent** font size
+- `%`: percentage of the parent
+
+`rem` respects the reader's browser settings, so it is great for accessibility.
+@@ 14i9hux8a3t
+The root font size is 16px. What is `2rem`?
+@@ 1apc082ii2a
+The root font size is 16px. What is `1.5rem`?
+@@ 2c31dowegrv
+Which unit changes if the user sets a bigger default font in their browser?
+@@ 1xlfibnn70k
+Neither
+@@ 2gjrl7m1nfg
+Both never change
+@@ 1n2swso98tz
+Match the unit to what it is relative to
+@@ 82por5f2mz
+Nothing (fixed)
+@@ 1ya41fzxbsd
+The root font size
+@@ 1jlspe89htk
+The parent font size
+@@ 25a1c7h5v6z
+The parent size
+@@ 7w6sgqfwdz
+`width: 50%` makes an element half as wide as its parent.
+@@ gufkjao658
+Styling text
+@@ 13m5zycoqlq
+Text tools
+@@ jb3x24s2g3
+Match the property with what it does
+@@ 8ghyafwojc
+Left, centre or right
+@@ wck2h62iqo
+Space between lines
+@@ 1on343jvkd1
+UPPERCASE or lowercase
+@@ 1mxn1xxpk2q
+Underlines
+@@ 40h3gwm5n6
+Which centres text?
+@@ cxmf35xh4q
+text-align: center
+@@ 12m7fuwhxzo
+align: center
+@@ 1ny9i4bs790
+text-center: true
+@@ 1zki2fjpwo8
+font-align: middle
+@@ 11o1l877ssg
+Which `line-height` is most comfortable for long paragraphs?
+@@ 15ytxkrikpk
+Remove the underline from links
+@@ 24lnwwzkwsa
+`text-transform: uppercase` changes the letters in the HTML file.
+@@ qnupe5d3nd
+It only changes how text *looks*. The HTML stays the same.
+@@ 1268vwtlri1
+Challenge: The Scribe's Fonts
+@@ 1s9uqbgtp36
+Padding, borders, margins, sizes and display types.
+@@ uw9aqc982z
+
+**Key ideas**
+- Every element is a box: **content → padding → border → margin** (inside to outside).
+- `padding` = space inside, `margin` = space outside. Shorthand: `padding: 10px 20px` (top/bottom, left/right).
+- `box-sizing: border-box` makes `width` include padding and border (use it everywhere).
+- `display: block` (full width, new line), `inline` (flows in text, no width/height), `inline-block`, `none` (hidden).
+- `border-radius` rounds corners; `box-shadow` adds shadows.
+@@ 1x0gdgvlj0a
+Content, padding, border, margin
+@@ 1zr0u6e7eqo
+Every element is a box
+@@ 1vgx2n8wda7
+From the inside out:
+1. **content**: text or image
+2. **padding**: space inside the border
+3. **border**: the edge
+4. **margin**: space outside, pushing other boxes away
+@@ 2a65c2uq815
+Order the layers from the inside out
+@@ 2eey1ge52jx
+You want more space between the text and the border of a button. Which property?
+@@ 213bq4pstex
+You want more space between two cards. Which property?
+@@ 24nlqhhv9ma
+What does this padding mean?
+@@ jb217wzacd
+10px top and bottom, 20px left and right
+@@ nth4rncran
+10px left, 20px right
+@@ 6ta44lnpqb
+10px everywhere, then 20px more
+@@ ya30qkxkp3
+10px top, 20px bottom
+@@ 2c2oe2mulwc
+A 3px solid gold border
+@@ 1y6ulam5qcd
+Margin is inside the border.
+@@ 7ed8igqtrf
+Width and box-sizing
+@@ 26jtoui6q4m
+The box-sizing surprise
+@@ 24yyl4l8n62
+By default, `width` sets only the **content**. Padding and border are added on top:
+
+```
+.box { width: 200px; padding: 20px; border: 5px solid; }
+/* real width: 200 + 40 + 10 = 250px */
+```
+With `box-sizing: border-box`, `width` includes padding and border. Most projects set it for everything:
+
+```
+*, *::before, *::after { box-sizing: border-box; }
+```
+@@ 5ikje4qliy
+Default box-sizing: `width: 100px; padding: 10px; border: 0;`. How wide is the box?
+@@ 11d3tlt8gdr
+Same box with `box-sizing: border-box`. How wide is it?
+@@ 24a1axo7ujc
+`max-width: 600px` lets an element shrink on small screens but never grow wider than 600px.
+@@ 1t2sez8lot0
+Which centres a block element that has a width?
+@@ 1k6i2xhxacb
+margin: 0 auto
+@@ 2fn5kyd6l62
+padding: auto
+@@ yxzwnsxsx9
+Display types
+@@ 17yd2tyrpqi
+Block and inline
+@@ 12dhetwbs11
+- **block** elements (`<div>`, `<p>`, `<h1>`) start on a new line and take the full width
+- **inline** elements (`<span>`, `<a>`, `<strong>`) flow inside text; width and height do not apply
+- `inline-block`: flows like text, but accepts width and height
+- `display: none` hides the element completely
+@@ 19hnbovi54p
+Block or inline by default?
+@@ 1jeefdevjp0
+Block
+@@ 61he6ckzzn
+Inline
+@@ rdyl5fp2tq
+Block (full width)
+@@ 1zk2nbhccpz
+Inline (in the text)
+@@ sfejkvbgy0
+Which hides an element and removes its space?
+@@ 2fc6rsowuin
+display: none
+@@ u1bczgti6i
+visibility: visible
+@@ l72hm4xy1b
+opacity: 1
+@@ mimmr4wgsc
+display: block
+@@ 2fjbpljwhkj
+You set `width: 200px` on a `<span>` but nothing changes. Why?
+@@ loq60lyc1o
+Inline elements ignore width
+@@ uqoagvar4b
+Spans cannot be styled
+@@ ixwbyanc9v
+Width needs !important
+@@ 27bdqp4g0kr
+The value must be in rem
+@@ w13htugzu5
+Let the links sit side by side but accept padding and width
+@@ r6mz4xy3hu
+Corners and shadows
+@@ 1wndr0msnua
+Rounded and raised
+@@ val9jfvgry
+How do you turn a square image into a circle?
+@@ 2c6hkurf07o
+border-radius: 50%
+@@ 17jyberwdty
+shape: circle
+@@ 30ebtxz4qd
+border: round
+@@ 25olp6mah4p
+radius: 100px
+@@ 1jwcruok7tk
+In this shadow, what is 8px?
+@@ utfqpc774o
+The blur
+@@ 85qy6ehfws
+The x offset
+@@ 16k34eetw0y
+The y offset
+@@ 1ma66qcwu8f
+The colour
+@@ v1mxrdby2f
+`opacity: 0.5` makes an element half see-through.
+@@ 3iw7tvkv77
+Which makes only the top corners rounded?
+@@ 1ckqel4abnl
+border-radius: 10px 10px 0 0
+@@ 24xpxwfc81q
+border-top: round
+@@ 13wk4d1qkvw
+border-radius: top 10px
+@@ 1ccacemgyx6
+radius-top: 10px
+@@ 2exvs69lsun
+Challenge: The Box Model
+@@ 1r1q0hsaqmy
+Challenge: Round Coins
+@@ y8mi1v0qx8
+Flexbox
+@@ b5jb544ull
+Line things up in rows and columns.
+@@ tqv3v01nsb
+
+**Key ideas**
+- `display: flex` on the **parent** lines up its children in a row.
+- `flex-direction: row | column`, `flex-wrap: wrap`, `gap: 12px`.
+- `justify-content` = along the main axis (start, center, space-between...).
+- `align-items` = across it (stretch, center, flex-start...).
+- On children: `flex: 1` (grow to fill), `flex-shrink`, `order`.
+- Centre anything: `display: flex; justify-content: center; align-items: center;`
+@@ 23o8kszluws
+Flex containers
+@@ vbbvbk8ken
+Lining up children
+@@ 1jeklb2d6x6
+Put `display: flex` on a **parent**, and its children line up in a row:
+
+```
+.toolbar {
+  display: flex;
+  gap: 10px;
+}
+```
+Change the direction with `flex-direction: column`.
+@@ 14cqyxpeww7
+Where does `display: flex` go?
+@@ soic38rk2c
+On the parent (container)
+@@ 1r8ts1salyh
+On every child
+@@ 1yvpyl1qd62
+On the <body> only
+@@ y7clmtv7rp
+In the HTML
+@@ 165ioac4nlf
+What does `gap` do in a flex container?
+@@ 1yj92oxwnke
+Adds space between the children
+@@ 2892g1w9hwy
+Adds space outside the container
+@@ 26a8kkew69x
+Makes children smaller
+@@ 1f0lwchyocq
+Hides empty children
+@@ 1jatevgvw1e
+Which stacks the children vertically?
+@@ shhbxqp8j1
+flex-direction: column
+@@ 19x2rfvanfe
+flex-direction: row
+@@ 15nfqf452un
+flex-wrap: wrap
+@@ 1vh20vrepib
+display: block-flex
+@@ o18pmtxhua
+Make the menu a row with 16px between items
+@@ 27r7j4blj78
+Only direct children of a flex container become flex items.
+@@ 19tkf0xdw5
+Justify and align
+@@ 1lms6rdcpfy
+Two axes
+@@ ylnqs2zp3v
+- `justify-content`: along the **main** axis (a row: left ↔ right)
+- `align-items`: across it (a row: top ↕ bottom)
+
+Values: `flex-start`, `center`, `flex-end`, `space-between`, `space-around`, `stretch`...
+@@ 1wl1rbkhzij
+Logo on the left, links on the right. Which value?
+@@ 3vxukolci2
+align-items: space-between
+@@ 1sy5a46lzs6
+justify-content: center
+@@ 16im4cxipu6
+align-items: stretch
+@@ 1n88mr2pwcu
+In a row, which centres items vertically?
+@@ 26jr2iehtie
+vertical-align: center
+@@ 2acuoyd59ge
+Centre a box perfectly inside its parent
+@@ 9rcspydc0n
+With `flex-direction: column`, `justify-content` works vertically.
+@@ 27phoeulidp
+The main axis follows the direction, so it becomes top ↔ bottom.
+@@ ivjcd117n1
+Match the value with the layout
+@@ 1yii1ciltqb
+Packed at the start
+@@ 3xflrdm862
+Packed in the middle
+@@ 1bjscymudvu
+First and last at the edges
+@@ 2cj6kcun7t9
+Packed at the end
+@@ 1opkm8ijezv
+Growing and wrapping
+@@ g3gu2nsmjf
+Flexible children
+@@ 22ighrzrdhl
+Which makes a child fill the leftover space?
+@@ 267pg5shttt
+flex: 1
+@@ 35e25ykbp2
+width: auto
+@@ 1y9ufva4jt
+grow: yes
+@@ 21kq840wr4z
+Your cards overflow off the screen in a single row. Which helps?
+@@ 9rulql0she
+`order: -1` on a flex child moves it to the front visually.
+@@ 2d06rjhfxfv
+Careful: screen readers and keyboards still follow the HTML order.
+@@ 9o5c2bjjir
+Two children: `flex: 1` and `flex: 2`. What happens?
+@@ zj80mcgdm6
+.b gets twice as much space as .a
+@@ 126al5cpy6s
+They are equal
+@@ 1oecfaofq0c
+.a is twice as big
+@@ hc3cue61r
+.b is hidden
+@@ 1q5gqml6l17
+Challenge: Banners in a Row
+@@ e2ai9x16vz
+Challenge: Aligning the Guard
+@@ bmll3jwqvf
+CSS Grid
+@@ vvc606n8jc
+Rows and columns for whole layouts.
+@@ urk2wcod2q
+
+**Key ideas**
+- `display: grid` + `grid-template-columns: repeat(3, 1fr)` = 3 equal columns.
+- `fr` = a fraction of the free space. `gap` = space between cells.
+- Children fill cells in order. `grid-column: span 2` makes one span two columns.
+- Responsive cards without media queries: `repeat(auto-fill, minmax(200px, 1fr))`.
+- `grid-template-areas` names parts of a layout (header, sidebar, main, footer).
+- Grid = 2D (rows and columns). Flexbox = 1D (a row or a column).
+@@ 2e9chmx6k3z
+Grid basics
+@@ 26e4wiegknp
+Rows and columns
+@@ 24n9li3vle1
+```
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+```
+`1fr` means "one share of the free space". `repeat(3, 1fr)` is the same as `1fr 1fr 1fr`.
+@@ 1164ndi6769
+How many columns does `grid-template-columns: 1fr 1fr 1fr 1fr` make?
+@@ 17s5pelqqi0
+`grid-template-columns: 200px 1fr`. What happens?
+@@ dx3t2nyfaf
+A fixed 200px column, and one column that takes the rest
+@@ 20noaadwkdw
+Two equal columns
+@@ ykgqooet8l
+One column 201px wide
+@@ lhh92dt5px
+An error
+@@ pz237uhu0m
+Which column is the widest?
+@@ 21fgxvok8xo
+The middle one
+@@ hwivxdwpj7
+The first one
+@@ 19sob8ecgk3
+The last one
+@@ nj2s958an8
+All equal
+@@ 1g79um98rjl
+3 equal columns
+@@ 1c9coh8rrah
+Match the word with its meaning
+@@ d65vkv5nkq
+Grid
+@@ 1cgnuzo8hdq
+Rows and columns (2D)
+@@ 1x9bk0k7d4l
+One row or one column (1D)
+@@ 11ibquwicxy
+A share of the free space
+@@ g45yjekvt6
+Space between cells
+@@ y3tc7yahn5
+Spanning and areas
+@@ 270uqip03ik
+Bigger cells
+@@ 2zx564yt2z
+```
+.featured { grid-column: span 2; }   /* two columns wide */
+```
+Name areas for a full layout:
+
+```
+.page {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas:
+    "header header"
+    "side   main";
+}
+header { grid-area: header; }
+```
+@@ 10ikuaraby8
+Which makes an item two columns wide?
+@@ 160e68kh2wk
+grid-column: span 2
+@@ 13z8ule8tic
+width: 2fr
+@@ 1gndq3jsuuz
+columns: 2
+@@ 1pe41844khm
+grid-row: span 2
+@@ rmylpwvxb0
+`grid-template-areas` lets you draw the layout with names.
+@@ 1ma59hwigjo
+`repeat(auto-fill, minmax(200px, 1fr))` creates...
+@@ 2dxgr2o9uqp
+As many columns as fit, each at least 200px wide
+@@ 3dvtciyhnb
+Exactly 200 columns
+@@ 2ass6ts6pu3
+One column of 200px
+@@ yj07pa97vp
+Rows instead of columns
+@@ 21rfmbx2449
+In `grid-template-areas: "header header" "side main";`, how many columns are there?
+@@ 29f8g4imrz9
+Challenge: The Castle Grid
+@@ 1trnxnyhtw6
+Cascade, States and Animation
+@@ kaz7whb57k
+Which rule wins, hover effects, transitions and variables.
+@@ 172hap0o7p3
+
+**Key ideas**
+- **Cascade**: when rules conflict, the more **specific** selector wins (inline > id > class > tag); if equal, the **later** rule wins.
+- Some properties are **inherited** by children (color, font); others are not (border, padding).
+- Pseudo-classes: `:hover`, `:focus-visible`, `:first-child`, `:nth-child(2)`, `:not(.x)`.
+- Pseudo-elements: `::before`, `::after` (with `content`), `::placeholder`.
+- `transition: all 0.3s` animates changes; `transform: scale(1.1) rotate(5deg) translateY(-4px)`.
+- Custom properties: `:root { --gold: #e8a92b; }` then `color: var(--gold);`
+@@ 1bqvl6g9eeg
+Which rule wins?
+@@ 1f35gwftya6
+The cascade
+@@ 1o7h5qaah94
+When two rules style the same element:
+1. The more **specific** selector wins: id `#x` > class `.x` > tag `p`
+2. If they are equally specific, the **last** one wins
+
+```
+p { color: blue; }
+.note { color: green; }   /* wins for <p class="note"> */
+```
+@@ 24f7qmbmq3w
+What colour is `<p class="note">`?
+@@ 2904oiuta4l
+a mix
+@@ 10o05b4hwkb
+A class is more specific than a tag.
+@@ 22lji56pzpw
+What colour is `<h1>`?
+@@ 1l9a0tixfgg
+Same specificity, so the later rule wins.
+@@ uuksddfktl
+What colour is `<p id="intro" class="note">`?
+@@ 14o2cdrc574
+An id beats a class, even though the class rule comes later.
+@@ ketsle6y9z
+Inheritance
+@@ sybdu9wl4c
+Some properties pass down from parent to children: `color`, `font-family`, `font-size`, `line-height`...
+
+Others do not: `border`, `padding`, `margin`, `background`.
+
+```
+body { font-family: Georgia; }   /* every element inside uses Georgia */
+```
+@@ 14x2ab3wfdb
+Setting `color` on `body` changes the text colour of paragraphs inside it.
+@@ 1l55n5a1y9q
+Setting `border` on a `<div>` also gives all its children a border.
+@@ 1put4kkabb9
+Why should you avoid `!important`?
+@@ rr4k29x01y
+It overrides the cascade and makes styles hard to change later
+@@ 2ftmh5tduiq
+It is not valid CSS
+@@ 23xocmyyzmm
+It slows down the page a lot
+@@ czqighk5gy
+Browsers ignore it
+@@ 1e7irdozvkh
+Pseudo-classes and pseudo-elements
+@@ 1d4jdtjyfkg
+Special states
+@@ 1yh4jhinryz
+```
+a:hover { color: gold; }            /* mouse over */
+button:focus-visible { outline: 3px solid; }  /* keyboard focus */
+li:first-child { font-weight: bold; }
+li:nth-child(2) { color: red; }      /* the second one */
+tr:nth-child(even) { background: #eee; }
+```
+Pseudo-**elements** add content:
+
+```
+.new::before { content: "★ "; }
+```
+@@ 27bol7gq3o3
+Match the selector with when it applies
+@@ hryhd1phor
+Mouse over it
+@@ 2czdeulamnt
+Keyboard focus
+@@ 789qe1y3dy
+First in its parent
+@@ 18u2v3nsxa2
+Third in its parent
+@@ yf73clbois
+Which styles every other table row (zebra stripes)?
+@@ 11ekpbg30p0
+What does `::before` need to show anything?
+@@ bk07fjj5d7
+A content property
+@@ 2fg7e7p11ah
+A class
+@@ 16dlmz59rhc
+Make links gold when the mouse is over them
+@@ 1j8pvbm3pw7
+You should style `:focus-visible` so keyboard users can see where they are.
+@@ iypvn5ekef
+Transitions and transforms
+@@ 1l8y71v6f9n
+Smooth magic
+@@ 2bx5o2ox9cw
+```
+.rune {
+  transition: transform 0.3s, background-color 0.3s;
+}
+.rune:hover {
+  transform: scale(1.1);
+  background-color: purple;
+}
+```
+`transform` can `scale()`, `rotate()` and `translate()` (move) elements without affecting the layout.
+@@ 1djt6yj2up2
+Match the transform with its effect
+@@ 1u2ihfvfqwr
+20% bigger
+@@ 1mfopw1yo0c
+Turned
+@@ dt7hcqkxhc
+Moved up 5px
+@@ 1oduv8we2wy
+Half size
+@@ 1v4f5rnbzi
+Where should the `transition` property go?
+@@ 1pxkyy2hx8
+On the normal state (.rune), so it animates both ways
+@@ 4s9gg3i5fl
+Only on :hover
+@@ z42b4ns29y
+On the <body>
+@@ vh30jhapz7
+Which is cheapest for the browser to animate?
+@@ 1dfq1z1oyp2
+transform and opacity
+@@ 1vufv5bvfe4
+width and height
+@@ fitgp3jxc2
+margin and padding
+@@ 1n7d8u604kr
+`@keyframes` lets you create animations with many steps.
+@@ ugutb5htp9
+How should you respect users who get motion sick?
+@@ 2budz5lgv6u
+Use @media (prefers-reduced-motion: reduce) to tone down animation
+@@ 124vfzbmzw5
+Make animations faster
+@@ 1i073mc0vnx
+Add more animations
+@@ 2amcczqcv4a
+Only animate colours
+@@ 190un85t4is
+Custom properties
+@@ 9p8jihxvyh
+Variables in CSS
+@@ 11rpgvo0jf8
+```
+:root {
+  --royal: #3b2a8f;
+  --radius: 12px;
+}
+.button {
+  background: var(--royal);
+  border-radius: var(--radius);
+}
+```
+Change the variable once and every use updates. Great for themes like dark mode.
+@@ 1vv4t1acw48
+Use the --gold variable
+@@ jjzpabjc6p
+Where are global custom properties usually defined?
+@@ 29fjb1mj30
+Custom property names start with two dashes.
+@@ 2fu5qj2d9g5
+What is a big advantage of custom properties?
+@@ 1dcqzwnw3ex
+Change a value in one place and everything updates
+@@ 1r72bgntbwc
+They make CSS files smaller than 1KB
+@@ pgpb8guaod
+They replace HTML
+@@ 23cr23ntgve
+They only work in one browser
+@@ 1sro0zjsmb6
+Challenge: Hover Enchantments
+@@ 1wauio0w0js
+Challenge: The Royal Colour
+@@ 25m15b98gsg
+Positioning and Layers
+@@ 1t6c5161m97
+Relative, absolute, fixed, sticky and z-index.
+@@ 1gjexsv93lz
+
+**Key ideas**
+- `position: static` is the default.
+- `relative`: moves from its normal place with `top/left`; also becomes the anchor for absolute children.
+- `absolute`: removed from the flow, placed relative to the nearest positioned ancestor.
+- `fixed`: stuck to the screen (stays when scrolling). `sticky`: normal until it reaches an edge, then sticks.
+- `z-index` controls which positioned element is on top (bigger = closer to you).
+@@ cxiekrmbfr
+Relative and absolute
+@@ 27au6vxgmd8
+Placing things exactly
+@@ 2c0qket9f8q
+```
+.card { position: relative; }
+.badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;   /* top-right corner of .card */
+}
+```
+`absolute` elements are placed relative to the nearest ancestor that has a `position` other than `static`.
+@@ 1ulvghk3j84
+A badge should sit in the top-right corner of a card. What does the card need?
+@@ njxvhny9z2
+position: relative
+@@ 1exj1p0p6si
+position: fixed
+@@ 7mwc8ty443
+z-index: -1
+@@ 120egfell09
+An `absolute` element still takes up space in the normal flow.
+@@ hnnokbz54d
+It is removed from the flow; other elements act as if it is not there.
+@@ tyez69ejyq
+`position: relative; top: 10px;` does what?
+@@ 10etvevceqz
+Moves the element 10px down from its normal place
+@@ 3mn06e35aw
+Moves it to the top of the page
+@@ owjkn2ycd
+Sticks it to the screen
+@@ 2109u9fst05
+Nothing
+@@ 21uhyz7o81p
+Put the badge 8px from the top and right of its card
+@@ e69okwzs8h
+Fixed, sticky and layers
+@@ 1uolxodn70w
+Stay on screen
+@@ 1hgsun8c1p5
+- `fixed`: always at the same place on the screen, even when scrolling (chat buttons, cookie banners)
+- `sticky` with `top: 0`: scrolls normally, then sticks at the top (table headers, nav bars)
+- `z-index`: which positioned element is on top (higher = in front)
+@@ 23k3w7ahrmq
+Match the position with its use
+@@ cpr3hm6m8l
+Chat button in the corner
+@@ bavxdofx33
+Header that sticks when you scroll
+@@ dq2u3wy5sz
+Badge on a card
+@@ cbkqfzrqam
+The default
+@@ 2bg55x61z82
+Which box is in front?
+@@ fuczol7rmk
+Whichever comes first in HTML
+@@ 16hnxwyoibl
+`z-index` only works on elements that are positioned (or flex/grid children).
+@@ 22su51z5dta
+A sticky header also needs...
+@@ 14gap88ehgl
+top: 0 (where to stick)
+@@ 5v5aaeovjj
+display: inline
+@@ 1ajtbapb4i7
+position: static
+@@ 5qcvjhtnx
+Responsive Design
+@@ avs7zk1bqb
+Pages that look great on phones, tablets and desktops.
+@@ okda7ep1w9
+
+**Key ideas**
+- Always include `<meta name="viewport" content="width=device-width, initial-scale=1">`.
+- Media queries: `@media (max-width: 600px) { ... }` applies styles on small screens.
+- **Mobile-first**: write base styles for phones, then add `@media (min-width: 768px)` for bigger screens.
+- Fluid sizes: `%`, `vw`, `max-width: 100%` on images, `clamp(1rem, 4vw, 2rem)`.
+- Test with the DevTools device toolbar.
+@@ xiym41nqic
+Media queries
+@@ 9ry5fvd8q4
+CSS that adapts
+@@ 22u2is9jst9
+```
+.rooms { grid-template-columns: repeat(3, 1fr); }
+
+@media (max-width: 600px) {
+  .rooms { grid-template-columns: 1fr; }
+}
+```
+Inside the media query, rules only apply when the screen is **600px wide or less**.
+@@ 1fuvoh9brdg
+`@media (max-width: 600px)` applies when the screen is...
+@@ zm71frpk3j
+600px wide or narrower
+@@ 1r7wini3zx4
+Wider than 600px
+@@ 7vx79a0e9d
+Exactly 600px
+@@ 1vmdon5sg0j
+Printed
+@@ zgmc6w1k0l
+`@media (min-width: 768px)` applies when the screen is...
+@@ 6fdbna52cy
+768px wide or wider
+@@ bdko5wj7rl
+Narrower than 768px
+@@ af6dcp3we3
+A phone
+@@ fmrk3moro3
+In portrait mode only
+@@ 13vdmiigdd3
+Mobile-first
+@@ 29tlsodxnb8
+Most visits come from phones. A common approach: write styles for **small screens first**, then add `min-width` media queries for bigger screens:
+
+```
+.grid { display: grid; grid-template-columns: 1fr; }
+@media (min-width: 768px) {
+  .grid { grid-template-columns: 1fr 1fr 1fr; }
+}
+```
+@@ vkjez1exlu
+In mobile-first CSS, the styles outside any media query are for small screens.
+@@ 252hcmxn481
+Switch to one column on screens 500px or narrower
+@@ 15asphbsc40
+Your page looks zoomed out on phones even with media queries. What is missing?
+@@ fars9w4nn0
+The viewport meta tag
+@@ t7u4ypjg4q
+A CSS reset
+@@ 1eva50snb64
+A bigger font
+@@ n5jftto6ok
+Fluid layouts
+@@ 29vdgayjom1
+Sizes that flow
+@@ az01azlfmo
+Match the unit
+@@ tf44dg8xq
+1% of the screen width
+@@ 2fza57qo63i
+1% of the screen height
+@@ 2g4jkqw6eq3
+Part of the parent
+@@ hqxz4vlowz
+Share of free grid space
+@@ 2g1djf9fl6g
+Which stops images from overflowing small screens?
+@@ 1q9vkget9oq
+What does clamp do here?
+@@ ukr7wjf8wj
+Grows with the screen, but stays between 1rem and 2rem
+@@ 24fydbld2zz
+Always 4vw
+@@ 207b489sin5
+Always 2rem
+@@ 9albqjcu36
+Picks a random size
+@@ 13jgnn8g9dt
+You can test many screen sizes with the DevTools device toolbar.
+@@ 14r811wadfi
+Challenge: Shapeshifting Screens
+@@ 2ckvrewcxwl
+Project: The Royal Heraldry

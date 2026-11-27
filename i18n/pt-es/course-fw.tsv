@@ -1,0 +1,489 @@
+15l6oszma4g ¦ O Salão da Guilda do Elefante ¦ El Salón del Gremio del Elefante
+2068y32ol3d ¦ PHP 8 no servidor: variáveis, arrays, funções, formulários, segurança, classes, bancos de dados com PDO, Composer e Laravel. ¦ PHP 8 en el servidor: variables, arrays, funciones, formularios, seguridad, clases, bases de datos con PDO, Composer y Laravel.
+7r9n99xjmn ¦ O Básico de PHP ¦ Lo Básico de PHP
+1z7pm1i3jyb ¦ echo, variáveis, strings e números. ¦ echo, variables, strings y números.
+18qlg38jhb ¦ O que é PHP? ¦ ¿Qué es PHP?
+151n5k68c15 ¦ O Salão da Guilda ¦ El Salón del Gremio
+203xpw9qvgn ¦ Onde o código PHP roda? ¦ ¿Dónde se ejecuta el código PHP?
+ykd8rm4lk9 ¦ No servidor web ¦ En el servidor web
+bytz60dq5j ¦ No navegador ¦ En el navegador
+16hdo73gs8j ¦ Na placa de vídeo ¦ En la tarjeta gráfica
+zurvq4ilkh ¦ Ligue ¦ Une
+188p3y4w5az ¦ Um CMS feito em PHP ¦ Un CMS hecho con PHP
+1ccy6uf5wwe ¦ Um framework de PHP ¦ Un framework de PHP
+a81a10w7ii ¦ Gerenciador de pacotes do PHP ¦ Gestor de paquetes de PHP
+igqct2da21 ¦ Imprime a saída ¦ Imprime la salida
+8244prx2f9 ¦ Em qual linha está faltando algo? ¦ ¿A qué línea le falta algo?
+1aog5320jfo ¦ Cada instrução termina com ponto e vírgula: `echo "Two";` ¦ Cada sentencia termina en punto y coma: `echo "Two";`
+ejzi6sy9d8 ¦ Variáveis e strings ¦ Variables y strings
+2bm3cl5vs47 ¦ Cifrões ¦ Signos de dólar
+rg86ozcvdy ¦ Aspas simples mantêm o texto exatamente como está. ¦ Las comillas simples dejan el texto exactamente como está.
+mmaxyr77je ¦ Crie uma variável ¦ Crea una variable
+4zupucbgw3 ¦ Como juntar duas strings em PHP? ¦ ¿Cómo unes dos strings en PHP?
+1e2gb155sd8 ¦ Com um ponto: $a . $b ¦ Con un punto: $a . $b
+11sespc6pro ¦ Com um mais: $a + $b ¦ Con un más: $a + $b
+28siok9fj5z ¦ Com && ¦ Con &&
+10vjremn7g3 ¦ Só com uma vírgula ¦ Solo con una coma
+24znp9ocovg ¦ Números e tipos ¦ Números y tipos
+mlo0qnyeyq ¦ Números ¦ Números
+bx4lnxjos3 ¦ Ligue o tipo ¦ Une cada tipo
+2dknrlc68xm ¦ Controle e Arrays ¦ Control y Arrays
+20ra65u6sc0 ¦ if, loops, arrays e funções. ¦ if, bucles, arrays y funciones.
+1v3rgyjtv18 ¦ Decisões ¦ Decisiones
+22ox47t5rk2 ¦ if, elseif, else ¦ if, elseif, else
+oke4lkx9uz ¦ Por que preferir `===` a `==`? ¦ ¿Por qué preferir `===` a `==`?
+svq1ouut6d ¦ Ele também confere o tipo ¦ También comprueba el tipo
+1twmezhxos1 ¦ É mais rápido de digitar ¦ Es más rápido de escribir
+2cdhl7w58y5 ¦ Só funciona com arrays ¦ Solo funciona con arrays
+27lge5tf1ik ¦ Não há diferença ¦ No hay diferencia
+9fs2jnjj8t ¦ Loops e arrays ¦ Bucles y arrays
+jyb9m6jk92 ¦ Listas de coisas ¦ Listas de cosas
+1y5iq1b1bh4 ¦ Percorra todos os itens ¦ Recorre todos los elementos
+9xuc713u82 ¦ Como adicionar "Dax" ao fim de `$heroes`? ¦ ¿Cómo añades "Dax" al final de `$heroes`?
+2a34nnnia6j ¦ Arrays associativos e funções ¦ Arrays asociativos y funciones
+29afkxijmg2 ¦ Chaves e funções ¦ Claves y funciones
+1dw7oazgd41 ¦ Quantos itens ¦ Cuántos elementos
+7m43dpr0c5 ¦ Soma todos os valores ¦ Suma todos los valores
+1c4s2s4wgaa ¦ Um valor está dentro? ¦ ¿Está un valor dentro?
+83cyck7aza ¦ Lista das chaves ¦ Lista de las claves
+1dgfzbaawcc ¦ PHP na Web ¦ PHP en la Web
+9wtikgk0xh ¦ Formulários, segurança, sessões e bancos de dados. ¦ Formularios, seguridad, sesiones y bases de datos.
+277ykg6rqzl ¦ Formulários e superglobais ¦ Formularios y superglobales
+18h9shmqj17 ¦ Lendo um formulário ¦ Leer un formulario
+1l6ybfj531c ¦ Valores da URL (?page=2) ¦ Valores de la URL (?page=2)
+7zs1sdrufw ¦ Valores enviados por um formulário ¦ Valores enviados por un formulario
+26knug2n1r4 ¦ Lembrado entre as páginas ¦ Se recuerda entre páginas
+282k5yskdlm ¦ Dados pequenos guardados no navegador ¦ Datos pequeños guardados en el navegador
+11qy0yrzxbd ¦ O que `$_GET["page"] ?? 1` dá quando não há page na URL? ¦ ¿Qué da `$_GET["page"] ?? 1` cuando no hay page en la URL?
+1lqpvbj6o9l ¦ Segurança em primeiro lugar ¦ La seguridad primero
+1q1nmgadabe ¦ Nunca confie na entrada ¦ Nunca confíes en la entrada
+1hxwuzs42l1 ¦ Qual linha é perigosa? ¦ ¿Qué línea es peligrosa?
+zlze2omhua ¦ Colocar a entrada do usuário direto no SQL permite SQL injection. Use `prepare()` com marcadores `?`. ¦ Meter la entrada del usuario directamente en el SQL permite inyección SQL. Usa `prepare()` con marcadores `?`.
+26jbrpslfwp ¦ Como as senhas devem ser guardadas? ¦ ¿Cómo deben guardarse las contraseñas?
+g9w6499exw ¦ Com password_hash() ¦ Con password_hash()
+5j58htoce8 ¦ Em texto puro ¦ En texto plano
+136a1y7s04w ¦ Com md5() ¦ Con md5()
+1ybllwebyhm ¦ Num cookie ¦ En una cookie
+te90cpx57z ¦ O `md5` é rápido demais de quebrar. O `password_hash` usa um algoritmo lento e com sal (bcrypt ou argon2). ¦ `md5` es demasiado rápido de romper. `password_hash` usa un algoritmo lento y con sal (bcrypt o argon2).
+1815hvtd7ku ¦ Prepared statements protegem contra SQL injection. ¦ Las sentencias preparadas protegen contra la inyección SQL.
+gbca2xnan5 ¦ PHP Moderno ¦ PHP Moderno
+tt4av7n04j ¦ Classes, Composer, Laravel e um projeto. ¦ Clases, Composer, Laravel y un proyecto.
+kyumyxv71p ¦ Classes e objetos ¦ Clases y objetos
+11ij1iyycqt ¦ Objetos em PHP ¦ Objetos en PHP
+1fgd072l94q ¦ Chame um método ¦ Llama a un método
+1bn1y17sxst ¦ Qualquer um pode usar ¦ Cualquiera puede usarlo
+27a9k053gdz ¦ Só dentro da classe ¦ Solo dentro de la clase
+6oset8txm8 ¦ O objeto atual ¦ El objeto actual
+2afduy2ylik ¦ Cria um objeto ¦ Crea un objeto
+6i3nbpagvx ¦ Composer e Laravel ¦ Composer y Laravel
+1wiacngnujq ¦ A caixa de ferramentas moderna ¦ La caja de herramientas moderna
+f47tzol2la ¦ Ligue a peça do Laravel ¦ Une cada pieza de Laravel
+21y338fq4ci ¦ Rota ¦ Ruta
+179rolyycki ¦ Liga uma URL ao código ¦ Asocia una URL con código
+1r61y40sjry ¦ Controller ¦ Controlador
+27nn6d4tqgj ¦ Trata a requisição ¦ Atiende la petición
+kbas5fto1m ¦ Conversa com o banco de dados ¦ Habla con la base de datos
+ac1ljnrrpu ¦ Templates HTML ¦ Plantillas HTML
+21e5t81ti0j ¦ Comece um projeto Laravel ¦ Empieza un proyecto Laravel
+kqwnbjt34m ¦ Onde o Composer coloca os pacotes baixados? ¦ ¿Dónde pone Composer los paquetes descargados?
+1pab64jl6b3 ¦ Tailwind CSS ¦ Tailwind CSS
+1nfvdu49rhe ¦ O Bairro dos Alfaiates ¦ El Barrio de los Sastres
+gsufxq3d8c ¦ Estilize rápido com classes utilitárias: cores, espaçamento, flex, grid, estados e design responsivo. ¦ Da estilo rápido con clases de utilidad: colores, espaciado, flex, grid, estados y diseño responsive.
+1t9lu0nhrts ¦ O Básico dos Utilitários ¦ Lo Básico de las Utilidades
+2bn2cdcrbfs ¦ Cores, espaçamento, texto e layout com classes. ¦ Colores, espaciado, texto y distribución con clases.
+1mfypnjzg35 ¦ Pensando em utilitários ¦ Pensar en utilidades
+tx4jjbgq93 ¦ Classes em vez de regras ¦ Clases en lugar de reglas
+14lywtmeuon ¦ Ligue a classe ao seu CSS ¦ Une cada clase con su CSS
+1kriz9k97p8 ¦ padding: 16px ¦ padding: 16px
+2gko93vej4i ¦ cantos totalmente arredondados ¦ esquinas totalmente redondeadas
+1a67b28hocc ¦ O que `mt-2` faz? ¦ ¿Qué hace `mt-2`?
+1au101ai8io ¦ Adiciona 8px de margem em cima ¦ Añade 8px de margen arriba
+1b1ok27ym3j ¦ Adiciona 2px de margem em todos os lados ¦ Añade 2px de margen por todos lados
+2ank3nw3382 ¦ Deixa o texto 2× maior ¦ Hace el texto 2× más grande
+vrnya7cu4u ¦ Move o elemento 2 colunas ¦ Mueve el elemento 2 columnas
+ondwuehl2m ¦ Qual é um tom mais escuro? ¦ ¿Cuál es un tono más oscuro?
+mdnh7wrqun ¦ Fundo âmbar claro com texto vermelho-escuro ¦ Fondo ámbar claro con texto rojo oscuro
+pukcvt9fwb ¦ O Tailwind só envia o CSS das classes que você realmente usa. ¦ Tailwind solo incluye el CSS de las clases que realmente usas.
+k1wenzkw93 ¦ Desafio: Fios de Cor ¦ Desafío: Hilos de Color
+s12tqmv5ln ¦ Desafio: Tamanhos e Espaços ¦ Desafío: Tamaños y Espacios
+igodp1fy5 ¦ Utilitários de layout ¦ Utilidades de distribución
+2dpb56a8rxo ¦ Flex e grid como classes ¦ Flex y grid como clases
+v29nck09jx ¦ Ligue a classe ¦ Une cada clase
+1j9tlurxsa3 ¦ três colunas iguais ¦ tres columnas iguales
+1mz6449iajn ¦ O que centraliza um bloco com largura máxima? ¦ ¿Qué centra un bloque con ancho máximo?
+17gga4hw12u ¦ Uma coluna de itens com espaços de 16px ¦ Una columna de elementos con huecos de 16px
+74swgggmuh ¦ Desafio: Linhas Flex num Estalo ¦ Desafío: Filas Flex en un Momento
+w86zh0p35y ¦ Desafio: O Bairro em Grade ¦ Desafío: El Barrio en Cuadrícula
+1krjckzhrvr ¦ Estados, Telas e Projetos ¦ Estados, Pantallas y Proyectos
+qw9ok14roo ¦ hover:, md:, dark: e o Tailwind em projetos reais. ¦ hover:, md:, dark: y Tailwind en proyectos reales.
+1jk2diqvizf ¦ Variantes ¦ Variantes
+voetxmeda5 ¦ Estados e telas ¦ Estados y pantallas
+1qmn6s2h1dr ¦ `md:grid-cols-3` se aplica quando a tela tem... ¦ `md:grid-cols-3` se aplica cuando la pantalla mide...
+1ljhiezzn9d ¦ 768px de largura ou mais ¦ 768px de ancho o más
+1lzdck01qan ¦ Menos de 768px ¦ Menos de 768px
+trtakkxl87 ¦ Exatamente 768px ¦ Exactamente 768px
+1y208bhd8q0 ¦ Só um tablet em pé ¦ Solo una tableta en vertical
+asp9gncgea ¦ Qual classe escurece o fundo só no hover? ¦ ¿Qué clase oscurece el fondo solo al pasar el ratón?
+14t2jo8cpt0 ¦ No Tailwind, classes sem prefixo valem para todos os tamanhos de tela. ¦ En Tailwind, las clases sin prefijo se aplican a todos los tamaños de pantalla.
+1tu5jjf6zab ¦ Ligue a variante ¦ Une cada variante
+20y5frpifa0 ¦ Mouse em cima ¦ Ratón encima
+qe22d2z3wj ¦ Modo escuro ¦ Modo oscuro
+16q6zfbkl83 ¦ 1024px ou mais ¦ 1024px o más
+l7kkptaeh3 ¦ Desafio: Encantos de Hover ¦ Desafío: Encantamientos Hover
+1az8nx7ytct ¦ Desafio: Mantos para Todos os Tamanhos ¦ Desafío: Túnicas para Todas las Tallas
+1sobicwjxuv ¦ Tailwind em projetos reais ¦ Tailwind en proyectos reales
+1v0haz9j4v4 ¦ Mantendo tudo organizado ¦ Mantenerlo ordenado
+o39zk3mevj ¦ As mesmas 12 classes aparecem em 30 botões. Melhor solução? ¦ Las mismas 12 clases aparecen en 30 botones. ¿La mejor solución?
+1lan3o7po1j ¦ Criar um componente Button e reutilizá-lo ¦ Crear un componente Button y reutilizarlo
+15uir3msxnk ¦ Copiá-las em todo lugar ¦ Copiarlas por todas partes
+1m7vaevgwh5 ¦ Trocar por estilos inline ¦ Cambiar a estilos en línea
+1vz0h6uqtyo ¦ Usar !important ¦ Usar !important
+17fjoc47ayp ¦ Você ainda pode escrever CSS normal num projeto com Tailwind quando precisar. ¦ Todavía puedes escribir CSS normal en un proyecto con Tailwind cuando lo necesites.
+24hie9trf6v ¦ Qual é a maior desvantagem do Tailwind? ¦ ¿Cuál es el mayor inconveniente de Tailwind?
+1v7o2mn1478 ¦ Listas longas de classes na marcação ¦ Listas largas de clases en el marcado
+1qppgiz22la ¦ Ele não consegue fazer design responsivo ¦ No sirve para diseño responsive
+deigc9r1ei ¦ Só funciona com React ¦ Solo funciona con React
+1hob217umt4 ¦ Deixa as páginas lentas ¦ Hace lentas las páginas
+iwvoswby2h ¦ Projeto: O Cartão da Guilda ¦ Proyecto: La Tarjeta del Gremio
+dg16das2cd ¦ O Vale Esmeralda ¦ El Valle Esmeralda
+eejj63j2yy ¦ Componentes de arquivo único, reatividade, diretivas, props e emits, e o ecossistema Vue (Router, Pinia, Nuxt). ¦ Componentes de un solo archivo, reactividad, directivas, props y emits, y el ecosistema de Vue (Router, Pinia, Nuxt).
+mwfd8xcvcy ¦ O Básico de Vue ¦ Lo Básico de Vue
+k6jajewbog ¦ Componentes de arquivo único e refs reativos. ¦ Componentes de un solo archivo y refs reactivos.
+1fh3jakg389 ¦ Componentes de arquivo único ¦ Componentes de un solo archivo
+1wjc8860wtr ¦ Três partes, um arquivo ¦ Tres partes, un archivo
+rqutl20qk2 ¦ Ligue o bloco à sua função ¦ Une cada bloque con su función
+15w9i5crkt2 ¦ O HTML ¦ El HTML
+1au2duk0nfd ¦ A lógica ¦ La lógica
+12c9qm6mtma ¦ CSS só para este componente ¦ CSS solo para este componente
+1pdtug5gtgo ¦ Mostre o nome no template ¦ Muestra el nombre en la plantilla
+1j3rpn35s9n ¦ Estilos scoped podem mudar outros componentes sem querer. ¦ Los estilos scoped pueden cambiar otros componentes sin querer.
+1op2s88w0ro ¦ Reatividade com ref ¦ Reactividad con ref
+2bxvs0zdkhc ¦ Estado reativo ¦ Estado reactivo
+16w2dbs8g2i ¦ Qual linha não atualiza a contagem? ¦ ¿Qué línea no actualiza la cuenta?
+rgqo0gqwpd ¦ No script, um ref é mudado por meio de `.value`: `count.value++`. ¦ En el script, un ref se cambia con `.value`: `count.value++`.
+2890clpev3c ¦ No template, como mostrar um ref chamado `gold`? ¦ En la plantilla, ¿cómo muestras un ref llamado `gold`?
+q1x064ui6l ¦ `@click` é um atalho para... ¦ `@click` es la forma corta de...
+23bbqizlj3a ¦ Desafio: Seu Primeiro Feitiço de Vue ¦ Desafío: Tu Primer Hechizo de Vue
+1knrwitf5x2 ¦ Desafio: O Caldeirão de Poções ¦ Desafío: El Caldero de Pociones
+ybznroc5ar ¦ Diretivas e Computed ¦ Directivas y Computed
+1upnp09g0k3 ¦ v-if, v-for, v-bind, v-model, computed e watch. ¦ v-if, v-for, v-bind, v-model, computed y watch.
+228370gke53 ¦ Diretivas ¦ Directivas
+erhmwwi1x9 ¦ Atributos especiais ¦ Atributos especiales
+1qg8emiu5ll ¦ Ligue a diretiva ¦ Une cada directiva
+17agcd0k5g ¦ Renderizar só quando verdadeiro ¦ Mostrar solo cuando es verdadero
+14hm439bdi2 ¦ Repetir para cada item ¦ Repetir para cada elemento
+13ei0k3b3j1 ¦ Ligar um atributo ¦ Vincular un atributo
+1ng0e79q4oh ¦ Escutar um evento ¦ Escuchar un evento
+1z7zxigvojn ¦ Repita um li por cavaleiro ¦ Repite un li por cada caballero
+2a5otm85bqh ¦ O `v-show` é diferente do `v-if` porque ele... ¦ `v-show` se diferencia de `v-if` en que...
+21ihw3tv4sw ¦ Mantém o elemento na página e alterna o display ¦ Mantiene el elemento en la página y alterna su display
+1dvawzyhyob ¦ Remove o elemento completamente ¦ Quita el elemento por completo
+81gpqpjuf ¦ Só funciona com listas ¦ Solo funciona con listas
+1pks2pk1b8c ¦ Roda JavaScript ¦ Ejecuta JavaScript
+nl7220d9rf ¦ v-model e computed ¦ v-model y computed
+256zmptz5t0 ¦ Nos dois sentidos e derivado ¦ En ambos sentidos y derivado
+237b4ssnhbt ¦ O que o `v-model` faz num input? ¦ ¿Qué hace `v-model` en un input?
+1esnonyos3t ¦ Mantém o input e o ref sincronizados nos dois sentidos ¦ Mantiene sincronizados el input y el ref en ambos sentidos
+24es3egdb71 ¦ Estiliza o input ¦ Da estilo al input
+ft2apcxrqd ¦ Deixa o input só de leitura ¦ Hace el input de solo lectura
+2fx5ioalh1g ¦ Por que usar `computed` em vez de um método para valores derivados? ¦ ¿Por qué usar `computed` en lugar de un método para valores derivados?
+1gykuz9l5wh ¦ Ele fica em cache e só recalcula quando suas dependências mudam ¦ Se guarda en caché y solo se recalcula cuando cambian sus dependencias
+o9kh7tsfh8 ¦ Métodos não podem retornar valores ¦ Los métodos no pueden devolver valores
+1c5nardolnw ¦ computed roda no servidor ¦ computed se ejecuta en el servidor
+1gd9jua5esd ¦ É obrigatório para o v-model ¦ Es obligatorio para v-model
+1loxmb0tw63 ¦ O `watch` é a ferramenta certa para efeitos colaterais como salvar no localStorage quando os dados mudam. ¦ `watch` es la herramienta adecuada para efectos secundarios como guardar en localStorage cuando cambian los datos.
+8shwpw8ee5 ¦ Desafio: Dragões do Vale ¦ Desafío: Dragones del Valle
+1aqpwsrpmwi ¦ Desafio: A Pedra do Eco ¦ Desafío: La Piedra del Eco
+1rmlvqtdtzu ¦ Componentes ¦ Componentes
+hxamw3t98n ¦ Props para baixo, eventos para cima, slots e ciclo de vida. ¦ Props hacia abajo, eventos hacia arriba, slots y ciclo de vida.
+9ex0nl5sty ¦ Props e emits ¦ Props y emits
+nh7pe11rmy ¦ Conversando entre componentes ¦ Hablar entre componentes
+10znb6slav8 ¦ Como um filho manda uma mensagem ao pai no Vue? ¦ ¿Cómo le envía un hijo un mensaje a su padre en Vue?
+rb0ne7z1pi ¦ Emite um evento ¦ Emite un evento
+1ycwq9704qr ¦ Muda as próprias props ¦ Cambia sus props
+z5spqxhslb ¦ Edita o pai diretamente ¦ Edita al padre directamente
+b90fs99f4v ¦ Só com v-model ¦ Solo con v-model
+25to3fi2yhy ¦ Por que `:price="20"` e não `price="20"`? ¦ ¿Por qué `:price="20"` y no `price="20"`?
+26kgofz1p10 ¦ :price passa o número 20; price="20" passa a string "20" ¦ :price pasa el número 20; price="20" pasa el string "20"
+hw5imvau0x ¦ São idênticos ¦ Son idénticos
+wclpnj2onk ¦ Os dois-pontos são obrigatórios em todas as props ¦ Los dos puntos son obligatorios en todas las props
+222ahatg3a8 ¦ Para ficar reativo ¦ Para que sea reactivo
+tcq7umtjqm ¦ Declare as props ¦ Declara las props
+1ztqwal1xza ¦ Slots e ciclo de vida ¦ Slots y ciclo de vida
+gcg0lw445o ¦ Conteúdo e momento certo ¦ Contenido y momento
+15jxq3ggoix ¦ Para que serve um slot? ¦ ¿Para qué sirve un slot?
+1wbh1moob3b ¦ Deixar o pai colocar conteúdo dentro do filho ¦ Dejar que el padre meta contenido dentro del hijo
+62o9s61541 ¦ Guardar estado ¦ Guardar estado
+1268uezrc43 ¦ Estilizar ¦ Dar estilo
+pqagbxhcaz ¦ Onde é um bom lugar para buscar os dados iniciais? ¦ ¿Dónde es un buen sitio para obtener los datos iniciales?
+15t1e5t6gvh ¦ O bloco <style> ¦ El bloque <style>
+hw9c2n0zr2 ¦ Dentro do v-for ¦ Dentro del v-for
+1c1r4nzts2q ¦ Um computed ¦ Un computed
+1s5rih9qy6j ¦ Desafio: Poções na Prateleira ¦ Desafío: Pociones en la Estantería
+12vzcj1k5ao ¦ Desafio: O Livro do Mercador ¦ Desafío: El Libro del Mercader
+daxaj4ze8o ¦ O Ecossistema Vue ¦ El Ecosistema de Vue
+1ucytc34j7f ¦ Vue Router, Pinia e Nuxt. ¦ Vue Router, Pinia y Nuxt.
+1gfkyjol0t7 ¦ Router, Pinia e Nuxt ¦ Router, Pinia y Nuxt
+2atwdor3ff6 ¦ Apps que crescem ¦ Apps que crecen
+efj9ihinm9 ¦ Páginas e URLs ¦ Páginas y URLs
+2ez4jdy62tj ¦ Armazém de estado compartilhado ¦ Almacén de estado compartido
+1jswgab4888 ¦ Framework completo de Vue ¦ Framework completo de Vue
+27cg4yp2esv ¦ Servidor de desenvolvimento e build ¦ Servidor de desarrollo y build
+crid6oxyyk ¦ Vários componentes distantes precisam do carrinho de compras. Qual ferramenta serve? ¦ Varios componentes lejanos necesitan el carrito de la compra. ¿Qué herramienta encaja?
+yrjxsqhewj ¦ Um estilo scoped ¦ Un estilo scoped
+1s23m9zudkc ¦ Um slot ¦ Un slot
+1jozrnat4i6 ¦ O Nuxt está para o Vue como o Next.js está para o React. ¦ Nuxt es a Vue lo que Next.js es a React.
+18k0a92dsy8 ¦ Projeto: A Loja de Poções ¦ Proyecto: La Tienda de Pociones
+1tlp19ni10e ¦ Svelte ¦ Svelte
+1r9eeuik9gg ¦ As Cataratas das Brasas ¦ Las Cascadas de Brasas
+ej37szhhti ¦ O framework compilador: runes ($state, $derived, $props, $effect), blocos, bindings e SvelteKit. ¦ El framework compilador: runas ($state, $derived, $props, $effect), bloques, bindings y SvelteKit.
+269pp92euhr ¦ O Básico de Svelte ¦ Lo Básico de Svelte
+1pmcnx6oivu ¦ Componentes, {expressions} e $state. ¦ Componentes, {expressions} y $state.
+1ee7qbwqkdd ¦ O que torna o Svelte diferente ¦ Qué hace diferente a Svelte
+25253xhzohp ¦ Um compilador, não uma biblioteca ¦ Un compilador, no una librería
+5ekx46wx1l ¦ O que o Svelte tem de especial? ¦ ¿Qué tiene de especial Svelte?
+26ljpqkdyay ¦ Ele compila os componentes em JavaScript pequeno na hora do build ¦ Compila los componentes en JavaScript pequeño al hacer el build
+iv6hnzccy9 ¦ Ele não tem componentes ¦ No tiene componentes
+s58qjdkx18 ¦ Só funciona em servidores ¦ Solo funciona en servidores
+167f7ocwn4r ¦ Substitui o HTML ¦ Sustituye al HTML
+8t66aamaqe ¦ Mostre o nome ¦ Muestra el nombre
+i0ot9yh6nh ¦ Os estilos num componente Svelte ficam restritos a ele por padrão. ¦ Los estilos de un componente Svelte se limitan a ese componente por defecto.
+skzuyo948x ¦ Runes e estado ¦ Runas y estado
+szkrr6irfb ¦ Como criar estado reativo no Svelte 5? ¦ ¿Cómo se crea estado reactivo en Svelte 5?
+qlu3beszab ¦ Qual linha usa a sintaxe antiga de eventos do Svelte 4? ¦ ¿Qué línea usa la sintaxis antigua de eventos de Svelte 4?
+2caeb5pubgc ¦ No Svelte 5, eventos são atributos normais: `onclick={...}`. ¦ En Svelte 5, los eventos son atributos normales: `onclick={...}`.
+22c5cjt9z6d ¦ Ligue o framework ao seu estado ¦ Une cada framework con su estado
+1mikfsbzrmg ¦ Desafio: Primeira Chama ¦ Desafío: Primera Llama
+15ztcfdh5r6 ¦ Desafio: Brasas Vivas ¦ Desafío: Brasas Vivas
+23r1ekirows ¦ Valores Derivados, Blocos e Bindings ¦ Valores Derivados, Bloques y Bindings
+1tjlqlh8wpy ¦ $derived, {#each}, {#if} e bind:. ¦ $derived, {#each}, {#if} y bind:.
+1v532l16yse ¦ $derived e blocos ¦ $derived y bloques
+yeuhwe0cxb ¦ Derivar, repetir, decidir ¦ Derivar, repetir, decidir
+2ae73klyjyv ¦ Mantenha "double" sincronizado com count ¦ Mantén "double" sincronizado con count
+29a0yo98lgt ¦ Percorra os pedidos ¦ Recorre los pedidos
+rbijd91sqz ¦ `(torch.id)` num bloco each é... ¦ `(torch.id)` en un bloque each es...
+rvrqsgh6rp ¦ A chave de cada item ¦ La clave de cada elemento
+1sze7hqmtyl ¦ Uma chamada de função ¦ Una llamada a una función
+186g7c6cpzk ¦ Um filtro ¦ Un filtro
+1b6s4smaz46 ¦ Bindings e efeitos ¦ Bindings y efectos
+riwidwb56c ¦ Ligação nos dois sentidos ¦ Vinculación en ambos sentidos
+12p4mee53i9 ¦ O que o `bind:value` faz? ¦ ¿Qué hace `bind:value`?
+ccoub8prnv ¦ Mantém o input e a variável sincronizados nos dois sentidos ¦ Mantiene sincronizados el input y la variable en ambos sentidos
+2eul8gcuo57 ¦ Valida o input ¦ Valida el input
+o3zoyc13az ¦ Limpa o input ¦ Vacía el input
+2a5gs0obnw1 ¦ Liga o CSS ¦ Vincula el CSS
+9eixkvkbe0 ¦ Ligue a rune ¦ Une cada runa
+1zhb5cuet9m ¦ Valor reativo ¦ Valor reactivo
+1sltr4rn92j ¦ Valor calculado a partir de outros ¦ Valor calculado a partir de otros
+13rncteaued ¦ Efeito colateral quando as coisas mudam ¦ Efecto secundario cuando algo cambia
+1ko03r36ivk ¦ Entradas do componente ¦ Entradas del componente
+1kgnln3camp ¦ O `$effect` é um bom lugar para calcular um valor que você mostra na marcação. ¦ `$effect` es un buen sitio para calcular un valor que muestras en el marcado.
+1y5c9l8m4ga ¦ Use `$derived` para valores. O `$effect` é para efeitos colaterais como salvar ou registrar logs. ¦ Usa `$derived` para los valores. `$effect` es para efectos secundarios como guardar o registrar.
+1zmpxmumuzp ¦ Desafio: Reflexos nas Cataratas ¦ Desafío: Reflejos en las Cascadas
+mmao9krluu ¦ Desafio: O Muro das Tochas ¦ Desafío: El Muro de las Antorchas
+273b4a61rbq ¦ Desafio: O Pergaminho Ligado ¦ Desafío: El Pergamino Vinculado
+1wddtej2524 ¦ Componentes e SvelteKit ¦ Componentes y SvelteKit
+4tr4l9hhv0 ¦ $props, props de callback e o framework SvelteKit. ¦ $props, props de callback y el framework SvelteKit.
+k7t0c5btys ¦ Props e callbacks ¦ Props y callbacks
+261ne2mcu9i ¦ Passando a tocha ¦ Pasar la antorcha
+1zpxsjxsj48 ¦ Leia as props com um valor padrão ¦ Lee las props con un valor por defecto
+ivlz0pbmzk ¦ Como um filho avisa o pai de que algo aconteceu no Svelte 5? ¦ ¿Cómo le avisa un hijo a su padre de que algo pasó en Svelte 5?
+usrb726kwc ¦ Chamando uma função passada como prop ¦ Llamando a una función pasada como prop
+2ky3h0gvdb ¦ Só com createEventDispatcher ¦ Solo con createEventDispatcher
+68kj6t8bua ¦ `<OrderItem {order} />` é um atalho para... ¦ `<OrderItem {order} />` es la forma corta de...
+1idc1ldrc35 ¦ O kit completo ¦ El kit completo
+r620rw7rni ¦ Qual arquivo cria a página em `/shop`? ¦ ¿Qué archivo crea la página en `/shop`?
+10vjih07qyn ¦ Ligue o framework ¦ Une cada framework
+2cfr7ojvme3 ¦ Todo framework ensina as mesmas ideias centrais: componentes, props, estado e eventos. ¦ Todos los frameworks enseñan las mismas ideas centrales: componentes, props, estado y eventos.
+4mharhjtie ¦ Desafio: Passando a Tocha ¦ Desafío: Pasar la Antorcha
+15mf71wqxun ¦ Projeto: A Fila da Forja ¦ Proyecto: La Cola de la Forja
+290a2w6bzew ¦ React ¦ React
+24m5wpal26n ¦ O Círculo dos Invocadores ¦ El Círculo de los Invocadores
+27hbr9npmrg ¦ Monte interfaces a partir de componentes: JSX, props, estado, eventos, formulários, efeitos, busca de dados e o ecossistema React. ¦ Construye interfaces a partir de componentes: JSX, props, estado, eventos, formularios, efectos, obtención de datos y el ecosistema de React.
+gqfgqlpnbn ¦ Componentes e JSX ¦ Componentes y JSX
+1cemv29tzb3 ¦ Funções que retornam interface. ¦ Funciones que devuelven interfaz.
+xv1a0dvemi ¦ O que é React? ¦ ¿Qué es React?
+1ubm7twzyii ¦ Invocando interfaces ¦ Invocar interfaces
+27cvm0tq7o ¦ O que é um componente React? ¦ ¿Qué es un componente de React?
+1dal7bouczc ¦ Uma função que retorna interface (JSX) ¦ Una función que devuelve interfaz (JSX)
+16v1fzie5kr ¦ Um arquivo CSS ¦ Un archivo CSS
+1vhq70gjbfz ¦ Uma tabela de banco de dados ¦ Una tabla de base de datos
+6xlnon8jk7 ¦ Um atributo HTML ¦ Un atributo HTML
+cgj077uaj ¦ Qual nome de componente é válido? ¦ ¿Qué nombre de componente es válido?
+22ipiyx4zpb ¦ Componentes precisam começar com letra maiúscula, senão o React os trata como tags HTML. ¦ Los componentes deben empezar por mayúscula, o React los trata como etiquetas HTML.
+zybaxulfhw ¦ O React atualiza só as partes da página que mudaram. ¦ React actualiza solo las partes de la página que cambiaron.
+bq9sko9wp1 ¦ Componente ¦ Componente
+1qvno6eu4de ¦ Pedaço reutilizável de interface ¦ Trozo reutilizable de interfaz
+1bfiz0oi1ov ¦ Sintaxe parecida com HTML dentro do JS ¦ Sintaxis parecida a HTML dentro de JS
+r1zxzccwj2 ¦ Renderizar ¦ Renderizar
+f1zzxcutq4 ¦ Transformar componentes em interface ¦ Convertir componentes en interfaz
+9ejrtfdspm ¦ Props ¦ Props
+1ovhc46w673 ¦ Entradas de um componente ¦ Entradas de un componente
+14eg1hzodzb ¦ Regras do JSX ¦ Reglas de JSX
+1d6ny4086g3 ¦ HTML com superpoderes ¦ HTML con superpoderes
+7tolggmhly ¦ Qual linha está errada em JSX? ¦ ¿Qué línea está mal en JSX?
+1twc2h56l29 ¦ No JSX use `className` (class é uma palavra reservada do JavaScript). ¦ En JSX usa `className` (class es una palabra reservada de JavaScript).
+b8r02z1i6t ¦ Qual linha quebra o JSX? ¦ ¿Qué línea rompe el JSX?
+lxonlpf3q ¦ Um componente precisa retornar um único elemento pai. Envolva os dois em `<>...</>` ou numa `<div>`. ¦ Un componente debe devolver un único elemento padre. Envuelve los dos en `<>...</>` o en un `<div>`.
+ur8no1s8zl ¦ Mostre a quantidade de ouro ¦ Muestra la cantidad de oro
+17dsk5gnyq9 ¦ Qual é o JSX correto para uma imagem? ¦ ¿Cuál es el JSX correcto para una imagen?
+19ralmfuf54 ¦ Como escrever um estilo inline em JSX? ¦ ¿Cómo escribes un estilo en línea en JSX?
+2ggbav0hefg ¦ Desafio: Invoque Seu Primeiro Componente ¦ Desafío: Invoca tu Primer Componente
+a1syqb4pbn ¦ Desafio: Feitiços de JSX ¦ Desafío: Hechizos de JSX
+13sp1bp2ygs ¦ Props e Listas ¦ Props y Listas
+h4aq70hnki ¦ Passe dados para os componentes e renderize listas. ¦ Pasa datos a los componentes y muestra listas.
+11y3whq3qa4 ¦ Presentes para os componentes ¦ Regalos para los componentes
+1fg90q3ma2k ¦ Como passar o número 3 como prop? ¦ ¿Cómo pasas el número 3 como prop?
+i473vhdwbo ¦ `"3"` seria a string "3". ¦ `"3"` sería el string "3".
+rl2ro9snjd ¦ Um componente pode mudar as próprias props. ¦ Un componente puede cambiar sus propias props.
+1ah64v7n0xc ¦ Props são só de leitura. Dados que mudam ficam no estado. ¦ Las props son de solo lectura. Los datos que cambian viven en el estado.
+1n8ul28my8e ¦ O que isto renderiza? ¦ ¿Qué muestra esto?
+1gk57qjctiu ¦ Um span vazio ¦ Un span vacío
+ddpq6ik0uc ¦ Archmage sem span ¦ Archmage sin span
+he11qjujnr ¦ `children` é tudo o que você coloca entre as tags de abertura e fechamento. ¦ `children` es todo lo que pones entre la etiqueta de apertura y la de cierre.
+b9awhdhync ¦ Leia as props com desestruturação ¦ Lee las props con desestructuración
+5ujy0t74no ¦ Listas e chaves ¦ Listas y claves
+p176j59g7x ¦ Muitos itens ¦ Muchos elementos
+1pz7amolmn5 ¦ Qual chave é a melhor? ¦ ¿Qué clave es la mejor?
+ijwxlhzw99 ¦ Um id estável vindo dos dados: key={q.id} ¦ Un id estable de los datos: key={q.id}
+1uugtown6ps ¦ O índice: key={i} ¦ El índice: key={i}
+1ag0dfw17tt ¦ Nenhuma chave ¦ Ninguna clave
+21tad5hdfko ¦ Qual linha vai mostrar um aviso no console? ¦ ¿Qué línea mostrará un aviso en la consola?
+2cunvd78l4t ¦ Cada item da lista precisa de uma prop `key` única. ¦ Cada elemento de la lista necesita una prop `key` única.
+vducpbe7vr ¦ Renderize uma lista de nomes ¦ Muestra una lista de nombres
+1hh0qv370ri ¦ Como mostrar só as missões não concluídas? ¦ ¿Cómo muestras solo las misiones no hechas?
+xvujqikt8w ¦ Desafio: Props, Presentes para Componentes ¦ Desafío: Props, Regalos para Componentes
+1c2f3d6bxsp ¦ Desafio: Listas de Missões ¦ Desafío: Listas de Misiones
+ywcmf0g7to ¦ Estado e Eventos ¦ Estado y Eventos
+g6lvxql2qw ¦ Deixe os componentes interativos. ¦ Haz que los componentes sean interactivos.
+1tf8bn0c69y ¦ Memória para os componentes ¦ Memoria para los componentes
+1ft0c1zbt4g ¦ O que acontece quando você chama `setMana(5)`? ¦ ¿Qué pasa cuando llamas a `setMana(5)`?
+27h4m861d7g ¦ O React renderiza o componente de novo com mana = 5 ¦ React vuelve a renderizar el componente con mana = 5
+vi90oyp6o3 ¦ Nada muda na tela ¦ No cambia nada en pantalla
+24j2l8xd5pp ¦ A página recarrega ¦ La página se recarga
+dorkrwaba ¦ mana vira uma string ¦ mana se convierte en un string
+perhuprdod ¦ Qual linha não atualiza a tela? ¦ ¿Qué línea no actualiza la pantalla?
+1lhxvjvggjg ¦ Mudar a variável diretamente não avisa o React. Chame `setCount(count + 1)`. ¦ Cambiar la variable directamente no avisa a React. Llama a `setCount(count + 1)`.
+1y6ud96enuq ¦ Crie um estado para um nome, começando vazio ¦ Crea un estado para un nombre, que empiece vacío
+2askd07p8me ¦ Por que escrever `setCount((c) => c + 1)`? ¦ ¿Por qué escribir `setCount((c) => c + 1)`?
+2f5tv1jukhj ¦ Sempre usa o valor mais recente, mesmo com várias atualizações rápidas ¦ Siempre usa el valor más reciente, incluso con varias actualizaciones rápidas
+dsqp4nrcia ¦ É uma sintaxe obrigatória ¦ Es una sintaxis obligatoria
+125wvfi1wfw ¦ Pula a renderização ¦ Se salta el renderizado
+5mao1b5r6s ¦ Hooks como useState podem ser chamados dentro de um if. ¦ Los hooks como useState se pueden llamar dentro de un if.
+5idfltzomt ¦ Hooks precisam ser chamados no nível mais alto do componente, na mesma ordem em toda renderização. ¦ Los hooks deben llamarse en el nivel superior del componente, en el mismo orden en cada renderizado.
+1ree3sg61p4 ¦ Eventos e condições ¦ Eventos y condiciones
+1352emkiaea ¦ Clicar, mostrar, esconder ¦ Pulsar, mostrar, ocultar
+16zfsyleeqj ¦ Qual mostra o dragão só quando `isOpen` é verdadeiro? ¦ ¿Cuál muestra el dragón solo cuando `isOpen` es verdadero?
+vqbkj51lnu ¦ Qual linha mostra um "0" perdido na página quando a lista está vazia? ¦ ¿Qué línea muestra un "0" suelto en la página cuando la lista está vacía?
+11f77ecu2t5 ¦ `0 && ...` dá `0`, que o React renderiza. Use `messages.length > 0 && ...`. ¦ `0 && ...` da `0`, que React muestra. Usa `messages.length > 0 && ...`.
+to4qhk3im7 ¦ Qual linha chama a função cedo demais? ¦ ¿Qué línea llama a la función demasiado pronto?
+24yfswscjbp ¦ `ring()` roda durante a renderização. Passe a função: `onClick={ring}`. ¦ `ring()` se ejecuta durante el renderizado. Pasa la función: `onClick={ring}`.
+1rfspkhc8sg ¦ Ligue a prop de evento ¦ Une cada prop de evento
+jk6d5yfzk6 ¦ Botão apertado ¦ Botón pulsado
+9q72dd572u ¦ O valor do input mudou ¦ Cambió el valor del input
+u9k7ix4sbf ¦ Formulário enviado ¦ Formulario enviado
+20f21vjrt9n ¦ Tecla apertada ¦ Tecla pulsada
+1sqahtrs6k ¦ Desafio: Estado, o Poço de Mana ¦ Desafío: Estado, el Pozo de Maná
+22o9e3l40z8 ¦ Desafio: Encantos Condicionais ¦ Desafío: Encantamientos Condicionales
+1svkqh2uraw ¦ Formulários e Efeitos ¦ Formularios y Efectos
+zja7sfhhkm ¦ Inputs controlados, atualizações imutáveis e useEffect. ¦ Inputs controlados, actualizaciones inmutables y useEffect.
+twlf62kckq ¦ Inputs controlados e imutabilidade ¦ Inputs controlados e inmutabilidad
+29n4lgsdhig ¦ O React é dono do valor ¦ React es el dueño del valor
+2e6beeame1b ¦ Qual linha não consegue renderizar de novo? ¦ ¿Qué línea no provoca un nuevo renderizado?
+1kxac5akv8y ¦ `push` muda o mesmo array, então o React não vê um valor novo. Use `setList([...list, n])`. ¦ `push` cambia el mismo array, así que React no ve un valor nuevo. Usa `setList([...list, n])`.
+27bt2sh6u0o ¦ Como remover a missão com id 3? ¦ ¿Cómo quitas la misión con id 3?
+1rluua3mar2 ¦ Leia o que foi digitado ¦ Lee lo que se escribió
+2g824vtpir2 ¦ `{ ...hero, level: 4 }` cria um objeto novo e mantém o antigo sem mudanças. ¦ `{ ...hero, level: 4 }` crea un objeto nuevo y deja el antiguo sin cambios.
+12wwcaozjwm ¦ Efeitos colaterais ¦ Efectos secundarios
+11usg88q3uf ¦ Ligue o array de dependências ¦ Une cada array de dependencias
+228d2zngp3z ¦ Rodar uma vez depois da primeira renderização ¦ Ejecutar una vez tras el primer renderizado
+cxr7s6mada ¦ Rodar quando gold mudar ¦ Ejecutar cuando cambie gold
+15ltpl99usw ¦ sem array ¦ sin array
+1vmn9haq8ck ¦ Rodar depois de toda renderização ¦ Ejecutar tras cada renderizado
+b6z2d04kz8 ¦ Por que retornar uma função de um efeito? ¦ ¿Por qué devolver una función desde un efecto?
+1ybfwk2k8vk ¦ Para limpar (parar timers, cancelar inscrições) quando ele roda de novo ou o componente some ¦ Para limpiar (parar temporizadores, cancelar suscripciones) cuando se vuelve a ejecutar o el componente desaparece
+1qqz31cgvcy ¦ Para retornar JSX ¦ Para devolver JSX
+25ir4ok9hyp ¦ Para parar a renderização ¦ Para detener el renderizado
+1qu29rqcvnx ¦ É obrigatório ¦ Es obligatorio
+1rto3fasywp ¦ Qual linha causa um loop infinito de renderizações? ¦ ¿Qué línea causa un bucle infinito de renderizados?
+z5ll692aso ¦ Sem array de dependências o efeito roda depois de toda renderização, e definir o estado causa outra renderização: para sempre. ¦ Sin array de dependencias el efecto se ejecuta tras cada renderizado, y cambiar el estado provoca otro renderizado: para siempre.
+2bztfu1tpf7 ¦ Você deve usar useEffect para calcular valores que dá para calcular durante a renderização. ¦ Deberías usar useEffect para calcular valores que puedes calcular durante el renderizado.
+cmvarj2pm2 ¦ Basta calculá-los no corpo do componente: `const total = items.length;` ¦ Basta con calcularlos en el cuerpo del componente: `const total = items.length;`
+1ovcnn3mu5n ¦ Desafio: O Livro de Visitas ¦ Desafío: El Libro de Visitas
+12rjejqdnij ¦ Desafio: Efeitos Além do Círculo ¦ Desafío: Efectos Más Allá del Círculo
+894x8hlrku ¦ Dados e Arquitetura ¦ Datos y Arquitectura
+1wd1pas8jns ¦ Busque dados, compartilhe estado, hooks personalizados. ¦ Obtén datos, comparte estado, hooks personalizados.
+2847vqc8bqz ¦ Buscando dados ¦ Obtener datos
+n1iw7zsx94 ¦ Carregando do servidor ¦ Cargar desde el servidor
+a38on9wtbd ¦ Por que o array de dependências `[]` aqui? ¦ ¿Por qué el array de dependencias `[]` aquí?
+v3xxb63tre ¦ Para os dados serem buscados uma vez, não depois de toda renderização ¦ Para que los datos se obtengan una vez, no tras cada renderizado
+h88ujfya16 ¦ Para deixar o fetch mais rápido ¦ Para que fetch sea más rápido
+2bsn2snlyew ¦ Porque o fetch precisa de um array ¦ Porque fetch necesita un array
+muzxk62n1c ¦ Para guardar em cache para sempre ¦ Para guardarlo en caché para siempre
+10o60azhfmo ¦ Quais estados um componente que carrega dados deve tratar? ¦ ¿Qué estados debe manejar un componente que carga datos?
+yj4080open ¦ carregando, erro e os dados (mais o vazio) ¦ cargando, error y los datos (más el vacío)
+1s3e2ou57a3 ¦ Só os dados ¦ Solo los datos
+1c71yo9tizk ¦ Só os erros ¦ Solo los errores
+2dpgufsla3k ¦ Nenhum, o React resolve ¦ Ninguno, React se encarga
+29w4l1kmjdu ¦ Bibliotecas como o TanStack Query cuidam do cache e dos estados de carregamento para você. ¦ Librerías como TanStack Query se encargan de la caché y de los estados de carga por ti.
+z4cox46h77 ¦ Desafio: A Lista Real ¦ Desafío: La Lista Real
+cewpybotqv ¦ Compartilhando estado ¦ Compartir estado
+hgn71j7gpr ¦ Subindo o estado ¦ Subir el estado
+19zthffxryy ¦ Um formulário e uma lista precisam das missões. Onde o estado deve ficar? ¦ Un formulario y una lista necesitan las misiones. ¿Dónde debe vivir el estado?
+1dcs6jjab1u ¦ No pai comum deles ¦ En su padre común
+1jt5zzrvum3 ¦ Só no formulário ¦ Solo en el formulario
+1ywyvdxehq1 ¦ Numa variável global ¦ En una variable global
+mmdsg2za0l ¦ Nos dois, copiado ¦ En los dos, copiado
+1jsl40q3io1 ¦ Como um filho avisa o pai de que algo aconteceu? ¦ ¿Cómo avisa un hijo a su padre de que algo pasó?
+eszvgc2b6b ¦ Chamando uma prop de função como onAdd ¦ Llamando a una prop función como onAdd
+126j9mqfzj1 ¦ Mudando as próprias props ¦ Cambiando sus props
+29ov377n8m6 ¦ Editando o estado do pai diretamente ¦ Editando el estado del padre directamente
+27e4f0ibmkv ¦ Ele não consegue ¦ No puede
+a2l5li7o6o ¦ Ligue a ferramenta ¦ Une cada herramienta
+e6q25lzql1 ¦ Passar dados para baixo ¦ Pasar datos hacia abajo
+4di3dxeibr ¦ Prop de callback ¦ Prop de callback
+mqrlvyax47 ¦ Enviar eventos para cima ¦ Enviar eventos hacia arriba
+2bcyhmoi6qw ¦ Context ¦ Context
+23g4vl78nk1 ¦ Compartilhar valores do app todo ¦ Compartir valores de toda la app
+wzw5j3ithg ¦ Memória local do componente ¦ Memoria local del componente
+1orqke245va ¦ Hooks personalizados ¦ Hooks personalizados
+2505hoef2le ¦ Lógica reutilizável ¦ Lógica reutilizable
+10wjx41q770 ¦ Com o que o nome de um hook personalizado precisa começar? ¦ ¿Con qué debe empezar el nombre de un hook personalizado?
+1zsk3grh6nj ¦ Cada componente que usa um hook personalizado ganha seu próprio estado separado. ¦ Cada componente que usa un hook personalizado tiene su propio estado separado.
+2fg6ekwbxzr ¦ Projeto: O Diário de Missões ¦ Proyecto: El Diario de Misiones
+d0zejmsfxk ¦ O Ecossistema React ¦ El Ecosistema de React
+10f9ltgle1y ¦ Rotas, frameworks, ferramentas e bugs comuns. ¦ Rutas, frameworks, herramientas y bugs habituales.
+p50hdajahp ¦ Rotas ¦ Rutas
+crs1uho3px ¦ Muitas páginas, um app ¦ Muchas páginas, una app
+1qjcy3933wt ¦ O que é uma single-page app (SPA)? ¦ ¿Qué es una single-page app (SPA)?
+7yuufjgzw7 ¦ Um app que atualiza a tela sem recarregar a página inteira ¦ Una app que actualiza la vista sin recargar la página entera
+2fngtcj7jl3 ¦ Um site com só uma página de conteúdo ¦ Un sitio web con una sola página de contenido
+q46y4wegrq ¦ Um app sem JavaScript ¦ Una app sin JavaScript
+28pnz60mt62 ¦ Um app só para celular ¦ Una app solo para móvil
+3qk4qbkkbk ¦ Em `/quests/:id`, o que é `:id`? ¦ En `/quests/:id`, ¿qué es `:id`?
+25fefsb7z0 ¦ Um parâmetro de URL ¦ Un parámetro de URL
+m0rvlrcslb ¦ Um seletor CSS ¦ Un selector CSS
+165p8bzbrz8 ¦ Uma query string ¦ Una query string
+2egzdy1s867 ¦ No React Router você usa <Link> para a navegação interna. ¦ En React Router usas <Link> para la navegación interna.
+1vq4wyi2f2d ¦ Frameworks e ferramentas ¦ Frameworks y herramientas
+kzamvxn8zc ¦ O mundo lá fora ¦ El mundo más amplio
+1pehtudrkld ¦ Ligue a ferramenta à sua função ¦ Une cada herramienta con su función
+1q470h3ma5w ¦ Framework completo de React ¦ Framework completo de React
+gym0yhu33t ¦ Dados do servidor e cache ¦ Datos del servidor y caché
+1ehma42aqhn ¦ Estado compartilhado no cliente ¦ Estado compartido en el cliente
+1a581xtr2kf ¦ Testar componentes ¦ Probar componentes
+wbd6n2k9ts ¦ O que é mais pedido nas vagas de React junto com o próprio React? ¦ ¿Qué se pide más en las ofertas de React junto con el propio React?
+26hqimaluw6 ¦ jQuery e Flash ¦ jQuery y Flash
+eyplwblqyi ¦ Você precisa aprender todas as bibliotecas antes de se candidatar a vagas júnior. ¦ Tienes que aprender todas las librerías antes de postularte a puestos júnior.
+sm3kcmqt ¦ Fundamentos sólidos (JS, React, Git, APIs) são o que mais importa. As bibliotecas se aprendem no trabalho. ¦ Lo que más importa son unos fundamentos sólidos (JS, React, Git, APIs). Las librerías se aprenden en el trabajo.
+149ny09eb9k ¦ Bugs comuns de React ¦ Bugs habituales de React
+2a9hcvvmibz ¦ Hora da revisão de código ¦ Hora de la revisión de código
+a15xmok7v2 ¦ Estes bugs aparecem em revisões de código reais o tempo todo. Encontre-os! ¦ Estos bugs aparecen todo el tiempo en revisiones de código reales. ¡Encuéntralos!
+qnl08i6kj3 ¦ Encontre o bug ¦ Encuentra el bug
+13grmefpazn ¦ O intervalo nunca é limpo. Retorne `() => clearInterval(id)` do efeito. ¦ El intervalo nunca se limpia. Devuelve `() => clearInterval(id)` desde el efecto.
+1kcugpxo7u1 ¦ Uma chave aleatória muda a cada renderização, então o React recria todos os itens. Use um id estável. ¦ Una clave aleatoria cambia en cada renderizado, así que React recrea todos los elementos. Usa un id estable.
+y7v9f488wj ¦ `user.name` é lido antes de conferir `user`, então quebra quando user não existe. Confira antes (ou use `user?.name`). ¦ `user.name` se lee antes de comprobar `user`, así que falla cuando no hay user. Compruébalo antes (o usa `user?.name`).
+1vzz1mszh20 ¦ Quando você deve usar `useMemo` ou `memo`? ¦ ¿Cuándo deberías recurrir a `useMemo` o `memo`?
+2auewbztnr8 ¦ Quando você mediu um problema real de desempenho ¦ Cuando has medido un problema de rendimiento real
+5s3vbwr3oq ¦ Em todos os componentes, por padrão ¦ En todos los componentes, por defecto
+spza78drta ¦ Só para CSS ¦ Solo para CSS

@@ -1,0 +1,299 @@
+@@ 2d83ah1008p
+Quality
+@@ rwlb5799gg
+The Watchtower
+@@ 1ax7d0vbizt
+Build things that work for everyone, load fast and stay secure: accessibility, performance and security.
+@@ wn0cao3c9f
+Accessibility
+@@ 2bttcyrtxnl
+WCAG, keyboard users, screen readers and ARIA.
+@@ n6ga3u9zp1
+
+**Key ideas**
+- **WCAG** guidelines: content must be Perceivable, Operable, Understandable, Robust (POUR).
+- Semantic HTML first: real buttons, links, headings, labels, landmarks.
+- Everything works with the **keyboard** (Tab, Enter, Space, Esc) and focus is visible.
+- Text contrast at least 4.5:1; do not use colour alone to convey meaning.
+- ARIA only when HTML cannot express it (`aria-label`, `aria-expanded`, `aria-live`).
+- Test with Lighthouse/axe, the keyboard, and a screen reader.
+@@ 1wzg2eqoj6b
+WCAG and POUR
+@@ 1m5gtgqmxcw
+Four principles
+@@ 27uqyo9iyv6
+The Web Content Accessibility Guidelines (**WCAG**) are the worldwide standard. Content must be:
+- **Perceivable**: alt text, captions, contrast
+- **Operable**: keyboard access, no traps, enough time
+- **Understandable**: clear labels and errors
+- **Robust**: works with assistive tech (valid, semantic HTML)
+@@ 29121vkmy1z
+Match the fix to the principle
+@@ mjj26e1udk
+Alt text on images
+@@ 1l6y7vx4l0z
+Perceivable
+@@ gxmlm2p21w
+Works with the keyboard
+@@ wf4l934e6m
+Operable
+@@ 1ux2t4wv4ot
+Clear error messages
+@@ ah5zx52yom
+Understandable
+@@ 2cw8eeoztkv
+Semantic, valid HTML
+@@ enyweywuhf
+Robust
+@@ 3coqbhjmn0
+Roughly how many people live with some disability?
+@@ 1967hhovhwo
+About 1 in 6 people worldwide
+@@ 973it17l9c
+Almost nobody
+@@ 1mq3c2u83cz
+Only elderly people
+@@ 1w75rist0j
+The WHO estimates about 1.3 billion people, around 16% of the world.
+@@ 1osucztzymq
+Accessibility also helps people with temporary problems, like a broken arm or a bright screen in the sun.
+@@ 13flm56jagh
+Keyboard and focus
+@@ 2b5wy25ytxp
+No mouse needed
+@@ 7h6c5eae4i
+Many people navigate with a keyboard only. Make sure:
+- all controls are reachable with **Tab**, in a logical order
+- the focused element is clearly visible (`:focus-visible` styles, never `outline: none` without a replacement)
+- modals trap focus inside and close with **Esc**
+- custom widgets use real `<button>`s or the right ARIA and key handling
+@@ tnkpdijhht
+Which line hurts keyboard users?
+@@ 16bn2k4iyrs
+Removing the focus outline hides where keyboard users are. Style `:focus-visible` instead.
+@@ 2b02gsr714f
+Which element is reachable with Tab and works with Enter by default?
+@@ 2drrhsedlfr
+A "skip to main content" link helps keyboard users jump past the navigation.
+@@ 1kjrs7dbigv
+Screen readers and ARIA
+@@ 1l2hp5vncdt
+Helping assistive tech
+@@ 44ow2gd0i0
+Screen readers read the page aloud using its structure: headings, landmarks, labels, roles.
+
+ARIA can fill gaps:
+
+```
+<button aria-label="Close">✕</button>
+<button aria-expanded="false">Menu</button>
+<div aria-live="polite">3 items added</div>
+```
+But **no ARIA is better than bad ARIA**: prefer native elements.
+@@ 2b1kdp9vpsq
+Match the attribute
+@@ 2bwojliqerd
+A name when there is no visible text
+@@ 1frcc04muqs
+Whether a menu is open
+@@ 181eed5h7ea
+Announce updates
+@@ 1rhmx7kt8n8
+Describe an image
+@@ 280zc6htd8a
+An icon-only button "🗑" deletes an item. What does it need?
+@@ 1ggfllznvuy
+aria-label="Delete item"
+@@ 1ewkm1mfbqz
+A bigger icon
+@@ 1nd0ls2yp8u
+Challenge: Open the Gates for Everyone
+@@ gxp0nz1txv
+Performance
+@@ 11gftrg88hx
+Fast pages: Core Web Vitals, images, bundles and caching.
+@@ n3qyiefchb
+
+**Key ideas**
+- Speed matters: slow pages lose users and rank lower in search.
+- **Core Web Vitals**: LCP (main content loads fast), INP (responds to input fast), CLS (layout does not jump).
+- Images: right size, modern formats (WebP/AVIF), `loading="lazy"`, width/height set.
+- JavaScript: ship less, split code, lazy-load routes; minify; avoid huge libraries for small jobs.
+- Caching and CDNs serve files close to users. Measure with **Lighthouse**.
+@@ 1vtlgsoz8oi
+Why speed matters
+@@ 22iv0z253jr
+Every second counts
+@@ 1y8lzdfywhj
+Users leave slow sites, and search engines rank fast sites higher. Google measures **Core Web Vitals**:
+- **LCP** (Largest Contentful Paint): how fast the main content appears
+- **INP** (Interaction to Next Paint): how fast the page reacts to clicks
+- **CLS** (Cumulative Layout Shift): how much things jump around
+
+Measure with **Lighthouse** in Chrome DevTools.
+@@ 1mq436ott03
+Match the metric
+@@ 264w4id7nff
+Main content loads
+@@ 1p64magg18b
+Reacts to input
+@@ 1rk1tk519jz
+Layout jumps
+@@ 1xmqnfxvc4v
+Lighthouse
+@@ cgs5sqvuus
+Tool that measures them
+@@ 1cmssabxbve
+Text jumps down while an image loads. Which metric suffers?
+@@ 1g2h77tg5ks
+How do you prevent that jump?
+@@ 11pifm4m6om
+Set width and height on images
+@@ 1v6ojh5zc5
+Use more JavaScript
+@@ 1q8t0dmx0df
+Remove CSS
+@@ 4iex23bhke
+Use a bigger font
+@@ v1s5wjqhjr
+Making pages faster
+@@ 2u26hb4qd6
+Quick wins
+@@ 84m38k2c6p
+- Resize and compress images; use **WebP/AVIF**; add `loading="lazy"` for images below the fold
+- Ship less JavaScript: **code splitting**, lazy-load pages, drop unused libraries
+- Let the build tool **minify** and bundle
+- Serve through a **CDN** with caching headers
+- Avoid blocking the main thread with heavy work
+@@ 1mm2ktupsz0
+Which image setting delays loading images that are off-screen?
+@@ 1w3q5h77a9
+A 4000px-wide photo is shown at 400px. What should you do?
+@@ 1v8ommpah0d
+Serve a smaller version of the image
+@@ 2ebwxlhwxs8
+Nothing, browsers handle it
+@@ 5jpcwjt1go
+Make it a PNG
+@@ l4t2ra2r6s
+Set opacity to 0.5
+@@ 2d6wexluvtl
+Adding a huge library to format one date can slow down your whole app.
+@@ 20zd34hh1f0
+Order a performance fix the professional way
+@@ 1ecdlb1cdnb
+Security
+@@ 8a8scev7hz
+XSS, secrets, HTTPS, CORS, SQL injection and passwords.
+@@ 1twk2dqb83h
+
+**Key ideas**
+- **XSS**: never insert user input as HTML (`innerHTML`); use `textContent` / framework escaping.
+- **Secrets** (API keys, passwords) never go in front-end code or Git; use environment variables on the server.
+- Always **HTTPS**. Validate every input on the **server**.
+- **SQL injection**: never build SQL by gluing strings; use parameterised queries.
+- Store passwords with a slow hash (**bcrypt**/argon2), never in plain text.
+- OWASP Top 10 lists the most common web security risks.
+@@ 1xqkau0l7xy
+XSS and safe output
+@@ 1a9xp6bdyj1
+Never trust user input
+@@ 1bkw3ayk3wo
+**Cross-site scripting (XSS)**: an attacker gets their script to run on your page, for example by writing it into a comment:
+
+```
+comment.innerHTML = userText;   // ✗ runs <script> or onerror=...
+comment.textContent = userText; // ✓ shown as plain text
+```
+React, Vue and Svelte escape text by default. Be careful with `dangerouslySetInnerHTML`, `v-html` and `{@html}`.
+@@ 188v7tn0l4h
+Which line is vulnerable to XSS?
+@@ 294fpek0rjn
+The name comes from the URL, so anyone can craft a link with HTML/JS in it. Use `textContent`.
+@@ gpy38p9x41
+Which is safe for showing a user's comment?
+@@ 14zr7ivocnd
+element.textContent = comment
+@@ 2euyqxtqd8c
+element.innerHTML = comment
+@@ 2bhd8aqb853
+Validating input in the browser is enough to stop attacks.
+@@ 10quexks66k
+Attackers can skip the browser entirely. The server must validate too.
+@@ 1bkf2rns52
+Secrets, HTTPS and CORS
+@@ 1dmpu3u6t9m
+Guarding the keys
+@@ 24ibie6xuq2
+- Secrets live in **environment variables** on the server (`process.env.API_KEY`), loaded from a `.env` file that is in `.gitignore`
+- Anything in front-end code is public
+- **HTTPS** encrypts traffic; browsers mark HTTP pages "Not secure"
+- **CORS** is a browser rule: a page can only read responses from another origin if that server allows it
+@@ ny0me35lyl
+Where should a payment API secret key live?
+@@ 1y1jq13qb7y
+In an environment variable on the server
+@@ go63b56q89
+In a React component
+@@ ruc6jbpb5m
+In localStorage
+@@ nve0oy5upn
+In the HTML comments
+@@ 1jmdg1yk7l0
+You accidentally pushed an API key to GitHub. What do you do?
+@@ 91q91g1u6x
+Revoke/rotate the key immediately, then remove it from the code
+@@ r3ucw1wn5l
+Delete the commit and hope
+@@ 1jzmdecloga
+Make the repo private and forget it
+@@ 20v01cifi4a
+Nothing, nobody will notice
+@@ 1xngrafdvlg
+Bots find leaked keys within minutes. A leaked key must be treated as compromised.
+@@ 1ef891sggsv
+CORS protects servers from all attacks.
+@@ twvy905sff
+CORS is a browser rule about reading responses. Servers still need authentication and validation.
+@@ 21wzxpkkr8v
+Injection and passwords
+@@ 8y2gqth59
+Two classic disasters
+@@ 275s6qcuew4
+**SQL injection**: building SQL from user input lets attackers change the query:
+
+```
+// ✗ dangerous
+db.query("SELECT * FROM users WHERE name = '" + name + "'");
+// ✓ parameterised
+db.query("SELECT * FROM users WHERE name = ?", [name]);
+```
+**Passwords** must be stored as slow, salted hashes (**bcrypt**, **argon2**), never in plain text.
+@@ 13s63q7cbdv
+Which line allows SQL injection?
+@@ 13x9et3cc2r
+The id from the URL is glued into the SQL. Use a parameter: `db.query("... WHERE id = ?", [req.query.id])`.
+@@ x8alyf2nnh
+As slow salted hashes (bcrypt or argon2)
+@@ gw5aropmw3
+In plain text
+@@ 15axcfvy3k6
+Encrypted with a key in the code
+@@ 138meya5zrh
+Match the attack with its defence
+@@ jd7y9gjtfj
+Escape output (textContent)
+@@ k0tav2oti9
+SQL injection
+@@ 1tbr64gttu0
+Parameterised queries
+@@ 1y97jislbxh
+Stolen password database
+@@ 1ogykuqy29i
+Hash passwords with bcrypt
+@@ 2c0ehpgiru3
+Leaked API key
+@@ 1ki0gxn52ye
+Keep secrets in env variables
+@@ 165cy261ahw
+The OWASP Top 10 is a well-known list of the most common web security risks.

@@ -1,0 +1,86 @@
+2e31skw2j8s ¦ Algoritmos ¦ Algoritmos
+1he5gcvb9ws ¦ A Torre dos Enigmas ¦ La Torre de los Acertijos
+1j7mogfsher ¦ Pense como engenheiro: Big-O, arrays e hash maps, busca e ordenação, pilhas e filas, recursão, e como resolver problemas de entrevista passo a passo. ¦ Piensa como un ingeniero: Big-O, arrays y hash maps, búsqueda y ordenación, pilas y colas, recursión, y cómo resolver problemas de entrevista paso a paso.
+ea1g7yjqdu ¦ Pensando em Passos ¦ Pensar en Pasos
+1jp55g3zhsu ¦ Algoritmos, Big-O, arrays e hash maps. ¦ Algoritmos, Big-O, arrays y hash maps.
+22sdsm9whvt ¦ O que é um algoritmo? ¦ ¿Qué es un algoritmo?
+188nj44ljlt ¦ Receitas para computadores ¦ Recetas para ordenadores
+15042zqvyvx ¦ Coloque em ordem os passos de "encontrar o maior número" ¦ Ordena los pasos de "encontrar el número más grande"
+z8wwgr5ilt ¦ Qual entrada os iniciantes mais esquecem de testar? ¦ ¿Qué entrada olvidan probar más a menudo los principiantes?
+1cmby9q0ses ¦ Uma lista vazia ¦ Una lista vacía
+1yuwom5akdz ¦ Uma lista com 3 itens ¦ Una lista con 3 elementos
+2ah6kmtcrz4 ¦ Uma lista de números ¦ Una lista de números
+3i2cs0llz1 ¦ Uma lista ordenada ¦ Una lista ordenada
+108cvdkqca5 ¦ Dois algoritmos diferentes podem resolver o mesmo problema em velocidades muito diferentes. ¦ Dos algoritmos distintos pueden resolver el mismo problema a velocidades muy diferentes.
+fbesiicfra ¦ Notação Big-O ¦ Notación Big-O
+jzntffxmfr ¦ Como o trabalho cresce ¦ Cómo crece el trabajo
+o4d5k6ubtt ¦ Ligue o Big-O ¦ Une cada Big-O
+11onsq2h8qc ¦ Ler um item do array ¦ Leer un elemento del array
+1829nu9v727 ¦ Busca binária ¦ Búsqueda binaria
+7ock7ksfi7 ¦ Um loop pela lista ¦ Un bucle por la lista
+ex5lk1j98l ¦ Um loop dentro de um loop ¦ Un bucle dentro de otro bucle
+1wb8obnvddy ¦ Qual é o Big-O desta função? ¦ ¿Cuál es el Big-O de esta función?
+se8o8qllb6 ¦ Ordenar com um bom algoritmo (como o sort do JavaScript) leva cerca de... ¦ Ordenar con un buen algoritmo (como el sort de JavaScript) lleva unos...
+1gm39bmknub ¦ Hash maps ¦ Hash maps
+210yvht1p42 ¦ O truque da velocidade ¦ El truco de la velocidad
+722aoj3lnz ¦ Qual estrutura responde mais rápido "este id de usuário está banido?" para milhões de ids? ¦ ¿Qué estructura responde más rápido "¿está baneado este id de usuario?" para millones de ids?
+vw5x4he0z0 ¦ Um Set ¦ Un Set
+uqmug2o5m ¦ Um array ¦ Un array
+vaxgyb74xs ¦ Uma string ¦ Un string
+186xdbll6n5 ¦ Uma lista ligada ¦ Una lista enlazada
+26bgujbqo2w ¦ Busca e Ordenação ¦ Búsqueda y Ordenación
+285sjlzqkvu ¦ Busca binária, ordenação, dois ponteiros. ¦ Búsqueda binaria, ordenación, dos punteros.
+1n7p5nxpotv ¦ Dividindo o problema ao meio ¦ Partir el problema por la mitad
+ew01e7li2f ¦ Adivinhe um número de 1 a 100. A melhor estratégia? Chutar sempre o **meio**: 50, depois 25 ou 75... Você precisa de no máximo 7 palpites. Isso é busca binária, **O(log n)**, e só funciona com dados **ordenados**. ¦ Adivina un número del 1 al 100. ¿La mejor estrategia? Decir siempre el **del medio**: 50, luego 25 o 75... Necesitas como mucho 7 intentos. Eso es búsqueda binaria, **O(log n)**, y solo funciona con datos **ordenados**.
+2g0mywo560j ¦ Quantos passos a busca binária precisa para cerca de 1.000.000 de itens ordenados? ¦ ¿Cuántos pasos necesita la búsqueda binaria para unos 1.000.000 de elementos ordenados?
+1efubwob15d ¦ Cerca de 20 ¦ Unos 20
+ahg3k5x2vx ¦ Cerca de 1.000 ¦ Unos 1.000
+2c55djgw68e ¦ Cerca de 500.000 ¦ Unos 500.000
+26ye5ezva37 ¦ Cerca de 1.000.000 ¦ Unos 1.000.000
+pg00k4mkts ¦ 2²⁰ é cerca de um milhão. ¦ 2²⁰ es más o menos un millón.
+1cb0np2p6e4 ¦ Qual linha faz esta busca binária rodar para sempre? ¦ ¿Qué línea hace que esta búsqueda binaria se ejecute para siempre?
+1h2a5v25v5p ¦ Quando `arr[mid] < x`, passe do meio: `lo = mid + 1`. Senão `lo` pode ficar preso. ¦ Cuando `arr[mid] < x`, pasa del medio: `lo = mid + 1`. Si no, `lo` puede quedarse atascado.
+22983yzd8w0 ¦ A busca binária funciona com qualquer lista, ordenada ou não. ¦ La búsqueda binaria funciona con cualquier lista, ordenada o no.
+2exb8q0h5gt ¦ Ordenação ¦ Ordenación
+1ux4rga69zt ¦ Colocando as coisas em ordem ¦ Poner las cosas en orden
+1iqixb6abm7 ¦ Sem um comparador, números são ordenados como texto. ¦ Sin un comparador, los números se ordenan como texto.
+gmkcjjt1si ¦ Ligue o algoritmo ¦ Une cada algoritmo
+238h2neseyw ¦ Bubble sort ¦ Bubble sort
+3pv7cmh1jr ¦ O(n²), troca vizinhos ¦ O(n²), intercambia vecinos
+1kgny19jtqj ¦ Merge sort ¦ Merge sort
+z70o8yizy9 ¦ O(n log n), divide e junta ¦ O(n log n), divide y mezcla
+1c3rha690gr ¦ O(log n), precisa de dados ordenados ¦ O(log n), necesita datos ordenados
+27kf3zxolcg ¦ Busca linear ¦ Búsqueda lineal
+20lvpyj6hv6 ¦ O(n), confere cada item ¦ O(n), revisa cada elemento
+f8vijvn7w5 ¦ Ordene os heróis por nível, do mais alto para o mais baixo ¦ Ordena a los héroes por nivel, primero el más alto
+1ymprc2c212 ¦ Estruturas e Recursão ¦ Estructuras y Recursión
+44efzj9uc ¦ Pilhas, filas, recursão e resolução de problemas. ¦ Pilas, colas, recursión y resolución de problemas.
+qwo7lmxeui ¦ Pilhas e filas ¦ Pilas y colas
+al075j24nm ¦ Pilhas e filas de espera ¦ Montones y filas
+uiljd56r7b ¦ Ligue cada estrutura ao seu funcionamento ¦ Une cada estructura con cómo funciona
+1voibq3mo5g ¦ Pilha ¦ Pila
+2dj01knji4x ¦ O último a entrar é o primeiro a sair (como uma pilha de pratos) ¦ El último en entrar es el primero en salir (como una pila de platos)
+1fs5wfztvlm ¦ Fila ¦ Cola
+8hrm7o8zi3 ¦ O primeiro a entrar é o primeiro a sair (como uma fila na loja) ¦ El primero en entrar es el primero en salir (como la fila de una tienda)
+1oit40eoab ¦ push / pop ¦ push / pop
+1x1xak54za8 ¦ Adicionar e remover no topo de uma pilha ¦ Añadir y quitar en la cima de una pila
+jrggifrgad ¦ enqueue / dequeue ¦ enqueue / dequeue
+1hc2ayldu52 ¦ Entrar no fim e sair pela frente de uma fila ¦ Entrar por el final y salir por delante de una cola
+1df37t9frrx ¦ O que significa LIFO? ¦ ¿Qué significa LIFO?
+jbs1rpkw5q ¦ Last in, first out (último a entrar, primeiro a sair) ¦ Last in, first out (último en entrar, primero en salir)
+s7vh7mo0hb ¦ Last in, final out ¦ Last in, final out
+144udonxoa ¦ List in, file out ¦ List in, file out
+eodj6fwwze ¦ Loop if found once ¦ Loop if found once
+qa0m44p3mu ¦ Recursão ¦ Recursión
+1rl9xj17kkn ¦ Chamando a si mesmo ¦ Llamarse a sí mismo
+2eazr6csiak ¦ O que está faltando nesta função recursiva? ¦ ¿Qué le falta a esta función recursiva?
+5u5h1rafao ¦ Não há caso base: ela nunca para. Adicione `if (n === 0) return;` primeiro. ¦ No hay caso base: nunca se detiene. Añade primero `if (n === 0) return;`.
+oilo2u87n3 ¦ Resolvendo problemas de entrevista ¦ Resolver problemas de entrevista
+28ncr6bmg9n ¦ Um método que funciona ¦ Un método que funciona
+1fd82i3nzgo ¦ Coloque os passos em ordem ¦ Ordena los pasos
+200z6npq6jb ¦ Você travou numa entrevista. O que é melhor? ¦ Te atascas en una entrevista. ¿Qué es lo mejor?
+ao5q8zoiuc ¦ Explicar seu raciocínio e tentar uma solução simples ¦ Explicar tu razonamiento e intentar una solución sencilla
+1i65qijeccw ¦ Ficar em silêncio até saber a resposta perfeita ¦ Quedarte callado hasta saber la respuesta perfecta
+vabvx899lo ¦ Desistir ¦ Rendirte
+1t43emeu60r ¦ Mudar de assunto ¦ Cambiar de tema
+1anfdlvunbt ¦ Os entrevistadores se importam com como você pensa e se comunica, não só com o código final. ¦ A quienes entrevistan les importa cómo piensas y te comunicas, no solo el código final.

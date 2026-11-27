@@ -1,0 +1,69 @@
+/* The game is drawn by Phaser. This file only styles the page and the few DOM elements
+   that live inside the game: text inputs, code editors, Blockly, preview frames. */
+@import '@fontsource/jersey-15/400.css';
+@import '@fontsource/jacquard-12/400.css';
+@import '@fontsource/vt323/400.css';
+@import '@fontsource/jetbrains-mono/400.css';
+
+:root { --font-code: 'VT323', 'JetBrains Mono', monospace; }
+html, body, #root { height: 100%; margin: 0; overflow: hidden; background: #1c110a; }
+body { font-family: 'Jersey 15', monospace; -webkit-font-smoothing: none; touch-action: manipulation; }
+#root canvas { display: block; image-rendering: pixelated; }
+.font-warm { position: absolute; left: -9999px; }
+.font-warm span:nth-child(1) { font-family: 'Jersey 15'; } .font-warm span:nth-child(2) { font-family: 'Jacquard 12'; } .font-warm span:nth-child(3) { font-family: 'VT323'; }
+
+/* text inputs */
+/* DOM pieces over the WebGL canvas use (almost) opaque backgrounds: fully opaque ones make Chrome drop
+   other parts of the canvas (black bands) */
+.game-input { box-sizing: border-box; font-family: 'Jersey 15', monospace; color: #2b1a12; background: rgba(253, 246, 227, 0.98); border: 3px solid #2b1a12; box-shadow: inset 3px 3px 0 #d9c79c; padding: 0 10px; outline: none; }
+.game-input.code { font-family: var(--font-code); }
+.game-input:focus { box-shadow: inset 3px 3px 0 #d9c79c, 0 0 0 3px #ffd66b; }
+
+/* code editors and other DOM panels inside scenes */
+.dom-panel { box-sizing: border-box; overflow: hidden; background: rgba(29, 20, 13, 0.98); border: 0; }
+.dom-panel .cm-editor { height: 100%; }
+.dom-panel .cm-scroller { font-family: var(--font-code); }
+.preview-frame { width: 100%; height: 100%; border: 0; background: #fff; display: block; }
+.term-box { box-sizing: border-box; height: 100%; overflow-y: auto; background: rgba(16, 20, 24, 0.98); color: #d7e3ea; padding: 10px 12px; font-family: var(--font-code); font-size: 22px; }
+.term-box .pr { color: #7ee787; }
+.term-box .out { white-space: pre-wrap; color: #c9d1d9; }
+.term-box form { display: flex; gap: 6px; }
+.term-box input { background: transparent; border: none; color: #fff; font: inherit; outline: none; flex: 1; min-width: 0; }
+
+/* Blockly */
+.blocklyFlyoutBackground { fill: #e2c994 !important; }
+.blocklyMainBackground { stroke: none !important; }
+.blocklyText, .blocklyFlyoutLabelText { font-family: 'Jersey 15', sans-serif !important; }
+.blocklyWidgetDiv .blocklyMenu, .blocklyDropDownDiv { font-family: 'Jersey 15', sans-serif !important; font-size: 18px !important; }
+
+/* developer content verifier */
+.verify-page { position: fixed; inset: 0; overflow: auto; background: #fdf6e3; font-family: monospace; font-size: 12px; padding: 16px; z-index: 10; }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* code editor tabs, console, hero map */
+.code-editor { display: flex; flex-direction: column; background: rgba(29, 20, 13, 0.98); border: 6px solid #120b06; box-shadow: inset 0 0 0 3px #3e2f23; }
+.ed-tabs { display: flex; gap: 3px; padding: 4px 6px 0; background: rgba(42, 29, 20, 0.98); }
+.ed-tab { font-family: var(--font-code); font-size: 20px; padding: 2px 10px; background: transparent; cursor: pointer; border: none; color: #cbb99a; }
+.ed-tab.on { background: rgba(29, 20, 13, 0.98); color: #ffd66b; }
+.ed-host { flex: 1; min-height: 0; overflow: hidden; }
+.ed-host .cm-editor { height: 100%; }
+.console-box { font-family: var(--font-code); font-size: 20px; padding: 8px 10px; background: rgba(29, 20, 13, 0.98); color: #e9dcc0; overflow: auto; border: 6px solid #120b06; }
+.console-box .line { padding: 1px 0; border-bottom: 1px solid rgba(255,255,255,0.06); white-space: pre-wrap; word-break: break-word; }
+.console-box .line.error { color: #ff8f7a; } .console-box .line.warn { color: #f3c969; }
+.console-box .ln { color: #7a6a55; margin-right: 6px; } .console-box .muted { opacity: 0.6; }
+.grid-wrap { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 10px; background: rgba(42, 32, 25, 0.98); overflow: auto; border: 6px solid #120b06; }
+.grid-wrap .grid-canvas { width: 100%; max-height: 70%; object-fit: contain; image-rendering: pixelated; border: 6px solid #120b06; }
+.grid-wrap .legend { color: #e3d3b4; font-size: 16px; }
+.grid-wrap .console-box { width: 100%; max-height: 30%; }
+.preview-frame { border: 6px solid #2b1a12; box-sizing: border-box; }
+.term-box { border: 6px solid #05070a; box-shadow: inset 0 0 0 3px #2a3440; }
+.blockly-dom { position: relative; overflow: hidden; }
+/* transparent workspace: the parchment is drawn by the game (an opaque svg here makes Chrome drop canvas pixels below it) */
+.blockly-dom svg.blocklySvg { background-color: transparent !important; }
+.blockly-hint { position: absolute; left: 42%; top: 120px; max-width: 50%; z-index: 5; pointer-events: none;
+  font: bold 18px 'Jersey 15', sans-serif; color: #2b1a12; background: rgba(255, 214, 107, 0.98); padding: 6px 10px;
+  box-shadow: 0 0 0 3px #2b1a12, 4px 4px 0 3px rgba(0,0,0,.35); animation: hint-nudge 1s steps(3) infinite; }
+@keyframes hint-nudge { 50% { transform: translateX(-14px); } }
+/* guided tours dim the DOM pieces (editors, previews) that are not being pointed at */
+.tour-dim { filter: brightness(0.38) saturate(0.6); transition: filter .15s; }

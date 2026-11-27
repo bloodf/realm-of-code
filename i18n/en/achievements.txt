@@ -1,0 +1,528 @@
+@@ 1q5dsnmekav
+Learning
+@@ gcw77vt7q7
+Coding
+@@ kpm88o8sq3
+Streaks
+@@ pnl5v46rjj
+Your hero
+@@ 14s3fqz73to
+Minigames
+@@ 1zmtf620ru4
+Code Farm
+@@ 1eev7ulhwrx
+Homestead
+@@ jt6q0f6g4z
+Pets
+@@ 25rcm7o3q1w
+Battles
+@@ 14c2jhchtjz
+Career
+@@ s76xjnpe42
+Secrets
+@@ f90nn4xsty
+First Steps
+@@ iwi73tom3p
+Complete your first lesson.
+@@ hjr61b72po
+Apprentice
+@@ cluz8lihig
+Complete 10 lessons.
+@@ 2vsb8gbhr
+Bookworm
+@@ w0owi9028y
+Complete 25 lessons.
+@@ 1b6404o1csk
+Journeyman
+@@ 19ga89d8zop
+Complete 50 lessons.
+@@ 1hlp5quzqa8
+Scholar
+@@ ukedusw1df
+Complete 100 lessons.
+@@ x34lqs9tzj
+Master Craftsman
+@@ 13t31x59bbw
+Complete 150 lessons.
+@@ 1vbenwy9xih
+Living Library
+@@ ldfm6uu68z
+Complete 250 lessons.
+@@ 2c6abvut5j9
+Flawless
+@@ 8lisb7cuen
+Finish a lesson with no mistakes.
+@@ i1vaewzf99
+Sharp Mind
+@@ 1obvynmgumk
+Finish 20 lessons with no mistakes.
+@@ 147sqvbizef
+Perfectionist
+@@ 141v0w6u9gp
+Finish 75 lessons with no mistakes.
+@@ 144bryh345s
+Warming Up
+@@ llx279ac7n
+Answer 100 exercises correctly.
+@@ yccujoc0ix
+Tireless
+@@ 3tg7pksaxw
+Answer 500 exercises correctly.
+@@ j7pzeuedov
+Unstoppable
+@@ 2ffyoylh17m
+Answer 1500 exercises correctly.
+@@ 7pf6snzckp
+Gatecrasher
+@@ 1x4vod57uqq
+Skip ahead by passing a unit test.
+@@ nloicgj4cx
+Practice Makes Perfect
+@@ 1rlphf5eldo
+Finish 5 practice sessions.
+@@ 23vtanbmab0
+Drill Sergeant
+@@ q63wrjs5nd
+Finish 25 practice sessions.
+@@ 1g54lxit2yj
+Back on Track
+@@ 99rbxdi9vv
+Finish a review stop on your path.
+@@ 5ta0gzkxws
+On a Roll
+@@ 26k521gdnp6
+Get so good that lessons turn into express lessons.
+@@ 29lic23koni
+Polyglot
+@@ 1d568xnwa1i
+Earn XP in 5 different skills.
+@@ 233xhxnhgc3
+Renaissance Coder
+@@ 1gszb0veybv
+Earn XP in 10 different skills.
+@@ qkyq05oxcy
+Bright Idea
+@@ 659eztkks4
+Use your first lightbulb.
+@@ 1s28k67lzcq
+Second Wind
+@@ 2829tbgc7nj
+Burn a torch to try again.
+@@ e8w6umyumd
+Bottoms Up
+@@ ugxs360apz
+Drink a potion to get a heart back.
+@@ t283vu2r1g
+First Spell
+@@ 4cwxc1jpug
+Solve your first coding challenge.
+@@ 1vn83wux5gf
+Spell Apprentice
+@@ 1jwj9eah1kq
+Solve 10 coding challenges.
+@@ 23rx1wdp5k2
+Spellslinger
+@@ jwwgdinaol
+Solve 25 coding challenges.
+@@ phs90vrxhh
+Archmage of Code
+@@ egl8p2jkkj
+Solve 60 coding challenges.
+@@ 1bi6gzj1hlk
+Giant Slayer
+@@ c0dd9uqx0d
+Finish your first project.
+@@ m01qwb33zg
+Builder
+@@ s801ticvip
+Finish 5 projects.
+@@ u95rtt3qxv
+Everyone Starts Somewhere
+@@ 20jn9upui3v
+Meet your first error. Every master has seen thousands.
+@@ 1w2b06zmepi
+Thick Skin
+@@ 15e3iz0yq0f
+See 50 errors and keep going.
+@@ 21kd4nu4zh8
+Run, Run, Run
+@@ 1c9po159tqk
+Run your code 100 times.
+@@ nme6ybvr0b
+Goblin Slayer
+@@ 1s2j6vldr8j
+Defeat 10 goblins on the hero map.
+@@ e60undfyi6
+Gem Hoarder
+@@ 1egt68ryd7w
+Collect 50 gems on the hero map.
+@@ 1yrbdfkobrz
+Tag Master
+@@ rl8vqazbas
+Finish the HTML section.
+@@ 136iv694jx5
+Style Sorcerer
+@@ 1mcl2i7devi
+Finish the CSS section.
+@@ 2b5w63m43ab
+Script Knight
+@@ 13ra6175nvk
+Finish the JavaScript section.
+@@ 2d3xvhuqp15
+Snake Charmer
+@@ 25qnvlv9dyb
+Finish the Python section.
+@@ 5yl7mgd7se
+Elephant Rider
+@@ 1jwebg1ye1v
+Finish the PHP section.
+@@ gakzqrh96n
+Keeper of Records
+@@ 1z9vflae8b3
+Finish the SQL section.
+@@ 109c72y1vzl
+Algorithm Alchemist
+@@ 1csp6y9pzyf
+Finish the Algorithms section.
+@@ 2ckb3883yw2
+Triple Crown
+@@ 2gg88f7jtep
+Finish 3 whole sections.
+@@ fneqb7tkug
+Grand Master
+@@ v6yuu7bbbe
+Finish 8 whole sections.
+@@ a7stx8ix7z
+Kindled
+@@ k7fntkcr6v
+Keep a 3-day streak.
+@@ hhc6h5l6v3
+Week of Fire
+@@ sranq7a0ce
+Keep a 7-day streak.
+@@ 18r8j3opnpt
+Fortnight Flame
+@@ 1ygz28myd0e
+Keep a 14-day streak.
+@@ tuhw602k15
+Eternal Flame
+@@ bpf525olrb
+Keep a 30-day streak.
+@@ 20s2s1hkp1g
+The Hundred Days
+@@ 1alra8sb4n9
+Keep a 100-day streak.
+@@ 2goaqw86o5j
+Ice Mage
+@@ 2dje8qutiwg
+Own a streak freeze.
+@@ l16j6gv2lk
+Regular
+@@ 9z8iw4h2ih
+Play on 7 different days.
+@@ 16iog49lr94
+Local Legend
+@@ kda5dgetvm
+Play on 30 different days.
+@@ 8a5iwmenlx
+Pillar of the Village
+@@ 1dwctvtop8s
+Play on 100 different days.
+@@ 6iw8ojt9m9
+Goal Getter
+@@ 1p8rugtvpu8
+Reach your daily goal.
+@@ 2g3rbm00dm9
+The Return
+@@ qy8v52hkvw
+Come back after a long break and clean up the village.
+@@ sn9zn6yoa9
+Quest Taker
+@@ 1zv88m694ev
+Finish 5 daily quests.
+@@ kyntenygwv
+Quest Master
+@@ yv9dskxwhp
+Finish 30 daily quests.
+@@ 1h0pkj79qzh
+Hero of the Guild
+@@ 26n5u6o2pnx
+Finish 100 daily quests.
+@@ ac8eb4d5w0
+Squire
+@@ 1v4ryp2wwgx
+Reach level 5.
+@@ znwrq312xo
+Knight
+@@ lptqq2x8ww
+Reach level 10.
+@@ wra21hbh7y
+Knighted
+@@ n9vr39mog9
+Reach level 15.
+@@ o4bta68jc
+Legend of Codehaven
+@@ 26l8dx8sskx
+Reach level 25.
+@@ otflaa96io
+Myth
+@@ 1cx9t0h77dh
+Reach level 40.
+@@ 4zav6tcofk
+Royal Treasury
+@@ 1q6q0i2hyzc
+Hold 500 gold at once.
+@@ tul8ecdclx
+Dragon Hoard
+@@ 1cyr1f13txx
+Hold 2000 gold at once.
+@@ 3qrst4cxct
+Well Prepared
+@@ spb53axqj3
+Carry 10 lightbulbs.
+@@ 1aglv1gmfkg
+Fashionable
+@@ 1qommbd4ht4
+Change your tunic colour.
+@@ 2f04kvea836
+Tavern Regular
+@@ xn92v4xiub
+Win your first minigame star.
+@@ 2bzuchhjea6
+Star Collector
+@@ 10wy2911jc7
+Win 15 minigame stars.
+@@ n5sbrtrjds
+Constellation
+@@ goqrzjlmq2
+Win 50 minigame stars.
+@@ 5xs7ow3b98
+Game Night
+@@ sjy5cmzzgs
+Play 10 minigames.
+@@ 1ck8dgepjaj
+Arcade Champion
+@@ 1gyqhe7pe5s
+Play 50 minigames.
+@@ 1uux5573r3e
+Sharpshooter
+@@ 3we69psxo2
+Clear every target in Selector Archery.
+@@ 2d9836ygn3g
+Bug Hunter
+@@ ots4syqwc
+Find 8 bugs in one Bug Hunt.
+@@ 11q7o0104gu
+Jeweller
+@@ 1ouzogber1z
+Score 1500 points in Gem Forge.
+@@ usi509z5dr
+Crown Jeweller
+@@ 28ug2ft925j
+Score 4000 points in Gem Forge.
+@@ mpjj8imrnp
+Swift Fingers
+@@ 23i4ogh3nzy
+Type 15 words in one Rune Typist game.
+@@ t441sfncby
+Keyboard Wizard
+@@ 1klsh5gwijx
+Type 30 words in one Rune Typist game.
+@@ ws1fbi3gn9
+Seedling
+@@ 1vo7qit9boc
+Finish your first field on Greenhollow Farm.
+@@ 83zmw1fjfg
+Green Thumb
+@@ eoiaf8pm0d
+Finish 10 fields on Greenhollow Farm.
+@@ 1eqlqjip8d2
+Finish all 30 fields of the Code Farm.
+@@ 2ec3ai71iku
+Golden Harvest
+@@ 58e3gfowfl
+Earn all 90 stars on the Code Farm.
+@@ ai137s1ht6
+First Harvest
+@@ fy23l62bkt
+Harvest a crop in your garden.
+@@ 5nsfkbbs0t
+Market Gardener
+@@ 14pg6fn18ew
+Harvest 50 crops.
+@@ 1e16gjh0m57
+Breadbasket
+@@ tj2els1r81
+Harvest 250 crops.
+@@ r7fyj19ucs
+Old MacDonald
+@@ 1z5fc932809
+Get your first farm animal.
+@@ 1vw2o0vblmg
+Full Barn
+@@ 119pu22u7td
+Keep 5 farm animals.
+@@ 2fjkv2nxd9c
+Best Friends
+@@ 1fltbqa48vy
+Keep both a dog and a cat.
+@@ 20s959ur8cg
+Farm Fresh
+@@ 126dqyjb5m1
+Collect 25 eggs, milk, wool or truffles.
+@@ 1p2v591sut6
+Rancher
+@@ 1ex7i1n2hw1
+Collect 150 animal products.
+@@ x67yqngy4j
+Land Owner
+@@ 1iejcjuiu1u
+Open all 12 garden plots.
+@@ 22wk9jhuhbg
+New Friend
+@@ 1mlyth72vqa
+Hatch your first pet.
+@@ 1zqgmytv5x2
+Pet Parade
+@@ rnpqljateb
+Find 5 kinds of pets.
+@@ 1rgjtes5vmy
+Menagerie
+@@ 2czke0wjo5b
+Find 10 kinds of pets.
+@@ 1xpprs26emt
+Pet Encyclopedia
+@@ akdu6s6blm
+Find all 20 kinds of pets.
+@@ 14olc66x53z
+Rare Find
+@@ 1kckg13i4su
+Hatch a rare pet.
+@@ 20hih044utb
+Legendary Bond
+@@ lxm83l4cgo
+Hatch an ultra rare pet.
+@@ w72929ve1s
+Something Shiny
+@@ 1lfzhr2glte
+Hatch a shiny pet.
+@@ yrvsics1sq
+Sparkle Collector
+@@ 20eip8q6hjk
+Hatch 5 shiny pets.
+@@ 1ylahithuoo
+Good Keeper
+@@ 1gfel2fcczm
+Feed your pets 25 times.
+@@ 1tlx9safhtj
+Playtime
+@@ 21q44jsbz5f
+Play with your pets 50 times.
+@@ 1ytxcv2592d
+Best Buddy
+@@ 10svu9k8avt
+Raise a pet to level 10.
+@@ ksih88az6j
+First Blood... er, Goo
+@@ 1lt7bfp9kp3
+Win your first battle.
+@@ ukby7zenk5
+Monster Hunter
+@@ 19yzwisoowf
+Win 25 battles.
+@@ 1gstfz408kn
+Hero of the Realm
+@@ 11mxxk4ol3x
+Win 100 battles.
+@@ 1q84twatoke
+Slime Sweeper
+@@ 5slrsnw4tt
+Defeat 20 slimes.
+@@ 1ghr9fn9yrm
+Boss Breaker
+@@ dj1f3apauz
+Defeat a region boss.
+@@ 12ad7pb6y5c
+Warden of the Wilds
+@@ 26w7ojhtnwh
+Defeat the boss of every region.
+@@ 1xhxljcpqsm
+Dragon Slayer
+@@ 1vrpbur4imd
+Defeat the Black Dragon.
+@@ 22rrznaboru
+Defender of Codehaven
+@@ yt2e8qwkzx
+Chase monsters out of the village.
+@@ ve46wmui2y
+Trainee
+@@ 1a95skhb23a
+Reach 30% of a career path.
+@@ 1fv8x8lmqzx
+Halfway There
+@@ bgnq9bmvwa
+Reach 50% of a career path.
+@@ 106ezj0c7s5
+Job Ready
+@@ 25bh55zyss2
+Finish a whole career path.
+@@ 105avl3hhog
+Junior Developer
+@@ avo9awgbpu
+Pass the Junior Trial against the Elder Dragon of Bugs.
+@@ 2421cirp598
+Portfolio Piece
+@@ 2598ewwetfx
+Finish 3 projects you can show in interviews.
+@@ 1n6ggyhyenx
+Ouroboros
+@@ 1q1pvgsks3e
+Write a loop that never ends. (We stopped it for you.)
+@@ 8k33d3hstc
+Off By One
+@@ v5sgz3kqhn
+Stop exactly one step before the gate. The most famous bug in history!
+@@ 2c0qo2pu1nt
+Swimming Lessons
+@@ 21awa4ysxn2
+Walk your hero into the water.
+@@ nd1mlpcqvx
+Night Owl
+@@ 22z3h7rpctj
+Learn between midnight and 5 a.m.
+@@ bvd9c10hs5
+Early Bird
+@@ q5feqrol1j
+Learn between 5 and 8 a.m.
+@@ x0r7k5xt5z
+Tactical Retreat
+@@ 1g8ipwn02yv
+Run away from a battle. Sometimes that is wise.
+@@ 1wyr0n35xfm
+Lumi's Friend
+@@ 2u62l326uw
+Ask Lumi for help 10 times.
+@@ b461f4i22h
+Weekend Warrior
+@@ 1iyzalpv74h
+Finish a lesson on a Saturday or Sunday.
+@@ 2c8asljkalj
+What a Name!
+@@ 1vfsvg0v68e
+Give your pet a new name.
+@@ 1y7vio337z1
+Truffle Tycoon
+@@ 2dib5wbt85r
+Sell a truffle at the market.
+@@ 167jxhktopf
+Junior Candidate
+@@ 1t0gici2j1d
+Pass the Junior Trial
+@@ 1fwslgzha3y
+Finish your path
+@@ f0uetx8jds
+Reach 30% of your path
+@@ 1p6jgdqed0a
+Newcomer
+@@ 1nwdwq78mwl
+Finish your first lessons

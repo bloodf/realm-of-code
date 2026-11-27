@@ -1,0 +1,427 @@
+@@ 4ehe64vxc1
+The First Paint
+@@ 1yo6xvb4zf6
+The Royal Herald dips a brush in red paint. "HTML builds the walls. **CSS** paints them."
+@@ nkbc6256ju
+CSS is written as **rules**. A rule picks elements with a **selector**, then sets **properties**:
+
+```
+h1 {
+  color: crimson;
+}
+```
+
+- `h1` is the selector (all `<h1>` elements)
+- `color` is the property (text colour)
+- `crimson` is the value, and the line ends with `;`
+
+Browsers know 140 colour names, like `crimson`, `gold`, `navy` or `saddlebrown`.
+@@ g9kig8zxi0
+In **style.css**, make the `h1` **crimson** and the paragraphs **saddlebrown**.
+@@ jtajsln7wq
+Colours can also be written as hex (`#dc143c`), `rgb(220 20 60)` or `hsl(348 83% 47%)`. Design systems usually pick a small palette and reuse it everywhere. Good contrast between text and background matters: the WCAG accessibility guidelines ask for a contrast ratio of at least 4.5:1 for normal text.
+@@ 25v4clyu0ov
+You need two rules: one for `h1` and one for `p`.
+@@ szab06g37
+The h1 is crimson
+@@ 1au7gfcveew
+The paragraphs are saddlebrown
+@@ 2d578itg0hl
+Linking the Paint Pot
+@@ 1enh2abl075
+An apprentice painted beautiful styles... in a pot that nobody opened. The page still looks plain!
+@@ 116sov9n8rx
+CSS usually lives in its own file. The HTML must **link** to it inside `<head>`:
+
+```
+<link rel="stylesheet" href="style.css">
+```
+
+`background-color` paints the area behind an element:
+
+```
+body {
+  background-color: wheat;
+}
+```
+@@ heig8olx8q
+Link **style.css** in the `<head>` of index.html, then give the `body` a **wheat** background in style.css.
+@@ 1xscqq5xu8e
+Keeping CSS in separate files means one stylesheet can style a whole website, and the browser caches it. You can also write CSS in a `<style>` tag or in a `style="..."` attribute, but those are harder to reuse and maintain.
+@@ 1hz5koow90w
+The link goes between `<head>` and `</head>`.
+@@ 13ve8437ood
+In style.css add: `body { background-color: wheat; }`
+@@ 1jucwc6fu1p
+The heading turned dark red (the link works)
+@@ 2du14iv89dg
+The body background is wheat
+@@ 15gz1qdegk1
+Classes and Ids
+@@ kqy35xje3t
+class selector
+@@ 24lax7yvixk
+id selector
+@@ 14t9z1y6sfi
+Only the golden knights get golden letters, and only the King gets the giant crown.
+@@ 1cktia58cfi
+In HTML you can name elements:
+
+```
+<p class="gold">Sir Ada</p>     (many elements can share a class)
+<h2 id="king">King Bors</h2>   (an id is unique)
+```
+
+In CSS, a **class selector** starts with a dot and an **id selector** with a hash:
+
+```
+.gold { color: goldenrod; }
+#king { font-size: 40px; }
+```
+@@ apcphlitar
+Make every `.gold` element **goldenrod** and **bold** (`font-weight: bold`). Make `#king` **40px** big. The plain knight must stay unchanged.
+@@ 2gbcriu7gv9
+In real projects, style mostly with classes. Ids are "stronger" (higher *specificity*) and unique, which makes them hard to override and reuse. Specificity decides which rule wins when two rules style the same element: id > class > tag.
+@@ 1je5lxumkc
+Both .gold knights are goldenrod
+@@ a1nwx65jmv
+The .gold knights are bold
+@@ 1kuw5toyijx
+The king is 40px
+@@ vz313dg0va
+The plain knight is not gold
+@@ 1h82kn481ve
+The Scribe's Fonts
+@@ xv23xwb0gd
+The scribe wants the proclamation to look grand and be easy to read.
+@@ 5x6cme45nh
+Text properties:
+
+```
+body {
+  font-family: Georgia, serif;  /* first choice, then fallback */
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+p {
+  line-height: 1.6;             /* space between lines */
+}
+```
+@@ hpzrzmxvnt
+Use **Georgia, serif** for the body. Centre the h1, make it **uppercase** with **4px** letter spacing. Give paragraphs a **line-height of 1.6**.
+@@ 2dfoymeizqf
+A line-height around 1.5–1.7 makes long text much easier to read. Always end a font stack with a generic family (`serif`, `sans-serif`, `monospace`) in case the fonts are missing. Web fonts can be loaded with `@font-face` or services like Google Fonts.
+@@ 24r8zwrc0ma
+Three rules: `body`, `h1` and `p`.
+@@ 2dre8u5vl26
+The body uses Georgia
+@@ ea093qjsd2
+The h1 is centred
+@@ 6pm3fssuze
+The h1 is uppercase with 4px letter spacing
+@@ fdkyiqkrp3
+Paragraphs have line-height 1.6
+@@ 1uh8gpp8mfk
+The Box Model
+@@ 18oe9ebbhhf
+box model
+@@ 6r5go2b8lx
+The armourer explains: "Every shield is a box. Wood inside, a metal rim around, and space between shields on the wall."
+@@ 1gvfvorirsj
+Every element is a **box** made of layers, from the inside out:
+
+1. **content**: the text or image
+2. **padding**: space inside the border
+3. **border**: the rim
+4. **margin**: space outside, pushing other boxes away
+
+```
+.shield {
+  width: 200px;
+  padding: 20px;
+  border: 4px solid darkred;
+  margin: 16px;
+}
+```
+
+`border` is a shortcut: width, style, colour.
+@@ 368kch3zif
+Give `.shield` a width of **200px**, **20px** padding, a **4px solid darkred** border and a **16px** margin.
+@@ 8xeubd8y08
+By default `width` sets only the content box, so padding and border make the element wider than you asked. Most projects add `*, *::before, *::after { box-sizing: border-box; }` so `width` includes padding and border. Open your browser DevTools and hover an element to see its box model drawn in colour.
+@@ 1o07u51wpxt
+All four lines go inside the `.shield { }` rule.
+@@ 1jtc0ah9yif
+Width is 200px
+@@ 1yhey8n1xms
+Padding is 20px on every side
+@@ 18wx9xacvup
+A 4px solid darkred border
+@@ 1086l3bb26l
+Margin is 16px
+@@ dumybc6us5
+Round Coins
+@@ 1rp87q0rn7y
+The mint makes square coins by mistake. The Queen is not amused. Make them round!
+@@ 1cnusoanops
+`border-radius` rounds the corners of a box. With **50%** and equal width and height, a square becomes a **circle**:
+
+```
+.coin {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+```
+
+`box-shadow` adds a shadow: `box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);` (x, y, blur, colour).
+@@ 1hgndlyfzsm
+Make `.coin` a **100px × 100px** circle with a **gold** background. **Bonus:** add a `box-shadow`.
+@@ 1aoz1fl6z1w
+`rgba(0, 0, 0, 0.4)` is black with 40% opacity: the last number is *alpha* (transparency). Soft, subtle shadows look more modern than hard dark ones. `border-radius: 8px` for slightly rounded corners is one of the most used lines of CSS on the web.
+@@ neru99fy3j
+Width and height must be the same for a circle.
+@@ 21sn9j1ff2v
+Coins are 100px wide and tall
+@@ 28sys3bqhsr
+Coins are round (border-radius 50%)
+@@ 1od2oe4r5vf
+Coins are gold
+@@ 1nc4elftcr7
+Coins have a shadow
+@@ 24ksh6po59n
+Banners in a Row
+@@ 1hpda4ke4d4
+display: flex
+@@ 1ilgciazzw2
+The banners of the great houses hang in a pile. The Herald wants them side by side along the wall.
+@@ 617rozbji6
+**Flexbox** lines up children in a row. Put it on the **parent**:
+
+```
+.banners {
+  display: flex;
+  gap: 12px;     /* space between the children */
+}
+```
+
+All direct children of `.banners` now sit next to each other.
+@@ 1qa74pkuthe
+Make `.banners` a flex row with a **12px** gap.
+@@ 8oi3e7mtj8
+Flexbox is one-dimensional: it arranges items in a row *or* a column (`flex-direction: column`). Children can grow to fill space with `flex: 1`. Before flexbox, developers used floats and tables for layout, which was painful. Today flexbox and grid cover almost every layout.
+@@ pe4ge8rzxq
+The rule goes on `.banners`, not on `.banner`.
+@@ tnp05on81k
+.banners uses display: flex
+@@ 5s9s4wikqg
+The gap is 12px
+@@ 1wgpuxbse5x
+The banners are side by side
+@@ r83xj4ba75
+Aligning the Guard
+@@ unnjvqpgax
+The castle's top bar is a mess: the crest is squashed next to the links. Spread the guards out!
+@@ vr69qyc1wy
+Flexbox can align children:
+
+- `justify-content` works **along** the row: `flex-start`, `center`, `space-between`...
+- `align-items` works **across** it (up/down): `stretch`, `center`, `flex-end`...
+
+```
+.bar {
+  display: flex;
+  justify-content: space-between;  /* push to both ends */
+  align-items: center;             /* middle vertically */
+}
+```
+@@ r443f4md99
+Make `.bar` a flex container that puts the crest on the left and the links on the right (**space-between**), centred vertically.
+@@ d65mafw6q0
+This "logo left, links right" bar is one of the most common layouts on the web. To centre anything both ways: `display: flex; justify-content: center; align-items: center;`. Remember the axes flip if you use `flex-direction: column`.
+@@ 20912m2h67j
+Three properties on `.bar`: display, justify-content, align-items.
+@@ p1dg4virp0
+.bar is a flex container
+@@ 17mao51to2
+justify-content: space-between
+@@ 2abjmpq6fib
+align-items: center
+@@ 1v9tbajkvo
+The links sit at the right edge
+@@ lgpmtgu1i3
+The Castle Grid
+@@ 1faa50cx6jb
+CSS grid
+@@ 136mrpqtda5
+fr unit
+@@ 193ptms4rxl
+The architect plans six rooms: three on each floor. Flexbox is for rows; for floors and rooms, use the **grid**.
+@@ 1pbihc30g3x
+**CSS Grid** makes rows *and* columns:
+
+```
+.rooms {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+```
+
+`1fr` means "one fraction of the free space", so `repeat(3, 1fr)` makes 3 equal columns. Children fill the cells in order and wrap to new rows by themselves.
+@@ 1x28yqt7rgy
+Turn `.rooms` into a grid with **3 equal columns** and a **10px** gap.
+@@ 1m1jp7lazaw
+Use Grid for two-dimensional layouts (page layouts, card galleries) and Flexbox for one-dimensional ones (toolbars, rows of buttons). `grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))` creates responsive card grids without any media queries.
+@@ 1brp9olobog
+`display: grid;` first.
+@@ 1w69d9evc3j
+.rooms is a grid
+@@ 1al7xlfvj82
+It has 3 equal columns
+@@ z4jgen9u3b
+The gap is 10px
+@@ 14202kpg6k0
+Six rooms on two floors
+@@ 2e0olaehar3
+Hover Enchantments
+@@ tjt19iv9nm
+Magic runes should glow when a hand passes over them. Enchant the buttons!
+@@ 19zvt5whst3
+A **pseudo-class** styles an element in a special state. `:hover` applies while the mouse is over it:
+
+```
+.rune:hover {
+  background-color: purple;
+  transform: scale(1.1);   /* grow by 10% */
+}
+```
+
+`transition` animates the change smoothly:
+
+```
+.rune {
+  transition: all 0.3s;
+}
+```
+@@ 1fn0pyfn9rc
+Give `.rune` a **0.3s** transition. On hover, make it **purple** and **scale(1.1)**. Move your mouse over the preview to test it!
+@@ 9k4drx76fn
+Also style `:focus-visible` the same way, so keyboard users (who press Tab) see the effect too. Animating `transform` and `opacity` is cheap for the browser; animating `width` or `top` can be slow. Respect users who get motion sickness: `@media (prefers-reduced-motion: reduce) { ... }`.
+@@ 2aeajccafbh
+Two rules: `.rune { transition: all 0.3s; }` and `.rune:hover { ... }`.
+@@ vqtoazxwml
+.rune has a 0.3s transition
+@@ j9xzjcw53m
+A .rune:hover rule exists
+@@ 2flbx77ulk9
+On hover it turns purple
+@@ 2c2iamfrxn0
+On hover it scales to 1.1
+@@ 1yg3svb93c9
+The Royal Colour
+@@ m0e9h5k7qj
+custom properties
+@@ n8xyojuo91
+CSS variables
+@@ 1m4ah5qaap
+The Queen changes her favourite colour every season. The painters are exhausted from repainting every banner one by one.
+@@ 25go6s2jmy5
+**Custom properties** (CSS variables) store a value once and reuse it:
+
+```
+:root {
+  --royal: #3b2a8f;
+}
+h1 {
+  color: var(--royal);
+}
+```
+
+`:root` is the top of the page, so the variable works everywhere. Change it in one place and everything updates.
+@@ 11wv930gnnb
+Create `--royal` on `:root` with the value **#3b2a8f**. Use `var(--royal)` for the `h1` colour **and** the `.banner` background.
+@@ 27idep59d6a
+Design systems and themes (like dark mode) are built on custom properties: switch a few variables and the whole site changes. Unlike variables in preprocessors like Sass, CSS variables live in the browser, so JavaScript can change them at runtime: `document.documentElement.style.setProperty("--royal", "teal")`.
+@@ 1qgykc46dt6
+--royal is #3b2a8f on :root
+@@ 1ulqwmidfd4
+The h1 uses the royal colour
+@@ 20r2dgljvhc
+The banner background uses the royal colour
+@@ 1js8v1b3kui
+Both use var(--royal)
+@@ tgbymxwd26
+Shapeshifting Screens
+@@ 22n1q5n4qdk
+responsive design
+@@ zmgxc88vcl
+media queries
+@@ 1ntlj4tc01a
+Messengers read the castle pages on tiny scrolls (phones). Three columns are far too squeezed there.
+@@ 1w2vighap0f
+A **media query** applies CSS only when a condition is true, such as a small screen:
+
+```
+@media (max-width: 600px) {
+  .rooms {
+    grid-template-columns: 1fr;   /* one column on small screens */
+  }
+}
+```
+
+Everything inside the braces only applies when the page is **600px wide or less**.
+@@ 1ks67097ghn
+Keep 3 columns on wide screens, but switch `.rooms` to **one column** when the screen is **600px or narrower**. (The forge will test it by shrinking the preview.)
+@@ cl3k61evuo
+Many teams write CSS *mobile-first*: the base styles are for phones, and `@media (min-width: ...)` adds columns for bigger screens. Common breakpoints are around 640px, 768px, 1024px and 1280px, but the best breakpoints are where *your* design starts to look bad. Do not forget `<meta name="viewport" content="width=device-width, initial-scale=1">` in real pages.
+@@ 6250oo51gw
+Write `@media (max-width: 600px) { ... }` at the bottom of the file.
+@@ p2t4fxtlns
+Inside it: `.rooms { grid-template-columns: 1fr; }`
+@@ 85v5hbjyk4
+There is a media query with max-width
+@@ 1d466f6mpez
+At 900px wide: 3 columns
+@@ 1byi7rqaf9m
+At 400px wide: 1 column
+@@ 1mcaoszlb0f
+The Royal Heraldry
+@@ 227yvojbgt
+everything so far
+@@ 1jd9yr87vqe
+The Queen commissions a **crest card** for her new knight. It must be beautiful, it must glow when touched, and it must look good even on a messenger's tiny scroll.
+@@ 20k1ol1i8yi
+Boss challenge! Combine what you learned. One new trick: gradients are images, so they go in `background`:
+
+```
+background: linear-gradient(135deg, #f6e7c1, #d9b56a);
+```
+@@ tht8o7fu6h
+Style the crest card in **style.css**:
+- `:root` has a `--gold` variable, and the `.crest h2` uses it as its colour
+- `.crest` is a **flex column** with centred items, **24px** padding, rounded corners (**16px**), a **linear-gradient** background and a box-shadow
+- `.tags` is a flex row with an **8px** gap, and each `.tag` has rounded corners
+- `.crest:hover` uses a `transform`
+- On screens **500px or narrower**, `.crest` padding becomes **12px**
+@@ 2ddzito1xcn
+Professional CSS is mostly these same building blocks, well organised. Naming conventions like BEM (`.crest__title`, `.crest--large`) help keep big stylesheets tidy. Tools like Tailwind (coming soon in the Tailors' Quarter) take a different approach.
+@@ 2dbalux1lu9
+The media query: `@media (max-width: 500px) { .crest { padding: 12px; } }`
+@@ 1jtopidhko8
+--gold is defined and used for .crest h2
+@@ 20afqsd9jq1
+.crest is a centred flex column
+@@ xur0jiusys
+.crest has 24px padding and 16px rounded corners
+@@ datat6r5n1
+.crest has a linear-gradient and a shadow
+@@ cv546ct8nt
+.tags is a flex row with an 8px gap; tags are rounded
+@@ 1z38b7s1wwy
+.crest:hover uses a transform
+@@ kfvbmvfigg
+At 400px wide the padding is 12px

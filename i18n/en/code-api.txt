@@ -1,0 +1,83 @@
+@@ 1wlvehiqhvs
+The realm has a practice API at `https://api.realm.dev`:
+- `GET /knights` → all knights (`?house=Lovelace` filters)
+- `GET /knights/:id` → one knight, or **404**
+- `POST /knights` → create a knight (JSON body with `name`), answers **201**
+- `GET /quests` → all quests
+@@ o4fqnaiffm
+Summon the Knights
+@@ 2evv5arporq
+The royal archive has an API. Send a raven (a request) and list every knight in the realm.
+@@ 27cigew2g40
+In `main`, fetch all knights and print each knight's **name** on its own line.
+@@ 1e07vvvhe6q
+Two awaits are needed: the first waits for the response headers, the second (`res.json()`) waits for the body to download and be parsed. In the browser DevTools, the **Network** tab shows every request, its status and its response.
+@@ vi2w4c3qsx
+Fetches https://api.realm.dev/knights
+@@ e62e5hwa6b
+Prints Ada, Bors and Cyra
+@@ 1rfabggc0vm
+Uses await and res.json()
+@@ g6r2ksrr83
+Knight Not Found
+@@ 2acnkwk5d34
+status codes
+@@ uspbtyvd7l
+error handling
+@@ 1tayrz2dxvr
+Not every knight exists. A careless scribe asked for knight number 99 and the whole archive crashed. Handle it gracefully.
+@@ 8c3jiyiun
+{0}
+
+`fetch` does **not** fail on 404 or 500. Check the response yourself:
+
+```
+const res = await fetch(url);
+if (!res.ok) {            // ok is true for status 200-299
+  return null;
+}
+return await res.json();
+```
+@@ 1ru8uxb6802
+Write `async function getKnight(id)` that returns the knight object, or `null` when the API answers with an error status.
+@@ tn21q95huz
+`fetch` only rejects (throws) on network failures, like being offline. HTTP errors arrive as normal responses. Many teams wrap fetch in a small helper that throws on `!res.ok`, so errors are never silently ignored.
+@@ 21rxpqx0tog
+getKnight(2) returns Bors
+@@ 2be8kx9t5hv
+getKnight(3) returns Cyra
+@@ 1pqdk1pppeq
+getKnight(99) returns null
+@@ 1igqtyb9xdh
+Checks res.ok (or res.status)
+@@ 158e8q8nq84
+Recruit a Knight
+@@ opiuubof4f
+request body
+@@ 2gk4l3y05sg
+A new squire wants to join. Send the archive a POST request to create their record.
+@@ 18osgrvzkr0
+{0}
+
+To send data, pass options to `fetch`:
+
+```
+const res = await fetch("https://api.realm.dev/knights", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ name: "Dax", house: "Ironhill" }),
+});
+const created = await res.json();   // the new knight, with an id
+```
+@@ 10hn52f5ewr
+Write `async function recruit(name, house)` that POSTs the new knight as JSON and returns the created knight from the response.
+@@ 1sc6qt85bag
+The `Content-Type` header tells the server how to read the body. APIs usually answer a successful creation with **201 Created** and return the new resource, including the id the server generated.
+@@ qxdp5msxp4
+Use `method: "POST"`, a `headers` object and `body: JSON.stringify({ name, house })`.
+@@ 3zo8zi72in
+Sends a POST request
+@@ eqzfnyupeq
+Returns the created knight (with a new id)
+@@ bnb81quyed
+Sends JSON with a Content-Type header

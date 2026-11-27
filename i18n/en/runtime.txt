@@ -1,0 +1,272 @@
+@@ 1jfnds14hqp
+Express lesson: you are on a roll, so {0} skipped.
+@@ uu1qnojf91
+one easy question was
+@@ 2c047dwci8b
+two easy questions were
+@@ 10qroyq49gu
+Warm-up first: a quick look at questions you missed before.
+@@ 1v95f688ckc
+Timeout
+@@ 2cz9hi3ym5y
+Your spell ran for too long and was stopped. This usually means a loop never ends.
+@@ 1tagnk9oy2x
+Collect every gem
+@@ xa3s53oie8
+Collect at least {0} gems
+@@ 75y0seba8h
+Defeat every goblin
+@@ 163uyituawv
+Reach the castle gate
+@@ 1h251oeli70
+Use at most {0} lines of code
+@@ 256xwe656ss
+No type curses (TypeScript errors)
+@@ 27lgjspq3qv
+Error
+@@ 1c8ylj5mfrc
+A preview frame is needed for web lessons
+@@ faiswqw72r
+[Function: {0}]
+@@ 1puitkcewpd
+... {0} more
+@@ 1qgm2ef21yb
+Map({0}) { {1} }
+@@ 2bxwjfpohmu
+Set({0}) { {1} }
+@@ ehnoiwxyzr
+Expected NOT: 
+@@ 1rtv4otkm28
+expected {0} to be truthy
+@@ cm4mp4rlks
+expected {0} to be falsy
+@@ 17qjt4wz4s9
+expected {0} to be null
+@@ 1tstom8bhyy
+expected {0} to be undefined
+@@ 1b7j7jdms9
+expected value to be defined
+@@ vk3sudpkxl
+expected length {0}, got {1}
+@@ 1gztzgw2ox9
+expected function to throw "{0}"
+@@ 22nvedaobf7
+expected function to throw
+@@ 1rri2vz4s3d
+Cannot {0} {1}
+@@ 3caz89vnvr
+Lovelace
+@@ jdtz4cn4l6
+Ironhill
+@@ tbd1shgglh
+Cyra
+@@ 1v2m2hxyvdm
+Slay the dragon
+@@ ezku88he5v
+Find the lost goat
+@@ kavcweg1nj
+Deliver the royal letter
+@@ soui967ki4
+Failed to fetch (only https://api.realm.dev works in this realm)
+@@ 1lybql0qcy9
+Knight not found
+@@ 1yn4kgx99ze
+Body must be JSON
+@@ w0g7xz226i
+name is required
+@@ 1wniqpxi9m
+Codeshire
+@@ h5sz7ewxzg
+Not found
+@@ 1ajuoro6znp
+Created
+@@ yvgqz5xwkj
+Not Found
+@@ u3ocrpaqmc
+Bad Request
+@@ 1l5z3za4sr4
+Your hero does not know `{0}`. Did you mean `hero.{1}()`? Spelling and capital letters must match exactly.
+@@ 2goczr6lvce
+Your hero does not know `{0}`. Check the list of commands in the lesson.
+@@ 10dyaymmwry
+The Oracle has never heard of `{0}`. Check the spelling (capital letters matter!), or create it first with `let` or `const`.
+@@ 2dhx0c4v6q7
+You tried to open `.{0}` on something that is `{1}`, an empty scroll. Check that the value before the dot really exists.
+@@ rb8vkcolro
+`{0}` is not a spell you can cast with `()`. Check the name, or look at what the value really is.
+@@ 1psxulf49g8
+A `const` is sealed forever and cannot be changed. Use `let` if the value needs to change.
+@@ bfv50njnwa
+You created the same name twice. Create it once, then just change it (without `let`/`const`).
+@@ 5y1y1v1rak
+The spell ends too early. A `}` or `)` is probably missing. Count your opening and closing brackets.
+@@ 22np5tmcf2v
+Something is in the wrong place. Look for a missing comma, bracket or quote near this line.
+@@ dzafu8czp
+A piece of text is missing its closing quote `"`.
+@@ 2bmx3rvwxlu
+A function keeps calling itself forever. Give it a way to stop (a base case).
+@@ 4owk1feeyw
+Check your loop condition: does it ever become false? Does the counter change each time?
+@@ d2k0u5bjna
+Directions are text, so they need quotes: `"up"`, `"down"`, `"left"` or `"right"`.
+@@ qsp0zlympd
+The rune (type) does not fit. TypeScript expected a different kind of value here.
+@@ 11ab0t6g2xb
+TypeScript cannot find this name. Check the spelling or declare it first.
+@@ 7g4wvdu43x
+This parameter needs a type rune, like `(name: string)`.
+@@ 21aj8q1qzfn
+That property does not exist on this type. Check the spelling or add it to the type.
+@@ 1oxiq6gwlc1
+This value might be `null`/`undefined`. Check it with an `if` first.
+@@ 1taey7ysmpd
+The function was called with the wrong number of arguments.
+@@ 8x05mtjobl
+Python has never heard of `{0}`. Check the spelling (capital letters matter!), or give it a value first.
+@@ gm5ljepb93
+Python uses **spaces at the start of a line** to group code. The lines inside `if`, `for`, `while` and `def` need 4 spaces, all the same.
+@@ 1g3bo41gf3q
+A line that starts a block (`if`, `for`, `while`, `def`) must end with a colon `:`.
+@@ 241pyeju8o5
+Python cannot read this line. Look for a missing `:`, bracket or quote.
+@@ dp7uunsqem
+You added text and a number. Turn the number into text first: `str(number)`, or use an f-string: `f"score {n}"`.
+@@ g3l0ua8nx1
+Dividing by zero is impossible, even for wizards.
+@@ 1rzadrnak79
+You asked for a position that is not in the list. Lists start at 0, and the last item is at `len(list) - 1`.
+@@ 1n1fh8sm9wl
+That key is not in the dictionary. Check the spelling, or use `.get(key)`.
+@@ 2u9fzgqivc
+That value does not have this method or field. Check the name and the type of the value.
+@@ zx022fq7io
+The value has the right type but a wrong content, for example `int("abc")`.
+@@ f3k8kqrffy
+PHP lines end with a semicolon `;`. One is missing on this line or the line before.
+@@ xkh0dmhg1c
+PHP cannot read this line. Look for a missing `;`, bracket, quote or `$`.
+@@ xyfm5nvv6c
+PHP does not know this function. Check the spelling, or define it with `function name() { ... }` first.
+@@ 3ju3subnes
+Variables in PHP start with `$` and must have a value before you use them.
+@@ uz2y05igk9
+bash: {0}: No such file or directory
+@@ 19cdlpqsq28
+Commands: pwd ls cd mkdir touch cat echo rm mv cp clear git
+@@ 1svxmghhrkd
+ls: cannot access '{0}': No such file or directory
+@@ 1vgdde1d58b
+cd: {0}: No such file or directory
+@@ kprdbru52s
+mkdir: missing operand
+@@ 1zri9ie0wwe
+mkdir: cannot create directory '{0}': File exists
+@@ ykxk6glq81
+mkdir: cannot create directory '{0}': No such file or directory
+@@ 1cfp3ct3bbu
+touch: missing file operand
+@@ gvb3n9uz7a
+touch: cannot touch '{0}': No such file or directory
+@@ 1z4m0uu0hqq
+cat: missing file operand
+@@ 1g7o6y35g8k
+cat: {0}: Is a directory
+@@ 25556xg334n
+cat: {0}: No such file or directory
+@@ g85elaw7j3
+rm: missing operand
+@@ iixpzr86zn
+rm: cannot remove '{0}': Is a directory
+@@ hasl16gbl4
+rm: cannot remove '{0}': No such file or directory
+@@ 97di5ef863
+{0}: missing destination file operand
+@@ 59ms3i1it8
+{0}: cannot stat '{1}': No such file or directory
+@@ 2cd2wevcgif
+{0}: cannot move to '{1}': No such file or directory
+@@ 63pjh0pm4v
+(Opening {0} in the editor...)
+@@ 18229zbgiw9
+{0}: command not found
+@@ 87n3v1p90b
+Reinitialized existing Git repository
+@@ 22d3k8ik8pg
+Initialized empty Git repository in {0}/.git/
+@@ lawwqs7akw
+git version 2.45.0
+@@ 2e5231mery1
+fatal: not a git repository (or any of the parent directories): .git
+@@ 1gr6baptgop
+On branch {0}
+@@ 1v9qmeekhmo
+No commits yet
+@@ u2l6t95p5u
+Changes to be committed:
+@@ 11opyleh4js
+	new file / modified:   {0}
+@@ 10ad7010br8
+Changes not staged for commit:
+@@ 24x5izs1dj9
+	modified:   {0}
+@@ 115mdszt3zt
+Untracked files:
+@@ 2bry4tpcyz
+  (use "git add <file>..." to include in what will be committed)
+@@ yxs3rcubf4
+nothing to commit, working tree clean
+@@ 13sccc6gij7
+Nothing specified, nothing added.
+@@ 5fu9evqucc
+fatal: pathspec '{0}' did not match any files
+@@ 202xw7kyfex
+error: please use git commit -m "your message" in this realm
+@@ 4ta606r6u5
+On branch {0}
+nothing to commit, working tree clean
+@@ 9b8h76ciib
+[{0} {1}] {2}
+ {3} file{4} changed
+@@ 1e50az0z910
+fatal: your current branch '{0}' does not have any commits yet
+@@ li8wxb7ais
+fatal: a branch named '{0}' already exists
+@@ kvr81xa3gf
+fatal: missing branch name
+@@ 14pfk02u7sq
+fatal: invalid reference: {0}
+@@ 2g5lokk2wjh
+Switched to {0}branch '{1}'
+@@ 63chw6dyj8
+a new 
+@@ 1bu1bflhnca
+merge: {0} - not something we can merge
+@@ m2776o2re1
+Already up to date.
+@@ 183rd6nwuhf
+Merge branch '{0}'
+@@ nxzf48tcwk
+Merge made by the 'ort' strategy.
+@@ 1edwk539mz4
+To https://github.com/hero/{0}.git
+ * [new branch]      {1} -> {2}
+@@ 823h7nnluu
+git: '{0}' is not a git command in this realm. Try: init, status, add, commit, log, branch, switch, merge
+@@ 5kb2wxjggc
+echo "no tests"
+@@ f57tvstxyy
+Wrote to {0}
+@@ 195ig3p4vu2
+npm error code ENOENT: no package.json here. Run npm init -y first.
+@@ 3i2tsruw0v
+added {0} packages in 1s
+@@ 1hk4k21gt3u
+npm error Missing script: "{0}"
+@@ 1nee59j958q
+  VITE ready in 312 ms
+  ➜  Local:   http://localhost:5173/
+@@ i51lqfm3r0
+Usage: npm init -y | npm install <package> | npm run <script>
+@@ 2b22nvei7qx
+The query ran for too long and was stopped.

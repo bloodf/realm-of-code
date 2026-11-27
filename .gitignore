@@ -1,0 +1,23 @@
+node_modules
+dist
+public/vendor
+public/blockly-media
+public/py
+public/php
+tests/shots
+tests/e2e-logs
+*.tsbuildinfo
+
+# Local files and deployment credentials
+.DS_Store
+.vercel
+.codegraph
+.env
+.env.*
+*.pem
+*.key
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/

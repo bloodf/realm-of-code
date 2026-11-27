@@ -1,0 +1,190 @@
+@@ 1ndnrqi3172
+Echo in the Hall
+@@ r6wofeef7r
+The Guildhall of PHP builds the pages of half the web. Your first job: say hello.
+@@ 2fz9blt92v1
+PHP code starts with `<?php`. `echo` prints text. Every statement ends with `;`:
+
+```
+<?php
+echo "Hello, guild!\n";
+echo 'Single quotes work too';
+```
+`\n` starts a new line.
+@@ ungq24s809
+Print `Hello, Guildhall!` on the first line and `PHP builds the web.` on the second.
+@@ 1z8uitttm1p
+Do not forget the `;` at the end of each line.
+@@ 8s71syrpix
+Prints "Hello, Guildhall!"
+@@ 1gnqubrt3rh
+Then "PHP builds the web."
+@@ sfm7iu3zej
+Dollars and Dots
+@@ 1kiy8cqdeuz
+Guild members pay dues. Keep their names and coins in variables.
+@@ r4o1m5zoqr
+Variables start with `$`. Join text with a dot `.`, or put variables inside **double quotes**:
+
+```
+$name = "Ada";
+$coins = 40;
+$coins = $coins + 10;
+echo $name . " has " . $coins . " coins\n";
+echo "$name has $coins coins\n";   // same result
+```
+@@ 13uulmi1fj0
+Create `$member` = `"Bors"` and `$dues` = 25. Add 15 to `$dues`. Print exactly `Bors paid 40 coins`.
+@@ 1phxtzoj4v6
+$member is "Bors"
+@@ 2fzt39um1g0
+$dues is 40
+@@ z5x6dftrne
+Prints "Bors paid 40 coins"
+@@ 1pktv8vb3yx
+The Rank Rules
+@@ kvcgz2c22j
+The guild gives ranks by experience points.
+@@ 17g6ykggvu5
+```
+function rank($xp) {
+    if ($xp >= 100) {
+        return "master";
+    } elseif ($xp >= 50) {
+        return "journeyman";
+    } else {
+        return "apprentice";
+    }
+}
+echo rank(70);   // journeyman
+```
+Note: `elseif` is one word in PHP.
+@@ 2ax7voz9xtl
+Write `rank($xp)`: `"apprentice"` under 50, `"journeyman"` from 50 to 99, `"master"` from 100.
+@@ 10x7xy5pilu
+Start with the biggest: `if ($xp >= 100)`
+@@ 1g2hnyuofa5
+rank(10) is "apprentice"
+@@ 1z60awjkxa3
+rank(50) and rank(99) are "journeyman"
+@@ 1mepr0n1qyf
+rank(100) is "master"
+@@ tkzqxpdsjp
+The Roll Call
+@@ shssgjyzwf
+Every morning the guild master reads the list of members.
+@@ 1o9kgb10rd3
+Add `"Eryn"` to `$members`, then print each member as `<number>. <name>` starting at 1, and finally `Total: <count>`.
+@@ 1amlofclubf
+Prints "1. Ada" first
+@@ 21p0w52gga2
+Prints "4. Eryn"
+@@ ky0388dd10
+Ends with "Total: 4"
+@@ gxa6e98my3
+Uses foreach
+@@ 21tmewc3h2j
+The Guild Ledger
+@@ c1iw8fdxs3
+associative arrays
+@@ 23i4vl99tyb
+The treasurer keeps coins per member in an associative array.
+@@ n1yz95flwp
+An **associative array** maps keys to values:
+
+```
+$coins = ["Ada" => 40, "Bors" => 15];
+$coins["Cyra"] = 30;
+foreach ($coins as $name => $n) {
+    echo "$name: $n\n";
+}
+echo array_sum($coins);   // 85
+```
+@@ 1y7vrnorokc
+Write `richest($coins)` that returns the **name** with the most coins, and `total($coins)` that returns the sum of all coins.
+@@ ix1ube1e48
+`array_sum($coins)` adds the values
+@@ 251a76iza2p
+Loop and remember the best so far, or use `array_search(max($coins), $coins)`
+@@ 24hgkk4agq9
+richest(...) is "Bors"
+@@ 1n2rnspdyq1
+total(...) is 165
+@@ 14nil3613k3
+Safe Pages
+@@ 2578i2izja0
+string functions
+@@ 2dqwamxi6ko
+A prankster wrote `<script>` in his name to attack the guild website. Defend it!
+@@ 1q91ayddfm4
+Never print user text directly into HTML. `htmlspecialchars()` turns `<` into `&lt;` so the browser shows it as text:
+
+```
+$name = "<b>Bors</b>";
+echo "<p>Hello " . htmlspecialchars($name) . "</p>";
+// <p>Hello &lt;b&gt;Bors&lt;/b&gt;</p>
+```
+Other useful functions: `trim()`, `strtolower()`, `ucfirst()`, `strlen()`.
+@@ 1kgmi3ahshm
+Write `greeting($name)` that trims spaces from `$name`, escapes it with `htmlspecialchars`, and returns `<p>Welcome, NAME!</p>`.
+@@ 1jhht6jw4zn
+greeting("  Ada ") is <p>Welcome, Ada!</p>
+@@ 4n2jvke32w
+A <script> name is escaped
+@@ ie4c7wt62n
+The Member Class
+@@ 1ynfdxs9c18
+The guild is growing: time to model members as objects.
+@@ 2815mvrysno
+```
+class Member {
+    public function __construct(
+        public string $name,
+        private int $xp = 0
+    ) {}
+
+    public function train(int $points): void {
+        $this->xp += $points;
+    }
+
+    public function getXp(): int {
+        return $this->xp;
+    }
+}
+$m = new Member("Ada");
+$m->train(30);
+```
+`->` reaches a property or method. `private` properties can only be changed by the class itself.
+@@ d5n9f70qfx
+Finish `Member`: `train($points)` adds XP (ignore negative points), `level()` returns `intdiv(xp, 100) + 1`.
+@@ 16lbpg77z4p
+A new member is level 1
+@@ viixx7eifz
+150 XP makes level 2
+@@ beph71tvb9
+Negative points are ignored
+@@ 273ah08j0ag
+200 XP makes level 3
+@@ 1iysi5xu8bk
+Project: The Guild Board
+@@ 24h063obfac
+arrays of arrays
+@@ nh4fgd4xye
+HTML output
+@@ 1r6j0eezbgq
+The guild wants a web page that lists the quests, best reward first. Many real PHP sites are built exactly like this.
+@@ 2a0zgyuqmbx
+Sort an array with your own rule:
+
+```
+usort($quests, fn($a, $b) => $b["reward"] <=> $a["reward"]);
+```
+`<=>` (the spaceship) returns -1, 0 or 1. `fn` is a short function.
+@@ 1ricl9ucah5
+Write `board($quests)` that returns an HTML list: `<ul>` then one `<li>TITLE: REWARD gold</li>` per **open** quest (`done` is false), sorted by reward, highest first, then `</ul>`. Escape titles with `htmlspecialchars`.
+@@ 1adkxjqaj7k
+Only open quests are listed
+@@ zksl12ax82
+Highest reward first
+@@ abnjwzhgqm
+Exact HTML with escaped titles

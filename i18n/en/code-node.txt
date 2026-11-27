@@ -1,0 +1,178 @@
+@@ fii2ro9q4f
+This realm runs a mini **Express** in your browser. Write the server as usual; the game sends test requests to `app` and shows them in the console:
+
+```
+const express = require("express");
+const app = express();
+
+app.get("/hello", (req, res) => {
+  res.send("Hail!");
+});
+```
+@@ 1m04rknimhq
+Hello, Tavern
+@@ edj505kt2z
+The Tavern of Couriers opens its doors. Hungry travellers (HTTP requests) are already queuing. Build the server that answers them.
+@@ xwfhsyj8q3
+{0}
+
+- `res.send(text)` answers with text
+- `res.json(data)` answers with JSON
+@@ 1qtx8aydowz
+Create the app. `GET /` answers with the text **Welcome to the tavern!** and `GET /menu` answers with a JSON **array of at least 3 dishes** (strings).
+@@ v22lpy3cv8
+In a real project you would finish with `app.listen(3000)` and visit http://localhost:3000. Express is the most used Node.js web framework; newer ones (Fastify, Hono, NestJS) use very similar ideas: routes, handlers, request and response.
+@@ 1qmyipz4t8o
+GET / answers "Welcome to the tavern!"
+@@ 1cldm55nvt1
+GET /menu answers a JSON array of 3+ dishes
+@@ 1gyq5znumq5
+Unknown routes give 404 (Express does this for you)
+@@ 106wfxk7v2j
+Route Parameters
+@@ frb0dcdfow
+Couriers ask about specific knights by number: "Tell me about knight 2!"
+@@ 1jyrkxyj6d
+{0}
+
+A `:name` in the path is a **route parameter**:
+
+```
+app.get("/knights/:id", (req, res) => {
+  const id = Number(req.params.id);   // params are strings!
+  ...
+  res.status(404).json({ error: "Not found" });
+});
+```
+@@ 22yndocfyj6
+`GET /knights/:id` answers with the matching knight as JSON, or status **404** with `{ error: "Knight not found" }`.
+@@ 1cun2s98i5p
+Everything in a URL is text, so `req.params.id` is `"2"`, not `2`. Forgetting `Number()` makes `===` comparisons fail: one of the most common Express bugs.
+@@ 2bp20112ot6
+GET /knights/2 answers Bors
+@@ dt97ktlhvu
+GET /knights/9 answers 404
+@@ 6sfkji2m6d
+...with { error: "Knight not found" }
+@@ 174cc0aw4vc
+Query Strings
+@@ 2798wervg9a
+Couriers want lists: "All the knights of House Lovelace, please."
+@@ 1dsi9md3oy3
+{0}
+
+Options after `?` in the URL are the **query string**: `/knights?house=Lovelace`. Read them with `req.query`:
+
+```
+req.query.house   // "Lovelace" (or undefined when not given)
+```
+@@ pmocxtms17
+`GET /knights` answers all knights, or only those of the house given in `?house=...`.
+@@ 1xzyu9v4alb
+Use route params for **identity** (`/knights/2`) and query strings for **options** like filters, sorting and pagination (`/knights?house=Lovelace&page=2`).
+@@ 1kpn3bz9uj5
+GET /knights answers all 3 knights
+@@ 25ln77ebhh8
+?house=Lovelace answers Ada and Cyra
+@@ dp95f734z0
+An unknown house answers an empty array
+@@ emdt2k2cwi
+Creating Knights
+@@ etx9omx0zy
+New squires arrive with their papers (a JSON body). Register them, but turn away anyone without a name.
+@@ 98z8sil5uv
+`POST /knights` creates a knight from `{ name, house }` with the next id (4, 5, ...), stores it, and answers **201** with it. Without a `name`, answer **400** with `{ error: "name is required" }`.
+@@ 16cgzg5codv
+Never trust input: always validate on the server, even if the front end validates too. Libraries like **zod** make validation declarative. Status codes matter: 201 for created, 400 for a bad request, 401/403 for auth problems, 404 for missing things.
+@@ k4ghsgyhj4
+Creating Dax answers 201 with id 4
+@@ 1kul09pqc76
+The next knight gets id 5 and is stored
+@@ x8m3cuk3yt
+Missing name answers 400 { error: "name is required" }
+@@ 21zzqfktj7o
+Guards at the Treasury
+@@ 4filvp0v5j
+Authorization header
+@@ 6b231r3u9m
+error handlers
+@@ 172tt4n8sxe
+Thieves keep asking for the royal treasury. Post a guard (middleware) that only lets through couriers with the secret token.
+@@ avzg268sy3
+{0}
+
+**Middleware** runs before route handlers. It can stop the request, or call `next()` to let it through:
+
+```
+function requireToken(req, res, next) {
+  if (req.get("Authorization") !== "Bearer dragon-key") {
+    return res.status(401).json({ error: "Unauthorized" });
+  }
+  next();
+}
+app.get("/treasury", requireToken, (req, res) => { ... });
+```
+
+An **error handler** has four parameters: `(err, req, res, next)`.
+@@ 1an1pdxeyfk
+Protect `GET /treasury` (answers `{ gold: 1000 }`) with a middleware: without the header `Authorization: Bearer dragon-key`, answer **401** `{ error: "Unauthorized" }`. Also add an error handler that turns thrown errors into **500** `{ error: err.message }` (the `/explode` route throws).
+@@ g5gwezu2ec
+Real apps use middleware for logging, authentication (sessions or JWTs), rate limiting, CORS and validation. The order of `app.use` calls matters: middleware runs in the order it was added.
+@@ 27ftqtf4y4t
+Pass the middleware before the handler: `app.get("/treasury", requireToken, handler)`.
+@@ 26ge2u2wctx
+No token: 401 { error: "Unauthorized" }
+@@ 1hu56c9do8v
+Unauthorized
+@@ 22jzobibqwl
+Wrong token: 401
+@@ 1jyb4wgbg3f
+Right token: 200 { gold: 1000 }
+@@ m4cxhsmljk
+Errors become 500 { error: "The cauldron exploded" }
+@@ cevzs8968m
+The cauldron exploded
+@@ 1wocf8n9kfk
+Uses a 4-parameter error handler
+@@ 2gnb27se491
+The Quest API
+@@ e6bvveg4ok
+The Guild wants a full API for its quest board: list, read, create, update and delete. This is the kind of task junior backend developers get in their first weeks.
+@@ 1zjwxsqxt2j
+{0}
+
+A **REST** API maps actions to HTTP methods on one resource:
+- list: `GET /quests` → 200
+- read: `GET /quests/:id` → 200 (404 if missing)
+- create: `POST /quests` → 201
+- update: `PATCH /quests/:id` → 200
+- delete: `DELETE /quests/:id` → 204
+@@ 1wnmwig8nod
+Build the quest API on the `quests` array:
+- `GET /quests` → all quests
+- `GET /quests/:id` → one quest, or 404 `{ error: "Quest not found" }`
+- `POST /quests` with `{ title, reward }` → 201 and the new quest (`id` = next number, `done: false`); 400 `{ error: "title is required" }` without a title
+- `PATCH /quests/:id` with e.g. `{ done: true }` → 200 and the updated quest (404 if missing)
+- `DELETE /quests/:id` → 204 (404 if missing)
+@@ 2fekkmb7z96
+Next steps in a real project: store the data in a database (see the SQL section), add authentication, validate input with a schema, write tests with Supertest, and document the API with OpenAPI/Swagger.
+@@ 59sjm186wd
+Write a small helper: `const find = (id) => quests.find((q) => q.id === Number(id));`
+@@ cz5qvs8pq3
+GET /quests lists the 2 quests
+@@ 1i7m40zixi4
+GET /quests/1 → the dragon quest; /quests/42 → 404
+@@ 29ljdhpfvrr
+Quest not found
+@@ 1uixnbmajqu
+POST creates quest 3 (201, done: false)
+@@ hbur9idw00
+Guard the bridge
+@@ 10srja6m2tv
+POST without a title → 400
+@@ 1kx7l0xulij
+title is required
+@@ 1c6pzsw2osl
+PATCH /quests/3 marks it done
+@@ l61t9o25h8
+DELETE /quests/1 → 204, then it is gone (404); unknown id → 404

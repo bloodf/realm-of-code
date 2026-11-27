@@ -1,0 +1,125 @@
+16f3jzohggx ¦ Python ¦ Python
+ceigxnf5bj ¦ A Biblioteca da Serpente ¦ La Biblioteca de la Serpiente
+22ogmj9f0bg ¦ A linguagem de programação mais amigável: variáveis, decisões, loops, listas, dicionários, funções, erros e classes. Usada na web, em dados, automação e IA. ¦ El lenguaje de programación más amigable: variables, decisiones, bucles, listas, diccionarios, funciones, errores y clases. Se usa en la web, datos, automatización e IA.
+t61htstyi4 ¦ Primeiras Palavras ¦ Primeras Palabras
+r022kwjmld ¦ print, strings, números e variáveis. ¦ print, strings, números y variables.
+3qtj3mnab ¦ Conheça o Python ¦ Conoce Python
+2alit36zewl ¦ O que `print("Hi")` faz? ¦ ¿Qué hace `print("Hi")`?
+608rmgcg3z ¦ Mostra Hi na tela ¦ Muestra Hi en la pantalla
+29vh8z1og9s ¦ Imprime no papel ¦ Lo imprime en papel
+iq9yf729kn ¦ Salva um arquivo ¦ Guarda un archivo
+6p8s1fexj6 ¦ Ligue a ferramenta de Python ao seu uso ¦ Une cada herramienta de Python con su uso
+271ws57x1gc ¦ Django ¦ Django
+lakxlr7glx ¦ Sites ¦ Sitios web
+1vc84drq9bq ¦ Tabelas de dados ¦ Tablas de datos
+134ioxffq9h ¦ Inteligência artificial ¦ Inteligencia artificial
+vbvzs21q2y ¦ Testar código ¦ Probar código
+cxsc1014np ¦ Em Python, as linhas não precisam de ponto e vírgula no fim. ¦ En Python, las líneas no necesitan punto y coma al final.
+1gxxwassurm ¦ Nomes para valores ¦ Nombres para valores
+azjiwurtmn ¦ Crie uma variável e imprima-a ¦ Crea una variable e imprímela
+8ho5jun50s ¦ Qual linha tem o bug? ¦ ¿Qué línea tiene el bug?
+1vm2ahbgg70 ¦ Falta a aspa de fechamento na string: `"Ada"`. ¦ Al string le falta la comilla de cierre: `"Ada"`.
+7rjj1vtmoo ¦ Qual nome segue o estilo do Python? ¦ ¿Qué nombre sigue el estilo de Python?
+mnhk12ren4 ¦ `snake_case` é o jeito Python. Nomes não podem começar com dígito nem ter `-`. ¦ `snake_case` es el estilo de Python. Los nombres no pueden empezar por un dígito ni contener `-`.
+wzhp1qnp5n ¦ Fazendo contas ¦ Hacer cuentas
+2cgaq2kgray ¦ Divisão inteira ¦ División entera
+212rbgbaiyp ¦ Divisão (float) ¦ División (float)
+n02hryb9l8 ¦ Quanto é `int("7") + 3`? ¦ ¿Cuánto es `int("7") + 3`?
+966phtm55s ¦ f-strings e input ¦ f-strings e input
+n6hk6bhx5r ¦ Colocando valores no texto ¦ Meter valores en el texto
+1snxvywmzhm ¦ Termine a f-string ¦ Termina la f-string
+102xumid3h6 ¦ Que tipo o `input()` retorna? ¦ ¿Qué tipo devuelve `input()`?
+l2sqmrt80o ¦ Um int ¦ Un int
+1jq8scx0v8r ¦ Um float ¦ Un float
+2g0uvhb351v ¦ Depende ¦ Depende
+1111gj9p2g9 ¦ Sempre uma string: converta com `int(...)` quando precisar de um número. ¦ Siempre un string: conviértelo con `int(...)` cuando necesites un número.
+q8rlikiusi ¦ Booleanos, comparações, if, elif, else. ¦ Booleanos, comparaciones, if, elif, else.
+ztspu3ffrp ¦ True ou False ¦ True o False
+x6yxw2xn66 ¦ Booleanos ¦ Booleanos
+jo18qdk087 ¦ Os dois precisam ser verdadeiros ¦ Los dos deben ser verdaderos
+2c7doxexglw ¦ Pelo menos um é verdadeiro ¦ Al menos uno es verdadero
+2acqddnwbsg ¦ Inverte True e False ¦ Invierte True y False
+l2gbpcf47g ¦ O Python escreve `True` com T maiúsculo. ¦ Python escribe `True` con T mayúscula.
+1846yzv7s58 ¦ if, elif, else ¦ if, elif, else
+41fbcrqpjy ¦ Fazendo escolhas ¦ Tomar decisiones
+11irwno23cf ¦ Coloque as linhas em ordem ¦ Ordena las líneas
+2eql8d3zad ¦ Qual linha está errada? ¦ ¿Qué línea está mal?
+25lccm3zrox ¦ A linha do `if` precisa terminar com dois-pontos: `if score > 100:` ¦ La línea del `if` debe terminar con dos puntos: `if score > 100:`
+17kn4pmupv6 ¦ O que faz um código fazer parte do bloco `if` em Python? ¦ ¿Qué hace que un código forme parte del bloque `if` en Python?
+d1jsxuspfb ¦ A indentação ¦ La sangría
+2cvgtdk4ikc ¦ Chaves { } ¦ Llaves { }
+28u1iw9vra4 ¦ A palavra then ¦ La palabra then
+20nbgyp3bxp ¦ Um ponto e vírgula ¦ Un punto y coma
+17jhmqq9ngf ¦ Vazio significa False ¦ Vacío significa False
+1tu7clhzogl ¦ `None` é o jeito do Python dizer "sem valor". ¦ `None` es la forma de Python de decir "sin valor".
+2a0k32ewj9p ¦ Qual destes é truthy? ¦ ¿Cuál de estos es truthy?
+a7fp0kcmqm ¦ `"0"` é uma string não vazia, então é truthy. ¦ `"0"` es un string no vacío, así que es truthy.
+100zjhefoxj ¦ Loops ¦ Bucles
+ee866zp90i ¦ while, for, range, break e continue. ¦ while, for, range, break y continue.
+1f6yin4pq29 ¦ for e range ¦ for y range
+1ovfwsb76t ¦ Repetindo ¦ Repetir
+1f0z4q4mts2 ¦ Conte de 1 a 10 ¦ Cuenta de 1 a 10
+bt9edobmv9 ¦ Quantas vezes `for i in range(5)` roda? ¦ ¿Cuántas veces se ejecuta `for i in range(5)`?
+62zatb930n ¦ while, break, continue ¦ while, break, continue
+24jfzdohvlb ¦ Repetindo com uma condição ¦ Repetir con una condición
+3rklu80w7h ¦ `==` compara, não muda `count`. Use `count = count + 1` ou `count += 1`. ¦ `==` compara, no cambia `count`. Usa `count = count + 1` o `count += 1`.
+25l8yx0290i ¦ Sair do loop agora ¦ Salir del bucle ya
+1hxsqptj5oy ¦ Pular para a próxima volta ¦ Saltar a la siguiente vuelta
+27gz3a85zsp ¦ Repetir enquanto uma condição for verdadeira ¦ Repetir mientras una condición sea verdadera
+sy4konjkn7 ¦ Coleções ¦ Colecciones
+yqbxqz1wm9 ¦ Listas, dicionários, tuplas, conjuntos e compreensões. ¦ Listas, diccionarios, tuplas, conjuntos y comprensiones.
+1ne0j3940xc ¦ Adicione "Eryn" à lista ¦ Añade "Eryn" a la lista
+1a0lv64a4c ¦ Quanto é `len([3, 5, 7])`? ¦ ¿Cuánto es `len([3, 5, 7])`?
+1o6o6isnwjo ¦ Dicionários ¦ Diccionarios
+uwso8g4g3w ¦ Chave e valor ¦ Clave y valor
+23bwp3xbl1e ¦ Qual linha gera um KeyError? ¦ ¿Qué línea lanza un KeyError?
+25y9sw1hfxf ¦ Não existe a chave "shield". Use `prices.get("shield")` para evitar o erro. ¦ No existe la clave "shield". Usa `prices.get("shield")` para evitar el error.
+1978cyksbi1 ¦ Ligue a coleção ¦ Une cada colección
+1z62bwsfim6 ¦ Tuplas, conjuntos e compreensões ¦ Tuplas, conjuntos y comprensiones
+1wur1crdzg0 ¦ Mais coleções ¦ Más colecciones
+s8ys7yrb2m ¦ Por que usar uma tupla em vez de uma lista? ¦ ¿Por qué usar una tupla en lugar de una lista?
+12d5s7vuqhd ¦ Os valores não devem mudar ¦ Los valores no deben cambiar
+1s0b7agiysl ¦ Ela cabe mais itens ¦ Caben más elementos
+ddrqjzpfy6 ¦ Listas não guardam números ¦ Las listas no pueden guardar números
+maz88w2yrc ¦ Funções e Módulos ¦ Funciones y Módulos
+jx2kpwq5bg ¦ def, return, parâmetros, escopo, imports. ¦ def, return, parámetros, ámbito, imports.
+1ls55x4jyib ¦ def e return ¦ def y return
+4jdd67v13u ¦ Suas próprias funções ¦ Tus propias funciones
+1lqac0ngwip ¦ Por que isto imprime None? ¦ ¿Por qué esto imprime None?
+n1erils8hr ¦ A função calcula `total` mas nunca o retorna. Adicione `return total`. ¦ La función calcula `total` pero nunca lo devuelve. Añade `return total`.
+155qcr6q08l ¦ Termine a função ¦ Termina la función
+18d7846nwm5 ¦ Módulos e pip ¦ Módulos y pip
+n9l75yxeiv ¦ Pegando ferramentas emprestadas ¦ Tomar herramientas prestadas
+1cfh8cdeaon ¦ Comece um novo projeto Python ¦ Empieza un proyecto Python nuevo
+1gtovqx2asg ¦ Para que serve o `requirements.txt`? ¦ ¿Para qué sirve `requirements.txt`?
+23lq4cgumk7 ¦ Listar os pacotes de que um projeto precisa ¦ Listar los paquetes que necesita un proyecto
+2c7tae9746x ¦ Escrever a documentação ¦ Escribir la documentación
+oa1hapa2zm ¦ Guardar senhas ¦ Guardar contraseñas
+170zodxpb2l ¦ Rodar testes ¦ Ejecutar pruebas
+28qvh7x6fhg ¦ Instala pacotes ¦ Instala paquetes
+1rv28900466 ¦ O índice de pacotes ¦ El índice de paquetes
+25cu90mqg20 ¦ Um ambiente isolado ¦ Un entorno aislado
+kgcwxj6ir8 ¦ Usa um módulo no seu código ¦ Usa un módulo en tu código
+1f1mbr2idd3 ¦ Erros e Objetos ¦ Errores y Objetos
+1ijqmtjnkmr ¦ try/except, classes e um projeto de verdade. ¦ try/except, clases y un proyecto de verdad.
+1t8sp1hlq2b ¦ try e except ¦ try y except
+1vknpjb16my ¦ Ligue o erro ¦ Une cada error
+4ro9oxng6e ¦ Onde você olha primeiro num traceback do Python? ¦ ¿Dónde miras primero en un traceback de Python?
+b30jyvvp6m ¦ A última linha ¦ La última línea
+mh0l4cmpsw ¦ A primeira linha ¦ La primera línea
+1h53911msrf ¦ O meio ¦ En medio
+e0jfzfhq2d ¦ Em lugar nenhum, é só rodar de novo ¦ En ningún sitio, basta con volver a ejecutarlo
+2ar7xdrpdn ¦ Moldes ¦ Moldes
+mo8z5armlu ¦ Termine a classe ¦ Termina la clase
+25noe38x4w7 ¦ Todo método de uma classe recebe `self` como primeiro parâmetro. ¦ Todo método de una clase recibe `self` como primer parámetro.
+1xg76v8dh4h ¦ Testando com pytest ¦ Probar con pytest
+113warkkat2 ¦ Provando que seu código funciona ¦ Demostrar que tu código funciona
+19jvs4wk9k8 ¦ O que `assert x == 3` faz quando x é 5? ¦ ¿Qué hace `assert x == 3` cuando x es 5?
+wf0expvy1g ¦ Gera um AssertionError ¦ Lanza un AssertionError
+283ip1z2fv9 ¦ Imprime False ¦ Imprime False
+25aw3tyeopb ¦ Muda x para 3 ¦ Cambia x a 3
+25up8pfy0q1 ¦ Escreva um teste ¦ Escribe una prueba
+1omlryf0ft7 ¦ Roda os testes ¦ Ejecuta las pruebas
+23phk2calo8 ¦ Confere um fato ¦ Comprueba un hecho
+1pd0p0qtmk6 ¦ Onde os testes moram ¦ Dónde viven las pruebas
+2czjla8dcr9 ¦ O relatório de erro ¦ El informe de error

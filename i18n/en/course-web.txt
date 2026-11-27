@@ -1,0 +1,564 @@
+@@ 4se0wuz8yd
+Web Foundations
+@@ 2cid8a69a1e
+The Village Gate
+@@ eukhkt1pd6
+How the internet and websites work, and how programmers think.
+@@ 10hrrxvi3sa
+How the Web Works
+@@ 1h1f8woado6
+Browsers, servers, addresses and the three languages of the web.
+@@ 27yotgmjkpj
+
+**Key ideas**
+- A **browser** (Chrome, Firefox, Safari, Edge) shows web pages.
+- A **server** is a computer that sends pages when a browser asks for them.
+- A **URL** is an address: `https://realm.dev/quests?level=2` = protocol + domain + path + query.
+- Browsers and servers talk with **HTTP**: the browser sends a *request*, the server sends a *response* with a *status code* (200 OK, 404 Not Found, 500 Server Error).
+- **HTML** builds the structure, **CSS** adds style, **JavaScript** adds behaviour.
+- The **front end** runs in the browser; the **back end** runs on the server (databases, logins, payments).
+@@ sg7z8apvjr
+Browsers and servers
+@@ 15g55lrfpuf
+The web is a conversation
+@@ 1pub9717qt6
+When you open a website, your **browser** (the app you use to visit websites) asks another computer, called a **server**, for the page.
+
+The server answers by sending files back, and your browser draws the page on your screen.
+@@ 1x7hg2hfoll
+What is a browser?
+@@ bwio6g4bm4
+A program that shows web pages
+@@ 1adbo2sbqyy
+A computer that stores websites
+@@ lhc5dwf3fs
+A programming language
+@@ 17y3pljroa7
+Which of these is a browser?
+@@ 2ehrepjf5np
+Firefox
+@@ 1vqeis2nay1
+Google Search
+@@ 1wog2kqalgo
+Google Search is a *website*. Chrome is Google's browser.
+@@ moz8qw1izx
+A server is a computer that sends websites to other computers when they ask.
+@@ 85f6sb4md3
+Match each word to its meaning
+@@ 6h7nuel3bw
+Browser
+@@ 13nqi8ovf9y
+Shows pages to you
+@@ vbic45ph09
+Server
+@@ 241abyjjiz7
+Sends pages when asked
+@@ 2d4e31g0tq5
+Internet
+@@ 24jy9dhryu
+The network linking computers
+@@ o7yja4m6z4
+Website
+@@ n1b16te28m
+A group of related pages
+@@ skzm2ykrca
+When your browser asks a server for something, that message is called a...
+@@ bvab9tnesq
+The browser sends a **request**; the server replies with a **response**.
+@@ 1gu9ugoq7vd
+A website lives inside your browser, even when you are offline.
+@@ 14li90o35t5
+The files live on a server. Your browser downloads them when you visit.
+@@ 92qndn9nuz
+Web addresses (URLs)
+@@ 19cs9y89nm7
+Anatomy of a URL
+@@ 1vhligjmivz
+A **URL** is the address of a page:
+
+```
+https://shop.realm.dev/swords?color=gold
+```
+- `https` is the **protocol** (how to talk)
+- `shop.realm.dev` is the **domain** (which server)
+- `/swords` is the **path** (which page)
+- `?color=gold` is the **query** (extra options)
+@@ 1xitrnoisae
+Match the parts of https://shop.realm.dev/swords?color=gold
+@@ dbv54iu18i
+Protocol
+@@ 1gaf0bfq2pe
+Domain
+@@ 4zk4mvxyck
+Path
+@@ ac78hhe4h1
+Query
+@@ recp76rxev
+In `https://maps.realm.dev/castles/42`, what is the path?
+@@ 1b2q9zjfl9
+In `https://realm.dev/search?q=dragon`, what does the query ask for?
+@@ 1nosb7bi0dp
+A search for "dragon"
+@@ lw40gvaamf
+The domain called q
+@@ 2ejugjumhjm
+A secure connection
+@@ pym9a851l
+Page number 42
+@@ 2f02mfa3425
+`https` is safer than `http` because the connection is encrypted.
+@@ 11gxd3j4kn8
+The "s" stands for *secure*: nobody in between can read the data.
+@@ 21evwe52mun
+Which protocol should every modern website use? Type it.
+@@ 90jtgm8br4
+Names and numbers
+@@ 1z1i3navdk9
+Computers find each other with numbers called **IP addresses** (like `93.184.216.34`). Humans prefer names like `realm.dev`.
+
+The **DNS** (Domain Name System) is the internet's phone book: it turns a domain name into an IP address.
+@@ h4qras2e7s
+What does DNS do?
+@@ 14d0qmtvbn9
+Turns a domain name into an IP address
+@@ evjyzbvuyn
+Makes websites faster to load
+@@ ve7hke9p40
+Stores your passwords
+@@ v608ucgbo2
+Draws the page on the screen
+@@ 19qws9c06gv
+Two different websites can share the exact same domain name.
+@@ 1u7vd22nl4p
+A domain name is unique, like a postal address. Whoever registers it owns it.
+@@ 117852dcaa5
+Requests and responses
+@@ 1lazxbswp3y
+Browsers and servers talk using **HTTP**. Each request has a **method**:
+- `GET`: "give me something" (open a page)
+- `POST`: "here is new data" (send a form)
+
+Each response has a **status code**:
+- `200` OK
+- `404` Not Found
+- `500` Server Error
+@@ 1hk36ra9ob9
+You open a page to read it. Which HTTP method does the browser use?
+@@ 96kfjs1eog
+You submit a sign-up form. Which method is used to send the new data?
+@@ 2392adaippz
+Match the status code with its meaning
+@@ 1x96fpxnxg1
+OK, here you go
+@@ 1y05pse1xm8
+The server had an error
+@@ dji54itl4g
+Moved to a new address
+@@ u343wuurp3
+A 404 error means the server crashed.
+@@ 24pt21wqa96
+404 means the page does not exist. A crash is usually a 5xx code, like 500.
+@@ 2a3upd21g0q
+Status codes starting with 4 (like 403 or 404) usually mean...
+@@ 1rxu0omcjic
+The request has a problem (client error)
+@@ 25pw99mgrco
+Everything worked
+@@ 1pkzc8hbw9n
+The server is broken
+@@ 1efcc6gmrce
+The page moved
+@@ 1m0pql7kjhk
+4xx = the request is wrong (missing page, not allowed). 5xx = the server failed.
+@@ 260lgr4d8ln
+What comes back
+@@ ajx6yn2yji
+A response is not only HTML. A server can send **HTML** pages, **CSS** files, **JavaScript** files, **images**, and data in a format called **JSON**.
+
+One web page usually needs many requests: one for the HTML, then more for its styles, scripts and images.
+@@ rxjv3iknb5
+Loading one web page can take many requests.
+@@ w1wrfcvilk
+Which format do servers often use to send plain data to apps?
+@@ 17hs5qqms1l
+JSON looks like `{ "name": "Ada", "level": 3 }`. You will use it a lot.
+@@ 238aprcg1qa
+The three languages
+@@ cy9hm7mfi3
+HTML, CSS and JavaScript
+@@ 2osb84uycj
+Every website uses three languages:
+- **HTML** builds the structure (walls and rooms)
+- **CSS** makes it look good (paint and banners)
+- **JavaScript** makes it do things (magic!)
+@@ ah52lv6jr0
+Match the language with its job
+@@ 18ajrzj5z1c
+Structure and content
+@@ 1d36kovo3ha
+Colours and layout
+@@ 1wa97njnw72
+Behaviour and logic
+@@ hvv43750si
+You want the title to be red. Which language do you use?
+@@ 2b7bw2wyf27
+You want a message to appear when someone clicks a button. Which language?
+@@ 1hl8soxqv33
+Which language is this?
+@@ 1u64mhtorto
+A web page can work with HTML alone, without CSS or JavaScript.
+@@ yxqochqqd7
+It will be plain, but it works. HTML is the foundation; CSS and JS are added on top.
+@@ 35wz277e41
+Front end and back end
+@@ 1tjk34aunsv
+Two sides of every app
+@@ 1zrs2yrr49v
+The **front end** is everything that runs in the browser: what you see and click.
+
+The **back end** runs on servers: it stores data in **databases**, checks passwords, takes payments and sends data to the front end.
+
+A **full-stack** developer works on both.
+@@ 1p3jt9ca7sw
+Match each word with its meaning
+@@ 1dshcnuo10d
+Front end
+@@ ukpjjl3xa2
+Runs in the browser
+@@ f31jg37ryf
+Back end
+@@ 1hzppxf0y6p
+Runs on the server
+@@ 1jcudmc30ca
+Database
+@@ zvn4l1vewh
+Stores the data
+@@ pb4zxvt0uu
+Full-stack
+@@ 1ububhtr3dn
+Works on both sides
+@@ woyqjkbi20
+Where should a password be checked?
+@@ 1odts6q6ecl
+On the back end (server)
+@@ 2aplri54ila
+In the browser only
+@@ 1i0hl4tj1rt
+In the URL
+@@ 2dpnw2v3s28
+Anything in the browser can be seen and changed by the user, so secrets and checks belong on the server.
+@@ 1v1z5v9a9g5
+What is a database?
+@@ 2eu7c6q08ab
+An organised store of data
+@@ n2zyba4sug
+A fast browser
+@@ 1t03fk8cnb
+A kind of web page
+@@ 1vyaj5jvdi4
+A design tool
+@@ 35jfshu26
+React, Vue and Svelte are tools for building front ends.
+@@ 1e4tomg6zgx
+A developer who builds both the interface and the server is called...
+@@ 100snrnkq0d
+Half-stack
+@@ glb5jl2193
+Back-office
+@@ yceumbu53g
+Cross-browser
+@@ 1rfeoylmpdz
+Which language runs **both** in the browser and on servers (with Node.js)?
+@@ 1qtdy15gue3
+Thinking Like a Programmer
+@@ 13wanxz955q
+Programs, algorithms, bugs and the tools developers use.
+@@ pjqkkdotwb
+
+**Key ideas**
+- A **program** is a list of instructions. The computer follows them exactly, in order.
+- An **algorithm** is a step-by-step plan to solve a problem. Break big problems into small steps.
+- Repeated steps become **loops**; decisions ("if it rains...") become **conditions**.
+- A **bug** is a mistake in a program. Debugging = finding and fixing it: read the error, change one thing at a time, test again.
+- Developers write code in an **editor** (like VS Code), save files with extensions (`.html`, `.css`, `.js`) and use the browser **DevTools** (F12).
+- Good learners practise a little every day, read the docs (MDN), and ask clear questions.
+@@ 1qshb7n322z
+What is a program?
+@@ ixvb81498g
+Instructions, in order
+@@ 1rb5hunknlj
+A **program** is a list of instructions for a computer. The computer follows them **exactly** and **in order**, one after another.
+
+Computers are fast, but they do not guess what you meant. That is why precise instructions matter.
+@@ h7wvw01sq8
+A computer understands what you meant, even when your instructions are unclear.
+@@ 3oeifrl4e4
+Computers do exactly what the code says, nothing more and nothing less.
+@@ 17i0djfkelh
+Put the instructions for making toast in order
+@@ k8kk2o9pvu
+What is the best description of a program?
+@@ xty0c6t4s1
+Exact instructions a computer follows in order
+@@ 28cpullcve7
+A picture on a screen
+@@ 1br9sxf99fb
+A kind of computer
+@@ 15je7d2ep15
+A website address
+@@ 1x49hnxztpt
+A robot must follow: "Walk forward. Turn left. Walk forward." What happens if you swap the last two lines?
+@@ tg069nj6ht
+It ends in a different place
+@@ xy0kapmo53
+Nothing changes
+@@ 1rd8wtspmo0
+The robot refuses
+@@ 1dlwg75xa0f
+It walks twice as far
+@@ vma92frtja
+Order matters! Changing the order changes the result.
+@@ a9fs98tgcn
+Text written in a programming language
+@@ 1qn4grzqsmn
+A set of instructions that does a job
+@@ 1d8h7z7ufgn
+Programmer
+@@ 725mvl6zc0
+A person who writes code
+@@ 1ohay4subkj
+Tell the computer to do the instructions
+@@ 245caewxx8t
+The same task can often be solved by many different programs.
+@@ k2y5h90iil
+Algorithms and patterns
+@@ 7j4y4wg0l6
+Break it down
+@@ 1anja9po676
+An **algorithm** is a step-by-step plan. Programmers solve big problems by breaking them into small steps.
+
+Look for **patterns**:
+- Steps that repeat → a **loop** ("do this 10 times")
+- Decisions → a **condition** ("if it rains, take an umbrella")
+@@ k3h5msa05o
+"Knock on each of the 20 doors in the street." Which idea fits best?
+@@ k5o3godkxm
+A loop
+@@ kc1y2r4qq
+A condition
+@@ myqhusj4u2
+A variable name
+@@ 1267sd0eqis
+A bug
+@@ 288u4c9r0hv
+"If the door is locked, use the key." Which idea fits best?
+@@ 1u5cc1p3hkf
+An algorithm to find the tallest knight in a line
+@@ 1slce0rr857
+An algorithm must be written in a programming language.
+@@ da1tnxk7v
+An algorithm is the plan. You can write it in plain words first, then turn it into code.
+@@ 16at6o3b2a5
+Why do programmers break big problems into smaller steps?
+@@ dricjf7edl
+Small steps are easier to solve and test
+@@ 17a9zhr6dul
+Computers cannot run long programs
+@@ bvz9mw2i9
+It makes the program slower
+@@ 1n949g45wm
+It is required by law
+@@ 1aj2qyoqjdg
+Match the everyday task with the programming idea
+@@ 1cjfu2jbpkg
+Repeat 10 push-ups
+@@ 21pgq12ycju
+Loop
+@@ 156576qt0v6
+If hungry, eat
+@@ 10jnay4a8s4
+Write your name on a box
+@@ 1owqo35de79
+Variable
+@@ z2l6yzaz3v
+A recipe
+@@ 1auy3mokqfe
+Algorithm
+@@ 1rldub9r021
+Bugs and debugging
+@@ 1ma1zuvmofx
+Everyone writes bugs
+@@ lvbk12i6ui
+A **bug** is a mistake in a program. All programmers, even experts, write bugs every day.
+
+**Debugging** means finding and fixing them:
+1. Read the error message carefully
+2. Find where it happens
+3. Change **one** thing
+4. Test again
+@@ 1l0ao9ak3d7
+Good programmers never make mistakes.
+@@ 1dcii07jrym
+Good programmers make mistakes all the time. They are just good at finding and fixing them.
+@@ 1vb13czd4yi
+Put the debugging steps in order
+@@ 6ha1fg32rt
+Your code shows an error. What should you do first?
+@@ urkvwwwn2q
+Read the error message carefully
+@@ 1tkzmw4p7s5
+Delete all the code
+@@ 6ylsf9fs6c
+Restart the computer
+@@ clz1nyso38
+Change many things at once
+@@ 21k1pph1add
+Why change only one thing at a time when debugging?
+@@ ryblcsq1oe
+So you know which change fixed (or broke) it
+@@ 2vyr7izr5n
+Because editors only allow one change
+@@ 1lw4juuijj0
+To make the program faster
+@@ 2ftuwx3kwf7
+It does not matter
+@@ 1m8g95ji0zi
+The rubber duck
+@@ 4hmfnbe6dq
+A famous trick: explain your code, line by line, to a rubber duck (or a friend, or a pet). Saying it out loud often reveals the bug. It is called **rubber duck debugging**.
+@@ 181hzpc6ppy
+Explaining your code out loud can help you find bugs.
+@@ 1yhgnefnokm
+The word "bug" became famous when engineers found a real insect stuck in a computer. Today a bug means...
+@@ 1s61t342d8x
+A computer virus
+@@ 2e7yndp6a5a
+A slow internet connection
+@@ 2doqpyc2si4
+A broken screen
+@@ zqygprzgo3
+Your tools
+@@ vu2d93hvbw
+The developer's workshop
+@@ 27df2g53b7w
+Developers write code in a **code editor**. The most popular one is **VS Code** (free).
+
+Code is saved in **files** inside **folders**. The file **extension** tells what is inside:
+- `.html` for HTML
+- `.css` for CSS
+- `.js` for JavaScript
+@@ 17bhhpi5rsp
+Match the file to its language
+@@ 1u4y6jwa9ze
+JSON data
+@@ 1pprqa4uu1u
+What is VS Code?
+@@ 22pggcozjle
+A free code editor
+@@ 2g9x64hijh7
+A web browser
+@@ sv7q0wk0p
+A website builder for kids only
+@@ aeka0hd25z
+Every browser has built-in **DevTools** (open them with **F12** or right-click → *Inspect*). You can:
+- see the HTML of any page
+- try CSS changes live
+- read errors in the **Console**
+@@ 167gpl87d3g
+How do you usually open the browser DevTools?
+@@ n52nl1ti06
+Press F12 or right-click → Inspect
+@@ 103deuuit65
+Type "devtools" in the URL bar
+@@ 2f2frba76y
+Restart the browser
+@@ 27miall0xlf
+Install a new browser
+@@ 1dvurosrh1m
+Where do JavaScript errors appear in DevTools?
+@@ 2ejkyuflv58
+In the Console
+@@ 1o8nr7ylyos
+In the URL bar
+@@ 16h0d28ixrx
+In the bookmarks
+@@ 3s3m436sjd
+In the downloads list
+@@ 9g7en9v3nx
+The main page of a website is usually called index.html.
+@@ c6rc3n5ia9
+Servers look for `index.html` by default when you visit a folder.
+@@ 2e19jvv4v9l
+What extension does a JavaScript file have? (for example: .txt)
+@@ v99ieyofn9
+How to learn code
+@@ 5l26lqagxu
+Learning like a pro
+@@ 1gea3yzefky
+Nobody memorises everything. Professional developers:
+- practise **a little every day**
+- read the **documentation** (for the web: **MDN**, developer.mozilla.org)
+- search for error messages
+- ask clear questions, showing their code and the error
+@@ 4wm5idw3bh
+Which site is the best reference for HTML, CSS and JavaScript?
+@@ 1ulq0c0asxu
+MDN (developer.mozilla.org)
+@@ 2btqlupi2c4
+A random forum post from 2009
+@@ 1cty8npwhto
+A social media app
+@@ i7131drelk
+A video game wiki
+@@ 1oyvohf9shb
+Professional developers look things up all the time.
+@@ 14kkpl7mkrk
+Searching and reading docs is a core skill, not cheating.
+@@ 22xqs672tz5
+Which question is easiest for someone to answer?
+@@ 1hazfru6dwg
+"My button does nothing when clicked. Here is my code and the error from the console."
+@@ 142qodbk9tg
+"My code is broken, help!"
+@@ xfxxp3zhx0
+"Why doesn't it work?"
+@@ 3nsihyq2sf
+"Is coding hard?"
+@@ 1vl4dvnu0bc
+AI assistants can write code. What is the smart way to use them while learning?
+@@ 1d6c7lxxcrr
+Ask them to explain, then write and understand the code yourself
+@@ jcaebqokxg
+Copy everything without reading it
+@@ 1ief5fssjeb
+Never check their answers
+@@ yu3wpczf2n
+Use them instead of practising
+@@ zj0g7t2cwz
+AI tools make mistakes. You need to understand code to notice them. That is why learning the basics still matters.
+@@ 1tdfwzq39fy
+What helps you remember new skills best?
+@@ 1fk9yijhbx6
+Short practice every day
+@@ 55ni9fshdb
+One 10-hour session per month
+@@ 12tx09457fe
+Reading without trying
+@@ 1sqmq0vnd4y
+Only watching videos
+@@ 1eo2vh6wrqv
+Short daily practice beats long rare sessions. That is why this game has streaks!
+@@ twy3p97k9e
+Match the habit with why it helps
+@@ siy3n4pbdg
+Builds memory
+@@ 16j05f1q44y
+Finds bugs faster
+@@ pg0s4we3ah
+Building projects
+@@ 19rp5r3rto5
+Shows employers your skills
+@@ mqvuv8f262
+Asking clear questions
+@@ 1i8mqg4zjj3
+Gets better help

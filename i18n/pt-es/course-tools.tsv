@@ -1,0 +1,213 @@
+xr5hhe4pnp ¦ Oficina do Desenvolvedor ¦ Taller del Desarrollador
+5nwlgsib9j ¦ A Oficina dos Artífices ¦ El Taller de los Artífices
+asoitc1wtn ¦ Como os desenvolvedores trabalham de verdade: o terminal, Git e GitHub, pull requests, npm, ferramentas de build e depuração. ¦ Cómo trabajan de verdad los desarrolladores: la terminal, Git y GitHub, pull requests, npm, herramientas de build y depuración.
+1lnln8m1827 ¦ O Terminal ¦ La Terminal
+10fbchjudlb ¦ Ande pelas pastas e gerencie arquivos digitando comandos. ¦ Muévete por las carpetas y gestiona archivos escribiendo comandos.
+1thxqdw30q3 ¦ O que é o terminal? ¦ ¿Qué es la terminal?
+1fb29pkvatn ¦ Conversando com o computador ¦ Hablar con el ordenador
+1ouk3i4a0z6 ¦ Por que os desenvolvedores usam o terminal? ¦ ¿Por qué usan la terminal los desarrolladores?
+111gn2djcer ¦ Muitas ferramentas (Git, npm, servidores) são usadas digitando comandos ¦ Muchas herramientas (Git, npm, servidores) se usan escribiendo comandos
+dwif7znme6 ¦ É o único jeito de abrir arquivos ¦ Es la única forma de abrir archivos
+1219ttxnj1 ¦ Deixa o computador mais rápido ¦ Hace el ordenador más rápido
+1cr25yf4fbl ¦ Só para hackear ¦ Solo para hackear
+2376g5ypkk4 ¦ Ligue o comando ao que ele faz ¦ Une cada comando con lo que hace
+ee538l8nm9 ¦ Mostrar a pasta atual ¦ Mostrar la carpeta actual
+hhn7lq4lvt ¦ Listar arquivos ¦ Listar archivos
+189d9vn4lg4 ¦ Mudar de pasta ¦ Cambiar de carpeta
+uld8u7b04l ¦ Criar uma pasta ¦ Crear una carpeta
+5kvuu5miji ¦ Em `hero@realm:~$`, o `~` significa sua pasta pessoal. ¦ En `hero@realm:~$`, el `~` significa tu carpeta personal.
+1rgqjwmrrzc ¦ O que `..` significa em `cd ..`? ¦ ¿Qué significa `..` en `cd ..`?
+mbhdtj6xy3 ¦ A pasta acima (a pasta-mãe) ¦ La carpeta de arriba (la carpeta padre)
+kwzedp60f ¦ A pasta pessoal ¦ La carpeta personal
+eyfnmjbz0i ¦ Todas as pastas ¦ Todas las carpetas
+1qr5yfr97kq ¦ Qual comando mostra a pasta em que você está? ¦ ¿Qué comando muestra la carpeta en la que estás?
+1l5wovvg5bd ¦ Andando por aí ¦ Moverse
+ejo59ebd7w ¦ Navegação ¦ Navegación
+17mi161m7kd ¦ Você está em `/home/hero/castle/hall`. Onde você fica depois disto? ¦ Estás en `/home/hero/castle/hall`. ¿Dónde estás después de esto?
+1hd1d1a8c4t ¦ Qual comando também lista arquivos ocultos (como `.git`)? ¦ ¿Qué comando lista también los archivos ocultos (como `.git`)?
+e515z1v46u ¦ Um tesouro está escondido no `cellar`, dentro da pasta `dungeon`. Vá até lá com `cd` e leia `treasure.txt` com `cat`. ¦ Hay un tesoro escondido en `cellar`, dentro de la carpeta `dungeon`. Ve allí con `cd` y lee `treasure.txt` con `cat`.
+28eserhyfg7 ¦ Use `ls` para olhar em volta. `cd dungeon`, depois `cd cellar`, depois `cat treasure.txt`. ¦ Usa `ls` para mirar alrededor. `cd dungeon`, luego `cd cellar`, luego `cat treasure.txt`.
+1nkvh4xyd2z ¦ Arquivos e pastas ¦ Archivos y carpetas
+1zdjs84hy3e ¦ Criando e arrumando ¦ Crear y ordenar
+f7p4vljx6p ¦ Ligue o comando ¦ Une cada comando
+8iacpsf0h4 ¦ Criar um arquivo vazio ¦ Crear un archivo vacío
+1ukifkywfpu ¦ Mover ou renomear ¦ Mover o renombrar
+1u8fb2niukv ¦ Copiar ¦ Copiar
+1cen5mjir88 ¦ Apagar ¦ Borrar
+30wa43e0h9 ¦ Arquivos apagados com `rm` vão para a lixeira. ¦ Los archivos borrados con `rm` van a la papelera.
+1qhy4g62uvs ¦ Qual cria uma pasta chamada `images`? ¦ ¿Cuál crea una carpeta llamada `images`?
+6itoafs7yk ¦ Monte um novo projeto de site: crie uma pasta `my-site` contendo `index.html`, `style.css` e uma pasta `images`. ¦ Prepara un proyecto web nuevo: crea una carpeta `my-site` que contenga `index.html`, `style.css` y una carpeta `images`.
+1tw9nu96jm5 ¦ Git Básico ¦ Git Básico
+3bcs7a8ghg ¦ Pontos de salvamento para o seu código: init, add, commit, log. ¦ Puntos de guardado para tu código: init, add, commit, log.
+142n0n8gp2a ¦ Por que controle de versão? ¦ ¿Por qué control de versiones?
+2fiatpvjovc ¦ Pontos de salvamento para código ¦ Puntos de guardado para el código
+2bxga0ahswe ¦ O que é um commit? ¦ ¿Qué es un commit?
+113zahq6wv1 ¦ Uma foto salva do projeto ¦ Una instantánea guardada del proyecto
+1dvko5khkvx ¦ Um arquivo que foi apagado ¦ Un archivo que se borró
+14t3c0uns2x ¦ Um tipo de branch ¦ Un tipo de rama
+15jgibcnfmp ¦ Uma conta do GitHub ¦ Una cuenta de GitHub
+13eusi9qop5 ¦ Git e GitHub são a mesma coisa. ¦ Git y GitHub son lo mismo.
+1zwcvjcs0jl ¦ O Git é a ferramenta no seu computador. O GitHub é um site que hospeda repositórios Git. ¦ Git es la herramienta de tu ordenador. GitHub es un sitio web que aloja repositorios Git.
+1ghicycziov ¦ Repositório (repo) ¦ Repositorio (repo)
+1wsd0677c8l ¦ Um projeto acompanhado pelo Git ¦ Un proyecto controlado por Git
+171qfmzs5t4 ¦ Commit ¦ Commit
+1l2jtzb8u0j ¦ Uma foto salva ¦ Una instantánea guardada
+9hlc5t60i ¦ Site que hospeda repos ¦ Sitio web que aloja repos
+22wi4adg3sl ¦ Histórico ¦ Historial
+1qhfn8mc0v6 ¦ Todos os commits em ordem ¦ Todos los commits en orden
+2ftq5ytpqpm ¦ Por que as empresas exigem Git? ¦ ¿Por qué las empresas exigen Git?
+1b2iwcd6m7w ¦ As equipes podem trabalhar juntas e desfazer erros com segurança ¦ Los equipos pueden trabajar juntos y deshacer errores con seguridad
+nd2uqparhq ¦ Faz o código rodar mais rápido ¦ Hace que el código se ejecute más rápido
+294thxru4cn ¦ É necessário para escrever HTML ¦ Es necesario para escribir HTML
+13j4lkup5hm ¦ Substitui os testes ¦ Sustituye a las pruebas
+5m0lboy1u6 ¦ Seu primeiro commit ¦ Tu primer commit
+r1lk9cwlpx ¦ Os três passos ¦ Los tres pasos
+xqrusx21ue ¦ Coloque os comandos em ordem para um primeiro commit ¦ Ordena los comandos para un primer commit
+1obij96ytu6 ¦ O que o `git add` faz? ¦ ¿Qué hace `git add`?
+vm517g5qjo ¦ Prepara as mudanças para o próximo commit ¦ Prepara los cambios para el siguiente commit
+21pyf74v3p2 ¦ Cria um arquivo novo ¦ Crea un archivo nuevo
+op8g19jwkx ¦ Envia para o GitHub ¦ Sube a GitHub
+273oekiuzcg ¦ Apaga commits antigos ¦ Borra commits antiguos
+2avlct3ew30 ¦ Faça um commit com uma mensagem ¦ Haz un commit con un mensaje
+21pzjx1mj2m ¦ Coloque o projeto `quest-log` sob controle de versão: inicie um repositório, prepare `index.html` e faça seu primeiro commit (com uma mensagem). ¦ Pon el proyecto `quest-log` bajo control de versiones: inicializa un repositorio, prepara `index.html` y haz tu primer commit (con un mensaje).
+hxeh4g0l9i ¦ `git init`, depois `git add index.html` (ou `git add .`), depois `git commit -m "Add quest log page"`. Use `git status` para ver o que está acontecendo. ¦ `git init`, luego `git add index.html` (o `git add .`), luego `git commit -m "Add quest log page"`. Usa `git status` para ver qué está pasando.
+1a4jj9j3ych ¦ Bons commits e .gitignore ¦ Buenos commits y .gitignore
+bzoe0m1887 ¦ Hábitos de bons desenvolvedores ¦ Hábitos de los buenos desarrolladores
+1pgs9va2wqd ¦ Qual mensagem de commit é melhor? ¦ ¿Qué mensaje de commit es mejor?
+it9h85agbh ¦ Qual pasta quase sempre deve estar no `.gitignore`? ¦ ¿Qué carpeta debería estar casi siempre en `.gitignore`?
+18qoe5l2b2a ¦ O `node_modules` pode ser recriado com `npm install`, e é enorme. ¦ `node_modules` se puede reconstruir con `npm install`, y es enorme.
+1w4tsaifog8 ¦ Tudo bem fazer commit de um arquivo `.env` com suas chaves de API num repositório público. ¦ No pasa nada por hacer commit de un archivo `.env` con tus claves de API en un repositorio público.
+zmqy0i646x ¦ Robôs vasculham o GitHub atrás de chaves vazadas em minutos. Mantenha os segredos fora do Git. ¦ Hay bots que rastrean GitHub buscando claves filtradas en minutos. Mantén los secretos fuera de Git.
+2bjjdfj56fd ¦ Qual comando mostra o histórico de forma resumida? ¦ ¿Qué comando muestra el historial de forma resumida?
+1sdvk1li2t3 ¦ Faça **dois** commits no projeto `shop`: primeiro faça o commit da página, depois crie `style.css` e faça o commit dele separado. Confira com `git log --oneline`. ¦ Haz **dos** commits en el proyecto `shop`: primero haz commit de la página, luego crea `style.css` y haz su commit por separado. Compruébalo con `git log --oneline`.
+b7epil4pva ¦ Branches e GitHub ¦ Ramas y GitHub
+1srgl80tw7 ¦ Trabalhe em paralelo, compartilhe código e revise em equipe. ¦ Trabaja en paralelo, comparte código y revísalo en equipo.
+nrq042dgwh ¦ Branches ¦ Ramas (branches)
+161xkfb9bll ¦ Linhas do tempo paralelas ¦ Líneas temporales paralelas
+2o56chwr ¦ Por que usar uma branch para uma funcionalidade nova? ¦ ¿Por qué usar una rama para una funcionalidad nueva?
+7mp4sadco9 ¦ Para trabalhar sem quebrar a versão principal ¦ Para trabajar sin romper la versión principal
+yl7bcq99ij ¦ Para apagar código antigo ¦ Para borrar código antiguo
+1yvd73pgmg ¦ Para deixar o Git mais rápido ¦ Para que Git sea más rápido
+28kw63pjgqe ¦ Branches são só para equipes grandes ¦ Las ramas son solo para equipos grandes
+158h61t100i ¦ Fluxo: crie uma branch, faça commit e junte de volta (merge) ¦ Flujo: crea una rama, haz commit y fusiónala de vuelta (merge)
+1c5tvfjzfgl ¦ Qual comando lista as branches? ¦ ¿Qué comando lista las ramas?
+xbisdxuo5i ¦ No projeto `castle`: faça um primeiro commit na `main`. Depois crie uma branch `add-moat`, adicione um arquivo `moat.html` e faça o commit dele lá. Por fim, volte para a `main` e faça o merge de `add-moat`. ¦ En el proyecto `castle`: haz un primer commit en `main`. Luego crea una rama `add-moat`, añade un archivo `moat.html` y haz su commit allí. Por último, vuelve a `main` y fusiona `add-moat`.
+1d83sio6isu ¦ GitHub e remotos ¦ GitHub y remotos
+28sszqwljhc ¦ Seu código na nuvem ¦ Tu código en la nube
+h5f5zrywl9 ¦ Copiar um repo do GitHub ¦ Copiar un repo de GitHub
+tdqx6pkprk ¦ Enviar seus commits ¦ Subir tus commits
+17065rvvwno ¦ Baixar commits novos ¦ Descargar commits nuevos
+1jbsjyjfjms ¦ Gerenciar cópias online ¦ Gestionar copias en línea
+1q1hfkg3kuh ¦ Um colega enviou commits novos. Como você os pega? ¦ Un compañero subió commits nuevos. ¿Cómo los obtienes?
+quiyzfmnyd ¦ O `git commit` envia seu trabalho para o GitHub automaticamente. ¦ `git commit` sube tu trabajo a GitHub automáticamente.
+1zkcgz14xgz ¦ Os commits ficam só no seu computador até você dar `git push`. ¦ Los commits se quedan en tu ordenador hasta que haces `git push`.
+1oug6qc6em0 ¦ Qual comando copia um repositório existente do GitHub para o seu computador? (só as duas palavras) ¦ ¿Qué comando copia un repositorio existente de GitHub a tu ordenador? (solo las dos palabras)
+1j81x353upg ¦ Pull requests e revisão de código ¦ Pull requests y revisión de código
+2chdmz50m67 ¦ Trabalho em equipe no GitHub ¦ Trabajo en equipo en GitHub
+1catxvj0109 ¦ Ordene o fluxo de um pull request ¦ Ordena el flujo de un pull request
+muw0f08gzm ¦ Qual comentário de revisão é mais útil? ¦ ¿Qué comentario de revisión es más útil?
+hlx5v5dx1v ¦ "Este loop roda a cada renderização; podemos movê-lo para um useMemo?" ¦ "Este bucle se ejecuta en cada render; ¿podríamos moverlo a un useMemo?"
+mnfkd4lexa ¦ "Código ruim." ¦ "Código malo."
+v3qz8ktztd ¦ "Eu nunca faria assim." ¦ "Yo nunca lo haría así."
+2a9zmp5mtnf ¦ Por que manter os pull requests pequenos? ¦ ¿Por qué mantener pequeños los pull requests?
+1iwv4hftujt ¦ São mais fáceis e rápidos de revisar bem ¦ Son más fáciles y rápidos de revisar bien
+dxoacnci44 ¦ O GitHub limita os PRs a 10 linhas ¦ GitHub limita los PR a 10 líneas
+nl65hfjsm4 ¦ O Git não permite PRs grandes ¦ Git no permite PR grandes
+2gkd6owsc5b ¦ Deixa o app menor ¦ Hace la app más pequeña
+1pu61f4j0ol ¦ A revisão de código também é um ótimo jeito de juniores aprenderem com seniores. ¦ La revisión de código también es una gran forma de que los júnior aprendan de los sénior.
+2dpx5aj850q ¦ Conflitos de merge ¦ Conflictos de merge
+d3zeq9xfhz ¦ Quando duas mudanças se chocam ¦ Cuando dos cambios chocan
+2g6nepylv7j ¦ Neste conflito, qual texto vem da sua branch atual? ¦ En este conflicto, ¿qué texto viene de tu rama actual?
+tx59j6s762 ¦ A parte entre `<<<<<<< HEAD` e `=======` é da sua branch atual (HEAD). ¦ La parte entre `<<<<<<< HEAD` y `=======` es de tu rama actual (HEAD).
+aoyhqslt9p ¦ Resolva um conflito de merge ¦ Resuelve un conflicto de merge
+kgxs6p841l ¦ Conflitos de merge significam que você fez algo errado. ¦ Los conflictos de merge significan que hiciste algo mal.
+1ihvk1k0u4x ¦ Eles são completamente normais quando pessoas trabalham em paralelo. Conversar e fazer pull com frequência os mantém pequenos. ¦ Son completamente normales cuando varias personas trabajan en paralelo. Comunicarse y hacer pull a menudo los mantiene pequeños.
+15l3i6920qw ¦ npm e Ferramentas de Build ¦ npm y Herramientas de Build
+1vqk5q7ff3 ¦ Pacotes, package.json, scripts, Vite e builds. ¦ Paquetes, package.json, scripts, Vite y builds.
+19kg6uiuovn ¦ Node e npm ¦ Node y npm
+1jkt62i4l53 ¦ Nos ombros de gigantes ¦ A hombros de gigantes
+x8wduzhmj4 ¦ Comandos que você pode rodar ¦ Comandos que puedes ejecutar
+1jko0ejpq0t ¦ Pacotes de que o app precisa ¦ Paquetes que necesita la app
+2c0ybdn988o ¦ Ferramentas só para desenvolvimento ¦ Herramientas solo para desarrollo
+1jzh8xq3cy1 ¦ O nome do projeto ¦ El nombre del proyecto
+6q6kkeoxuc ¦ Para onde vão os pacotes instalados? ¦ ¿Adónde van los paquetes instalados?
+1p5eu16d7x3 ¦ Você deve fazer commit da pasta `node_modules` no Git. ¦ Deberías hacer commit de la carpeta `node_modules` en Git.
+3365vs4v8t ¦ Qualquer um pode recriá-la com `npm install`. Ela é enorme, então vai no `.gitignore`. ¦ Cualquiera puede recrearla con `npm install`. Es enorme, así que va en `.gitignore`.
+1zrm8xeuev8 ¦ Uma ferramenta de testes usada só durante o desenvolvimento fica em... ¦ Una herramienta de pruebas que solo se usa durante el desarrollo va en...
+1ijqodk4g3o ¦ Instalando pacotes ¦ Instalar paquetes
+1vieanivno ¦ Comandos do npm ¦ Comandos de npm
+j8yq23zk6l ¦ Adicione o vitest como dependência de desenvolvimento ¦ Añade vitest como dependencia de desarrollo
+btfj675i1t ¦ Você clonou um projeto. O que roda antes de iniciá-lo? ¦ Clonaste un proyecto. ¿Qué ejecutas antes de arrancarlo?
+x84vmowrqj ¦ Comece um projeto Node em `tavern-app`: crie um `package.json`, instale o `express` como dependência e o `vitest` como dependência de desenvolvimento. Depois veja o resultado com `cat package.json`. ¦ Empieza un proyecto Node en `tavern-app`: crea un `package.json`, instala `express` como dependencia y `vitest` como dependencia de desarrollo. Luego mira el resultado con `cat package.json`.
+nrt2oq7qsy ¦ `npm init -y`, depois `npm install express`, depois `npm install -D vitest`. ¦ `npm init -y`, luego `npm install express`, luego `npm install -D vitest`.
+1s0u36fro0w ¦ Scripts, Vite e builds ¦ Scripts, Vite y builds
+2aad86l0963 ¦ Do código ao site ¦ Del código al sitio web
+jr0ur64wv0 ¦ O que `npm run build` normalmente cria? ¦ ¿Qué suele crear `npm run build`?
+2erchxnr4wz ¦ Uma pasta dist/ otimizada, pronta para publicar ¦ Una carpeta dist/ optimizada, lista para publicar
+skwz94jsex ¦ Uma nova branch do Git ¦ Una nueva rama de Git
+ddfs82foh1 ¦ Um banco de dados ¦ Una base de datos
+222ehsmb337 ¦ A pasta node_modules ¦ La carpeta node_modules
+qqqygu0rdb ¦ O que é o Vite? ¦ ¿Qué es Vite?
+i19cjdtz91 ¦ Uma ferramenta de build rápida e servidor de desenvolvimento ¦ Una herramienta de build rápida y servidor de desarrollo
+126w8e5chw6 ¦ Um framework de CSS ¦ Un framework de CSS
+obv7viz70w ¦ Um navegador ¦ Un navegador
+1p5mrti8f53 ¦ Como rodar o script `test`? ¦ ¿Cómo ejecutas el script `test`?
+9e7k47gnf1 ¦ `npm test` também funciona como atalho para esse script específico. ¦ `npm test` también funciona como atajo para este script en concreto.
+15gdbeq1izz ¦ Ferramenta de build / servidor de desenvolvimento ¦ Herramienta de build / servidor de desarrollo
+1cxrkblj5l4 ¦ Gerenciador de pacotes ¦ Gestor de paquetes
+lesag9bvto ¦ Roda JS fora do navegador ¦ Ejecuta JS fuera del navegador
+p9ow5tredx ¦ Resultado de um build ¦ Resultado de un build
+2cx6409nhlp ¦ Depurando como Profissional ¦ Depurar como un Profesional
+1qpjm0sua76 ¦ DevTools, mensagens de erro, stack traces e breakpoints. ¦ DevTools, mensajes de error, trazas de pila y puntos de interrupción.
+1097eie5vn0 ¦ Um tour pelas DevTools ¦ Un recorrido por las DevTools
+2g8699eolv5 ¦ Seus óculos de raio X ¦ Tus gafas de rayos X
+1er4sqsak29 ¦ Qual painel? ¦ ¿Qué panel?
+25st43xks43 ¦ Uma requisição retorna 404 ¦ Una petición devuelve 404
+1ma19ab6n8w ¦ Um botão está com a cor errada ¦ Un botón tiene el color equivocado
+1d754x4jts9 ¦ Apareceu uma mensagem de erro ¦ Apareció un mensaje de error
+tidqk006bi ¦ Pausar o código na linha 20 ¦ Pausar el código en la línea 20
+2ahczfiv0pi ¦ As mudanças feitas no painel Elements são salvas nos seus arquivos. ¦ Los cambios que haces en el panel Elements se guardan en tus archivos.
+m8xrwr2l0s ¦ São só experimentos temporários no navegador. Copie para o seu código o que funcionar. ¦ Son solo experimentos temporales en el navegador. Copia a tu código lo que funcione.
+1611a0nryl ¦ `console.table(knights)` mostra... ¦ `console.table(knights)` muestra...
+19sssflvxxa ¦ Um array de objetos como tabela ¦ Un array de objetos como tabla
+b9mqxix5hs ¦ Um erro vermelho ¦ Un error en rojo
+4muj38e23h ¦ Só o primeiro item ¦ Solo el primer elemento
+dn0d25plb1 ¦ Lendo mensagens de erro ¦ Leer mensajes de error
+gohufpf87o ¦ Erros são pistas ¦ Los errores son pistas
+ucm2ghn941 ¦ Em que linha o erro aconteceu? ¦ ¿En qué línea ocurrió el error?
+e2y47rpcbh ¦ Desconhecida ¦ Desconocida
+173linlmx5h ¦ A primeira linha do stack trace é onde ele realmente aconteceu. ¦ La primera línea de la traza de pila es donde ocurrió realmente.
+jwofaejb70 ¦ "Cannot read properties of undefined (reading 'name')" significa... ¦ "Cannot read properties of undefined (reading 'name')" significa...
+isur62pg1s ¦ Você usou .name em algo que é undefined ¦ Usaste .name sobre algo que es undefined
+28oboenby5y ¦ O nome da variável está escrito errado no CSS ¦ El nombre de la variable está mal escrito en el CSS
+1i0vvkc15u0 ¦ A página não tem título ¦ La página no tiene título
+16ckw1hh7u ¦ name é uma palavra reservada ¦ name es una palabra reservada
+6tnqotu8b5 ¦ Usar uma variável que não existe ¦ Usar una variable que no existe
+15n4dgh12zh ¦ Tipo de valor errado (por exemplo, chamar algo que não é função) ¦ Tipo de valor incorrecto (p. ej., llamar a algo que no es una función)
+14uh83cz7x6 ¦ Código que não pode ser lido (parêntese faltando) ¦ Código que no se puede leer (falta un paréntesis)
+6fowu474ol ¦ 404 no Network ¦ 404 en Network
+8u06lbz02u ¦ O arquivo ou endpoint não foi encontrado ¦ No se encontró el archivo o el endpoint
+21lhitn3tyq ¦ O console diz "TypeError: knight is undefined" na linha 3. Qual linha é a causa real? ¦ La consola dice "TypeError: knight is undefined" en la línea 3. ¿Qué línea es la causa real?
+1u0th2xmnpz ¦ O erro estoura na linha 3, mas a causa é a linha 2: `"1"` (texto) nunca é igual a `1` (número), então o `find` retorna `undefined`. ¦ El fallo salta en la línea 3, pero la causa es la línea 2: `"1"` (texto) nunca es igual a `1` (número), así que `find` devuelve `undefined`.
+dp1aevilvs ¦ Breakpoints e estratégia ¦ Puntos de interrupción y estrategia
+68miarxam2 ¦ Pausar o tempo ¦ Pausar el tiempo
+1n7u09fvmmj ¦ Ordene um bom processo de depuração ¦ Ordena un buen proceso de depuración
+nag6ratleu ¦ O que a instrução `debugger;` faz quando as DevTools estão abertas? ¦ ¿Qué hace la sentencia `debugger;` cuando las DevTools están abiertas?
+fbr3xf2d9k ¦ Pausa o código naquela linha ¦ Pausa el código en esa línea
+2dle2qsn5af ¦ Corrige o bug ¦ Arregla el bug
+7wagpbceey ¦ Apaga a linha ¦ Borra la línea
+1599qlrq188 ¦ Imprime todas as variáveis ¦ Imprime todas las variables
+fbv7psjgy9 ¦ Uma função grande está quebrada e você não faz ideia de onde. Um truque clássico é... ¦ Una función grande está rota y no tienes ni idea de dónde. Un truco clásico es...
+1zxkbg37fc ¦ Comentar metade e ver se o bug continua (e repetir) ¦ Comentar la mitad y ver si el bug sigue (y repetir)
+1oa5eterh ¦ Reescrever tudo ¦ Reescribirlo todo
+10305svug2v ¦ Fazer mudanças aleatórias ¦ Hacer cambios al azar
+qnl6oeui6s ¦ Esperar que se conserte sozinho ¦ Esperar a que se arregle solo
+15luhspa6s3 ¦ Antes de pedir ajuda, é bom anotar o que você já tentou. ¦ Antes de pedir ayuda, conviene anotar lo que ya probaste.
+dtdyr0d5cp ¦ Caça aos bugs: encontre os erros ¦ Caza de bugs: encuentra los errores
+2d3t0w2ou6b ¦ Caça aos bugs! ¦ ¡Caza de bugs!
+otl33b1bfp ¦ Hora de usar seus olhos de depurador. Cada trecho tem **uma** linha quebrada. Leia com atenção, como um revisor de código. ¦ Es hora de usar tus ojos de depurador. Cada fragmento tiene **una** línea rota. Lee con atención, como un revisor de código.
+98vz3wrn9d ¦ O loop começa em `1`, então pula o primeiro preço. Os arrays começam no índice `0`. ¦ El bucle empieza en `1`, así que se salta el primer precio. Los arrays empiezan en el índice `0`.
+wc2hxz3z32 ¦ Quem tem 18 anos é adulto: use `>=`. ¦ Alguien de 18 años es adulto: usa `>=`.
+qi3nnxa1al ¦ Sem `e.preventDefault()`, a página recarrega e o log some. ¦ Sin `e.preventDefault()`, la página se recarga y el registro desaparece.
+xiasbsk6ur ¦ `res.json()` retorna uma promise: precisa de `await`. ¦ `res.json()` devuelve una promesa: necesita `await`.
+16yppd5uddj ¦ `copy = user` aponta para o mesmo objeto. Use `{ ...user }` para fazer uma cópia. ¦ `copy = user` apunta al mismo objeto. Usa `{ ...user }` para hacer una copia.

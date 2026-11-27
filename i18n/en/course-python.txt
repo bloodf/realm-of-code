@@ -1,0 +1,422 @@
+@@ ceigxnf5bj
+The Serpent Library
+@@ 22ogmj9f0bg
+The friendliest programming language: variables, decisions, loops, lists, dictionaries, functions, errors and classes. Used for the web, data, automation and AI.
+@@ t61htstyi4
+First Words
+@@ r022kwjmld
+print, strings, numbers and variables.
+@@ 5dc1a5gsub
+
+**Key ideas**
+- `print("Hello")` shows text. Text is a **string**, in quotes.
+- Variables: `name = "Ada"` (no `let`, no `;`). Names use `snake_case`.
+- Numbers: `int` (7) and `float` (7.5). Maths: `+ - * / // % **`.
+- f-strings: `f"{name} has {gold} gold"`. Comments start with `#`.
+- Python is used for websites (Django, Flask, FastAPI), data science, automation and AI.
+@@ 3qtj3mnab
+Meet Python
+@@ w3a6evewst
+Python is one of the most popular languages in the world. It reads almost like English:
+
+```
+print("Hello, reader!")
+```
+People use it to build **websites** (Django, FastAPI), analyse **data**, **automate** boring tasks and train **AI** models.
+@@ 2alit36zewl
+What does `print("Hi")` do?
+@@ 608rmgcg3z
+Shows Hi on the screen
+@@ 29vh8z1og9s
+Prints on paper
+@@ iq9yf729kn
+Saves a file
+@@ 6p8s1fexj6
+Match the Python tool to its use
+@@ 271ws57x1gc
+Django
+@@ lakxlr7glx
+Websites
+@@ 1vc84drq9bq
+Data tables
+@@ 134ioxffq9h
+Artificial intelligence
+@@ vbvzs21q2y
+Testing code
+@@ cxsc1014np
+In Python, lines do not need a semicolon at the end.
+@@ 1gxxwassurm
+Names for values
+@@ 1aie6142lt8
+```
+name = "Ada"
+level = 3
+level = level + 1      # now 4
+print(name, level)      # Ada 4
+```
+Variable names use **snake_case**: `max_health`, `book_count`. Strings can use `"double"` or `'single'` quotes.
+@@ azjiwurtmn
+Create a variable and print it
+@@ 8ho5jun50s
+Which line has the bug?
+@@ 1vm2ahbgg70
+The string is missing its closing quote: `"Ada"`.
+@@ 7rjj1vtmoo
+Which name follows Python style?
+@@ mnhk12ren4
+`snake_case` is the Python way. Names cannot start with a digit or contain `-`.
+@@ wzhp1qnp5n
+Doing maths
+@@ 1lr1a9pndsf
+```
+print(7 + 2)    # 9
+print(7 / 2)    # 3.5  (always a float)
+print(7 // 2)   # 3    (whole division)
+print(7 % 2)    # 1    (remainder)
+print(2 ** 3)   # 8    (power)
+```
+`int("42")` turns text into a number, `str(42)` turns a number into text.
+@@ 2cgaq2kgray
+Whole division
+@@ 212rbgbaiyp
+Division (float)
+@@ n02hryb9l8
+What is `int("7") + 3`?
+@@ 966phtm55s
+f-strings and input
+@@ n6hk6bhx5r
+Putting values in text
+@@ 1f7ou955ldz
+```
+name = "Ada"
+gold = 150
+print(f"{name} has {gold} gold")    # Ada has 150 gold
+print(f"Half: {gold / 2}")          # Half: 75.0
+```
+`input("Your name? ")` asks the user to type something (it always returns a string).
+@@ 1snxvywmzhm
+Finish the f-string
+@@ 102xumid3h6
+What type does `input()` return?
+@@ l2sqmrt80o
+An int
+@@ 1jq8scx0v8r
+A float
+@@ 2g0uvhb351v
+It depends
+@@ 1111gj9p2g9
+Always a string: convert with `int(...)` when you need a number.
+@@ q8rlikiusi
+Booleans, comparisons, if, elif, else.
+@@ 1t62ndyct1r
+
+**Key ideas**
+- Booleans: `True` and `False` (capital letters!).
+- Compare: `== != < > <= >=`. Combine: `and`, `or`, `not`.
+- `if` / `elif` / `else`: the line ends with `:` and the block is **indented** with 4 spaces.
+- Indentation is not style in Python: it is the syntax.
+@@ ztspu3ffrp
+True or False
+@@ x6yxw2xn66
+Booleans
+@@ 1hw59x824cr
+```
+print(5 > 3)           # True
+print("a" == "A")      # False
+is_open = True
+print(not is_open)     # False
+print(3 > 1 and 2 > 5) # False
+```
+In Python, `True` and `False` start with a **capital letter**.
+@@ jo18qdk087
+Both must be true
+@@ 2c7doxexglw
+At least one is true
+@@ 2acqddnwbsg
+Flips True and False
+@@ l2gbpcf47g
+Python writes `True` with a capital T.
+@@ 1846yzv7s58
+if, elif, else
+@@ 41fbcrqpjy
+Making choices
+@@ 2el78g5adg6
+```
+age = 15
+if age < 12:
+    print("Children's room")
+elif age < 18:
+    print("Young readers")
+else:
+    print("Main hall")
+```
+Each condition line ends with **`:`**. The code inside is **indented** with 4 spaces.
+@@ 11irwno23cf
+Put the lines in order
+@@ 2eql8d3zad
+Which line is wrong?
+@@ 25lccm3zrox
+The `if` line must end with a colon: `if score > 100:`
+@@ 17kn4pmupv6
+What makes code part of the `if` block in Python?
+@@ d1jsxuspfb
+The indentation
+@@ 2cvgtdk4ikc
+Curly braces { }
+@@ 28u1iw9vra4
+The word then
+@@ 20nbgyp3bxp
+A semicolon
+@@ 17jhmqq9ngf
+Empty means False
+@@ 51e5cqnjwe
+In an `if`, empty things count as **False**: `0`, `""`, `[]`, `{}`, `None`. Everything else is **True**.
+
+```
+name = ""
+if not name:
+    print("Please type a name")
+```
+`None` means "no value" (like `null`).
+@@ 1tu7clhzogl
+`None` is Python's way to say "no value".
+@@ 2a0k32ewj9p
+Which of these is truthy?
+@@ a7fp0kcmqm
+`"0"` is a non-empty string, so it is truthy.
+@@ ee866zp90i
+while, for, range, break and continue.
+@@ 28ko3coqhjz
+
+**Key ideas**
+- `for item in list:` visits every item. `for i in range(5):` counts 0 to 4.
+- `range(start, stop, step)`: the stop is **not** included.
+- `while condition:` repeats until the condition is false (make sure it changes!).
+- `break` leaves the loop, `continue` skips to the next round.
+@@ 1f6yin4pq29
+for and range
+@@ 1ovfwsb76t
+Repeating
+@@ 1f0z4q4mts2
+Count from 1 to 10
+@@ bt9edobmv9
+How many times does `for i in range(5)` run?
+@@ 62zatb930n
+while, break, continue
+@@ 24jfzdohvlb
+Looping with a condition
+@@ 3rklu80w7h
+`==` compares, it does not change `count`. Use `count = count + 1` or `count += 1`.
+@@ 25l8yx0290i
+Leave the loop now
+@@ 1hxsqptj5oy
+Skip to the next round
+@@ 27gz3a85zsp
+Repeat while a condition is true
+@@ sy4konjkn7
+Collections
+@@ yqbxqz1wm9
+Lists, dictionaries, tuples, sets and comprehensions.
+@@ uj8g9fn5qe
+
+**Key ideas**
+- **list** `[1, 2, 3]`: ordered, changeable. `append`, `remove`, `len`, `[0]`, `[-1]`, slices `[1:3]`.
+- **dict** `{"key": value}`: look up by key. `.get()`, `.items()`, `in`.
+- **tuple** `(x, y)`: like a list that cannot change. **set** `{1, 2}`: unique values.
+- Comprehensions: `[x * 2 for x in nums if x > 0]`.
+@@ 1ne0j3940xc
+Add "Eryn" to the list
+@@ 1a0lv64a4c
+What is `len([3, 5, 7])`?
+@@ 1o6o6isnwjo
+Dictionaries
+@@ uwso8g4g3w
+Key and value
+@@ fxdwclam6c
+```
+hero = {"name": "Ada", "level": 12}
+print(hero["name"])         # Ada
+hero["level"] += 1
+print(hero.get("gold", 0))  # 0 (no error when missing)
+for key, value in hero.items():
+    print(key, value)
+```
+Dictionaries are like JSON objects.
+@@ 23bwp3xbl1e
+Which line raises a KeyError?
+@@ 25y9sw1hfxf
+There is no "shield" key. Use `prices.get("shield")` to avoid the error.
+@@ 1978cyksbi1
+Match the collection
+@@ 1z62bwsfim6
+Tuples, sets and comprehensions
+@@ 1wur1crdzg0
+More collections
+@@ s8ys7yrb2m
+Why use a tuple instead of a list?
+@@ 12d5s7vuqhd
+The values should not change
+@@ 1s0b7agiysl
+It can hold more items
+@@ ddrqjzpfy6
+Lists cannot hold numbers
+@@ maz88w2yrc
+Functions and Modules
+@@ jx2kpwq5bg
+def, return, parameters, scope, imports.
+@@ 1kwq514cmvz
+
+**Key ideas**
+- `def name(params):` then an indented body. `return` gives a value back.
+- Default values: `def greet(name, title="reader"):`. Call with keywords: `greet(title="sir", name="Ada")`.
+- Variables made inside a function are **local**.
+- `import math`, `from random import choice`. Install packages with `pip install`, keep them in a **virtual environment** (`python -m venv .venv`).
+@@ 1ls55x4jyib
+def and return
+@@ 4jdd67v13u
+Your own functions
+@@ 1affqv06d22
+```
+def area(width, height):
+    return width * height
+
+print(area(3, 4))    # 12
+```
+A function without `return` gives back `None`.
+@@ 1lqac0ngwip
+Why does this print None?
+@@ n1erils8hr
+The function computes `total` but never returns it. Add `return total`.
+@@ 155qcr6q08l
+Finish the function
+@@ 18d7846nwm5
+Modules and pip
+@@ n9l75yxeiv
+Borrowing tools
+@@ ri35wycbaq
+```
+import math
+print(math.sqrt(16))      # 4.0
+
+from random import choice
+print(choice(["a", "b"]))  # a or b
+```
+Python comes with a big **standard library**. Other packages come from **PyPI** with `pip install requests`. Keep each project's packages in a **virtual environment**:
+
+```
+python -m venv .venv
+source .venv/bin/activate
+pip install requests
+pip freeze > requirements.txt
+```
+@@ 1cfh8cdeaon
+Start a new Python project
+@@ 1gtovqx2asg
+What is `requirements.txt` for?
+@@ 23lq4cgumk7
+Listing the packages a project needs
+@@ 2c7tae9746x
+Writing the documentation
+@@ oa1hapa2zm
+Storing passwords
+@@ 170zodxpb2l
+Running tests
+@@ 28qvh7x6fhg
+Installs packages
+@@ 1rv28900466
+The package index
+@@ 25cu90mqg20
+An isolated environment
+@@ kgcwxj6ir8
+Uses a module in your code
+@@ 1f1mbr2idd3
+Errors and Objects
+@@ 1ijqmtjnkmr
+try/except, classes, and a real project.
+@@ agkbdlv7q3
+
+**Key ideas**
+- Errors have names: `ValueError`, `KeyError`, `IndexError`, `TypeError`, `ZeroDivisionError`.
+- Catch them with `try:` / `except ValueError:`. `raise ValueError("why")` makes your own.
+- Classes: `class Book:` with `__init__(self, ...)` and methods that take `self`.
+- Test with `assert` or **pytest**: `def test_area(): assert area(2, 3) == 6`.
+@@ 1t8sp1hlq2b
+try and except
+@@ 2fj1n8odri6
+```
+try:
+    days = int("seven")
+except ValueError:
+    days = 7
+print(days)   # 7
+```
+Without `try`, the program would crash with a **traceback**. Read tracebacks from the bottom: the last line says what went wrong.
+@@ 1vknpjb16my
+Match the error
+@@ 4ro9oxng6e
+Where do you look first in a Python traceback?
+@@ b30jyvvp6m
+The last line
+@@ mh0l4cmpsw
+The first line
+@@ 1h53911msrf
+The middle
+@@ e0jfzfhq2d
+Nowhere, just run it again
+@@ 2ar7xdrpdn
+Blueprints
+@@ 224qcgl7nuy
+```
+class Hero:
+    def __init__(self, name):
+        self.name = name
+        self.hp = 100
+
+    def hit(self, damage):
+        self.hp -= damage
+
+ada = Hero("Ada")
+ada.hit(30)
+print(ada.hp)   # 70
+```
+`__init__` runs when the object is created. `self` is the object itself.
+@@ mo8z5armlu
+Finish the class
+@@ 25noe38x4w7
+Every method of a class takes `self` as its first parameter.
+@@ 1xg76v8dh4h
+Testing with pytest
+@@ 113warkkat2
+Proving your code works
+@@ so2qn78bq9
+Professional Python code has **tests**:
+
+```
+# test_library.py
+from library import due_date
+
+def test_default_loan():
+    assert due_date(1) == 15
+
+def test_short_loan():
+    assert due_date(10, 7) == 17
+```
+Run `pytest` in the terminal: it finds files named `test_*.py` and runs every `test_` function.
+@@ 19jvs4wk9k8
+What does `assert x == 3` do when x is 5?
+@@ wf0expvy1g
+Raises an AssertionError
+@@ 283ip1z2fv9
+Prints False
+@@ 25aw3tyeopb
+Changes x to 3
+@@ 25up8pfy0q1
+Write a test
+@@ 1omlryf0ft7
+Runs the tests
+@@ 23phk2calo8
+Checks a fact
+@@ 1pd0p0qtmk6
+Where tests live
+@@ 2czjla8dcr9
+The error report

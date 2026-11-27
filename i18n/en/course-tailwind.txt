@@ -1,0 +1,154 @@
+@@ 1pab64jl6b3
+Tailwind CSS
+@@ 1nfvdu49rhe
+The Tailors' Quarter
+@@ gsufxq3d8c
+Style fast with utility classes: colours, spacing, flex, grid, states and responsive design.
+@@ 1t9lu0nhrts
+Utility Basics
+@@ 2bn2cdcrbfs
+Colours, spacing, text and layout with classes.
+@@ 1h3k2riy59b
+
+**Key ideas**
+- Utility-first: small classes that each do one thing, written in the HTML.
+- Colours: `bg-amber-100`, `text-red-800` (shades 50–950). Spacing: `p-4` = 16px (1 step = 4px), `px-6`, `mt-2`, `m-auto`.
+- Text: `text-sm … text-3xl`, `font-bold`, `text-center`. Corners: `rounded-lg`, `rounded-full`. Shadows: `shadow-lg`.
+- Layout: `flex`, `gap-4`, `justify-between`, `items-center`, `grid grid-cols-3`, `w-full`, `max-w-sm`.
+@@ 1mfypnjzg35
+Thinking in utilities
+@@ tx4jjbgq93
+Classes instead of rules
+@@ uxlyqerits
+With Tailwind you rarely write CSS files. You add classes:
+
+```
+<button class="bg-red-700 text-white px-6 py-2 rounded-lg">
+  Order a cloak
+</button>
+```
+Each class does one thing. The spacing scale is 4px per step: `p-1` = 4px, `p-4` = 16px, `p-8` = 32px.
+@@ 14lywtmeuon
+Match the class with its CSS
+@@ 1kriz9k97p8
+padding: 16px
+@@ 2gko93vej4i
+fully rounded corners
+@@ 1a67b28hocc
+What does `mt-2` do?
+@@ 1au101ai8io
+Adds 8px margin on top
+@@ 1b1ok27ym3j
+Adds 2px margin everywhere
+@@ 2ank3nw3382
+Makes text 2× bigger
+@@ vrnya7cu4u
+Moves the element 2 columns
+@@ ondwuehl2m
+Which is a darker shade?
+@@ mdnh7wrqun
+Light amber background with dark red text
+@@ pukcvt9fwb
+Tailwind only ships the CSS for classes you actually use.
+@@ k1wenzkw93
+Challenge: Threads of Colour
+@@ s12tqmv5ln
+Challenge: Sizes and Spacing
+@@ igodp1fy5
+Layout utilities
+@@ 2dpb56a8rxo
+Flex and grid as classes
+@@ v29nck09jx
+Match the class
+@@ 1j9tlurxsa3
+three equal columns
+@@ 1mz6449iajn
+Which centres a block with a max width?
+@@ 9t7nji2uek
+max-w-3xl mx-auto
+@@ 17gga4hw12u
+A column of items with 16px gaps
+@@ 74swgggmuh
+Challenge: Flex Rows in a Snap
+@@ w86zh0p35y
+Challenge: The Grid Quarter
+@@ 1krjckzhrvr
+States, Screens and Projects
+@@ qw9ok14roo
+hover:, md:, dark: and Tailwind in real projects.
+@@ 8nr8yckr9b
+
+**Key ideas**
+- Variants: `hover:bg-amber-500`, `focus:ring-4`, `active:scale-95`, `disabled:opacity-50`, `dark:bg-slate-900`.
+- Responsive (mobile-first): `sm:` 640px+, `md:` 768px+, `lg:` 1024px+. `grid-cols-1 md:grid-cols-3`.
+- In projects: install with the Vite plugin, customise with `@theme`, reuse with components (not long copy-pasted class lists).
+@@ 1jk2diqvizf
+Variants
+@@ voetxmeda5
+States and screens
+@@ 1uv3w1lyb4c
+```
+<button class="bg-amber-300 hover:bg-amber-500 focus-visible:ring-4 transition">
+<div class="grid grid-cols-1 md:grid-cols-3">
+```
+A prefix applies the class only in that state or from that screen width **up**.
+@@ 1qmn6s2h1dr
+`md:grid-cols-3` applies when the screen is...
+@@ 1ljhiezzn9d
+768px wide or more
+@@ 1lzdck01qan
+Smaller than 768px
+@@ trtakkxl87
+Exactly 768px
+@@ 1y208bhd8q0
+A tablet in portrait only
+@@ asp9gncgea
+Which class turns the background darker only on hover?
+@@ 14t2jo8cpt0
+In Tailwind, classes without a prefix apply to all screen sizes.
+@@ 1tu5jjf6zab
+Match the variant
+@@ 20y5frpifa0
+Mouse over
+@@ qe22d2z3wj
+Dark mode
+@@ 16q6zfbkl83
+1024px and up
+@@ l7kkptaeh3
+Challenge: Hover Charms
+@@ 1az8nx7ytct
+Challenge: Robes for Every Size
+@@ 1sobicwjxuv
+Tailwind in real projects
+@@ 1v0haz9j4v4
+Keeping it tidy
+@@ x5dzcu8plf
+- Install with the official **Vite plugin** (or PostCSS)
+- Customise colours and fonts with `@theme` in your CSS
+- Avoid copy-pasting long class lists: make a **component** (React, Vue, Svelte) and reuse it
+- Tools like `clsx` help combine classes conditionally
+- Many teams use component kits built on Tailwind, like **shadcn/ui**
+@@ o39zk3mevj
+The same 12 classes appear on 30 buttons. Best fix?
+@@ 1lan3o7po1j
+Create a Button component and reuse it
+@@ 15uir3msxnk
+Copy them everywhere
+@@ 1m7vaevgwh5
+Switch to inline styles
+@@ 1vz0h6uqtyo
+Use !important
+@@ 17fjoc47ayp
+You can still write normal CSS in a Tailwind project when you need it.
+@@ 24hie9trf6v
+What is Tailwind's biggest trade-off?
+@@ 1v7o2mn1478
+Long class lists in the markup
+@@ 1qppgiz22la
+It cannot do responsive design
+@@ deigc9r1ei
+It only works with React
+@@ 1hob217umt4
+It makes pages slow
+@@ iwvoswby2h
+Project: The Guild Card

@@ -1,0 +1,558 @@
+@@ 290a2w6bzew
+React
+@@ 24m5wpal26n
+The Summoners' Circle
+@@ 27hbr9npmrg
+Build interfaces from components: JSX, props, state, events, forms, effects, data fetching and the React ecosystem.
+@@ gqfgqlpnbn
+Components and JSX
+@@ 1cemv29tzb3
+Functions that return UI.
+@@ q3pi8r1rsu
+
+**Key ideas**
+- A **component** is a function that returns JSX. Names start with a capital letter: `function QuestCard()`.
+- JSX rules: one parent element (or `<>...</>`), `className` instead of `class`, close every tag (`<img />`), `{ }` for JavaScript expressions, camelCase events (`onClick`).
+- React re-renders components when their data changes and updates only what changed in the DOM.
+@@ xv1a0dvemi
+What is React?
+@@ 1ubm7twzyii
+Summoning interfaces
+@@ 4d2ahbfx4j
+**React** is a JavaScript library for building user interfaces out of **components**:
+
+```
+function Greeting() {
+  return <h1>Hail, Realm!</h1>;
+}
+```
+You describe **what** the UI should look like for the current data. React figures out **how** to update the page.
+@@ 27cvm0tq7o
+What is a React component?
+@@ 1dal7bouczc
+A function that returns UI (JSX)
+@@ 16v1fzie5kr
+A CSS file
+@@ 1vhq70gjbfz
+A database table
+@@ 6xlnon8jk7
+An HTML attribute
+@@ cgj077uaj
+Which component name is valid?
+@@ 22ipiyx4zpb
+Components must start with a capital letter, or React treats them like HTML tags.
+@@ zybaxulfhw
+React updates only the parts of the page that changed.
+@@ bq9sko9wp1
+Component
+@@ 1qvno6eu4de
+Reusable piece of UI
+@@ 1bfiz0oi1ov
+HTML-like syntax in JS
+@@ r1zxzccwj2
+Render
+@@ f1zzxcutq4
+Turning components into UI
+@@ 9ejrtfdspm
+Props
+@@ 1ovhc46w673
+Inputs of a component
+@@ 14eg1hzodzb
+JSX rules
+@@ 1d6ny4086g3
+HTML with superpowers
+@@ 1qyhn31e5ao
+```
+export default function Card() {
+  const name = "Ada";
+  return (
+    <div className="card">
+      <img src="ada.png" alt="Ada" />
+      <h2>{name.toUpperCase()}</h2>
+      <button onClick={() => alert("Hi")}>Greet</button>
+    </div>
+  );
+}
+```
+- `className`, not `class`
+- close every tag: `<img />`
+- `{ }` for JavaScript
+- one parent element
+@@ 7tolggmhly
+Which line is wrong in JSX?
+@@ 1twc2h56l29
+In JSX use `className` (class is a reserved word in JavaScript).
+@@ b8r02z1i6t
+Which line breaks the JSX?
+@@ lxonlpf3q
+A component must return one parent element. Wrap both in `<>...</>` or a `<div>`.
+@@ ur8no1s8zl
+Show the gold amount
+@@ 17dsk5gnyq9
+Which is correct JSX for an image?
+@@ 19ralmfuf54
+How do you write an inline style in JSX?
+@@ 27gqs1mj1d4
+style={{ color: "red" }}
+@@ 1vvjydm5jc6
+style="color: red"
+@@ 2eaihxt1pk6
+style={color: red}
+@@ 2g72z09il1e
+css="color: red"
+@@ 2ggbav0hefg
+Challenge: Summon Your First Component
+@@ a1syqb4pbn
+Challenge: JSX Spells
+@@ 13sp1bp2ygs
+Props and Lists
+@@ h4aq70hnki
+Pass data into components and render lists.
+@@ 1rg2b222xsv
+
+**Key ideas**
+- Props pass data from parent to child: `<Knight name="Ada" level={3} />`; read them with `function Knight({ name, level })`.
+- Props are **read-only**. `children` is the content between the tags.
+- Lists: `items.map((item) => <li key={item.id}>{item.title}</li>)`. Keys must be unique and stable (not the index when the list can change).
+@@ 11y3whq3qa4
+Gifts for components
+@@ 12kmf8v4qbt
+```
+function Knight({ name, level }) {
+  return <p>{name} (level {level})</p>;
+}
+
+<Knight name="Ada" level={3} />
+<Knight name="Bo" level={5} />
+```
+Text props use quotes; numbers, booleans, arrays and objects use `{ }`.
+@@ 1fg90q3ma2k
+How do you pass the number 3 as a prop?
+@@ i473vhdwbo
+`"3"` would be the string "3".
+@@ rl2ro9snjd
+A component may change its own props.
+@@ 1ah64v7n0xc
+Props are read-only. Data that changes lives in state.
+@@ 1n8ul28my8e
+What does this render?
+@@ 1gk57qjctiu
+An empty span
+@@ ddpq6ik0uc
+Archmage without a span
+@@ he11qjujnr
+`children` is whatever you put between the opening and closing tags.
+@@ b9awhdhync
+Read the props with destructuring
+@@ 5ujy0t74no
+Lists and keys
+@@ p176j59g7x
+Many items
+@@ 1eptd010cnl
+```
+<ul>
+  {quests.map((q) => (
+    <li key={q.id}>{q.title}</li>
+  ))}
+</ul>
+```
+The `key` helps React track items between renders.
+@@ 1pz7amolmn5
+Which key is best?
+@@ ijwxlhzw99
+A stable id from the data: key={q.id}
+@@ 1uugtown6ps
+The index: key={i}
+@@ 1ag0dfw17tt
+No key
+@@ 21tad5hdfko
+Which line will show a warning in the console?
+@@ 2cunvd78l4t
+Each list item needs a unique `key` prop.
+@@ vducpbe7vr
+Render a list of names
+@@ 1hh0qv370ri
+How do you show only quests that are not done?
+@@ xvujqikt8w
+Challenge: Props, Gifts for Components
+@@ 1c2f3d6bxsp
+Challenge: Lists of Quests
+@@ ywcmf0g7to
+State and Events
+@@ g6lvxql2qw
+Make components interactive.
+@@ 736x3x5y3r
+
+**Key ideas**
+- `const [count, setCount] = useState(0);` Calling the setter re-renders the component.
+- Never change state directly. Use the setter; for updates based on the old value: `setCount((c) => c + 1)`.
+- Events: `onClick={() => ...}`, `onChange`, `onSubmit` (call `e.preventDefault()`).
+- Conditional rendering: `{isOpen && <Dragon />}`, `{isOpen ? "Open" : "Closed"}`.
+- Hooks only at the top level of a component (not in ifs or loops).
+@@ 1tf8bn0c69y
+Memory for components
+@@ q03bh25gst
+```
+import { useState } from "react";
+
+function ManaWell() {
+  const [mana, setMana] = useState(0);
+  return <button onClick={() => setMana(mana + 1)}>Mana: {mana}</button>;
+}
+```
+`useState` returns the current value and a **setter**. Calling the setter re-renders the component with the new value.
+@@ 1ft0c1zbt4g
+What happens when you call `setMana(5)`?
+@@ 27h4m861d7g
+React re-renders the component with mana = 5
+@@ vi90oyp6o3
+Nothing on screen changes
+@@ 24j2l8xd5pp
+The page reloads
+@@ dorkrwaba
+mana becomes a string
+@@ perhuprdod
+Which line does not update the screen?
+@@ 1lhxvjvggjg
+Changing the variable directly does not tell React. Call `setCount(count + 1)`.
+@@ 1y6ud96enuq
+Create state for a name, starting empty
+@@ 2askd07p8me
+Why write `setCount((c) => c + 1)`?
+@@ 2f5tv1jukhj
+It always uses the latest value, even with several quick updates
+@@ dsqp4nrcia
+It is required syntax
+@@ 125wvfi1wfw
+It skips re-rendering
+@@ 5mao1b5r6s
+Hooks like useState can be called inside an if statement.
+@@ 5idfltzomt
+Hooks must be called at the top level of the component, in the same order on every render.
+@@ 1ree3sg61p4
+Events and conditions
+@@ 1352emkiaea
+Click, show, hide
+@@ 16zfsyleeqj
+Which shows the dragon only when `isOpen` is true?
+@@ 3g4wh5wbb2
+{isOpen && <Dragon />}
+@@ rer2jdjb55
+{isOpen || <Dragon />}
+@@ 4giatbgzzd
+<Dragon if={isOpen} />
+@@ k9d5rc8fuv
+{if (isOpen) <Dragon />}
+@@ vqbkj51lnu
+Which line shows a stray "0" on the page when the list is empty?
+@@ 11f77ecu2t5
+`0 && ...` evaluates to `0`, which React renders. Use `messages.length > 0 && ...`.
+@@ to4qhk3im7
+Which line calls the function too early?
+@@ 24yfswscjbp
+`ring()` runs during render. Pass the function: `onClick={ring}`.
+@@ 1rfspkhc8sg
+Match the event prop
+@@ jk6d5yfzk6
+Button pressed
+@@ 9q72dd572u
+Input value changed
+@@ u9k7ix4sbf
+Form sent
+@@ 20f21vjrt9n
+Key pressed
+@@ 1sqahtrs6k
+Challenge: State, The Mana Well
+@@ 22o9e3l40z8
+Challenge: Conditional Charms
+@@ 1svkqh2uraw
+Forms and Effects
+@@ zja7sfhhkm
+Controlled inputs, immutable updates and useEffect.
+@@ 13jj7z0d4zy
+
+**Key ideas**
+- Controlled input: `<input value={name} onChange={(e) => setName(e.target.value)} />`.
+- Update arrays and objects immutably: `[...list, item]`, `list.filter(...)`, `list.map(...)`, `{ ...obj, key: value }`.
+- `useEffect(() => { ... }, [deps])` runs after render when deps change; `[]` = once. Return a cleanup function for timers and subscriptions.
+- Effects are for syncing with things outside React (title, timers, network), not for computing values.
+@@ twlf62kckq
+Controlled inputs and immutability
+@@ 29n4lgsdhig
+React owns the value
+@@ b6ushoz2gq
+```
+const [name, setName] = useState("");
+<input value={name} onChange={(e) => setName(e.target.value)} />
+```
+To change arrays in state, create **new** arrays:
+
+```
+setGuests([...guests, name]);                 // add
+setGuests(guests.filter((g) => g !== name));  // remove
+setQuests(quests.map((q) => q.id === id ? { ...q, done: true } : q)); // update
+```
+@@ 2e6beeame1b
+Which line fails to re-render?
+@@ 1kxac5akv8y
+`push` changes the same array, so React sees no new value. Use `setList([...list, n])`.
+@@ 27bt2sh6u0o
+How do you remove the quest with id 3?
+@@ d9u6zr2x9w
+delete quests[3]
+@@ 1rluua3mar2
+Read what was typed
+@@ 2g824vtpir2
+`{ ...hero, level: 4 }` creates a new object and keeps the old one unchanged.
+@@ 12wwcaozjwm
+Side effects
+@@ 11usg88q3uf
+Match the dependency array
+@@ 228d2zngp3z
+Run once after the first render
+@@ cxr7s6mada
+Run when gold changes
+@@ 15ltpl99usw
+no array
+@@ 1vmn9haq8ck
+Run after every render
+@@ b6z2d04kz8
+Why return a function from an effect?
+@@ 1ybfwk2k8vk
+To clean up (clear timers, unsubscribe) when it re-runs or the component goes away
+@@ 1qqz31cgvcy
+To return JSX
+@@ 25ir4ok9hyp
+To stop the re-render
+@@ 1qu29rqcvnx
+It is required
+@@ 1rto3fasywp
+Which line causes an endless loop of renders?
+@@ z5ll692aso
+With no dependency array the effect runs after every render, and setting state causes another render: forever.
+@@ 2bztfu1tpf7
+You should use useEffect to calculate values you can compute during render.
+@@ cmvarj2pm2
+Just compute them in the component body: `const total = items.length;`
+@@ 1ovcnn3mu5n
+Challenge: The Guest Book
+@@ 12rjejqdnij
+Challenge: Effects Beyond the Circle
+@@ 894x8hlrku
+Data and Architecture
+@@ 1wd1pas8jns
+Fetch data, share state, custom hooks.
+@@ 1w3gzlbzfy9
+
+**Key ideas**
+- Fetch in an effect with `[]`; keep `data`, `loading` and `error` state.
+- **Lift state up** to the closest common parent; pass values down and callbacks (`onToggle`) down.
+- **Context** (`createContext`/`useContext`) shares values (theme, user) without passing props through every level.
+- **Custom hooks** (`useKnights()`) reuse stateful logic. Names start with `use`.
+@@ 2847vqc8bqz
+Fetching data
+@@ n1iw7zsx94
+Loading from the server
+@@ a38on9wtbd
+Why the `[]` dependency array here?
+@@ v3xxb63tre
+So the data is fetched once, not after every render
+@@ h88ujfya16
+To make fetch faster
+@@ 2bsn2snlyew
+Because fetch needs an array
+@@ muzxk62n1c
+To cache forever
+@@ 10o60azhfmo
+Which states should a data-loading component handle?
+@@ yj4080open
+loading, error and the data (plus empty)
+@@ 1s3e2ou57a3
+Only the data
+@@ 1c71yo9tizk
+Only errors
+@@ 2dpgufsla3k
+None, React handles it
+@@ 29w4l1kmjdu
+Libraries like TanStack Query handle caching and loading states for you.
+@@ z4cox46h77
+Challenge: The Royal Roster
+@@ cewpybotqv
+Sharing state
+@@ hgn71j7gpr
+Lifting state up
+@@ 290dlusqxnb
+When two components need the same data, move the state to their **closest common parent**, then pass it down:
+
+```
+function App() {
+  const [quests, setQuests] = useState([]);
+  return (
+    <>
+      <QuestForm onAdd={(q) => setQuests([...quests, q])} />
+      <QuestList quests={quests} />
+    </>
+  );
+}
+```
+For app-wide values (theme, logged-in user), use **Context**.
+@@ 19zthffxryy
+A form and a list both need the quests. Where should the state live?
+@@ 1dcs6jjab1u
+In their common parent
+@@ 1jt5zzrvum3
+In the form only
+@@ 1ywyvdxehq1
+In a global variable
+@@ mmdsg2za0l
+In both, copied
+@@ 1jsl40q3io1
+How does a child tell its parent something happened?
+@@ eszvgc2b6b
+By calling a function prop like onAdd
+@@ 126j9mqfzj1
+By changing its props
+@@ 29ov377n8m6
+By editing the parent's state directly
+@@ 27e4f0ibmkv
+It cannot
+@@ a2l5li7o6o
+Match the tool
+@@ e6q25lzql1
+Pass data down
+@@ 4di3dxeibr
+Callback prop
+@@ mqrlvyax47
+Send events up
+@@ 2bcyhmoi6qw
+Context
+@@ 23g4vl78nk1
+Share app-wide values
+@@ wzw5j3ithg
+Local component memory
+@@ 1orqke245va
+Custom hooks
+@@ 2505hoef2le
+Reusable logic
+@@ l1z7issi8d
+Extract stateful logic into a function whose name starts with `use`:
+
+```
+function useToggle(initial = false) {
+  const [on, setOn] = useState(initial);
+  const toggle = () => setOn((v) => !v);
+  return [on, toggle];
+}
+
+const [isOpen, toggleOpen] = useToggle();
+```
+@@ 10wjx41q770
+What must a custom hook's name start with?
+@@ 1zsk3grh6nj
+Each component that uses a custom hook gets its own separate state.
+@@ 2fg6ekwbxzr
+Project: The Quest Log
+@@ d0zejmsfxk
+The React Ecosystem
+@@ 10f9ltgle1y
+Routing, frameworks, tools and common bugs.
+@@ 1mibi2646mp
+
+**Key ideas**
+- **React Router** maps URLs to components in single-page apps (SPAs).
+- **Next.js** (and Remix/React Router framework mode) add routing, server rendering and data loading.
+- **Vite** is the usual tool for plain React apps. State libraries: Zustand, Redux Toolkit. Data: TanStack Query. Forms: React Hook Form. Tests: Vitest + Testing Library.
+- Performance: avoid unnecessary state, use keys correctly, `memo`/`useMemo` only when measured.
+@@ p50hdajahp
+Routing
+@@ crs1uho3px
+Many pages, one app
+@@ 19vklnbzzo7
+A **single-page app** (SPA) changes the view without reloading the page. **React Router** maps URLs to components:
+
+```
+<Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/quests/:id" element={<Quest />} />
+</Routes>
+```
+Use `<Link to="/quests/2">` instead of `<a>` for internal links.
+@@ 1qjcy3933wt
+What is a single-page app (SPA)?
+@@ 7yuufjgzw7
+An app that updates the view without full page reloads
+@@ 2fngtcj7jl3
+A website with only one page of content
+@@ q46y4wegrq
+An app without JavaScript
+@@ 28pnz60mt62
+A mobile-only app
+@@ 3qk4qbkkbk
+In `/quests/:id`, what is `:id`?
+@@ 25fefsb7z0
+A URL parameter
+@@ m0rvlrcslb
+A CSS selector
+@@ 165p8bzbrz8
+A query string
+@@ 2egzdy1s867
+In React Router you use <Link> for internal navigation.
+@@ 1vq4wyi2f2d
+Frameworks and tools
+@@ kzamvxn8zc
+The wider world
+@@ kawtin7j30
+- **Next.js**: React framework with file-based routing, server rendering and API routes (very popular in job posts)
+- **Vite**: fast dev server and build for React apps
+- **TanStack Query**: fetching and caching server data
+- **Zustand / Redux Toolkit**: shared app state
+- **React Hook Form + zod**: forms and validation
+- **Vitest + Testing Library**: tests
+@@ 1pehtudrkld
+Match the tool with its job
+@@ 1q470h3ma5w
+Full React framework
+@@ 1c94am845mt
+TanStack Query
+@@ gym0yhu33t
+Server data and caching
+@@ f1iwg3xni3
+Zustand
+@@ 1ehma42aqhn
+Shared client state
+@@ a00hxz7g2h
+Testing Library
+@@ 1a581xtr2kf
+Testing components
+@@ wbd6n2k9ts
+Which is most often asked for in React job posts alongside React itself?
+@@ 26hqimaluw6
+jQuery and Flash
+@@ 1yuaeklvlev
+COBOL
+@@ eyplwblqyi
+You need to learn every library before applying for junior jobs.
+@@ sm3kcmqt
+Solid fundamentals (JS, React, Git, APIs) matter most. Libraries are learned on the job.
+@@ 149ny09eb9k
+Common React bugs
+@@ 2a9hcvvmibz
+Code review time
+@@ a15xmok7v2
+These bugs appear in real code reviews all the time. Find them!
+@@ qnl08i6kj3
+Find the bug
+@@ 13grmefpazn
+The interval is never cleared. Return `() => clearInterval(id)` from the effect.
+@@ 1kcugpxo7u1
+A random key changes every render, so React recreates every item. Use a stable id.
+@@ y7v9f488wj
+`user.name` is read before checking `user`, so it crashes when user is missing. Check first (or use `user?.name`).
+@@ 1vzz1mszh20
+When should you reach for `useMemo` or `memo`?
+@@ 2auewbztnr8
+When you have measured a real performance problem
+@@ 5s3vbwr3oq
+On every component by default
+@@ spza78drta
+Only for CSS

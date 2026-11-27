@@ -1,0 +1,29 @@
+@@ xxm8tlc3yq
+Open the Gates for Everyone
+@@ 75gapus8w4
+accessibility audit
+@@ 10udxs2s5sr
+A knight who uses a screen reader cannot join the guild: the sign-up page is full of barriers. Fix every one of them.
+@@ 1qko0axcueb
+An **accessibility audit** checks a page for barriers. Common fixes:
+- `<html lang="en">` so screen readers use the right voice
+- start with an `<h1>` (headings in order)
+- `alt` text on meaningful images
+- a `<label for>` for every input (placeholders are not labels)
+- a real `<button>` instead of a clickable `<div>` (works with keyboard and screen readers)
+@@ 8dbz15bq6z
+Fix the page: add `lang="en"`, make the heading an `<h1>`, give the shield image alt text, add a label for each input, and replace the clickable div with a `<button>`.
+@@ 29rqrc3mukn
+Tools like Lighthouse (in Chrome DevTools) and axe find many problems automatically, but not all. Also try your page with only the keyboard (Tab, Enter, Space) and with a screen reader (VoiceOver on Mac, NVDA on Windows).
+@@ 18amxd3s48a
+For each input: `<label for="name">Your name</label>`. The button: `<button>Join</button>`.
+@@ du3n8uv9je
+The page has lang="en"
+@@ 2e2w7e95gny
+The main heading is an <h1>
+@@ 9tnlp9nfbx
+The shield image has alt text
+@@ 1l7n8mcf9fv
+Both inputs have a connected <label>
+@@ 28555t6vt2m
+A real <button> replaces the clickable div

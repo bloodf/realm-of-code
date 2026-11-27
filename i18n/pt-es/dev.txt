@@ -1,0 +1,352 @@
+@@ vsm8b190w3
+Jogador
+~~
+Jugador
+@@ 1yl69zyhiof
+Progresso
+~~
+Progreso
+@@ 1ellrod4539
+Tempo
+~~
+Tiempo
+@@ 1wtl390y3yf
+Notificações
+~~
+Notificaciones
+@@ z5ucnd7tnr
+Diversos
+~~
+Varios
+@@ 228ptnxsloq
+Modo desenvolvedor
+~~
+Modo desarrollador
+@@ 1xjuyir5xbd
+hora do jogo {0} · deslocamento {1} dias
+~~
+hora del juego {0} · desfase {1} días
+@@ 4d9hus2bgo
+Recursos
+~~
+Recursos
+@@ e6dldwijfq
++500 de ouro
+~~
++500 de oro
+@@ 1g1ivysj5yz
++5 de cada item
+~~
++5 de cada objeto
+@@ 11y1npubqdg
++5 itens
+~~
++5 objetos
+@@ x9qx9o6176
+Corações cheios
+~~
+Corazones llenos
+@@ 1rkl9ntc19s
+Sem corações
+~~
+Sin corazones
+@@ 2fu9bvq49yf
+Sequência
+~~
+Racha
+@@ 1d17txsfhoo
+Sequência +1 dia
+~~
+Racha +1 día
+@@ 1f94nlii564
+Sequência = 30
+~~
+Racha = 30
+@@ 2azrdq7co70
+Alcançar a meta diária
+~~
+Alcanzar la meta diaria
+@@ mwpgoq19t1
+Herói: {0} · XP {1} · ouro {2}
+~~
+Héroe: {0} · XP {1} · oro {2}
+@@ 2dmxoebgoqj
+Trilha {0}: {1}/{2} lições
+~~
+Ruta {0}: {1}/{2} lecciones
+@@ gpr6vsj2e8
+Concluir a próxima lição
+~~
+Completar la siguiente lección
+@@ 1utpi0g7qr5
+Concluir a unidade atual
+~~
+Completar la unidad actual
+@@ zfndfytwjk
+Concluir 25% da trilha
+~~
+Completar el 25% de la ruta
+@@ o9rbg05zbv
+Concluir 90% da trilha
+~~
+Completar el 90% de la ruta
+@@ jsz6ko9ei8
+Concluir a trilha inteira
+~~
+Completar toda la ruta
+@@ 1asm405f1ge
+Concluir todas as lições
+~~
+Completar todas las lecciones
+@@ 27w2ulmhn7n
+Zerar lições
+~~
+Reiniciar lecciones
+@@ sxz4kokvhs
+Trilhas
+~~
+Rutas
+@@ 16s0rh4i8lu
+Abrir todos os campos
+~~
+Abrir todos los campos
+@@ zka9l77jzr
+3 estrelas em tudo
+~~
+3 estrellas en todo
+@@ 1ydu441xhy9
+Conquistas: {0}/{1}
+~~
+Logros: {0}/{1}
+@@ k5qqiv9r5g
+Desbloquear todas as conquistas
+~~
+Desbloquear todos los logros
+@@ jix79e0d84
+Zerar conquistas
+~~
+Reiniciar logros
+@@ 1xqfyftkmif
+Verificar conquistas agora
+~~
+Comprobar logros ahora
+@@ vfpaejljg9
+{0} novas
+~~
+{0} nuevos
+@@ 2g7dgwm6d8j
+Mostrar os tours de novo
+~~
+Mostrar otra vez los recorridos
+@@ 11b48c7vomt
+Visto por último: {0}
+~~
+Última visita: {0}
+@@ 1plcj5yf0vl
+Adiante o relógio do jogo para testar o que acontece quando o jogador fica fora: corações recarregam, plantas crescem e murcham, pets ficam com fome, sequências quebram, monstros invadem e a tela de boas-vindas aparece.
+~~
+Adelanta el reloj del juego para probar qué pasa cuando el jugador se ausenta: los corazones se recargan, los cultivos crecen y se marchitan, las mascotas tienen hambre, las rachas se rompen, los monstruos invaden y aparece la pantalla de bienvenida.
+@@ 10yocdy6mia
++1 hora
+~~
++1 hora
+@@ rcwh3zq1aq
++8 horas
+~~
++8 horas
+@@ i34r3p9wki
++1 dia
+~~
++1 día
+@@ vc8mjz7bca
++3 dias
+~~
++3 días
+@@ 27r6awkqgdl
++7 dias
+~~
++7 días
+@@ 1xje32i7gm6
++30 dias
+~~
++30 días
+@@ idbctn9kax
+Relógio
+~~
+Reloj
+@@ 16vpm5gzi6o
+Voltar ao tempo real
+~~
+Volver al tiempo real
+@@ 9rry21iiyh
+Rodar a verificação de ausência agora
+~~
+Ejecutar ahora la comprobación de ausencia
+@@ 29hxlyt0tj1
+Limpar a vila
+~~
+Limpiar la aldea
+@@ 1evye1nizgz
+Ovos {0} · pets {1}
+~~
+Huevos {0} · mascotas {1}
+@@ 1s5qfn1nba0
+Ovo {0}
+~~
+Huevo {0}
+@@ bazm2rxt4v
+Chocar todos os ovos agora
+~~
+Eclosionar todos los huevos ahora
+@@ 20fi7t0ubuh
+Deixar os pets com fome
+~~
+Dar hambre a las mascotas
+@@ 1bacck2kz62
+Deixar os pets felizes
+~~
+Hacer felices a las mascotas
+@@ 1yvks4833du
+Gerando: BRILHANTE
+~~
+Generando: BRILLANTE
+@@ 2fqob85s7tc
+Gerando: normal
+~~
+Generando: normal
+@@ f5bfyvjbz2
+Gerar um pet
+~~
+Generar una mascota
+@@ kzvdsielm7
+Canteiros {0}/12 · animais {1}
+~~
+Bancales {0}/12 · animales {1}
+@@ ahl7vlx6f7
+Fazer tudo crescer
+~~
+Hacer crecer todo
+@@ zdg4vi5k9y
+10 sementes de cada
+~~
+10 semillas de cada
+@@ lfekdmev0b
+5 de cada planta
+~~
+5 de cada cultivo
+@@ 2cub809g1iq
+Abrir todos os canteiros
+~~
+Abrir todos los bancales
+@@ lw4wuvnjgg
+Mato por toda parte
+~~
+Maleza por todas partes
+@@ lbgc4pghrt
+Animais com fome
+~~
+Animales con hambre
+@@ 405dujka1v
+Dar um animal
+~~
+Dar un animal
+@@ 1shi8bmsd38
+Vitórias {0} · invasores {1}
+~~
+Victorias {0} · invasores {1}
+@@ jweob9rhe6
+Gerar 3 invasores
+~~
+Generar 3 invasores
+@@ 1bnbanshf63
+Remover invasores
+~~
+Quitar invasores
+@@ 20sgm41acdc
+Mensagens
+~~
+Mensajes
+@@ qr5zaxs5o5
+Pedir notificações do navegador
+~~
+Pedir notificaciones del navegador
+@@ 27z1ihrwkvg
+Enviar uma notificação de lembrete
+~~
+Enviar una notificación de recordatorio
+@@ ibr0odu2en
+Adicionar uma mensagem de corvo
+~~
+Añadir un mensaje de cuervo
+@@ 1ekgou01teq
+Um corvo de teste
+~~
+Un cuervo de prueba
+@@ 1w9dwh0wc3i
+Olá do modo desenvolvedor!
+~~
+¡Hola desde el modo desarrollador!
+@@ 1o0isvv5o6m
+Mostrar um aviso
+~~
+Mostrar un aviso
+@@ a5stsq5bd4
+Aviso
+~~
+Aviso
+@@ 2agenoed2z4
+Este é um aviso de teste.
+~~
+Este es un aviso de prueba.
+@@ 1st03e0kys4
+Tela de boas-vindas
+~~
+Pantalla de bienvenida
+@@ af0nizap72
+Telas
+~~
+Pantallas
+@@ 3zlzxwdzm0
+Lições
+~~
+Lecciones
+@@ 2fsljc3fn9y
+Lição atual
+~~
+Lección actual
+@@ 1vzybnveosu
+Verificação de conteúdo (#/dev/verify)
+~~
+Comprobación de contenido (#/dev/verify)
+@@ 1neqlj84j6p
+Campos da fazenda
+~~
+Campos de la granja
+@@ rj1ngyto0o
+Idioma
+~~
+Idioma
+@@ f4jz5gsig
+Ferramentas
+~~
+Herramientas
+@@ 2ea1x87kq97
+Esconder ids da interface
+~~
+Ocultar ids de la interfaz
+@@ 1p3u0w4gqun
+Mostrar ids da interface
+~~
+Mostrar ids de la interfaz
+@@ 86fydhyeig
+Copiar o save para a área de transferência
+~~
+Copiar la partida al portapapeles
+@@ 1kdsqsbgdyk
+Desligar o modo desenvolvedor
+~~
+Desactivar el modo desarrollador
+@@ l0s9wnkdmd
+Apagar tudo
+~~
+Borrarlo todo

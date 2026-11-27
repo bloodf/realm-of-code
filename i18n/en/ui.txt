@@ -1,0 +1,1550 @@
+@@ pb3uoyyiot
+What does this code print?
+@@ 1hnygwzeeez
+True
+@@ 12u8s6vu2gj
+False
+@@ 327nggx3on
+Unknown code lesson 
+@@ 1gvnz6e2xg0
+Your streak went out, but a new one starts today.
+@@ 1e9e8tvkzg1
+{names} missed you and {is} hungry.
+@@ 1ga5p5t73gb
+are
+@@ 1gjz87otzfz
+is
+@@ 515jj1uy57
+{n} crops are ready in your garden.
+@@ 24g31cs2cn0
+{n} crops withered. Clear them and plant again.
+@@ 1wx7nvvk6wx
+Monsters wandered into the village! Chase them away.
+@@ q9d5wbku9w
+We missed you, {name}!
+@@ 2cc38t66mxw
+Welcome back!
+@@ 4izux2bv7
+Everything is calm. Ready to learn?
+@@ 1cmquyf71ng
+The village is clean again!
+@@ q7kuitthjx
+Comeback bonus: +50 gold. Lumi is proud of you.
+@@ 1tpl7oc65kz
+Reminders are on!
+@@ 1j0vesy820h
+Lumi will remind you to keep your streak.
+@@ 1zfret7zafu
+Your {n}-day streak is in danger!
+@@ 1dxz7ucpgz9
+One short lesson keeps the flame alive. Lumi believes in you.
+@@ d2hmrp5w5w
+{name} is waiting for you
+@@ 2cmvce5uxqh
+Your pet is hungry and a little lonely. Come say hi!
+@@ pxk24qcg29
+Your crops are ready!
+@@ 25l6bdykfrc
+{n} crops are waiting in your garden.
+@@ 1u0p1ukmjpn
+Lumi misses you!
+@@ 27a2f9892hc
+Five minutes of learning today? Your next lesson is waiting.
+@@ 12lewi7lj6d
+Title
+@@ 40lyxipgf8
+Create
+@@ 1qarckz11rr
+Lesson
+@@ rcmzsphsxe
+Minigame
+@@ 9965vishh7
+Verify
+@@ 282k3q63ry7
+Battle
+@@ at99v4jtm7
+Tour
+@@ bj4o91reyk
+Debug
+@@ jegomwnmzl
+World
+@@ 10az7tnwgx5
+Hud
+@@ jh1mxdp0xb
+Peasant
+@@ 1fsvixdo1pt
+Paladin
+@@ 1wl13ned22o
+Champion
+@@ t7p1n65041
+Archmage
+@@ 2d6zs5lf5dc
+Legend
+@@ 1np509zs6mc
+Quest complete!
+@@ kml5a54bc6
+{0}. Claim your chest on the Quests page.
+@@ 2gol1ixovnw
+Level {0}!
+@@ 2cijt03fkzf
+Your hero grows stronger.
+@@ 1vbnm2jgt4j
+Trophy won!
+@@ 14rub2zdu5q
+Legendary trophy!
+@@ 13pz1xr3uhm
+The Junior Trial opens when you finish {n}% of your path. You are at {pct}%.
+@@ mw53vtfzte
+This monster already ran away.
+@@ k83on979cn
+There is no such monster here.
+@@ wr5th6yk3x
+This region is still closed. Finish more lessons first.
+@@ 22vy0ni9n0a
+The Junior Trial
+@@ 15624foauop
+Village defence
+@@ 21ety3yqhji
+Back
+@@ 1lnhtl72e2
+Combo ×{n}!
+@@ 10hsjuw5ipa
+A boss appears! Bosses hit hard, so defend and use potions.
+@@ n2amdlacsv
+A wild {name} appears!
+@@ 261ep2k2u5j
+Strike by answering questions, cast spells by typing code words. Right answers in a row make combos.
+@@ 1z261ruxa6f
+Fight!
+@@ 1d239q5kn5f
+Strike
+@@ 2agyukf6vel
+Answer a question
+@@ o9xl4uzmjc
+Spell
+@@ 2cd5ubj2zvl
+Type a code word
+@@ so6oebpt3o
+Defend
+@@ 2ds4msgmg9z
+Halve the next hit
+@@ 17vhx0m8h8z
+Potion ({n})
+@@ qg0ikmbsdk
+Heal 40% of your health
+@@ 15cp74i4bzc
+THREE
+@@ 2421dh26647
+Combo ×{n}! You strike for {d}!
+@@ 13e5v5eni93
+Right! You strike for {d}!
+@@ zwq29pycns
+Too slow!
+@@ bh4sow4wk
+Missed!
+@@ 1e101glxefi
+The answer was: {a}
+@@ 1hpns3ahs83
+Type the rune to cast the spell:
+@@ 1xbhvlpjjbx
+The spell "{w}" blasts for {d}!
+@@ oofe6xzgtj
+The spell fizzles!
+@@ x7j85djsmy
+You raise your shield (+{n} health).
+@@ zcner8mcx6
+You drink a potion: +{n} health!
+@@ 28cxfm9fdi2
+Run away?
+@@ 1gq2lmtmtrf
+You lose nothing, but the monster stays.
+@@ 1ckwgp1p1ob
+Keep fighting
+@@ 17013cyv2mu
+Run
+@@ ztah51sfqw
+{name} uses a heavy attack!
+@@ o5k0eoidk7
+{name} hits you for {d}.
+@@ ieu3k81taf
+The {name} dropped an egg!
+@@ 1zpxfxj1lsf
+You are a Junior Developer!
+@@ uyc5za6qls
+You passed the Junior Trial. This is the skill level of a junior developer: now build projects, polish your portfolio and apply!
+@@ rpgmg3hwbk
+You defeated the {name}!
+@@ 1jm4tktkhbk
+Junior Developer!
+@@ e7c239o81v
+Victory!
+@@ 15l4kkbu3zo
++{n} gold
+@@ 1loey0hvfu5
+A {item}!
+@@ 2dlmiyaj000
+A {r} egg!
+@@ mhaht70o77
+The village is a little safer.
+@@ 167vf3bxief
+Continue
+@@ 22hfpkc81ye
+Again
+@@ 1pevz48nsj5
+You fainted...
+@@ 26wndg2mj27
+Lumi carried you home. You lost nothing. Learn a few more lessons, level up, bring potions, and try again!
+@@ 12la9hzjsn
+Casual
+@@ 208fnz60wl1
+5 minutes a day
+@@ 23imb8j3x2a
+10 minutes a day
+@@ 1stl8ql02xz
+Serious
+@@ 1yp3o1h2a60
+15 minutes a day
+@@ 27inaa48x
+Intense
+@@ xbz1jns6di
+20+ minutes a day
+@@ vaacn8my31
+Mage
+@@ g7hp9ezwfk
+Ranger
+@@ 2go077nv5eh
+What do you want to become?
+@@ 2aqbf2yij9f
+Pick a goal. You can change your path any time, and your progress comes with you!
+@@ 1h4s1fd8ja9
+How much code do you know?
+@@ c6ta6vls0u
+No wrong answers here!
+@@ 25we0p9oan4
+Pick a daily goal
+@@ 185hozenhny
+A little every day beats a lot once a month.
+@@ 10p3k5zq5yi
+How do you like your lessons?
+@@ 27ekb95z2xr
+This only changes the extra notes. Everyone learns the same skills.
+@@ mf12oc683f
+Create your hero
+@@ 1oz6wz4idxf
+Every legend needs a name.
+@@ mbyive52pc
+{0} lessons
+@@ 87vwn0mwtn
+I'm new to coding
+@@ 1zfl4qc5e2m
+Start from the very beginning. Perfect for kids and adults.
+@@ 12wqff3u3fc
+I know some already
+@@ 1kxenxj1tso
+Start at the beginning, but use the **Jump here** key on any unit to pass a short test and skip ahead.
+@@ 25ftyy8y2au
+Short and simple
+@@ 1ti9qxpe6iq
+Just the essentials. Great for kids and busy people.
+@@ fa999olb24
+With real-world details
+@@ 1fxu4lvo85o
+Adds "Sage's notes" to challenges: how things work at a real job, interview tips and best practices.
+@@ dtbhstxvf4
+Your name
+@@ 7gqysfvinh
+Name
+@@ m79bdx71dp
+e.g. Ada
+@@ 1h8qh0j4anc
+Class
+@@ q23coh8c40
+Colours
+@@ 2cnzxzhynth
+Start learning
+@@ 21yijj331bq
+Walk one tile: "right", "left", "up" or "down"
+@@ 2cluuh17pj
+Plant "wheat", "carrot" or "pumpkin"
+@@ vu8duh5pn1
+End the day: watered crops grow
+@@ 147r6bl8pr7
+Pull the weeds here
+@@ 2g79w4xhqa3
+Go down one row, back to the left side
+@@ 2dlgmhtl8at
+Fill the can (next to the pond)
+@@ 1itv474gzlz
+The farmer says something
+@@ 18zeku1fp95
+true if this tile is dry farmland
+@@ zg608zwwb5
+true if the crop here is ripe
+@@ 1te90ixzeho
+true if something grows here
+@@ r955qmu37j
+true if there are weeds here
+@@ 1xef2yn3f55
+true if this tile is grass
+@@ 1hqp5g735fj
+true if you stand on farmland
+@@ 1m9lajl6xbn
+true if you can walk that way
+@@ 1tk7xwduxuf
+How much water is in the can
+@@ 21q2j8ahpgy
+No such field.
+@@ 28880axkger
+Finish the field before this one first.
+@@ 1odvxz2mqux
+Back to the farm
+@@ 173plui2fah
+Bess is fetching the blocks...
+@@ 2fhdrjafxpr
+Chapter {n}
+@@ 12ud6om16ni
+BLOCKS
+@@ 24m5djzt8b7
+BLOCKS + CODE
+@@ 1xtxr4qsk9s
+JAVASCRIPT
+@@ ph3t13e1fo
+Day {0}
+@@ nnurxw805m
+Stop
+@@ 2554s8khkhe
+Reset
+@@ 7yfrchjsi5
+Goals
+@@ 10k27eefr9z
+blocks
+@@ 11uzqa0tws4
+lines
+@@ 2eryvctw971
+No mistakes
+@@ 26axyv1d07a
+{0} {1} or fewer
+@@ 1c5o0kj0t09
+Farm
+@@ 12nk2hhieye
+Program
+@@ ht1yqye90b
+Blocks
+@@ 1r267ijeglo
+The code
+@@ an6c6z7hj2
+Type it instead
+@@ 2596aaufi0s
+Your program
+@@ vn78136ty8
+This is the JavaScript your blocks make. It does exactly the same thing.
+@@ vkqdt2i299
+◀ Drag a block from the left and drop it under "when ▶ Run"
+@@ 15wwozm2wan
+Commands
+@@ 2fa3ibo3qce
+{0} lines · 3rd star at {1} or fewer
+@@ nrysefz3fl
+Your code
+@@ 2a2a61poc73
+{0} {1} · 3rd star at {2} or fewer
+@@ 1gexugb9v12
+Free hint
+@@ 22n7t0441hg
+No more
+@@ 20p91y13xm5
+Hint · {0}
+@@ da70xsia5i
+Solution
+@@ 1r5dvb3w52l
+{0} blocks · 3rd star at {1} or fewer
+@@ 1tdj4dbjhgn
+Your program ran forever, so the farmer stopped. Does a loop never end?
+@@ glkhg2mdup
+ (line {0})
+@@ amwx1nndvl
+Perfect! Three stars. You farm like a true coder!
+@@ 13uki9axixa
+Well done! Can you do it with fewer {0} for the third star?
+@@ 2cx8yggvn9m
+You did it! Try again without mistakes for more stars.
+@@ 293fiq9he6e
+Something went wrong in the program. Read the message and try again!
+@@ 28rj7yg78nm
+Not yet: "{0}" is not done. Press Reset, change your program and run it again.
+@@ d9cn47l9lg
+Almost!
+@@ ijywfwq50b
+You are out of lightbulbs! Win them in minigames, or buy them from the merchant.
+@@ xbh42biym2
+Here is one way to do it. Read it, then run it to see how it works.
+@@ 1zp25wm82wv
+Now you are typing real JavaScript! It is the same program your blocks made.
+@@ 195ovbsthze
+NEW IDEA
+@@ 1m95pzeekj6
+Let's farm!
+@@ gjne8wx45t
+Perfect harvest!
+@@ 20dus6qv5cu
+Field complete!
+@@ 26tg43lynzw
+All goals done
+@@ 1p1lq8x1ya5
+{0} (bumps, wasted water, unripe harvests...)
+@@ rddw5y2458
+{n} mistake
+@@ 207ccpdb1ks
+{n} mistakes
+@@ 1e5g39begu4
+(par {0})
+@@ i0ia5aff9t
+: try {0} or fewer
+@@ 1da6det9zr7
++{0} gold
+@@ 1dyf8d7ysu6
+Play again
+@@ 1d8fvpxqjpu
+Farm map
+@@ hwgwo5o0oc
+Next field
+@@ tp3js8hudt
+The program stopped
+@@ 1eszrcdklto
+Fix it
+@@ 11rmip74jc6
+Round {0}/{1}
+@@ f619wi1uw3
+Runes linked: {0}/{1}
+@@ 1dv8pvucid8
+Drag a rope from a rune to its meaning, or tap one and then the other. A wrong link costs 3 seconds.
+@@ 214bgbz6zts
+Pairs found: {0}/{1}
+@@ 1k1mjzaejz8
+Misses: {0}
+@@ cp2or71va0
+Hidden tile
+@@ o8q0i1ne53
+Each term has a partner: its meaning. Fewer misses, more stars.
+@@ 1oi62jaluom
+Question {0}/{1}
+@@ 17kaayr8njb
+Right: {0}
+@@ k433ost2e9
+Bug {0}/{1}
+@@ ceiki4gmfx
+Squashed: {0}
+@@ 1g173uyxvla
+Squashed it!
+@@ 21f9e04eyca
+The torch went out...
+@@ 14q63l1lld5
+Not that one. The bug was on line {0}.
+@@ 2and044ibun
+See results
+@@ upgdxl05a9
+Next bug
+@@ a82l009tpb
+Arrows: {0}
+@@ 25o7h7rpejz
+Score: {0}
+@@ 256x4wh5ybr
+**Tip:** {0}
+@@ 1m72cve6h8k
+The courtyard's HTML
+@@ e9flgo6yvv
+Selector
+@@ 1pxc53z34o9
+e.g. goblin
+@@ atynq2s3is
+That selector is not valid CSS. Check for typos.
+@@ 227nrjczrf5
+Bullseye! Every target hit, nothing else.
+@@ 1ob3icbbnt3
+Missed {n} target.
+@@ qu6vnljy5e
+Missed {n} targets.
+@@ 2zoyl9yh77
+Hit {n} innocent thing!
+@@ 2gn67qi420h
+Hit {n} innocent things!
+@@ 1vy5vds9lv3
+Out of arrows. One answer: `{a}`
+@@ c8thpnvzzu
+{n} arrow left.
+@@ xnbbd00rwp
+{n} arrows left.
+@@ 1kiz2i44nft
+Loose arrow
+@@ 1a38qoucp22
+Next round
+@@ 1ffcw193x56
+Scroll {0}/{1}
+@@ 1d5u935jwm8
+Mira's request: which rows does this query return?
+@@ ljymdenr1p
+Tap the rows to pick them ({0} picked).
+@@ 18pm3u6duru
+Cast query
+@@ ok0tmcefu5
+**Exactly right!** Mira files the scroll.
+@@ 1jgjpykzx80
+**Not quite:** it returns {0}.{1}
+@@ 2fdktemhq5q
+
+ORDER BY sorts the rows first, then LIMIT keeps only the first ones.
+@@ 21ore4s8dg8
+Next scroll
+@@ 9btqk4hcz9
+Bridge {0}/{1}
+@@ 1unbc8hk068
+Crossed: {0}
+@@ 25l9syqx1cv
+How many planks does this loop lay?
+@@ o1ci0fhiof
+{n} plank
+@@ 23vgs8rq03a
+{n} planks
+@@ njxzemgpcq
+**Across!** The loop ran {n} time.
+@@ 28b8xyucwo4
+**Across!** The loop ran {n} times.
+@@ mrk4hr0eiw
+**Splash!** Too few planks: the loop runs {0} times.
+@@ 18hhyhfdlbb
+**Too many planks!** The loop runs only {0} times.
+@@ au4um5g44i
+Next bridge
+@@ 1gdl6sjojw7
+The rules
+@@ 1qz4cos1lp9
+Rewards
+@@ 24ucsvw25oy
+Win stars to fill your satchel
+@@ 23nzulmvnnt
+Arcade rewards
+@@ 20hcprf2msg
+Gold and XP every game, and a lightbulb for a 3-star game (up to 3 a day).
+@@ 182aq6ck19q
+Best score: {best}
+@@ 2phbf0sa4q
+played {n} time
+@@ 10uzyhl52y0
+played {n} times
+@@ 147oxj5z5rx
+Play!
+@@ 1k8xdeobw77
+Leave the game?
+@@ 1j3d9orl87s
+Your score in this game will be lost.
+@@ gx5p59hwo4
+Keep playing
+@@ zn6dycc1te
+Leave
+@@ 10b5sd0jplc
+Legendary!
+@@ 1myztxiw2f8
+Well played!
+@@ 17rgiiaynwd
+Not bad!
+@@ amdkf0ed6m
+Keep trying!
+@@ ir6y3bq8r3
+ · new best!
+@@ xnes9t6pq
+Play again to win the stars you missed. Each new star adds items to your satchel.
+@@ 1gedfeg3mb
+Score {n}
+@@ yo646qgmhc
+Chain ×{n}!
+@@ bpookhhajb
+Bonus rune! Answer for +15 seconds and +200 points.
+@@ dvcaer4dvp
+Tap a gem, then a neighbour, to swap them. Three in a row break!
+@@ 1wmeejx7zqb
+Words {n}
+@@ 26gbbm4stj4
+type a word...
+@@ w5miz4io8g
+Type the word on a monster (spaces count!). Every 5 words: +5 seconds.
+@@ 1s3bgxbwlkh
+All
+@@ k042oy282f
+**First time in {0}?** Want me to show you around? It takes 30 seconds.
+@@ sux7g2aybf
+**That one is tricky!** Want a tip? I can explain how it works or give you a hint.
+@@ 1s9xbzfzgxn
+**Stuck?** Take your time. If you want, I can give you a tip.
+@@ 22hidc9vl66
+Show me
+@@ 29epdzv8g1a
+Help me
+@@ 19qxbxedzsu
+Not now
+@@ 1ynuqp4nhmb
+No thanks
+@@ 1c7odn0dzx7
+LUMI · YOUR GUIDE
+@@ x12t0qx7g0
+This screen
+@@ 1i1h8i6q60w
+I'm stuck
+@@ iyy2fm6onb
+Questions
+@@ cvody7ufzy
+Search: hearts, save, error...
+@@ 1lkjqre6y76
+Show me step by step
+@@ 1gmjc4z6xcm
+I'm stuck: help me
+@@ 1gg5z2yw79d
+Replay the welcome tour
+@@ 8sjtkorjbr
+All questions & answers
+@@ 1hy1j6ndel1
+Offer a tour the first time I open a screen
+@@ 1eizuqvtw4p
+This question
+@@ hgzet8gi6g
+How to play
+@@ cjy5ri7bfv
+No worries, everybody gets stuck. **Pick what is happening:**
+@@ 1ywq9d0ptsx
+How does this game work?
+@@ 2cmf7ht3456
+How do I answer this question?
+@@ z7bckgx81b
+Nothing to do here?
+@@ 1b8ofx95xvp
+This screen only shows information. Close it to go back to the village, or open the Academy to keep learning.
+@@ 2ghbxivs4m6
+not available right now
+@@ q5liu5eswr
+Still stuck? Check the **Questions** tab, or take a break: your progress is saved.
+@@ xn8qoaa4et
+ABOUT THIS SCREEN
+@@ 130j9wj4tpd
+See all questions
+@@ 1yltftjx3hm
+No answer found. Try other words.
+@@ 1hbp8xqei7g
+Walk the village
+@@ 2fy7at13dgp
+Arrow keys, WASD, or click where to go. Click a building to go in, or use the travel bar at the bottom.
+@@ 24ja33w799k
+Learn at the Academy
+@@ 1ek74b79ji4
+Follow your path on the map. Each stop is a short lesson (2-5 minutes) that starts from zero.
+@@ 2cl9oudo0e8
+Answer and check
+@@ 1h17ouphxov
+Tap or type an answer, then press **Check**. Wrong answers come back later, so you really learn them.
+@@ 2iuube8dai
+Write real code
+@@ y35m23fanu
+Coding challenges run your code right in the browser: web pages, JavaScript, TypeScript, React, SQL and more.
+@@ 2fu049tzwyh
+Play and earn
+@@ 90jz59z94m
+Minigames, the Code Farm and daily quests give XP, gold and items that help you in lessons.
+@@ 28wdabpcs04
+Ask Lumi
+@@ qsgsg7p8hs
+Tap the little fairy on any screen: what the screen does, a step-by-step tour, or help when you are stuck.
+@@ 17i7zstu6b3
+Hi, I am **Lumi**! Here is how the game works, and answers to the questions adventurers ask me most.
+@@ is0he2fgy8
+Lumi · your guide
+@@ 1b1x4629cef
+Take the welcome tour
+@@ 31dzumbu3h
+Show screen tips again
+@@ 239tqgwl0sj
+Offer a short tour the first time I open a screen
+@@ 15vdxxay80v
+Questions & answers
+@@ xgjnc4zk6m
+No answer found. Try other words, or ask Lumi with the fairy button.
+@@ 72c964y63t
+Stepped
+@@ 2ffwo9fe5v2
+Got it!
+@@ o54cnfr1fb
+Next
+@@ 25zuw1es8rz
+Skip
+@@ u3x4e0wamn
+Market
+@@ 9pcwxivl8a
+Basket
+@@ as0i6rkmir
+Tap a plot or an animal
+@@ id8a34t5ev
+WASD or arrows to walk · Space to plant, water, harvest, feed and collect · click a plot or an animal
+@@ 232bditxzrr
+Garden plot {n}
+@@ 19zva5v7qmb
+Weeds grew here while the plot was empty.
+@@ ae2ntt1uau
+This crop withered: it was ripe for too long.
+@@ 1p0xcsixvby
+Clear the plot
+@@ z0oqlatytp
+Pick a seed to plant:
+@@ 5ri121yuwg
+You have no seeds. Buy some at the market.
+@@ o2mvv92g3k
+{n} min
+@@ s5gg4qp3ol
+Buy seeds
+@@ kv160zncvn
+Ripe! Harvest it.
+@@ ozt27afw7o
+Watered
+@@ 1wb4dtdeh8h
+Dry: it grows 3 times slower
+@@ vn4x3rpc4t
+about {n} min left
+@@ 21o29v7etuu
+Harvest
+@@ 24uhc1w9ess
+Water
+@@ kkcpysutjo
+Come back later: crops keep growing while you learn.
+@@ 10a0gelj0ta
+Food
+@@ 1wojf5zq7dh
+Joy
+@@ 10pdqio54ml
+{n} × {item} ready to collect!
+@@ apl8xankhg
+Makes {item} when fed.
+@@ mxuqxsbq7v
+Collect
+@@ xd7b6bkh4h
+Feed ({food})
+@@ 2au83ojp6jf
+No food
+@@ 1j98rocppup
+Pet
+@@ 1gkqnjdylet
+Eats: {list}
+@@ 1naddnoao2m
+Bess's market stall
+@@ u723flb6e9
+You have {n} gold.
+@@ 1eiaf4a6ry
+Seeds & hay
+@@ r3gcmnh69y
+Animals
+@@ 7i94oudokz
+Sell
+@@ 1z3lowl9the
+Land
+@@ 1pzlf8hxzbb
+{crop} seeds
+@@ 2gnm3jn7ni0
+{n} min · sells for {p}
+@@ hf26qh3lnk
+Hay ×5
+@@ 29r254tekiu
+Food for animals
+@@ 1g3kqhe6o3z
+you have {n}
+@@ 2c63acipfxc
+Your pen has room for {n} animals ({have} now).
+@@ tn2nyy634w
+Nothing to sell yet. Harvest crops and collect eggs, milk and wool.
+@@ 12d4s4dyh23
+{p} gold each
+@@ 1ii73jxe4h1
+Sell 1
+@@ woqcbybeyw
+Tip: keep some food for your pets and animals!
+@@ 7v39c0emla
+You have {n} of 12 garden plots.
+@@ 154quloqgpd
+Buy a new plot · {p} gold
+@@ luraacsk09
+Your garden is as big as it gets!
+@@ oa9lxw59bo
+Empty. Buy seeds at the market to start your garden.
+@@ 1xc96bgytnr
+Market stall
+@@ 2xw4wpeq1v
+To the village
+@@ 2e3flmlh6fe
+You
+@@ 3c0ukkydpe
+Village
+@@ 1brl8e72f3m
+Academy
+@@ 2ya9mwuy6n
+Home
+@@ rbl0z2caik
+Tavern
+@@ mw2fhy6czv
+Quests
+@@ 20hvuw6iada
+Skills
+@@ 227z7lko6s0
+Trophies
+@@ 1301h3t80d8
+Hero
+@@ 2bnyu98kr2v
+Lv {n}
+@@ 1ihrzibv9s0
+Your hero, level {n}
+@@ n8i5xkvn60
+Streak, gold, hearts and items
+@@ 5ko7d20n8t
+More
+@@ 2cwcy0n8rnc
+Travel bar
+@@ 27m794l92x7
+Help
+@@ 1rkypds2xst
+Enter {place}
+@@ zn59ul9eq9
+WASD or arrows to walk · Space or Enter to act · click a building to go there
+@@ 14otl2xozt0
+This lesson does not exist.
+@@ 1d39r7co2lb
+This lesson is still locked. Finish the lessons before it first.
+@@ 1o4go8vk3jw
+Lumi asks you to finish your review stop first. It is short, and it never costs hearts.
+@@ i6fddg8l6
+Start the review
+@@ 21dxb6chckm
+{0} mastered
+@@ 27xugdy5z0f
+{0}: path complete
+@@ 1g3tmjlbdum
+Finish a few lessons first, then come back to practise them.
+@@ 11vmvzkdulg
+Practice: {0}
+@@ 21g0shmadnb
+Mixed practice
+@@ 250ylbu4g8j
+No mistakes to review. Flawless!
+@@ 1w68matmakm
+Mistake review
+@@ i5ah39cti9
+There is no review here.
+@@ 1x8g56s2o5j
+Review done!
+@@ g38uvotp7e
+Review: {0}
+@@ 23t49ko2944
+This unit does not exist.
+@@ do7wjhd6x
+You can already open this unit.
+@@ hbazumygch
+Unit unlocked!
+@@ 8auj46efvh
+Jump to: {0}
+@@ 167ulp388e7
+No such exercise.
+@@ 2antxipe7md
+Nothing to play here.
+@@ 1fd50xmqh18
+(no rows)
+@@ 1zrrhdlbysv
+… {0} more rows · {1} rows
+@@ mhdt9ahfnx
+{n} row
+@@ cidc7slm1g
+{n} rows
+@@ 18hy4wrreq9
+Result
+@@ 22u75hmzone
+Task
+@@ 2e1hxoyo8qu
+No type errors
+@@ 9azfls1e6x
+PROJECT
+@@ 2dk27x8bpo0
+CODING CHALLENGE
+@@ ploafa4m7d
+Your task
+@@ 2d57tkgjtx1
+Objectives
+@@ 1vjrdvaijv5
+No more hints.
+@@ 22cug9o15ov
+Hide Sage's notes
+@@ h08nrwe2n1
+Sage's notes (going deeper)
+@@ quughxafn7
+Ctrl+Enter runs your code
+@@ 1deknw8bj6t
+Preview
+@@ 1s9oant9buz
+Nothing printed yet.
+@@ 1xvk3x0jv5p
+dom-panel grid-wrap
+@@ 26xpbpf3u5
+Gem, goblin, key, door, tree, gate: reach the gate!
+@@ 2g43x26rxea
+Loading the TypeScript compiler… (only the first time)
+@@ 28jd4f3h1ap
+Loading {lang}… (about 12 MB, only the first time)
+@@ 8u07wfugbs
+Run your code to see the output here.
+@@ kdt47wl241
+Nothing was printed.
+@@ 2e01y4gejp9
+dom-panel console-box
+@@ d1zyfxac1
+**Almost!** Your code ran without errors, but some objectives are not done yet.
+@@ 6ygdykmqm5
+Endless loop!
+@@ 1nixc7hafmd
+ on line {0}
+@@ dx01a3mmwh
+**Type error** on line {0}: {1}
+@@ 81ujef34bb
+**Lumi says:** {0}
+@@ adfd7her5g
+Rows
+@@ 16lvv3t84fs
+SQL CHALLENGE
+@@ ndn6lwxmtj
+Hint
+@@ kw1whrtvl6
+The archive (tables)
+@@ 2gljfap06zk
+Opening the archive…
+@@ s5xwk6pstv
+Ctrl+Enter runs your query
+@@ 1nptr0xu1t1
+Run your query to see the rows it returns.
+@@ i2d5mk8ev9
+**SQL error:** {0}
+@@ aowftljmsr
+Not quite. The expected result looks like this:
+@@ 1vme5w2jzc4
+Welcome to the realm terminal. Type commands and press Enter. Try: help
+@@ cbl7avsb4
+TERMINAL CHALLENGE
+@@ immw821ikl
+Lumi whispers: try these commands:
+  {0}
+@@ 1yppfxm89m6
+Goal reached!
+@@ 1yzkfm34ql3
+Great job!
+@@ 1vi2lub5jkg
+Excellent!
+@@ 10qb39x08px
+Nicely done!
+@@ xbot7itm6x
+Correct!
+@@ 1ks9olkqj2r
+Well cast!
+@@ 1l3sd870ycs
+Splendid!
+@@ 1ltqsp1rew5
+Huzzah!
+@@ ds27st1brn
+True or false? Tap one
+@@ e5nwbehy9s
+Read the code, then tap what it prints
+@@ qg3i1cln46
+Tap the right answer
+@@ 19541upcne5
+Tap tiles to fill the glowing gaps
+@@ 1rz8m2eoei3
+Tap the tile that fills the gap
+@@ 1zki1p5ub56
+Tap the pieces in the right order
+@@ 29v56ibj93i
+Link each item to its partner: drag a rope, or tap both
+@@ 27nkhobsmtd
+Tap an item on the left, then its partner on the right
+@@ 1anmbw95wl5
+Type your answer, then press Check
+@@ 2dvdchd5dj6
+Tap the line with the bug
+@@ reqo583akf
+Back to the path
+@@ 15oqnc4a383
+{0} in a row!
+@@ b5ovihnavc
+PREVIOUS MISTAKE
+@@ 1tzuts4j4ud
+WARM-UP: YOU MISSED THIS ONE BEFORE
+@@ 1jjfuhztc9d
+Not to worry! Let us read this once more.
+@@ jfgi98349
+Listen closely, adventurer! Here is something new.
+@@ 92uio6m2d7
+Show solution
+@@ 1fqjptcd8w0
+Find all the pairs
+@@ 19cedqkwmso
+Not quite
+@@ 1jp8mzikbf4
+Correct answer: 
+@@ 1inbnsnr4lr
+Read more
+@@ 20jw1tnr89r
+Retry · {0}
+@@ 1gor7ehvx0l
+Not there yet. Keep typing commands until the goal is reached.
+@@ 1mb1s2x7gb4
+Not yet! Read the results, fix your code and try again.
+@@ eyduo6qk3o
+Let us look at this again. Your next lightbulb is free!
+@@ 15w0d8pzowh
+Stuck? Tap the lightbulb at the bottom (or press H) for a hint.
+@@ 3xffeu6khs
+No lightbulbs left. Win minigames on the path to earn more!
+@@ 23dh2gx3r4z
+The torch lights the way: try again, no harm done.
+@@ 1z57eyi5dfo
+Close
+@@ 1h0ve9peovf
+Wait, don't go!
+@@ 7q14zcqxrr
+You will lose your progress in this {0}.
+@@ fk84lzajh9
+Keep learning
+@@ 1cnpi0ceep6
+End session
+@@ 1f35eukj4m0
+You ran out of hearts
+@@ 2aqxhqun5o0
+Hearts come back over time (one every 20 minutes). Drink a potion, refill them with gold, or earn them back by practising.
+@@ 19bk2b5zwh8
+Drink a potion ({0} left)
+@@ nh5d0kl1lw
+Refill for 50 gold
+@@ ash0uhtrzo
+Practice to earn hearts
+@@ fsp5p31uh1
+Quit lesson
+@@ 19fxsaii9k8
+Tip: turn on Relaxed mode in Settings for unlimited hearts.
+@@ 1o9g3ajk1ic
+Not this time
+@@ nhd6znxqwd
+Too many mistakes to skip ahead. No problem: the lessons will teach you what you need, step by step.
+@@ 1z2mio87tgc
+Try again when you are ready.
+@@ 2d9mdcshh3r
+Practice complete!
+@@ r28asq0npn
+Review complete!
+@@ 1vhfe846idp
+Lesson complete!
+@@ 16a48drufvw
+Total XP
+@@ 3laomdr8hu
+Perfect!
+@@ 18g75doazll
+Accuracy
+@@ 265mpo913mw
+Gold
+@@ hwvz22coic
+**Lumi added a review stop to your path.** A short refresher on this lesson before the next one. Reviews never cost hearts.
+@@ pprejp11c4
+**The path ahead is open again!**
+@@ lyvln37qy2
+**{0}-day streak!**
+@@ 2d7x76zt33x
+**Daily goal reached!**
+@@ 15p7g3280ju
+**Level up!** You are now level {0}.
+@@ 1ghbywh41ff
+**+1 heart** for practising
+@@ 26rk94jpm2w
+MMMMMMMMMM
+@@ 1zak2u6ponv
+REFRESHER
+@@ 1qib12izvxb
+NEW CONCEPT
+@@ 22otkgp700g
+tap a piece below
+@@ 1dgxvmbn9tp
+Type your answer
+@@ sdurigh0ug
+A pixel RPG where you learn to code: blocks first, then real code.
+@@ 7jmrfssy0j
+Continue as {0}
+@@ 1rncc50vod0
+Get started
+@@ 1myeg3784xz
+Achievement unlocked
+@@ 1smyx66v049
+Level up
+@@ 2c2qks3iifv
+Trophy
+@@ 24emjk4z7o1
+News
+@@ 2hnmvuppbi
+Daily quest
+@@ o5uit5nmix
+CHANGE
+@@ blorhnl0st
+A review stop is waiting
+@@ 20hfnkh8lx
+Your pace: {0}
+@@ xplf1vozvh
+That last lesson was a tough one, so Lumi added a short review to your path. Finish it to open the next lesson. It never costs hearts.
+@@ 9yokkmgcw4
+{n} review stop added
+@@ 14g22ffb4i2
+{n} review stops added
+@@ 25m090hht5b
+{n} game star
+@@ zhztiegm7d
+{n} game stars
+@@ 13c32qhd060
+Review
+@@ 1hpropwwalj
+Section {n} of {total}
+@@ zv4bg9wd3w
+UNIT {0}
+@@ 2ecg8pbeacf
+Guide
+@@ 1y8ahept57a
+Jump here
+@@ kunnqze5gh
+You finished the foundations!
+@@ 1l4yjrfitg9
+Path complete: {0}
+@@ hb4dzvn99a
+Choose my path
+@@ 18ko7qah3hs
+Start another path
+@@ 1x0hk0e56x3
+Next: {0}
+@@ dxg45mebvs
+Project
+@@ 9uecauirde
+Coding challenge
+@@ dkiakz8p7j
+Lesson {0} of {1}
+@@ 1qcxn3iboac
+Complete the stops before this one to unlock it.
+@@ 1fz574m0mh7
+Practice again +{0} XP
+@@ 37fj7ozpx7
+Start +{0} XP
+@@ a9ptwpf1li
+START
+@@ np31ek3rw6
+CONTINUE
+@@ 1fgp3g3tk1x
+Review stop
+@@ nhedk3gmwv
+Reviewed
+@@ 1t0mq1eg6xf
+Added because that lesson was hard
+@@ gl1s5xtvcg
+A short refresher: the key ideas again and the questions you missed. Reviews never cost hearts.
+@@ 28ecoixpfzo
+Start review
+@@ xwlthoc89y
+REVIEW
+@@ 1z5bfkj32ew
+Minigame · wins lightbulbs, torches and potions
+@@ 1yh43prgrw9
+Finish the lessons before it to unlock this game.
+@@ 11c29m9hqdk
+Play again for more stars
+@@ bo5p4it8ln
+Shortcut
+@@ rgxrhre9qa
+You are on a roll!
+@@ 6fb3nl6ys0
+Pass a short test on the rest of this unit and jump straight to the next one.
+@@ l5yy2b8pw4
+Take the test
+@@ 137i9g4kxt9
+Locked
+@@ aj1ftfae0r
+GUIDEBOOK
+@@ 2g6568pba64
+Got it
+@@ kqqmn6vk1w
+Daily goal
+@@ 13dowe7fiev
+Goal reached! Lumi is dancing.
+@@ 1ygue51v4ag
+Earn {0} more XP today.
+@@ 254ejh69lo7
+VIEW ALL
+@@ 26mtcyig9d9
+Monster Gate
+@@ 1hhq4puidx
+Beyond this gate live monsters made of bugs. Your weapon is what you learn: answer questions to strike, type code words to cast spells. Dragons live on the peak. They are not our friends!
+@@ 24oq2lmauus
+Sir Gareth · Captain of the Gate
+@@ 1nqwi9a0q0
+{name} · Level {lv}
+@@ 188yc9q1bu4
+Health {hp} · Attack {atk} · Potions {p} · Battles won {w}
+@@ 1lmu37h6o3y
+{n} monsters wandered into the village while you were away! Find them and press Space next to them.
+@@ 1rs9hai09m
+Regions
+@@ 2ee0wrvu8o2
+Boss beaten ×{n}
+@@ 140zfltijvo
+Opens after {n} lessons ({have} done).
+@@ 233qlk67hq6
+Fight
+@@ 2egsqdgnx43
+Boss fight
+@@ m5qiuyveel
+The final exam of your path: questions from everything you learned. Win it to earn the rank of Junior Developer.
+@@ 137hvzsi43e
+{path}: {pct}% done · needs {need}%
+@@ 235vesa16zs
+Face the trial
+@@ 2a6fwftc68n
+just now
+@@ 1tl4828200n
+{n} minute ago
+@@ 26stf4wx24e
+{n} minutes ago
+@@ m6uym1ml6d
+{n} hour ago
+@@ 4eogge6vne
+{n} hours ago
+@@ 1vng0ug4fjl
+{n} day ago
+@@ e2nlwjv61x
+{n} days ago
+@@ b0kzlv64b2
+Raven Mail
+@@ 185irprncz3
+Ravens bring news from all over the realm: pets, eggs, crops, quests and reminders.
+@@ 1nfqdw20e47
+Want reminders even when the game is in the background?
+@@ 1szo4wvkawl
+Turn on
+@@ 1iwlzhdpntr
+No messages yet.
+@@ outy3k44nk
+Go
+@@ 2ayjl9e8oz7
+Welcome back, {name}!
+@@ 1e0pmnohl5u
+You were away for {n} day.
+@@ 129ub77y0b9
+You were away for {n} days.
+@@ 1ewddxe330d
+Good to see you again.
+@@ 23t2wdnm43e
+While you were away
+@@ 2bc98tvwcnr
+Your streak went out. Start a new one today: one lesson is enough.
+@@ 13iw9e5zwmw
+Learn
+@@ 1i21hpmx1qp
+{names} missed you and need food and play.
+@@ 4vx26iw80x
+{n} crop is ripe in your garden.
+@@ 22j7aysqrd9
+{n} crops are ripe in your garden.
+@@ vgtjmrbhm4
+Garden
+@@ 2l1cby3hkr
+{n} crop withered.
+@@ 20w54ua42j0
+{n} crops withered.
+@@ 1pwrhirl8jq
+{n} animal has something for you.
+@@ bc215fe1rq
+{n} animals have something for you.
+@@ ay78z9pdsl
+Barn
+@@ wx3z49tjkj
+{n} monster wandered into the village.
+@@ 12w3jtrff56
+{n} monsters wandered into the village.
+@@ 20554t135ke
+Chase
+@@ 1u8ob2giuzj
+Weeds and gloom crept over the village. Every lesson you finish cleans it up, and a clean village gives a comeback bonus!
+@@ 290qeu6z979
+Everything is calm and ready for you.
+@@ 285s7h4ypoa
+Start a comeback lesson
+@@ a9hmmf46qe
+Pet Sanctuary
+@@ 12hqccv1o6n
+Eggs hatch while you learn: every XP you earn warms them. Pets follow you in the village, and a happy pet gives you bonus XP. Remember to feed them!
+@@ 1mvflre8q3v
+No eggs right now. Win battles, finish quests or buy one below.
+@@ 156gg3iyf4x
+Ready to hatch!
+@@ 1d2j6qgxy6p
+Hatch!
+@@ 1htzgkod7mu
+Your pets
+@@ 25d5lace621
+Hatch an egg to get your first pet.
+@@ msaonho00
+Shiny
+@@ 27pqm3rg6ae
+Level
+@@ kqjdd8wb64
+Following
+@@ 26bz4et7re3
+Follow me
+@@ m01rqb7zlk
+Feed
+@@ 11z1x0tf8px
+Play
+@@ 1z0stx5nz0h
+Rename
+@@ 1ov9kbs939f
+Petdex
+@@ icxmu0b0u
+Every pet can hatch shiny (1 in 20): same friend, rare colours.
+@@ 23fe9namj93
+Egg shop
+@@ b45a9jjoxp
+{r} egg
+@@ 18jyc8pcvyv
+Ultra rare eggs cannot be bought: beat bosses at the Monster Gate to find them.
+@@ i3138fvly6
+SHINY!
+@@ pvvdcb7v6y
+Say hello!
+@@ 2f07lpqup0t
+Feed {name}
+@@ l1emhjrdjx
+You have no food. Grow vegetables or collect eggs and milk at your homestead.
+@@ cl1b271zv6
+♥ = favourite food: more joy.
+@@ 1x3l8w01ikn
+A new name for your pet
+@@ 1zsap8x3yrr
+Save
+@@ 1bm5zscauco
+Cancel
+@@ 1761svpejcr
+Guild Hall
+@@ e5gkhjf8m0
+The guild posts three new quests every day. Finish them and a treasure chest is yours.
+@@ 10j2sfvw0yr
+Aldric · Guildmaster
+@@ 9lpvqn40sj
+CLAIMED
+@@ 1ao75llp044
+Open +{0}
+@@ 1f2t3au4hom
+Finish one lesson every day. Best: {0} days. Streak freezes: {1}/2 (a freeze saves your streak if you miss a day).
+@@ 142w5e52g4j
+{0}-day streak
+@@ 4vj15a5nsm
+Freeze · 100
+@@ 1pkbarblqq8
+Library Tower
+@@ 27tij7wuz5q
+Every lesson sharpens a skill. Keep the freshness bars full by practising, and watch your job readiness grow.
+@@ 6vqhcmp22c
+Bram · Runesmith
+@@ 14fsxh18ugu
+JOB READINESS
+@@ 1ffq497vzuq
+{0}% of the path · {1}/{2} lessons
+@@ 1vpbogjsd1c
+Level {0}
+@@ 14p9eovhp3t
+{0} XP · {1}/{2} lessons
+@@ 13acrbaz5eg
+Technical skills
+@@ 1quz2uobmik
+Languages and frameworks. Each lesson gives XP to its skill. The little bars show freshness: practise to keep them full.
+@@ utby8bpvbu
+Process skills
+@@ 1rzf6ilk79c
+How developers work: the web, tools, Git, APIs, testing, quality and getting hired.
+@@ 12az7loaw0u
+Master a whole section to place its trophy on these shelves. Finish a path for a legendary one! Achievements give gold: more for silver, gold and legendary ones.
+@@ 17gl37cldif
+Career rank: {r}
+@@ iku4z6lgdq
+Next: {n}
+@@ 4vwy35edre
+You reached the top: you are ready for your first developer job!
+@@ 1dv7oe8ncwm
+Bronze
+@@ c42ni723oh
+Silver
+@@ 256pxwqz5l5
+Legendary
+@@ lk0dxs8rlr
+Secret achievement
+@@ c970rrchba
+Keep exploring to find it...
+@@ t2e316qgb
+Level {0} {1} · joined {2}
+@@ 1gm98ddcbkg
+Path: {0} · {1}
+@@ 20m6sp6qt3u
+{0}/{1} XP to level {2}
+@@ i8gtc9c93b
+Statistics
+@@ 23m6wgjth3i
+Day streak
+@@ feyowj6d0s
+Challenges solved
+@@ glqrzseqbl
+Projects built
+@@ f7ctxiu625
+Perfect lessons
+@@ 25w8bl1c991
+XP this week
+@@ uqtqtumeb4
+Gold bars reached your daily goal of {0} XP.
+@@ rtdr5220hd
+Tune the workshop to your liking: sounds, hearts, fonts and more.
+@@ dsygwtzjed
+Gwyn · Artificer
+@@ 239ink4hh0q
+Sound effects
+@@ 1ktbs89i57u
+Music
+@@ 1sxgx8uhies
+A calm lute tune, made in code.
+@@ 1zro6awu1qi
+Hearts
+@@ 1zsf0u43bnq
+Turn off for Relaxed mode: mistakes never stop a lesson. Good for kids and beginners.
+@@ ggy61awe1j
+Sage's notes
+@@ qz2jnonbti
+Real-world details in coding challenges (for adults and career switchers).
+@@ 6hf7d11gk0
+Tips for new screens
+@@ 2dkw4hm7es0
+Lumi shows a short guided tour the first time you open a screen.
+@@ 7ihn0e830n
+XP to earn each day
+@@ k2f62g9r5e
+Classic code font
+@@ 23g3pf8ih0l
+A standard font for code instead of the pixel one (easier to read for long code).
+@@ 2f5myvieqwe
+Editor text size
+@@ nrqqg2qbjm
+Hero map speed
+@@ doayw49865
+Slow
+@@ 1yqnq4foavx
+Normal
+@@ wp3em5xq1h
+Fast
+@@ r240cu5gyv
+Very fast
+@@ 16esobq72y1
+Reminders
+@@ 24mbtoavc8b
+Browser notifications when your streak is in danger or your pet is hungry (also in the raven inbox).
+@@ cy4jkc7csb
+Reminder time
+@@ f8xmelzk4a
+Off
+@@ 2bflq68x6ok
+A DEV button (and the ` key) opens a panel to test everything: XP, time travel, pets, battles...
+@@ 17hbn1jnn2g
+Your save
+@@ 1ky3zgyx9rp
+Progress is saved in this browser. To play on another computer, back it up to a file and load it there.
+@@ zj5u16r3qq
+Back up my progress
+@@ 2116rvk3qpx
+Load a backup
+@@ hdlclmh9xl
+Start over (erase progress)
+@@ 10haqp8xtub
+Are you sure? This cannot be undone.
+@@ nk3xl3xmf4
+Yes, erase
+@@ 1cf7o6cevqp
+no hero
+@@ 19mzh0t8dgf
+That file is not a Realm of Code backup.
+@@ xmr1txdpn7
+Every road leads somewhere good. Switch whenever you like: lessons you finished count on every path that includes them.
+@@ aknwzj1ub8
+Current path
+@@ 205b8ekddrm
+Follow this path
+@@ zxwbow3n0v
+{0}/{1} lessons done · Goal: {2}
+@@ 2bxjdid1ldz
+Welcome to the tavern! Practise old lessons (each session earns a heart), play games to fill your satchel, and visit the merchant.
+@@ 1dczqmdvwby
+Rolf · Innkeeper
+@@ 1r5v10armpv
+Your satchel
+@@ 29n2l1izm5t
+{n} exercise you got wrong before
+@@ 1lty55ul1m0
+{n} exercises you got wrong before
+@@ 27uegasif18
+No mistakes to review yet.
+@@ rxvl70a5w9
+10 quick exercises from everything you have learned.
+@@ ljo65klo8g
+Tavern games
+@@ wqu0hfx6gu
+"Short on light? I sell the finest lightbulbs, torches and potions in the realm." You have **{0} gold**.
+@@ xuv0n7wuf7
+Practise a skill
+@@ 1q6y3ayq4ew
+Finish your first lesson and your skills will appear here.
+@@ 27lhz3rp72m
+Needs practice
+@@ c9i3wnlq75
+Fresh
+@@ 24sc25qxork
+Practice
+@@ pdp4ev3noh
+Welcome to Greenhollow! Every field is a puzzle: write a program and your farmer acts it out. We start with blocks you drag and drop. Later you will type real JavaScript.
+@@ 1oedht0n856
+Bess · Farmer of Greenhollow
+@@ vwisxo5h1r
+{0} / {1} stars
+@@ top0jcoecf
+Start farming
+@@ 1vwfklmvhm2
+CHAPTER {0}
+@@ 1zdgx4kupz3
+Next 
+@@ 2002ka6caox
+Previous 
+@@ 1b1ba6u7fms
+dom-panel code-editor
+@@ rt187f9j5h
+Jersey 15
+@@ 2hfnqnal32
+bold {0}px "{1}"
+@@ q2sxvl2anx
+italic {0}px "{1}"
+@@ 1tk0zgar9j4
+The Academy! Lessons for every path are inside. Come in!
+@@ fwue40l1ve
+All your skills are recorded in the Library.
+@@ h41h72b1q3
+Hear ye! Trophies and achievements are on display here.
+@@ 1dj719aker5
+Want to farm with code? Start with blocks, end with JavaScript!
+@@ wh6i2ue2bp
+Games, practice and a merchant. Step inside, friend!
+@@ 1a1zq4zt82l
+New quests are posted every day at the guild.
+@@ 1vq2kn9i5l0
+Path Board
+@@ 1d9rcphex89
+ENTER
+@@ wsepwev76q
+SPACE

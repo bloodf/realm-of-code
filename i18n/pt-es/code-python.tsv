@@ -1,0 +1,96 @@
+oq6cixxfqq ¦ Olá, Serpente ¦ Hola, Serpiente
+1vsm1okq9nm ¦ A bibliotecária da Biblioteca da Serpente só fala Python. Cumprimente-a na língua dela. ¦ La bibliotecaria de la Biblioteca de la Serpiente solo habla Python. Salúdala en su idioma.
+n9g8wmeim6 ¦ Imprima duas linhas: `Hello, Library!` e depois `I am learning Python.` ¦ Imprime dos líneas: `Hello, Library!` y después `I am learning Python.`
+ik767wf5gr ¦ Duas linhas `print(...)`, uma depois da outra. ¦ Dos líneas `print(...)`, una tras otra.
+9vye7tuzlv ¦ Imprime "Hello, Library!" ¦ Imprime "Hello, Library!"
+1fefoligose ¦ Confira a grafia, a vírgula e o "!" ¦ Revisa la ortografía, la coma y el "!"
+1dktkk5bn65 ¦ Depois imprime "I am learning Python." ¦ Después imprime "I am learning Python."
+p33xuhysz9 ¦ Caixas com Nomes ¦ Cajas con Nombre
+1k483tt3o2w ¦ A biblioteca conta seus livros. Ajude a bibliotecária a guardar os números em caixas com nome. ¦ La biblioteca cuenta sus libros. Ayuda a la bibliotecaria a guardar los números en cajas con nombre.
+nak4zy73vl ¦ Crie `books` com o valor 120 e `new_books` com 35. Crie `total` como a soma deles. Imprima exatamente: `Total: 155 books` usando uma f-string. ¦ Crea `books` con el valor 120 y `new_books` con 35. Crea `total` como su suma. Imprime exactamente: `Total: 155 books` usando una f-string.
+1g4vg59x23m ¦ new_books é 35 ¦ new_books es 35
+2csfx0xeyfr ¦ total é 155 ¦ total es 155
+2e8srwbt8e6 ¦ Imprime "Total: 155 books" ¦ Imprime "Total: 155 books"
+rhxdad7ooz ¦ Use uma f-string ¦ Usa una f-string
+1hllaj6zz61 ¦ A Calculadora de Multas ¦ La Calculadora de Multas
+64rqlepbaf ¦ Livros atrasados custam 0,25 de ouro por dia. A bibliotecária precisa de uma calculadora. ¦ Los libros atrasados cuestan 0,25 de oro por día. La bibliotecaria necesita una calculadora.
+1wnofqjlb6a ¦ Com `days = 9` e `fee_per_day = 0.25`, calcule `fee` (dias vezes a multa por dia) e imprima exatamente: `Fee: 2.25 gold`. Depois calcule `weeks` como o número de semanas inteiras em `days` (use `//`) e imprima. ¦ Con `days = 9` y `fee_per_day = 0.25`, calcula `fee` (días por la multa diaria) e imprime exactamente: `Fee: 2.25 gold`. Luego calcula `weeks` como el número de semanas completas en `days` (usa `//`) e imprímelo.
+cw279xtuhi ¦ `weeks = days // 7` dá 1 ¦ `weeks = days // 7` da 1
+1ey45mrig0l ¦ fee é 2.25 ¦ fee es 2.25
+ax6qozmh0h ¦ Imprime "Fee: 2.25 gold" ¦ Imprime "Fee: 2.25 gold"
+1p57k47qr3x ¦ weeks é 1 (semanas inteiras) ¦ weeks es 1 (semanas completas)
+wwpzwjj6pi ¦ O Guardião do Portão ¦ El Guardián de la Puerta
+26gk5rnrevm ¦ Um guardião de pedra deixa os leitores entrarem pela idade. Escreva as regras dele. ¦ Un guardián de piedra deja pasar a los lectores según su edad. Escribe sus reglas.
+15q9o3qk93j ¦ Escreva uma função `room(age)` que **retorna** `"children"` para idades abaixo de 12, `"young"` de 12 a 17 e `"main"` para 18 ou mais. ¦ Escribe una función `room(age)` que **devuelve** `"children"` para edades por debajo de 12, `"young"` de 12 a 17 y `"main"` para 18 o más.
+1zvf7zppdki ¦ `def room(age):` e depois um `if` dentro dela (indentado). ¦ `def room(age):` y luego un `if` dentro (con sangría).
+1j63lmkc80l ¦ Use `return "children"` em vez de print. ¦ Usa `return "children"` en lugar de print.
+2f4flw5uhnp ¦ room(5) é "children" ¦ room(5) es "children"
+b4cv8myfyy ¦ room(12) e room(17) são "young" ¦ room(12) y room(17) son "young"
+23c8cx0ie8n ¦ 12 não é menor que 12: é young. ¦ 12 no es menor que 12: es young.
+1h08subqfxz ¦ room(18) e room(70) são "main" ¦ room(18) y room(70) son "main"
+bun8xvxtau ¦ Contando as Estantes ¦ Contando las Estanterías
+28uy1ctpj3m ¦ Cada estante guarda mais livros que a de baixo. Conte todos. ¦ Cada estantería guarda más libros que la de abajo. Cuéntalos todos.
+j9p2jdtu2t ¦ A estante número `n` guarda `n * 10` livros. Há 8 estantes (de 1 a 8). Use um laço `for` para calcular `total_books` e imprima. ¦ La estantería número `n` guarda `n * 10` libros. Hay 8 estanterías (de 1 a 8). Usa un bucle `for` para calcular `total_books` e imprímelo.
+7izutljvgm ¦ `for n in range(1, 9):` (o 9 não entra) ¦ `for n in range(1, 9):` (el 9 no se incluye)
+zvsgxp0f6l ¦ Dentro: `total_books += n * 10` ¦ Dentro: `total_books += n * 10`
+230i4oqx35b ¦ total_books é 360 ¦ total_books es 360
+27muxqp5acr ¦ Estantes 1 a 8: confira o fim do seu range. ¦ Estanterías 1 a 8: revisa el final de tu range.
+qreiv6pnxt ¦ Imprime 360 ¦ Imprime 360
+ffhg7kgpyv ¦ Usa um laço for ¦ Usa un bucle for
+1hqija0loto ¦ O FizzBuzz dos Bardos ¦ El FizzBuzz de los Bardos
+g7ib7xjcxl ¦ Os bardos cantam uma música de contar: múltiplos de 3 são "Fizz", de 5 são "Buzz", dos dois "FizzBuzz". É também o aquecimento de entrevista mais famoso! ¦ Los bardos cantan una canción para contar: los múltiplos de 3 son "Fizz", los de 5 "Buzz", los de ambos "FizzBuzz". ¡También es el calentamiento de entrevista más famoso!
+1h6vfyisau1 ¦ Imprima a música para os números de 1 a 15: o próprio número, ou `Fizz`, `Buzz` ou `FizzBuzz`. ¦ Imprime la canción para los números del 1 al 15: el propio número, o `Fizz`, `Buzz` o `FizzBuzz`.
+ztzyowpzbe ¦ Teste `n % 15 == 0` antes dos outros; `else: print(n)` ¦ Comprueba `n % 15 == 0` antes que los demás; `else: print(n)`
+2dyfwjnqez ¦ 15 linhas ¦ 15 líneas
+1sf5imimzv5 ¦ 3 é Fizz, 5 é Buzz ¦ 3 es Fizz, 5 es Buzz
+2bkld0os4nm ¦ 15 é FizzBuzz ¦ 15 es FizzBuzz
+1aqwiunb1ex ¦ Teste o 15 (os dois) primeiro. ¦ Comprueba el 15 (ambos) primero.
+1xva4m2ob5q ¦ Os outros números são impressos ¦ Los demás números se imprimen
+nwxsmjcfka ¦ Os Livros Emprestados ¦ Los Libros Prestados
+28u7lh6vg8a ¦ Os leitores pegam e devolvem livros o dia todo. Mantenha a lista em dia. ¦ Los lectores toman y devuelven libros todo el día. Mantén la lista al día.
+el8gkn2nrk ¦ Comece da lista `borrowed`. Adicione `"Hamlet"`, remova `"Emma"`, depois imprima quantos livros estão emprestados e o **último** livro (use `borrowed[-1]`). ¦ Empieza con la lista `borrowed`. Añade `"Hamlet"`, quita `"Emma"`, luego imprime cuántos libros están prestados y el **último** libro (usa `borrowed[-1]`).
+hxei8scjeh ¦ `print(len(borrowed))` e depois `print(borrowed[-1])` ¦ `print(len(borrowed))` y luego `print(borrowed[-1])`
+13pop8p3gpz ¦ A lista é Dune, Odyssey, Hamlet ¦ La lista es Dune, Odyssey, Hamlet
+1kzlnbcsb1b ¦ Imprime 3 e depois Hamlet ¦ Imprime 3 y luego Hamlet
+1hm3gpewxjn ¦ O Catálogo ¦ El Catálogo
+h4hyujeszn ¦ Todo livro tem um autor. O catálogo é um dicionário. ¦ Cada libro tiene un autor. El catálogo es un diccionario.
+1zus3jqxpzv ¦ Adicione `"Odyssey": "Homer"` a `catalogue`, depois imprima cada livro como `<book> by <author>` (um por linha, em ordem). ¦ Añade `"Odyssey": "Homer"` a `catalogue`, luego imprime cada libro como `<book> by <author>` (uno por línea, en orden).
+y1rd6vrpkw ¦ `for book, author in catalogue.items():` e depois `print(f"{book} by {author}")` ¦ `for book, author in catalogue.items():` y luego `print(f"{book} by {author}")`
+2jpnyumec8 ¦ Odyssey by Homer está no catálogo ¦ Odyssey by Homer está en el catálogo
+15ybn4rtt7p ¦ Imprime os três livros ¦ Imprime los tres libros
+20x3aax0v93 ¦ Um Feitiço Reutilizável ¦ Un Hechizo Reutilizable
+13reaore1i0 ¦ valores padrão ¦ valores por defecto
+ohy2enc5we ¦ A bibliotecária carimba datas de devolução o dia todo. Ensine a ela uma função. ¦ La bibliotecaria sella fechas de devolución todo el día. Enséñale una función.
+l15zaz1dnc ¦ Escreva `due_date(day, loan_days=14)`, que retorna o dia da devolução: `day + loan_days`. Depois escreva `is_late(due, today)`, que retorna `True` quando `today` é depois de `due`. ¦ Escribe `due_date(day, loan_days=14)`, que devuelve el día de devolución: `day + loan_days`. Luego escribe `is_late(due, today)`, que devuelve `True` cuando `today` es posterior a `due`.
+tadre9trps ¦ due_date(10, 7) é 17 ¦ due_date(10, 7) es 17
+20g3onbbne5 ¦ is_late funciona (16 está atrasado, 15 não) ¦ is_late funciona (16 va con retraso, 15 no)
+6b9487dotx ¦ Encantos de Compreensão ¦ Encantos de Comprensión
+hrnuyrrso6 ¦ list comprehension ¦ list comprehension
+1s9012gtkg8 ¦ Uma estante com o tamanho dos livros. A bibliotecária quer respostas rápidas. ¦ Una estantería con la longitud de los libros. La bibliotecaria quiere respuestas rápidas.
+1foau8tajag ¦ A partir de `pages`, crie `long_books` (livros com **mais de 300** páginas) com uma compreensão, e `total_pages` com `sum`. Imprima os dois. ¦ A partir de `pages`, crea `long_books` (libros con **más de 300** páginas) con una comprensión, y `total_pages` con `sum`. Imprime ambos.
+18p4olskmoh ¦ long_books é [450, 980, 310] ¦ long_books es [450, 980, 310]
+1z8fb8o1jxo ¦ 300 não é MAIS que 300. ¦ 300 no es MÁS que 300.
+25cmbgxa7r ¦ total_pages é 2235 ¦ total_pages es 2235
+28kexh88eo2 ¦ Use uma list comprehension ¦ Usa una list comprehension
+2cpe24wjl40 ¦ Pegando Livros que Caem ¦ Atrapando Libros que Caen
+1oduag58f5k ¦ Os leitores digitam por quantos dias querem um livro. Alguns digitam palavras. O programa não pode quebrar! ¦ Los lectores escriben cuántos días quieren un libro. Algunos escriben palabras. ¡El programa no puede fallar!
+4imuwtjj5 ¦ Escreva `parse_days(text)`, que retorna o número em `text`, ou `None` quando não for um número inteiro. Os números devem estar entre 1 e 30; fora disso, retorne `None` também. ¦ Escribe `parse_days(text)`, que devuelve el número de `text`, o `None` cuando no es un número entero. Los números deben estar entre 1 y 30; si no, devuelve también `None`.
+1a3pronc9z0 ¦ Depois `if 1 <= n <= 30: return n` senão `return None` ¦ Luego `if 1 <= n <= 30: return n` si no `return None`
+ptnrqyx32q ¦ "7" dá 7 ¦ "7" da 7
+tpscl1k5tw ¦ "ten" dá None (sem quebrar) ¦ "ten" da None (sin fallar)
+q023jt0vug ¦ Só de 1 a 30 é permitido ¦ Solo se permite de 1 a 30
+gd1qukszor ¦ Usa try/except ¦ Usa try/except
+mkv5draelj ¦ A Classe Book ¦ La Clase Book
+1hcp2oinx9a ¦ Cada livro sabe seu título, suas páginas e se está emprestado. Hora dos objetos! ¦ Cada libro conoce su título, sus páginas y si está prestado. ¡Hora de los objetos!
+1ymcw90arst ¦ Termine a classe `Book`: `borrow()` retorna `False` se o livro já estiver emprestado; senão marca como emprestado e retorna `True`. `give_back()` marca como não emprestado. `describe()` retorna `"<title> (<pages> pages)"`. ¦ Termina la clase `Book`: `borrow()` devuelve `False` si el libro ya está prestado; si no, lo marca como prestado y devuelve `True`. `give_back()` lo marca como no prestado. `describe()` devuelve `"<title> (<pages> pages)"`.
+248oyotlr6c ¦ Em borrow: `if self.borrowed: return False` ¦ En borrow: `if self.borrowed: return False`
+1li1qcfxcgp ¦ describe() dá "Dune (412 pages)" ¦ describe() da "Dune (412 pages)"
+1l3ihe0yox9 ¦ borrow duas vezes: True e depois False ¦ borrow dos veces: True y luego False
+2936ir4f7qw ¦ give_back() deixa o livro livre de novo ¦ give_back() deja el libro libre otra vez
+at1d2rh4h0 ¦ Projeto: O Relatório da Biblioteca ¦ Proyecto: El Informe de la Biblioteca
+26qvbozrmsy ¦ No fim da temporada, a bibliotecária-chefe quer um relatório dos livros mais emprestados. Este é o seu primeiro programa Python de verdade! ¦ Al final de la temporada, la bibliotecaria jefa quiere un informe de los libros más prestados. ¡Es tu primer programa Python de verdad!
+1pqob4l2esg ¦ Escreva `count_loans(loans)`, que retorna um dict `{title: times}` a partir da lista de títulos emprestados. Escreva `top(counts, n)`, que retorna os `n` títulos mais emprestados, do mais emprestado para o menos (empates: ordem alfabética). Por fim, imprima o top 3 como `1. <title> (<times>)`, um por linha. ¦ Escribe `count_loans(loans)`, que devuelve un dict `{title: times}` a partir de la lista de títulos prestados. Escribe `top(counts, n)`, que devuelve los `n` títulos más prestados, del más prestado al menos (empates: orden alfabético). Por último, imprime el top 3 como `1. <title> (<times>)`, uno por línea.
+1n070ypba9c ¦ count_loans conta todos os títulos ¦ count_loans cuenta todos los títulos
+lvppls0ty7 ¦ top() ordena pelos empréstimos e depois pelo título ¦ top() ordena por préstamos y luego por título
+1hl846s0cum ¦ Imprime "1. Dune (3)" ¦ Imprime "1. Dune (3)"
+27wphb6u96z ¦ Imprime "2. Emma (3)" e "3. Odyssey (2)" ¦ Imprime "2. Emma (3)" y "3. Odyssey (2)"

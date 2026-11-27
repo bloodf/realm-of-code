@@ -1,0 +1,102 @@
+@@ qrizy8ajj2
+
+**Ideias principais**
+- Uma **API** é um jeito de programas conversarem. APIs web respondem requisições HTTP com dados (geralmente JSON).
+- **REST**: recursos são URLs (`/knights`, `/knights/2`); os métodos dizem a ação: GET (ler), POST (criar), PUT/PATCH (atualizar), DELETE (remover).
+- Códigos de status: 200 OK, 201 Created, 204 No Content, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 500 Server Error.
+- **Cabeçalhos** levam informação extra: `Content-Type: application/json`, `Authorization: Bearer <token>`.
+- Query strings filtram: `/knights?house=Lovelace&page=2`.
+~~
+
+**Ideas clave**
+- Una **API** es una forma de que los programas hablen entre sí. Las APIs web responden peticiones HTTP con datos (normalmente JSON).
+- **REST**: los recursos son URLs (`/knights`, `/knights/2`); los métodos dicen la acción: GET (leer), POST (crear), PUT/PATCH (actualizar), DELETE (borrar).
+- Códigos de estado: 200 OK, 201 Created, 204 No Content, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 500 Server Error.
+- Las **cabeceras** llevan información extra: `Content-Type: application/json`, `Authorization: Bearer <token>`.
+- Las query strings filtran: `/knights?house=Lovelace&page=2`.
+@@ 1ojita1itzt
+Uma **API** (Interface de Programação de Aplicações) permite que um programa peça dados ou ações a outro.
+
+Pense num restaurante: você (o app) não entra na cozinha (o banco de dados). Você pede ao **garçom** (a API), que traz o que você pediu.
+
+Apps de clima, mapas, pagamentos, logins: todos usam APIs.
+~~
+Una **API** (Interfaz de Programación de Aplicaciones) permite que un programa le pida datos o acciones a otro.
+
+Piensa en un restaurante: tú (la app) no entras en la cocina (la base de datos). Se lo pides al **camarero** (la API), que te trae lo que pediste.
+
+Apps del tiempo, mapas, pagos, inicios de sesión: todos usan APIs.
+@@ 15fw6727q0t
+[[1]]
+Regras: chaves entre **aspas duplas**, strings entre aspas duplas, sem vírgula sobrando no fim, sem comentários, sem funções.
+~~
+[[1]]
+Reglas: claves entre **comillas dobles**, strings entre comillas dobles, sin comas sobrantes al final, sin comentarios, sin funciones.
+@@ 25pgj67ogkj
+Uma API **REST** usa URLs para as coisas (recursos) e métodos HTTP para as ações:
+
+[[1]]
+~~
+Una API **REST** usa URLs para las cosas (recursos) y métodos HTTP para las acciones:
+
+[[1]]
+@@ ntf5ujv9wd
+**Cabeçalhos** levam informação sobre a requisição ou a resposta:
+- `Content-Type: application/json`: o corpo é JSON
+- `Authorization: Bearer abc123`: quem você é (um token)
+
+**Query strings** adicionam opções: `/knights?house=Lovelace&sort=level`
+
+Muitas APIs pedem uma **chave de API**. Mantenha-a em segredo: no servidor, nunca em código de front-end público.
+~~
+Las **cabeceras** llevan información sobre la petición o la respuesta:
+- `Content-Type: application/json`: el cuerpo es JSON
+- `Authorization: Bearer abc123`: quién eres (un token)
+
+Las **query strings** añaden opciones: `/knights?house=Lovelace&sort=level`
+
+Muchas APIs piden una **clave de API**. Mantenla en secreto: en el servidor, nunca en código front-end público.
+@@ ecwq0by9sb
+
+**Ideias principais**
+- `const res = await fetch(url);` e depois `const data = await res.json();`
+- O `fetch` só lança erro em falha de rede. Confira `res.ok` (status 200–299) para erros HTTP.
+- Enviar dados: `fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(obj) })`.
+- Envolva em `try/catch`. Nas interfaces, mostre os estados de **carregando**, **erro** e **vazio**.
+- **CORS**: os navegadores bloqueiam requisições para outros domínios, a menos que o servidor permita.
+~~
+
+**Ideas clave**
+- `const res = await fetch(url);` y luego `const data = await res.json();`
+- `fetch` solo lanza error ante un fallo de red. Comprueba `res.ok` (estado 200–299) para los errores HTTP.
+- Enviar datos: `fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(obj) })`.
+- Envuélvelo en `try/catch`. En las interfaces, muestra los estados de **carga**, **error** y **vacío**.
+- **CORS**: los navegadores bloquean las peticiones a otros dominios salvo que el servidor lo permita.
+@@ 1igytu1714t
+[[1]]
+Dois `await`s: um para a resposta, outro para ler o corpo JSON dela.
+~~
+[[1]]
+Dos `await`: uno para la respuesta y otro para leer su cuerpo JSON.
+@@ ivg0wrjpxl
+[[1]]
+`res.ok` é verdadeiro para status 200–299. O `fetch` **não** lança erro com 404 ou 500, só com problemas de rede.
+~~
+[[1]]
+`res.ok` es verdadero con los estados 200–299. `fetch` **no** lanza error con 404 o 500, solo con problemas de red.
+@@ 4hkztmkfbw
+Toda tela que carrega dados tem vários **estados**:
+- **carregando**: mostre um spinner ou um esqueleto
+- **erro**: explique e ofereça tentar de novo
+- **vazio**: "Ainda não há missões, crie uma!"
+- **sucesso**: mostre os dados
+
+**CORS**: os navegadores bloqueiam requisições para outro domínio, a menos que esse servidor envie cabeçalhos de permissão. Corrija no servidor, não no navegador.
+~~
+Toda pantalla que carga datos tiene varios **estados**:
+- **cargando**: muestra un spinner o un esqueleto
+- **error**: explícalo y ofrece reintentar
+- **vacío**: "Todavía no hay misiones, ¡añade una!"
+- **éxito**: muestra los datos
+
+**CORS**: los navegadores bloquean las peticiones a otro dominio salvo que ese servidor envíe cabeceras de permiso. Arréglalo en el servidor, no en el navegador.

@@ -1,0 +1,337 @@
+237iaan1atj ¦ A Floresta dos Loops ¦ El Bosque de los Bucles
+qp06vs7r ¦ Programação do zero: comandos, loops, variáveis, condições, funções, arrays, objetos, o DOM, código assíncrono e JavaScript moderno. ¦ Programación desde cero: comandos, bucles, variables, condiciones, funciones, arrays, objetos, el DOM, código asíncrono y JavaScript moderno.
+1mngvvb6ikq ¦ Primeiros Comandos ¦ Primeros Comandos
+5wli43i2l8 ¦ Guie seu herói com instruções e chamadas de função. ¦ Guía a tu héroe con sentencias y llamadas a funciones.
+28nlqmtoww7 ¦ Comandos para o seu herói ¦ Comandos para tu héroe
+1mx2vdseplv ¦ Conversando com seu herói ¦ Hablar con tu héroe
+1dc61qfxgju ¦ O que os `()` em `hero.moveUp()` fazem? ¦ ¿Qué hacen los `()` en `hero.moveUp()`?
+k7fdnzyg7s ¦ Fazem o comando rodar ¦ Hacen que el comando se ejecute
+13ydxy05zgu ¦ São decoração ¦ Son decoración
+ovu6nraro8 ¦ Transformam em comentário ¦ Lo convierten en un comentario
+1io112e3rht ¦ Terminam o programa ¦ Terminan el programa
+3kht9wmrqu ¦ Ande para a direita duas vezes e depois para baixo uma vez ¦ Camina a la derecha dos veces y luego abajo una vez
+15nmxtut0dj ¦ Qual linha não vai funcionar? ¦ ¿Qué línea no funcionará?
+zqxagv0cgk ¦ O JavaScript diferencia maiúsculas: precisa ser `moveRight` com R maiúsculo. ¦ JavaScript distingue mayúsculas: debe ser `moveRight` con R mayúscula.
+1mqfnyoecpr ¦ O computador roda as instruções de cima para baixo. ¦ El ordenador ejecuta las sentencias de arriba abajo.
+gnkjwvvfuv ¦ Mova o herói para cima ¦ Mueve al héroe hacia arriba
+61ix7yox4c ¦ Argumentos e comentários ¦ Argumentos y comentarios
+1gwdbdq60i8 ¦ `hero.moveDown(3)` faz o herói... ¦ `hero.moveDown(3)` hace que el héroe...
+q0j1pxjcny ¦ Andar 3 passos para baixo ¦ Camine 3 pasos hacia abajo
+1kwm1pnld42 ¦ Andar para baixo, 3 vezes mais devagar ¦ Camine hacia abajo, 3 veces más lento
+1t1n6vx01en ¦ Esperar 3 segundos ¦ Espere 3 segundos
+1uzp58nn96u ¦ Andar 3 passos para a direita ¦ Camine 3 pasos a la derecha
+10ki06t2pjm ¦ O que o computador faz com `// go to the gate`? ¦ ¿Qué hace el ordenador con `// go to the gate`?
+npovw0pdg7 ¦ Ignora ¦ Lo ignora
+1ico2f9c6b1 ¦ Anda até o portão ¦ Camina hasta la puerta
+230411z2iyy ¦ Mostra um erro ¦ Muestra un error
+1higpfophg0 ¦ Imprime ¦ Lo imprime
+phu82fs1e5 ¦ Desafio: Primeiros Passos ¦ Desafío: Primeros Pasos
+kynjb3x2vf ¦ Desafio: Em Volta do Velho Carvalho ¦ Desafío: Alrededor del Viejo Roble
+21o1oeu7rl4 ¦ Desafio: Passos com Números ¦ Desafío: Pasos con Números
+21roti3szbp ¦ Desafio: Gemas da Clareira ¦ Desafío: Gemas del Claro
+sm53gdfusz ¦ Loops e Decisões ¦ Bucles y Decisiones
+1zlq1v4wjqm ¦ Repita com for e while, decida com if. ¦ Repite con for y while, decide con if.
+5j51mzdawk ¦ O loop for ¦ El bucle for
+ticgp0vein ¦ Repetir sem copiar ¦ Repetir sin copiar
+1rwztjok6kk ¦ Quantas vezes este loop roda? `for (let i = 0; i < 5; i++)` ¦ ¿Cuántas veces se ejecuta este bucle? `for (let i = 0; i < 5; i++)`
+1wwp757gfv7 ¦ Para sempre ¦ Para siempre
+1opuhng02s2 ¦ Quantas vezes este loop roda? `for (let i = 1; i <= 3; i++)` ¦ ¿Cuántas veces se ejecuta este bucle? `for (let i = 1; i <= 3; i++)`
+1vixe51ztv6 ¦ Repita 10 vezes ¦ Repite 10 veces
+azilgca03b ¦ Ligue a parte do loop ¦ Une cada parte del bucle
+1k9urgr2bx8 ¦ Início ¦ Inicio
+xta2o34gih ¦ Condição ¦ Condición
+hfyvd7rli6 ¦ Atualização ¦ Actualización
+f38idfci3d ¦ Corpo que se repete ¦ Cuerpo que se repite
+d6ax5ya8qa ¦ `i++` é um atalho para `i = i + 1`. ¦ `i++` es la forma corta de `i = i + 1`.
+cerm7ud8cj ¦ Desafio: A Ponte das Sete Tábuas ¦ Desafío: El Puente de las Siete Tablas
+23d1c0xsz81 ¦ Desafio: Escada em Zigue-Zague ¦ Desafío: Escalera en Zigzag
+h75q3zasgm ¦ while e if ¦ while e if
+1ahpecz3p15 ¦ Repetir até... ¦ Repetir hasta...
+1j3ae5w9k5o ¦ Tomando decisões ¦ Tomar decisiones
+o9gwrk9c6k ¦ Quando usar um loop `while` em vez de `for`? ¦ ¿Cuándo usar un bucle `while` en lugar de `for`?
+2cndrmefv9h ¦ Quando você repete até algo acontecer, sem saber quantas vezes ¦ Cuando repites hasta que pase algo, sin saber cuántas veces
+6zskvrugiu ¦ Quando você sabe a quantidade exata ¦ Cuando sabes el número exacto
+1om7fpekc59 ¦ Só com números ¦ Solo con números
+1gahwgtnpkx ¦ Qual linha faz este loop rodar para sempre? ¦ ¿Qué línea hace que este bucle se ejecute para siempre?
+2f2ya3e9ryh ¦ `torches++` aumenta o número, então `torches > 0` continua verdadeiro para sempre. Deveria ser `torches--`. ¦ `torches++` hace el número más grande, así que `torches > 0` sigue siendo cierto para siempre. Debería ser `torches--`.
+edyl44q7ec ¦ Ligue o operador ¦ Une cada operador
+hbpmp5kkhr ¦ É igual a ¦ Es igual a
+29no98t79nq ¦ É diferente de ¦ No es igual a
+1x9j9qoxu2q ¦ Maior ou igual ¦ Mayor o igual
+20o8xb5nx0j ¦ Menor que ¦ Menor que
+115mfw6gtc5 ¦ Desafio: Enquanto o Caminho Estiver Livre ¦ Desafío: Mientras el Camino Esté Libre
+cjt7ng61ji ¦ Desafio: Se um Goblin Bloquear o Caminho ¦ Desafío: Si un Goblin Bloquea el Paso
+398z8cjx8b ¦ Variáveis e Tipos ¦ Variables y Tipos
+29karfln9bq ¦ Guarde valores: números, strings e booleanos. ¦ Guarda valores: números, strings y booleanos.
+2ssnjsw1vf ¦ let e const ¦ let y const
+swt8q6s795 ¦ Caixas com etiquetas ¦ Cajas con etiquetas
+vd7l0vd2s3 ¦ Qual linha causa um erro? ¦ ¿Qué línea causa un error?
+7eib31b5vg ¦ Uma `const` nunca pode receber outro valor. Use `let` se ela precisar mudar. ¦ Una `const` nunca se puede reasignar. Usa `let` si tiene que cambiar.
+288m3vh6dnj ¦ Qual palavra-chave usar para um valor que vai mudar? ¦ ¿Qué palabra clave usar para un valor que va a cambiar?
+190cx1jmfm1 ¦ só var ¦ solo var
+br49tcl02y ¦ Crie uma variável que nunca vai mudar ¦ Crea una variable que nunca cambiará
+lo47jc0m7 ¦ Nomes de variáveis diferenciam maiúsculas: `gold` e `Gold` são variáveis diferentes. ¦ Los nombres de variables distinguen mayúsculas: `gold` y `Gold` son variables distintas.
+2ctcg8oagvj ¦ Qual nome de variável segue o estilo do JavaScript (camelCase)? ¦ ¿Qué nombre de variable sigue el estilo de JavaScript (camelCase)?
+24pjzs0eajp ¦ Números e matemática ¦ Números y matemáticas
+19qd492sihs ¦ Fazendo contas ¦ Hacer cuentas
+ho16h7djkx ¦ A multiplicação acontece antes da adição, como na aula de matemática. ¦ La multiplicación va antes que la suma, como en clase de matemáticas.
+1r1nv5j1yw8 ¦ Como verificar se um número é par? ¦ ¿Cómo compruebas si un número es par?
+rz9c61mn5 ¦ Multiplicar ¦ Multiplicar
+8ju8zqboy3 ¦ Dividir ¦ Dividir
+1l1du1sophk ¦ Resto ¦ Resto
+1r95rrawymu ¦ Potência ¦ Potencia
+20xug061dgt ¦ Strings ¦ Strings
+bjv4g441j1 ¦ Trabalhando com texto ¦ Trabajar con texto
+f0rtxbjbg ¦ Quando um dos lados é uma string, o `+` junta textos em vez de somar números. ¦ Cuando un lado es un string, `+` une textos en lugar de sumar números.
+j82vynzphs ¦ Imprima o nome em maiúsculas ¦ Imprime el nombre en mayúsculas
+19gisxllhgl ¦ Qual caractere começa uma template literal? ¦ ¿Qué carácter empieza una plantilla literal (template literal)?
+oj1rpo0ra2 ¦ ` (crase) ¦ ` (acento grave)
+4xa87u7vcr ¦ " (aspas duplas) ¦ " (comillas dobles)
+rij2q8a96e ¦ ' (aspas simples) ¦ ' (comillas simples)
+1z3naevqv6n ¦ $ (cifrão) ¦ $ (dólar)
+28h36cpie6d ¦ Booleanos e tipos ¦ Booleanos y tipos
+wx5qad9ic ¦ true, false e companhia ¦ true, false y compañía
+2dgf6xajthq ¦ Ligue o valor ao seu tipo ¦ Une cada valor con su tipo
+1q45h8qnqv8 ¦ `Number()` transforma texto em número. ¦ `Number()` convierte texto en número.
+25j2bc9bkyp ¦ `null` e `undefined` significam "sem valor", mas `null` normalmente é definido de propósito. ¦ `null` y `undefined` significan "sin valor", pero `null` se suele poner a propósito.
+iquidhspeb ¦ Desafio: As Primeiras Palavras do Escriba ¦ Desafío: Las Primeras Palabras del Escriba
+11r7a1a4olw ¦ Condições e Lógica ¦ Condiciones y Lógica
+1osks0jl35p ¦ Comparações, if/else, && || ! e valores truthy. ¦ Comparaciones, if/else, && || ! y valores truthy.
+nm2c1jtlqv ¦ Comparando valores ¦ Comparar valores
+1ua3suohdxa ¦ Perguntas com resposta sim/não ¦ Preguntas de sí o no
+1zrs11zmago ¦ Qual comparação você deve usar normalmente? ¦ ¿Qué comparación deberías usar normalmente?
+1ht22eg6bgv ¦ Qual linha tem um erro clássico? ¦ ¿Qué línea tiene un error clásico?
+1phtof5kg4n ¦ `=` *atribui* um valor. Para comparar, use `===`. ¦ `=` *asigna* un valor. Para comparar, usa `===`.
+28xn6fs3aaf ¦ `age >= 18` é verdadeiro quando age é... ¦ `age >= 18` es verdadero cuando age es...
+1ti04g2g8u0 ¦ 18 ou mais ¦ 18 o más
+iobdg534kk ¦ Só mais que 18 ¦ Solo más de 18
+hneqqx5tqz ¦ Menos que 18 ¦ Menos de 18
+jpnoj4cvke ¦ Só exatamente 18 ¦ Solo exactamente 18
+2bpt9dcex2e ¦ if, else if, else ¦ if, else if, else
+1aygu09q9ph ¦ Escolhendo um caminho ¦ Elegir un camino
+1rx3j978q5i ¦ Escreva: se chover, imprima "Umbrella", senão imprima "Sun hat" ¦ Escribe: si llueve, imprime "Umbrella"; si no, imprime "Sun hat"
+1xhny5h48kx ¦ Numa cadeia if / else if / else, vários ramos podem rodar. ¦ En una cadena if / else if / else, pueden ejecutarse varias ramas.
+zve6h8qv67 ¦ Só roda o primeiro ramo cuja condição for verdadeira. ¦ Solo se ejecuta la primera rama cuya condición sea verdadera.
+1pmxcabwnt0 ¦ E, ou, não ¦ Y, o, no
+f0rvq85hvy ¦ Combinando condições ¦ Combinar condiciones
+3u8ifvqvb6 ¦ Truthy e falsy ¦ Truthy y falsy
+mm5jq0t2jr ¦ Num `if`, qualquer valor é tratado como verdadeiro ou falso. Estes são **falsy**: `false`, `0`, `""` (string vazia), `null`, `undefined`, `NaN`. Todo o resto é **truthy**, até `"0"` e `[]`. ¦ En un `if`, cualquier valor se trata como verdadero o falso. Estos son **falsy**: `false`, `0`, `""` (string vacío), `null`, `undefined`, `NaN`. Todo lo demás es **truthy**, incluso `"0"` y `[]`.
+j2s88dzg21 ¦ Qual valor é falsy? ¦ ¿Qué valor es falsy?
+hsnkfkchn3 ¦ Ternário e switch ¦ Ternario y switch
+d89ihia6f0 ¦ Decisões curtas ¦ Decisiones cortas
+cqq72dnhs0 ¦ Escolha "day" ou "night" ¦ Elige "day" o "night"
+1l62vvtgl8t ¦ Num `switch`, o que o `break` faz? ¦ En un `switch`, ¿qué hace `break`?
+fpdv19f6v1 ¦ Para de rodar o switch ¦ Deja de ejecutar el switch
+1re8z66uzkz ¦ Trava o programa ¦ Bloquea el programa
+2bzb2qmd13y ¦ Pula para o próximo case ¦ Salta al siguiente case
+p4bgn66kr ¦ Recomeça o switch ¦ Reinicia el switch
+1p5k6fp77no ¦ Funções ¦ Funciones
+5jifxl5htp ¦ Dê nome, reutilize e combine seus feitiços. ¦ Pon nombre, reutiliza y combina tus hechizos.
+1urafu6yr90 ¦ Definindo funções ¦ Definir funciones
+164tblly807 ¦ Seus próprios comandos ¦ Tus propios comandos
+1xku9sfxaqs ¦ Defina uma função que diz oi e depois chame-a ¦ Define una función que salude y luego llámala
+1qn9usp0nbs ¦ O que acontece se você define uma função mas nunca a chama? ¦ ¿Qué pasa si defines una función pero nunca la llamas?
+2d17xp5jqg4 ¦ Nada: o código dela nunca roda ¦ Nada: su código nunca se ejecuta
+239519xfzdv ¦ Ela roda uma vez automaticamente ¦ Se ejecuta una vez automáticamente
+1w2aianeq2o ¦ Aparece um erro ¦ Aparece un error
+1f2u5awkfhk ¦ Ela roda para sempre ¦ Se ejecuta para siempre
+dtdn19izgs ¦ Funções ajudam a não repetir o mesmo código (DRY: Don't Repeat Yourself, "não se repita"). ¦ Las funciones ayudan a no repetir el mismo código (DRY: Don't Repeat Yourself, "no te repitas").
+o3khmohqss ¦ Parâmetros e return ¦ Parámetros y return
+22c41m0r3st ¦ Entradas e saídas ¦ Entradas y salidas
+1fjzfs8tuey ¦ A função esqueceu o `return`, então devolve `undefined`. ¦ La función olvidó el `return`, así que devuelve `undefined`.
+lith6yamku ¦ Retorne a área de um retângulo ¦ Devuelve el área de un rectángulo
+1cpoxjmvaj0 ¦ Parâmetro ¦ Parámetro
+ppej1irttv ¦ Nome na definição da função ¦ Nombre en la definición de la función
+26m66idec7i ¦ Argumento ¦ Argumento
+2b1gfb98wdb ¦ Valor passado na chamada ¦ Valor que se pasa al llamarla
+k9hqd4lord ¦ Devolve um valor ¦ Devuelve un valor
+mt5joh8fit ¦ Chamada ¦ Llamada
+upg35mp466 ¦ Rodar a função ¦ Ejecutar la función
+6u0njoiwik ¦ O `return` também para a função na hora. ¦ `return` también detiene la función al instante.
+4raanmuzyx ¦ Arrow functions e valores padrão ¦ Funciones flecha y valores por defecto
+1aiuvym8w4l ¦ Um jeito mais curto ¦ Una forma más corta
+1i95yf9g0hd ¦ Qual linha retorna undefined por engano? ¦ ¿Qué línea devuelve undefined por error?
+he428pagoh ¦ Com chaves, uma arrow function precisa de `return`: `{ return a - b; }`. ¦ Con llaves, una función flecha necesita `return`: `{ return a - b; }`.
+1zbfsh3wtf2 ¦ Escreva uma arrow function que soma 1 ¦ Escribe una función flecha que sume 1
+2e3hwkvr3w3 ¦ Escopo ¦ Ámbito
+18w11j6cm0f ¦ Onde as variáveis moram ¦ Dónde viven las variables
+e2t2zgbs6e ¦ Por que `console.log(gold)` falha no exemplo? ¦ ¿Por qué falla `console.log(gold)` en el ejemplo?
+f5l0bodsl7 ¦ gold só existe dentro da função ¦ gold solo existe dentro de la función
+24a9cucuvr9 ¦ gold está escrito errado ¦ gold está mal escrito
+122czi94vbr ¦ valores const não podem ser impressos ¦ los valores const no se pueden imprimir
+20dn0fz9nbm ¦ Uma variável `let` declarada dentro de um bloco `if` pode ser usada depois que o bloco termina. ¦ Una variable `let` declarada dentro de un bloque `if` se puede usar cuando el bloque termina.
+ypsm39uqiu ¦ Desafio: Ensine um Truque ao Seu Herói ¦ Desafío: Enséñale un Truco a tu Héroe
+wbra9c093m ¦ Desafio: A Porta Trancada ¦ Desafío: La Puerta Cerrada
+24pxx6egeok ¦ Desafio: A Ficha do Herói ¦ Desafío: La Ficha del Héroe
+yd9lwkt6jl ¦ Projeto: O Corredor dos Goblins ¦ Proyecto: El Pasillo de los Goblins
+63d4toppnn ¦ Arrays ¦ Arrays
+2eegmdiu88i ¦ Listas de valores: índice, adicionar, remover, percorrer. ¦ Listas de valores: índice, añadir, quitar, recorrer.
+nr0lizea4q ¦ Criando e lendo arrays ¦ Crear y leer arrays
+158aftp71l3 ¦ Como pegar o último item de qualquer array `a`? ¦ ¿Cómo obtienes el último elemento de cualquier array `a`?
+zsr6bjch6o ¦ Troque o primeiro item por "axe" ¦ Cambia el primer elemento por "axe"
+18jk6mgdm6g ¦ Mudando arrays ¦ Cambiar arrays
+2ar7mz1h7ui ¦ Adicionar e remover ¦ Añadir y quitar
+4qwezcdbts ¦ Ligue o método ¦ Une cada método
+28jiein481k ¦ Adicionar no fim ¦ Añadir al final
+cisghk2whf ¦ Remover do fim ¦ Quitar del final
+1negczpii4n ¦ Adicionar no começo ¦ Añadir al principio
+150jwbaxomr ¦ Remover do começo ¦ Quitar del principio
+22n3fjbp4wo ¦ `slice(start, end)` copia de start até end (sem incluir end). ¦ `slice(start, end)` copia desde start hasta end (sin incluir end).
+s1dmxvsehx ¦ Ainda dá para fazer push de itens num array `const`. ¦ A un array `const` todavía se le pueden añadir elementos con push.
+1dmb3vol9ba ¦ `const` impede trocar o array inteiro, não mudar o conteúdo dele. ¦ `const` impide sustituir el array entero, no cambiar su contenido.
+16y27zbbfsa ¦ Percorrendo arrays ¦ Recorrer arrays
+b9u67fjsmh ¦ Visite cada item ¦ Visita cada elemento
+arxs8pyzn0 ¦ Qual linha tem um bug de "um a mais"? ¦ ¿Qué línea tiene un error por uno?
+29kb9gqdlvm ¦ Os índices vão de 0 a length - 1, então use `<`, não `<=`. Senão ele imprime `undefined` no fim. ¦ Los índices van de 0 a length - 1, así que usa `<`, no `<=`. Si no, imprime `undefined` al final.
+n4bq3jfwqc ¦ Imprima todas as missões ¦ Imprime todas las misiones
+26m5o3gd41m ¦ Desafio: Arrays de Suprimentos ¦ Desafío: Arrays de Provisiones
+2euzq8hz7w5 ¦ Objetos e JSON ¦ Objetos y JSON
+5l3qr4i9ri ¦ Agrupe dados com propriedades; envie como JSON. ¦ Agrupa datos con propiedades; envíalos como JSON.
+1htx4bo6kf ¦ Propriedades ¦ Propiedades
+q38flg4rvo ¦ Valores com nome ¦ Valores con nombre
+20tn4uehg6s ¦ Quando você precisa usar colchetes em vez de ponto? ¦ ¿Cuándo debes usar corchetes en lugar de punto?
+1is053zx59p ¦ Quando o nome da propriedade está numa variável ¦ Cuando el nombre de la propiedad está en una variable
+xrg35s35xw ¦ Sempre ¦ Siempre
+10nyb9dwt9u ¦ Só para números ¦ Solo para números
+1a7vraez8k7 ¦ Exemplo: `const key = "level"; hero[key]`. ¦ Ejemplo: `const key = "level"; hero[key]`.
+qbcu7glkmu ¦ Leia o nome ¦ Lee el nombre
+chxoapa0qb ¦ Métodos e this ¦ Métodos y this
+1w4pdcn0f89 ¦ Funções dentro de objetos ¦ Funciones dentro de objetos
+1zr1kzpoert ¦ O próprio `console.log` é um método: a função `log` do objeto `console`. ¦ El propio `console.log` es un método: la función `log` del objeto `console`.
+257z8lncybm ¦ Desestruturação e spread ¦ Desestructuración y spread
+2d4wcurtfo2 ¦ Desempacotar e copiar ¦ Desempaquetar y copiar
+1rtwebnlphn ¦ O spread faz uma *cópia*, então o original continua igual. ¦ El spread hace una *copia*, así que el original no cambia.
+3zdg98db6y ¦ Copie as configurações e mude o tema ¦ Copia los ajustes y cambia el tema
+4dbkridovw ¦ Dados como texto ¦ Datos como texto
+10xs3bw1s36 ¦ Qual é JSON válido? ¦ ¿Cuál es JSON válido?
+berexjsto2 ¦ O JSON exige chaves e strings com aspas duplas, e nenhuma vírgula sobrando no fim. ¦ JSON exige claves y strings con comillas dobles, y ninguna coma sobrante al final.
+189r5eo70a4 ¦ Ligue a função ¦ Une cada función
+22896ckt8fm ¦ Objeto → texto ¦ Objeto → texto
+69squyb91m ¦ Texto → objeto ¦ Texto → objeto
+1stsckcicf9 ¦ Lista dos nomes das propriedades ¦ Lista de nombres de propiedades
+29jtivtd2r9 ¦ Lista dos valores ¦ Lista de valores
+ou27ek0yxo ¦ Métodos de Array ¦ Métodos de Array
+4r6ob5rjk3 ¦ map, filter, find, reduce, some, every e sort. ¦ map, filter, find, reduce, some, every y sort.
+1wh4x1gj614 ¦ Mudar cada item ¦ Cambiar cada elemento
+1cx5fe8ezsn ¦ Deixe todas as palavras em maiúsculas ¦ Pon todas las palabras en mayúsculas
+1fd18vm2p90 ¦ `map` muda o array original. ¦ `map` cambia el array original.
+y00kppdl4e ¦ Ele retorna um array novo e deixa o original em paz. ¦ Devuelve un array nuevo y deja el original intacto.
+ii2y8bljyi ¦ filter e find ¦ filter y find
+22iiq2yaz16 ¦ Manter alguns, achar um ¦ Quedarse con algunos, encontrar uno
+10wlolnnnst ¦ Qual método? ¦ ¿Qué método?
+abvbb3i6mt ¦ Manter todos os itens que combinam ¦ Quedarse con todos los que coinciden
+c8lrq4q86u ¦ Pegar o primeiro que combina ¦ Obtener el primero que coincide
+aaadzlzvd3 ¦ Transformar cada item ¦ Transformar cada elemento
+1gufy61kl57 ¦ Verificar se algum item combina ¦ Comprobar si alguno coincide
+176z7sy0ho0 ¦ reduce, sort e encadeamentos ¦ reduce, sort y cadenas
+19ocwt1g3rx ¦ Combinar num só ¦ Combinar en uno
+1haww6s4gi ¦ Sem uma função de comparação, o `sort` compara os itens como **texto**, então "10" vem antes de "2". ¦ Sin una función de comparación, `sort` compara los elementos como **texto**, así que "10" va antes que "2".
+1jkyjuseq5l ¦ Encadeie: mantenha os números pares e depois dobre-os ¦ Encadena: quédate con los números pares y luego duplícalos
+19ptzuupmuz ¦ Desafio: Contando o Tesouro ¦ Desafío: Contar el Tesoro
+w3rnf5vedt ¦ O DOM e os Eventos ¦ El DOM y los Eventos
+1v8ri5cj56b ¦ Mude páginas web com JavaScript. ¦ Cambia páginas web con JavaScript.
+1tvnihfugd6 ¦ Encontrando elementos ¦ Encontrar elementos
+g0gpsn44nk ¦ A página como objetos ¦ La página como objetos
+2eyqge4l2ht ¦ Qual encontra o elemento com `id="score"`? ¦ ¿Cuál encuentra el elemento con `id="score"`?
+up64hrwt07 ¦ O que `querySelector` retorna quando nada combina? ¦ ¿Qué devuelve `querySelector` cuando nada coincide?
+imat2tv1wb ¦ Um array vazio ¦ Un array vacío
+1r04rgt4mxd ¦ Qual pega **todos** os elementos com a classe `gem`? ¦ ¿Cuál obtiene **todos** los elementos con la clase `gem`?
+3o6selr6eq ¦ Encontre o primeiro botão ¦ Encuentra el primer botón
+uod4ztw4b6 ¦ Mudando a página ¦ Cambiar la página
+rlm2kgepka ¦ Texto, classes e estilos ¦ Texto, clases y estilos
+146wawqrm3i ¦ Ligue o código ao que ele faz ¦ Une cada código con lo que hace
+140zzzv032a ¦ Muda o texto ¦ Cambia el texto
+hf73ldxbto ¦ Adiciona uma classe ¦ Añade una clase
+xzwy8prsk8 ¦ Adiciona ou remove uma classe ¦ Añade o quita una clase
+nd02rqheow ¦ Remove o elemento ¦ Quita el elemento
+21hjv7ufvpi ¦ Qual é o mais seguro para mostrar um texto que o usuário digitou? ¦ ¿Qué es lo más seguro para mostrar un texto que escribió el usuario?
+s2w3n0p2f6 ¦ `innerHTML` rodaria qualquer HTML que o usuário digitasse: uma falha de segurança chamada XSS. ¦ `innerHTML` ejecutaría cualquier HTML que escribiera el usuario: un fallo de seguridad llamado XSS.
+28ur0f1wbak ¦ Qual linha tem um bug? ¦ ¿Qué línea tiene un bug?
+e23hs6lwor ¦ Valores de CSS são strings no JavaScript: `"red"` precisa de aspas. Sem elas, o JS procura uma variável chamada `red`. ¦ Los valores CSS son strings en JavaScript: `"red"` necesita comillas. Sin ellas, JS busca una variable llamada `red`.
+28puami0g3q ¦ Esconda o painel adicionando uma classe ¦ Oculta el panel añadiendo una clase
+1d1fk3ebudf ¦ Eventos ¦ Eventos
+9spiqcm5r7 ¦ Reagindo às pessoas ¦ Reaccionar a las personas
+bdq2a33kzt ¦ Qual evento dispara quando alguém digita num campo? ¦ ¿Qué evento se dispara cuando alguien escribe en un campo?
+14cmzm1umy1 ¦ Qual linha roda a função cedo demais? ¦ ¿Qué línea ejecuta la función demasiado pronto?
+mzjtr30v4z ¦ `ring()` roda na hora. Passe a própria função: `addEventListener("click", ring)`. ¦ `ring()` se ejecuta al instante. Pasa la propia función: `addEventListener("click", ring)`.
+2cat3vcxdle ¦ Reaja aos cliques ¦ Reacciona a los clics
+1prgp3tpuoh ¦ Por que chamar `event.preventDefault()` num manipulador de submit? ¦ ¿Por qué llamar a `event.preventDefault()` en un manejador de submit?
+1i4fut78afr ¦ Para impedir que a página recarregue ¦ Para evitar que la página se recargue
+16o1wyfvxg3 ¦ Para limpar o formulário ¦ Para vaciar el formulario
+21rgj68shvt ¦ Para enviar duas vezes ¦ Para enviar dos veces
+94ve8iouv1 ¦ Para desativar o botão ¦ Para desactivar el botón
+f8bivea3w4 ¦ Criando elementos ¦ Crear elementos
+215c01deswq ¦ Construindo com código ¦ Construir con código
+2d6vxqrfjxl ¦ Adicione um novo item de lista que diga "Feed the goat" ¦ Añade un nuevo elemento de lista que diga "Feed the goat"
+2ee53ex7h05 ¦ `document.createElement("li")` coloca o novo li na página... ¦ `document.createElement("li")` pone el nuevo li en la página...
+131ztwgwyuh ¦ Só depois que você o anexar em algum lugar ¦ Solo después de añadirlo en algún sitio
+10tjxxitbm1 ¦ Imediatamente, no topo ¦ Inmediatamente, arriba del todo
+1lbirx7rz13 ¦ `list.innerHTML = ""` remove tudo o que há dentro da lista. ¦ `list.innerHTML = ""` quita todo lo que hay dentro de la lista.
+1ytdax7m5mv ¦ Desafio: Toque o Sino da Vila ¦ Desafío: Toca la Campana de la Aldea
+1k6rgo4n15v ¦ Desafio: O Quadro de Avisos ¦ Desafío: El Tablón de Anuncios
+2f5sk61t2du ¦ Salvando no navegador ¦ Guardar en el navegador
+1tv12fd6s7i ¦ Como salvar um array no localStorage? ¦ ¿Cómo guardas un array en localStorage?
+12c7u33gjfb ¦ O que `localStorage.getItem("missing")` retorna? ¦ ¿Qué devuelve `localStorage.getItem("missing")`?
+qir0ep73le ¦ O localStorage é um lugar seguro para senhas. ¦ localStorage es un lugar seguro para contraseñas.
+2etvs1hm20t ¦ Qualquer script da página consegue lê-lo. Nunca guarde segredos nele. ¦ Cualquier script de la página puede leerlo. Nunca guardes secretos ahí.
+17nk30ul6nq ¦ Desafio: A Lista de Missões Salva ¦ Desafío: La Lista de Misiones Guardada
+1lm5zoesr1d ¦ JavaScript Assíncrono ¦ JavaScript Asíncrono
+13insp4250l ¦ Temporizadores, promises e async/await. ¦ Temporizadores, promesas y async/await.
+2dx0prnkicv ¦ Depois, não agora ¦ Luego, no ahora
+11x4ht5vcss ¦ Código assíncrono ¦ Código asíncrono
+zjfgdf66w ¦ Mesmo com 0 ms, o callback do temporizador roda depois que o código atual termina. ¦ Incluso con 0 ms, el callback del temporizador se ejecuta cuando termina el código actual.
+1l9gxsb14i9 ¦ Qual é o segundo argumento de `setTimeout(fn, 500)`? ¦ ¿Cuál es el segundo argumento de `setTimeout(fn, 500)`?
+18pkm4nc6ti ¦ A espera em milissegundos ¦ La espera en milisegundos
+if4gk74ie9 ¦ Quantas vezes repetir ¦ Cuántas veces repetir
+5us4um3l3z ¦ Os segundos de espera ¦ Los segundos de espera
+7vzul0028m ¦ Um nome ¦ Un nombre
+23qp7ibtrbk ¦ `setInterval` roda uma função de novo e de novo até você limpá-lo. ¦ `setInterval` ejecuta una función una y otra vez hasta que lo limpias.
+1ldwhmgxe3t ¦ Promises ¦ Promesas
+1stwaorn22g ¦ A promessa de um valor ¦ La promesa de un valor
+1vcxiwcdqex ¦ Ligue o estado da promise ¦ Une cada estado de la promesa
+2656jffcm9q ¦ Ainda esperando ¦ Todavía esperando
+1tf4xag7hkk ¦ Terminou com um valor ¦ Terminó con un valor
+16yq7pkbh22 ¦ Falhou com um erro ¦ Falló con un error
+eho402wc9z ¦ Qual método roda código quando uma promise é cumprida? ¦ ¿Qué método ejecuta código cuando una promesa se cumple?
+1hp2nqzf6i2 ¦ Qual método trata uma promise rejeitada? ¦ ¿Qué método maneja una promesa rechazada?
+xrqk60v2ew ¦ async e await ¦ async y await
+cf8oceachb ¦ Esperar de forma legível ¦ Esperar de forma legible
+2cm1ylsokvz ¦ Quando as coisas falham ¦ Cuando algo falla
+qaptp2e123 ¦ Espere pela promise ¦ Espera a la promesa
+1oy09wbnmd4 ¦ `fetch` retorna uma promise, então precisa de `await fetch(...)`. ¦ `fetch` devuelve una promesa, así que necesita `await fetch(...)`.
+15gpmo95auj ¦ Onde você pode usar `await`? ¦ ¿Dónde puedes usar `await`?
+1xn1le8hsaz ¦ Dentro de uma função async (ou no nível mais alto de um módulo) ¦ Dentro de una función async (o en el nivel superior de un módulo)
+rbj9ewyirn ¦ Em qualquer lugar ¦ En cualquier sitio
+10qgyw7297 ¦ Só em loops ¦ Solo en bucles
+1u1ri4ivvp2 ¦ Só no HTML ¦ Solo en el HTML
+2cvpfwbcj3r ¦ Trate um erro em volta de uma chamada com await ¦ Maneja un error alrededor de una llamada con await
+23zqzxzb5j4 ¦ Desafio: Os Corvos Mensageiros ¦ Desafío: Los Cuervos Mensajeros
+13voob3veew ¦ JavaScript Moderno ¦ JavaScript Moderno
+pu45j493f9 ¦ Módulos, classes, erros e operadores úteis. ¦ Módulos, clases, errores y operadores útiles.
+a69olxf55y ¦ Módulos ¦ Módulos
+2fzcwba909 ¦ Código em muitos arquivos ¦ Código en muchos archivos
+3qrwszpzyo ¦ Como importar uma exportação **nomeada** chamada `add`? ¦ ¿Cómo importas una exportación **con nombre** llamada `add`?
+22yo2t7uva9 ¦ Quantas exportações padrão (default) um arquivo pode ter? ¦ ¿Cuántas exportaciones por defecto (default) puede tener un archivo?
+21l5rpcq28w ¦ Ilimitadas ¦ Ilimitadas
+t6c2ao04dd ¦ Zero ¦ Cero
+17simvfbflf ¦ Duas ¦ Dos
+3zguh5jj0s ¦ Exporte a função para outros arquivos poderem usá-la ¦ Exporta la función para que otros archivos puedan usarla
+27r1ublzeyk ¦ No Node.js você também vai ver o estilo mais antigo `require()` e `module.exports`. ¦ En Node.js también verás el estilo más antiguo `require()` y `module.exports`.
+11hr56h5fdm ¦ Classes ¦ Clases
+26rvfcjzyf4 ¦ Moldes para objetos ¦ Moldes para objetos
+1q6dt52vljn ¦ Qual palavra-chave cria um objeto a partir de uma classe? ¦ ¿Qué palabra clave crea un objeto a partir de una clase?
+dt4lyfpozy ¦ `class Mage extends Hero` faz o Mage herdar os métodos de Hero. ¦ `class Mage extends Hero` hace que Mage herede los métodos de Hero.
+29shhecni1q ¦ Erros ¦ Errores
+8zk1oplmvv ¦ Lançando e capturando ¦ Lanzar y capturar
+v1zsegenz7 ¦ O `finally` sempre roda. O `catch` só roda quando há um erro. ¦ `finally` siempre se ejecuta. `catch` solo se ejecuta cuando hay un error.
+22jjj4ehpsz ¦ Ligue o erro à sua causa comum ¦ Une cada error con su causa habitual
+10kaacohz99 ¦ Um nome que não existe ¦ Un nombre que no existe
+1f5q5r6ya8r ¦ Usar um valor do jeito errado ¦ Usar un valor de forma incorrecta
+1lml48ze8n0 ¦ Código quebrado (parêntese faltando...) ¦ Código roto (falta un paréntesis...)
+9h5dy315wa ¦ Operadores úteis ¦ Operadores útiles
+15ioxqtpcry ¦ ?. e ?? ¦ ?. y ??
+1wxt74l6c5p ¦ O que evita "Cannot read properties of undefined"? ¦ ¿Qué evita "Cannot read properties of undefined"?
+2aj00tl3d0f ¦ O encadeamento opcional ?. ¦ El encadenamiento opcional ?.
+29x0lc12m4q ¦ O operador ++ ¦ El operador ++
+pymoh27dr6 ¦ O spread ... ¦ El spread ...
+1v3t1yrve8 ¦ Projeto: O App do Quadro de Missões ¦ Proyecto: La App del Tablón de Misiones

@@ -1,0 +1,135 @@
+// The Elephant Guildhall: PHP coding challenges on real PHP 8.3 (php-wasm) in the browser.
+import type { ConsoleLesson } from '../types';
+
+/** Code without PHP comments. */
+const phpCode = (code: string) => code.replace(/\/\/[^\n]*|#[^\n]*|\/\*[\s\S]*?\*\//g, '');
+const has = (code: string, re: RegExp) => re.test(phpCode(code));
+const L = (x: Omit<ConsoleLesson, 'kingdom' | 'kind' | 'lang' | 'xp'> & { xp?: number }): ConsoleLesson => ({ kingdom: 'php', kind: 'console', lang: 'php', xp: 60, ...x });
+
+export const phpLessons: ConsoleLesson[] = [
+  L({
+    id: 'php-01', region: 'The Entrance Hall', title: 'Echo in the Hall',
+    concepts: ['<?php', 'echo', 'strings', ';'],
+    story: 'The Guildhall of PHP builds the pages of half the web. Your first job: say hello.',
+    learn: 'PHP code starts with `<?php`. `echo` prints text. Every statement ends with `;`:\n\n```\n<?php\necho "Hello, guild!\\n";\necho \'Single quotes work too\';\n```\n`\\n` starts a new line.',
+    task: 'Print `Hello, Guildhall!` on the first line and `PHP builds the web.` on the second.',
+    hints: ['`echo "Hello, Guildhall!\\n";`', 'Do not forget the `;` at the end of each line.'],
+    starter: '<?php\n// print two lines\n',
+    solution: '<?php\necho "Hello, Guildhall!\\n";\necho "PHP builds the web.\\n";\n',
+    checks: [
+      { label: 'Prints "Hello, Guildhall!"', test: (c) => c.logs[0] === 'Hello, Guildhall!' },
+      { label: 'Then "PHP builds the web."', test: (c) => c.logs[1] === 'PHP builds the web.' },
+    ],
+  }),
+  L({
+    id: 'php-02', region: 'The Entrance Hall', title: 'Dollars and Dots',
+    concepts: ['$variables', 'concatenation', 'interpolation'],
+    story: 'Guild members pay dues. Keep their names and coins in variables.',
+    learn: 'Variables start with `$`. Join text with a dot `.`, or put variables inside **double quotes**:\n\n```\n$name = "Ada";\n$coins = 40;\n$coins = $coins + 10;\necho $name . " has " . $coins . " coins\\n";\necho "$name has $coins coins\\n";   // same result\n```',
+    task: 'Create `$member` = `"Bors"` and `$dues` = 25. Add 15 to `$dues`. Print exactly `Bors paid 40 coins`.',
+    hints: ['`$dues = $dues + 15;` or `$dues += 15;`', '`echo "$member paid $dues coins\\n";`'],
+    starter: '<?php\n',
+    solution: '<?php\n$member = "Bors";\n$dues = 25;\n$dues += 15;\necho "$member paid $dues coins\\n";\n',
+    probe: "['member' => $member ?? null, 'dues' => $dues ?? null]",
+    checks: [
+      { label: '$member is "Bors"', test: (c) => c.values.member === 'Bors' },
+      { label: '$dues is 40', test: (c) => c.values.dues === 40 },
+      { label: 'Prints "Bors paid 40 coins"', test: (c) => c.logs.includes('Bors paid 40 coins') },
+    ],
+  }),
+  L({
+    id: 'php-03', region: 'The Hall of Rules', title: 'The Rank Rules',
+    concepts: ['if', 'elseif', 'else', 'functions', 'return'],
+    story: 'The guild gives ranks by experience points.',
+    learn: '```\nfunction rank($xp) {\n    if ($xp >= 100) {\n        return "master";\n    } elseif ($xp >= 50) {\n        return "journeyman";\n    } else {\n        return "apprentice";\n    }\n}\necho rank(70);   // journeyman\n```\nNote: `elseif` is one word in PHP.',
+    task: 'Write `rank($xp)`: `"apprentice"` under 50, `"journeyman"` from 50 to 99, `"master"` from 100.',
+    hints: ['Start with the biggest: `if ($xp >= 100)`', '`elseif ($xp >= 50)`'],
+    starter: '<?php\nfunction rank($xp) {\n    // your rules\n}\n',
+    solution: '<?php\nfunction rank($xp) {\n    if ($xp >= 100) {\n        return "master";\n    } elseif ($xp >= 50) {\n        return "journeyman";\n    }\n    return "apprentice";\n}\n',
+    probe: "['a' => rank(10), 'b' => rank(50), 'c' => rank(99), 'd' => rank(100)]",
+    checks: [
+      { label: 'rank(10) is "apprentice"', test: (c) => c.values.a === 'apprentice' },
+      { label: 'rank(50) and rank(99) are "journeyman"', test: (c) => c.values.b === 'journeyman' && c.values.c === 'journeyman' },
+      { label: 'rank(100) is "master"', test: (c) => c.values.d === 'master' },
+    ],
+  }),
+  L({
+    id: 'php-04', region: 'The Hall of Rules', title: 'The Roll Call',
+    concepts: ['arrays', 'foreach', 'count'],
+    story: 'Every morning the guild master reads the list of members.',
+    learn: '```\n$members = ["Ada", "Bors", "Cyra"];\n$members[] = "Dax";         // add at the end\necho count($members);        // 4\nforeach ($members as $i => $name) {\n    echo ($i + 1) . ". $name\\n";\n}\n```',
+    task: 'Add `"Eryn"` to `$members`, then print each member as `<number>. <name>` starting at 1, and finally `Total: <count>`.',
+    hints: ['`$members[] = "Eryn";`', '`foreach ($members as $i => $name)`', '`echo "Total: " . count($members) . "\\n";`'],
+    starter: '<?php\n$members = ["Ada", "Bors", "Cyra"];\n',
+    solution: '<?php\n$members = ["Ada", "Bors", "Cyra"];\n$members[] = "Eryn";\nforeach ($members as $i => $name) {\n    echo ($i + 1) . ". $name\\n";\n}\necho "Total: " . count($members) . "\\n";\n',
+    checks: [
+      { label: 'Prints "1. Ada" first', test: (c) => c.logs[0] === '1. Ada' },
+      { label: 'Prints "4. Eryn"', test: (c) => c.logs[3] === '4. Eryn' },
+      { label: 'Ends with "Total: 4"', test: (c) => c.logs[4] === 'Total: 4' },
+      { label: 'Uses foreach', test: (c) => has(c.code, /foreach\s*\(/) },
+    ],
+  }),
+  L({
+    id: 'php-05', region: 'The Treasury', title: 'The Guild Ledger',
+    concepts: ['associative arrays', 'foreach key => value', 'array_sum'],
+    story: 'The treasurer keeps coins per member in an associative array.',
+    learn: 'An **associative array** maps keys to values:\n\n```\n$coins = ["Ada" => 40, "Bors" => 15];\n$coins["Cyra"] = 30;\nforeach ($coins as $name => $n) {\n    echo "$name: $n\\n";\n}\necho array_sum($coins);   // 85\n```',
+    task: 'Write `richest($coins)` that returns the **name** with the most coins, and `total($coins)` that returns the sum of all coins.',
+    hints: ['`array_sum($coins)` adds the values', 'Loop and remember the best so far, or use `array_search(max($coins), $coins)`'],
+    starter: '<?php\nfunction richest($coins) {\n}\n\nfunction total($coins) {\n}\n',
+    solution: '<?php\nfunction richest($coins) {\n    return array_search(max($coins), $coins);\n}\n\nfunction total($coins) {\n    return array_sum($coins);\n}\n',
+    probe: "['r' => richest(['Ada' => 40, 'Bors' => 95, 'Cyra' => 30]), 't' => total(['Ada' => 40, 'Bors' => 95, 'Cyra' => 30])]",
+    checks: [
+      { label: 'richest(...) is "Bors"', test: (c) => c.values.r === 'Bors' },
+      { label: 'total(...) is 165', test: (c) => c.values.t === 165 },
+    ],
+  }),
+  L({
+    id: 'php-06', region: 'The Workshop', title: 'Safe Pages',
+    concepts: ['htmlspecialchars', 'XSS', 'string functions'],
+    story: 'A prankster wrote `<script>` in his name to attack the guild website. Defend it!',
+    learn: 'Never print user text directly into HTML. `htmlspecialchars()` turns `<` into `&lt;` so the browser shows it as text:\n\n```\n$name = "<b>Bors</b>";\necho "<p>Hello " . htmlspecialchars($name) . "</p>";\n// <p>Hello &lt;b&gt;Bors&lt;/b&gt;</p>\n```\nOther useful functions: `trim()`, `strtolower()`, `ucfirst()`, `strlen()`.',
+    task: 'Write `greeting($name)` that trims spaces from `$name`, escapes it with `htmlspecialchars`, and returns `<p>Welcome, NAME!</p>`.',
+    hints: ['`$clean = htmlspecialchars(trim($name));`', '`return "<p>Welcome, $clean!</p>";`'],
+    starter: '<?php\nfunction greeting($name) {\n}\n',
+    solution: '<?php\nfunction greeting($name) {\n    $clean = htmlspecialchars(trim($name));\n    return "<p>Welcome, $clean!</p>";\n}\n',
+    probe: "['a' => greeting('  Ada '), 'b' => greeting('<script>x</script>')]",
+    checks: [
+      { label: 'greeting("  Ada ") is <p>Welcome, Ada!</p>', test: (c) => c.values.a === '<p>Welcome, Ada!</p>' },
+      { label: 'A <script> name is escaped', test: (c) => c.values.b === '<p>Welcome, &lt;script&gt;x&lt;/script&gt;!</p>' },
+    ],
+  }),
+  L({
+    id: 'php-07', region: 'The Workshop', title: 'The Member Class',
+    concepts: ['class', 'constructor', '$this', 'methods', 'visibility'],
+    story: 'The guild is growing: time to model members as objects.',
+    learn: '```\nclass Member {\n    public function __construct(\n        public string $name,\n        private int $xp = 0\n    ) {}\n\n    public function train(int $points): void {\n        $this->xp += $points;\n    }\n\n    public function getXp(): int {\n        return $this->xp;\n    }\n}\n$m = new Member("Ada");\n$m->train(30);\n```\n`->` reaches a property or method. `private` properties can only be changed by the class itself.',
+    task: 'Finish `Member`: `train($points)` adds XP (ignore negative points), `level()` returns `intdiv(xp, 100) + 1`.',
+    hints: ['`if ($points > 0) { $this->xp += $points; }`', '`return intdiv($this->xp, 100) + 1;`'],
+    starter: '<?php\nclass Member {\n    private int $xp = 0;\n\n    public function __construct(public string $name) {}\n\n    public function train(int $points): void {\n    }\n\n    public function level(): int {\n        return 1;\n    }\n}\n',
+    solution: '<?php\nclass Member {\n    private int $xp = 0;\n\n    public function __construct(public string $name) {}\n\n    public function train(int $points): void {\n        if ($points > 0) {\n            $this->xp += $points;\n        }\n    }\n\n    public function level(): int {\n        return intdiv($this->xp, 100) + 1;\n    }\n}\n',
+    probe: "(function () { $m = new Member('Ada'); $a = $m->level(); $m->train(150); $b = $m->level(); $m->train(-500); $c = $m->level(); $m->train(50); return ['a' => $a, 'b' => $b, 'c' => $c, 'd' => $m->level()]; })()",
+    checks: [
+      { label: 'A new member is level 1', test: (c) => c.values.a === 1 },
+      { label: '150 XP makes level 2', test: (c) => c.values.b === 2 },
+      { label: 'Negative points are ignored', test: (c) => c.values.c === 2 },
+      { label: '200 XP makes level 3', test: (c) => c.values.d === 3 },
+    ],
+  }),
+  L({
+    id: 'php-08', region: 'The Grand Ledger', title: 'Project: The Guild Board', xp: 120, boss: true,
+    concepts: ['arrays of arrays', 'usort', 'functions', 'HTML output'],
+    story: 'The guild wants a web page that lists the quests, best reward first. Many real PHP sites are built exactly like this.',
+    learn: 'Sort an array with your own rule:\n\n```\nusort($quests, fn($a, $b) => $b["reward"] <=> $a["reward"]);\n```\n`<=>` (the spaceship) returns -1, 0 or 1. `fn` is a short function.',
+    task: 'Write `board($quests)` that returns an HTML list: `<ul>` then one `<li>TITLE: REWARD gold</li>` per **open** quest (`done` is false), sorted by reward, highest first, then `</ul>`. Escape titles with `htmlspecialchars`.',
+    hints: ['`$open = array_filter($quests, fn($q) => !$q["done"]);`', '`usort($open, fn($a, $b) => $b["reward"] <=> $a["reward"]);`', 'Build the text: `$html = "<ul>"; foreach (...) { $html .= "<li>...</li>"; }`'],
+    starter: '<?php\nfunction board($quests) {\n    // return the HTML list\n}\n',
+    solution: '<?php\nfunction board($quests) {\n    $open = array_filter($quests, fn($q) => !$q["done"]);\n    usort($open, fn($a, $b) => $b["reward"] <=> $a["reward"]);\n    $html = "<ul>";\n    foreach ($open as $q) {\n        $html .= "<li>" . htmlspecialchars($q["title"]) . ": " . $q["reward"] . " gold</li>";\n    }\n    return $html . "</ul>";\n}\n',
+    probe: "['b' => board([['title' => 'Guard the gate', 'reward' => 40, 'done' => false], ['title' => 'Slay <dragon>', 'reward' => 500, 'done' => false], ['title' => 'Find the goat', 'reward' => 5, 'done' => true]])]",
+    checks: [
+      { label: 'Only open quests are listed', test: (c) => typeof c.values.b === 'string' && !(c.values.b as string).includes('goat') },
+      { label: 'Highest reward first', test: (c) => typeof c.values.b === 'string' && (c.values.b as string).indexOf('500') < (c.values.b as string).indexOf('40 gold') && (c.values.b as string).includes('500') },
+      { label: 'Exact HTML with escaped titles', test: (c) => c.values.b === '<ul><li>Slay &lt;dragon&gt;: 500 gold</li><li>Guard the gate: 40 gold</li></ul>' },
+    ],
+  }),
+];

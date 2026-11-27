@@ -1,0 +1,122 @@
+4ehe64vxc1 ¦ A Primeira Pintura ¦ La Primera Pintura
+1yo6xvb4zf6 ¦ O Arauto Real mergulha um pincel na tinta vermelha. "O HTML ergue as paredes. O **CSS** as pinta." ¦ El Heraldo Real moja un pincel en pintura roja. "El HTML levanta las paredes. El **CSS** las pinta."
+g9kig8zxi0 ¦ No **style.css**, deixe o `h1` **crimson** e os parágrafos **saddlebrown**. ¦ En **style.css**, pon el `h1` **crimson** y los párrafos **saddlebrown**.
+jtajsln7wq ¦ As cores também podem ser escritas em hex (`#dc143c`), `rgb(220 20 60)` ou `hsl(348 83% 47%)`. Sistemas de design costumam escolher uma paleta pequena e reutilizá-la em todo lugar. Um bom contraste entre texto e fundo importa: as diretrizes de acessibilidade WCAG pedem uma razão de contraste de pelo menos 4,5:1 para texto normal. ¦ Los colores también se pueden escribir en hex (`#dc143c`), `rgb(220 20 60)` o `hsl(348 83% 47%)`. Los sistemas de diseño suelen elegir una paleta pequeña y reutilizarla en todas partes. Importa un buen contraste entre texto y fondo: las pautas de accesibilidad WCAG piden una relación de contraste de al menos 4,5:1 para el texto normal.
+25v4clyu0ov ¦ Você precisa de duas regras: uma para `h1` e outra para `p`. ¦ Necesitas dos reglas: una para `h1` y otra para `p`.
+szab06g37 ¦ O h1 está crimson ¦ El h1 es crimson
+1au7gfcveew ¦ Os parágrafos estão saddlebrown ¦ Los párrafos son saddlebrown
+2d578itg0hl ¦ Ligando o Pote de Tinta ¦ Enlazar el Bote de Pintura
+1enh2abl075 ¦ Um aprendiz pintou estilos lindos... num pote que ninguém abriu. A página continua sem graça! ¦ Un aprendiz pintó estilos preciosos... en un bote que nadie abrió. ¡La página sigue igual de sosa!
+heig8olx8q ¦ Ligue o **style.css** no `<head>` do index.html e depois dê ao `body` um fundo **wheat** no style.css. ¦ Enlaza **style.css** en el `<head>` de index.html y luego dale al `body` un fondo **wheat** en style.css.
+1xscqq5xu8e ¦ Manter o CSS em arquivos separados significa que uma folha de estilo pode estilizar um site inteiro, e o navegador a guarda em cache. Você também pode escrever CSS numa tag `<style>` ou num atributo `style="..."`, mas esses são mais difíceis de reutilizar e manter. ¦ Tener el CSS en archivos separados significa que una hoja de estilos puede dar estilo a un sitio entero, y el navegador la guarda en caché. También puedes escribir CSS en una etiqueta `<style>` o en un atributo `style="..."`, pero son más difíciles de reutilizar y mantener.
+1hz5koow90w ¦ O link fica entre `<head>` e `</head>`. ¦ El enlace va entre `<head>` y `</head>`.
+13ve8437ood ¦ No style.css adicione: `body { background-color: wheat; }` ¦ En style.css añade: `body { background-color: wheat; }`
+1jucwc6fu1p ¦ O título ficou vermelho-escuro (o link funciona) ¦ El encabezado se puso rojo oscuro (el enlace funciona)
+2du14iv89dg ¦ O fundo do body é wheat ¦ El fondo del body es wheat
+15gz1qdegk1 ¦ Classes e Ids ¦ Clases e Ids
+kqy35xje3t ¦ seletor de classe ¦ selector de clase
+24lax7yvixk ¦ seletor de id ¦ selector de id
+14t9z1y6sfi ¦ Só os cavaleiros dourados ganham letras douradas, e só o Rei ganha a coroa gigante. ¦ Solo los caballeros dorados llevan letras doradas, y solo el Rey lleva la corona gigante.
+apcphlitar ¦ Deixe todo elemento `.gold` **goldenrod** e **em negrito** (`font-weight: bold`). Deixe o `#king` com **40px**. O cavaleiro comum precisa continuar igual. ¦ Pon todos los elementos `.gold` en **goldenrod** y **negrita** (`font-weight: bold`). Haz el `#king` de **40px**. El caballero normal debe quedarse igual.
+2gbcriu7gv9 ¦ Em projetos reais, estilize principalmente com classes. Ids são "mais fortes" (maior *especificidade*) e únicos, o que os torna difíceis de sobrescrever e reutilizar. A especificidade decide qual regra vence quando duas regras estilizam o mesmo elemento: id > classe > tag. ¦ En proyectos reales, da estilo sobre todo con clases. Los ids son "más fuertes" (mayor *especificidad*) y únicos, lo que los hace difíciles de sobrescribir y reutilizar. La especificidad decide qué regla gana cuando dos reglas dan estilo al mismo elemento: id > clase > etiqueta.
+1je5lxumkc ¦ Os dois cavaleiros .gold estão goldenrod ¦ Los dos caballeros .gold son goldenrod
+a1nwx65jmv ¦ Os cavaleiros .gold estão em negrito ¦ Los caballeros .gold están en negrita
+1kuw5toyijx ¦ O rei tem 40px ¦ El rey mide 40px
+vz313dg0va ¦ O cavaleiro comum não está dourado ¦ El caballero normal no es dorado
+1h82kn481ve ¦ As Fontes do Escriba ¦ Las Fuentes del Escriba
+xv23xwb0gd ¦ O escriba quer que a proclamação pareça grandiosa e seja fácil de ler. ¦ El escriba quiere que la proclama se vea grandiosa y sea fácil de leer.
+hpzrzmxvnt ¦ Use **Georgia, serif** no body. Centralize o h1, deixe-o em **maiúsculas** com **4px** de espaçamento entre letras. Dê aos parágrafos um **line-height de 1.6**. ¦ Usa **Georgia, serif** en el body. Centra el h1, ponlo en **mayúsculas** con **4px** de espaciado entre letras. Dale a los párrafos un **line-height de 1.6**.
+2dfoymeizqf ¦ Um line-height em torno de 1,5–1,7 deixa textos longos bem mais fáceis de ler. Termine sempre uma lista de fontes com uma família genérica (`serif`, `sans-serif`, `monospace`) caso as fontes não existam. Web fonts podem ser carregadas com `@font-face` ou serviços como o Google Fonts. ¦ Un line-height de 1,5–1,7 hace los textos largos mucho más fáciles de leer. Termina siempre una lista de fuentes con una familia genérica (`serif`, `sans-serif`, `monospace`) por si faltan las fuentes. Las fuentes web se pueden cargar con `@font-face` o servicios como Google Fonts.
+24r8zwrc0ma ¦ Três regras: `body`, `h1` e `p`. ¦ Tres reglas: `body`, `h1` y `p`.
+2dre8u5vl26 ¦ O body usa Georgia ¦ El body usa Georgia
+ea093qjsd2 ¦ O h1 está centralizado ¦ El h1 está centrado
+6pm3fssuze ¦ O h1 está em maiúsculas com 4px de espaçamento ¦ El h1 está en mayúsculas con 4px de espaciado
+fdkyiqkrp3 ¦ Os parágrafos têm line-height 1.6 ¦ Los párrafos tienen line-height 1.6
+1uh8gpp8mfk ¦ O Modelo de Caixa ¦ El Modelo de Caja
+18oe9ebbhhf ¦ modelo de caixa ¦ modelo de caja
+6r5go2b8lx ¦ O armeiro explica: "Todo escudo é uma caixa. Madeira dentro, um aro de metal em volta e espaço entre os escudos na parede." ¦ El armero explica: "Cada escudo es una caja. Madera dentro, un aro de metal alrededor y espacio entre los escudos en la pared."
+368kch3zif ¦ Dê ao `.shield` largura de **200px**, **20px** de padding, uma borda **4px solid darkred** e **16px** de margem. ¦ Dale a `.shield` un ancho de **200px**, **20px** de padding, un borde **4px solid darkred** y **16px** de margen.
+8xeubd8y08 ¦ Por padrão `width` define só a caixa de conteúdo, então padding e borda deixam o elemento mais largo do que você pediu. A maioria dos projetos adiciona `*, *::before, *::after { box-sizing: border-box; }` para `width` incluir padding e borda. Abra as DevTools do navegador e passe o mouse sobre um elemento para ver o modelo de caixa desenhado em cores. ¦ Por defecto `width` define solo la caja de contenido, así que el padding y el borde hacen el elemento más ancho de lo que pediste. La mayoría de los proyectos añaden `*, *::before, *::after { box-sizing: border-box; }` para que `width` incluya padding y borde. Abre las DevTools del navegador y pasa el ratón sobre un elemento para ver su modelo de caja dibujado en colores.
+1o07u51wpxt ¦ As quatro linhas ficam dentro da regra `.shield { }`. ¦ Las cuatro líneas van dentro de la regla `.shield { }`.
+1jtc0ah9yif ¦ A largura é 200px ¦ El ancho es 200px
+1yhey8n1xms ¦ O padding é 20px em todos os lados ¦ El padding es de 20px por todos los lados
+18wx9xacvup ¦ Uma borda 4px solid darkred ¦ Un borde 4px solid darkred
+1086l3bb26l ¦ A margem é 16px ¦ El margen es de 16px
+dumybc6us5 ¦ Moedas Redondas ¦ Monedas Redondas
+1rp87q0rn7y ¦ A casa da moeda fez moedas quadradas por engano. A Rainha não gostou. Deixe-as redondas! ¦ La ceca acuñó monedas cuadradas por error. A la Reina no le hace gracia. ¡Hazlas redondas!
+1hgndlyfzsm ¦ Faça do `.coin` um círculo de **100px × 100px** com fundo **gold**. **Bônus:** adicione um `box-shadow`. ¦ Convierte `.coin` en un círculo de **100px × 100px** con fondo **gold**. **Extra:** añade un `box-shadow`.
+1aoz1fl6z1w ¦ `rgba(0, 0, 0, 0.4)` é preto com 40% de opacidade: o último número é o *alfa* (transparência). Sombras suaves e sutis parecem mais modernas que sombras escuras e duras. `border-radius: 8px` para cantos levemente arredondados é uma das linhas de CSS mais usadas da web. ¦ `rgba(0, 0, 0, 0.4)` es negro con un 40% de opacidad: el último número es el *alfa* (transparencia). Las sombras suaves y sutiles se ven más modernas que las oscuras y duras. `border-radius: 8px` para esquinas ligeramente redondeadas es una de las líneas de CSS más usadas de la web.
+neru99fy3j ¦ Largura e altura precisam ser iguais para um círculo. ¦ El ancho y el alto deben ser iguales para un círculo.
+21sn9j1ff2v ¦ As moedas têm 100px de largura e altura ¦ Las monedas miden 100px de ancho y alto
+28sys3bqhsr ¦ As moedas são redondas (border-radius 50%) ¦ Las monedas son redondas (border-radius 50%)
+1od2oe4r5vf ¦ As moedas são douradas ¦ Las monedas son doradas
+1nc4elftcr7 ¦ As moedas têm sombra ¦ Las monedas tienen sombra
+24ksh6po59n ¦ Estandartes em Fila ¦ Estandartes en Fila
+1hpda4ke4d4 ¦ display: flex ¦ display: flex
+1ilgciazzw2 ¦ Os estandartes das grandes casas estão pendurados amontoados. O Arauto quer que fiquem lado a lado ao longo da parede. ¦ Los estandartes de las grandes casas cuelgan amontonados. El Heraldo los quiere uno al lado del otro a lo largo de la pared.
+1qa74pkuthe ¦ Faça do `.banners` uma linha flex com **12px** de espaço. ¦ Convierte `.banners` en una fila flex con un hueco de **12px**.
+8oi3e7mtj8 ¦ O Flexbox é unidimensional: ele organiza os itens numa linha *ou* numa coluna (`flex-direction: column`). Os filhos podem crescer para preencher o espaço com `flex: 1`. Antes do flexbox, os desenvolvedores usavam floats e tabelas para o layout, o que era sofrido. Hoje flexbox e grid cobrem quase todo layout. ¦ Flexbox es unidimensional: coloca los elementos en una fila *o* en una columna (`flex-direction: column`). Los hijos pueden crecer para llenar el espacio con `flex: 1`. Antes de flexbox, los desarrolladores usaban floats y tablas para maquetar, y era un suplicio. Hoy flexbox y grid cubren casi cualquier diseño.
+pe4ge8rzxq ¦ A regra fica no `.banners`, não no `.banner`. ¦ La regla va en `.banners`, no en `.banner`.
+tnp05on81k ¦ .banners usa display: flex ¦ .banners usa display: flex
+5s9s4wikqg ¦ O espaço é 12px ¦ El hueco es de 12px
+1wgpuxbse5x ¦ Os estandartes estão lado a lado ¦ Los estandartes están uno al lado del otro
+r83xj4ba75 ¦ Alinhando a Guarda ¦ Alinear la Guardia
+unnjvqpgax ¦ A barra superior do castelo está uma bagunça: o brasão está espremido ao lado dos links. Espalhe os guardas! ¦ La barra superior del castillo es un desastre: el escudo está apretujado junto a los enlaces. ¡Reparte a los guardias!
+r443f4md99 ¦ Faça do `.bar` um contêiner flex que coloca o brasão à esquerda e os links à direita (**space-between**), centralizados na vertical. ¦ Convierte `.bar` en un contenedor flex que ponga el escudo a la izquierda y los enlaces a la derecha (**space-between**), centrados en vertical.
+d65mafw6q0 ¦ Essa barra "logo à esquerda, links à direita" é um dos layouts mais comuns da web. Para centralizar qualquer coisa nos dois sentidos: `display: flex; justify-content: center; align-items: center;`. Lembre-se de que os eixos se invertem se você usar `flex-direction: column`. ¦ Esta barra de "logo a la izquierda, enlaces a la derecha" es uno de los diseños más comunes de la web. Para centrar cualquier cosa en los dos sentidos: `display: flex; justify-content: center; align-items: center;`. Recuerda que los ejes se invierten si usas `flex-direction: column`.
+20912m2h67j ¦ Três propriedades no `.bar`: display, justify-content, align-items. ¦ Tres propiedades en `.bar`: display, justify-content, align-items.
+p1dg4virp0 ¦ .bar é um contêiner flex ¦ .bar es un contenedor flex
+1v9tbajkvo ¦ Os links ficam na borda direita ¦ Los enlaces quedan en el borde derecho
+lgpmtgu1i3 ¦ A Grade do Castelo ¦ La Cuadrícula del Castillo
+1faa50cx6jb ¦ CSS grid ¦ CSS grid
+136mrpqtda5 ¦ unidade fr ¦ unidad fr
+193ptms4rxl ¦ O arquiteto planeja seis cômodos: três em cada andar. O flexbox é para linhas; para andares e cômodos, use o **grid**. ¦ El arquitecto planea seis salas: tres en cada planta. Flexbox es para filas; para plantas y salas, usa el **grid**.
+1x28yqt7rgy ¦ Transforme o `.rooms` num grid com **3 colunas iguais** e **10px** de espaço. ¦ Convierte `.rooms` en un grid con **3 columnas iguales** y un hueco de **10px**.
+1m1jp7lazaw ¦ Use Grid para layouts bidimensionais (layouts de página, galerias de cartões) e Flexbox para os unidimensionais (barras de ferramentas, fileiras de botões). `grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))` cria grades de cartões responsivas sem nenhuma media query. ¦ Usa Grid para diseños bidimensionales (maquetas de página, galerías de tarjetas) y Flexbox para los unidimensionales (barras de herramientas, filas de botones). `grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))` crea cuadrículas de tarjetas responsive sin ninguna media query.
+1brp9olobog ¦ Primeiro `display: grid;`. ¦ Primero `display: grid;`.
+1w69d9evc3j ¦ .rooms é um grid ¦ .rooms es un grid
+1al7xlfvj82 ¦ Ele tem 3 colunas iguais ¦ Tiene 3 columnas iguales
+z4jgen9u3b ¦ O espaço é 10px ¦ El hueco es de 10px
+14202kpg6k0 ¦ Seis cômodos em dois andares ¦ Seis salas en dos plantas
+2e0olaehar3 ¦ Encantos de Hover ¦ Encantamientos Hover
+tjt19iv9nm ¦ Runas mágicas devem brilhar quando uma mão passa por cima. Encante os botões! ¦ Las runas mágicas deben brillar cuando una mano pasa por encima. ¡Encanta los botones!
+1fn0pyfn9rc ¦ Dê ao `.rune` uma transição de **0.3s**. No hover, deixe-o **purple** e com **scale(1.1)**. Passe o mouse sobre a prévia para testar! ¦ Dale a `.rune` una transición de **0.3s**. Al pasar el ratón, ponlo **purple** y con **scale(1.1)**. ¡Pasa el ratón por la vista previa para probarlo!
+9k4drx76fn ¦ Estilize também o `:focus-visible` do mesmo jeito, para quem usa teclado (quem aperta Tab) ver o efeito também. Animar `transform` e `opacity` é barato para o navegador; animar `width` ou `top` pode ser lento. Respeite quem sente enjoo com movimento: `@media (prefers-reduced-motion: reduce) { ... }`. ¦ Da también estilo a `:focus-visible` de la misma forma, para que quienes usan teclado (los que pulsan Tab) vean el efecto. Animar `transform` y `opacity` es barato para el navegador; animar `width` o `top` puede ser lento. Respeta a quienes se marean con el movimiento: `@media (prefers-reduced-motion: reduce) { ... }`.
+2aeajccafbh ¦ Duas regras: `.rune { transition: all 0.3s; }` e `.rune:hover { ... }`. ¦ Dos reglas: `.rune { transition: all 0.3s; }` y `.rune:hover { ... }`.
+vqtoazxwml ¦ .rune tem uma transição de 0.3s ¦ .rune tiene una transición de 0.3s
+j9xzjcw53m ¦ Existe uma regra .rune:hover ¦ Existe una regla .rune:hover
+2flbx77ulk9 ¦ No hover ele fica roxo ¦ Al pasar el ratón se pone morado
+2c2iamfrxn0 ¦ No hover ele cresce para 1.1 ¦ Al pasar el ratón crece a 1.1
+1yg3svb93c9 ¦ A Cor Real ¦ El Color Real
+m0e9h5k7qj ¦ propriedades personalizadas ¦ propiedades personalizadas
+n8xyojuo91 ¦ variáveis CSS ¦ variables CSS
+1m4ah5qaap ¦ A Rainha muda de cor favorita a cada estação. Os pintores estão exaustos de repintar cada estandarte um por um. ¦ La Reina cambia de color favorito cada estación. Los pintores están agotados de repintar cada estandarte uno a uno.
+11wv930gnnb ¦ Crie `--royal` no `:root` com o valor **#3b2a8f**. Use `var(--royal)` na cor do `h1` **e** no fundo do `.banner`. ¦ Crea `--royal` en `:root` con el valor **#3b2a8f**. Usa `var(--royal)` para el color del `h1` **y** el fondo de `.banner`.
+27idep59d6a ¦ Sistemas de design e temas (como o modo escuro) são construídos com propriedades personalizadas: troque algumas variáveis e o site inteiro muda. Diferente das variáveis de pré-processadores como o Sass, as variáveis CSS vivem no navegador, então o JavaScript pode mudá-las em tempo real: `document.documentElement.style.setProperty("--royal", "teal")`. ¦ Los sistemas de diseño y los temas (como el modo oscuro) se construyen con propiedades personalizadas: cambia unas pocas variables y cambia todo el sitio. A diferencia de las variables de preprocesadores como Sass, las variables CSS viven en el navegador, así que JavaScript puede cambiarlas en tiempo real: `document.documentElement.style.setProperty("--royal", "teal")`.
+1qgykc46dt6 ¦ --royal é #3b2a8f no :root ¦ --royal es #3b2a8f en :root
+1ulqwmidfd4 ¦ O h1 usa a cor real ¦ El h1 usa el color real
+20r2dgljvhc ¦ O fundo do estandarte usa a cor real ¦ El fondo del estandarte usa el color real
+1js8v1b3kui ¦ Os dois usam var(--royal) ¦ Los dos usan var(--royal)
+tgbymxwd26 ¦ Telas que Mudam de Forma ¦ Pantallas que Cambian de Forma
+22n1q5n4qdk ¦ design responsivo ¦ diseño responsive
+zmgxc88vcl ¦ media queries ¦ media queries
+1ntlj4tc01a ¦ Os mensageiros leem as páginas do castelo em pergaminhos minúsculos (celulares). Três colunas ficam apertadas demais ali. ¦ Los mensajeros leen las páginas del castillo en pergaminos diminutos (móviles). Tres columnas quedan demasiado apretadas ahí.
+1ks67097ghn ¦ Mantenha 3 colunas em telas largas, mas troque o `.rooms` para **uma coluna** quando a tela tiver **600px ou menos**. (A forja vai testar encolhendo a prévia.) ¦ Mantén 3 columnas en pantallas anchas, pero cambia `.rooms` a **una columna** cuando la pantalla mida **600px o menos**. (La forja lo probará encogiendo la vista previa.)
+cl3k61evuo ¦ Muitas equipes escrevem CSS *mobile-first*: os estilos base são para celulares, e `@media (min-width: ...)` adiciona colunas em telas maiores. Breakpoints comuns ficam em torno de 640px, 768px, 1024px e 1280px, mas os melhores breakpoints são onde o *seu* design começa a ficar feio. Não esqueça `<meta name="viewport" content="width=device-width, initial-scale=1">` nas páginas reais. ¦ Muchos equipos escriben CSS *mobile-first*: los estilos base son para móviles y `@media (min-width: ...)` añade columnas en pantallas más grandes. Los breakpoints habituales rondan los 640px, 768px, 1024px y 1280px, pero los mejores son donde *tu* diseño empieza a verse mal. No olvides `<meta name="viewport" content="width=device-width, initial-scale=1">` en las páginas reales.
+6250oo51gw ¦ Escreva `@media (max-width: 600px) { ... }` no fim do arquivo. ¦ Escribe `@media (max-width: 600px) { ... }` al final del archivo.
+p2t4fxtlns ¦ Dentro dela: `.rooms { grid-template-columns: 1fr; }` ¦ Dentro: `.rooms { grid-template-columns: 1fr; }`
+85v5hbjyk4 ¦ Há uma media query com max-width ¦ Hay una media query con max-width
+1d466f6mpez ¦ Com 900px de largura: 3 colunas ¦ A 900px de ancho: 3 columnas
+1byi7rqaf9m ¦ Com 400px de largura: 1 coluna ¦ A 400px de ancho: 1 columna
+1mcaoszlb0f ¦ A Heráldica Real ¦ La Heráldica Real
+227yvojbgt ¦ tudo até aqui ¦ todo lo visto
+1jd9yr87vqe ¦ A Rainha encomenda um **cartão de brasão** para seu novo cavaleiro. Ele precisa ser bonito, precisa brilhar quando tocado e precisa ficar bom até no pergaminho minúsculo de um mensageiro. ¦ La Reina encarga una **tarjeta de escudo** para su nuevo caballero. Debe ser bonita, debe brillar al tocarla y debe verse bien incluso en el pergamino diminuto de un mensajero.
+2ddzito1xcn ¦ CSS profissional é quase tudo esses mesmos blocos de construção, bem organizados. Convenções de nomes como BEM (`.crest__title`, `.crest--large`) ajudam a manter folhas de estilo grandes arrumadas. Ferramentas como o Tailwind (em breve no Bairro dos Alfaiates) seguem outra abordagem. ¦ El CSS profesional son casi siempre estos mismos bloques, bien organizados. Convenciones de nombres como BEM (`.crest__title`, `.crest--large`) ayudan a mantener ordenadas las hojas de estilo grandes. Herramientas como Tailwind (pronto en el Barrio de los Sastres) siguen otro enfoque.
+2dbalux1lu9 ¦ A media query: `@media (max-width: 500px) { .crest { padding: 12px; } }` ¦ La media query: `@media (max-width: 500px) { .crest { padding: 12px; } }`
+1jtopidhko8 ¦ --gold está definida e usada no .crest h2 ¦ --gold está definida y se usa en .crest h2
+20afqsd9jq1 ¦ .crest é uma coluna flex centralizada ¦ .crest es una columna flex centrada
+xur0jiusys ¦ .crest tem 24px de padding e cantos arredondados de 16px ¦ .crest tiene 24px de padding y esquinas redondeadas de 16px
+datat6r5n1 ¦ .crest tem um linear-gradient e uma sombra ¦ .crest tiene un linear-gradient y una sombra
+cv546ct8nt ¦ .tags é uma linha flex com 8px de espaço; as tags são arredondadas ¦ .tags es una fila flex con un hueco de 8px; las etiquetas son redondeadas
+1z38b7s1wwy ¦ .crest:hover usa um transform ¦ .crest:hover usa un transform
+kfvbmvfigg ¦ Com 400px de largura o padding é 12px ¦ A 400px de ancho el padding es de 12px

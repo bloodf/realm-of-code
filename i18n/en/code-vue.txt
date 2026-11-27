@@ -1,0 +1,252 @@
+@@ 2c01bdlgtqq
+Your First Vue Spell
+@@ 2a591plrl1l
+single-file components
+@@ 8h2tkasurm
+scoped style
+@@ 2acw4dizjls
+Emerald streams run through the Vale. The druids here write each component in **one file** with three parts: template, script and style.
+@@ thc70gf02u
+A Vue **single-file component** (`.vue`) looks like this:
+
+```
+<script setup>
+const name = "Ada";
+</script>
+
+<template>
+  <h1>Welcome, {{ name }}!</h1>
+</template>
+
+<style scoped>
+h1 { color: seagreen; }
+</style>
+```
+
+- `{{ }}` puts a value into the template (*interpolation*)
+- `scoped` styles only affect this component
+@@ 19fmnwyf7o9
+Make the h1 say **Welcome, Ada!** using `{{ name }}`. Add a `<p>` that says **Your name has 3 letters.** using `{{ name.length }}`. Colour the h1 **seagreen** in a scoped style.
+@@ 22tvuns1ix9
+Vue is known for its gentle learning curve and is very popular in Asia and Europe, with frameworks like Nuxt built on top. `<script setup>` is the modern, concise way to write components (the *Composition API*). Older code uses the *Options API* (`data()`, `methods`), which you will still meet in many companies.
+@@ 2aomswrvg1q
+`<p>Your name has {{ name.length }} letters.</p>` and `<style scoped> h1 { color: seagreen; } </style>`
+@@ 28so61066c9
+The h1 says "Welcome, Ada!" using {{ name }}
+@@ t5j4pvscm4
+A <p> with "Your name has 3 letters."
+@@ 24u8lv0fnb5
+The h1 is seagreen (scoped style)
+@@ 105ay5wc1rv
+The Potion Cauldron
+@@ 155vz438h3r
+The druid's cauldron brews potions. Each click brews one; drinking one leaves one fewer.
+@@ 18z2m3ouy41
+`ref` creates **reactive** state. When it changes, the template updates:
+
+```
+<script setup>
+import { ref } from "vue";
+const potions = ref(0);
+</script>
+
+<template>
+  <button @click="potions++">Brew</button>
+  <p>Potions: {{ potions }}</p>
+</template>
+```
+
+In the template you write `potions`. In the script you must use `potions.value`. `@click` is short for `v-on:click`.
+@@ ykj08x5913
+Keep `potions` in a `ref` (start at 0). `#brew` adds one. `#drink` removes one, but only if there is at least one. Show **Potions: N** in `#count`.
+@@ 1c60n97ourf
+Vue tracks which reactive values a template uses and re-renders only what depends on them: fine-grained reactivity. Forgetting `.value` inside `<script>` is the most common Vue mistake; the template unwraps refs for you automatically.
+@@ j2x5v8bntp
+`<button id="drink" @click="potions > 0 && potions--">Drink</button>` or write a function that checks first.
+@@ 25su5lmebiv
+Starts at "Potions: 0"
+@@ 1430y2iiwmt
+Brew 3 times: "Potions: 3"
+@@ 15yeo8d7q1q
+Drink once: "Potions: 2"
+@@ c9pzli9epk
+Never below 0
+@@ 10hhdlr9zot
+Uses ref()
+@@ 14gdx5phitm
+Dragons of the Vale
+@@ 2ewu1pttxne
+The druids keep a register of the dragons in the Vale, and whether each one is asleep. (Please let them sleep.)
+@@ hei50ckm9j
+**Directives** are special attributes that start with `v-`:
+
+```
+<li v-for="d in dragons" :key="d.id">
+  {{ d.name }}
+  <span v-if="d.asleep">(asleep)</span>
+  <span v-else>(awake!)</span>
+</li>
+```
+
+- `v-for` repeats an element for each item
+- `:key` (short for `v-bind:key`) gives each one a unique key
+- `v-if` / `v-else` show one thing or the other
+@@ 15ihqzw8nsj
+Show every dragon as an `<li>`: **Smaug (asleep)** or **Ember (awake!)**. Below the list, show `<p id="empty">No dragons here.</p>` only when the list is empty. `#release` removes all dragons.
+@@ 88homr7x5u
+`v-show` is an alternative to `v-if`: it keeps the element in the page and only toggles `display: none`, which is cheaper for things that toggle often. Never put `v-if` and `v-for` on the same element; filter the list in a `computed` instead.
+@@ 15nnt42fkpv
+Three dragons listed
+@@ d316gtnehk
+Shows "Smaug (asleep)", "Ember (awake!)", "Moss (asleep)"
+@@ 82sbryim4j
+No "empty" message while there are dragons
+@@ 1dagiu9zogj
+After release: no dragons and the empty message
+@@ qr38sdh9kf
+Uses v-for with :key and v-if
+@@ 2g8s0mjurl3
+The Echo Stone
+@@ 1lrhu4qrs0a
+Speak to the Echo Stone and it answers... in CAPITALS, and backwards. Druids find this hilarious.
+@@ voa5alkscy
+`v-model` connects an input to a ref **both ways**:
+
+```
+<input v-model="word" />
+```
+
+A **computed** value is calculated from other state and updates by itself:
+
+```
+import { ref, computed } from "vue";
+const word = ref("");
+const shout = computed(() => word.value.toUpperCase());
+```
+
+Reverse text: `text.split("").reverse().join("")`
+@@ 21exb42vudi
+Bind `#spell` with `v-model`. `#echo` shows the spell in CAPITALS and reversed (typing **hello** shows **OLLEH**) using a `computed`. `#length` shows **N letters**.
+@@ rtsae9k4d9
+Computed values are cached: they recompute only when their dependencies change, unlike a method called in the template. Use `computed` for derived data and `watch` for side effects (like saving to storage when something changes).
+@@ 833vkhcrd
+Typing "hello" shows "OLLEH"
+@@ 1fg00vh77lu
+#length shows "5 letters"
+@@ ys20o5bdw4
+It updates again: "Vale" → "ELAV"
+@@ 1mwjqtek50d
+Uses v-model and computed
+@@ 1hh1hxeb2a9
+Potions on the Shelf
+@@ ahnbto724i
+The apothecary shelf shows many potions. Each potion label is the same component with different props.
+@@ 1g97s31h5pr
+A child component declares its **props** with `defineProps`:
+
+```
+<!-- Potion.vue -->
+<script setup>
+defineProps({ name: String, price: Number });
+</script>
+<template>
+  <div class="potion">{{ name }}: {{ price }} gold</div>
+</template>
+```
+
+The parent imports it and passes props. Use `:` for non-text values:
+
+```
+<Potion name="Healing" :price="20" />
+<Potion v-for="p in potions" :key="p.id" :name="p.name" :price="p.price" />
+```
+@@ 6z068n5bel
+Finish **Potion.vue** to show **<name>: <price> gold** inside `.potion`. In **App.vue**, render one `Potion` per item in `potions` with `v-for`.
+@@ 1jxkw7kxcs0
+Props are one-way: parent to child. To send a message back up, a child *emits events* (next lesson). With TypeScript, `defineProps<{ name: string; price: number }>()` gives you typed props.
+@@ n640mvfkc3
+In Potion.vue: `<div class="potion">{{ name }}: {{ price }} gold</div>`
+@@ m5p8q34pzu
+In App.vue: `<Potion v-for="p in potions" :key="p.id" :name="p.name" :price="p.price" />`
+@@ 9qfeoyab4m
+Three .potion labels
+@@ gbgbb3q43z
+Labels: "Healing: 20 gold", "Invisibility: 75 gold", "Dragon Breath: 120 gold"
+@@ 113q9070tir
+App uses v-for on <Potion>
+@@ ocd2lyvfkd
+The Merchant's Ledger
+@@ 1psqx06grso
+computed totals
+@@ mxc5d1fs2a
+arrays in refs
+@@ 1hps7oijdg4
+A travelling merchant needs a ledger that adds up his wares as he trades.
+@@ 2fabek2oraa
+Refs can hold arrays. Changing them (`push`, `splice`) updates the page:
+
+```
+const items = ref([{ name: "Salt", price: 3, qty: 10 }]);
+items.value.push({ name: "Silk", price: 40, qty: 1 });
+```
+
+`v-model.number` turns the typed text into a number.
+
+Computed totals: `computed(() => items.value.reduce((sum, i) => sum + i.price * i.qty, 0))`
+@@ 1vy6747fy0r
+Show `#total` as the sum of **price × qty** for all items (starts at **48**), using `computed`. The `#add` button adds `{ name: "Silk", price: 40, qty: 1 }`. Show `#count` as **N wares**.
+@@ 1siw8erb3lx
+Notice you did not write any code to "update the total": it is derived from the data. Deriving values instead of storing copies is one of the most important ideas in UI programming, in every framework. Stored copies drift out of sync; derived values cannot.
+@@ 1dibqeosmok
+`<p id="count">{{ items.length }} wares</p>` and `<button id="add" @click="items.push({ name: 'Silk', price: 40, qty: 1 })">`
+@@ jqvs1tqojb
+The total starts at 48
+@@ 2369eher2x6
+#count shows "2 wares"
+@@ 1y3wirren3g
+Buying silk: total 88 and "3 wares"
+@@ 1q20ep44ozx
+The total is a computed
+@@ 1k0yt5j7los
+The Potion Shop
+@@ if5q7u02pr
+events up
+@@ 1j1lroryfbe
+The Archdruid opens a potion shop and needs a real storefront: a shelf of potions, a basket, and a total that is always right.
+@@ 1zbnmuosger
+Boss challenge! New idea: a child **emits** events to its parent:
+
+```
+<!-- PotionCard.vue -->
+<script setup>
+defineProps({ potion: Object });
+const emit = defineEmits(["buy"]);
+</script>
+<template>
+  <button @click="emit('buy')">Buy</button>
+</template>
+
+<!-- App.vue -->
+<PotionCard :potion="p" @buy="addToBasket(p)" />
+```
+@@ lpqu06n6od
+Build the shop:
+- **PotionCard.vue** shows the potion (`.potion` with name and price) and a **Buy** button that emits `buy`
+- **App.vue** renders a PotionCard per potion; buying adds the potion to the basket
+- `#basket-count` shows **N in basket**, `#basket-total` shows the total price
+- each basket line (`#basket li`) has a **Remove** button
+- when the basket is empty, show `#empty-basket`
+@@ 1hqvr7h9srh
+Props down, events up: this pattern is the same in every component framework (in React you passed `onToggle` functions). For state shared by many distant components, Vue apps use a store like **Pinia**.
+@@ 9d1vbx0ur8
+Remove: `<li v-for="(b, i) in basket" :key="i">{{ b.name }} <button @click="basket.splice(i, 1)">Remove</button></li>`
+@@ 4cgdyxs3j2
+Three potion cards with Buy buttons
+@@ epg83t76a3
+The empty basket message shows at first
+@@ 1g8bmpv4y8v
+Buy Healing and Dragon Breath: "2 in basket", total 140
+@@ 1n5827v4xml
+Remove the first: total 120
+@@ kax4f3lay5
+PotionCard emits "buy"

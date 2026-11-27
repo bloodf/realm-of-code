@@ -1,0 +1,191 @@
+@@ 1jf0ieb05ez
+Testing
+@@ 4q86gmz0nf
+The Proving Grounds
+@@ 8o5y2zr4u2
+Prove your code works: unit tests, matchers, TDD, testing UIs, end-to-end tests and CI.
+@@ ohoqclm9s
+Unit Tests
+@@ 1wo75vvtm85
+Write tests with test() and expect().
+@@ 4726b4pzev
+
+**Key ideas**
+- Tests are code that checks code. They catch bugs early and let you change code without fear.
+- Kinds: **unit** (one function), **integration** (pieces together), **end-to-end** (the whole app in a browser).
+- `test("name", () => { expect(actual).toBe(expected); })` (Vitest/Jest).
+- `toBe` for primitives, `toEqual` for arrays/objects, `toThrow` for errors, `.not` to negate.
+- Arrange → Act → Assert. Test normal cases and edge cases.
+@@ 1u4mzp8rj19
+Why test?
+@@ 1r2jxq7wsxh
+Proof, not hope
+@@ 235uibhp3i4
+A **test** is a small program that checks that your code does what it should:
+
+```
+test("adds two numbers", () => {
+  expect(add(2, 3)).toBe(5);
+});
+```
+Run the tests after every change. If something breaks, you know immediately, before users do.
+@@ 1ya14ceqrr5
+What is the main benefit of automated tests?
+@@ 1d7ssmls4fs
+You can change code confidently because mistakes are caught quickly
+@@ lv2toxgddh
+The app runs faster
+@@ 23vkaz2wav5
+You never need to debug again
+@@ 23e46a9xs6p
+They replace code review
+@@ 1oc95xxf1h4
+Match the kind of test
+@@ 1fwxlmf5u37
+Unit test
+@@ eco2u086ee
+One function or component
+@@ 708iuodgk7
+Integration test
+@@ lvmmpz427b
+Several parts working together
+@@ 1msb4f0r6ak
+End-to-end test
+@@ 1x0vp4aevpy
+The whole app in a real browser
+@@ xdxa1x1m7r
+Manual test
+@@ emsvxku616
+A human clicking around
+@@ 1j1jd368aej
+Most projects have many unit tests and fewer end-to-end tests (the "testing pyramid").
+@@ mesj7pbvpa
+Which tools are popular for JavaScript unit tests?
+@@ 1ygol9bhh5s
+Vitest and Jest
+@@ s5vdj335g4
+Photoshop and Figma
+@@ 731umvj238
+Git and npm
+@@ 2ekwczii6f1
+Nginx and Apache
+@@ 1tnttydf1t1
+test and expect
+@@ 12swvdih793
+Matchers
+@@ 1cj6v1525pv
+Which matcher compares two arrays by their contents?
+@@ 14lvu748prj
+Does this test pass?
+@@ 1vh50pvxav7
+No: toBe checks identity, and these are two different arrays
+@@ 23ehf2huqbh
+Yes
+@@ 2f5fpnsz4pn
+Only in Jest
+@@ 1ep7jtpf5
+It throws a syntax error
+@@ 1nlelac8f6t
+Check that the function throws
+@@ 1pr7be06fsn
+Arrange, act, assert
+@@ azoo1cv3qz
+A good test name reads like a sentence describing the behaviour.
+@@ 47bgj7z7je
+Challenge: Your First Tests
+@@ bv8i8lo27a
+Challenge: Make the Tests Pass
+@@ 1e5nb9gxvj8
+Challenge: The Bug Trap
+@@ nt5bxoz6fy
+Testing in Practice
+@@ 1et6d46s42e
+TDD, mocks, UI tests, end-to-end and CI.
+@@ 1xtvs0r4wkg
+
+**Key ideas**
+- **TDD**: red (write a failing test) → green (make it pass) → refactor.
+- **Mocks/fakes** replace slow or unpredictable things (network, time) in tests.
+- UI tests with **Testing Library**: find elements like a user would (`getByRole("button", { name: "Save" })`).
+- End-to-end with **Playwright** or Cypress: a real browser clicks through the app.
+- **CI** (e.g. GitHub Actions) runs tests automatically on every push and pull request.
+@@ owg8tejo79
+TDD and mocks
+@@ 1qzoc1qo7bs
+Red, green, refactor
+@@ uybna5uevo
+**Test-Driven Development**:
+1. **Red**: write a test for the next small behaviour; it fails
+2. **Green**: write just enough code to pass
+3. **Refactor**: clean up, tests stay green
+
+**Mocks** stand in for things you do not want in a unit test (real network calls, the current time, payments).
+@@ 2aofs9sxk
+Order the TDD cycle
+@@ 13nbvk2pg4y
+Why mock a payment API in unit tests?
+@@ 1d5frsaqu5i
+Tests stay fast, free and predictable
+@@ 4e5a6vxelk
+To make the real payments faster
+@@ 1lc7lylfavq
+Mocks are required by Vitest
+@@ 1921v8lzqpa
+To hide bugs
+@@ 1heq0jjsmru
+Tests that sometimes pass and sometimes fail ("flaky") are harmless.
+@@ 1pvxl536b8i
+Flaky tests erode trust: people start ignoring failures. Fix or remove them.
+@@ 6s9gzhrnxv
+Testing user interfaces
+@@ 1g8prvkio8t
+Test like a user
+@@ 1qs5z527ncn
+Testing Library encourages finding elements the way users do:
+
+```
+render(<Counter />);
+await user.click(screen.getByRole("button", { name: "Add" }));
+expect(screen.getByText("Count: 1")).toBeInTheDocument();
+```
+End-to-end tools (**Playwright**, Cypress) drive a real browser through whole flows like "sign up and buy".
+@@ pdcs5k3okv
+Which query best matches how users find a button?
+@@ 3b0a9y1kcl
+Component tests
+@@ habkci62fo
+Playwright
+@@ smwnyu7kxq
+End-to-end browser tests
+@@ cvcf8uccy7
+Vitest
+@@ 1izp59n765e
+Test runner
+@@ 1datt8fm37t
+GitHub Actions
+@@ 1peymikcfj6
+Runs tests on every push
+@@ 17t2k4ozoso
+Role-based queries also push you to build accessible UIs.
+@@ 14l8x3niizq
+Continuous integration
+@@ o0aunwd8xc
+Robots that check every change
+@@ gf4emr6axj
+**Continuous Integration (CI)** runs your tests (and linting, type checks, builds) automatically on every push and pull request. A red ❌ on a PR means "do not merge yet".
+
+Many teams also use **CD** (continuous deployment): when `main` is green, the app deploys automatically.
+@@ 1iocchgtt8b
+What happens in CI when a pull request is opened?
+@@ 29bs4x6bmup
+Tests and checks run automatically
+@@ 1fb6cz94fc9
+The code is merged immediately
+@@ 24sqx7hgwrq
+The branch is deleted
+@@ 27l7awae9vc
+A GitHub Actions step that runs the tests
+@@ 23h6q6inehn
+Code coverage of 100% guarantees there are no bugs.
+@@ w5rqe4zf9h
+Coverage shows which lines ran, not whether the checks were good. Aim for meaningful tests, not a number.

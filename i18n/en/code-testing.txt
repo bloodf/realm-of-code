@@ -1,0 +1,76 @@
+@@ xjnndwgblt
+This realm has a tiny test runner with the same API as **Vitest** and **Jest**:
+
+```
+test("adds two numbers", () => {
+  expect(add(2, 3)).toBe(5);
+});
+```
+
+Matchers: `toBe`, `toEqual` (arrays/objects), `toBeTruthy`, `toContain`, `toHaveLength`, `toThrow`, and `.not`.
+@@ 2kylogw2io
+Your First Tests
+@@ 26hq8dpswgj
+The royal treasurer trusts no one. Before using the new helper functions, she wants proof that they work.
+@@ 188guy8dcs9
+Write **at least 4 tests**: at least two for `add` and two for `isEven`. All tests must pass.
+@@ 1g1zmh1iiv6
+Good tests check normal cases **and** edge cases (zero, negative numbers, empty lists). Each test should check one behaviour and have a name that reads like a sentence, so a failing test tells you exactly what broke.
+@@ 14tm11y6vfw
+`test("4 is even", () => { expect(isEven(4)).toBe(true); });` and one for an odd number.
+@@ 20y4tktqkbb
+At least 4 tests
+@@ 1sz253pdu8k
+All tests pass
+@@ smd4c51z4k
+Tests call add and isEven
+@@ 1whtjwbvnq0
+Make the Tests Pass
+@@ 1od0aayoax1
+reading tests
+@@ 28d2wn9vjgf
+string methods
+@@ 22pcznlbrp4
+The scribes need web addresses for every quest: "Slay the Dragon" must become "slay-the-dragon". The tests are written. Now write the code.
+@@ 1ls840u6bpv
+{0}
+
+Reading tests is a great way to understand what code should do. Useful string methods here: `trim()`, `toLowerCase()`, `split(" ")`, `join("-")`, `replaceAll(" ", "-")`.
+@@ 1pcu2a1zgp9
+Make `slugify(title)` pass **all the tests**: lowercase, no spaces at the ends, and words joined by single dashes. Do not change the tests.
+@@ 288godg0e3z
+This is how many teams work: tests describe the expected behaviour first, then you write code until they pass. It is called **Test-Driven Development (TDD)**: red (failing test) → green (passing) → refactor (clean up).
+@@ 26o1gsnnv78
+Start with `title.trim().toLowerCase()`.
+@@ skpirkrz2q
+Then split on spaces, drop empty parts, and join with dashes: `.split(" ").filter((w) => w).join("-")`
+@@ 2ap1ihgvv3e
+The 4 tests are still there
+@@ aiq9amopq2
+Works on new input too ("  A  B c " → "a-b-c")
+@@ 1s8ikas2ca9
+The Bug Trap
+@@ 28u1felaijy
+regression tests
+@@ 1z12cmywaku
+debugging with tests
+@@ 2ajl4p8v034
+Merchants complain: the discount spell gives wrong prices. First trap the bug in a test, then fix it, so it can never come back.
+@@ 11v7n84np5d
+{0}
+
+A **regression test** reproduces a bug. It fails while the bug exists, passes after the fix, and stays in the code forever to catch the bug if it ever returns.
+@@ st2tfzc46d
+`applyDiscount(price, percent)` should return the price after a percentage discount (100 with 20% off = 80). Write at least 2 tests for it, find the bug, and fix the function so all tests pass.
+@@ 2bvf06qnwpe
+When you fix a bug in a real job, write the test first and watch it fail. That proves the test actually catches the bug. Then fix the code and watch it pass.
+@@ 1vdlwei7056
+Try `expect(applyDiscount(100, 20)).toBe(80);` What does it return now?
+@@ 23705ole28s
+The formula should be `price - (price * percent) / 100`.
+@@ 2e95wwwqg77
+At least 2 tests for applyDiscount
+@@ me7gdf4ap3
+The bug is fixed (100, 20% → 80; 50, 10% → 45; 200, 50% → 100)
+@@ 21l40h3oay
+Uses expect

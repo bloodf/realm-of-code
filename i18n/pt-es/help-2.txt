@@ -1,0 +1,712 @@
+@@ 1lm3bu1j434
+Mostrar uma dica
+~~
+Mostrar una pista
+@@ 1dcidtfekfn
+Meu código mostra um erro
+~~
+Mi código muestra un error
+@@ k1dwjy83cy
+Leia o erro: muitas vezes ele diz o **número da linha**. Causas comuns: um `)` ou `}` faltando, uma aspa `"` faltando, ou um nome escrito diferente (o JavaScript diferencia maiúsculas e minúsculas).
+~~
+Lee el error: a menudo dice el **número de línea**. Causas habituales: falta un `)` o un `}`, falta una comilla `"`, o un nombre está escrito distinto (JavaScript distingue mayúsculas y minúsculas).
+@@ 1lnguptqw5z
+Nada acontece quando eu rodo
+~~
+No pasa nada cuando ejecuto
+@@ 1i3m3p2cwx3
+Você mostrou o resultado? No JavaScript, use `console.log(...)` para imprimir. Numa página web, olhe a prévia depois de rodar.
+~~
+¿Mostraste el resultado? En JavaScript usa `console.log(...)` para imprimir. En una página web, mira la vista previa después de ejecutar.
+@@ dkln9dmsmk
+Quebrei tudo
+~~
+Lo rompí todo
+@@ xoot7tth7m
+Aperte **Reiniciar** embaixo do editor para recuperar o código inicial.
+~~
+Pulsa **Reiniciar** debajo del editor para recuperar el código inicial.
+@@ 4zxgw35d8u
+Reiniciar o código
+~~
+Reiniciar el código
+@@ 14m8j5jhmh1
+Mostre a resposta
+~~
+Enséñame la respuesta
+@@ 1ktc3c9vtwq
+Depois de duas tentativas aparece o botão **Mostrar solução**. Leia e depois digite você mesmo: é assim que fixa.
+~~
+Tras dos intentos aparece el botón **Mostrar solución**. Léela y luego escríbela tú: así se te queda.
+@@ 28bwourzf74
+Mostrar a solução
+~~
+Mostrar la solución
+@@ 25yicn67vl8
+Um minijogo
+~~
+Un minijuego
+@@ 20xzlezroux
+Um jogo rápido sobre o que você aprendeu. Faça boa pontuação para ganhar **estrelas**: cada estrela nova dá um **item**. Perder não tem castigo, então divirta-se e tente de novo.
+~~
+Un juego rápido sobre lo que aprendiste. Puntúa bien para ganar **estrellas**: cada estrella nueva te da un **objeto**. Perder no tiene castigo, así que diviértete y vuelve a intentarlo.
+@@ 1yj6t5o6ate
+Seu anfitrião explica como este jogo funciona. Leia antes de começar.
+~~
+Tu anfitrión explica cómo funciona este juego. Léelo antes de empezar.
+@@ 2ca0fdjqatb
+Estrelas e prêmios
+~~
+Estrellas y premios
+@@ 18dnx4jt63i
+Faça boa pontuação para ganhar **estrelas**. Cada estrela nova coloca itens na sua bolsa.
+~~
+Puntúa bien para ganar **estrellas**. Cada estrella nueva añade objetos a tu bolsa.
+@@ 1gcfl4tmfvw
+Pronto?
+~~
+¿Listo?
+@@ 2fhnevxb4fb
+Aperte **Jogar** (ou Enter) para começar. Tem um relógio, então fique esperto!
+~~
+Pulsa **Jugar** (o Enter) para empezar. Hay un reloj, ¡así que atento!
+@@ 1ro0xcwhk9k
+Itens
+~~
+Objetos
+@@ up45yhfiqn
+Uma lâmpada revela uma resposta. Uma tocha dá mais tempo.
+~~
+Una bombilla revela una respuesta. Una antorcha da más tiempo.
+@@ 31e44bh2bd
+Você pode sair quando quiser. Sua melhor pontuação fica guardada.
+~~
+Puedes salir cuando quieras. Tu mejor puntuación se guarda.
+@@ 1lx8zgv5xwj
+Pergunte para mim
+~~
+Pregúntame
+@@ 13nw9b91ibu
+Se um jogo confundir você, toque em mim: eu explico como funciona.
+~~
+Si un juego te confunde, tócame: te explico cómo funciona.
+@@ nwbxgr8cv
+Mostre uma resposta
+~~
+Enséñame una respuesta
+@@ vdzwofoioi
+Uma lâmpada revela a resposta da pergunta atual.
+~~
+Una bombilla revela la respuesta de la pregunta actual.
+@@ k6ot3j6ae6
+Preciso de mais tempo
+~~
+Necesito más tiempo
+@@ 1t39m4xfit8
+Uma tocha adiciona tempo ao relógio.
+~~
+Una antorcha añade tiempo al reloj.
+@@ nl4f3mabso
+Este jogo é difícil demais
+~~
+Este juego es demasiado difícil
+@@ 1jbx6bx90fl
+Os jogos usam as lições que você já fez. Refaça essas lições e volte. Até 1 estrela dá um item.
+~~
+Los juegos usan las lecciones que ya hiciste. Repite esas lecciones y vuelve. Incluso 1 estrella te da un objeto.
+@@ 1zy4v0t6nb4
+Um campo da fazenda
+~~
+Un campo de la granja
+@@ 1ttygp0s45c
+Monte um **programa** para o fazendeiro com blocos. Arraste blocos da esquerda e encaixe-os embaixo de **quando ▶ Executar**. Aperte **Executar** para ver o fazendeiro fazer exatamente o que os blocos dizem, em ordem.
+~~
+Construye un **programa** para el granjero con bloques. Arrastra bloques desde la izquierda y encájalos debajo de **al ▶ Ejecutar**. Pulsa **Ejecutar** para ver al granjero hacer exactamente lo que dicen los bloques, en orden.
+@@ 8tciytgs6z
+A Bess explica o trabalho
+~~
+Bess explica el trabajo
+@@ 2f1eetru5rc
+A fazendeira Bess diz o que este campo precisa.
+~~
+La granjera Bess te dice lo que necesita este campo.
+@@ 14de1ksiksx
+Arraste blocos da lista à esquerda para a área de trabalho. Encaixe-os **embaixo de "quando ▶ Executar"**, um depois do outro. Arraste um bloco de volta para a lista para apagá-lo.
+~~
+Arrastra bloques de la lista de la izquierda al área de trabajo. Encájalos **debajo de "al ▶ Ejecutar"**, uno tras otro. Arrastra un bloque de vuelta a la lista para borrarlo.
+@@ 2dx061puime
+Execute
+~~
+Ejecútalo
+@@ x88qfyu69c
+Aperte **Executar** e observe. Os blocos acendem enquanto rodam. **Reiniciar** devolve a fazenda ao início.
+~~
+Pulsa **Ejecutar** y observa. Los bloques se iluminan mientras se ejecutan. **Reiniciar** devuelve la granja al principio.
+@@ 2291hsbhchm
+Objetivos e estrelas
+~~
+Objetivos y estrellas
+@@ 235kunmyun0
+Cumpra todos os objetivos para 1 estrela. Sem erros para 2. Um programa tão curto quanto a **meta** para 3.
+~~
+Cumple todos los objetivos para 1 estrella. Sin errores para 2. Un programa tan corto como el **objetivo** para 3.
+@@ 6xg2fum4xi
+Dicas
+~~
+Pistas
+@@ g8u7s82n4v
+A primeira dica é grátis. As outras custam uma lâmpada.
+~~
+La primera pista es gratis. Las demás cuestan una bombilla.
+@@ 13a0chvlv2o
+A Bess vai dizer o que tentar.
+~~
+Bess te dirá qué probar.
+@@ 2dkttdwwvrw
+Pegar uma dica
+~~
+Pedir una pista
+@@ vfizpkledc
+O fazendeiro não faz nada
+~~
+El granjero no hace nada
+@@ r77ynlkghu
+Os blocos precisam estar **encaixados embaixo de "quando ▶ Executar"**. Blocos soltos ficam cinza e não rodam. Arraste-os até encaixarem.
+~~
+Los bloques deben estar **encajados debajo de "al ▶ Ejecutar"**. Los bloques sueltos se vuelven grises y no se ejecutan. Arrástralos hasta que encajen.
+@@ 1ft21vwjhp
+O fazendeiro anda para o lado errado
+~~
+El granjero camina hacia el lado equivocado
+@@ 6updhfvuxc
+Aperte **Executar** na velocidade **1x** e veja qual bloco acende quando dá errado. Esse é o bloco a mudar.
+~~
+Pulsa **Ejecutar** a velocidad **1x** y mira qué bloque se ilumina cuando sale mal. Ese es el bloque que hay que cambiar.
+@@ 2aai8hl0tr3
+Como apago um bloco?
+~~
+¿Cómo borro un bloque?
+@@ 2aal40amo21
+Arraste-o de volta para a lista de blocos à esquerda, ou para a lixeira.
+~~
+Arrástralo de vuelta a la lista de bloques de la izquierda, o a la papelera.
+@@ 18cpief9v1t
+Depois de duas tentativas aparece um botão **Solução** ao lado do botão de dica.
+~~
+Tras dos intentos aparece un botón **Solución** junto al botón de pista.
+@@ yojiiqamy
+Um campo da fazenda (código)
+~~
+Un campo de la granja (código)
+@@ kay5ag9axs
+Agora você digita **JavaScript** para o fazendeiro. Clique num comando no alto do editor para inseri-lo. Aperte **Executar** (ou Ctrl+Enter) para ver o fazendeiro seguir seu código linha por linha.
+~~
+Ahora escribes **JavaScript** para el granjero. Haz clic en un comando de la parte de arriba del editor para insertarlo. Pulsa **Ejecutar** (o Ctrl+Enter) para ver al granjero seguir tu código línea a línea.
+@@ 233v6z454e9
+O trabalho
+~~
+El trabajo
+@@ 2eps6yzph0r
+A Bess explica o que este campo precisa.
+~~
+Bess explica lo que necesita este campo.
+@@ 1r0ykgi6yz9
+Todos os comandos que o fazendeiro conhece. Clique num para inseri-lo no seu código.
+~~
+Todos los comandos que conoce el granjero. Haz clic en uno para insertarlo en tu código.
+@@ 12ky6cgwl2d
+Digite aqui. Cada comando termina com `;` e o texto vai entre aspas: `move("right");`
+~~
+Escribe aquí. Cada comando termina con `;` y el texto va entre comillas: `move("right");`
+@@ 27w899pv4uv
+A linha em execução fica destacada enquanto o fazendeiro trabalha.
+~~
+La línea en ejecución se resalta mientras el granjero trabaja.
+@@ 16eong5xw5n
+Recebo um erro
+~~
+Me sale un error
+@@ h2wr2ya3j6
+Confira a grafia (`move`, não `Move`), as aspas em volta das palavras (`"right"`) e se todo `(` tem um `)` e todo `{` tem um `}`.
+~~
+Revisa la ortografía (`move`, no `Move`), las comillas alrededor de las palabras (`"right"`) y que cada `(` tenga su `)` y cada `{` su `}`.
+@@ 203vctha5by
+Meu loop roda para sempre
+~~
+Mi bucle se ejecuta para siempre
+@@ y4w55bexzh
+Um loop `while` precisa de algo que mude para poder parar. Um loop `for` precisa de `i++` no fim da primeira linha.
+~~
+Un bucle `while` necesita algo que cambie para poder parar. Un bucle `for` necesita `i++` al final de su primera línea.
+@@ htho9vil7a
+Depois de duas tentativas aparece um botão **Solução**.
+~~
+Tras dos intentos aparece un botón **Solución**.
+@@ 7eakq4bbna
+Uma aventura medieval em que você **aprende a programar do zero**: HTML, CSS, JavaScript, TypeScript, React, Node.js, SQL e mais. Lições curtas, quebra-cabeças de código numa fazenda, minijogos, XP, ouro e troféus. Aperte **Começar** para criar seu herói: leva um minuto.
+~~
+Una aventura medieval donde **aprendes a programar desde cero**: HTML, CSS, JavaScript, TypeScript, React, Node.js, SQL y más. Lecciones cortas, rompecabezas de código en una granja, minijuegos, XP, oro y trofeos. Pulsa **Empezar** para crear tu héroe: lleva un minuto.
+@@ n7qi621xr3
+O que eu faço aqui?
+~~
+¿Qué hago aquí?
+@@ 17tgly4i6nq
+Aperte **Começar**. Eu faço 5 perguntas rápidas (seu objetivo, seu nível, uma meta diária, seu nome) e depois você chega à vila.
+~~
+Pulsa **Empezar**. Te hago 5 preguntas rápidas (tu meta, tu nivel, una meta diaria, tu nombre) y luego llegas a la aldea.
+@@ 17wtlc2wl7t
+Preciso de uma conta?
+~~
+¿Necesito una cuenta?
+@@ 2b9vkurfiy9
+Não. Seu progresso fica salvo neste navegador. Você pode fazer um backup num arquivo nas **Configurações**.
+~~
+No. Tu progreso se guarda en este navegador. Puedes hacer una copia en un archivo desde **Ajustes**.
+@@ 157yjikeyjo
+Tenho um arquivo de backup
+~~
+Tengo un archivo de copia
+@@ 28iffh2gx9u
+Crie um herói primeiro (qualquer nome) e depois vá em **Configurações → Carregar um backup**.
+~~
+Crea primero un héroe (cualquier nombre) y luego ve a **Ajustes → Cargar una copia**.
+@@ n2ahnwpaz5
+Cinco perguntas rápidas para o jogo combinar com você: seu objetivo, quanto de código você sabe, uma meta diária, o tipo de lição que você prefere e seu herói. Você pode mudar tudo depois.
+~~
+Cinco preguntas rápidas para que el juego se adapte a ti: tu meta, cuánto sabes de programación, una meta diaria, el tipo de lecciones que prefieres y tu héroe. Puedes cambiarlo todo después.
+@@ qsm5cspoup
+Novo em programação? **Web Designer** ou **Desenvolvedor Frontend** mostram resultados mais rápido (você cria páginas web). Quem ama dados pode escolher a trilha de dados. Você pode trocar quando quiser.
+~~
+¿Nuevo en programación? **Diseñador Web** o **Desarrollador Frontend** dan resultados más rápido (creas páginas web). A quien le encantan los datos puede elegir la ruta de datos. Puedes cambiar cuando quieras.
+@@ 22dmher4zy7
+O botão Continuar está cinza
+~~
+El botón Continuar está gris
+@@ 1usc4q4qf8n
+Escolha um dos cartões primeiro. No último passo, digite um **nome** para seu herói.
+~~
+Elige primero una de las tarjetas. En el último paso, escribe un **nombre** para tu héroe.
+@@ 1oh8tvnyhch
+Diga isso na segunda pergunta. Responda bem nas primeiras lições e as paradas de **atalho** vão deixar você avançar.
+~~
+Dilo en la segunda pregunta. Responde bien en las primeras lecciones y las paradas de **atajo** te dejarán avanzar.
+@@ 1upj2t8y8v
+Este é um **cartão de ensino**: nada para responder. Leia e aperte **Continuar**. As próximas perguntas usam o que ele diz.
+~~
+Esta es una **tarjeta de enseñanza**: no hay nada que responder. Léela y pulsa **Continuar**. Las siguientes preguntas usan lo que dice.
+@@ 2br4nperpby
+Leia a pergunta e o código (se houver), depois **toque numa resposta** e aperte **Verificar**. Dica: elimine primeiro as respostas que você sabe que estão erradas.
+~~
+Lee la pregunta y el código (si lo hay), luego **toca una respuesta** y pulsa **Comprobar**. Consejo: descarta primero las respuestas que sabes que son incorrectas.
+@@ oy4nce5kbp
+Toque numa peça embaixo para colocá-la na **primeira lacuna vazia**. Toque numa peça colocada para tirá-la. Preencha todas as lacunas e aperte **Verificar**.
+~~
+Toca una ficha de abajo para ponerla en el **primer hueco vacío**. Toca una ficha colocada para quitarla. Llena todos los huecos y pulsa **Comprobar**.
+@@ h8eldhsby
+Toque nas peças **na ordem em que devem rodar**, de cima para baixo. Toque numa peça colocada para removê-la.
+~~
+Toca las piezas **en el orden en que deben ejecutarse**, de arriba abajo. Toca una pieza colocada para quitarla.
+@@ k63ji74g8w
+Toque num item à esquerda e depois no seu par à direita. Pares que combinam desaparecem.
+~~
+Toca un elemento de la izquierda y luego su pareja de la derecha. Las parejas que van juntas desaparecen.
+@@ 27qgwuls2gn
+Arraste uma corda de uma runa à esquerda até o seu significado à direita (ou toque nos dois). Ligue todos os pares e aperte **Verificar**.
+~~
+Arrastra una cuerda desde una runa de la izquierda hasta su significado a la derecha (o toca los dos). Une todas las parejas y pulsa **Comprobar**.
+@@ 1p6c9nxslob
+Uma linha tem um bug. Leia cada linha com calma, **toque na quebrada** e aperte **Verificar**.
+~~
+Una línea tiene un bug. Lee cada línea despacio, **toca la que está rota** y pulsa **Comprobar**.
+@@ lnh9gvigi7
+Digite comandos no terminal e aperte **Enter** depois de cada um. O objetivo é marcado quando você chega lá. `ls` lista arquivos, `cd` entra numa pasta.
+~~
+Escribe comandos en la terminal y pulsa **Enter** después de cada uno. El objetivo se marca cuando llegas. `ls` lista archivos, `cd` entra en una carpeta.
+@@ zdy5gg3sj7
+Toque numa runa à esquerda e depois no seu significado à direita. Ligue todos os pares antes que a areia acabe.
+~~
+Toca una runa de la izquierda y luego su significado a la derecha. Une todas las parejas antes de que se acabe la arena.
+@@ 11ogtpiqno0
+Vire duas peças. Se combinarem (uma palavra de código e seu significado), ficam abertas. Lembre-se de onde viu cada peça!
+~~
+Da la vuelta a dos fichas. Si van juntas (una palabra de código y su significado), se quedan abiertas. ¡Recuerda dónde viste cada ficha!
+@@ 26u825abz90
+Responda rápido: cada acerto alimenta a tocha. Quando a tocha apaga, a corrida acaba.
+~~
+Responde rápido: cada acierto alimenta la antorcha. Cuando la antorcha se apaga, la carrera termina.
+@@ 14xw459rzr
+Cada feitiço tem **uma** linha quebrada. Toque nela antes que a tocha apague.
+~~
+Cada hechizo tiene **una** línea rota. Tócala antes de que se apague la antorcha.
+@@ fanwzavkv3
+Digite um **seletor CSS** que acerte todos os alvos brilhantes e nada mais, e atire. `.name` = classe, `#name` = id, `a b` = b dentro de a.
+~~
+Escribe un **selector CSS** que acierte a todos los objetivos brillantes y a nada más, y dispara. `.name` = clase, `#name` = id, `a b` = b dentro de a.
+@@ htz56mltjp
+Leia a consulta SQL e toque **exatamente** nas linhas que ela retorna. Confira a parte `WHERE` para cada linha.
+~~
+Lee la consulta SQL y toca **exactamente** las filas que devuelve. Revisa la parte `WHERE` para cada fila.
+@@ 1ptwb6u8uw5
+Troque duas gemas vizinhas para alinhar **3 ou mais** da mesma cor. Linhas de 4 ou 5 valem mais. Quando a runa brilhar, responda à pergunta dela para ganhar tempo extra.
+~~
+Intercambia dos gemas vecinas para alinear **3 o más** del mismo color. Las líneas de 4 o 5 valen más. Cuando la runa brille, responde su pregunta para ganar tiempo extra.
+@@ 247yoq0ykr9
+Palavras caem em direção à vila. **Digite uma palavra** e aperte Enter (ou só termine de digitá-la) para destruí-la antes que caia.
+~~
+Las palabras caen hacia la aldea. **Escribe una palabra** y pulsa Enter (o simplemente termínala) para destruirla antes de que caiga.
+@@ 242jknljlvd
+Conte quantas vezes o loop roda. Olhe o valor inicial, a condição e o passo (`i++` soma 1, `i += 2` soma 2).
+~~
+Cuenta cuántas veces se ejecuta el bucle. Mira el valor inicial, la condición y el paso (`i++` suma 1, `i += 2` suma 2).
+@@ 39j8oqw3rh
+Primeiros passos
+~~
+Primeros pasos
+@@ 1gjk2ig12it
+Escrevendo código
+~~
+Escribir código
+@@ 2381zebilt3
+Jogos e fazenda
+~~
+Juegos y granja
+@@ 268go27ssj8
+Pets, sítio e batalhas
+~~
+Mascotas, rancho y batallas
+@@ 3njzhc3l5v
+Recompensas e itens
+~~
+Recompensas y objetos
+@@ 27w9t3l4g3z
+Progresso e configurações
+~~
+Progreso y ajustes
+@@ 6n9bcbgp0
+Por onde começo?
+~~
+¿Por dónde empiezo?
+@@ blirvgewnn
+Na **Academia** (o castelo). Aperte a parada brilhante no mapa e depois **Começar**. Cada lição leva de 2 a 5 minutos.
+~~
+En **la Academia** (el castillo). Pulsa la parada brillante del mapa y luego **Empezar**. Cada lección dura de 2 a 5 minutos.
+@@ 2dj91lb1fqi
+Preciso saber alguma coisa antes?
+~~
+¿Necesito saber algo antes?
+@@ 15x8gzfrwt4
+Não. As primeiras lições começam do zero: o que é código, o que é uma tag, o que é uma variável. Se você já programa, diga isso ao criar seu herói e responda bem: as paradas de **atalho** deixam você pular o que já sabe.
+~~
+No. Las primeras lecciones empiezan desde cero: qué es el código, qué es una etiqueta, qué es una variable. Si ya programas, dilo al crear tu héroe y responde bien: las paradas de **atajo** te dejan saltar lo que ya sabes.
+@@ 1blpa81ll5m
+Como ando pela vila?
+~~
+¿Cómo me muevo por la aldea?
+@@ cyv8flqtve
+Setas ou WASD, ou clique (toque) aonde quer ir. Clique num prédio para andar até ele e entrar. A barra de baixo abre cada prédio diretamente.
+~~
+Flechas o WASD, o haz clic (toca) adonde quieras ir. Haz clic en un edificio para caminar hasta él y entrar. La barra de abajo abre cada edificio directamente.
+@@ z6tt4vnvvy
+Quais linguagens posso aprender?
+~~
+¿Qué lenguajes puedo aprender?
+@@ irw4n7nrp6
+HTML, CSS, JavaScript, TypeScript, Tailwind, React, Vue, Svelte, Node.js, **Python**, **PHP**, SQL e NoSQL, Git e o terminal, APIs, algoritmos, testes, acessibilidade e segurança. Tudo roda **no seu navegador**: interpretadores reais de Python e PHP são carregados na primeira vez que você precisar deles.
+~~
+HTML, CSS, JavaScript, TypeScript, Tailwind, React, Vue, Svelte, Node.js, **Python**, **PHP**, SQL y NoSQL, Git y la terminal, APIs, algoritmos, pruebas, accesibilidad y seguridad. Todo se ejecuta **en tu navegador**: los intérpretes reales de Python y PHP se cargan la primera vez que los necesitas.
+@@ 154j7o6gni
+O que é uma trilha? Posso mudá-la?
+~~
+¿Qué es una ruta? ¿Puedo cambiarla?
+@@ 1z75e5z3rfd
+Uma trilha é uma lista de cursos numa boa ordem para um objetivo (como *Desenvolvedor Front-end*). Mude quando quiser no **Quadro de Trilhas** da vila. Lições concluídas continuam concluídas.
+~~
+Una ruta es una lista de cursos en buen orden para una meta (como *Desarrollador Front-end*). Cámbiala cuando quieras en el **Tablón de Rutas** de la aldea. Las lecciones completadas siguen completadas.
+@@ 8kqq04r77e
+É para crianças ou adultos?
+~~
+¿Es para niños o adultos?
+@@ kkikyzbm2d
+Os dois. Crianças podem desligar os **Corações** (Modo tranquilo) e começar na Fazenda com blocos. Adultos podem ligar as **Notas do Sábio** nas Configurações para detalhes do mundo real.
+~~
+Para ambos. Los niños pueden desactivar los **Corazones** (Modo relajado) y empezar en la Granja con bloques. Los adultos pueden activar las **Notas del Sabio** en Ajustes para detalles del mundo real.
+@@ 20589yi579g
+Que tipos de pergunta existem?
+~~
+¿Qué tipos de preguntas hay?
+@@ 14t0h82xi4i
+Escolher uma resposta, preencher lacunas, ordenar linhas, combinar pares, ligar runas, digitar uma resposta, achar o bug e **desafios de programação** de verdade, em que você escreve e roda código.
+~~
+Elegir una respuesta, llenar huecos, ordenar líneas, emparejar, unir runas, escribir una respuesta, encontrar el bug y **desafíos de programación** de verdad, donde escribes y ejecutas código.
+@@ mr9bgm8h7t
+O que acontece quando eu erro?
+~~
+¿Qué pasa cuando fallo?
+@@ e5tz5v7trl
+Você vê a resposta certa e o porquê. A pergunta volta mais tarde na mesma lição, e de novo numa parada de revisão. Se os corações estiverem ligados, você perde um.
+~~
+Ves la respuesta correcta y por qué. La pregunta vuelve más tarde en la misma lección, y otra vez en una parada de repaso. Si los corazones están activados, pierdes uno.
+@@ otvhaaxmcp
+O que são paradas de revisão e aquecimentos?
+~~
+¿Qué son las paradas de repaso y los calentamientos?
+@@ 1rphftnhydp
+Eu lembro do que você errou. **Paradas de revisão** aparecem no mapa com essas perguntas, e as lições podem começar com um **aquecimento** de um erro antigo. É assim que sua memória fica forte.
+~~
+Recuerdo lo que fallaste. Las **paradas de repaso** aparecen en el mapa con esas preguntas, y las lecciones pueden empezar con un **calentamiento** de un error antiguo. Así se fortalece tu memoria.
+@@ 18eb8qca087
+O que é o teste de unidade?
+~~
+¿Qué es la prueba de unidad?
+@@ tvrk69klx9
+No fim de cada unidade, um teste curto de tudo o que ela tem. Passe para abrir a próxima unidade. Você pode errar um pouco; as dicas ficam desligadas.
+~~
+Al final de cada unidad, una prueba corta de todo lo que contiene. Apruébala para abrir la siguiente unidad. Puedes fallar un poco; las pistas están desactivadas.
+@@ 1upluydpuif
+Posso pular lições que já sei?
+~~
+¿Puedo saltarme lecciones que ya sé?
+@@ 1b2w7unvn56
+Sim. Se você responder bem, aparecem paradas de **atalho** que deixam você pular para a próxima unidade passando num teste curto.
+~~
+Sí. Si respondes bien, aparecen paradas de **atajo** que te dejan saltar a la siguiente unidad aprobando una prueba corta.
+@@ 19seubogumj
+Posso refazer uma lição?
+~~
+¿Puedo repetir una lección?
+@@ 1ysy3cp8vtm
+Sim. Clique em qualquer parada concluída no mapa e aperte **Praticar de novo**. Você ganha metade do XP, mas é ótima prática.
+~~
+Sí. Haz clic en cualquier parada completada del mapa y pulsa **Practicar otra vez**. Ganas la mitad de XP, pero es muy buena práctica.
+@@ o1y6eswmwi
+Como funciona o editor de código?
+~~
+¿Cómo funciona el editor de código?
+@@ ffg4kscvvx
+Digite como em qualquer editor. **Tab** indenta, **Ctrl+Enter** (Cmd+Enter no Mac) roda. Alguns desafios têm vários arquivos: troque com as abas acima do editor. Seu código é salvo enquanto você digita.
+~~
+Escribe como en cualquier editor. **Tab** sangra, **Ctrl+Enter** (Cmd+Enter en Mac) ejecuta. Algunos desafíos tienen varios archivos: cambia con las pestañas de encima del editor. Tu código se guarda mientras escribes.
+@@ mlenygqx54
+Meu código tem um erro. O que eu faço?
+~~
+Mi código tiene un error. ¿Qué hago?
+@@ 1rsjrl7n5xy
+Leia a mensagem: ela costuma dar o **número da linha**. A maioria dos erros é um parêntese ou chave faltando `)` `}`, uma aspa faltando, uma vírgula faltando, ou um nome com maiúsculas/minúsculas diferentes. Corrija uma coisa e rode de novo.
+~~
+Lee el mensaje: suele dar el **número de línea**. La mayoría de los errores son un paréntesis o una llave que falta `)` `}`, una comilla que falta, una coma que falta o un nombre con mayúsculas/minúsculas distintas. Corrige una cosa y vuelve a ejecutar.
+@@ 22heiokvg1u
+Onde meu código roda?
+~~
+¿Dónde se ejecuta mi código?
+@@ 7rg628jcyu
+No seu navegador. JavaScript e TypeScript rodam numa área isolada segura (loops infinitos são interrompidos), SQL roda num banco SQLite de verdade compilado para **WebAssembly**, e as páginas web aparecem num quadro de prévia. Nenhum servidor vê seu código.
+~~
+En tu navegador. JavaScript y TypeScript se ejecutan en un entorno aislado y seguro (los bucles infinitos se detienen), SQL se ejecuta en una base de datos SQLite real compilada a **WebAssembly**, y las páginas web se muestran en un marco de vista previa. Ningún servidor ve tu código.
+@@ 1ko4cp8yb4l
+Posso ver a solução?
+~~
+¿Puedo ver la solución?
+@@ 1owzxbyq6en
+Sim, depois de duas tentativas aparece o botão **Mostrar solução**. Leia e depois tente digitá-la você mesmo: é assim que se aprende.
+~~
+Sí, tras dos intentos aparece el botón **Mostrar solución**. Léela y luego intenta escribirla tú: así se aprende.
+@@ bm46fn973a
+O código está difícil de ler
+~~
+El código es difícil de leer
+@@ tiqw7vsh6z
+Nas **Configurações**, ligue a **Fonte clássica para código** e escolha um **Tamanho do texto do editor** maior.
+~~
+En **Ajustes**, activa la **Fuente clásica para código** y elige un **Tamaño del texto del editor** mayor.
+@@ 26q6rodojm0
+Para que servem os minijogos?
+~~
+¿Para qué sirven los minijuegos?
+@@ 1f83ybg8156
+Prática rápida com um toque diferente (e um relógio). Estrelas novas dão **itens**. Paradas de minijogo aparecem no mapa da Academia, e você pode jogá-los de novo no fliperama da Taverna.
+~~
+Práctica rápida con un giro (y un reloj). Las estrellas nuevas dan **objetos**. Las paradas de minijuego aparecen en el mapa de la Academia, y puedes volver a jugarlos en la sala de juegos de la Taberna.
+@@ 2c4aiw8mbgq
+O que é a Fazenda do Código?
+~~
+¿Qué es la Granja del Código?
+@@ 1zafliyp52m
+Trinta campos-quebra-cabeça. Você programa um fazendeiro para andar, plantar, regar e colher. Ela ensina **sequências, loops, condições, variáveis e funções**, dos blocos ao JavaScript de verdade.
+~~
+Treinta campos rompecabezas. Programas a un granjero para moverse, plantar, regar y cosechar. Enseña **secuencias, bucles, condiciones, variables y funciones**, de los bloques al JavaScript de verdad.
+@@ zulnd095ql
+Blocos são fáceis. Quando vou digitar código?
+~~
+Los bloques son fáciles. ¿Cuándo escribo código?
+@@ 2bt59e7w4jf
+A partir do capítulo 4, a Fazenda mostra o JavaScript que seus blocos geram, e você pode apertar **Digitar em vez disso**. Os campos finais são só código.
+~~
+Desde el capítulo 4, la Granja muestra el JavaScript que generan tus bloques, y puedes pulsar **Escribirlo en su lugar**. Los últimos campos son solo código.
+@@ 27j49asxgyr
+O que conta como erro na fazenda?
+~~
+¿Qué cuenta como error en la granja?
+@@ cjx2bphun3
+Bater numa árvore ou cerca, plantar na grama, colher uma casa vazia ou regar com o regador vazio. O fazendeiro diz "Ai!" quando acontece.
+~~
+Chocar con un árbol o una valla, plantar en el césped, cosechar una casilla vacía o regar con la regadera vacía. El granjero dice "¡Ay!" cuando pasa.
+@@ 1gw409eqjcx
+Como funcionam XP e níveis?
+~~
+¿Cómo funcionan la XP y los niveles?
+@@ a7eno2kr38
+Toda lição, jogo, campo e missão dá **XP**. O XP sobe seu nível e enche sua **meta diária** (a barra verde). Lições perfeitas dão mais.
+~~
+Cada lección, juego, campo y misión da **XP**. La XP sube tu nivel y llena tu **meta diaria** (la barra verde). Las lecciones perfectas dan más.
+@@ 18jv0w3ztcz
+Como ganho ouro?
+~~
+¿Cómo consigo oro?
+@@ 1h27e7cib40
+Lições (5 de ouro, +3 se perfeitas), projetos (30), minijogos, campos da fazenda e missões diárias. Gaste com o mercador da Taverna.
+~~
+Lecciones (5 de oro, +3 si son perfectas), proyectos (30), minijuegos, campos de la granja y misiones diarias. Gástalo con el mercader de la Taberna.
+@@ 2cpzx5nmu8b
+O que os itens fazem?
+~~
+¿Qué hacen los objetos?
+@@ 48j1qs3lni
+**Lâmpada**: uma dica (tira respostas erradas ou coloca uma peça). **Tocha**: tentar de novo depois de um erro sem perder coração; mais tempo nos minijogos. **Poção**: um coração de volta.
+~~
+**Bombilla**: una pista (quita respuestas incorrectas o coloca una pieza). **Antorcha**: reintentar tras un fallo sin perder corazón; más tiempo en los minijuegos. **Poción**: recupera un corazón.
+@@ 1rzpj8mw4lz
+O que são corações?
+~~
+¿Qué son los corazones?
+@@ 1ev7jcl7nhl
+Você tem 5. Uma resposta errada numa lição custa um. Com 0 você precisa parar, recarregar (poção ou ouro) ou praticar. Um coração volta a cada 20 minutos. Desligue-os nas **Configurações** se preferir o Modo tranquilo.
+~~
+Tienes 5. Una respuesta incorrecta en una lección cuesta uno. Con 0 debes parar, recargar (poción u oro) o practicar. Vuelve un corazón cada 20 minutos. Desactívalos en **Ajustes** si prefieres el Modo relajado.
+@@ etq56v0xjb
+O que é uma sequência?
+~~
+¿Qué es una racha?
+@@ 1611dgg69z
+O número de dias seguidos em que você concluiu pelo menos uma lição. Perdeu um dia, ela recomeça, a não ser que você tenha um **protetor de sequência** (compre no Salão da Guilda).
+~~
+El número de días seguidos en que completaste al menos una lección. Si te saltas un día, vuelve a empezar, a menos que tengas un **protector de racha** (cómpralo en el Salón del Gremio).
+@@ 1d2kdwj8re0
+Isso pode me conseguir um emprego?
+~~
+¿Esto me puede conseguir trabajo?
+@@ 1upkug3jq93
+As trilhas seguem o que se pede de desenvolvedores júnior e trainees: uma linguagem bem dominada, a web, SQL, Git, APIs, algoritmos, testes e habilidades de carreira (currículo, portfólio, entrevistas). Conclua uma trilha e a **Prova Júnior** para ganhar o título de Desenvolvedor Júnior. Depois crie seus próprios projetos: os empregadores querem vê-los.
+~~
+Las rutas siguen lo que se pide a desarrolladores júnior y trainees: un lenguaje bien dominado, la web, SQL, Git, APIs, algoritmos, pruebas y habilidades profesionales (CV, portafolio, entrevistas). Completa una ruta y la **Prueba Júnior** para obtener el rango de Desarrollador Júnior. Después crea tus propios proyectos: las empresas quieren verlos.
+@@ 10muy284144
+Como funciona o sítio?
+~~
+¿Cómo funciona el rancho?
+@@ 1d52qd7cvky
+Plante sementes nos seus canteiros; elas crescem em **tempo real** (de alguns minutos a algumas horas). Regue para crescerem mais rápido. Compre animais na barraca do mercado, dê feno uma vez por dia e recolha ovos, leite, lã e mais. Venda tudo por ouro.
+~~
+Planta semillas en tus bancales; crecen en **tiempo real** (de unos minutos a unas horas). Riégalas para que crezcan más rápido. Compra animales en el puesto del mercado, dales heno una vez al día y recoge huevos, leche, lana y más. Véndelo todo por oro.
+@@ 1potdq5s8yu
+Como consigo pets?
+~~
+¿Cómo consigo mascotas?
+@@ 18mq4gxqbdu
+A Lumi dá um primeiro ovo. Os ovos chocam com **XP**, e você pode comprar mais no Santuário dos Pets. Há 20 tipos: comuns, incomuns, raros e **ultra raros** (fênix, unicórnio, kitsune). Pets felizes dão um pequeno bônus de XP.
+~~
+Lumi te da un primer huevo. Los huevos eclosionan con **XP**, y puedes comprar más en el Santuario de Mascotas. Hay 20 tipos: comunes, poco comunes, raros y **ultra raros** (fénix, unicornio, kitsune). Las mascotas felices dan un pequeño bono de XP.
+@@ 19w5vlectwo
+O que é um pet brilhante?
+~~
+¿Qué es una mascota brillante?
+@@ mqepktgv1j
+Todo pet tem 1 chance em 20 de nascer **brilhante**: o mesmo pet, com outras cores e um brilho. Pets ultra raros brilhantes são a coisa mais rara do reino.
+~~
+Cada mascota tiene 1 posibilidad entre 20 de nacer **brillante**: la misma mascota, con otros colores y un destello. Las mascotas ultra raras brillantes son lo más raro del reino.
+@@ 26995cdhpn6
+Como funcionam as batalhas?
+~~
+¿Cómo funcionan las batallas?
+@@ c1a8fep4c9
+No **Portão dos Monstros** você enfrenta monstros de bugs, turno a turno. **Golpe** = responder a uma pergunta, **Feitiço** = digitar uma palavra a tempo, **Defender** = metade do dano, **Poção** = curar. Vença para ganhar XP, ouro e às vezes ovos. Os monstros mais fortes são dragões.
+~~
+En la **Puerta de los Monstruos** luchas contra monstruos de bugs, turno a turno. **Golpe** = responder una pregunta, **Hechizo** = escribir una palabra a tiempo, **Defender** = mitad de daño, **Poción** = curarte. Gana para conseguir XP, oro y a veces huevos. Los monstruos más fuertes son dragones.
+@@ jexyazjyws
+O que é a Prova Júnior?
+~~
+¿Qué es la Prueba Júnior?
+@@ im71okdq1b
+A batalha final da sua trilha contra o **Dragão Ancião dos Bugs**. Ela abre quando a maior parte da trilha estiver feita e faz perguntas de todos os cursos dela. Vença para se tornar um **Desenvolvedor Júnior**.
+~~
+La batalla final de tu ruta contra el **Dragón Anciano de los Bugs**. Se abre cuando hayas hecho la mayor parte de la ruta y hace preguntas de todos sus cursos. Gánala para convertirte en **Desarrollador Júnior**.
+@@ 2cdgth2ol3
+O que acontece se eu ficar um tempo sem jogar?
+~~
+¿Qué pasa si dejo de jugar un tiempo?
+@@ d5hdqwuj3c
+O reino percebe! Depois de um dia ou mais, o mato cresce no seu sítio, plantas maduras podem murchar, os pets ficam tristes e monstros de bugs entram na vila. Depois de alguns dias o céu da vila fica cinza e começa a chover. Faça **uma lição** para limpar tudo e ganhar um presente de retorno.
+~~
+¡El reino se da cuenta! Tras un día o más, crece la maleza en tu rancho, los cultivos maduros pueden marchitarse, las mascotas se ponen tristes y monstruos de bugs entran en la aldea. Tras unos días el cielo de la aldea se vuelve gris y empieza a llover. Haz **una lección** para limpiarlo todo y recibir un regalo de regreso.
+@@ 132nhre6zok
+A Lumi pode me lembrar de praticar?
+~~
+¿Puede Lumi recordarme que practique?
+@@ 2aeenmudr6c
+Sim. Nas **Configurações**, ligue os **Lembretes** e escolha um horário. Seu navegador vai pedir permissão. Os lembretes só funcionam em navegadores com suporte a notificações.
+~~
+Sí. En **Ajustes**, activa los **Recordatorios** y elige una hora. Tu navegador te pedirá permiso. Los recordatorios solo funcionan en navegadores que admiten notificaciones.
+@@ v1ic37v11
+Posso jogar em português ou espanhol?
+~~
+¿Puedo jugar en portugués o español?
+@@ nqa8fzn6zy
+O que é o modo desenvolvedor?
+~~
+¿Qué es el modo desarrollador?
+@@ 1u32sue7vtc
+Um painel para desenvolvedores e testadores: adicione XP, ouro ou itens, desbloqueie tudo, avance o tempo, choque pets, faça plantas crescerem, comece batalhas e teste notificações. Ligue em **Configurações → Modo desenvolvedor**, ou adicione `?debug` ao endereço. Aperte a tecla **`** ou o botão DEV para abri-lo.
+~~
+Un panel para desarrolladores y testers: añade XP, oro u objetos, desbloquéalo todo, adelanta el tiempo, eclosiona mascotas, haz crecer cultivos, empieza batallas y prueba notificaciones. Actívalo en **Ajustes → Modo desarrollador**, o añade `?debug` a la dirección. Pulsa la tecla **`** o el botón DEV para abrirlo.
+@@ s7cwic0xmp
+Meu progresso fica salvo?
+~~
+¿Se guarda mi progreso?
+@@ dr0ng1b6jb
+Sim, automaticamente, neste navegador. Para levá-lo a outro computador, use **Configurações → Fazer backup do meu progresso** e depois **Carregar um backup** no outro.
+~~
+Sí, automáticamente, en este navegador. Para llevarlo a otro ordenador, usa **Ajustes → Hacer copia de mi progreso** y luego **Cargar una copia** en el otro.
+@@ 1mvp4tv7btm
+Como recomeço do zero?
+~~
+¿Cómo empiezo de cero?
+@@ 2962pogqpo4
+**Configurações → Recomeçar** apaga seu herói e todo o progresso neste navegador. Faça um backup antes se talvez quiser recuperá-lo.
+~~
+**Ajustes → Empezar de nuevo** borra tu héroe y todo el progreso en este navegador. Haz antes una copia si quizá quieras recuperarlo.
+@@ kooq27g6cp
+Como desligo o som?
+~~
+¿Cómo quito el sonido?
+@@ h579zmn6ai
+Nas **Configurações**: efeitos sonoros e música têm interruptores separados.
+~~
+En **Ajustes**: los efectos de sonido y la música tienen interruptores propios.
+@@ csqfacvfe1
+Posso jogar no celular?
+~~
+¿Puedo jugar en el móvil?
+@@ 29net51i7bq
+Sim. Tudo funciona com toque. Os desafios de programação usam abas (Tarefa / Código / Resultado) em telas pequenas. Um teclado ajuda para códigos longos.
+~~
+Sí. Todo funciona con el tacto. Los desafíos de programación usan pestañas (Tarea / Código / Resultado) en pantallas pequeñas. Un teclado ayuda con el código largo.
+@@ 21hgkml62dt
+Como vejo os tours de novo?
+~~
+¿Cómo vuelvo a ver los recorridos?
+@@ 1w09ehdg53j
+Aperte o botão da **Lumi** em qualquer tela e escolha **Mostre passo a passo**. Nas Configurações você também pode **Rever o tour de boas-vindas** ou ligar e desligar as dicas de primeira visita.
+~~
+Pulsa el botón de **Lumi** en cualquier pantalla y elige **Enséñame paso a paso**. En Ajustes también puedes **Repetir el recorrido de bienvenida** o activar y desactivar los consejos de primera visita.
+@@ 1trrxqbu557
+Sim: **Configurações → Idioma** (ou as bandeiras na tela de título). Menus, ajuda, conquistas e as lições (cartões de ensino, perguntas e explicações) estão traduzidos. Algumas instruções dos desafios de programação ainda estão em inglês. O código em si (palavras-chave como `if` ou `print`) fica em inglês, como no trabalho de verdade.
+~~
+Sí: **Ajustes → Idioma** (o las banderas de la pantalla de título). Los menús, la ayuda, los logros y las lecciones (tarjetas de enseñanza, preguntas y explicaciones) están traducidos. Algunas instrucciones de los desafíos de programación siguen en inglés. El código en sí (palabras clave como `if` o `print`) se queda en inglés, como en el trabajo real.
