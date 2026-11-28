@@ -9,6 +9,7 @@
 html, body, #root { height: 100%; margin: 0; overflow: hidden; background: #1c110a; }
 body { font-family: 'Jersey 15', monospace; -webkit-font-smoothing: none; touch-action: manipulation; }
 #root canvas { display: block; image-rendering: pixelated; }
+#root { position: fixed; inset: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); height: auto; }
 .font-warm { position: absolute; left: -9999px; }
 .font-warm span:nth-child(1) { font-family: 'Jersey 15'; } .font-warm span:nth-child(2) { font-family: 'Jacquard 12'; } .font-warm span:nth-child(3) { font-family: 'VT323'; }
 
